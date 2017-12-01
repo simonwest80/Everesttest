@@ -1,0 +1,101 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-attach-quantity-dialog-box">The Attach Quantity Dialog Box</h1>
+
+<p>The <strong>Attach Quantity</strong> dialog box <em>**</em> enables you to commit or detach inventoried  items on a sales order/invoice or credit order/memo. You can also specify  the quantity to be shipped in this dialog box. The dialog box comprises  two sections:</p>
+
+<ul>
+  <li>Item Information  section</li>
+  <li>Stock Bins  section</li>
+</ul>
+
+<dl>
+  <dt>Item Information Section</dt>
+  <dd>The Item Information section displays the following  information:</dd>
+  <dt><strong>Item</strong></dt>
+  <dd>This field displays the item code and description  as defined in the <strong>Item</strong> profile  (path: <strong>Inventory</strong> &gt; <strong>Items</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong>). You cannot  edit this field.</dd>
+  <dt><strong>Ordered Quantity</strong></dt>
+  <dd>This field displays the standard input quantity  of the selected item needed to assemble the required output.</dd>
+  <dt><strong>UM</strong></dt>
+  <dd>This field displays the purchase measure as specified  in the <strong>Item</strong> (Assembly) profile  (path: <strong>Inventory</strong> &gt; <strong>Items</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Purchase tab</strong> &gt; <strong>Measure</strong>  field).</dd>
+  <dt><strong>View</strong></dt>
+  <dd>Displays <strong>Specific 
+ Location</strong> by default if <strong>Logged 
+ in Location</strong> option has been selected in <strong>Allow 
+ users to select stock bin of</strong> (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Other 
+ Flow Control</strong>) drop down field. Otherwise it displays <strong>All 
+ Locations</strong> if <strong>All Locations</strong>  option has been selected in <strong>Allow users 
+ to select stock bin of</strong> drop down field.</dd>
+</dl>
+
+<p class="note">If the preference option is set to <strong>Allow 
+ users to access stock bins of – Logged in location</strong>, changing the  <strong>Location</strong> lookup to a non-logged  in location will require existing security right. Also changing the view  option from <strong>Specific location</strong>  to <strong>All location</strong> will require the  existing security right.</p>
+
+<p>If you have the rights to change the view and  you  have attached the quantity in <strong>Attach 
+ Quantity</strong> dialog box before changing the view from <strong>Specific 
+ location</strong> to <strong>All locations</strong>  you will still be able to view the quantity attached.</p>
+
+<p>You have attached the quantity in <strong>Attach 
+ Quantity</strong> dialog box before changing the view from <strong>All 
+ Locations</strong> to <strong>Specific Location</strong>  or from one specific location to another specific location.  Later  when you change the view a warning message will appear. Click <strong>Yes</strong>  to clear the quantity attached or click <strong>No</strong>  to retain the location.</p>
+
+<dl>
+  <dt><strong>Location</strong></dt>
+  <dd>Select a location to view bins pertaining to that  location.</dd>
+</dl>
+
+<p class="note">This field will not appear if <strong>All Locations</strong>  option is selected in <strong>View</strong> drop  down field.</p>
+
+<p>Stock Bins Section</p>
+
+<p>This section displays a list of stock bins in which the selected item  is available, the quantities available in each stock bin and the quantities  that are already been attached to the documents.</p>
+
+<p>Only items from stock bins that belong to the logged in location are  available for selection, if the option <strong>Allow 
+ users to access stock bins of - Logged in Location</strong> (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow 
+ Control</strong> &gt; <strong>Other Flow Control</strong>  &gt; <strong>General</strong> tab) is selected.  You will need adequate security rights to attach items from stock bins  belonging to any other location.</p>
+
+<dl>
+  <dt><strong>Location Column</strong></dt>
+  <dd>Displays location that the stock bin belongs to.</dd>
+</dl>
+
+<p class="note">This field will appear only if <strong>All 
+ Locations</strong> option is selected in <strong>View</strong>  drop down field.</p>
+
+<p>You can specify the location a stock area belongs to in the <strong>Location</strong><strong>Code</strong> field of the <strong>Stock 
+ Area</strong> profile (path: <strong>Inventory 
+ &gt; Stock Areas &gt; Options &gt; Edit &gt; In New Window</strong>).</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/stock-areas/stock_area_types.html">Stock Bin Types</a></p>
+
+<p>The grid in <strong>Stock Bins</strong> section  consists of columns such as <strong>Stock Bin</strong>,  <strong>Description</strong>, <strong>Lot 
+ Number</strong>, <strong>Lot</strong> <strong>Expiration</strong>,  <strong>Expired</strong>, <strong>Available 
+ Stock</strong>, and <strong>Quantity</strong> <strong>Attached</strong>. The expired lots will have  check box selected  <img src="/versata-everest-docs/sales/img/tick_mark_sal.gif" alt="" /> under <strong>Expired</strong> column  . This will help you to identify the expired lots.</p>
+
+<dl>
+  <dt><strong>Avail Stock Column</strong></dt>
+  <dd>This column appears on a quantity adjustment and  shows the available stock for the item. The available stock is the difference  between the total quantity and the committed quantity. The <strong>Avail 
+ Stock</strong> quantity is shown in the measure selected for the item in  the document.</dd>
+  <dt><strong>Qty Attach Column</strong></dt>
+  <dd>In the <strong>Qty</strong><strong>Attach</strong> column, enter the quantity  to be committed from each stock bin to the sales order/credit order or  shipped on the sales invoice or returned on the credit memo. Enter the  attached quantity in the decimal accuracy allowed for the item in the  document.</dd>
+</dl>
+
+<p class="example">To attach 10 numbers of the item from ‘Stock  Area 1’ and 15 from ‘Stock Area 2’, enter 10 in the <strong>Qty</strong><strong>Attach</strong> column for Stock Area 1  and 15 for Stock Area 2.</p>
+
+<p>You can search and sort the columns of the <strong>Stock 
+ Bins</strong> section of this dialog box. To sort the columns, you can either  click on the header of the respective column or press Ctrl+K.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/enter-cmt-qty/non-ser/non_serialized_items_entering_committed_quantity.html">Non-serialized  Items - Committing Quantity on a Sales Order</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sis/sales-invoice-processes/shipped-quantities/entering_shipped_quantities.html">Entering  Shipped Quantities</a></dd>
+</dl>
+
+
+
+
+</div>

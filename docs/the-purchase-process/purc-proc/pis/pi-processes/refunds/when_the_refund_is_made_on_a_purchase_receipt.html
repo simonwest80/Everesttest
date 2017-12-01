@@ -1,0 +1,53 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="when-the-refund-is-made-on-a-purchase-invoice">When the Refund is made on a Purchase Invoice</h1>
+
+<p>When a refund is made on a purchase invoice, the following accounting  entry is created:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry type</td>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/<br /><br /><br />Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Payment by check/others/credit card/cash</td>
+      <td>Bank Account</td>
+      <td>The account defined in the <strong>Account</strong>  field of the <strong>Payment Method</strong> profile  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Payment</strong><strong>Methods</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In <br /> New Window</strong>)</td>
+      <td>Debit</td>
+      <td>Net refund after the called back discount</td>
+    </tr>
+    <tr>
+      <td>Refund of purchase invoice</td>
+      <td>Accounts Payable Account</td>
+      <td>The account defined in the <strong>Accounts</strong>  payable field of the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab)<br /><br /><br /><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_dialog_box_-_posting_groups.html">Accounting  dialog box - Posting Group tab</a></td>
+      <td>Credit</td>
+      <td>Amount of refund</td>
+    </tr>
+    <tr>
+      <td>Payment Discount</td>
+      <td>Payment Discount on Purchases Account</td>
+      <td>The account specified in the <strong>Payment <br /> Discount on Purchases</strong> field of the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab).<br /><br /><br /><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_dialog_box_-_posting_groups.html">Accounting  dialog box - Posting Group tab</a></td>
+      <td>Debit</td>
+      <td>Amount of discount called back</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/accounting_entries_ref_pr.html">Accounting  Entries - Refunds from Vendors</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/default_accounts_for_purchase_transactions.html">Default  Accounts For Purchase Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

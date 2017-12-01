@@ -1,0 +1,52 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="when-a-refund-is-made-on-a-sales-order">When a Refund is made on a Sales Order</h1>
+
+<p>The following accounting entry is created when a refund is made on a  sales order.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry Type</td>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/<br /><br /><br />Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Payment by cash/check credit card/others</td>
+      <td>Bank Account</td>
+      <td>The account defined in the <strong>Account</strong>  field of the <strong>Payment</strong> <strong>Method</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Payment</strong> <strong>Methods</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong>)</td>
+      <td>Credit</td>
+      <td>Amount of the deposit applied to the exchange rate used  when the refund is made</td>
+    </tr>
+    <tr>
+      <td>Apply/refund deposit</td>
+      <td>Customer Deposits Account</td>
+      <td>The account selected for <strong>Customer</strong><strong>Deposit</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab) of Customer  Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><strong>Posting <br /> Group</strong> profile<br /><br /><br /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_customer_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  Order for Customer Posting Group</a></td>
+      <td>Debit</td>
+      <td>Amount of the deposit applied to the exchange rate used  when the deposit was originally made</td>
+    </tr>
+    <tr>
+      <td>Gain/Loss<br /><br /><br />Use the debit or credit cell to offset the gain or loss</td>
+      <td> </td>
+      <td> </td>
+      <td>Loss is posted here</td>
+      <td>Gain is posted here</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/refunds-on-so/accounting_entries_refunds_to_customers.html">Accounting  Entries - Refunds to Customers</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,62 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-measure-profile---general-tab">The Measure Profile - General Tab</h1>
+
+<dl>
+  <dt><strong>Measure Code*</strong></dt>
+  <dd>Enter a unique code for the measure being defined,  using 1 to 15 characters of the specified type.  Once  the measure is used in any document, this field cannot be edited.</dd>
+  <dt><strong>Description*</strong></dt>
+  <dd>Enter a suitable description for the measure being  defined, using 1 to 40 characters. This field can be updated at any time.</dd>
+  <dt><strong>Quantity Entry Method</strong></dt>
+  <dd>Select <strong>Decimal</strong>  or <strong>Fractional</strong> as the <strong>Quantity 
+ Entry Method</strong> option. Use <strong>Decimal</strong>  if you want your quantity defined with decimal accuracy or use <strong>Fractional</strong>  if you want your quantity defined in fractions.</dd>
+  <dt><strong>Quantity Decimal Accuracy</strong></dt>
+  <dd>Select the necessary decimal accuracy of your measure  between 0-6 decimals. This field only displays if the <strong>Decimal</strong>  quantity entry method is selected. You can increase or decrease the decimal  accuracy of a measure even if it is used in a document. If you change  the decimal accuracy, future transactions can be entered in the new decimal  accuracy of the measure.</dd>
+  <dt><strong>Sub Measure</strong></dt>
+  <dd>Select the measure to be defined as the <strong>Sub-Measure</strong>  of this measure. The <strong>Sub Measure</strong>  field is not mandatory but it is shown if the <strong>Fractional</strong>  quantity entry method is selected.</dd>
+  <dd>The sub-measure selected should have an existing  conversion factor with the main measure and must also be defined with  a quantity entry method of <strong>Fractional</strong>.  A measure must exist or be created before it can be selected as a Sub-Measure.  You should not select a measure as a sub-measure if the measure is already  a sub-measure of another measure. Also, a sub-measure should not be a  main measure of the measure for which the sub-measure is defined.</dd>
+</dl>
+
+<p class="example">You define a measure for Hour (HR). You define  the sub-measure of HR as Minutes (MIN). The Minutes (MIN) measure has  a sub-measure of Seconds (SEC). The Seconds (SEC) measure does not have  a sub-measure. This is shown in the following table:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Measure</td>
+      <td>Sub-Measure</td>
+    </tr>
+    <tr>
+      <td>HR</td>
+      <td>MIN</td>
+    </tr>
+    <tr>
+      <td>MIN</td>
+      <td>SEC</td>
+    </tr>
+    <tr>
+      <td>SEC</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: In this example, HR and MIN cannot be defined as  sub-measures of SEC.</p>
+
+<p class="note">If you leave the <strong>Sub 
+ Measure</strong> field blank, the quantity will only be in the main measure.</p>
+
+<dl class="example">
+  <dt>You define a measure for Hour (HR) and leave  the <strong>Sub Measure</strong> field blank. The  quantity will only be in the main measure and cannot be stored or entered  in the sub-measure. In this example, only hours and not minutes or seconds  will be shown.</dt>
+  <dd class="see_also">See also</dd>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/measure/measure_profile_general_tab.html">The Measure  Profile</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/misc/the_measure_profile_conversion_factor_tab.html">The  Measure Profile - Conversion Factor Tab</a></dd>
+</dl>
+
+
+
+
+</div>

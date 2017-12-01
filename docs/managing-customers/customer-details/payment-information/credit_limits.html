@@ -1,0 +1,111 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="credit-limit">Credit Limit</h1>
+
+<p>Credit limit information includes the following:</p>
+
+<ul>
+  <li>Whether the  customer is put on credit hold and the reason for the same.</li>
+  <li>The credit  limit for the customer in the customer’s currency.</li>
+  <li>
+    <p>When the customer  is to be put on automatic credit hold. A customer can be automatically  put on credit hold:</p>
+  </li>
+  <li>If the balance is  overdue by the specified number of days.</li>
+  <li>If the effective  balance or net balance exceeds the credit limit by the specified amount.  The settings you make in the <strong>Customers</strong>  dialog box (path: <strong>File &gt; Setup &gt; 
+ Preferences &gt; Flow Control &gt; Customers</strong>) determines whether  the effective balance or the net balance is considered.</li>
+  <li>If both the conditions  are met.</li>
+</ul>
+
+<p>If either of the options <strong>Number of 
+ days past due</strong> or <strong>Amount Over Credit 
+ Limit</strong> is selected, the customer is put on auto credit hold if the  selected condition is met.</p>
+
+<p><strong>On Credit Hold</strong></p>
+
+<p><strong><img src="/versata-everest-docs/managing-customers/img/manual_credit_hold_mc.gif" alt="" /></strong></p>
+
+<dl>
+  <dt><strong>Figure: Manual Credit Hold</strong></dt>
+  <dd>Select this option to manually put the customer  on credit hold. Click the <strong>Notes</strong>  icon <img src="/versata-everest-docs/managing-customers/img/managing_customers_notes_icon.gif" alt="" /> beside this field to specify reasons for putting  the customer on hold and to view the hold history. It shows if and when  a customer was manually put on hold, if and when the hold was removed,  and the person who performed the action. It also shows information on  automatic holds.</dd>
+</dl>
+
+<p><strong>On Credit Hold (Automatic)</strong></p>
+
+<p><strong><img src="/versata-everest-docs/managing-customers/img/automatic_credit_hold_mc.gif" alt="" /></strong></p>
+
+<dl>
+  <dt><strong>Figure: Automatic Credit Hold</strong></dt>
+  <dd>If the customer is put on automatic credit hold,  this box shows the current status and <strong>Everest</strong>  adds comments, stating the reason for putting the customer on automatic  credit hold. You can view the comments by clicking the <strong>Notes</strong>  icon. Any existing notes are shown below the automatic credit hold note.</dd>
+  <dd><img src="/versata-everest-docs/managing-customers/img/note.gif" alt="" />  If  you clear the <strong>On credit hold</strong> check  box manually, <strong>Everest</strong> checks if  the <strong>Number of days past due</strong> and  the <strong>Amount Over Credit Limit</strong> check  boxes in the <strong>Customer</strong> profile  (path: <strong>Invoicing &gt; Customers &gt; 
+ Edit &gt; In New Window &gt; Payment Information</strong> tab) are selected.  If either or both of the boxes are checked, and the selected condition  is met, the customer continues to be on credit hold. The automatic credit  hold conditions are checked whenever the <strong>Customer</strong>  profile or a sales document belonging to the customer is opened, or when  the customer is selected in a document.</dd>
+  <dd><img src="/versata-everest-docs/managing-customers/img/example.gif" alt="" />  A  customer’s credit limit is USD 5000, and the Amount Over Credit Limit  is USD 1000. The customer’s net balance is USD 5500, which considers a  deposit of USD 250 on a system sales order with “Prepay” terms. You create  another invoice (with ‘On Account’ terms) for USD 1000. The customer’s  net balance increases to USD 6500.</dd>
+  <dd>In the Customers dialog box, you define  the formula for effective balance as:</dd>
+  <dd>Total value of all sales invoices LESS  Total deposits on sales orders with ‘Prepay’ terms.</dd>
+  <dd>Since the effective balance is USD 6250  (5500+1000-250), the customer is put on hold automatically. Everest adds  the following comments automatically:</dd>
+  <dd>Account automatically put on hold because  customer is over the limit by USD 1250.00. Balance is USD 6500.00, effective  balance USD 6250.00 with credit line of USD 5000.00. (10/07/2008 07:28:23  PM).</dd>
+  <dd>If the number of days past due date is  15 days, the customer is put on hold automatically, after the expiry  of 15 days. Everest adds the following comments automatically:</dd>
+  <dd>Account automatically put on hold because  SI - 1025 is  45 days past due. The maximum number of days this account can be past  due is 15. (10/10/2008 10:59:45 PM).</dd>
+  <dd><strong>Everest</strong> logs  a new event <strong>** when a customer is  put on automatic credit hold. You can view events **</strong> from the <strong>Events</strong> log (path:  <strong>Utility &gt; All Events</strong>) or the  <strong>Customers</strong> browser (path: <strong>Invoicing &gt; Customers &gt; Options &gt; 
+ Events History</strong>).</dd>
+  <dd><img src="/versata-everest-docs/managing-customers/img/note.gif" alt="" />  Net  Balance = Total value of posted/unposted  sales invoices and credit memos + Deposits on credit orders - Deposits  on sales orders</dd>
+  <dd>The value of sales orders are also considered  while checking if the customer is over the specified credit limit. If  you create an “On Account” sales order, <strong>Everest</strong>  warns you if the customer is already over the credit limit or is on hold.</dd>
+  <dd>If a customer is automatically put on credit  hold, <strong>Everest</strong> allows you to create  orders, invoices, and memos (with  “Prepay”  and “COD” terms) without prompting you that the credit limit has been  exceeded.</dd>
+  <dt><strong>Credit Limit</strong></dt>
+  <dd>The credit limit has to be specified in the customer’s  currency. When a sales document with “On Account” terms is created  for the customer, <strong>Everest</strong> warns  you if the credit limit exceeds or the customer is on hold. You can create  the document, only if you have the required security rights.</dd>
+  <dd>You can set the default credit limit for new customers  in the <strong>Credit Limit</strong> field of the  <strong>Customers</strong> tab (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location/Sub-Location</strong>). This  credit limit amount is displayed in this field, by default. You can modify  the credit limit for specific customers anytime from the <strong>Customer</strong>  profile.</dd>
+  <dd><img src="/versata-everest-docs/managing-customers/img/note.gif" alt="" />  This  field cannot have a negative value and the last decimal is rounded off.  The number of decimals displayed in this field depends on the number of  decimals specified in your settings:</dd>
+</dl>
+
+<ul>
+  <li>
+    <p><strong>Currency</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Multi-Currency</strong> &gt; <strong>Currency</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Decimals to display</strong>  field)</p>
+  </li>
+  <li>
+    <p><strong>Regional 
+ Settings Properties</strong> dialog box - From the Currency tab in the regional  settings. You can modify the regional settings from the Control Panel  of your operating system.</p>
+  </li>
+</ul>
+
+<p>Automated Hold Conditions</p>
+
+<dl>
+  <dt>The automated hold conditions in this section can be set  to automatically place the customer on hold if the conditions are met.  Likewise, if the customer no longer meets the conditions specified, the  system can automatically remove the automatic credit hold if you select  the **Remove automated customer on hold </dt>
+  <dt> automatically** option in the **Other </dt>
+  <dt> Flow Control** dialog box (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow Control</strong> &gt; **Other </dt>
+  <dt> Flow Control** &gt; <strong>General</strong>  tab).</dt>
+  <dd><img src="/versata-everest-docs/managing-customers/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/other-flow-control/the-other-flow-control-dialog-box/other_flow_control_general_tab_step_by_step.html">Other  Flow Control - General Tab</a></dd>
+  <dt><strong>Number of days past due</strong></dt>
+  <dd>The due date for payment is computed based on the  payment terms. Check this box to put the customer on automatic hold if  payment is not received even after the expiry of the additional number  of days (also called days past due) specified here.</dd>
+  <dd>Specify the number of days from the payment date  in the box below this field.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/managing-customers/img/example.gif" alt="" />   If the <strong>Number of days past due</strong>  is 15 days, the customer is put on hold automatically after 15 days. If  the customer makes the required payments according to the payment terms  after the automatic credit hold is placed and the <strong>Remove 
+ automated customer on hold automatically</strong> option in the <strong>Other</strong><strong>Flow Control</strong> dialog box is selected  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow 
+ Control</strong> &gt; <strong>Other Flow Control</strong>  &gt; <strong>General</strong> tab), the system  automatically removes the credit hold since the account is current.</p>
+
+<dl>
+  <dt><strong>Amount over credit limit</strong></dt>
+  <dd>Select this check box to put the customer on automatic  hold if the amount due from the customer exceeds the credit limit plus  the amount over credit limit. Enter the amount over the credit limit applicable  to the customer in the box below this field.</dd>
+  <dd>The amount due from the customer includes both posted  and unposted amounts.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/managing-customers/img/example.gif" alt="" />  If  the customer’s credit limit is $5,000 and the amount over credit limit  is $3,000, the customer is put on hold automatically if the current balance  exceeds $8,000. If the customer pays the balance down to below $6,000  after the automatic credit hold is placed and the <strong>Remove 
+ automated customer on hold automatically</strong> option in the <strong>Other 
+ Flow Control</strong> dialog box is selected (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Other 
+ Flow Control</strong> &gt; <strong>General</strong>  tab), the system automatically removes the credit hold since the balance  is less than $8,000 after the payment.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-customers/customer-preferences/customer_defaults.html">Customer defaults</a></dd>
+  <dd><a href="/versata-everest-docs/managing-customers/customer-profile-options/other-options/events_history_customers.html">Events History</a></dd>
+</dl>
+
+
+
+
+</div>

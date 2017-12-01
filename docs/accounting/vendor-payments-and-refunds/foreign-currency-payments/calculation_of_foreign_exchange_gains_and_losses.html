@@ -1,0 +1,132 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="calculation-of-foreign-exchange-gains-and-losses">Calculation of Foreign Exchange Gains and Losses</h1>
+
+<p>If you enter into a contract (an order) with a customer or vendor whose  currency differs from your own, there can be an increase or decrease in  the anticipated amount due based on fluctuations in the exchange rate.</p>
+
+<p>Therefore, as the exchange rate between the base currency and document  currency fluctuates, you may be paid (or are required to pay) more or  less than what you expected when the document currency is converted to  the base currency. This difference is the gain or loss on the transaction.</p>
+
+<p>To adhere to Generally Accepted Accounting Principles (GAAP), the system  does not use multi-currency order documents to create accounting entries  for an exchange gain or loss, nor does the system calculate a gain or  loss for each deposit.</p>
+
+<p>The system accounts for an exchange gain or loss in the following two  scenarios if the exchange rate when you accepted the deposit(s) differs  from the exchange rate of the final document or the refund:</p>
+
+<ul>
+  <li>When you apply  the deposit that is received on a multi-currency order document to a final  document</li>
+  <li>When you refund  the deposit on a multi-currency order</li>
+</ul>
+
+<p>However, you may want to know what the projected gain or loss would  be on the outstanding balance. Therefore, to help you determine the projected  gain or loss on the remaining balance, the order (when viewed in base  currency) contains several fields that you can use to determine the projected  gain or loss on the remaining balance due to the difference between the  current exchange rate and the exchange rate used when the deposit was  accepted.</p>
+
+<p>Although we use sales orders as our example, this section is applicable  to sales orders, purchase orders, debit orders, and credit orders.</p>
+
+<p>The fields are as follows:</p>
+
+<dl>
+  <dt><strong>Deposit</strong></dt>
+  <dd>This field displays the total deposit amount (in  base currency) available for the order. If there are multiple deposits  against the order, the system combines all of the deposits after it converts  each to the base currency using the applicable exchange rate that was  used when the deposits were accepted. The system does not calculate a  gain or loss for each deposit, and instead calculates the gain or loss  of the remaining balance after all deposits have been subtracted.</dd>
+  <dd>Below is an example of multiple deposits made against  the sales order.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Date</td>
+      <td>Transaction</td>
+      <td>Amount in Doc. Curr.</td>
+      <td>Exchange Rate</td>
+      <td>Amount in Base Curr.</td>
+    </tr>
+    <tr>
+      <td>11/15/2006</td>
+      <td>1st Deposit  on  SO</td>
+      <td>22500 INR</td>
+      <td>1 USD = 45 INR</td>
+      <td>500.00 USD</td>
+    </tr>
+    <tr>
+      <td>11/17/2006</td>
+      <td>2nd Deposit on SO</td>
+      <td>10000 INR</td>
+      <td>1 USD = 50 INR</td>
+      <td>200.00 USD</td>
+    </tr>
+    <tr>
+      <td>11/20/2006</td>
+      <td>3rd Deposit on SO</td>
+      <td>12000 INR</td>
+      <td>1 USD = 60 INR</td>
+      <td>200.00 USD</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: Given the deposits above, the Deposit field would  display 900.00 USD, which is the total of the three deposits using the  applicable exchange rate for each.</p>
+
+<dl>
+  <dt><strong>Balance</strong></dt>
+  <dd>This field displays the difference between the order  total and the deposits. If the order total was 1000.00 USD (45000 INR)  , the Balance field would display 100.00 USD, which is the order total  minus the total deposits. Of course, in the document currency the field  would display 500 INR, which is the 45000 INR total minus the 44500 INR  in deposits.</dd>
+  <dd>You can think of this value as the amount of money  that is still owed in whichever currency you choose to view. In our example,  the base currency view shows the amount owed in USD and the document currency  view shows the amount owed in INR. When viewed in the base currency (USD),  this value is calculated using the applicable exchange rates of the deposits.  However, this balance may not be the exact amount that you would expect  to receive from the customer because there could be an increase or decrease  in the exchange rate. For a more accurate estimate, refer to the Balance  @ Ex. Rate field.</dd>
+</dl>
+
+<p class="note">Even if the total balance of the document  currency has been collected, the Sales Order browser may still display  a balance in the base currency due to the difference in exchange rate.</p>
+
+<dl>
+  <dt><strong>Balance @ Ex. Rate</strong></dt>
+  <dd>This field displays the remaining balance in the  base currency that you would expect to receive if the balance in document  currency was converted to the base currency using the most current exchange  rate. In our example, the system uses the most current sell exchange rate.  For purchase orders, the system uses the most current buy exchange rate.  You specify buy and sell exchange rates in the Exchange Rate profile.</dd>
+  <dd>If you wand over the field, the system displays  the exchange rate used to calculate this field. Each time the applicable  current exchange rate is updated in the Exchange Rate profile, the value  in this field changes when you close and reopen the order. If a current  exchange rate is not defined for the currency combination, the field remains  blank.</dd>
+  <dd>If we use our example above, the system would take  the 500 INR balance and apply it against the current sell exchange rate.  Let’s assume the current sell exchange rate is 1 USD = 65 INR. In this  case, the field displays 7.69 USD, which is 500/65.</dd>
+  <dd>It is important to note that the 7.69 value is a  figure that you use for informational purposes only and is not used to  request additional funds from the customer. The customer is not responsible  for changes in the base currency totals due to changes in the exchange  rate.</dd>
+  <dt><strong>Ex. Difference</strong></dt>
+  <dd>This field displays the difference between the Balance  field and the Balance @ Ex. Rate field. In other words, the field displays  the gain or loss on the outstanding balance of the multi-currency order  document due to the difference between the current exchange rate and the  exchange rate used when the deposit was accepted.</dd>
+  <dd>In our example, the field displays 92.31 USD, which  is the 100.00 USD balance minus the 7.69 USD current exchange rate balance.  Therefore, there is a loss of 92.31 USD on the transaction due to the  changes in the exchange rate.</dd>
+  <dd>Keep in mind that as the applicable current exchange  rate changes, the Ex. Difference value changes as well to reflect the  adjustment to the remaining balance in the base currency. Therefore, the  92.31 USD value could increase or decrease as the sell exchange rate changes.  You use this value only to estimate what the gain or loss will be. The  actual accounting entries are made only after you complete the final document.</dd>
+  <dd>Another way to view the gain or loss is to assess  the strength of the base currency against the document currency. In our  example, the USD strengthened against the INR. Therefore, using the current  exchange rate the remaining 100 USD balance is worth 6500 INR (65 x 100).  However, because the customer is required to pay only the 500 INR balance,  you lose the equivalent of 6000 INR (6500 - 500), which is roughly 92.31  USD (6000/65).</dd>
+  <dd>Use the table below to determine whether the exchange  rate creates a gain or loss on the balance due for a multi-currency order  document.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Document</td>
+      <td>Equation</td>
+      <td>Gain/Loss</td>
+    </tr>
+    <tr>
+      <td>Sales order or debit order</td>
+      <td>Balance &lt; Exc. Rate Balance</td>
+      <td>Gain</td>
+    </tr>
+    <tr>
+      <td>Sales order or debit order</td>
+      <td>Balance &gt; Exc. Rate Balance</td>
+      <td>Loss</td>
+    </tr>
+    <tr>
+      <td>Purchase order or credit order</td>
+      <td>Balance &gt; Exc. Rate Balance</td>
+      <td>Gain</td>
+    </tr>
+    <tr>
+      <td>Purchase order or credit order</td>
+      <td>Balance &lt; Exc. Rate Balance</td>
+      <td>Loss</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: After you complete the final document, the system  creates an accounting entry for the gain or loss in the applicable accounting  journal. Refer to the links below for information on the Gain/Loss accounting  entries.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/customer-receipts-and-refunds/foreign-currency-receipts/receipts_in_foreign_currency.html">Receipts  in Foreign Currency</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/vendor-payments-and-refunds/foreign-currency-payments/payments_in_foreign_currency.html">Payments  In Foreign Currency</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,2871 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="posting group">
+    <param name="Name" value="The Item Profile - Accounts">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_item_profile_-_posting_group.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item profile - accounts">
+    <param name="Name" value="The Item Profile - Posting Group">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_item_profile_-_posting_group.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounting information">
+    <param name="Name" value="Accounting Information">
+    <param name="Local" value="item-profile-details\accounting-information\accounting_information_items.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assembly items">
+      <param name="Name" value="Accounting Information-Assembly Items">
+      <param name="Local" value="item-profile-details\accounting-information\accounting_information_assembly_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile">
+      <param name="Name" value="Accounting Information">
+      <param name="Local" value="item-profile-details\accounting-information\accounting_information_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="kits">
+      <param name="Name" value="Accounting Information - Kits">
+      <param name="Local" value="item-profile-details\accounting-information\accounting_information_kit_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="regular items">
+      <param name="Name" value="Accounting Information - Inventoried Items">
+      <param name="Local" value="item-profile-details\accounting-information\accounting_information_regular_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounting tab">
+    <param name="Name" value="The Category Profile - Accounting">
+    <param name="Local" value="item-profile-details\item-categories\category_profile_posting_group_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="category profile">
+      <param name="Name" value="The Category Profile - Accounting">
+      <param name="Local" value="item-profile-details\item-categories\category_profile_posting_group_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounts tab">
+    <param name="Name" value="The Item Profile - Accounts">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_item_profile_-_posting_group.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile">
+      <param name="Name" value="The Item Profile - Accounts">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_item_profile_-_posting_group.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="activate">
+    <param name="Name" value="View and Activate a Discontinued Third Party Catalog">
+    <param name="Local" value="third-party-speciality-catalogs\view_and_discontinue_a_third_party_catalog_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="activate matrix item combinations not selected previously">
+    <param name="Name" value="Activate Combinations not Available Earlier">
+    <param name="Local" value="creating-matrix-group-and-matrix-items\activate_combinations_not_available_earlier.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued third party catalog">
+      <param name="Name" value="View and Activate a Discontinued Third Party Catalog">
+      <param name="Local" value="third-party-speciality-catalogs\view_and_discontinue_a_third_party_catalog_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued brand">
+      <param name="Name" value="View and Activate a Discontinued Brand">
+      <param name="Local" value="item-profile-details\item-specification\brand\view_and_activate_a_discontinued_brand_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued item">
+      <param name="Name" value="View and Activate a Discontinued Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\view_and_activate_a_discontinued_item.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued item alias">
+      <param name="Name" value="View and Activate a Discontinued Item Alias">
+      <param name="Local" value="item-alias\view_and_activate_a_discontinued_item_alias.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued item category">
+      <param name="Name" value="View and Activate a Discontinued Item Category">
+      <param name="Local" value="item-profile-details\item-categories\view_and_activate_a_discontinued_item_category.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued manufacturer">
+      <param name="Name" value="View and Activate a Discontinued Manufacturer">
+      <param name="Local" value="item-profile-details\item-specification\manufacturer\view_and_activate_a_discontinued_manufacturer_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued measure details">
+      <param name="Name" value="View and Activate Discontinued Measure Details">
+      <param name="Local" value="item-profile-details\measure\view_and_activate_discontinued_measure_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued promotions">
+      <param name="Name" value="View and Activate a Discontinued Promotion">
+      <param name="Local" value="misc\view_and_activate_a_discontinued_promotion.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="add-on dialog box">
+    <param name="Name" value="The Add-on Dialog box">
+    <param name="Local" value="misc\add_on_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="add-ons">
+    <param name="Name" value="Add-ons">
+    <param name="Local" value="the-items-browser\other-options\add_ons.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add-on dialog box">
+      <param name="Name" value="The Add-on Dialog box">
+      <param name="Local" value="misc\add_on_dialog_box.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify Add-ons">
+      <param name="Local" value="misc\modify_add_ons.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="add remove locations">
+    <param name="Name" value="Item Add/Remove Locations">
+    <param name="Local" value="the-items-browser\other-options\item_add_remove_location.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advanced find tab">
+    <param name="Name" value="The Find Items Dialog Box - Advanced Find">
+    <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_advanced_find.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find items dialog box">
+      <param name="Name" value="The Find Items Dialog Box - Advanced Find">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_advanced_find.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="assembly - input tab">
+    <param name="Name" value="Right-click Menu Options - Assembly - Input Tab">
+    <param name="Local" value="misc\right_click_menu_options_assembly_input_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="right click menu options">
+      <param name="Name" value="Right-click Menu Options - Assembly - Input Tab">
+      <param name="Local" value="misc\right_click_menu_options_assembly_input_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="assembly - scrap tab">
+    <param name="Name" value="Right-click Menu Options - Assembly - Scrap Tab">
+    <param name="Local" value="misc\right_click_menu_options_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="right-click menu options">
+      <param name="Name" value="Right-click Menu Options - Assembly - Scrap Tab">
+      <param name="Local" value="misc\right_click_menu_options_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="assembly item">
+    <param name="Name" value="Create an Assembly Item">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-assembly-item\create_an_assembly_item_mi.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create an Assembly Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-assembly-item\create_an_assembly_item_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="assembly items">
+    <param name="Name" value="Differences between a Kit and an Assembly">
+    <param name="Local" value="item-profile-details\item-types\kit-and-assembly\differences_between_a_kit_and_an_assembly.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="differences between a kit and an assembly">
+      <param name="Name" value="Differences between a Kit and an Assembly">
+      <param name="Local" value="item-profile-details\item-types\kit-and-assembly\differences_between_a_kit_and_an_assembly.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify an Assembly Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-assembly-item\modify_an_assembly_item_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="regular items">
+      <param name="Name" value="Assembly Items">
+      <param name="Local" value="item-profile-details\item-types\assembly\assembly.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="assembly tab">
+    <param name="Name" value="The Item Profile - Assembly">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-assembly-item\the_item_profile_assembly_mi.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile">
+      <param name="Name" value="The Item Profile - Assembly">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-assembly-item\the_item_profile_assembly_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="assembly/kit">
+    <param name="Name" value="Creating an Item as a Kit or Assembly">
+    <param name="Local" value="item-profile-details\item-types\kit-and-assembly\setting_up_an_item_as_a_kit_or_an_assembly.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create item as a kit or assembly">
+      <param name="Name" value="Creating an Item as a Kit or Assembly">
+      <param name="Local" value="item-profile-details\item-types\kit-and-assembly\setting_up_an_item_as_a_kit_or_an_assembly.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="assign">
+    <param name="Name" value="Assign Items to a Category">
+    <param name="Local" value="item-profile-details\item-categories\assign_items_to_a_category.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items to a category">
+      <param name="Name" value="Assign Items to a Category">
+      <param name="Local" value="item-profile-details\item-categories\assign_items_to_a_category.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="auto-serialized items">
+    <param name="Name" value="Auto-serialized">
+    <param name="Local" value="item-profile-details\inventory-type\inventoried-item\auto_serialized.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="make auto-serialized item behave like a serialized item">
+      <param name="Name" value="Making an Auto-serialized Item Behave like a Serialized Item">
+      <param name="Local" value="misc\making_an_auto_serialized_item_behave_like_a_serialized_item.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="average amounts">
+    <param name="Name" value="Average Amounts">
+    <param name="Local" value="misc\average_amounts_item_summary_dialog.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item summary dialog box">
+      <param name="Name" value="Average Amounts">
+      <param name="Local" value="misc\average_amounts_item_summary_dialog.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="average cost">
+    <param name="Name" value="Average Cost">
+    <param name="Local" value="item-profile-details\item-costing\average_cost_item_costing.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="bill of materials grid">
+    <param name="Name" value="Columns in the Bill of Materials Grid">
+    <param name="Local" value="misc\columns_in_the_bill_of_materials_grid.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="brand">
+    <param name="Name" value="Brand">
+    <param name="Local" value="item-profile-details\item-specification\brand\brand.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="brand profile">
+    <param name="Name" value="The Brand Profile">
+    <param name="Local" value="item-profile-details\item-specification\brand\brand_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create a Brand">
+      <param name="Local" value="item-profile-details\item-specification\brand\setting_up_a_brand.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue a Brand">
+      <param name="Local" value="item-profile-details\item-specification\brand\discontinue_a_brand_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify a Brand">
+      <param name="Local" value="item-profile-details\item-specification\brand\modify_a_brand.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Brand Profile">
+      <param name="Local" value="item-profile-details\item-specification\brand\brand_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view and activate discontinued brand">
+      <param name="Name" value="View and Activate a Discontinued Brand">
+      <param name="Local" value="item-profile-details\item-specification\brand\view_and_activate_a_discontinued_brand_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="brands browser">
+    <param name="Name" value="The Brands Browser">
+    <param name="Local" value="item-profile-details\item-specification\brand\brands_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="browser">
+    <param name="Name" value="The Pending Purchase/Work Orders Browser">
+    <param name="Local" value="misc\the_pending_purchase_orders_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="pending purchase orders browser">
+      <param name="Name" value="The Pending Purchase/Work Orders Browser">
+      <param name="Local" value="misc\the_pending_purchase_orders_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="pending sales orders">
+      <param name="Name" value="The Pending Sales Orders/Work Orders Browser">
+      <param name="Local" value="misc\the_pending_sales_orders_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="pending work orders">
+      <param name="Name" value="The Pending Work Orders Browser">
+      <param name="Local" value="misc\the_pending_work_orders_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="promotion campaign profitability">
+      <param name="Name" value="Promotion Campaign Profitability Browser">
+      <param name="Local" value="misc\promotion_campaign_profitability_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="promotions">
+      <param name="Name" value="Promotion Browser">
+      <param name="Local" value="item-profile-details\item-pricing\promotions\promotion_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="special pricing">
+      <param name="Name" value="The Special Pricing Browser">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\the_special_pricing_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="third party catalogs">
+      <param name="Name" value="The Third Party Catalogs Browser">
+      <param name="Local" value="third-party-speciality-catalogs\third_parties_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="bulk items">
+    <param name="Name" value="Bulk Item">
+    <param name="Local" value="item-profile-details\other-items-information\sales\bulk_item_item_profile_contents.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="calculations for viewing stock in the items browser">
+    <param name="Name" value="Calculations for Viewing Stock in the Items Browser">
+    <param name="Local" value="misc\calculations_for_viewing_stock_in_the_items_browser_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="calculations for viewing stock in the item stock status browser">
+    <param name="Name" value="Calculations for Viewing Stock in the Item Stock Status Browser">
+    <param name="Local" value="misc\calculations_for_viewing_stock_in_the_item_stock_status_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="calculations for viewing stock in the matrix items browser">
+    <param name="Name" value="Calculations for Viewing Stock in the Matrix Items Browser">
+    <param name="Local" value="misc\calculations_for_viewing_stock_in_the_matrix_items_browser_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="categories browser">
+    <param name="Name" value="The Categories Browser">
+    <param name="Local" value="item-profile-details\item-categories\the_categories_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="category profile">
+    <param name="Name" value="The Category Profile">
+    <param name="Local" value="item-profile-details\item-categories\the_category_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounts tab">
+      <param name="Name" value="The Category Profile - Accounts">
+      <param name="Local" value="item-profile-details\item-categories\category_profile_posting_group_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general tab">
+      <param name="Name" value="The Category Profile - General">
+      <param name="Local" value="item-profile-details\item-categories\category_profile_general_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="clone an item">
+    <param name="Name" value="Copy/Clone an Item">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\copy_clone_an_item_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="columns in the bill of materials grid">
+    <param name="Name" value="Columns in the Bill of Materials Grid">
+    <param name="Local" value="misc\columns_in_the_bill_of_materials_grid.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="columns in the scrap details grid">
+    <param name="Name" value="Columns in the Scrap Details Grid">
+    <param name="Local" value="misc\columns_in_the_scrap_details_grid.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="commissionable">
+    <param name="Name" value="Commissionable">
+    <param name="Local" value="item-profile-details\other-items-information\sales\commissionable.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="commonly used conversion factors">
+    <param name="Name" value="Commonly Used Conversion Factors">
+    <param name="Local" value="item-profile-details\measure\commonly_used_conversion_factors_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="comparison">
+    <param name="Name" value="Comparison of Discount and Special Pricing Schemes">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\comparison_of_discount_and_special_pricing_schemes.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discount and special pricing schemes">
+      <param name="Name" value="Comparison of Discount and Special Pricing Schemes">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\comparison_of_discount_and_special_pricing_schemes.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="computation">
+    <param name="Name" value="Computation of Upgrade/Downgrade Price">
+    <param name="Local" value="misc\computation_of_upgrade_downgrade_price.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="upgrade/downgrade price">
+      <param name="Name" value="Computation of Upgrade/Downgrade Price">
+      <param name="Local" value="misc\computation_of_upgrade_downgrade_price.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="copy an item">
+    <param name="Name" value="Copy/Clone an Item">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\copy_clone_an_item_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="cost column logic">
+    <param name="See Also" value="cost column logic">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser">
+      <param name="Name" value="Cost Column Logic for Items Browser">
+      <param name="Local" value="misc\cost_column_logic_for_items_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="cost including tax">
+    <param name="Name" value="Cost Including Tax">
+    <param name="Local" value="item-profile-details\other-items-information\purchase\cost_including_tax_item_profile_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="cost percent of selling price">
+    <param name="Name" value="Cost percent of selling price">
+    <param name="Local" value="item-profile-details\item-costing\cost_percent_of_selling_price_item_costing.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="create">
+    <param name="Name" value="Create an Assembly Item">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-assembly-item\create_an_assembly_item_mi.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assembly item">
+      <param name="Name" value="Create an Assembly Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-assembly-item\create_an_assembly_item_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="brand">
+      <param name="Name" value="Create a Brand">
+      <param name="Local" value="item-profile-details\item-specification\brand\setting_up_a_brand.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="copy/clone an item">
+      <param name="Name" value="Copy/Clone an Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\copy_clone_an_item_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item alias">
+      <param name="Name" value="Create an Item Alias">
+      <param name="Local" value="item-alias\setting_up_an_item_alias.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item as a kit or assembly">
+      <param name="Name" value="Creating an Item as a Kit or Assembly">
+      <param name="Local" value="item-profile-details\item-types\kit-and-assembly\setting_up_an_item_as_a_kit_or_an_assembly.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item category">
+      <param name="Name" value="Create an Item Category">
+      <param name="Local" value="item-profile-details\item-categories\setting_up_a_category.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item kit">
+      <param name="Name" value="Create an Item Kit">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item-kit\create_an_item_kit.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item matrix group">
+      <param name="Name" value="Create an Item Matrix Group and Items">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\setting_up_an_item_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="matrix items">
+      <param name="Name" value="Create an Item Matrix Group and Items">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\setting_up_an_item_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="new item filter">
+      <param name="Name" value="Create a New Filter">
+      <param name="Local" value="finding-items\create-a-new-item-filter\create_a_new_filter_find_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price differential formula">
+      <param name="Name" value="Define a Price Differential Formula">
+      <param name="Local" value="misc\setting_up_a_price_differential_formula.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="regular item">
+      <param name="Name" value="Create a Regular Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\setting_up_an_item.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="regular items: kits and assembly items">
+      <param name="Name" value="Create Regular Items, Kits and Assembly Items">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\create_regular_items_kits_and_assembly_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="third party catalog">
+      <param name="Name" value="Create a Third Party Catalog">
+      <param name="Local" value="third-party-speciality-catalogs\setting_up_a_third_parties.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="critical items">
+    <param name="Name" value="Critical Items">
+    <param name="Local" value="item-profile-details\other-items-information\sales\critical_items_item_profile_contents.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="custom field tab">
+    <param name="Name" value="The Find Items Dialog Box - Custom Field">
+    <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_custom_field.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find items dialog box">
+      <param name="Name" value="The Find Items Dialog Box - Custom Field">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_custom_field.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="custom fields">
+    <param name="Name" value="Custom Fields">
+    <param name="Local" value="the-items-browser\other-options\custom_fields_items.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile">
+      <param name="Name" value="Custom Fields">
+      <param name="Local" value="the-items-browser\other-options\custom_fields_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="specify">
+      <param name="Name" value="Custom Field Details">
+      <param name="Local" value="finding-items\find-item-details\custom-field-details\custom_field_details_find_items_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer levels">
+    <param name="Name" value="Item Pricing and Customer Levels">
+    <param name="Local" value="item-profile-details\item-pricing\item_pricing_and_customer_levels.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer levels and item pricing">
+      <param name="Name" value="Item Pricing and Customer Levels">
+      <param name="Local" value="item-profile-details\item-pricing\item_pricing_and_customer_levels.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer level pricing dialog box">
+      <param name="Name" value="Customer Level Pricing Dialog Box">
+      <param name="Local" value="item-profile-details\item-pricing\customer_level_pricing_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="decimal quantity entry method">
+    <param name="Name" value="Quantity Entry Method">
+    <param name="Local" value="item-profile-details\other-items-information\purchase\quantity_entry_method.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="default vendor">
+    <param name="Name" value="Default Vendor">
+    <param name="Local" value="item-profile-details\other-items-information\purchase\default_vendor.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="define">
+    <param name="See Also" value="define">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="manufacturer">
+      <param name="Name" value="Define a Manufacturer">
+      <param name="Local" value="item-profile-details\item-specification\manufacturer\setting_up_a_manufacturer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="measure">
+      <param name="Name" value="Define a Measure">
+      <param name="Local" value="item-profile-details\measure\setting_up_a_measure.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="promotional pricing scheme">
+      <param name="Name" value="Define a Promotional Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\promotional-pricing\setting_up_a_promotional_pricing_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity discounts">
+      <param name="Name" value="Define Quantity Discounts">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-discounts\setting_up_a_quantity_discount_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity pricing scheme">
+      <param name="Name" value="Define a Quantity Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-pricing\setting_up_a_quantity_pricing_scheme.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="details tab">
+    <param name="Name" value="The Item Profile - Details">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item-kit\the_item_profile_details.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile">
+      <param name="Name" value="The Item Profile - Details">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item-kit\the_item_profile_details.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="dialog box">
+    <param name="Name" value="The Special Pricing Dialog Box">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\the_special_pricing_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="special pricing">
+      <param name="Name" value="The Special Pricing Dialog Box">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\the_special_pricing_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="differences">
+    <param name="Name" value="Differences between Auto-serialized and Serialized Items">
+    <param name="Local" value="item-profile-details\inventory-type\inventoried-item\differences_between_auto_serialized_and_serialized_items.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="auto-serialized and serialized items">
+      <param name="Name" value="Differences between Auto-serialized and Serialized Items">
+      <param name="Local" value="item-profile-details\inventory-type\inventoried-item\differences_between_auto_serialized_and_serialized_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="dimensions">
+    <param name="See Also" value="dimensions">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="update items">
+      <param name="Name" value="Item Freight Dialog Box">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\item_freight_dialog_box_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="discontinue">
+    <param name="Name" value="Discontinue a Brand">
+    <param name="Local" value="item-profile-details\item-specification\brand\discontinue_a_brand_mi.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="brand">
+      <param name="Name" value="Discontinue a Brand">
+      <param name="Local" value="item-profile-details\item-specification\brand\discontinue_a_brand_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item">
+      <param name="Name" value="Discontinue an Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\discontinue_an_item_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item alias">
+      <param name="Name" value="Discontinue an Item Alias">
+      <param name="Local" value="item-alias\discontinue_an_item_alias.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item category">
+      <param name="Name" value="Discontinue an Item Category">
+      <param name="Local" value="item-profile-details\item-categories\discontinue_an_item_category_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item matrix">
+      <param name="Name" value="Discontinue an Item Matrix">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\discontinue_an_item_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="manufacturer">
+      <param name="Name" value="Discontinue a Manufacturer">
+      <param name="Local" value="item-profile-details\item-specification\manufacturer\discontinue_a_manufacturer_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="measure">
+      <param name="Name" value="Discontinue a Measure">
+      <param name="Local" value="item-profile-details\measure\discontinue_a_measure.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="promotional pricing scheme">
+      <param name="Name" value="Discontinue Promotional Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\promotional-pricing\discontinue_promotional_pricing_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="promotions">
+      <param name="Name" value="Discontinue a Promotion">
+      <param name="Local" value="misc\discontinue_a_promotion.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity discount scheme">
+      <param name="Name" value="Discontinue Quantity Discount Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-discounts\discontinue_quantity_discount_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="special pricing scheme">
+      <param name="Name" value="Discontinue a Special Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\discontinue_special_pricing_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="third party catalog">
+      <param name="Name" value="Discontinue a Third Party Catalog">
+      <param name="Local" value="third-party-speciality-catalogs\discontinue_a_third_party_catalog_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="discounts and special pricing">
+    <param name="Name" value="Discounts and Special Pricing">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\discounts_and_special_pricing.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="factored cost">
+    <param name="Name" value="Factored Cost">
+    <param name="Local" value="item-profile-details\item-costing\factored_cost_item_costing.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="filter name">
+    <param name="Name" value="Filter Name">
+    <param name="Local" value="finding-items\find-item-details\filter_name_find_items.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find items">
+      <param name="Name" value="Filter Name">
+      <param name="Local" value="finding-items\find-item-details\filter_name_find_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="select filter browser">
+      <param name="Name" value="Select Filter Browser">
+      <param name="Local" value="misc\select_filter_browser_find_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find">
+    <param name="Name" value="Finding Items">
+    <param name="Local" value="finding-items\find_items.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find items details">
+    <param name="Name" value="Find Items Details">
+    <param name="Local" value="finding-items\find-item-details\find_items_details.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find items dialog box">
+    <param name="Name" value="The Find Items Dialog Box">
+    <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="advanced find tab">
+      <param name="Name" value="The Find Items Dialog Box - Advanced Find">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_advanced_find.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom field tab">
+      <param name="Name" value="The Find Items Dialog Box - Custom Field">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_custom_field.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="more choices tab">
+      <param name="Name" value="The Find Items Dialog Box - More Choices">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_more_choices.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory tab">
+      <param name="Name" value="The Find Items Dialog Box - Inventory">
+      <param name="Local" value="finding-items\find-item-details\inventory-details\the_find_items_dialog_box_stock_info_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase info tab">
+      <param name="Name" value="The Find Items Dialog Box - Purchase Info">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_purchase_info.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="query tab">
+      <param name="Name" value="The Find Items Dialog Box - Query">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_query.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quick find tab">
+      <param name="Name" value="The Find Items Dialog Box - Quick Find">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_quick_find.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales info">
+      <param name="Name" value="The Find Items Dialog Box - Sales Info">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_sales_info.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items">
+      <param name="Name" value="Finding Items">
+      <param name="Local" value="finding-items\find_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="fixed price">
+    <param name="Name" value="Fixed Price">
+    <param name="Local" value="item-profile-details\item-pricing\pricing-calculations\fixed_price.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="flow control">
+    <param name="Name" value="Item Flow Control">
+    <param name="Local" value="item-preferences\item-flow-control\item_flow_control.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="flow control setup dialog box">
+    <param name="Name" value="The Item Flow Control Dialog Box - Net Free Stock">
+    <param name="Local" value="misc\the_flow_control_setup_dialog_box_net_free_stock_mi.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="net free stock tab">
+      <param name="Name" value="The Item Flow Control Dialog Box - Net Free Stock">
+      <param name="Local" value="misc\the_flow_control_setup_dialog_box_net_free_stock_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="define flow control rules for items">
+      <param name="Name" value="Item Flow Control">
+      <param name="Local" value="item-preferences\item-flow-control\item_flow_control.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="fractional quantity entry method">
+    <param name="Name" value="Quantity Entry Method">
+    <param name="Local" value="item-profile-details\other-items-information\purchase\quantity_entry_method.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="freight - item freight dialog box">
+    <param name="Name" value="Item Freight Dialog Box">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\item_freight_dialog_box_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="freight calculations">
+    <param name="Name" value="Freight Calculations">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\how_everest_calculates_freight_rates_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="freight distribution">
+    <param name="Name" value="Freight Distribution">
+    <param name="Local" value="item-profile-details\other-items-information\purchase\freight_distribution_item_profile_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="general tab">
+    <param name="Name" value="The Category Profile - General">
+    <param name="Local" value="item-profile-details\item-categories\category_profile_general_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="category profile">
+      <param name="Name" value="The Category Profile - General">
+      <param name="Local" value="item-profile-details\item-categories\category_profile_general_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile">
+      <param name="Name" value="The Item Profile - General">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_item_profile_-_general.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="high cost">
+    <param name="Name" value="High Cost">
+    <param name="Local" value="item-profile-details\item-costing\high_cost_item_costing.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="include in freight">
+    <param name="Name" value="Include in Freight">
+    <param name="Local" value="item-profile-details\other-items-information\sales\include_in_freight.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="input tab">
+    <param name="Name" value="The Item Profile - Assembly - Input">
+    <param name="Local" value="misc\the_item_profile_assembly_input.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile - assembly tab">
+      <param name="Name" value="The Item Profile - Assembly - Input">
+      <param name="Local" value="misc\the_item_profile_assembly_input.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="inventoried items">
+    <param name="Name" value="Inventoried Items">
+    <param name="Local" value="item-profile-details\inventory-type\inventoried-item\inventoried_items_items.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="inventory history">
+    <param name="Name" value="Inventory History">
+    <param name="Local" value="the-items-browser\other-options\inventory_history_item_browser_option.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="inventory history browser">
+    <param name="Name" value="The Inventory History Browser">
+    <param name="Local" value="misc\the_inventory_history_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser option">
+      <param name="Name" value="Inventory History">
+      <param name="Local" value="the-items-browser\other-options\inventory_history_item_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="inventory type">
+    <param name="Name" value="Inventory Type">
+    <param name="Local" value="item-profile-details\inventory-type\inventory_type.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item">
+    <param name="Name" value="Item Categories">
+    <param name="Local" value="item-profile-details\item-categories\item_categories.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item alias">
+    <param name="Name" value="Item Alias">
+    <param name="Local" value="the-items-browser\other-options\item_alias.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item alias profile">
+    <param name="Name" value="The Item Alias Profile">
+    <param name="Local" value="item-alias\item_alias_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create an Item Alias">
+      <param name="Local" value="item-alias\setting_up_an_item_alias.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue an Item Alias">
+      <param name="Local" value="item-alias\discontinue_an_item_alias.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify item alias details">
+      <param name="Name" value="Modify Item Alias Details">
+      <param name="Local" value="item-alias\modify_item_alias_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Item Alias Profile">
+      <param name="Local" value="item-alias\item_alias_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view and activate discontinued">
+      <param name="Name" value="View and Activate a Discontinued Item Alias">
+      <param name="Local" value="item-alias\view_and_activate_a_discontinued_item_alias.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item categories">
+    <param name="Name" value="Item Categories">
+    <param name="Local" value="item-profile-details\item-categories\item_categories.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item category">
+    <param name="Name" value="Assign Items to a Category">
+    <param name="Local" value="item-profile-details\item-categories\assign_items_to_a_category.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign items">
+      <param name="Name" value="Assign Items to a Category">
+      <param name="Local" value="item-profile-details\item-categories\assign_items_to_a_category.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="categories browser">
+      <param name="Name" value="The Categories Browser">
+      <param name="Local" value="item-profile-details\item-categories\the_categories_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="category profile">
+      <param name="Name" value="The Category Profile">
+      <param name="Local" value="item-profile-details\item-categories\the_category_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create an Item Category">
+      <param name="Local" value="item-profile-details\item-categories\setting_up_a_category.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue an Item Category">
+      <param name="Local" value="item-profile-details\item-categories\discontinue_an_item_category_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify an Item Category">
+      <param name="Local" value="item-profile-details\item-categories\modify_an_item_category_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view and activate discontinued">
+      <param name="Name" value="View and Activate a Discontinued Item Category">
+      <param name="Local" value="item-profile-details\item-categories\view_and_activate_a_discontinued_item_category.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item code and description">
+    <param name="Name" value="Item Information">
+    <param name="Local" value="item-profile-details\item_information_items.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item costing">
+    <param name="Name" value="Item Costing">
+    <param name="Local" value="item-profile-details\item-costing\item_costing.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item defaults">
+    <param name="Name" value="Item Defaults">
+    <param name="Local" value="item-preferences\item-defaults\item_defaults.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item details tab">
+    <param name="Name" value="The Items Dialog Box - Item Details">
+    <param name="Local" value="item-preferences\item-flow-control\the_flow_control_setup_dialog_box_item_details.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items dialog box">
+      <param name="Name" value="The Items Dialog Box - Item Details">
+      <param name="Local" value="item-preferences\item-flow-control\the_flow_control_setup_dialog_box_item_details.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item filter">
+    <param name="Name" value="Create a New Filter">
+    <param name="Local" value="finding-items\create-a-new-item-filter\create_a_new_filter_find_items.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create a New Filter">
+      <param name="Local" value="finding-items\create-a-new-item-filter\create_a_new_filter_find_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item freight dialog box">
+    <param name="Name" value="Item Freight Dialog Box">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\item_freight_dialog_box_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item kit">
+    <param name="Name" value="Create an Item Kit">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item-kit\create_an_item_kit.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create an Item Kit">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item-kit\create_an_item_kit.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify an Item Kit">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item-kit\modify_an_item_kit.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discount">
+      <param name="Name" value="How Do I Discount a Kit?">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item-kit\how_do_i_discount_a_kit_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item kits">
+    <param name="Name" value="Item Kits">
+    <param name="Local" value="item-profile-details\item-types\kits\kits.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="regular items">
+      <param name="Name" value="Item Kits">
+      <param name="Local" value="item-profile-details\item-types\kits\kits.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item matrix">
+    <param name="Name" value="Item Matrix">
+    <param name="Local" value="item-profile-details\item-types\item-matrix\item_matrix.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="benefits and features of the item matrix">
+      <param name="Name" value="Benefits and Features of the Item Matrix">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\benefits_and_features_of_the_item_matrix_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create an item matrix group and matrix items">
+      <param name="Name" value="Create an Item Matrix Group and Matrix Items">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\setting_up_an_item_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue/reactivate a matrix item or group">
+      <param name="Name" value="Discontinue/Reactivate a Matrix Item or Group">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\discontinue_an_item_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify an item matrix">
+      <param name="Name" value="Modify an Item Matrix">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\modifying_item_matrix.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item matrix group">
+    <param name="Name" value="Create an Item Matrix Group and Items">
+    <param name="Local" value="creating-matrix-group-and-matrix-items\setting_up_an_item_matrix.html">
+    <param name="Name" value="Copy a Matrix Group">
+    <param name="Local" value="creating-matrix-group-and-matrix-items\copy_a_matrix_group_mi.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify composition">
+      <param name="Name" value="Modify the Composition of an existing Matrix Group">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\modify_the_composition_of_a_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add element to a matrix group">
+      <param name="Name" value="Modify the Composition of an existing Matrix Group">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\modify_the_composition_of_a_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="delete an element from a matrix group">
+      <param name="Name" value="Modify the Composition of an existing Matrix Group">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\modify_the_composition_of_a_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add back a previously deleted element">
+      <param name="Name" value="Modify the Composition of an existing Matrix Group">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\modify_the_composition_of_a_matrix.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item matrix group pricing">
+    <param name="Name" value="Pricing for an Item Matrix Group">
+    <param name="Local" value="creating-matrix-group-and-matrix-items\pricing\pricing_for_an_item_matrix_group.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item matrix groups browser">
+    <param name="Name" value="The Item Matrix Groups Browser">
+    <param name="Local" value="creating-matrix-group-and-matrix-items\the_item_matrix_groups_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item matrix groups browser option">
+    <param name="Name" value="View Items">
+    <param name="Local" value="misc\view_items_item_matrix_groups_browser_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view items">
+      <param name="Name" value="View Items">
+      <param name="Local" value="misc\view_items_item_matrix_groups_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view matrix">
+      <param name="Name" value="View Matrix">
+      <param name="Local" value="misc\view_matrix_item_matrix_groups_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item matrix wizard">
+    <param name="Name" value="The Item Matrix Wizard">
+    <param name="Local" value="creating-matrix-group-and-matrix-items\the-item-matrix-wizard\the_item_matrix_wizard.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="the item matrix wizard - attributes section">
+      <param name="Name" value="The Item Matrix Wizard - Attributes Section">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\the-item-matrix-wizard\the_item_matrix_wizard_attributes_section_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="the item matrix wizard - elements section">
+      <param name="Name" value="The Item Matrix Wizard - Elements Section">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\the-item-matrix-wizard\the_item_matrix_wizard_elements_section_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="the item matrix wizard - general details section">
+      <param name="Name" value="The Item Matrix Wizard - General Details Section">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\the-item-matrix-wizard\the_item_matrix_wizard_general_details_section_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue an Item Matrix">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\discontinue_an_item_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="matrix item">
+      <param name="Name" value="Item Matrix">
+      <param name="Local" value="item-profile-details\item-types\item-matrix\item_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify individual items">
+      <param name="Name" value="Modify Individual Items in an Item Matrix">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\modify_individual_items_in_an_item_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify multiple items">
+      <param name="Name" value="Modify Multiple Items">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\modify_multiple_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item pricing">
+    <param name="Name" value="Item Pricing">
+    <param name="Local" value="item-profile-details\item-pricing\item_pricing.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item pricing and customer levels">
+      <param name="Name" value="Item Pricing and Customer Levels">
+      <param name="Local" value="item-profile-details\item-pricing\item_pricing_and_customer_levels.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item profile">
+    <param name="Name" value="The Item Profile">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_item_profile_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item profile - assembly">
+    <param name="Name" value="The Item Profile - Assembly - Input">
+    <param name="Local" value="misc\the_item_profile_assembly_input.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="input tab">
+      <param name="Name" value="The Item Profile - Assembly - Input">
+      <param name="Local" value="misc\the_item_profile_assembly_input.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="scrap tab">
+      <param name="Name" value="The Item Profile - Assembly - Scrap">
+      <param name="Local" value="misc\the_item_profile_assembly_scrap.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item profile details">
+    <param name="Name" value="Unit Fixed Price">
+    <param name="Local" value="misc\unit_fixed_price.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="unit fixed price">
+      <param name="Name" value="Unit Fixed Price">
+      <param name="Local" value="misc\unit_fixed_price.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assembly tab">
+      <param name="Name" value="The Item Profile - Assembly">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-assembly-item\the_item_profile_assembly_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory tab">
+      <param name="Name" value="The Item Profile - Inventory">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_item_profile_-_inventory.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom fields">
+      <param name="Name" value="Custom Fields">
+      <param name="Local" value="the-items-browser\other-options\custom_fields_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="details tab">
+      <param name="Name" value="The Item Profile - Details">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item-kit\the_item_profile_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general tab">
+      <param name="Name" value="The Item Profile - General">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_item_profile_-_general.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="notes tab">
+      <param name="Name" value="The Item Profile - Notes">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_items_profile_-_notes.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchases tab">
+      <param name="Name" value="The Item Profile - Purchases">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_items_profile_-_purchases.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales tab">
+      <param name="Name" value="The Item Profile - Sales">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_item_profile_-_sales_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item reports">
+    <param name="Name" value="Item Reports">
+    <param name="Local" value="item-reports\item_reports.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item specifications">
+    <param name="Name" value="Item Specification">
+    <param name="Local" value="item-profile-details\item-specification\item_specification.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item stock status">
+    <param name="Name" value="Item Stock Status">
+    <param name="Local" value="the-items-browser\information-available\item_stock_status_item_browser_option.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item stock status dialog box">
+    <param name="Name" value="The Item Stock Status Dialog Box">
+    <param name="Local" value="misc\the_item_stock_status_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="calculations for viewing stock">
+      <param name="Name" value="Calculations for Viewing Stock in the Item Stock Status Browser">
+      <param name="Local" value="misc\calculations_for_viewing_stock_in_the_item_stock_status_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser option">
+      <param name="Name" value="Item Stock Status">
+      <param name="Local" value="the-items-browser\information-available\item_stock_status_item_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item summary dialog box">
+    <param name="Name" value="The Item Summary Dialog Box">
+    <param name="Local" value="misc\the_item_summary_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="average amounts">
+      <param name="Name" value="Average Amounts">
+      <param name="Local" value="misc\average_amounts_item_summary_dialog.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="period purchase tab">
+      <param name="Name" value="Period Purchase">
+      <param name="Local" value="misc\period_purchase_item_summary_dialog.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="period sales tab">
+      <param name="Name" value="Period Sales">
+      <param name="Local" value="misc\period_sales_item_summary_dialog.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase activities">
+      <param name="Name" value="Purchase Activities">
+      <param name="Local" value="misc\purchase_activities_item_summary_dialog_box.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales activities">
+      <param name="Name" value="Sales Activities">
+      <param name="Local" value="misc\sales_activities_item_summary_dialog_box.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="summary 1 tab">
+      <param name="Name" value="Summary 1">
+      <param name="Local" value="misc\summary_1_item_summary_dialog.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="summary 2 tab">
+      <param name="Name" value="Summary 2">
+      <param name="Local" value="misc\summary_2_item_summary_dialog.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item tracking">
+    <param name="Name" value="Item Tracking">
+    <param name="Local" value="the-items-browser\other-options\item_tracking_item_browser_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser option">
+      <param name="Name" value="Item Tracking">
+      <param name="Local" value="the-items-browser\other-options\item_tracking_item_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item types">
+    <param name="Name" value="Item Types">
+    <param name="Local" value="item-profile-details\item-types\item_types.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="differences between a kit and an assembly">
+      <param name="Name" value="Differences between a Kit and an Assembly">
+      <param name="Local" value="item-profile-details\item-types\kit-and-assembly\differences_between_a_kit_and_an_assembly.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item matrix">
+      <param name="Name" value="Item Matrix">
+      <param name="Local" value="item-profile-details\item-types\item-matrix\item_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="regular items">
+      <param name="Name" value="Regular Items">
+      <param name="Local" value="misc\regular_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item categories">
+      <param name="Name" value="Item Categories">
+      <param name="Local" value="item-profile-details\item-categories\item_categories.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="items">
+    <param name="Name" value="Items">
+    <param name="Local" value="items_introduction.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="items aliases browser">
+    <param name="Name" value="The Items Aliases Browser">
+    <param name="Local" value="item-alias\items_aliases_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="items browser">
+    <param name="Name" value="The Items Browser">
+    <param name="Local" value="the-items-browser\the_items_explorer.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="items browser option">
+    <param name="Name" value="Inventory History">
+    <param name="Local" value="the-items-browser\other-options\inventory_history_item_browser_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory history">
+      <param name="Name" value="Inventory History">
+      <param name="Local" value="the-items-browser\other-options\inventory_history_item_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item stock status">
+      <param name="Name" value="Item Stock Status">
+      <param name="Local" value="the-items-browser\information-available\item_stock_status_item_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item tracking">
+      <param name="Name" value="Item Tracking">
+      <param name="Local" value="the-items-browser\other-options\item_tracking_item_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="lots">
+      <param name="Name" value="Lots">
+      <param name="Local" value="the-items-browser\other-options\lots_items_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="notes">
+      <param name="Name" value="Notes">
+      <param name="Local" value="the-items-browser\information-available\notes_items_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="show documents">
+      <param name="Name" value="Show Documents">
+      <param name="Local" value="the-items-browser\other-options\show_documents_items_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="show treeview">
+      <param name="Name" value="Show Treeview">
+      <param name="Local" value="the-items-browser\other-options\show_treeview_items_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock chart">
+      <param name="Name" value="Stock Chart">
+      <param name="Local" value="the-items-browser\information-available\stock_chart_item_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add remove locations">
+      <param name="Name" value="Item Add/Remove Locations">
+      <param name="Local" value="the-items-browser\other-options\item_add_remove_location.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="storefront">
+      <param name="Name" value="Storefront">
+      <param name="Local" value="the-items-browser\other-options\storefront_item_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="summary">
+      <param name="Name" value="Summary">
+      <param name="Local" value="the-items-browser\other-options\summary_item_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view matrix">
+      <param name="Name" value="View Matrix">
+      <param name="Local" value="the-items-browser\information-available\view_matrix_item_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="items browser options">
+    <param name="Name" value="Add-ons">
+    <param name="Local" value="the-items-browser\other-options\add_ons.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add-ons">
+      <param name="Name" value="Add-ons">
+      <param name="Local" value="the-items-browser\other-options\add_ons.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="related items">
+      <param name="Name" value="Related Items">
+      <param name="Local" value="the-items-browser\other-options\related_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost column logic">
+      <param name="Name" value="Cost Column Logic for Items Browser">
+      <param name="Local" value="misc\cost_column_logic_for_items_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity columns">
+      <param name="Name" value="Quantity Columns in the Items Browser">
+      <param name="Local" value="misc\quantity_columns_in_the_items_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="items dialog box">
+    <param name="Name" value="The Item Flow Control Dialog Box">
+    <param name="Local" value="item-preferences\item-flow-control\the_flow_control_setup_dialog_box_wm.html">
+    <param name="Name" value="The Items Dialog Box">
+    <param name="Local" value="item-preferences\item-defaults\items_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item details tab">
+      <param name="Name" value="The Item Flow Control Dialog Box - Item Details">
+      <param name="Local" value="item-preferences\item-flow-control\the_flow_control_setup_dialog_box_item_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="auto-serialized">
+      <param name="Name" value="Auto-serialized">
+      <param name="Local" value="item-profile-details\inventory-type\inventoried-item\auto_serialized.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="define flow control rules">
+      <param name="Name" value="Item Flow Control">
+      <param name="Local" value="item-preferences\item-flow-control\item_flow_control.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue an Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\discontinue_an_item_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find">
+      <param name="Name" value="Finding Items">
+      <param name="Local" value="finding-items\find_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventoried">
+      <param name="Name" value="Inventoried Items">
+      <param name="Local" value="item-profile-details\inventory-type\inventoried-item\inventoried_items_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser">
+      <param name="Name" value="The Items Browser">
+      <param name="Local" value="the-items-browser\the_items_explorer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="make auto-serialized item behave like a serialized item">
+      <param name="Name" value="Making an Auto-serialized Item Behave like a Serialized Item">
+      <param name="Local" value="misc\making_an_auto_serialized_item_behave_like_a_serialized_item.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="non-inventoried">
+      <param name="Name" value="Non-Inventoried Items">
+      <param name="Local" value="item-profile-details\inventory-type\non-inventoried\non_inventoried.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="non-serialized">
+      <param name="Name" value="Non-Serialized Items">
+      <param name="Local" value="item-profile-details\inventory-type\inventoried-item\non_serialized.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serialized">
+      <param name="Name" value="Serialized Items">
+      <param name="Local" value="item-profile-details\inventory-type\inventoried-item\serialized_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view and activate a discontinued item">
+      <param name="Name" value="View and Activate a Discontinued Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\view_and_activate_a_discontinued_item.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="kit/assembly">
+    <param name="Name" value="Creating an Item as a Kit or Assembly">
+    <param name="Local" value="item-profile-details\item-types\kit-and-assembly\setting_up_an_item_as_a_kit_or_an_assembly.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create item as a kit or assembly">
+      <param name="Name" value="Creating an Item as a Kit or Assembly">
+      <param name="Local" value="item-profile-details\item-types\kit-and-assembly\setting_up_an_item_as_a_kit_or_an_assembly.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="landed cost">
+    <param name="Name" value="Landed Cost">
+    <param name="Local" value="item-profile-details\item-costing\purchase_costs_landed_cost_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="last cost">
+    <param name="Name" value="Last Cost">
+    <param name="Local" value="item-profile-details\item-costing\last_cost_item_costing.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lot area stock status dialog box">
+    <param name="Name" value="The Lot Area Stock Status Dialog Box">
+    <param name="Local" value="misc\the_lot_area_stock_status_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lot tracking">
+    <param name="Name" value="Lot Tracking">
+    <param name="Local" value="item-profile-details\other-items-information\purchase\lot_tracking_item_profile_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile">
+      <param name="Name" value="Lot Tracking">
+      <param name="Local" value="item-profile-details\other-items-information\purchase\lot_tracking_item_profile_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lots">
+    <param name="Name" value="Lots">
+    <param name="Local" value="the-items-browser\other-options\lots_items_browser_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser option">
+      <param name="Name" value="Lots">
+      <param name="Local" value="the-items-browser\other-options\lots_items_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="low cost">
+    <param name="Name" value="Low Cost">
+    <param name="Local" value="item-profile-details\item-costing\low_cost_item_costing.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="manufacturer">
+    <param name="Name" value="Define a Manufacturer">
+    <param name="Local" value="item-profile-details\item-specification\manufacturer\setting_up_a_manufacturer.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="manufacturer profile">
+    <param name="Name" value="The Manufacturer Profile">
+    <param name="Local" value="item-profile-details\item-specification\manufacturer\manufacturer_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="define">
+      <param name="Name" value="Define a Manufacturer">
+      <param name="Local" value="item-profile-details\item-specification\manufacturer\setting_up_a_manufacturer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue a Manufacturer">
+      <param name="Local" value="item-profile-details\item-specification\manufacturer\discontinue_a_manufacturer_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify a Manufacturer">
+      <param name="Local" value="item-profile-details\item-specification\manufacturer\modify_a_manufacturer_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Manufacturer Profile">
+      <param name="Local" value="item-profile-details\item-specification\manufacturer\manufacturer_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view and activate discontinued manufacturer">
+      <param name="Name" value="View and Activate a Discontinued Manufacturer">
+      <param name="Local" value="item-profile-details\item-specification\manufacturer\view_and_activate_a_discontinued_manufacturer_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="manufacturers">
+    <param name="Name" value="Manufacturer">
+    <param name="Local" value="item-profile-details\item-specification\manufacturer\manufacturer.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="manufacturers browser">
+    <param name="Name" value="The Manufacturers Browser">
+    <param name="Local" value="item-profile-details\item-specification\manufacturer\manufacturers_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="matrix items">
+    <param name="Name" value="Create an Item Matrix Group and Items">
+    <param name="Local" value="creating-matrix-group-and-matrix-items\setting_up_an_item_matrix.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="matrix items browser">
+    <param name="Name" value="The Matrix Items Browser">
+    <param name="Local" value="creating-matrix-group-and-matrix-items\the_matrix_items_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="calculations for viewing stock">
+      <param name="Name" value="Calculations for Viewing Stock in the Matrix Items Browser">
+      <param name="Local" value="misc\calculations_for_viewing_stock_in_the_matrix_items_browser_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="matrix items view dialog box">
+    <param name="Name" value="The Matrix Items View Dialog Box">
+    <param name="Local" value="misc\the_matrix_items_view_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create an Item Matrix Group and Items">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\setting_up_an_item_matrix.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="measure">
+    <param name="Name" value="Measure">
+    <param name="Local" value="item-profile-details\measure\measure.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="commonly used conversion factors">
+      <param name="Name" value="Commonly Used Conversion Factors">
+      <param name="Local" value="item-profile-details\measure\commonly_used_conversion_factors_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="measure profile">
+    <param name="Name" value="The Measure Profile">
+    <param name="Local" value="item-profile-details\measure\measure_profile_general_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="define">
+      <param name="Name" value="Define a Measure">
+      <param name="Local" value="item-profile-details\measure\setting_up_a_measure.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="commonly used conversion factors">
+      <param name="Name" value="Commonly Used Conversion Factors">
+      <param name="Local" value="item-profile-details\measure\commonly_used_conversion_factors_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue a Measure">
+      <param name="Local" value="item-profile-details\measure\discontinue_a_measure.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify Measure Details">
+      <param name="Local" value="item-profile-details\measure\modify_measure_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view and activate discontinued measure details">
+      <param name="Name" value="View and Activate Discontinued Measure Details">
+      <param name="Local" value="item-profile-details\measure\view_and_activate_discontinued_measure_details.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="measures browser">
+    <param name="Name" value="The Measures Browser">
+    <param name="Local" value="item-profile-details\measure\the_measures_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="merge a regular item into a matrix group">
+    <param name="Name" value="Merge a Regular Item into a Matrix Group">
+    <param name="Local" value="creating-matrix-group-and-matrix-items\merge_a_regular_item_into_a_matrix_group_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="modify">
+    <param name="Name" value="Modify Add-ons">
+    <param name="Local" value="misc\modify_add_ons.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add-ons">
+      <param name="Name" value="Modify Add-ons">
+      <param name="Local" value="misc\modify_add_ons.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assembly item">
+      <param name="Name" value="Modify an Assembly Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-assembly-item\modify_an_assembly_item_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="brand">
+      <param name="Name" value="Modify a Brand">
+      <param name="Local" value="item-profile-details\item-specification\brand\modify_a_brand.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="composition of a matrix">
+      <param name="Name" value="Modify the Composition of a Matrix">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\modify_the_composition_of_a_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="individual items in an item matrix">
+      <param name="Name" value="Modify Individual Items in an Item Matrix">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\modify_individual_items_in_an_item_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item alias details">
+      <param name="Name" value="Modify Item Alias Details">
+      <param name="Local" value="item-alias\modify_item_alias_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item category">
+      <param name="Name" value="Modify an Item Category">
+      <param name="Local" value="item-profile-details\item-categories\modify_an_item_category_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item kit">
+      <param name="Name" value="Modify an Item Kit">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item-kit\modify_an_item_kit.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item matrix group">
+      <param name="Name" value="Modify an Item Matrix Group">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\modifying_item_matrix.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items">
+      <param name="Name" value="Modify an Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\modifying_item_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="manufacturer">
+      <param name="Name" value="Modify a Manufacturer">
+      <param name="Local" value="item-profile-details\item-specification\manufacturer\modify_a_manufacturer_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="measure details">
+      <param name="Name" value="Modify Measure Details">
+      <param name="Local" value="item-profile-details\measure\modify_measure_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multiple items in item matrix">
+      <param name="Name" value="Modify Multiple Items">
+      <param name="Local" value="creating-matrix-group-and-matrix-items\modify_multiple_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="promotional pricing scheme">
+      <param name="Name" value="Modify a Promotional Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\promotional-pricing\modify_a_promotional_pricing_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="promotions">
+      <param name="Name" value="Modify a Promotion">
+      <param name="Local" value="item-profile-details\item-pricing\promotions\modify_a_promotion.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity discount details">
+      <param name="Name" value="Modify Quantity Discount Details">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-discounts\modify_quantity_discount_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="special pricing scheme">
+      <param name="Name" value="Modify a Special Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\modify_a_special_pricing_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="third party catalog">
+      <param name="Name" value="Modify a Third Party Catalog">
+      <param name="Local" value="third-party-speciality-catalogs\modify_a_third_party_catalog_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="more choices tab">
+    <param name="Name" value="The Find Items Dialog Box - More Choices">
+    <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_more_choices.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find items dialog box">
+      <param name="Name" value="The Find Items Dialog Box - More Choices">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_more_choices.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="net free stock tab">
+    <param name="Name" value="The Item Flow Control Dialog Box - Net Free Stock">
+    <param name="Local" value="misc\the_flow_control_setup_dialog_box_net_free_stock_mi.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="flow control setup dialog box">
+      <param name="Name" value="The Item Flow Control Dialog Box - Net Free Stock">
+      <param name="Local" value="misc\the_flow_control_setup_dialog_box_net_free_stock_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="non-inventoried items">
+    <param name="Name" value="Non-Inventoried Items">
+    <param name="Local" value="item-profile-details\inventory-type\non-inventoried\non_inventoried.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="non-serialized items">
+    <param name="Name" value="Non-Serialized Items">
+    <param name="Local" value="item-profile-details\inventory-type\inventoried-item\non_serialized.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="notes">
+    <param name="Name" value="Notes">
+    <param name="Local" value="the-items-browser\information-available\notes_items_browser_option.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="notes details">
+    <param name="Name" value="Notes">
+    <param name="Local" value="item-profile-details\other-items-information\notes\notes.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile">
+      <param name="Name" value="Notes">
+      <param name="Local" value="item-profile-details\other-items-information\notes\notes.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="notes tab">
+    <param name="Name" value="The Item Profile - Notes">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_items_profile_-_notes.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile">
+      <param name="Name" value="The Item Profile - Notes">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_items_profile_-_notes.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser option">
+      <param name="Name" value="Notes">
+      <param name="Local" value="the-items-browser\information-available\notes_items_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="pending credit orders browser">
+    <param name="Name" value="The Pending Credit Orders Browser">
+    <param name="Local" value="misc\the_pending_credit_orders_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="pending debit orders browser">
+    <param name="Name" value="The Pending Debit Orders Browser">
+    <param name="Local" value="misc\the_pending_debit_orders_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="pending purchase/work orders browser">
+    <param name="Name" value="The Pending Purchase/Work Orders Browser">
+    <param name="Local" value="misc\the_pending_purchase_orders_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="pending sales orders/work orders browser">
+    <param name="Name" value="The Pending Sales Orders/Work Orders Browser">
+    <param name="Local" value="misc\the_pending_sales_orders_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="percent markup on cost">
+    <param name="Name" value="Percent Markup on Cost">
+    <param name="Local" value="item-profile-details\item-pricing\pricing-calculations\percent_markup_on_cost.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="period purchase tab">
+    <param name="Name" value="Period Purchase">
+    <param name="Local" value="misc\period_purchase_item_summary_dialog.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item summary dialog box">
+      <param name="Name" value="Period Purchase">
+      <param name="Local" value="misc\period_purchase_item_summary_dialog.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="period sales tab">
+    <param name="Name" value="Period Sales">
+    <param name="Local" value="misc\period_sales_item_summary_dialog.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item summary dialog box">
+      <param name="Name" value="Period Sales">
+      <param name="Local" value="misc\period_sales_item_summary_dialog.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="price calculations">
+    <param name="Name" value="Price Calculations">
+    <param name="Local" value="item-profile-details\item-pricing\pricing-calculations\price_calculations.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="based on sales total">
+      <param name="Name" value="Based on Sales Total">
+      <param name="Local" value="item-profile-details\item-pricing\pricing-calculations\based_on_sales_total.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="fixed price">
+      <param name="Name" value="Fixed Price">
+      <param name="Local" value="item-profile-details\item-pricing\pricing-calculations\fixed_price.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="percent markup on cost">
+      <param name="Name" value="Percent Markup on Cost">
+      <param name="Local" value="item-profile-details\item-pricing\pricing-calculations\percent_markup_on_cost.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="price differential dialog box">
+    <param name="Name" value="The Price Differential Dialog Box">
+    <param name="Local" value="misc\price_differential_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="price differentials">
+    <param name="Name" value="Define a Price Differential Formula">
+    <param name="Local" value="misc\setting_up_a_price_differential_formula.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="define price differential formula">
+      <param name="Name" value="Define a Price Differential Formula">
+      <param name="Local" value="misc\setting_up_a_price_differential_formula.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="dialog box">
+      <param name="Name" value="The Price Differential Dialog Box">
+      <param name="Local" value="misc\price_differential_dialog_box.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="update">
+      <param name="Name" value="Update Price Differentials">
+      <param name="Local" value="misc\update_price_differentials.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="pricing for an item matrix group">
+    <param name="Name" value="Pricing for an Item Matrix Group">
+    <param name="Local" value="creating-matrix-group-and-matrix-items\pricing\pricing_for_an_item_matrix_group.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="profile">
+    <param name="Name" value="The Promotion Profile">
+    <param name="Local" value="item-profile-details\item-pricing\promotions\the_promotion_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="promotion">
+      <param name="Name" value="The Promotion Profile">
+      <param name="Local" value="item-profile-details\item-pricing\promotions\the_promotion_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="promotional pricing">
+    <param name="Name" value="Promotional Pricing">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\promotional-pricing\promotional_pricing.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="promotional pricing dialog box">
+    <param name="Name" value="The Promotional Pricing Dialog Box">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\promotional-pricing\promotional_pricing_general_tab.html">
+    <param name="WindowName" value="Second">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="define">
+      <param name="Name" value="Define a Promotional Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\promotional-pricing\setting_up_a_promotional_pricing_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue Promotional Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\promotional-pricing\discontinue_promotional_pricing_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify a Promotional Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\promotional-pricing\modify_a_promotional_pricing_scheme.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="promotional pricings browser">
+    <param name="Name" value="The Promotional Pricings Browser">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\promotional-pricing\promotional_pricings_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="promotions">
+    <param name="Name" value="Promotions">
+    <param name="Local" value="misc\promotions.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="Promotion Browser">
+      <param name="Local" value="item-profile-details\item-pricing\promotions\promotion_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="details">
+      <param name="Name" value="Promotion Details">
+      <param name="Local" value="item-profile-details\item-pricing\promotions\promotion_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue a Promotion">
+      <param name="Local" value="misc\discontinue_a_promotion.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify a Promotion">
+      <param name="Local" value="item-profile-details\item-pricing\promotions\modify_a_promotion.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Promotion Profile">
+      <param name="Local" value="item-profile-details\item-pricing\promotions\the_promotion_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="promotion campaign profitability browser">
+      <param name="Name" value="Promotion Campaign Profitability Browser">
+      <param name="Local" value="misc\promotion_campaign_profitability_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="set up">
+      <param name="Name" value="Set up Promotion">
+      <param name="Local" value="item-profile-details\item-pricing\promotions\set_up_promotion.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view and activate discontinued promotions">
+      <param name="Name" value="View and Activate a Discontinued Promotion">
+      <param name="Local" value="misc\view_and_activate_a_discontinued_promotion.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchase activities">
+    <param name="Name" value="Purchase Activities">
+    <param name="Local" value="misc\purchase_activities_item_summary_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item summary dialog box">
+      <param name="Name" value="Purchase Activities">
+      <param name="Local" value="misc\purchase_activities_item_summary_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchase info tab">
+    <param name="Name" value="The Find Items Dialog Box - Purchase Info">
+    <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_purchase_info.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find items dialog box">
+      <param name="Name" value="The Find Items Dialog Box - Purchase Info">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_purchase_info.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchase measure">
+    <param name="Name" value="Purchase Measure">
+    <param name="Local" value="item-profile-details\other-items-information\purchase\measure_pur.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchases tab">
+    <param name="Name" value="The Item Profile - Purchases">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_items_profile_-_purchases.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile">
+      <param name="Name" value="The Item Profile - Purchases">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_items_profile_-_purchases.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity columns in the items browser">
+    <param name="Name" value="Quantity Columns in the Items Browser">
+    <param name="Local" value="misc\quantity_columns_in_the_items_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity discount dialog box">
+    <param name="Name" value="The Quantity Discount Dialog Box">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-discounts\profile_quantity_discount_general_tab.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity discounts">
+    <param name="Name" value="Quantity Discounts">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-discounts\quantity_discounts.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity discounts browser">
+    <param name="Name" value="The Quantity Discounts Browser">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-discounts\quantity_discounts_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="define">
+      <param name="Name" value="Define Quantity Discounts">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-discounts\setting_up_a_quantity_discount_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue Quantity Discount Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-discounts\discontinue_quantity_discount_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify Quantity Discount Details">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-discounts\modify_quantity_discount_details.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity entry method">
+    <param name="Name" value="Quantity Entry Method">
+    <param name="Local" value="item-profile-details\other-items-information\purchase\quantity_entry_method.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="decimal">
+      <param name="Name" value="Quantity Entry Method">
+      <param name="Local" value="item-profile-details\other-items-information\purchase\quantity_entry_method.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="fractional">
+      <param name="Name" value="Quantity Entry Method">
+      <param name="Local" value="item-profile-details\other-items-information\purchase\quantity_entry_method.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity pricing">
+    <param name="Name" value="Quantity Pricing">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-pricing\quantity_pricing.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity pricing dialog box">
+    <param name="Name" value="The Quantity Pricing Dialog Box">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-pricing\quantity_pricing_item_fd.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="define">
+      <param name="Name" value="Define a Quantity Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\quantity-pricing\setting_up_a_quantity_pricing_scheme.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="query tab">
+    <param name="Name" value="The Find Items Dialog Box - Query">
+    <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_query.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find items dialog box">
+      <param name="Name" value="The Find Items Dialog Box - Query">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_query.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quick find tab">
+    <param name="Name" value="The Find Items Dialog Box - Quick Find">
+    <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_quick_find.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find items dialog box">
+      <param name="Name" value="The Find Items Dialog Box - Quick Find">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_quick_find.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="ratios">
+    <param name="Name" value="Ratios">
+    <param name="Local" value="misc\ratios_item_summary_dialog.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="regular item">
+    <param name="Name" value="Create a Regular Item">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\setting_up_an_item.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create a Regular Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\setting_up_an_item.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="regular Items">
+    <param name="Name" value="Assembly Items">
+    <param name="Local" value="item-profile-details\item-types\assembly\assembly.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assembly items">
+      <param name="Name" value="Assembly Items">
+      <param name="Local" value="item-profile-details\item-types\assembly\assembly.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item kits">
+      <param name="Name" value="Item Kits">
+      <param name="Local" value="item-profile-details\item-types\kits\kits.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item types">
+      <param name="Name" value="Regular Items">
+      <param name="Local" value="misc\regular_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="related items">
+    <param name="Name" value="Related Items">
+    <param name="Local" value="the-items-browser\other-options\related_items.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="related items browser">
+    <param name="Name" value="Related Items Browser">
+    <param name="Local" value="misc\related_items_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="related items profile">
+    <param name="Name" value="The Related Items Profile">
+    <param name="Local" value="misc\the_related_items_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="Related Items Browser">
+      <param name="Local" value="misc\related_items_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="computation of upgrade price flow chart">
+      <param name="Name" value="Computation of Item Upgrade/Downgrade Price - Flowchart">
+      <param name="Local" value="misc\computation_of_item_upgrade_downgrade_price_flowchart.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="computation of upgrade/downgrade price">
+      <param name="Name" value="Computation of Upgrade/Downgrade Price">
+      <param name="Local" value="misc\computation_of_upgrade_downgrade_price.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create price differential formula">
+      <param name="Name" value="Define a Price Differential Formula">
+      <param name="Local" value="misc\setting_up_a_price_differential_formula.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Related Items Profile">
+      <param name="Local" value="misc\the_related_items_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="set up">
+      <param name="Name" value="Set up Related Items">
+      <param name="Local" value="misc\set_up_related_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="update price differentials">
+      <param name="Name" value="Update Price Differentials">
+      <param name="Local" value="misc\update_price_differentials.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="right-click menu options">
+    <param name="Name" value="Right-click Menu Options - Assembly - Scrap Tab">
+    <param name="Local" value="misc\right_click_menu_options_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assembly - scrap tab">
+      <param name="Name" value="Right-click Menu Options - Assembly - Scrap Tab">
+      <param name="Local" value="misc\right_click_menu_options_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="right click menu options">
+    <param name="Name" value="Right-click Menu Options - Assembly - Input Tab">
+    <param name="Local" value="misc\right_click_menu_options_assembly_input_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assembly - input tab">
+      <param name="Name" value="Right-click Menu Options - Assembly - Input Tab">
+      <param name="Local" value="misc\right_click_menu_options_assembly_input_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales activities">
+    <param name="Name" value="Sales Activities">
+    <param name="Local" value="misc\sales_activities_item_summary_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item summary dialog box">
+      <param name="Name" value="Sales Activities">
+      <param name="Local" value="misc\sales_activities_item_summary_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales info">
+    <param name="Name" value="The Find Items Dialog Box - Sales Info">
+    <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_sales_info.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find items dialog box">
+      <param name="Name" value="The Find Items Dialog Box - Sales Info">
+      <param name="Local" value="finding-items\create-a-new-item-filter\find-items-dialog-box\the_find_items_dialog_box_sales_info.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales measure">
+    <param name="Name" value="Sales Measure">
+    <param name="Local" value="item-profile-details\other-items-information\sales\sales_measure_sales_info_item_profile.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales price inclusive of tax">
+    <param name="Name" value="Sales Price Inclusive of Tax">
+    <param name="Local" value="item-profile-details\other-items-information\sales\sales_price_inclusive_of_tax.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales tab">
+    <param name="Name" value="The Item Profile - Sales">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_item_profile_-_sales_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile">
+      <param name="Name" value="The Item Profile - Sales">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\the_item_profile_-_sales_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="scrap details grid">
+    <param name="Name" value="Columns in the Scrap Details Grid">
+    <param name="Local" value="misc\columns_in_the_scrap_details_grid.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="scrap tab">
+    <param name="Name" value="The Item Profile - Assembly - Scrap">
+    <param name="Local" value="misc\the_item_profile_assembly_scrap.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item profile - assembly">
+      <param name="Name" value="The Item Profile - Assembly - Scrap">
+      <param name="Local" value="misc\the_item_profile_assembly_scrap.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="select filter browser">
+    <param name="Name" value="Select Filter Browser">
+    <param name="Local" value="misc\select_filter_browser_find_items.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter name">
+      <param name="Name" value="Select Filter Browser">
+      <param name="Local" value="misc\select_filter_browser_find_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="serial numbers">
+    <param name="Name" value="Serial Numbers">
+    <param name="Local" value="misc\serial_numbers_serailized_inventory.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="serialized items">
+    <param name="Name" value="Serialized Items">
+    <param name="Local" value="item-profile-details\inventory-type\inventoried-item\serialized_items.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="make auto-serialized item behave like a serialized item">
+      <param name="Name" value="Making an Auto-serialized Item Behave like a Serialized Item">
+      <param name="Local" value="misc\making_an_auto_serialized_item_behave_like_a_serialized_item.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="set up">
+    <param name="Name" value="Set up Promotion">
+    <param name="Local" value="item-profile-details\item-pricing\promotions\set_up_promotion.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="promotions">
+      <param name="Name" value="Set up Promotion">
+      <param name="Local" value="item-profile-details\item-pricing\promotions\set_up_promotion.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="related items">
+      <param name="Name" value="Set up Related Items">
+      <param name="Local" value="misc\set_up_related_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="special pricing">
+      <param name="Name" value="Set up Special Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\set_up_special_pricing_scheme.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="show documents">
+    <param name="Name" value="Show Documents">
+    <param name="Local" value="the-items-browser\other-options\show_documents_items_browser_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser option">
+      <param name="Name" value="Show Documents">
+      <param name="Local" value="the-items-browser\other-options\show_documents_items_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="show treeview">
+    <param name="Name" value="Show Treeview">
+    <param name="Local" value="the-items-browser\other-options\show_treeview_items_browser_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser option">
+      <param name="Name" value="Show Treeview">
+      <param name="Local" value="the-items-browser\other-options\show_treeview_items_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="special pricing">
+    <param name="Name" value="Special Pricing">
+    <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\special_pricing.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="The Special Pricing Browser">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\the_special_pricing_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="dialog box">
+      <param name="Name" value="The Special Pricing Dialog Box">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\the_special_pricing_dialog_box.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue a Special Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\discontinue_special_pricing_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify a Special Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\modify_a_special_pricing_scheme.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="set up">
+      <param name="Name" value="Set up Special Pricing Scheme">
+      <param name="Local" value="item-profile-details\item-pricing\discounts-and-special-pricing\special-pricing\set_up_special_pricing_scheme.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="specify">
+    <param name="Name" value="Custom Field Details">
+    <param name="Local" value="finding-items\find-item-details\custom-field-details\custom_field_details_find_items_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom field">
+      <param name="Name" value="Custom Field Details">
+      <param name="Local" value="finding-items\find-item-details\custom-field-details\custom_field_details_find_items_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="split and merge a matrix group">
+    <param name="Name" value="Split and Merge a Matrix Group">
+    <param name="Local" value="creating-matrix-group-and-matrix-items\split_and_merge_a_matrix_group_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="stock chart">
+    <param name="Name" value="Stock Chart">
+    <param name="Local" value="the-items-browser\information-available\stock_chart_item_browser_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser option">
+      <param name="Name" value="Stock Chart">
+      <param name="Local" value="the-items-browser\information-available\stock_chart_item_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Stock levels">
+    <param name="Name" value="Stock Levels">
+    <param name="Local" value="misc\stock_levels_item_summary_dialog.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="storefront">
+    <param name="Name" value="Storefront">
+    <param name="Local" value="the-items-browser\other-options\storefront_item_browser_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser option">
+      <param name="Name" value="Storefront">
+      <param name="Local" value="the-items-browser\other-options\storefront_item_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="summary">
+    <param name="Name" value="Summary">
+    <param name="Local" value="the-items-browser\other-options\summary_item_browser_option.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="summary 1 tab">
+    <param name="Name" value="Summary 1">
+    <param name="Local" value="misc\summary_1_item_summary_dialog.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item summary dialog box">
+      <param name="Name" value="Summary 1">
+      <param name="Local" value="misc\summary_1_item_summary_dialog.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="summary 2 tab">
+    <param name="Name" value="Summary 2">
+    <param name="Local" value="misc\summary_2_item_summary_dialog.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item summary dialog box">
+      <param name="Name" value="Summary 2">
+      <param name="Local" value="misc\summary_2_item_summary_dialog.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser option">
+      <param name="Name" value="Summary">
+      <param name="Local" value="the-items-browser\other-options\summary_item_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="The Item Alias Profile - Custom Fields">
+    <param name="Name" value="The Item Alias Profile - Custom Fields">
+    <param name="Local" value="item-alias\the_item_alias_profile_custom_fields.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="third party catalog">
+    <param name="Name" value="Create a Third Party Catalog">
+    <param name="Local" value="third-party-speciality-catalogs\setting_up_a_third_parties.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create a Third Party Catalog">
+      <param name="Local" value="third-party-speciality-catalogs\setting_up_a_third_parties.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue a Third Party Catalog">
+      <param name="Local" value="third-party-speciality-catalogs\discontinue_a_third_party_catalog_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify a Third Party Catalog">
+      <param name="Local" value="third-party-speciality-catalogs\modify_a_third_party_catalog_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view and activate discontinued">
+      <param name="Name" value="View and Activate a Discontinued Third Party Catalog">
+      <param name="Local" value="third-party-speciality-catalogs\view_and_discontinue_a_third_party_catalog_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="third party catalogs browser">
+    <param name="Name" value="The Third Party Catalogs Browser">
+    <param name="Local" value="third-party-speciality-catalogs\third_parties_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="third party profile">
+    <param name="Name" value="The Third Party Profile">
+    <param name="Local" value="third-party-speciality-catalogs\third_party_profile.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="third party specialty catalogs">
+    <param name="Name" value="Third Party Catalogs">
+    <param name="Local" value="third-party-speciality-catalogs\third_party_speciality_catalogs.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="unit fixed price">
+    <param name="Name" value="Unit Fixed Price">
+    <param name="Local" value="misc\unit_fixed_price.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="update">
+    <param name="Name" value="Update Price Differentials">
+    <param name="Local" value="misc\update_price_differentials.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price differentials">
+      <param name="Name" value="Update Price Differentials">
+      <param name="Local" value="misc\update_price_differentials.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="dimensions for items">
+      <param name="Name" value="Item Freight Dialog Box">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\item_freight_dialog_box_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="upgrade/downgrade price">
+    <param name="Name" value="Computation of Upgrade/Downgrade Price">
+    <param name="Local" value="misc\computation_of_upgrade_downgrade_price.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="computation">
+      <param name="Name" value="Computation of Upgrade/Downgrade Price">
+      <param name="Local" value="misc\computation_of_upgrade_downgrade_price.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="utility of computing cost as a percent of sale price">
+    <param name="Name" value="Utility of Computing Costs as a Percent of Selling Price">
+    <param name="Local" value="misc\utility_of_computing_costs_as_a_percent_of_selling_price.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="utility of factored costs">
+    <param name="Name" value="Utility of Factored Costs">
+    <param name="Local" value="misc\utility_of_factored_costs.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="view">
+    <param name="Name" value="View and Activate a Discontinued Brand">
+    <param name="Local" value="item-profile-details\item-specification\brand\view_and_activate_a_discontinued_brand_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="view items">
+    <param name="Name" value="View Items">
+    <param name="Local" value="misc\view_items_item_matrix_groups_browser_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item matrix groups browser option">
+      <param name="Name" value="View Items">
+      <param name="Local" value="misc\view_items_item_matrix_groups_browser_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="view matrix">
+    <param name="Name" value="View Matrix">
+    <param name="Local" value="misc\view_matrix_item_matrix_groups_browser_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item matrix groups browser option">
+      <param name="Name" value="View Matrix">
+      <param name="Local" value="misc\view_matrix_item_matrix_groups_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items browser option">
+      <param name="Name" value="View Matrix">
+      <param name="Local" value="the-items-browser\information-available\view_matrix_item_browser_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued brand">
+      <param name="Name" value="View and Activate a Discontinued Brand">
+      <param name="Local" value="item-profile-details\item-specification\brand\view_and_activate_a_discontinued_brand_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued item">
+      <param name="Name" value="View and Activate a Discontinued Item">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\view_and_activate_a_discontinued_item.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued item alias">
+      <param name="Name" value="View and Activate a Discontinued Item Alias">
+      <param name="Local" value="item-alias\view_and_activate_a_discontinued_item_alias.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued item category">
+      <param name="Name" value="View and Activate a Discontinued Item Category">
+      <param name="Local" value="item-profile-details\item-categories\view_and_activate_a_discontinued_item_category.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued manufacturer">
+      <param name="Name" value="View and Activate a Discontinued Manufacturer">
+      <param name="Local" value="item-profile-details\item-specification\manufacturer\view_and_activate_a_discontinued_manufacturer_mi.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued measure details">
+      <param name="Name" value="View and Activate Discontinued Measure Details">
+      <param name="Local" value="item-profile-details\measure\view_and_activate_discontinued_measure_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued promotions">
+      <param name="Name" value="View and Activate a Discontinued Promotion">
+      <param name="Local" value="misc\view_and_activate_a_discontinued_promotion.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued third party catalog">
+      <param name="Name" value="View and Activate a Discontinued Third Party Catalog">
+      <param name="Local" value="third-party-speciality-catalogs\view_and_discontinue_a_third_party_catalog_mi.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="freight rates with multiple rate definitions">
+    <param name="Name" value="Freight Calculations">
+    <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item\how_everest_calculates_freight_rates_mi.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="how do I">
+    <param name="See Also" value="how do I">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discount a kit?">
+      <param name="Name" value="How Do I Discount a Kit?">
+      <param name="Local" value="create-regular-items-kits-and-assemblies\creating-an-item-kit\how_do_i_discount_a_kit_mi.html">
+    </object>
+    </ul>
+</ul>
+</html>

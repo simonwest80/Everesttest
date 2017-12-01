@@ -1,0 +1,152 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-documents-dialog-box---pricingdiscounts">The Documents Dialog Box - Pricing/Discounts</h1>
+
+<p>The <strong>Pricing/Discounts</strong>  tab defines flow control preferences to determine the use of pricing and  discounts in documents. <strong>Everest</strong>  automatically executes the specified pricing/discount option or prompts  the user for inputs for pricing/discount options as set and enabled in  this tab.</p>
+
+<p>The options for pricing/discount settings are:</p>
+
+<ul>
+  <li><a href="/versata-everest-docs/business-processes-in-everest/misc/when_applying_document_discounts_how_should_the_discount_be_applied_.html">When  applying document discounts how should the discount be applied?</a></li>
+  <li><a href="/versata-everest-docs/business-processes-in-everest/misc/behaviour_for_price_column_if_quantity_is_changed_and_a_new_price_is_available.html">Behavior  for price column if quoted/ordered quantity is changed and new price is  available</a></li>
+  <li><a href="/versata-everest-docs/business-processes-in-everest/misc/customer_level_price_to_override_list_price_for_price_calculation.html">Customer  level price to override list price for price calculation</a></li>
+  <li><a href="/versata-everest-docs/business-processes-in-everest/misc/automatically_apply_item_discounts_applicable_to_a_customer_when_retrieving_the_item_bp.html">Automatically  apply item discounts applicable to a customer when retrieving the item  on a document</a></li>
+  <li><a href="/versata-everest-docs/business-processes-in-everest/misc/ignore_special_pricing_for_matrix_groups_and_element_tracking_bp.html">Ignore  special pricing for matrix groups and element tracking</a></li>
+</ul>
+
+<p>The <strong>Pricing/Discounts</strong>  tab provides preference settings to determine if price or discount % type  discount should be applied.</p>
+
+<dl>
+  <dt><strong>When applying document discounts how should the  discount be applied?</strong></dt>
+  <dd>This field identifies how global discounts are applied.  You can select <strong>Options &gt;</strong> <strong>Document</strong> &gt; <strong>Document 
+ Discount</strong> from the sales document profile and specify the discount  percent. When applying discounts in sales documents, you can reduce the  <strong>Item Price</strong>, or retain the item  price and display the Discount Amount applied. Select one of the following  options to apply the document discount:</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Option</strong></td>
+      <td><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td>Discount%</td>
+      <td>The discount amount and percentage are displayed in the respective columns  for each item in the document.</td>
+    </tr>
+    <tr>
+      <td>Price</td>
+      <td>The item price displayed in the document is reduced by the discount  amount. The discount columns do not display any values.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="example"><strong>A company allows a discount of 3% on total  bill amount while another company gives a discount price of $25 on the  total bill amount if the bill amount exceeds $250. The settings allow  you to select the correct option.</strong></p>
+
+<dl>
+  <dt><strong>Behavior for price column if quoted/ ordered  quantity is changed and new price is available</strong></dt>
+  <dd><strong>Everest</strong>  allows you to define how should the price alter when the quoted/ordered  quantity is changed and new price is available.</dd>
+  <dt><strong>A company orders a pack of 100 CD-ROMs at  a price of $75. It later changes the order to 10 packs of 1000 CD-ROMs.  The vendor gives a special discount price of $700 instead of $750. Various  options are available as shown below to apply pricing in such an instance.</strong></dt>
+  <dd>The price applicable to an item is calculated after  considering all pricing schemes when you retrieve the item into the sales  document. If the quantity of an item is changed and thus another price  becomes applicable to the item, the price may be changed automatically  or <strong>Everest</strong> may prompt you depending  on the option selected in this field. <strong>Everest</strong>  provides you with the following options:</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Option</strong></td>
+      <td><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td>Do not change</td>
+      <td>Price on the document will not be updated even if there  is a difference between the item price on the document and the new price  that becomes applicable.</td>
+    </tr>
+    <tr>
+      <td>Auto change</td>
+      <td>The price on the document will automatically be updated  as per the new price that becomes applicable. By default, this will be  selected.</td>
+    </tr>
+    <tr>
+      <td>Prompt before change</td>
+      <td>Prompts you when there is a price change.</td>
+    </tr>
+    <tr>
+      <td>Auto-change only if new price is lower</td>
+      <td>The document price will automatically be updated only  if the new price is lower. If the new price is higher, the existing line  item price on the document is retained.</td>
+    </tr>
+    <tr>
+      <td>Auto-change only if new price is higher</td>
+      <td>The document price will automatically be updated only  if the new line item price is higher. If the new price is lower, the existing  line item price on the document is retained.</td>
+    </tr>
+    <tr>
+      <td>Auto-change if new price is lower, Prompt if new price is higher</td>
+      <td>Prompts for the change in price only when the new price  is higher than the price on the document. Otherwise it will automatically  update the document price.</td>
+    </tr>
+    <tr>
+      <td>Auto-change if new price is higher, Prompt if new price is lower</td>
+      <td>Prompts for the change in price only when the new price  is lower than the price on the document. Otherwise it will automatically  update the document price.</td>
+    </tr>
+    <tr>
+      <td>Do not change if new price is higher, Prompt if new price is lower</td>
+      <td>Prompts for the change in price only when the new price  is lower than the price on the document. Otherwise the document price  will not be updated.</td>
+    </tr>
+    <tr>
+      <td>Do not change if new price is lower, Prompt if new price is higher</td>
+      <td>Prompts for the change in price only when the new price  is higher than the price on the document. Otherwise the document price  will not be updated.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">This option is applicable only if the quoted or ordered quantity is  changed in a sales document. It is not applicable when a sales order is  converted to a sales invoice and the shipped quantity is altered, and  when there is a change in the ordered quantity for a partially shipped  sales document.</p>
+
+<dl>
+  <dt><strong>Customer level price to override list price for  price calculation</strong></dt>
+  <dd>This option alters the manner in which the least  price is determined in sales orders and invoices. <strong>Everest</strong>  considers five types of pricing to arrive at the least price:</dd>
+</dl>
+
+<ul>
+  <li>List price  (Fixed price/Mark up)</li>
+  <li>Customer level  price</li>
+  <li>Quantity pricing</li>
+  <li>Promotional  pricing</li>
+  <li>Special pricing  (Discount percent from least price/ Discount fixed amount from least price/Fixed  price/Markup over last landed cost/Mark up over average cost/Fixed amount  over cost/ Level pricing)</li>
+</ul>
+
+<dl>
+  <dt>: If this option is not checked, the least of the  above five prices is considered.</dt>
+  <dd>If this option is selected, the List Price is overridden  with the Customer Level Price if it is defined and only Customer Level  price, Quantity pricing, Promotional pricing, and Special pricing are  considered to arrive at the least price.</dd>
+  <dd>If this option is selected and a Customer Level  price is not defined, only the List Price, Quantity Pricing, Promotional  pricing, and Special pricing are considered to arrive at the least price.</dd>
+  <dd>Click the following link to view an example:</dd>
+</dl>
+
+<ul>
+  <li><a href="/versata-everest-docs/business-processes-in-everest/misc/example_customer_level_price_to_override_list_price_for_price_calc_pur.html">Example  - Customer level price to override list price for price calculation</a></li>
+</ul>
+
+<dl>
+  <dt><strong>Automatically apply item discounts applicable  to a customer when retrieving the item on a document</strong></dt>
+  <dd>This option automatically applies item discounts  based on special pricing rules or quantity discounts for selected customer  levels, when items are retrieved into a sales document. The discounts  related to items are defined in the <strong>Sales</strong>  tab of the <strong>Item</strong> profile (path:  <strong>Inventory &gt; Items &gt; Options &gt; 
+ Edit &gt; In New Window</strong>).</dd>
+  <dd><img src="/versata-everest-docs/business-processes-in-everest/img/lens.gif" alt="" />  <a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item/setting_up_an_item.html">Item  Profile</a></dd>
+</dl>
+
+<p class="example"><strong>Item discounts are set for special items like  computer consumables for customers who place bulk orders.  </strong>Everest**  allows you to apply the special pricing allowed for the customer when  such an item is pulled into a document.**</p>
+
+<dl>
+  <dt><strong>Ignore special pricing for matrix groups and  element tracking</strong></dt>
+  <dd>Check this box to exclude special pricing rules  that have been assigned to matrix groups or custom tracking assigned to  matrix elements.</dd>
+  <dd><img src="/versata-everest-docs/business-processes-in-everest/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/creating-matrix-group-and-matrix-items/pricing/special_pricing_for_an_item_matrix_group_mi.html">Special  Pricing for an Item Matrix Group</a></dd>
+</dl>
+
+<p class="example"><strong>A garment company sells more than 10,000 varieties  of garments which are inventoried as matrix groups/items. The company  also sells 50 different items as accessories. For setting a special discount  only for the accessories, apply special pricing to all the items in the  **Special Pricing</strong> browser (path:  <strong>Inventory</strong> &gt; <strong>Discounts</strong>  &gt; <strong>Special Pricing</strong>), and select  this checkbox to ignore the special pricing for the matrix groups.**</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/doc-frm/the_flow_control_setup_dialog_box_businesss_process_in_everest_content.html">Document  Flow Control Details</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/opt/setting_flow_control_options.html">Set Flow  Control Options for Documents</a></dd>
+</dl>
+
+
+
+
+</div>

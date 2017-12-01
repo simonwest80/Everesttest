@@ -1,0 +1,57 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="price-protection-details">Price Protection Details</h1>
+
+<p>The following information relates specifically to the <strong>Price 
+ Protection</strong> profile (path: <strong>Inventory 
+ &gt; Inventory Adjustment &gt; Price Protection &gt; Options &gt; New 
+ &gt; In New Window &gt; Price Protection</strong> profile).</p>
+
+<p>Vendor Information</p>
+
+<dl>
+  <dt><strong>Vendor Code/Vendor Name</strong></dt>
+  <dd>The vendor code identifies the vendor who has to  be debited or credited with the inventory adjustment amount. When you  enter the vendor code, the corresponding name is displayed in the <strong>Vendor Name</strong> field.</dd>
+  <dt><strong>Document #</strong></dt>
+  <dd>Price protection results in an increase or decrease  in Accounts Payable. A manual purchase document is created with the document  number prefixed by ‘M’  for the inventory adjustment amount.</dd>
+  <dd>If the vendor has to be credited for the increase  in purchase cost, then a manual purchase invoice is created. If the vendor  has to be debited for the decrease in purchase cost, then a manual debit  memo is created.</dd>
+  <dt><strong>Current Stock</strong></dt>
+  <dd>The total quantity of the selected item available  from all the stock areas is displayed in this column.</dd>
+  <dt><strong>Quantity</strong></dt>
+  <dd>The quantity for price protection is the quantity  of the item for which you make price protection</dd>
+</dl>
+
+<p>Currency Information</p>
+
+<dl>
+  <dt><strong>Vendor currency</strong></dt>
+  <dd>The currency of the vendor (which is also the document  currency) as defined in the <strong>Vendor</strong>  profile (path: <strong>Purchasing &gt; Vendors</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In New Window</strong> &gt;  <strong>Multicurrency</strong>tab) is displayed.</dd>
+  <dt><strong>Source Currency</strong></dt>
+  <dd>The source currency depends on the <strong>Quote 
+ Type</strong> specified in the <strong>Currency</strong>  profile (path: <strong>File &gt; Setup &gt; Accounting 
+ &gt; Multi currency &gt; Currency</strong>). If the rate is expressed from  <strong>foreign to base</strong>, then the source  currency displayed is the vendor currency. If the rate is expressed from  <strong>base to foreign</strong>, the base currency  is displayed in this field.</dd>
+  <dt><img src="/versata-everest-docs/warehouse-management/img/example.gif" alt="example.gif" /> Based  on the example given in the <a href="/versata-everest-docs/accounting/vendor-payments-and-refunds/foreign-currency-payments/cross_currency_calculations.html">Cross  Currency Calculations</a> section, if GBP  is expressed in terms of USD  (i.e. the quote type is foreign to base), GBP  is displayed as the source currency.</dt>
+  <dd>If USD  is expressed in terms of GBP  (i.e. the quote type is base to foreign), USD  is displayed as the source currency.</dd>
+  <dt><strong>Exchange Rate</strong></dt>
+  <dd>The current exchange rate defined in <strong>Exchange 
+ Rate</strong> profile (path: <strong>File &gt; 
+ Setup &gt; Accounting &gt; Multicurrency &gt; Exchange Rates</strong>) between  the vendor currency and the base is displayed.</dd>
+  <dd>You can change this rate if required. Correspondingly,  the foreign amount of the vendor currency section changes. The transaction  amount for the journal entry in the <strong>General</strong>  tab also changes. <strong>Everest</strong> determines  whether the Buy Rate/Sell Rate should be used depending on the setting  in the <strong>Rate for Purchase Documents</strong>  field (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Defaults &gt; Accounting &gt; Multicurrency &gt; Exchange Rates</strong>).</dd>
+  <dt><strong>Destination Currency</strong></dt>
+  <dd>The destination currency depends on the <strong>Quote 
+ Type</strong> specified in the <strong>Currency</strong> profile. If the rate is expressed from <strong>foreign 
+ to base</strong>, then the destination currency displayed is the base currency.  If the rate is expressed from <strong>base to 
+ foreign</strong>, the vendor currency is displayed in this field.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/inv-adj/price-protection/create-a-price-protection-document/the_price_protection_profile.html">The Price  Protection Profile</a></dd>
+</dl>
+
+
+
+
+</div>

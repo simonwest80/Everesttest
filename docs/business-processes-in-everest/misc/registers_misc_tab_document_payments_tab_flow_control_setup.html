@@ -1,0 +1,61 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="registers">Registers</h1>
+
+<dl>
+  <dt><strong>Cash register to use while making collection/refund  on regular sales document</strong></dt>
+  <dd>Use this field to select the preference for using  cash registers to account for collections and refunds against non-Point  of Sale sales documents. The options selected affect cash register selection  in <strong>Receipt</strong>, <strong>Refund</strong>  and <strong>Collection</strong> dialog boxes.</dd>
+  <dd><img src="/versata-everest-docs/business-processes-in-everest/img/example.gif" alt="" />  If  you attach a cash register to a sales invoice, any amount collected on  that invoice will get updated in the cash register.</dd>
+  <dd>The options available  are:</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>None</strong></td>
+      <td>Does not select any cash register for the document amount. The <strong>Cash Register</strong> field in the <strong>Receipt</strong>,  <strong>Refund</strong> and <strong>Collection</strong>  dialog boxes is disabled.</td>
+    </tr>
+    <tr>
+      <td><strong>User-based</strong></td>
+      <td>The <strong>Cash Register</strong> field in the  <strong>Receipt</strong>, <strong>Refund</strong>  and <strong>Collection</strong> dialog boxes uses  the register that is set up in the User profile for the logged in user.</td>
+    </tr>
+    <tr>
+      <td>Default</td>
+      <td>The <strong>Cash Register</strong> field in the  <strong>Receipt</strong>, <strong>Refund</strong>  and <strong>Collection</strong> dialog boxes uses  the register that is set up in the <strong>Default <br /> Cash Register</strong> option in the document default preferences.</td>
+    </tr>
+    <tr>
+      <td>Other</td>
+      <td>The <strong>Cash Register</strong> field in the  <strong>Receipt</strong>, <strong>Refund</strong>  and <strong>Collection</strong> dialog boxes allows  you to select from the available cash registers.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: The cash registers which are available and displayed  in the drop-down list, are based on the following rules:</p>
+
+<ul>
+  <li>If the logged in  user is assigned a cash register, that cash register will be available  for selection in the drop-down list.</li>
+  <li>If the logged in  user is not assigned any cash registers, the list of cash registers attached  to the user’s location/sub-location and all cash registers that are not  assigned to any location/sub-location will be displayed.</li>
+  <li>If the user is  not assigned to any location/sub-location, the list of cash registers  available for the login location/sub-location and all other cash registers  that are not assigned to any location/sub-location will be displayed.</li>
+</ul>
+
+<dl>
+  <dt><strong>Default Cash Register</strong></dt>
+  <dd>Use this field to define the default cash register  to account for collections and refunds from the non-Point Of Sale sales  documents.</dd>
+  <dd>When you select the option <strong>Default</strong>  from the <strong>Cash register to use while making 
+ collection/refund on regular sales document</strong> field, and define a  cash register in this option, it is automatically used to transfer payments  on invoicing documents.</dd>
+  <dd><img src="/versata-everest-docs/business-processes-in-everest/img/example.gif" alt="" />  You  select “Cash Register 1” as the default register in the <strong>Cash 
+ register to use while making collection/refund on regular sales document</strong>  option and create a sales order on which you receive a deposit from your  customer, the deposit received is automatically associated with Cash Register  1.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/doc-frm/misc/document_payments_business_process_contents.html">Document  Payments</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/doc-frm/misc/flow_control_setup_dialog_box_miscellaneous_tab_con.html">Documents  Dialog Box - Miscellaneous</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/opt/setting_flow_control_options.html">Setting  up Flow Control Options</a></dd>
+</dl>
+
+
+
+
+</div>

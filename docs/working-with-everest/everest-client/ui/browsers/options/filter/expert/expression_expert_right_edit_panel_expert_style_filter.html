@@ -1,0 +1,75 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="expression-expert---right-edit-panel">Expression Expert - Right (Edit) Panel</h1>
+
+<p>This panel displays the queries that you build, by using parameters  from the left panel.</p>
+
+<p class="example">To filter the <strong>Customers</strong> browser  for customers whose first name is Brad, you must define the following  query, by selecting the required parameters from the left panel of the  <strong>Expression Expert</strong> dialog box:</p>
+
+<p>brwcol.first_name  like ‘%Brad%’</p>
+
+<p>The query is displayed in the <strong>Edit 
+ Panel</strong>. Click <strong>OK</strong> to save  the query. The <strong>Filter Name</strong> dialog  box is displayed. Specify a name for the newly created <strong>Expert 
+ Style</strong> filter, and click <strong>OK</strong>.  You will see the <strong>Filters</strong> dialog  box. Click <strong>Apply</strong> to run the filter.</p>
+
+<p>The Customers browser displays only those customers whose first name  is Brad.</p>
+
+<p><img src="/versata-everest-docs/working-with-everest/img/note.gif" alt="" />Only the records displayed in the browser are filtered.  To filter all the records using the specified criteria, you must first  display all the records in the browser, by using the <strong>Get 
+ All</strong> option.</p>
+
+<p>The following message is displayed above the browser’s status bar:</p>
+
+<p><img src="/versata-everest-docs/working-with-everest/img/expert style filter first name brad.bmp" alt="" /></p>
+
+<p>To further filter the records in the browser, or modify the filter,  double-click the filter details and define additional conditions in the  <strong>Edit Panel</strong>. Click<img src="/versata-everest-docs/working-with-everest/img/x.bmp" alt="" /> to clear the filter that has been applied to the browser.</p>
+
+<p class="steps">To define the above mentioned condition,  do the following:</p>
+
+<ul>
+  <li>From the main  menu, select <strong>Invoicing &gt; Customers</strong>.  You will see the <strong>Customers</strong> browser.</li>
+  <li>Click the <strong>Expert Style Filter</strong> <img src="/versata-everest-docs/working-with-everest/img/wwe_standard_browser_options_expert_style_filter.gif" alt="" /> icon.  You will see the <strong>Filters</strong> dialog  box.</li>
+  <li>Click the drop-down  arrow beside the <strong>Add</strong> button. Select  <strong>Expert Style</strong> from the drop-down  list.</li>
+  <li>You will see  the <strong>Expression Expert</strong> dialog box.</li>
+  <li>From the <strong>Left</strong> Panel, select BrwCol.FIRST_NAME,  by clicking the  icon  beside it. The parameter is added to the <strong>Right 
+ (Edit) Panel</strong>.</li>
+  <li>Double-click <strong>Common 
+ SQL Syntaxes 
+ &gt; Reserved Words</strong>. You will see the reserved words that can be  used.</li>
+  <li>Click LIKE. The word is added to the <strong>Right 
+ (Edit) Panel</strong>. You can also enter the word.</li>
+  <li>Double-click <strong>Common 
+ SQL Syntaxes 
+ &gt; Operators &gt; Strings</strong>. You will see the strings that can  be used.</li>
+  <li>Click ‘(Single Quote). The string is added to  the <strong>Right (Edit) Panel</strong>. You can  also enter the single quote.</li>
+  <li>Double-click <strong>Common 
+ SQL Syntaxes 
+ &gt; Operators &gt; Arithmetic</strong>. You will see the arithmetic operators  that can be used.</li>
+  <li>Click %(Modulo).  The operator is added to the <strong>Right (Edit) 
+ Panel</strong>. You can also enter the operator.</li>
+  <li>Enter Brad in the <strong>Right 
+ (Edit) Panel</strong>.</li>
+  <li>Add %(Modulo)  and ‘(Single Quote) to complete the query, using the same procedure.</li>
+  <li>Click <strong>OK</strong>. You will see the <strong>Filter 
+ Name</strong> dialog box.</li>
+  <li>Specify a name  for the newly created <strong>Expert Style</strong>  filter, and click <strong>OK</strong>.</li>
+  <li>You will see  the <strong>Filters</strong> dialog box. Click  <strong>Apply</strong> to run the filter.</li>
+  <li>The browser  lists records that meet the selection criteria specified.</li>
+</ul>
+
+<p>Similarly, you can add more parameters to the <strong>Expert 
+ Style</strong> query, to narrow your search.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/working-with-everest/misc/the_expression_expert_dialog_box.html">The  Expression Expert Dialog Box</a></dd>
+  <dd><a href="/versata-everest-docs/working-with-everest/misc/the_filters_dialog_box.html">The Filters  Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

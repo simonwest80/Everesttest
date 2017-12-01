@@ -1,0 +1,65 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="default-address-for-avs">Default Address for AVS</h1>
+
+<p>The default address to be used for address verification is specified  in this field. The following options are available:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Option</strong></td>
+      <td><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td>Billing address of document</td>
+      <td>The cardholder’s billing address as displayed on the document profile  will be verified.</td>
+    </tr>
+    <tr>
+      <td>Shipping address of document</td>
+      <td>The cardholder’s shipping address as specified in the sales document  profile will be verified. If a shipping address has not been specified  on the document, the billing address will be verified.</td>
+    </tr>
+    <tr>
+      <td>Other</td>
+      <td>The address specified on the <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/cc-pmts/cc-verify-dlg/the_card_verification_dialog_box.html"><strong>Card Verification</strong> dialog box</a> will  be verified.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The <strong>Default address for AVS</strong>  field in the <strong>Credit Card</strong> profile  defaults to the setting made in this field. You can change these settings  on the <a href="/versata-everest-docs/managing-customers/misc/the_credit_card_profile.html"><strong>Credit Card</strong> profile</a> if required.</p>
+
+<p>If you receive payment on a sales document through a new credit card  (one whose details have not been entered in your database), the <strong>Address</strong> and <strong>Zip</strong> fields of the <strong>Card Verification</strong>  dialog box are automatically updated with the address specified in this  field.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Option Selected</strong></td>
+      <td><strong>Address and Zip fields on the Card <br /> Verification dialog box updated with:</strong></td>
+    </tr>
+    <tr>
+      <td>Billing address of document</td>
+      <td>The customer’s billing address as displayed in the sales document profile.</td>
+    </tr>
+    <tr>
+      <td>Shipping address of document</td>
+      <td>The shipping address specified in the <strong>Ship <br /> To</strong> field of the sales document profile. If a shipping address has  NOT been specified in the document profile, the billing address is displayed.</td>
+    </tr>
+    <tr>
+      <td>Other</td>
+      <td>The <strong>Address</strong> and <strong>Zip</strong>  fields are left blank.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/misc/miscellaneous_others_others_2_steps.html">Others  2 Tab - Documents Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

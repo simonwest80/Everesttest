@@ -1,0 +1,8 @@
+viewing-tasks-appointments,view-tasks-appointments
+create-a-new-filter,create-new-filter
+the-find-task-appointment-dialog-box,find-task-appointment-dlg
+the-calendar-view-profile,calendar-view-profile
+left-panel-calendar-view-profile,left-panel
+right-panel-calendar-view-profile,right-panel
+right-panel-lower-section,lower-section
+right-panel-upper-section,upper-section

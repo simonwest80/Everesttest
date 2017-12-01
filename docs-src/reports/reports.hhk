@@ -1,0 +1,1585 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Price Sheets">
+    <param name="Name" value="Price Sheets By Category">
+    <param name="Local" value="everest-reports\inventory\price_sheets_by_category_inventory_rep.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="1099-misc">
+    <param name="Name" value="1099-Misc Report Dialog Box">
+    <param name="Local" value="misc\1099_misc_report_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="1099-misc report">
+    <param name="Name" value="1099-Misc Report">
+    <param name="Local" value="everest-reports\financial\1099_misc_report.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="financial">
+      <param name="Name" value="1099-Misc Report">
+      <param name="Local" value="everest-reports\financial\1099_misc_report.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameters">
+      <param name="Name" value="1099-Misc Report Dialog Box">
+      <param name="Local" value="misc\1099_misc_report_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="account payable aging">
+    <param name="Name" value="account payable aging rep">
+    <param name="Local" value="everest-reports\purchasing\account_payable_aging_rep.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="account payable aging rep">
+      <param name="Local" value="everest-reports\purchasing\account_payable_aging_rep.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="account receivable aging">
+    <param name="Name" value="Account Receivable Aging">
+    <param name="Local" value="everest-reports\invoicing\account_receivable_aging_rep.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Account Receivable Aging">
+      <param name="Local" value="everest-reports\invoicing\account_receivable_aging_rep.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounting">
+    <param name="Name" value="General Journals">
+    <param name="Local" value="everest-reports\accounting\general_journals.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general journals">
+      <param name="Name" value="General Journals">
+      <param name="Local" value="everest-reports\accounting\general_journals.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general journals-posted">
+      <param name="Name" value="General Journals (Posted)">
+      <param name="Local" value="everest-reports\accounting\general_journals_posted_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general ledger">
+      <param name="Name" value="General Ledger">
+      <param name="Local" value="everest-reports\accounting\general_ledger.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="payment journal">
+      <param name="Name" value="Payment Journal">
+      <param name="Local" value="everest-reports\accounting\payments_journals.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="payment journal-posted">
+      <param name="Name" value="Payment Journal (Posted)">
+      <param name="Local" value="everest-reports\accounting\payments_journals_posted_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase journal">
+      <param name="Name" value="Purchase Journal">
+      <param name="Local" value="everest-reports\accounting\purchases_journals.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase journal-posted">
+      <param name="Name" value="Purchase Journal (Posted)">
+      <param name="Local" value="everest-reports\accounting\purchases_journals_posted_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="receipt journal">
+      <param name="Name" value="Receipt Journal">
+      <param name="Local" value="everest-reports\accounting\receipts_journals.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="receipt journal-posted">
+      <param name="Name" value="Receipt Journal (Posted)">
+      <param name="Local" value="everest-reports\accounting\receipts_journal_posted_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Accounting Reports">
+      <param name="Local" value="everest-reports\accounting\accounting.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales journal analysis">
+      <param name="Name" value="Sales Journal Analysis">
+      <param name="Local" value="everest-reports\accounting\sales_journal_analysis.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales journals">
+      <param name="Name" value="Sales Journals">
+      <param name="Local" value="everest-reports\accounting\sales_journals.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales journals-posted">
+      <param name="Name" value="Sales Journals (Posted)">
+      <param name="Local" value="everest-reports\accounting\sales_journals_posted_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales tax">
+      <param name="Name" value="Sales Tax">
+      <param name="Local" value="everest-reports\accounting\sales_tax.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accrued purchases report">
+    <param name="Name" value="Accrued Purchases Report">
+    <param name="Local" value="everest-reports\purchasing\accrued_purchases_report_rep.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="average time spent for shopping">
+    <param name="Name" value="Average Shopping Time">
+    <param name="Local" value="everest-reports\e-commerce\average_shopping_time_reports.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="balance sheet">
+    <param name="Name" value="Balance Sheet">
+    <param name="Local" value="everest-reports\financial\balance_sheet.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="financial">
+      <param name="Name" value="Balance Sheet">
+      <param name="Local" value="everest-reports\financial\balance_sheet.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="best customer">
+    <param name="Name" value="Best Customer">
+    <param name="Local" value="everest-reports\invoicing\best_customer.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Best Customer">
+      <param name="Local" value="everest-reports\invoicing\best_customer.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="best item-purchase">
+    <param name="Name" value="Best Item (Purchase)">
+    <param name="Local" value="everest-reports\purchasing\best_item_purchase.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Best Item (Purchase)">
+      <param name="Local" value="everest-reports\purchasing\best_item_purchase.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="best item-sales">
+    <param name="Name" value="Best Item (Sales)">
+    <param name="Local" value="everest-reports\invoicing\best_item_sales_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Best Item (Sales)">
+      <param name="Local" value="everest-reports\invoicing\best_item_sales_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameters">
+      <param name="Name" value="Best Item (Sales) Dialog Box">
+      <param name="Local" value="misc\best_item_sales_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="best vendor">
+    <param name="Name" value="Best Vendor">
+    <param name="Local" value="everest-reports\purchasing\best_vendor_-_reports_-_purch.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Best Vendor">
+      <param name="Local" value="everest-reports\purchasing\best_vendor_-_reports_-_purch.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="chart of accounts">
+    <param name="Name" value="Chart of Accounts">
+    <param name="Local" value="everest-reports\masters\chart_of_accounts.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="masters">
+      <param name="Name" value="Chart of Accounts">
+      <param name="Local" value="everest-reports\masters\chart_of_accounts.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="check register">
+    <param name="Name" value="Check Register">
+    <param name="Local" value="everest-reports\invoicing\check_register.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Check Register">
+      <param name="Local" value="everest-reports\invoicing\check_register.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales rep collection">
+    <param name="Name" value="Collection">
+    <param name="Local" value="everest-reports\invoicing\collection.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Collection">
+      <param name="Local" value="everest-reports\invoicing\collection.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="commission">
+    <param name="Name" value="Export">
+    <param name="Local" value="misc\export_commission_report.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="export">
+      <param name="Name" value="Export">
+      <param name="Local" value="misc\export_commission_report.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="contact manager">
+    <param name="Name" value="Contact Manager">
+    <param name="Local" value="everest-reports\miscellaneous\contact_manager_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="miscellaneous">
+      <param name="Name" value="Contact Manager">
+      <param name="Local" value="everest-reports\miscellaneous\contact_manager_reports.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer list">
+    <param name="Name" value="Customer List">
+    <param name="Local" value="everest-reports\masters\customer_list.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="masters">
+      <param name="Name" value="Customer List">
+      <param name="Local" value="everest-reports\masters\customer_list.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameters">
+      <param name="Name" value="Customer List Dialog Box">
+      <param name="Local" value="misc\customer_list_parameters.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer statements">
+    <param name="Name" value="Customer Statements">
+    <param name="Local" value="everest-reports\invoicing\customer_statements.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Customer Statements">
+      <param name="Local" value="everest-reports\invoicing\customer_statements.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer tracking-group">
+    <param name="Name" value="Customer Tracking (Group Report)">
+    <param name="Local" value="everest-reports\invoicing\customer_tracking_group_report_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Customer Tracking (Group Report)">
+      <param name="Local" value="everest-reports\invoicing\customer_tracking_group_report_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer tracking-selection">
+    <param name="Name" value="Customer Tracking (Selection Report)">
+    <param name="Local" value="everest-reports\invoicing\customer_tracking_selection_report_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Customer Tracking (Selection Report)">
+      <param name="Local" value="everest-reports\invoicing\customer_tracking_selection_report_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer transactions">
+    <param name="Name" value="Customer Transactions">
+    <param name="Local" value="everest-reports\invoicing\customer_transactions.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Customer Transactions">
+      <param name="Local" value="everest-reports\invoicing\customer_transactions.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="data dictionary">
+    <param name="Name" value="Data Dictionary">
+    <param name="Local" value="everest-reports\miscellaneous\data_dictionary.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="miscellaneous">
+      <param name="Name" value="Data Dictionary">
+      <param name="Local" value="everest-reports\miscellaneous\data_dictionary.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameters">
+      <param name="Name" value="Data Dictionary Report Dialog Box">
+      <param name="Local" value="misc\data_dictionary_report_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="detail by brand-serialized">
+    <param name="Name" value="Detail by Brand">
+    <param name="Local" value="everest-reports\inventory\detail_by_brand_serialized_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory">
+      <param name="Name" value="Detail by Brand">
+      <param name="Local" value="everest-reports\inventory\detail_by_brand_serialized_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="document tracking-group">
+    <param name="Name" value="Document Tracking (Group)">
+    <param name="Local" value="everest-reports\invoicing\document_tracking_group_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Document Tracking (Group)">
+      <param name="Local" value="everest-reports\invoicing\document_tracking_group_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="document tracking-selection">
+    <param name="Name" value="Document Tracking (Selection)">
+    <param name="Local" value="everest-reports\invoicing\document_tracking_selection_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Document Tracking (Selection)">
+      <param name="Local" value="everest-reports\invoicing\document_tracking_selection_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="drop-down list">
+    <param name="Name" value="Right-Click Menu Options in the Drop-Down List">
+    <param name="Local" value="common-report-options\drop_down_button_and_menu_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="right-click menu options">
+      <param name="Name" value="Right-Click Menu Options in the Drop-Down List">
+      <param name="Local" value="common-report-options\drop_down_button_and_menu_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="E-Commerce reports">
+    <param name="Name" value="E-Commerce">
+    <param name="Local" value="everest-reports\e-commerce\report_e_commerce.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest">
+    <param name="Name" value="Everest Reports">
+    <param name="Local" value="everest-reports\everest_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports in Everest">
+      <param name="Name" value="Everest Reports">
+      <param name="Local" value="everest-reports\everest_reports.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest reports">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="introduction.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="introduction">
+      <param name="Name" value="Introduction">
+      <param name="Local" value="introduction.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="export">
+    <param name="Name" value="Exporting Reports">
+    <param name="Local" value="misc\exporting_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="commission">
+      <param name="Name" value="Export">
+      <param name="Local" value="misc\export_commission_report.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Exporting Reports">
+      <param name="Local" value="misc\exporting_reports.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="financial">
+    <param name="Name" value="1099-Misc Report">
+    <param name="Local" value="everest-reports\financial\1099_misc_report.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="1099-misc report">
+      <param name="Name" value="1099-Misc Report">
+      <param name="Local" value="everest-reports\financial\1099_misc_report.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="balance sheet">
+      <param name="Name" value="Balance Sheet">
+      <param name="Local" value="everest-reports\financial\balance_sheet.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="income statement-period comparison">
+      <param name="Name" value="Income Statement (Period Comparison)">
+      <param name="Local" value="everest-reports\financial\income_statement_period_comparison_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="income statement history/budget comparison">
+      <param name="Name" value="Income Statement (History - Budget)">
+      <param name="Local" value="everest-reports\financial\income_statement_history_budget_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="income statement period-year to date">
+      <param name="Name" value="Income Statement (Period Year to Date)">
+      <param name="Local" value="everest-reports\financial\income_statement_period_year_to_date_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="income statement period range">
+      <param name="Name" value="Income Statement (Period Range)">
+      <param name="Local" value="everest-reports\financial\income_statement_period_range_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="income statement yearly">
+      <param name="Name" value="Income Statement Yearly">
+      <param name="Local" value="everest-reports\financial\income_statement_yearly.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="statement of cash flows">
+      <param name="Name" value="Statement of Cash Flows">
+      <param name="Local" value="everest-reports\financial\statement_of_cash_flows_financial_report.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="job costing">
+      <param name="Name" value="Job Costing">
+      <param name="Local" value="everest-reports\financial\job_costing_rep.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Financial Reports">
+      <param name="Local" value="everest-reports\financial\financial.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="trial balance">
+      <param name="Name" value="Trial Balance">
+      <param name="Local" value="everest-reports\financial\trial_balance.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find">
+    <param name="Name" value="Find Filter Reports">
+    <param name="Local" value="misc\find_filter_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Find Filter Reports">
+      <param name="Local" value="misc\find_filter_reports.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="fixed asset register">
+    <param name="Name" value="Fixed Asset Register">
+    <param name="Local" value="everest-reports\masters\fixed_asset_register.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="masters">
+      <param name="Name" value="Fixed Asset Register">
+      <param name="Local" value="everest-reports\masters\fixed_asset_register.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="general journals">
+    <param name="Name" value="General Journals">
+    <param name="Local" value="everest-reports\accounting\general_journals.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="general journals-posted">
+    <param name="Name" value="General Journals (Posted)">
+    <param name="Local" value="everest-reports\accounting\general_journals_posted_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting">
+      <param name="Name" value="General Journals (Posted)">
+      <param name="Local" value="everest-reports\accounting\general_journals_posted_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="general ledger">
+    <param name="Name" value="General Ledger">
+    <param name="Local" value="everest-reports\accounting\general_ledger.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting">
+      <param name="Name" value="General Ledger">
+      <param name="Local" value="everest-reports\accounting\general_ledger.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="generating">
+    <param name="Name" value="Generating Reports">
+    <param name="Local" value="misc\generating_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Generating Reports">
+      <param name="Local" value="misc\generating_reports.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="gst/vat on purchases">
+    <param name="Name" value="Document Selection Criteria - Purchase Tax Details Report">
+    <param name="Local" value="misc\document_selection_criteria_gst_vat_on_purchases_report.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="document selection criteria">
+      <param name="Name" value="Document Selection Criteria - Purchase Tax Details Report">
+      <param name="Local" value="misc\document_selection_criteria_gst_vat_on_purchases_report.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="input claim pi browser">
+      <param name="Name" value="Input Claim PR Browser">
+      <param name="Local" value="misc\input_claim_pr_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Purchase Tax Details">
+      <param name="Local" value="everest-reports\purchasing\gst_vat_on_purchases.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="gst/vat on sales">
+    <param name="Name" value="Sales Tax Details">
+    <param name="Local" value="everest-reports\invoicing\gst_vat_on_sales.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Sales Tax Details">
+      <param name="Local" value="everest-reports\invoicing\gst_vat_on_sales.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="inventory">
+    <param name="Name" value="Detail By Category - Stock Area">
+    <param name="Local" value="everest-reports\inventory\detail_by_category_stock_area_serialized_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="detail by brand">
+      <param name="Name" value="Detail by Brand">
+      <param name="Local" value="everest-reports\inventory\detail_by_brand_serialized_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="detail by category/entry date-serialized">
+      <param name="Name" value="Detail By Category - Entry Date (Serialized)">
+      <param name="Local" value="everest-reports\inventory\detail_by_category_entry_date_serialized_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="detail by category/stock bin">
+      <param name="Name" value="Detail By Category - Stock Area">
+      <param name="Local" value="everest-reports\inventory\detail_by_category_stock_area_serialized_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="detail by item/entry date-serialized">
+      <param name="Name" value="Detail By Item - Entry Date (Serialized)">
+      <param name="Local" value="everest-reports\inventory\detail_by_item_entry_date_serialized_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item tracking-group">
+      <param name="Name" value="Item Tracking (Group)">
+      <param name="Local" value="everest-reports\inventory\item_tracking_group_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory control sheet report">
+      <param name="Name" value="Inventory Control Sheet Report">
+      <param name="Local" value="everest-reports\inventory\inventory_control_sheet_report.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory summary">
+      <param name="Name" value="Inventory Summary">
+      <param name="Local" value="everest-reports\inventory\summary_by_item_code.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item tracking-selection">
+      <param name="Name" value="Item Tracking (Selection)">
+      <param name="Local" value="everest-reports\inventory\item_tracking_selection_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price sheets by category">
+      <param name="Name" value="Price Sheets By Category">
+      <param name="Local" value="everest-reports\inventory\price_sheets_by_category_inventory_rep.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Inventory Reports">
+      <param name="Local" value="everest-reports\inventory\inventory.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock discrepancy report">
+      <param name="Name" value="Stock Discrepancy Report">
+      <param name="Local" value="everest-reports\inventory\stock_discrepancy_report_inventory_rep.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="summary by category/multiple stock bin">
+      <param name="Name" value="Summary by Category - Multiple Stock Bin">
+      <param name="Local" value="everest-reports\inventory\summary_by_category_multiple_stock_area.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="summary by category/single stock bin">
+      <param name="Name" value="Summary by Category - Single Stock Bin">
+      <param name="Local" value="everest-reports\inventory\summary_by_category_single_stock_area.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="summary by item code/stock bin">
+      <param name="Name" value="Summary by Item Code - Stock Bin">
+      <param name="Local" value="everest-reports\inventory\summary_by_item_code_stock_area.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="inventory summary">
+    <param name="Name" value="Inventory Summary">
+    <param name="Local" value="everest-reports\inventory\summary_by_item_code.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="invoicing">
+    <param name="Name" value="invoicing">
+    <param name="Local" value="everest-reports\invoicing\invoicing.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounts receivable aging">
+      <param name="Name" value="Account Receivable Aging">
+      <param name="Local" value="everest-reports\invoicing\account_receivable_aging_rep.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="best customer">
+      <param name="Name" value="Best Customer">
+      <param name="Local" value="everest-reports\invoicing\best_customer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="best item-sales">
+      <param name="Name" value="Best Item (Sales)">
+      <param name="Local" value="everest-reports\invoicing\best_item_sales_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="check register">
+      <param name="Name" value="Check Register">
+      <param name="Local" value="everest-reports\invoicing\check_register.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="collection">
+      <param name="Name" value="Collection">
+      <param name="Local" value="everest-reports\invoicing\collection.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer statements">
+      <param name="Name" value="Customer Statements">
+      <param name="Local" value="everest-reports\invoicing\customer_statements.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer tracking-group">
+      <param name="Name" value="Customer Tracking (Group Report)">
+      <param name="Local" value="everest-reports\invoicing\customer_tracking_group_report_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer tracking-selection">
+      <param name="Name" value="Customer Tracking (Selection Report)">
+      <param name="Local" value="everest-reports\invoicing\customer_tracking_selection_report_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer transactions">
+      <param name="Name" value="Customer Transactions">
+      <param name="Local" value="everest-reports\invoicing\customer_transactions.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="document tracking-group">
+      <param name="Name" value="Document Tracking (Group)">
+      <param name="Local" value="everest-reports\invoicing\document_tracking_group_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="document tracking-selection">
+      <param name="Name" value="Document Tracking (Selection)">
+      <param name="Local" value="everest-reports\invoicing\document_tracking_selection_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="gst/vat on sales">
+      <param name="Name" value="Sales Tax Details">
+      <param name="Local" value="everest-reports\invoicing\gst_vat_on_sales.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item sales history">
+      <param name="Name" value="Items Sales History">
+      <param name="Local" value="everest-reports\invoicing\items_sales_history_by_category_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="pending sales orders">
+      <param name="Name" value="Pending Sales Orders">
+      <param name="Local" value="everest-reports\invoicing\pending_sales_order_by_category_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="promotional campaign-detail">
+      <param name="Name" value="Promotional Campaign Detail">
+      <param name="Local" value="everest-reports\invoicing\promotional_campaign_detail.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales">
+      <param name="Name" value="Sales">
+      <param name="Local" value="everest-reports\invoicing\sales.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales invoice">
+      <param name="Name" value="Sales Invoice Report">
+      <param name="Local" value="everest-reports\invoicing\sales_invoice_report.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales order">
+      <param name="Name" value="Sales Order">
+      <param name="Local" value="everest-reports\invoicing\sales_order.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales quote">
+      <param name="Name" value="Sales Quote">
+      <param name="Local" value="everest-reports\invoicing\sales_quote.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item purchase history">
+    <param name="Name" value="Item Purchase History">
+    <param name="Local" value="everest-reports\purchasing\items_purchase_history_by_category_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Item Purchase History">
+      <param name="Local" value="everest-reports\purchasing\items_purchase_history_by_category_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item sales history">
+    <param name="Name" value="Item Sales History">
+    <param name="Local" value="everest-reports\invoicing\items_sales_history_by_category_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Item Sales History">
+      <param name="Local" value="everest-reports\invoicing\items_sales_history_by_category_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item tracking-group">
+    <param name="Name" value="Item Tracking (Group)">
+    <param name="Local" value="everest-reports\inventory\item_tracking_group_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory">
+      <param name="Name" value="Item Tracking (Group)">
+      <param name="Local" value="everest-reports\inventory\item_tracking_group_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item tracking-selection">
+    <param name="Name" value="Item Tracking (Selection)">
+    <param name="Local" value="everest-reports\inventory\item_tracking_selection_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory">
+      <param name="Name" value="Item Tracking (Selection)">
+      <param name="Local" value="everest-reports\inventory\item_tracking_selection_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="items list-by category">
+    <param name="Name" value="Items List (By Category)">
+    <param name="Local" value="everest-reports\masters\items_list_by_category_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="masters">
+      <param name="Name" value="Items List (By Category)">
+      <param name="Local" value="everest-reports\masters\items_list_by_category_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="job costing">
+    <param name="Name" value="Job Costing">
+    <param name="Local" value="everest-reports\financial\job_costing_rep.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="financial">
+      <param name="Name" value="Job Costing">
+      <param name="Local" value="everest-reports\financial\job_costing_rep.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameters">
+      <param name="Name" value="Job Costing Dialog Box">
+      <param name="Local" value="misc\job_costing_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="kit list">
+    <param name="Name" value="Kit List">
+    <param name="Local" value="everest-reports\masters\kit_list.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="masters">
+      <param name="Name" value="Kit List">
+      <param name="Local" value="everest-reports\masters\kit_list.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="mailing list export-with filters">
+    <param name="Name" value="Mailing List Export (With Filters)">
+    <param name="Local" value="everest-reports\masters\mailing_list_export_with_filters_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="masters">
+      <param name="Name" value="Mailing List Export (With Filters)">
+      <param name="Local" value="everest-reports\masters\mailing_list_export_with_filters_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="masters">
+    <param name="See Also" value="masters">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="chart of accounts">
+      <param name="Name" value="Chart of Accounts">
+      <param name="Local" value="everest-reports\masters\chart_of_accounts.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer list">
+      <param name="Name" value="Customer List">
+      <param name="Local" value="everest-reports\masters\customer_list.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="fixed asset register">
+      <param name="Name" value="Fixed Asset Register">
+      <param name="Local" value="everest-reports\masters\fixed_asset_register.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="group list">
+      <param name="Name" value="Group List">
+      <param name="Local" value="everest-reports\masters\group_list.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items list-by category">
+      <param name="Name" value="Items List (By Category)">
+      <param name="Local" value="everest-reports\masters\items_list_by_category_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="kit list">
+      <param name="Name" value="Kit List">
+      <param name="Local" value="everest-reports\masters\kit_list.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="mailing list export-with filters">
+      <param name="Name" value="Mailing List Export (With Filters)">
+      <param name="Local" value="everest-reports\masters\mailing_list_export_with_filters_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Master Reports">
+      <param name="Local" value="everest-reports\masters\master_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="tax code list">
+      <param name="Name" value="Tax Code List">
+      <param name="Local" value="everest-reports\masters\tax_code_list.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="miscellaneous">
+    <param name="Name" value="Contact Manager">
+    <param name="Local" value="everest-reports\miscellaneous\contact_manager_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="contact manager">
+      <param name="Name" value="Contact Manager">
+      <param name="Local" value="everest-reports\miscellaneous\contact_manager_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer tracking group selection list">
+      <param name="Name" value="Customer Tracking Group Selection List">
+      <param name="Local" value="everest-reports\miscellaneous\customer_tracking_group_selection_list.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="data dictionary">
+      <param name="Name" value="Data Dictionary">
+      <param name="Local" value="everest-reports\miscellaneous\data_dictionary.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Miscellaneous Reports">
+      <param name="Local" value="everest-reports\miscellaneous\miscellaneous.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="security rights">
+      <param name="Name" value="Rights">
+      <param name="Local" value="everest-reports\miscellaneous\rights.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="task list">
+      <param name="Name" value="Task List">
+      <param name="Local" value="everest-reports\miscellaneous\task_list.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="parameters">
+    <param name="Name" value="Collection Report Dialog Box">
+    <param name="Local" value="misc\collection_report_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="collection">
+      <param name="Name" value="Collection Report Dialog Box">
+      <param name="Local" value="misc\collection_report_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="payment journals">
+    <param name="Name" value="Payment Journal">
+    <param name="Local" value="everest-reports\accounting\payments_journals.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="payment journals-posted">
+    <param name="Name" value="Payment Journal (Posted)">
+    <param name="Local" value="everest-reports\accounting\payments_journals_posted_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting">
+      <param name="Name" value="Payment Journal (Posted)">
+      <param name="Local" value="everest-reports\accounting\payments_journals_posted_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="payments to vendors">
+    <param name="Name" value="Payments to Vendor Dialog Box">
+    <param name="Local" value="misc\payments_to_vendor_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameters">
+      <param name="Name" value="Payments to Vendors Dialog Box">
+      <param name="Local" value="misc\payments_to_vendor_dialog_box.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Payments to Vendors">
+      <param name="Local" value="everest-reports\purchasing\payments_to_vendor.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="pending sales orders">
+    <param name="Name" value="Pending Sales Orders">
+    <param name="Local" value="everest-reports\invoicing\pending_sales_order_by_category_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Pending Sales Orders">
+      <param name="Local" value="everest-reports\invoicing\pending_sales_order_by_category_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="preview">
+    <param name="Name" value="Preview a Report before Printing">
+    <param name="Local" value="misc\preview_a_report_before_printing.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Preview a Report before Printing">
+      <param name="Local" value="misc\preview_a_report_before_printing.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="print">
+    <param name="Name" value="Printing Reports">
+    <param name="Local" value="misc\print_report.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Printing Reports">
+      <param name="Local" value="misc\print_report.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="promotional campaign-detail">
+    <param name="Name" value="Promotional Campaign Detail">
+    <param name="Local" value="everest-reports\invoicing\promotional_campaign_detail.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Promotional Campaign Detail">
+      <param name="Local" value="everest-reports\invoicing\promotional_campaign_detail.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="promotional campaign detail">
+    <param name="Name" value="Promotional Campaign Detail dialog box">
+    <param name="Local" value="misc\promotional_campaign_detail_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameters">
+      <param name="Name" value="Promotional Campaign Detail dialog box">
+      <param name="Local" value="misc\promotional_campaign_detail_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchase document tracking-group">
+    <param name="Name" value="Purchase Document Tracking (Group Report)">
+    <param name="Local" value="everest-reports\purchasing\purchase_doc_tracking_group_report_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Purchase Document Tracking (Group Report)">
+      <param name="Local" value="everest-reports\purchasing\purchase_doc_tracking_group_report_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchase journal">
+    <param name="Name" value="Purchase Journal">
+    <param name="Local" value="everest-reports\accounting\purchases_journals.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchase journal-posted">
+    <param name="Name" value="Purchase Journal (Posted)">
+    <param name="Local" value="everest-reports\accounting\purchases_journals_posted_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting">
+      <param name="Name" value="Purchase Journal (Posted)">
+      <param name="Local" value="everest-reports\accounting\purchases_journals_posted_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchase order">
+    <param name="Name" value="Purchase Order">
+    <param name="Local" value="everest-reports\purchasing\purchase_order.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Purchase Order">
+      <param name="Local" value="everest-reports\purchasing\purchase_order.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchase invoice">
+    <param name="Name" value="Purchase Receipt">
+    <param name="Local" value="everest-reports\purchasing\purchase_receipt.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Purchase Receipt">
+      <param name="Local" value="everest-reports\purchasing\purchase_receipt.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchasing">
+    <param name="Name" value="Purchase Tax Details">
+    <param name="Local" value="everest-reports\purchasing\gst_vat_on_purchases.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="gst/vat on purchases">
+      <param name="Name" value="Purchase Tax Details">
+      <param name="Local" value="everest-reports\purchasing\gst_vat_on_purchases.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="payments to vendors">
+      <param name="Name" value="Payments to Vendors">
+      <param name="Local" value="everest-reports\purchasing\payments_to_vendor.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchasing">
+    <param name="Name" value="Purchasing Reports">
+    <param name="Local" value="everest-reports\purchasing\purchasing_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounts payable aging">
+      <param name="Name" value="accounts payable aging rep">
+      <param name="Local" value="everest-reports\purchasing\account_payable_aging_rep.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accrued purchases report">
+      <param name="Name" value="Accrued Purchases Report">
+      <param name="Local" value="everest-reports\purchasing\accrued_purchases_report_rep.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="best item-purchase">
+      <param name="Name" value="Best Item (Purchase)">
+      <param name="Local" value="everest-reports\purchasing\best_item_purchase.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="best vendor">
+      <param name="Name" value="Best Vendor">
+      <param name="Local" value="everest-reports\purchasing\best_vendor_-_reports_-_purch.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item purchase history">
+      <param name="Name" value="Item Purchase History">
+      <param name="Local" value="everest-reports\purchasing\items_purchase_history_by_category_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="payments to vendors">
+      <param name="Name" value="Payments to Vendors">
+      <param name="Local" value="everest-reports\purchasing\payments_to_vendor.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase doc tracking-selection">
+      <param name="Name" value="Purchase Document Tracking (Selection)">
+      <param name="Local" value="everest-reports\purchasing\purchase_doc_tracking_selection_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase document tracking-group">
+      <param name="Name" value="Purchase Document Tracking (Group Report)">
+      <param name="Local" value="everest-reports\purchasing\purchase_doc_tracking_group_report_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase order">
+      <param name="Name" value="Purchase Order">
+      <param name="Local" value="everest-reports\purchasing\purchase_order.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase order report">
+      <param name="Name" value="Purchase Order Report">
+      <param name="Local" value="everest-reports\purchasing\purchase_order_report_detail_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase invoice">
+      <param name="Name" value="Purchase Receipt">
+      <param name="Local" value="everest-reports\purchasing\purchase_receipt.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Purchasing Reports">
+      <param name="Local" value="everest-reports\purchasing\purchasing_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="vendor statements">
+      <param name="Name" value="Vendor Statements">
+      <param name="Local" value="everest-reports\purchasing\vendor_statements.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="vendor tracking-group">
+      <param name="Name" value="Vendor Tracking (Group)">
+      <param name="Local" value="everest-reports\purchasing\vendor_tracking_group_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="vendor tracking-selection">
+      <param name="Name" value="Vendor Tracking (Selection)">
+      <param name="Local" value="everest-reports\purchasing\vendor_tracking_selection_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="vendor transactions">
+      <param name="Name" value="Vendor Transactions">
+      <param name="Local" value="everest-reports\purchasing\vendor_transactions.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="receipt journal">
+    <param name="Name" value="Receipt Journal">
+    <param name="Local" value="everest-reports\accounting\receipts_journals.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting">
+      <param name="Name" value="Receipt Journal">
+      <param name="Local" value="everest-reports\accounting\receipts_journals.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="receipts journals-posted">
+    <param name="Name" value="Receipt Journal (Posted)">
+    <param name="Local" value="everest-reports\accounting\receipts_journal_posted_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting">
+      <param name="Name" value="Receipt Journal (Posted)">
+      <param name="Local" value="everest-reports\accounting\receipts_journal_posted_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="report preview">
+    <param name="Name" value="Options in Report Preview Dialog Box">
+    <param name="Local" value="misc\options_in_report_preview_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="report preview dialog box">
+    <param name="Name" value="Options in Report Preview Dialog Box">
+    <param name="Local" value="misc\options_in_report_preview_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="options">
+      <param name="Name" value="Options in Report Preview Dialog Box">
+      <param name="Local" value="misc\options_in_report_preview_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="reports">
+    <param name="Name" value="Accounting Reports">
+    <param name="Local" value="everest-reports\accounting\accounting.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting">
+      <param name="Name" value="Accounting Reports">
+      <param name="Local" value="everest-reports\accounting\accounting.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser reports">
+      <param name="Name" value="Browser reports">
+      <param name="Local" value="misc\browser_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="export">
+      <param name="Name" value="Exporting Reports">
+      <param name="Local" value="misc\exporting_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="financial">
+      <param name="Name" value="Financial Reports">
+      <param name="Local" value="everest-reports\financial\financial.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find">
+      <param name="Name" value="Find Filter Reports">
+      <param name="Local" value="misc\find_filter_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="generating">
+      <param name="Name" value="Generating Reports">
+      <param name="Local" value="misc\generating_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory">
+      <param name="Name" value="Inventory Reports">
+      <param name="Local" value="everest-reports\inventory\inventory.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="masters">
+      <param name="Name" value="Master Reports">
+      <param name="Local" value="everest-reports\masters\master_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="miscellaneous">
+      <param name="Name" value="Miscellaneous Reports">
+      <param name="Local" value="everest-reports\miscellaneous\miscellaneous.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="preview">
+      <param name="Name" value="Preview a Report before Printing">
+      <param name="Local" value="misc\preview_a_report_before_printing.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="print">
+      <param name="Name" value="Printing Reports">
+      <param name="Local" value="misc\print_report.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Purchasing Reports">
+      <param name="Local" value="everest-reports\purchasing\purchasing_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="smart filter">
+      <param name="Name" value="Smart Filter">
+      <param name="Local" value="misc\smart_filter.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="right-click menu options">
+    <param name="Name" value="Right-Click Menu Options in the Drop-Down List">
+    <param name="Local" value="common-report-options\drop_down_button_and_menu_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="drop-down list">
+      <param name="Name" value="Right-Click Menu Options in the Drop-Down List">
+      <param name="Local" value="common-report-options\drop_down_button_and_menu_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="rights">
+    <param name="Name" value="Rights">
+    <param name="Local" value="everest-reports\miscellaneous\rights.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="miscellaneous">
+      <param name="Name" value="Rights">
+      <param name="Local" value="everest-reports\miscellaneous\rights.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameters">
+      <param name="Name" value="Rights Dialog Box">
+      <param name="Local" value="misc\rights_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales">
+    <param name="Name" value="Sales">
+    <param name="Local" value="everest-reports\invoicing\sales.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales invoice">
+    <param name="Name" value="Sales Invoice Report">
+    <param name="Local" value="everest-reports\invoicing\sales_invoice_report.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Sales Invoice Report">
+      <param name="Local" value="everest-reports\invoicing\sales_invoice_report.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales journal analysis">
+    <param name="Name" value="Sales Journal Analysis">
+    <param name="Local" value="everest-reports\accounting\sales_journal_analysis.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting">
+      <param name="Name" value="Sales Journal Analysis">
+      <param name="Local" value="everest-reports\accounting\sales_journal_analysis.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameters">
+      <param name="Name" value="Sales Journal Analysis Dialog Box">
+      <param name="Local" value="misc\sales_journal_analysis_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales journals">
+    <param name="Name" value="Sales Journals">
+    <param name="Local" value="everest-reports\accounting\sales_journals.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales journals-posted">
+    <param name="Name" value="Sales Journals (Posted)">
+    <param name="Local" value="everest-reports\accounting\sales_journals_posted_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting">
+      <param name="Name" value="Sales Journals (Posted)">
+      <param name="Local" value="everest-reports\accounting\sales_journals_posted_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales order">
+    <param name="Name" value="Sales Order">
+    <param name="Local" value="everest-reports\invoicing\sales_order.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Sales Order">
+      <param name="Local" value="everest-reports\invoicing\sales_order.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales quote">
+    <param name="Name" value="Sales Quote">
+    <param name="Local" value="everest-reports\invoicing\sales_quote.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Sales Quote">
+      <param name="Local" value="everest-reports\invoicing\sales_quote.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales tax">
+    <param name="Name" value="Sales Tax">
+    <param name="Local" value="everest-reports\accounting\sales_tax.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting">
+      <param name="Name" value="Sales Tax">
+      <param name="Local" value="everest-reports\accounting\sales_tax.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="invoicing">
+      <param name="Name" value="Sales">
+      <param name="Local" value="everest-reports\invoicing\sales.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="tax code list">
+    <param name="Name" value="Tax Code List">
+    <param name="Local" value="everest-reports\masters\tax_code_list.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="masters">
+      <param name="Name" value="Tax Code List">
+      <param name="Local" value="everest-reports\masters\tax_code_list.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="trial balance">
+    <param name="Name" value="Trial Balance">
+    <param name="Local" value="everest-reports\financial\trial_balance.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="financial">
+      <param name="Name" value="Trial Balance">
+      <param name="Local" value="everest-reports\financial\trial_balance.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="vendor statements">
+    <param name="Name" value="Vendor Statements">
+    <param name="Local" value="everest-reports\purchasing\vendor_statements.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Vendor Statements">
+      <param name="Local" value="everest-reports\purchasing\vendor_statements.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="vendor tracking-selection">
+    <param name="Name" value="Vendor Tracking (Selection)">
+    <param name="Local" value="everest-reports\purchasing\vendor_tracking_selection_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Vendor Tracking (Selection)">
+      <param name="Local" value="everest-reports\purchasing\vendor_tracking_selection_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="vendor transactions">
+    <param name="Name" value="Vendor Transactions">
+    <param name="Local" value="everest-reports\purchasing\vendor_transactions.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchasing">
+      <param name="Name" value="Vendor Transactions">
+      <param name="Local" value="everest-reports\purchasing\vendor_transactions.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="time clock">
+    <param name="Name" value="Time Clock">
+    <param name="Local" value="everest-reports\time-clock\time_clock_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="time clock">
+      <param name="Name" value="Time Clock">
+      <param name="Local" value="everest-reports\time-clock\time_clock.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="attendance">
+      <param name="Name" value="attendance">
+      <param name="Local" value="everest-reports\time-clock\attendance.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="employee log">
+      <param name="Name" value="Employee Log">
+      <param name="Local" value="everest-reports\time-clock\employee_log.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="leave">
+      <param name="Name" value="leave">
+      <param name="Local" value="everest-reports\time-clock\leaves.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="leave request details">
+      <param name="Name" value="Leave Request Details">
+      <param name="Local" value="everest-reports\time-clock\leave_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="leave summary">
+      <param name="Name" value="Leave Summary">
+      <param name="Local" value="everest-reports\time-clock\leave_summary.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="visitors log">
+      <param name="Name" value="Visitors Log">
+      <param name="Local" value="everest-reports\time-clock\visitors_log.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="monthly attendance">
+      <param name="Name" value="Monthly Attendance">
+      <param name="Local" value="everest-reports\time-clock\monthly_attendance.html">
+    </object>
+    </ul>
+</ul>
+</html>

@@ -1,0 +1,62 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="customer-code">Customer Code</h1>
+
+<p>Every customer is assigned a unique code in <strong>Everest</strong>.  The customer code identifies the:</p>
+
+<ul>
+  <li>Customer to  whom the quote has been issued, if the document is a sales quote.</li>
+  <li>Customer who  has placed the order, if the document is a sales order.</li>
+  <li>Customer to  whom the items have been delivered, if the document is a sales invoice.</li>
+</ul>
+
+<p class="steps">To specify a customer code, do one of the following:</p>
+
+<ul>
+  <li>Specify the  customer code from the <strong>Customer</strong>  field in the sales documents.</li>
+  <li>Select <strong>Popup customer selection browser when creating 
+ a new sales or credit document</strong> as a flow control preference (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow 
+ Control</strong> &gt; <strong>Documents</strong> &gt; <strong>Popups</strong>tab) to automatically pop up the <strong>Customer</strong>  browser whenever a new sales document is created.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><font style="color: #800080;" color="#800080">
+ </font><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/opt/popups-tab/flow_control_setup_dialog_box_popups_tab_steps.html">Documents  - Flow Control - Popups  Tab</a></p>
+
+<p>If you create a customer from the <strong>Customer</strong> field (path: click the drop-down  button beside the <strong>Customer</strong> field  &gt; right-click in the drop-down list &gt; select <strong>New</strong> from the right-click menu options &gt; mention details and save),  this field defaults to the newly created customer’s code.</p>
+
+<p>When you change a customer on a sales order  or sales invoice after retrieving items into the document, <strong>Everest</strong>  warns you that you have changed the customer and that the prices applicable  to the selected customer may be different. You can choose from the following  options:</p>
+
+<ul>
+  <li><strong>Update 
+ prices based on new customer</strong> - This option is selected by default.  Prices relevant to the new customer selected are applied.</li>
+  <li><strong>Retain 
+ Pricing on the document</strong> - Selecting this option retains the prices  on the existing document. However, you must possess the required rights  to do so.</li>
+</ul>
+
+<p>When you select a customer code on a sales  document (sales quotes/orders/invoices), it is populated with the following  default information (for the selected customer code):</p>
+
+<ul>
+  <li><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/customer-info/customers_billing_address_customer_information_sales_document_content.html">Billing  Address</a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/customer-info/customers_contact_address_customer_information_sales_document_content.html">Contact  Address</a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/customer-info/ship_to_address_customer_information_sales_document_content.html">Ship  to Address</a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/other/sales_representative_sales_document_content.html">Sales  Representative</a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/pmnt/payment_terms_payment_information_sales_document_contents.html">Payment  Terms</a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/pmnt/due_date_check_box_payment_information_sales_document_contents.html">Due  Date</a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/other/jurisdiction_sales_process_contents.html">Jurisdiction</a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/delivery/ship_via_delivery_information_sales_document_content.html">Delivery  Method</a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/other/department_document_information_sales_content.html">Loc/Sub-Loc</a></li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/customer-info/customer_information_sales_document_content.html">Customer  Information</a></dd>
+</dl>
+
+
+
+
+</div>

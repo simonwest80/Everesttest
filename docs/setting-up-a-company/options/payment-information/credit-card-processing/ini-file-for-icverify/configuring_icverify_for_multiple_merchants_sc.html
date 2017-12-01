@@ -1,0 +1,83 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="configuring-icverify-for-multiple-merchants">Configuring ICVerify for Multiple Merchants</h1>
+
+<p>ICVerify has a multi-user version that supports multiple  merchant accounts. The bank authorizing your credit card is referred to  as a merchant bank. Businesses use multiple merchant accounts when they  have more than a single location to process/authorize credit cards and  each location has a different dial-up account to the bank for requesting  approvals. This section details the configurations required for using  ICVerify with multiple merchant accounts.</p>
+
+<p>Prerequisites</p>
+
+<p>You must work with ICVerify and get multiple merchants installed.</p>
+
+<p>ICVerify Configurations</p>
+
+<p class="steps">To configure ICVerify for Multiple Merchants,  do the following:</p>
+
+<ul>
+  <li>ICVerify uses .SET  files for configuring their merchant accounts. In other words, if you  have two merchants, the ICVerify files would look like ICVERIFY.SET and  ICVE0001.SET.</li>
+</ul>
+
+<p>ICVERIFY.SET is the default file and is required to open up the IC  Verify Setup screen.</p>
+
+<p>If you have two merchants then you need to make sure that the set files  are listed as:</p>
+
+<p>ICVERIFY.SET
+ICVE0001.SET
+ICVE0002.SET</p>
+
+<p>By default you would see the first two set files only.</p>
+
+<p>In order to add the third file, just copy and paste ICVERIFY.SET and  make a copy of the file. Then rename the file to ICVE0002.SET.</p>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/icverify_mm_set_files_sc.jpg" alt="" /></p>
+
+<p><strong>Figure: ICVerify .SET Files for Multiple Merchants</strong></p>
+
+<ul>
+  <li>Log in to <strong>ICVerify</strong> and select <strong>Edit</strong>  &gt; <strong>Options</strong>.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/icverify_mm_edit_options_sc.jpg" alt="" /></p>
+
+<p><strong>Figure: ICVerify Edit &gt; Options</strong></p>
+
+<ul>
+  <li>Click the <strong>Merchants Table</strong> button.</li>
+  <li>Click the Merchant  Name listed on the left and see what the Merchant Code on the right is  (0001).</li>
+  <li>Click the <strong>Add Merchant</strong> button and define the merchant  code as 0002.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/icverify_mm_merchants_table_sc.jpg" alt="" /></p>
+
+<p><strong>Figure: ICVerify Merchants Table</strong></p>
+
+<ul>
+  <li>Click <strong>OK</strong>.</li>
+  <li>To verify if both  of the merchant accounts are working correctly, from the main screen select  <strong>Function</strong> &gt; <strong>Switch 
+ Merchants</strong> and that should list both the merchants and allow you  to switch.</li>
+</ul>
+
+<p>Creating the INI file</p>
+
+<p>The most critical factor in configuring the INI file for  multiple merchants is the CLERK field. This field should be hard coded  in the INI file exactly the way it is shown in the following figure.</p>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/icverify_mm_configure_ini_sc.jpg" alt="" /></p>
+
+<p><strong>Figure: Creating the INI file for Multiple Merchants</strong></p>
+
+<p>Configure the INI file</p>
+
+<p>See the <a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/ini-file-for-icverify/configuration_file_for_icverify.html">Configuration File for  ICVerify</a> section for INI configuration information.</p>
+
+<dl>
+  <dt><img src="/versata-everest-docs/setting-up-a-company/img/see_also.gif" alt="" /></dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/ini-file-for-icverify/configuration_file_for_icverify.html">Configuration  File for ICVerify</a></dd>
+</dl>
+
+
+
+
+</div>

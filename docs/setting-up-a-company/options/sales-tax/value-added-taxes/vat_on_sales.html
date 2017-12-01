@@ -1,0 +1,53 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="vat-on-sales">VAT on Sales</h1>
+
+<p>If an item against which VAT is recoverable is sold, the process remains  the same but a report calculating the amount of VAT recoverable against  each line item in sale is generated.</p>
+
+<p><strong>Accounting Entries</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/Credit</td>
+      <td><font style="color: #000000;" color="#000000">Amount</font></td>
+    </tr>
+    <tr>
+      <td>Account Receivable</td>
+      <td>Account specified for Accounts Receivable in the <strong>Accounting</strong> dialog box (path: <strong>File <br /> &gt; Setup &gt; Preferences &gt; Defaults &gt; Accounting &gt; Accounts</strong> tab).</td>
+      <td>Debit</td>
+      <td>Document Total</td>
+    </tr>
+    <tr>
+      <td>Sales</td>
+      <td>Account specified for sales in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; <br /> Preferences &gt; Defaults &gt; Accounting &gt; Accounts</strong> tab).</td>
+      <td>Credit</td>
+      <td>Sales tax amount reduced from the total document amount</td>
+    </tr>
+    <tr>
+      <td>Sales Tax Liability</td>
+      <td>Account specified in the <strong>Tax <br /> Account Code</strong> field in the <strong>Tax <br /> Components</strong> profile (path: <strong>File <br /> &gt; Setup &gt; Accounting &gt; Taxes &gt; Tax Components &gt; Sales</strong> tab).</td>
+      <td>Credit</td>
+      <td>Sales tax amount</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/the_tax_components_profile_sales_tab_.html">The  <strong>Tax Components</strong> Profile - Sales  Tab</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/sales-tax/value-added-taxes/vat_process.html">VAT Process</a></dd>
+  <dd><a href="/versata-everest-docs/sales/misc/determining_inventory_control_account_for_sales_documents.html">Determining  Inventory Control Account for Sales Documents</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/determining_inventory_control_account_for_purchase_documents.html">Determining  Inventory Control Account for Purchase Documents</a></dd>
+</dl>
+
+
+
+
+</div>

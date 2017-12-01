@@ -1,0 +1,57 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="computation-of-upgradedowngrade-price">Computation of Upgrade/Downgrade Price</h1>
+
+<p>When a customer orders for an Upgrade/Downgrade item, the price of the  upgraded/downgraded item is determined using the following rules:</p>
+
+<ul>
+  <li>If no customer  level is assigned to the customer, the base differential price (the price  differential that is applicable to customers who do not belong to any  customer level) is added to the computed price (as the least of the base  price, quantity pricing and special pricing).</li>
+</ul>
+
+<p class="example"><strong>You specify a flat price differential of $2  in general to upgrade item A to B. Item A’s price is $10. If no customer  level is assigned to the customer, the price of item B is $12 (10+2).</strong></p>
+
+<ul>
+  <li>
+    <p>If a customer  level has been assigned to the customer:</p>
+  </li>
+  <li>
+    <p>If a price differential  has been defined for the customer level, the price differential defined  for that customer level is added to the computed price (which is the least  of the base price, the customer level’s price, quantity pricing and special  pricing).</p>
+  </li>
+</ul>
+
+<p class="example"><strong>You specify a price differential of $1.75  for level 1 customers for whom the price of item A is $8. The upgraded  item B will cost these customers $9.75 (8+1.75).</strong></p>
+
+<ul>
+  <li>If no price differential  has been defined for the customer level, the base price differential is  added to the computed price (which is the least of the base price, the  customer level’s price, quantity pricing and special pricing).</li>
+</ul>
+
+<p class="example"><strong>You specify a flat price differential of $2  in general to upgrade item A to B. Item A’s price is $10, but the price  for level 1 is $8. For a customer of level 1, item B will cost $10(8+2).</strong></p>
+
+<p class="note">If the quantity of the upgraded item is changed, the price changes to  whatever quantity pricing is defined for the upgraded item, proving the  following conditions are satisfied:</p>
+
+<ul>
+  <li>New prices are  applicable for the quantity and</li>
+  <li>The <strong>Automatically 
+ apply item discounts applicable to a customer when retrieving the item 
+ on a document</strong> option is selected in the <strong>Flow 
+ Control Setup</strong> dialog box (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow</strong> <strong>Control</strong>  &gt; <strong>Documents</strong> &gt; <strong>Miscellaneous</strong>  &gt; <strong>Document</strong> <strong>P</strong><strong>ayments</strong> tab)</li>
+</ul>
+
+<p>The upgrade price, in this case, is lost.</p>
+
+<p>Click <a href="/versata-everest-docs/managing-items/misc/computation_of_item_upgrade_downgrade_price_flowchart.html">here</a>  to view this decision tree.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/misc/update_price_differentials.html">Update  Price Differentials</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/the-items-browser/other-options/related_items.html">Related Items</a></dd>
+</dl>
+
+
+
+
+</div>

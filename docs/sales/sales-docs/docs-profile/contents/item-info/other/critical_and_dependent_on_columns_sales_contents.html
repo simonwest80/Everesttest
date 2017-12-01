@@ -1,0 +1,43 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="critical-and-dependent-on">Critical and Dependent On</h1>
+
+<p>The <strong>Critical</strong> and <strong>Dependent 
+ on</strong> columns are displayed only in the <strong>Sales 
+ Order</strong> profile. Critical items are those items without which other  items on the sales order cannot be sold. Dependant items are items whose  sale depends on another item in the sales order. You can define an item  as critical by selecting the <strong>Critical</strong>  field in the <strong>Item</strong> profile (path:  <strong>Inventory &gt; Items &gt; Item profile 
+ &gt; Inventory</strong> tab).<font style="font-family: Verdana;" face="Verdana"> </font>The check box in the <strong>Critical</strong>  column is selected by default if the <strong>Critical</strong>  option is selected on the <strong>Item</strong>  profile. You can select/deselect  this check box on the <strong>Sales Order</strong>  profile by double-clicking in this column for the required line item.</p>
+
+<p>If you mark an item as critical on the <strong>Sales 
+ Order</strong> profile, the sales order cannot be saved until you define  another item that is dependent on it. When shipping the items, you cannot  ship dependent items until the critical item is shipped.</p>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> Critical item - Computer</p>
+
+<p>Dependent items - Keyboard, mouse and speakers.</p>
+
+<p>You can ship the critical item (computer) without the dependent items  (keyboard, mouse and speakers), but you cannot ship the dependent items  without the critical item.</p>
+
+<p>These fields are used when creating pick tickets to determine the orders  that can be fulfilled.</p>
+
+<p class="steps">To specify the critical item for another  item, do the following:</p>
+
+<ul>
+  <li>Place the cursor  in the <strong>Dependent On</strong> column for  the required line item.</li>
+  <li>Press the <strong>Enter</strong> key.</li>
+  <li>Select the  required item. The required item has to be a critical item.</li>
+</ul>
+
+<p class="note">The critical item that you select should be present  on the sales order.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/item-info/other/other_item_information_item_details_grid_sales_process_content.html">Other  Item Information</a></dd>
+</dl>
+
+
+
+
+</div>

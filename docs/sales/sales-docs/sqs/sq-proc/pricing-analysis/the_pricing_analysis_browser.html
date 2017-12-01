@@ -1,0 +1,87 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-pricing-analysis-browser">The Pricing Analysis Browser</h1>
+
+<p>The <strong>Pricing Analysis</strong> browser  displays profits for all the items contained in the document at the current  selling price based on different cost computations. Choose the best selling  price suitable to you and your customer and choose <strong>Apply</strong> to change the selling price of the item.</p>
+
+<p>The following options are displayed in the <strong>Pricing 
+ Analysis</strong> browser based on your flow control preferences:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Option</td>
+      <td>Flow Control Setting</td>
+    </tr>
+    <tr>
+      <td>By Average Cost/By Average Cost (previous document save)</td>
+      <td>Average Cost or All</td>
+    </tr>
+    <tr>
+      <td>By Last Cost/By Last Cost (previous document save)</td>
+      <td>Last Cost or All</td>
+    </tr>
+    <tr>
+      <td>By User-defined Cost</td>
+      <td>User-defined Cost or All</td>
+    </tr>
+    <tr>
+      <td>By Actual/Average Cost</td>
+      <td>Actual Cost or All</td>
+    </tr>
+    <tr>
+      <td>By Actual/Average Cost (previous document save)</td>
+      <td>Actual Cost or All</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul class="note">
+  <li>If the <strong>Actual/Average Cost</strong> option is selected  in the flow control settings, serialized items displays actual cost and  non-serialized/non-inventoried items displays the average cost in the  browser. If the <strong>Factor Cost (enable cost 
+ inflation)</strong> check box is selected, all costs are inflated with the  factor percentage specified in the <strong>Item</strong>  profile except the user-defined cost which is displayed at the actual  value entered in the sales document.</li>
+  <li>If a non-inventoried  item does not have a liability or asset account defined, all costs – last,  average, and actual – except user-defined cost are displayed as zero in  the <strong>Pricing Analysis</strong> browser.</li>
+  <li>If an asset  account is defined for a non-inventoried item, its cost should not be  considered in this browser.</li>
+  <li>When a sales  document is created, <strong>Pricing Analysis</strong>  browser does not display details pertaining to previous document save.  Only after you save the document, previous document save details are displayed.  The previous document save details helps in comparing the profitability  at the time of creation of the original document and the current profitability  based on the updated cost. <strong>Markup %</strong>,  <strong>Margin %</strong>, <strong>Profit</strong>  and <strong>Selling Price</strong> columns cannot  be edited under Average Cost (previous document save), Last Cost (previous  document save), and Actual/Average Cost (previous document save). If the  markup, margin, profit, and selling price details are changed for a cost  type, the same is reflected for all other cost types too (but not for  the previous document saved ones).</li>
+  <li>If a new line  item is added to an already saved document, it is not displayed under  the previous document save cost headers. The line item will be displayed  only under Average Cost, Last Cost, User-defined Cost, and Actual/Average  Cost headers.</li>
+</ul>
+
+<p>You can select the pricing analysis for the entire document or for one  particular item as below:</p>
+
+<ul>
+  <li><strong>Profit 
+ Break Up - Document</strong> <strong>-</strong> Displays  the pricing analysis statistics and calculations for the entire document.</li>
+  <li><strong>Profit 
+ Break Up - Item</strong>– Displays the pricing analysis statistics and calculations  for the selected item.</li>
+</ul>
+
+<p>: <img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><a href="/versata-everest-docs/sales/misc/profit_break_up_document.html">Profit  Breakup Document/Profit Breakup Current Item</a></p>
+
+<p>When you select either, the <strong>Profit 
+ Breakup</strong> grid displays the pricing analysis and you can choose to  use the <strong>Markup</strong> or <strong>Margin</strong> settings to display the profits. You can also change the markup  or margin setting and choose <strong>Apply</strong>  to change the pricing analysis.</p>
+
+<ul class="note">
+  <li>The <strong>UM</strong>  field shows the measure selected for the item in the sales document.</li>
+  <li>Cost is calculated  using the sales measure defined for the item.</li>
+  <li>Last Cost and Average  Cost are converted from the stock measure to the selected measure. If  there is a purchase measure matching the sales measure, Last Cost in the  Purchase tab of the Item profile is used.</li>
+  <li>The Selling Price,  Cost, and Profit are in the sales price decimal accuracy.</li>
+</ul>
+
+<p>The following example shows a Sales Analysis where more than one unit  of measure is used:</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><a href="/versata-everest-docs/sales/misc/sales_analysis_with_more_than_one_unit_of_measure_sales_process.html">Sales  Analysis with More than One Unit of Measure</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sqs/sq-proc/pricing-analysis/pricing_analysis.html">Pricing Analysis</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sqs/sq-proc/pricing-analysis/costs_used_in_pricing_analysis.html">Cost  Used in Pricing Analysis</a></dd>
+  <dd><a href="/versata-everest-docs/sales/misc/cost_determination_of_serialized_items_in_case_of_sales_orders.html">Cost  Determination of Serialized Items in case of Sales Orders</a></dd>
+</dl>
+
+
+
+
+</div>

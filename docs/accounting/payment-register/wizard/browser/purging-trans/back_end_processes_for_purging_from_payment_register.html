@@ -1,0 +1,34 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---purgevoid-paymentrefund-transactions">Back End Processes - Purge/Void Payment/Refund Transactions</h1>
+
+<p>The back end processes when a payment transaction is purged or voided  from the Payment Register are:</p>
+
+<ul>
+  <li>The vendor’s  unposted amount and net balance is reduced, if the vendor was credited  in the voided transaction; the vendor’s unposted amount increases, if  the vendor was debited in the voided transaction.</li>
+  <li>If the entry  type for payment was ‘miscellaneous deposit’,  the amount on the manual purchase order created for the transaction is  zeroed out.</li>
+  <li>If all transactions  in the journal are deleted, the journal’s description changes to “Voided  Journal”.</li>
+  <li>
+    <p>If payment  discounts were recorded in the purged/voided transaction, the <strong>Payment 
+ Discount</strong> field on the associated purchase invoice changes based  on the following rules:</p>
+  </li>
+  <li>The <strong>Payment 
+ Discount</strong> field reduces by the amount credited to the purchase discount  account.</li>
+  <li>The <strong>Payment 
+ Discount</strong> field increases by the amount debited to the purchase  discount account.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/purging-trans/purging_transactions_from_the_payment_register.html">Purging  Transactions from the Payment Register</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/vendor-payments-and-refunds/payment-jrnl-proc/purge-payment-jrnls-trans/purging-trans/backend_proc_del_trans.html">Back  End Processes - Deleting Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

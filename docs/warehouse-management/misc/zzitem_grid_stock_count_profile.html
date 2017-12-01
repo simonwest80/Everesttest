@@ -1,0 +1,115 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="item-grid">Item Grid</h1>
+
+<dl>
+  <dt><strong>Line Number</strong></dt>
+  <dd>This column displays the line number of the Item  Details Grid.</dd>
+  <dt><strong>Item Code</strong></dt>
+  <dd>Specify the code of the item for which you want  to count the stock. This is a mandatory field.</dd>
+  <dt><strong>Stock Bin</strong></dt>
+  <dd>The bin that contains the line item is displayed  in this column.</dd>
+</dl>
+
+<p class="note">In case you are retrieving an item directly  in the Item Details Grid, without using any of the <strong>Retrieve</strong><strong>Items</strong> options, you are required  to select a bin in this column. Double click in this column to display  the drop-down arrow. Click the arrow and select the bin for which you  want to conduct the stock count from the browser that is displayed.</p>
+
+<dl>
+  <dt><strong>Stock Area</strong></dt>
+  <dd>This column displays the stock area to which the  line item belongs.</dd>
+  <dt><strong>Stock Measure</strong></dt>
+  <dd>The unit of measure specified in the <strong>Stock 
+ Measure</strong> field of the Item profile (path: <strong>Inventory</strong>  &gt; <strong>Items</strong> &gt; <strong>Items</strong><strong>browser</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Inventory</strong> tab) is displayed in this  column.</dd>
+  <dt><strong>System Cost</strong></dt>
+  <dd>In case of inventoried items, this column displays  the average cost; for serialized items, it displays the weighted average  of the actual cost of the system serial numbers.</dd>
+</dl>
+
+<p class="note">If you are using the Take Snapshot to Count  method, average cost, at the time of creation of the <strong>Stock 
+ Count</strong> profile, may differ from the average cost when the document  is marked as Counted. The <strong>System Cost</strong>  column in the Item Details Grid is automatically updated with the new  cost. This change is also conveyed through a message.</p>
+
+<dl>
+  <dt><strong>System Value</strong></dt>
+  <dd>This is calculated as follows:</dd>
+</dl>
+
+<ul>
+  <li>Inventoried  items: System Stock * Average Cost</li>
+  <li>Serialized/Auto-serialized  items: Sum of actual cost of serial numbers</li>
+</ul>
+
+<dl>
+  <dt><strong>Physical Cost</strong></dt>
+  <dd>In case of inventoried items, this column displays  the average cost and for serialized and auto-serialized items, it displays  the weighted average of the actual cost of the physical serial numbers.</dd>
+  <dt><strong>Physical Value</strong></dt>
+  <dd>This is calculated as follows:</dd>
+</dl>
+
+<ul>
+  <li>Inventoried  items: Physical Stock * Average Cost</li>
+  <li>Serialized/Auto-serialized  items: Sum of actual cost of serial numbers</li>
+</ul>
+
+<dl>
+  <dt><strong>Adjustment Quantity</strong></dt>
+  <dd>This column displays the quantity of variance by  default. The quantity is negative if physical stock is less than the system  stock and positive if the physical stock is more than the system stock.  You can edit the quantity in the following cases:</dd>
+</dl>
+
+<ul>
+  <li>The item  is either inventoried or auto-serialized</li>
+  <li>The adjusted  quantity is being added</li>
+</ul>
+
+<dl>
+  <dt>: The adjusted quantity should not exceed the variance  quantity of the inventoried item.</dt>
+  <dd>For serialized and auto-serialized items, this column  is updated to the quantity of the serial numbers written off when an inventory  adjustment document is created.</dd>
+  <dt><strong>Adjustment Cost</strong></dt>
+  <dd>By default, this column displays the average cost  of the items used to adjust the quantity of variance. You can edit this  cost in the following cases:</dd>
+</dl>
+
+<ul>
+  <li>The item  is either inventoried or auto-serialized.</li>
+  <li>The adjusted  quantity is being added.</li>
+</ul>
+
+<dl>
+  <dt>: You cannot edit this column if you are writing off  a quantity.</dt>
+  <dd>For serialized and auto-serialized items, this column  is updated with the weighted average of the actual cost of the serial  numbers written off when an inventory adjustment document is created.</dd>
+  <dt><strong>Adjustment Value</strong></dt>
+  <dd>This is calculated as the adjustment quantity multiplied  by the adjustment cost.</dd>
+  <dt><strong>Variance Quantity</strong></dt>
+  <dd>This column displays the difference between the  physical and system stocks.</dd>
+  <dt><strong>Variance Value</strong></dt>
+  <dd>This column displays the difference between the  physical and system values.</dd>
+</dl>
+
+<p><strong>Serial # Difference</strong></p>
+
+<dl>
+  <dt><strong>System Quantity</strong></dt>
+  <dd>This column displays the total stock of the line  item in the system when the Stock Count document is created. The stock  measure of the line item as specified in the profile of that item is used  to calculate the system stock. You cannot edit this column.</dd>
+</dl>
+
+<p class="note">Double click in this column to view details  of the system quantity of serialized items in the <strong>System 
+ Serial Numbers for All Items</strong> browser.</p>
+
+<dl>
+  <dt><strong>Physical Quantity</strong></dt>
+  <dd>Enter the actual quantity of the item determined  by the physical count.</dd>
+</dl>
+
+<p class="note">Double click in this column to view details  of the physical quantity of serialized items in the <strong>Physical 
+ Serial Numbers for All Items</strong> browser.</p>
+
+<p class="note">By default only <strong>Line 
+ number</strong>, <strong>Item Code</strong>, <strong>Stock Bin</strong>, <strong>Stock 
+ Area</strong>, <strong>Stock Measure</strong>, <strong>System Cost</strong>, <strong>System 
+ Quantity</strong>, and <strong>Physical Quantity</strong>  columns will appear. To view other columns, click <strong>Field 
+ Chooser</strong> icon from the tool bar.</p>
+
+
+
+
+</div>

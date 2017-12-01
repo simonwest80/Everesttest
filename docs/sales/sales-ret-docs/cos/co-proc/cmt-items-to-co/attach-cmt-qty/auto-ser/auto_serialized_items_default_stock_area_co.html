@@ -1,0 +1,62 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="auto-serialized-items---default-stock-area">Auto-serialized Items - Default Stock Area</h1>
+
+<p>The stock area from which quantities are committed on the credit order  depend on the selection made in the <strong>Prompt 
+ method for selecting a stock area when auto-serializing sales document</strong>  option (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Flow Control &gt; Documents &gt; Prompts &gt; Sales Document &gt; 
+ Sales Document 1</strong> tab).</p>
+
+<p>This field has the following options:</p>
+
+<ul>
+  <li><strong>None</strong>  - If the prompt option selected is <strong>None</strong>,  quantities are attached from the default stock area for auto-serialized  items specified in the <strong>Assign inventory 
+ from &gt; Credit Order</strong> field of the <strong>Workstation 
+ Settings</strong> dialog box (path: <strong>File 
+ &gt; Setup &gt; Preferences &gt; Workstation Settings &gt; Stock Areas 
+ &gt; For Sales</strong> tab).</li>
+</ul>
+
+<dl>
+  <dt>: If the default stock  area in the <strong>Workstation Settings</strong>  is blank, quantities are attached from the default stock area specified  for assigning items on credit orders in the logged in location/sub-location  (path: **File &gt; Setup &gt; Accounting </dt>
+  <dt> &gt; Location/Sub-Location** &gt; **Options </dt>
+  <dt> &gt; Edit &gt; In New Window** **&gt; </dt>
+  <dt> Stock Transfer &gt; Sales Document** tab).</dt>
+  <dd>If default stock areas are NOT defined  in <strong>Workstation Settings</strong> or the  <strong>Location</strong> profile, the item remains  in the stock area it was in, before it was committed on the credit order.</dd>
+</dl>
+
+<ul>
+  <li><strong>Each 
+ Item</strong> - If you select <strong>Each Item</strong>,  you are asked to select the stock area from which the quantities should  be attached for each auto-serialized item on the credit order.</li>
+  <li><strong>Once 
+ for All Items</strong> - If you select <strong>Once 
+ for All Items</strong>, you are asked to select the stock area from which  the quantities should be attached for all the auto-serialized items contained  in the credit order.</li>
+</ul>
+
+<p>If the quantity to be committed is greater than the quantity available  in the selected stock area, you are asked to select the stock area from  which the remaining quantity can be attached.</p>
+
+<p class="note">The <strong>Stock 
+ Area</strong> field displays in the status bar when you need to select a  stock area. Select a stock area and press the <strong>Enter</strong>  key or <strong>ESC</strong> key to exit this field  and continue.</p>
+
+<p>If the quantity in the selected stock area includes items to which a  manufacturer’s serial numbers are assigned, you can skip such items or  auto-serialize them without being prompted. This preference must be set  in the <strong>When an item marked as auto-serialized 
+ consists of a manufacturer serial number, how do you wish to auto-serialize 
+ the item</strong> option of the <strong>Documents</strong> dialog box (path: <strong>File &gt; Setup 
+ &gt; Preferences &gt; Flow Control &gt; Documents &gt; Prompts &gt; Sales 
+ Document &gt; Sales Document 1</strong> tab).</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/misc/prompts_sales_document_sales_document_1_steps.html">Documents  - Prompts - Sales Document - Sales Document 1</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/cos/co-proc/cmt-items-to-co/attach-cmt-qty/auto-ser/auto_serialized_items_co.html">Auto-serialized  Items - Entering Committed Quantities</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/cms/cm-proc/received-quantities/entering_returned_quantities.html">Entering  Returned Quantities</a></dd>
+</dl>
+
+
+
+
+</div>

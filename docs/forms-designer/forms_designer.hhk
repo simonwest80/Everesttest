@@ -1,0 +1,645 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="multiple form versions">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Import browser">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Existing Name">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Condition">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Form name">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Form Class">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="imported form versions">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Name conflicts">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="form versions">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Import Dialog-Forms browser">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="import forms browser">
+    <param name="Name" value="Updating Existing Forms">
+    <param name="Local" value="misc\updating_existing_forms.html">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="existing form version">
+    <param name="Name" value="Updating Existing Forms">
+    <param name="Local" value="misc\updating_existing_forms.html">
+    <param name="Name" value="Import Dialog - Forms Browser">
+    <param name="Local" value="misc\import_dialog_forms_browser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="existing form version definitions">
+    <param name="Name" value="Updating Existing Forms">
+    <param name="Local" value="misc\updating_existing_forms.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="custom form versions">
+    <param name="Name" value="Export Forms Dialog Box">
+    <param name="Local" value="misc\export_forms_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer document form version assignments">
+    <param name="Name" value="Customer Document Form Version Assignments">
+    <param name="Local" value="forms-browser\customer_document_form_version_assignments_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Retrieved Records">
+    <param name="Name" value="Export Forms Dialog Box">
+    <param name="Local" value="misc\export_forms_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Selected Records">
+    <param name="Name" value="Export Forms Dialog Box">
+    <param name="Local" value="misc\export_forms_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Records to Export">
+    <param name="Name" value="Export Forms Dialog Box">
+    <param name="Local" value="misc\export_forms_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customized form versions">
+    <param name="Name" value="Exporting a Form version">
+    <param name="Local" value="forms-browser\exporting_a_form_version.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Export Forms Dialog–Forms Browser">
+    <param name="Name" value="Exporting a Form version">
+    <param name="Local" value="forms-browser\exporting_a_form_version.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Export Forms">
+    <param name="See Also" value="Exporting a form version">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="create">
+    <param name="See Also" value="create">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="forms designer sample customized profiles">
+      <param name="Name" value="Create Sample Customized Profiles">
+      <param name="Local" value="forms-designer\create-sample-customized-profiles\create_sample_customized_profiles.html">
+      <param name="Name" value="About Everest Forms Designer">
+      <param name="Local" value="about_the_forms_designer_introduction.html">
+      <param name="Name" value="Working with the Forms Designer">
+      <param name="Local" value="forms-designer\working_with_the_forms_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="forms designer customized profiles">
+      <param name="Name" value="Create Customized Profiles">
+      <param name="Local" value="forms-designer\create-customized-profiles\create_customized_profiles.html">
+      <param name="Name" value="Working with the Forms Designer">
+      <param name="Local" value="forms-designer\working_with_the_forms_designer.html">
+      <param name="Name" value="About Everest Forms Designer">
+      <param name="Local" value="about_the_forms_designer_introduction.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="forms browser">
+    <param name="Name" value="The Forms Browser">
+    <param name="Local" value="forms-browser\the_forms_browser_chapter3.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="access the forms browser">
+      <param name="Name" value="Access the Forms Browser">
+      <param name="Local" value="misc\access_the_forms_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="forms browser options">
+      <param name="Name" value="Forms Browser Options">
+      <param name="Local" value="forms-browser\forms_browser_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign a profile version to a user or group">
+      <param name="Name" value="Assign a Profile Version to a User or Group">
+      <param name="Local" value="forms-browser\assign_a_profile_version_to_a_user_or_group.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="specific group assignment">
+      <param name="Name" value="Specific Group Assignment">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\specific_group_assignment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="managing forms with the forms browser illustrated">
+      <param name="Name" value="Managing Forms with the Forms Browser Illustrated">
+      <param name="Local" value="forms-browser\managing-forms-illustrated\managing_forms_with_the_forms_browser_illustrated.html">
+      <param name="Name" value="Create Sample Customized Profiles">
+      <param name="Local" value="forms-designer\create-sample-customized-profiles\create_sample_customized_profiles.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="individual user assignment">
+      <param name="Name" value="Individual User Assignment">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\individual_user_assignment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="grant users a version of the form">
+      <param name="Name" value="Grant Users a Version of the Form">
+      <param name="Local" value="misc\grant_users_a_version_of_the_form.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="grant groups a version of the form">
+      <param name="Name" value="Grant Groups a Version of the Form">
+      <param name="Local" value="misc\grant_groups_a_version_of_the_form.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign users to a form version">
+      <param name="Name" value="Assign Users to a Form Version">
+      <param name="Local" value="misc\assign_users_to_a_form_version.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer document form version assignments">
+      <param name="Name" value="Customer Document Form Version Assignments">
+      <param name="Local" value="forms-browser\customer_document_form_version_assignments_fd.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign groups to a form version">
+      <param name="Name" value="Assign Groups to a Form Version">
+      <param name="Local" value="misc\assign_groups_to_a_form_version.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign a profile version to a specific user or group">
+      <param name="Name" value="Assign a Profile Version to a Specific User or Group">
+      <param name="Local" value="forms-browser\assign-profile\assign_a_profile_version_to_a_specific_user_or_group.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign a profile version from the users/groups browsers">
+      <param name="Name" value="Assign a Profile Version from the Users and Groups Browsers">
+      <param name="Local" value="forms-browser\assign-profile\assign_a_profile_version_from_the_users_and_groups_browsers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign a profile version from the forms browser">
+      <param name="Name" value="Assign a Profile Version from the Forms Browser">
+      <param name="Local" value="forms-browser\assign_a_profile_version_from_the_forms_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign forms dialog box from users browser">
+      <param name="Name" value="Access the Assign Forms Dialog Box from the Users Browser">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_users_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign forms dialog box from user profile">
+      <param name="Name" value="Access the Assign Forms Dialog Box from the User Profile">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_user_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign forms dialog box from groups browser">
+      <param name="Name" value="Access the Assign Forms Dialog Box from the Groups Browser">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_groups_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign forms dialog box from group profile">
+      <param name="Name" value="Access the Assign Forms Dialog Box from the Group Profile">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_group_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign forms dialog box">
+      <param name="Name" value="Access the Assign Forms Dialog Box">
+      <param name="Local" value="misc\access_the_assign_forms_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="object inspector in the forms designer">
+    <param name="Name" value="Object Inspector">
+    <param name="Local" value="forms-designer\object_inspector.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="component palette in the forms designer">
+    <param name="Name" value="Component Palette">
+    <param name="Local" value="forms-designer\component_palette_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="field chooser in the forms designer">
+    <param name="Name" value="Field Chooser">
+    <param name="Local" value="forms-designer\field_chooser_fd.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="forms designer events">
+    <param name="Name" value="Forms Designer Events">
+    <param name="Local" value="forms-designer-security\events\forms_designer_events.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="working with the forms browser">
+    <param name="Name" value="The Forms Browser">
+    <param name="Local" value="forms-browser\the_forms_browser_chapter3.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="access the forms browser">
+      <param name="Name" value="Access the Forms Browser">
+      <param name="Local" value="misc\access_the_forms_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="forms browser options">
+      <param name="Name" value="Forms Browser Options">
+      <param name="Local" value="forms-browser\forms_browser_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign a profile version to a user or group">
+      <param name="Name" value="Assign a Profile Version to a User or Group">
+      <param name="Local" value="forms-browser\assign_a_profile_version_to_a_user_or_group.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="specific group assignment">
+      <param name="Name" value="Specific Group Assignment">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\specific_group_assignment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="individual user assignment">
+      <param name="Name" value="Individual User Assignment">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\individual_user_assignment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="importing a form version">
+      <param name="Name" value="Importing a form version">
+      <param name="Local" value="forms-browser\importing_a_form_version.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="grant users a version of the form">
+      <param name="Name" value="Grant Users a Version of the Form">
+      <param name="Local" value="misc\grant_users_a_version_of_the_form.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="grant groups a version of the form">
+      <param name="Name" value="Grant Groups a Version of the Form">
+      <param name="Local" value="misc\grant_groups_a_version_of_the_form.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign users to a form version">
+      <param name="Name" value="Assign Users to a Form Version">
+      <param name="Local" value="misc\assign_users_to_a_form_version.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="exporting a form version">
+      <param name="Name" value="Exporting a Form version">
+      <param name="Local" value="forms-browser\exporting_a_form_version.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign groups to a form version">
+      <param name="Name" value="Assign Groups to a Form Version">
+      <param name="Local" value="misc\assign_groups_to_a_form_version.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign a profile version to a specific user or group">
+      <param name="Name" value="Assign a Profile Version to a Specific User or Group">
+      <param name="Local" value="forms-browser\assign-profile\assign_a_profile_version_to_a_specific_user_or_group.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign a profile version from the users/groups browsers">
+      <param name="Name" value="Assign a Profile Version from the Users and Groups Browsers">
+      <param name="Local" value="forms-browser\assign-profile\assign_a_profile_version_from_the_users_and_groups_browsers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign a profile version from the forms browser">
+      <param name="Name" value="Assign a Profile Version from the Forms Browser">
+      <param name="Local" value="forms-browser\assign_a_profile_version_from_the_forms_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign forms dialog box from users browser">
+      <param name="Name" value="Access the Assign Forms Dialog Box from the Users Browser">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_users_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign forms dialog box from user profile">
+      <param name="Name" value="Access the Assign Forms Dialog Box from the User Profile">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_user_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign forms dialog box from groups browser">
+      <param name="Name" value="Access the Assign Forms Dialog Box from the Groups Browser">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_groups_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign forms dialog box from group profile">
+      <param name="Name" value="Access the Assign Forms Dialog Box from the Group Profile">
+      <param name="Local" value="forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_group_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign forms dialog box">
+      <param name="Name" value="Access the Assign Forms Dialog Box">
+      <param name="Local" value="misc\access_the_assign_forms_dialog_box.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="managing forms with the forms browser illustrated">
+      <param name="Name" value="Managing Forms with the Forms Browser Illustrated">
+      <param name="Local" value="forms-browser\managing-forms-illustrated\managing_forms_with_the_forms_browser_illustrated.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="forms designer security">
+    <param name="Name" value="About Forms Designer Security">
+    <param name="Local" value="forms-designer-security\about_forms_designer_security.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign a security right to a user">
+      <param name="Name" value="Assign a Security Right to a User">
+      <param name="Local" value="forms-designer-security\security-rights\assign_a_security_right_to_a_user.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="forms designer security rights">
+      <param name="Name" value="Forms Designer Security Rights">
+      <param name="Local" value="forms-designer-security\security-rights\forms_designer_security_rights.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="remove a security right from a user">
+      <param name="Name" value="Remove a Security Right from a User">
+      <param name="Local" value="forms-designer-security\security-rights\remove_a_security_right_from_a_user.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="access to forms designer by profile">
+      <param name="Name" value="Access to Forms Designer by Profile">
+      <param name="Local" value="misc\access_to_forms_designer_by_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="access to profile version user/group assignment">
+      <param name="Name" value="Access to Profile Version User/Group Assignment">
+      <param name="Local" value="misc\access_to_profile_version_user_group_assignment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="access to customized profiles from a central location">
+      <param name="Name" value="Access to Customized Profiles from a Central Location">
+      <param name="Local" value="misc\access_to_customized_profiles_from_a_central_location.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="forms designer">
+    <param name="Name" value="About Everest Forms Designer">
+    <param name="Local" value="about_the_forms_designer_introduction.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="introduction">
+      <param name="Name" value="About Everest Forms Designer">
+      <param name="Local" value="about_the_forms_designer_introduction.html">
+      <param name="Name" value="Features of Everest Forms Designer">
+      <param name="Local" value="introduction\features_of_everest_forms_designer.html">
+      <param name="Name" value="Assumptions">
+      <param name="Local" value="introduction\assumptions_introduction.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="access the forms designer">
+      <param name="Name" value="Access the Forms Designer">
+      <param name="Local" value="forms-designer\access_the_forms_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="features of Everest Forms Designer">
+      <param name="Name" value="Features of Everest Forms Designer">
+      <param name="Local" value="introduction\features_of_everest_forms_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="working with the forms designer">
+      <param name="Name" value="Working with the Forms Designer">
+      <param name="Local" value="forms-designer\working_with_the_forms_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assumptions">
+      <param name="Name" value="Assumptions">
+      <param name="Local" value="introduction\assumptions_introduction.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="about Everest Forms Designer">
+      <param name="Name" value="About Everest Forms Designer">
+      <param name="Local" value="about_the_forms_designer_introduction.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="menu options">
+      <param name="Name" value="Menu Options">
+      <param name="Local" value="forms-designer\menu_options_design_view.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="right click options">
+      <param name="Name" value="Right Click Options">
+      <param name="Local" value="forms-designer\right_click_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="field chooser">
+      <param name="Name" value="Field Chooser">
+      <param name="Local" value="forms-designer\field_chooser_fd.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="component palette">
+      <param name="Name" value="Component Palette">
+      <param name="Local" value="forms-designer\component_palette_dialog_box.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="object inspector">
+      <param name="Name" value="Object Inspector">
+      <param name="Local" value="forms-designer\object_inspector.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create customized profiles">
+      <param name="Name" value="Create Customized Profiles">
+      <param name="Local" value="forms-designer\create-customized-profiles\create_customized_profiles.html">
+      <param name="Name" value="Using an Existing Profile Template">
+      <param name="Local" value="misc\using_an_existing_profile_template.html">
+      <param name="Name" value="Design the Target Form">
+      <param name="Local" value="misc\design_the_target_form.html">
+      <param name="Name" value="Add Fields at the Cursor Position">
+      <param name="Local" value="misc\add_fields_to_the_target_form.html">
+      <param name="Name" value="Add Additional Controls Using the Component Palette">
+      <param name="Local" value="misc\add_additional_controls_using_the_component_palette.html">
+      <param name="Name" value="Modify a Control or Object">
+      <param name="Local" value="misc\modify_a_control_or_object_object_inspector.html">
+      <param name="Name" value="Change an Object's Position">
+      <param name="Local" value="misc\change_an_object_s_position.html">
+      <param name="Name" value="Change an Object's Size">
+      <param name="Local" value="misc\change_an_object_s_size.html">
+      <param name="Name" value="Make any Necessary Changes to the Menu and Toolbar">
+      <param name="Local" value="misc\make_any_necessary_changes_to_the_menu_and_toolbar.html">
+      <param name="Name" value="Save the Target Form">
+      <param name="Local" value="misc\save_the_target_form_create_customized_profiles.html">
+      <param name="Name" value="Save As Option">
+      <param name="Local" value="misc\save_as_option_create_customized_profile.html">
+      <param name="Name" value="Reset a Version to the Standard Version">
+      <param name="Local" value="misc\reset_a_version_to_the_standard_version.html">
+      <param name="Name" value="Tab and Page Controls">
+      <param name="Local" value="misc\tab_and_page_controls_create_customized_profiles.html">
+      <param name="Name" value="Tab Control">
+      <param name="Local" value="misc\tab_control_target_form.html">
+      <param name="Name" value="Page Control">
+      <param name="Local" value="misc\page_control_target_form.html">
+      <param name="Name" value="Select a Tab Control">
+      <param name="Local" value="misc\select_a_tab_control_target_form.html">
+      <param name="Name" value="Select the Page Control">
+      <param name="Local" value="misc\select_the_page_control_target_form.html">
+      <param name="Name" value="Add a New Tab">
+      <param name="Local" value="misc\add_a_new_tab_create_customized_profiles.html">
+      <param name="Name" value="Rename a Tab">
+      <param name="Local" value="misc\rename_a_tab_create_customized_profiles.html">
+      <param name="Name" value="Reorder Tabs">
+      <param name="Local" value="misc\reorder_tabs_create_customized_profile.html">
+      <param name="Name" value="Delete a Tab">
+      <param name="Local" value="misc\delete_a_tab_create_customized_profiles.html">
+      <param name="Name" value="Change the Tab Stop Order">
+      <param name="Local" value="misc\change_the_tab_order_create_customized_profiles.html">
+      <param name="Name" value="Add Fields to their Default Location">
+      <param name="Local" value="misc\add_fields_to_their_default_location_fd.html">
+      <param name="Name" value="Add the Tasks Tab to the Customer Profile">
+      <param name="Local" value="misc\add_the_tasks_tab_to_the_customer_profile_fd.html">
+      <param name="Name" value="Add a Dynamic Tab">
+      <param name="Local" value="misc\add_a_dynamic_tab_create_customized_profiles_fd.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create sample customized profiles">
+      <param name="Name" value="Create Sample Customized Profiles">
+      <param name="Local" value="forms-designer\create-sample-customized-profiles\create_sample_customized_profiles.html">
+      <param name="Name" value="Managing Forms with the Forms Browser Illustrated">
+      <param name="Local" value="forms-browser\managing-forms-illustrated\managing_forms_with_the_forms_browser_illustrated.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="events">
+      <param name="Name" value="Forms Designer Events">
+      <param name="Local" value="forms-designer-security\events\forms_designer_events.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="security">
+      <param name="Name" value="Forms Designer Security Rights">
+      <param name="Local" value="forms-designer-security\security-rights\forms_designer_security_rights.html">
+      <param name="Name" value="About Forms Designer Security">
+      <param name="Local" value="forms-designer-security\about_forms_designer_security.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="tab and page controls">
+      <param name="Name" value="Tab and Page Controls">
+      <param name="Local" value="misc\tab_and_page_controls_create_customized_profiles.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add fields to the target form">
+      <param name="Name" value="Add Fields at the Cursor Position">
+      <param name="Local" value="misc\add_fields_to_the_target_form.html">
+      <param name="Name" value="Add Fields to their Default Location">
+      <param name="Local" value="misc\add_fields_to_their_default_location_fd.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="features of Everest Forms Designer">
+    <param name="Name" value="Features of Everest Forms Designer">
+    <param name="Local" value="introduction\features_of_everest_forms_designer.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="access the forms designer">
+    <param name="Name" value="Access the Forms Designer">
+    <param name="Local" value="forms-designer\access_the_forms_designer.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="working with the forms designer">
+    <param name="Name" value="Working with the Forms Designer">
+    <param name="Local" value="forms-designer\working_with_the_forms_designer.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="field chooser">
+      <param name="Name" value="Field Chooser">
+      <param name="Local" value="forms-designer\field_chooser_fd.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="access the forms designer">
+      <param name="Name" value="Access the Forms Designer">
+      <param name="Local" value="forms-designer\access_the_forms_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="component palette">
+      <param name="Name" value="Component Palette">
+      <param name="Local" value="forms-designer\component_palette_dialog_box.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="object inspector">
+      <param name="Name" value="Object Inspector">
+      <param name="Local" value="forms-designer\object_inspector.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="menu options">
+      <param name="Name" value="Menu Options">
+      <param name="Local" value="forms-designer\menu_options_design_view.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="about Everest Forms Designer">
+      <param name="Name" value="About Everest Forms Designer">
+      <param name="Local" value="about_the_forms_designer_introduction.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="features of Everest Forms Designer">
+      <param name="Name" value="Features of Everest Forms Designer">
+      <param name="Local" value="introduction\features_of_everest_forms_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assumptions">
+      <param name="Name" value="Assumptions">
+      <param name="Local" value="introduction\assumptions_introduction.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create customized profiles">
+      <param name="Name" value="Create Customized Profiles">
+      <param name="Local" value="forms-designer\create-customized-profiles\create_customized_profiles.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create sample customized profiles">
+      <param name="Name" value="Create Sample Customized Profiles">
+      <param name="Local" value="forms-designer\create-sample-customized-profiles\create_sample_customized_profiles.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="forms designer menu options">
+    <param name="Name" value="Menu Options">
+    <param name="Local" value="forms-designer\menu_options_design_view.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Exporting a form version">
+    <param name="Name" value="Exporting a Form version">
+    <param name="Local" value="forms-browser\exporting_a_form_version.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Export Forms Dialog Box">
+    <param name="Name" value="Export Forms Dialog Box">
+    <param name="Local" value="misc\export_forms_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="updating Existing Forms">
+    <param name="Name" value="Updating Existing Forms">
+    <param name="Local" value="misc\updating_existing_forms.html">
+  </object>
+</ul>
+</html>

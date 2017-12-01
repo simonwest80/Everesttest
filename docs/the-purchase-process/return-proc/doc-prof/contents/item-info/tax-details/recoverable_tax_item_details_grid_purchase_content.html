@@ -1,0 +1,28 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="recoverable-tax-in-purchase-invoices">Recoverable Tax in Purchase Invoices</h1>
+
+<p>If the tax code selected in the <strong>Tax</strong><strong>Code</strong> column for a line item comprises  tax components that have purchase tax recoverable, the amount of tax that  is recoverable is displayed in the <strong>Recoverable</strong><strong>Tax</strong> column.</p>
+
+<p>The amount of tax recoverable is treated as an asset and debited to  the account specified in the <strong>Tax</strong><strong>Account</strong> <strong>Code</strong>  field (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Taxes</strong>  &gt; <strong>Tax</strong> <strong>Components</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In New Window</strong> &gt;  <strong>Purchase</strong> tab) when the item is  purchased.</p>
+
+<p>If the item is returned, this amount is credited to the account specified  in the <strong>Tax</strong> <strong>Account</strong><strong>Code</strong> field.</p>
+
+<p>The amount of tax that is not recoverable is added to the value of the  item.</p>
+
+<p class="example">If $100 is the total purchase tax on an item  valued at $1000, out of which 80% is recoverable; $80 is <strong>Recoverable</strong><strong>Tax</strong> and $20 is <strong>Tax</strong>.  Value of item debited to Inventory Control Account (if item is inventoried)  or Expense/Asset accounts (if item is non-inventoried) will be $1020.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/item-info/tax-details/tax_item_details_grid_purchase_content.html">Tax</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/modify_tax_recoverable_tax_amounts_purchase_process.html">Modify  Tax/Recoverable Tax Amounts</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,94 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payment-amount-details">Payment Amount Details</h1>
+
+<dl>
+  <dt><strong>Document Amount</strong></dt>
+  <dd>The document amount is the total value of the document.  This is a display field.</dd>
+  <dt><strong>Already Paid</strong></dt>
+  <dd>This is the amount that has already been paid. In  case of orders, this amount is the deposit received against the order;  for sales invoices, the amount already paid on the document is displayed  in this field. The already paid amount also includes deposits that have  been applied to the sales invoice. Receipts whose journal have or have  not been posted are included. This is a display field.</dd>
+  <dd>Click the <strong>Already 
+ Paid</strong> label to view the <strong>Payment 
+ History</strong>.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/payment-history/payment_history.html">Payment  History</a></dd>
+  <dt><strong>Amount</strong></dt>
+  <dd>Enter the amount that you receive from the customer.  By default, the balance amount receivable on the document displays.</dd>
+  <dd>You can receive on a sales order or sales invoice  an amount greater than the value of the sales order or invoice. In this  case, the <strong>Overpayment 
+ Dialog Box</strong> appears. It also appears when you convert a sales  order with a negative balance to a sales invoice because the sales invoice,  as a final document, cannot have a negative balance.</dd>
+  <dd>The Overpayment dialog box offers several options  for the overpaid amount. You may return it to the customer, apply the  overpayment as a deposit towards future sales to this customer, or leave  the amount as a negative balance on the sales order.</dd>
+  <dd>If you choose to return/refund it to the customer,  the system creates a refund entry in the Receipt Journal.</dd>
+  <dd>If you apply the overpayment as a customer deposit,  the system credits the amount of overpayment to the Customer Deposit Account  specified in the Customer Deposit field (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> profile) of  the Customer Posting Group and generates a manual document for the customer.</dd>
+  <dd>If you choose to leave the negative balance on the  sales order, the sales order retains the negative balance. When making  an overpayment on a sales invoice, the negative balance applies to the  sales order you converted into the sales invoice. In the case of a sales  invoice created directly, the sales invoice itself will retain the negative  balance. This is the only case which allows a sales invoice to carry a  negative balance.</dd>
+</dl>
+
+<p class="note">You may not make an overpayment for batch  processing.</p>
+
+<dl>
+  <dt><strong>Advance Applied</strong></dt>
+  <dd>For sales orders, the advance applied displays the  total amount of credit memos applied to the sales order. For sales invoices,  the advance applied displays the total amount of deposits and credit memos  applied to a Sales Invoice. This is a display field.</dd>
+  <dd>Click the <strong>Advance 
+ Applied</strong> label to view the <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/pmts-on-so/rcpt-dlg/the_payment_dialog_box_apply_deposits_refunds_tab.html"><strong>Apply Deposit/Refunds</strong> tab</a>.</dd>
+  <dt><strong>Discount Available</strong></dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/payment-terms/payment-term-details/discount_information.html">Discounts</a>  may be available for prompt payment based on the payment terms. Whether  a payment is eligible for discount depends on the discount type and login  date when recording the payment. The discount available for the current  payment is calculated and displayed in this field. Discounts are calculated  only on sales invoices.</dd>
+</dl>
+
+<p class="example">A document’s payment terms indicates that a payment  receipt is due 60 days after the invoice date, and a discount of 2% is  allowed for payments made within 30 days. The settings in the <strong>Payment 
+ Terms</strong> profile are as follows:</p>
+
+<ol>
+  <li>
+    <p><strong>Due Date Type</strong>  is “Specified days from invoice” (for 60 days)</p>
+  </li>
+  <li>
+    <p><strong>Discount Type</strong>  is “Specified days from invoice” (for 30 days)</p>
+  </li>
+</ol>
+
+<dl>
+  <dt>You create the sales invoice on 15th September and you  receive payment from the customer on 15th October. Since payment is made  on the 30th day from the date of invoice creation, two percent of the  document amount is displayed as the amount of discount available.</dt>
+  <dd>The discount applied is not accounted for at the  time of capture in either of the following cases:</dd>
+</dl>
+
+<ul>
+  <li>You select  the batch payment processing check box.</li>
+  <li>You receive  payment through credit card and select the transaction type as “Pre  authorization” or “Use prior authorization”.</li>
+</ul>
+
+<p>: You have to account for this discount manually.</p>
+
+<dl>
+  <dt><strong><a href=""></a>Discount Applied</strong></dt>
+  <dd>Discounts applied refer to the amount of the available  discount that is to be claimed for this document. The total discount applied  is displayed in the <strong>Trade Discount</strong> field  on the document profile.</dd>
+  <dd>You can set the following flow control preference  in the <strong>Documents</strong> dialog box: <strong>Automatically apply payment terms discounts 
+ for customer document</strong> option<font style="font-family: Verdana;" face="Verdana"> </font>(path: <strong>File 
+ &gt; Setup &gt; Preferences &gt; Flow Control &gt; Documents &gt; Miscellaneous 
+ &gt; Document Payments</strong>).</dd>
+  <dt>Discounts are calculated and displayed only if the receipt  is accounted from a document. If you create a receipt from a receipt journal,  the available discounts are not displayed.</dt>
+  <dd><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/opt/misc/miscellaneous_document_payments_step_by_step_business_process_in_everest.html">Document  Payments - Flow Control Settings</a></dd>
+  <dt><strong>Total Paid</strong></dt>
+  <dd>The total amount paid on the document is the sum  of the following:</dd>
+</dl>
+
+<ul>
+  <li>Amount already  paid.</li>
+  <li>The amount  yet to be paid by your customer.</li>
+  <li>The advance  applied less the discount applied.</li>
+</ul>
+
+<p>: This amount cannot be greater than the document  value. This is a display field.</p>
+
+<dl>
+  <dt><strong>Balance</strong></dt>
+  <dd>The balance amount remaining to be received on the  sales order / invoice is displayed in this field. This is a display field.  If overpayment is done, this field changes to ‘Overpaid’, which displays  the excess payment made.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/pmts-on-so/rcpt-dlg/the_payment_dialog_box_general.html">Payment  Dialog Box - General</a></dd>
+</dl>
+
+
+
+
+</div>

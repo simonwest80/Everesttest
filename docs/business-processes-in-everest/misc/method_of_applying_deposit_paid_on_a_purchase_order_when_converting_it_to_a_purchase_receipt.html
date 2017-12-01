@@ -1,0 +1,59 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="method-for-applying-deposit-paid-on-a-purchase-order-when-converting--it-to-a-purchase-invoice">Method for applying deposit paid on a purchase order when converting  it to a purchase invoice</h1>
+
+<p><strong>Everest</strong> provides you with the  following options to decide how you want to treat the deposits made on  a purchase order:</p>
+
+<p class="example">A particular vendor delivers items only when  payment is made. The company wants quick delivery of the items and decides  to prepay for the merchandise The Accounting Department is able to track  and move the deposit to the purchase invoice at the time of creation using  these preferences.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Field</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>Automatically create a new transaction to apply deposit  to Purchase invoice</td>
+      <td>Select this option to automatically create a new transaction  while applying the deposit received on a purchase order to the purchase  invoice at the time of saving the invoice. The amount received on the  purchase order is applied to the purchase invoice and reflected in the  Paid field. The net amount due to the vendor is the invoice amount less  the deposit.</td>
+    </tr>
+    <tr>
+      <td>Automatically move deposit to Purchase Invoice, if possible. Otherwise,  auto create a new transaction to apply deposit</td>
+      <td>Select this option to automatically move the deposit to the purchase  invoice. This option will be executed only if the following conditions  are met:<br /><br />- The purchase order  and purchase invoice are created on the same day.<br />- There is only one  payment on the purchase order. If multiple payments are made on the same  purchase order, the system does not move the deposit to the purchase invoice  automatically.<br /><br /><br /><br />The payment information is shown as a new transaction  if the purchase order and invoice are created on different days.</td>
+    </tr>
+    <tr>
+      <td>Prompt user to allow them to select how they would like to treat the  deposit</td>
+      <td>Select this option for a prompt to decide how you would like to move  the deposit received on the purchase order to the corresponding purchase  invoice. When you save the purchase invoice, the system provides you with  the following prompt to check how you would like to apply the deposit.</td>
+    </tr>
+    <tr>
+      <td>Keep deposit on the Purchase Order</td>
+      <td>This option does not move the deposit and retains the deposit on the  purchase order. This gives the user more control on when and how to apply  the deposit received on a purchase order. The entire invoice amount becomes  the amount due to the vendor on the document since the amount received  on the order is not applied. The deposit made against the order can be  applied to any other purchase document of the vendor or applied on the  invoice on a different date.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>When you select the option <strong>Prompt 
+ user to allow them to select how they would like to treat the deposit</strong>  while converting a purchase order to a purchase invoice, the <strong>Everest 
+ Prompt</strong> displays.</p>
+
+<p>The <strong>Everest Prompt</strong>  provides you three options:</p>
+
+<ul>
+  <li>Move deposit from  Purchase Order to Purchase Invoice</li>
+  <li>Create a new transaction  to apply deposit to Purchase Invoice</li>
+  <li>Keep deposit on  this Purchase Order</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/doc-frm/prompts/purchase-prompts/prompts_purchase_document_purchase_document_2_bp.html">Prompts  - Purchase Document - Purchase Document 2</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/opt/setting_flow_control_options.html">Setting  up Flow Control Options</a></dd>
+</dl>
+
+
+
+
+</div>

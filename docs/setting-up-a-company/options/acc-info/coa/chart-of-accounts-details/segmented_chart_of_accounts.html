@@ -1,0 +1,361 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" x-save-method="compute-relative" src="/versata-everest-docs/setting-up-a-company/misc/ehlpdhtm.js"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<h1 id="segmented-chart-of-accounts---tree-structure---assets-sample">Segmented Chart of Accounts - Tree Structure - Assets Sample</h1>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/segmented coa diagram assets.gif" alt="" /></p>
+
+<h1 id="segmented-chart-of-accounts---tree-structure---liability-and-capital--sample">Segmented Chart of Accounts - Tree Structure - Liability and Capital  Sample</h1>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/segmented coa diagram liability capital.gif" alt="" /></p>
+
+<h1 id="segmented-chart-of-accounts---tree-structure---liability-and-expense--sample">Segmented Chart of Accounts - Tree Structure - Liability and Expense  Sample</h1>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/segmented coa diagram revenue expense.gif" alt="" /></p>
+
+<h1 id="segmented-chart-of-accounts">Segmented Chart of Accounts</h1>
+
+<p>Use the Segmented Chart of Accounts in <strong>Everest</strong>  to design the structure of your chart of accounts based on your industry  requirements. Your chart of accounts can be configured by the creation  of up to 22 segments and a maximum of 45 characters. Individual segments  represent your company’s reporting structure as you define it. For example,  segments can be defined for division, department, region, account, and  sub-account. You can perform financial analysis for any of the segments  that you define in your account structure. By segmenting your chart of  accounts, you gain the ability to report on selective segments of your  account. Consult your Accountant before creating your chart of accounts  segment format.</p>
+
+<p>The first step in creating a segmented chart of accounts is to create  your segments. Once you define your segments, you can create accounts  using those segments.</p>
+
+<p class="note">: If you choose not to set up segments, your <strong>Account Code</strong> defaults to one segment  called “<strong>Account</strong>” with  a length of seven characters.</p>
+
+<p>The following table shows a sample segmented chart of accounts for Division  (DIV) 001: (<strong>G</strong> = General, <strong>D</strong> = Detail)</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account Code</td>
+      <td>Description</td>
+      <td>G or D</td>
+      <td>Parent</td>
+      <td>Level</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>DIV</td>
+      <td>DEP</td>
+      <td>ACCT</td>
+      <td>SUB</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>A(sset)</td>
+      <td>G</td>
+      <td> </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>Division 1</td>
+      <td>G</td>
+      <td>A(sset)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td> </td>
+      <td> </td>
+      <td>Department 000 (Corporate)</td>
+      <td>G</td>
+      <td>A(sset)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>1100</td>
+      <td> </td>
+      <td>Cash Accounts</td>
+      <td>G</td>
+      <td>A(sset)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>1100</td>
+      <td>101</td>
+      <td>Fleet Bank - Cash</td>
+      <td>D</td>
+      <td>001-000-1100</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>1100</td>
+      <td>102</td>
+      <td>Bank of America</td>
+      <td>D</td>
+      <td>001-000-1100</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>1200</td>
+      <td> </td>
+      <td>Accounts Receivable</td>
+      <td>G</td>
+      <td>A(sset)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>1200</td>
+      <td>101</td>
+      <td>AR-Trade</td>
+      <td>D</td>
+      <td>001-000-1200</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>L</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>L(iability)</td>
+      <td>G</td>
+      <td> </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>2000</td>
+      <td> </td>
+      <td>Short Term Liabilities</td>
+      <td>G</td>
+      <td>L(iability)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>2000</td>
+      <td>101</td>
+      <td>Accrued Purchases</td>
+      <td>D</td>
+      <td>001-000-2000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>2000</td>
+      <td>101</td>
+      <td>Accounts Payable</td>
+      <td>D</td>
+      <td>001-000-2000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>2000</td>
+      <td>102</td>
+      <td>Payroll Taxes Payable</td>
+      <td>D</td>
+      <td>001-000-2000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>C(aptial)</td>
+      <td>G</td>
+      <td> </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>3000</td>
+      <td> </td>
+      <td>Equity</td>
+      <td>G</td>
+      <td>C(aptial)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>3000</td>
+      <td>101</td>
+      <td>Investments</td>
+      <td>D</td>
+      <td>001-000-3000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>3000</td>
+      <td>102</td>
+      <td>Retained Earnings</td>
+      <td>D</td>
+      <td>001-000-3000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>R</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>R(evenue)</td>
+      <td>G</td>
+      <td> </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>4000</td>
+      <td> </td>
+      <td>Sales Accounts</td>
+      <td>G</td>
+      <td>R(evenue)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>4000</td>
+      <td>101</td>
+      <td>Products</td>
+      <td>D</td>
+      <td>001-000-4000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>4000</td>
+      <td>102</td>
+      <td>Services</td>
+      <td>D</td>
+      <td>001-000-4000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>4000</td>
+      <td>103</td>
+      <td>Support</td>
+      <td>D</td>
+      <td>001-000-4000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>E(xpense)</td>
+      <td>G</td>
+      <td> </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>5000</td>
+      <td> </td>
+      <td>Operating Expenses</td>
+      <td>G</td>
+      <td>E(xpense)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>5000</td>
+      <td>001</td>
+      <td>Rent</td>
+      <td>D</td>
+      <td>001-000-5000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>5000</td>
+      <td>002</td>
+      <td>Electric</td>
+      <td>D</td>
+      <td>001-000-5000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>5000</td>
+      <td>003</td>
+      <td>Payroll</td>
+      <td>D</td>
+      <td>001-000-5000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>000</td>
+      <td>5000</td>
+      <td>004</td>
+      <td>Office</td>
+      <td>D</td>
+      <td>001-000-5000</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt>These same accounts can be represented by the following tree structure:</dt>
+  <dd><a href="javascript:kadovTextPopup(this)" id="a1">Segmented Chart of Accounts - Asset Sample</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a1');
+//--></script></dd>
+  <dd><a href="javascript:kadovTextPopup(this)" id="a2">Segmented Chart of Accounts - Liability  and Capital Sample</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a2');
+//--></script></dd>
+  <dd><a href="javascript:kadovTextPopup(this)" id="a3">Segmented Chart of Accounts - Revenue  and Expense Sample</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a3');
+//--></script></dd>
+  <dt><img src="/versata-everest-docs/setting-up-a-company/img/see_also.gif" alt="" /></dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/coa_segment_setup_profile.html">COA Segment  Setup Profile</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/segmented_accounts_segmented_coa.html">Segmented  Accounts</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/add_segment_to_account_profile_segmented_coa.html">Add  Segment to Account Profile</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,53 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="enter-negative-quantities-in-purchase-return-documents">Enter Negative Quantities in Purchase Return Documents</h1>
+
+<p>Negative quantities can be entered in all Purchase Return documents.  Entering a negative quantity in a purchase return document is exactly  like creating a purchase document. <strong>Everest</strong>  processes line items with negative quantities on purchase return documents  as an entry in a purchase document. Entering a negative quantity will  cause the amount of that line item to become negative.</p>
+
+<p>The total amount of the purchase return is the sum of the positive amounts  and the negative amounts. Although you are allowed to enter negative quantities,  the total amount of the purchase return document after adding the positive  and negative amounts on each line item must be positive. In other words,  the document is not allowed to change its character as the result of entering  negative quantities.</p>
+
+<p class="example">If the total amount of a purchase return document  becomes negative, it in effect becomes a purchase return document, which  is not allowed to change its character as the result of entering negative  quantities.</p>
+
+<p>Entering negative quantities are useful when purchase and purchase returns  are made on the same document.</p>
+
+<p class="example">Exchange of items sold.</p>
+
+<p>Debit Quote</p>
+
+<p>You can enter negative quantities directly in the <strong>Quantity</strong>  column of a debit quote.</p>
+
+<p>Debit Order</p>
+
+<p>You can enter negative quantities directly in the <strong>Requested</strong> column of a debit order.</p>
+
+<p>Debit Memo</p>
+
+<ul>
+  <li><strong>Non-inventoried 
+ Items</strong> - Enter the quantity prefixed with a negative (-) sign.</li>
+  <li><strong>Inventoried 
+ Items</strong> - You can directly enter the quantity prefixed with a negative  sign only if the option <strong>Use default stock 
+ area to assign quantity for non-serialized items in debit documents</strong>  (path: <strong>File &gt; Setup &gt; Accounting 
+ &gt; Location/Sub-Location &gt; Options &gt; Edit &gt; In New Window &gt; 
+ Stock Transfer &gt; Miscellaneous</strong> tab) is selected for the logged  in location/sub-location.</li>
+</ul>
+
+<p>If this option is NOT selected, you must  enter the quantities in the <strong>Attach Quantity</strong>  profile (path: <strong>Debit Memo</strong> profile  &gt; <strong>Options &gt; Attach/Retrieve Serial 
+ # &gt; Show/Attach area wise stock</strong>).</p>
+
+<ul>
+  <li><strong>Serialized/Auto-serialized/Inventoried 
+ Items</strong> - Negative quantities CANNOT be automatically assigned for  serialized/auto-serialized type of items. The serial numbers have to be  manually retrieved from ‘Out’ type of stock area (path: <strong>Debit 
+ Memo</strong> profile &gt; <strong>Options &gt; 
+ Attach/Retrieve Serial &gt; Serial Number/Serial # Range</strong> &gt; select  a serial number from ‘Out’ type of stock area).</li>
+</ul>
+
+
+
+
+
+</div>

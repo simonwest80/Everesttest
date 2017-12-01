@@ -1,0 +1,2534 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="_blank">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800027">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Accounting">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Introduction">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Introduction to Accounting">
+        <param name="Local" value="introduction\introduction_to_accounting.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Everest Accounting Philosophy">
+        <param name="Local" value="introduction\everest_accounting_philosophy.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounting Methods">
+        <param name="Local" value="introduction\accounting_methods.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounting Principles">
+        <param name="Local" value="introduction\accounting_principles.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Accounting Structure in Everest">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounting Structure in Everest">
+        <param name="Local" value="accounting-structure-in-everest\accounting_structure_in_everest.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Fiscal Years">
+        <param name="Local" value="accounting-structure-in-everest\fiscal_years_accounting.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounting Periods">
+        <param name="Local" value="accounting-structure-in-everest\accounting_periods.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Chart of Accounts">
+        <param name="Local" value="accounting-structure-in-everest\chart_of_accounts_accounting.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Segmented Chart of Accounts">
+        <param name="Local" value="accounting-structure-in-everest\segmented_chart_of_accounts.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Accounting Process">
+        <param name="Local" value="accounting-structure-in-everest\the_accounting_process.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Control/Default Accounts">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Control Accounts">
+          <param name="Local" value="accounting-structure-in-everest\control-default-accounts\control_accounts.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Identify an Account as a Control Account">
+          <param name="Local" value="accounting-structure-in-everest\control-default-accounts\identifying_an_account_as_a_control_account.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="List of Control Accounts">
+          <param name="Local" value="accounting-structure-in-everest\control-default-accounts\list_of_control_accounts.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Default Accounts">
+          <param name="Local" value="accounting-structure-in-everest\control-default-accounts\default_accounts.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Journals">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Journals">
+          <param name="Local" value="accounting-structure-in-everest\journals\journals.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="System Journals">
+          <param name="Local" value="accounting-structure-in-everest\journals\system_journals.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Manual  Journals">
+          <param name="Local" value="accounting-structure-in-everest\journals\manual_journals.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Posting">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Posting Process">
+          <param name="Local" value="accounting-structure-in-everest\posting\posting.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tasks Prior to Posting">
+          <param name="Local" value="accounting-structure-in-everest\posting\tasks_prior_to_posting.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Purchasing">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Purchasing">
+        <param name="Local" value="purchasing\purchasing_accounting.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Purchasing - Documents/ Manual Entries">
+        <param name="Local" value="purchasing\purchasing_documents_manual_entries.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Purchasing through documents">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting for Purchase/Purchase Return Documents">
+          <param name="Local" value="purchasing\purchasing-through-documents\accounting_for_purchase_purchase_return_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="System Purchase Journals">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="System Purchase Journals">
+            <param name="Local" value="purchasing\purchasing-through-documents\system-purchase-journals\system_purchase_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purchase Journal Profile (System)">
+            <param name="Local" value="purchasing\purchasing-through-documents\system-purchase-journals\system_purchase_journal_profile_-_general.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purchase Journal Profile (System) - General">
+            <param name="Local" value="purchasing\purchasing-through-documents\system-purchase-journals\system_purchase_journal_profile_general.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purchase Journal Profile (System) - Narration">
+            <param name="Local" value="purchasing\purchasing-through-documents\system-purchase-journals\system_purchase_journal_profile_notes.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Common Journal Profile Options">
+            <param name="Local" value="purchasing\purchasing-through-documents\system-purchase-journals\common_journal_profile_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounting Entires - Purchase Receipt">
+            <param name="Local" value="purchasing\purchasing-through-documents\system-purchase-journals\accounting_entries_purchase_receipt_pur.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounting Entries - Purchase Invoice">
+            <param name="Local" value="purchasing\purchasing-through-documents\system-purchase-journals\accounting_entries_pr_dm.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounting Entries - Debit Memo">
+            <param name="Local" value="purchasing\purchasing-through-documents\system-purchase-journals\accounting_entries_debit_memo.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes - System Purchase Journals">
+            <param name="Local" value="purchasing\purchasing-through-documents\system-purchase-journals\backend_processes_system_purchase_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounts Payable Import Journal">
+            <param name="Local" value="purchasing\purchasing-through-documents\system-purchase-journals\accounts_payable_import_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payroll Journal">
+            <param name="Local" value="purchasing\purchasing-through-documents\system-purchase-journals\payroll_journals.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Manual Purchases">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Manual Purchases">
+          <param name="Local" value="purchasing\manual-purchases\manual_purchases.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Manual Purchase Journal Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purchase Journal (Manual) Details">
+            <param name="Local" value="purchasing\manual-purchases\manual-purchase-jrnl-dtls\the_manual_purchase_journal_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Journal Information">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Journal Information">
+              <param name="Local" value="purchasing\manual-purchases\manual-purchase-jrnl-dtls\journal-information\journal_information_manpurjrnl.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Transaction Details">
+              <param name="Local" value="purchasing\manual-purchases\manual-purchase-jrnl-dtls\trans-dtls\transaction_details_manual_purchase_journal.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Transaction Information">
+              <param name="Local" value="purchasing\manual-purchases\manual-purchase-jrnl-dtls\trans-dtls\transactions_information_manpurjrnl_con.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Vendor Information">
+              <param name="Local" value="purchasing\manual-purchases\manual-purchase-jrnl-dtls\trans-dtls\vendor_information_manpurjrnl.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Document Information">
+              <param name="Local" value="purchasing\manual-purchases\manual-purchase-jrnl-dtls\trans-dtls\document_information_manpurjrnl.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Payment Information">
+              <param name="Local" value="purchasing\manual-purchases\manual-purchase-jrnl-dtls\trans-dtls\payment_information_manpurjrnl.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Entries">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Transaction Entries">
+              <param name="Local" value="purchasing\manual-purchases\manual-purchase-jrnl-dtls\transaction-entries\transaction_entries_manpurjrnl_con.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating a Manual Purchase Journal">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Manual Purchase Journal">
+            <param name="Local" value="purchasing\manual-purchases\creating-a-manual-purchase-journal\creating_a_manual_purchase_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Purchase Journal Profile">
+            <param name="Local" value="purchasing\manual-purchases\creating-a-manual-purchase-journal\the_purchase_journal_profile_manual_pj.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Purchase Journal Profile - General">
+            <param name="Local" value="purchasing\manual-purchases\creating-a-manual-purchase-journal\purchase_journal_profile_general.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Purchase Journal Profile - Narration">
+            <param name="Local" value="purchasing\manual-purchases\creating-a-manual-purchase-journal\purchase_journal_profile_notes.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Common Journal Profile Options">
+            <param name="Local" value="purchasing\manual-purchases\creating-a-manual-purchase-journal\common_journal_profile_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes - Manual Purchase Journal">
+            <param name="Local" value="purchasing\manual-purchases\creating-a-manual-purchase-journal\backend_processes_manual_purjrnl.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Purchase Journal Processes">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="System Purchase Journal Processes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Common Journal  Profile Options">
+            <param name="Local" value="purchasing\purchase-jrnl-proc\system-purchase-journal-processes\common_journal_profile_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify System Purchase Journals">
+            <param name="Local" value="purchasing\purchase-jrnl-proc\system-purchase-journal-processes\modifying_system_purchase_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Void System Purchase Journals">
+            <param name="Local" value="purchasing\purchase-jrnl-proc\system-purchase-journal-processes\voiding_system_purchase_journals.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Manual Purchase Journal Processes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Add Transactions to a Manual Purchase Journal">
+            <param name="Local" value="purchasing\purchase-jrnl-proc\manual-jrnl\adding_entries_to_a_manual_purchase_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify Journals">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify Manual Purchase Journals">
+              <param name="Local" value="purchasing\purchase-jrnl-proc\manual-jrnl\modify-jrnls\modifying_manual_purchase_journals.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Modify Manual Purchase Journals">
+              <param name="Local" value="purchasing\purchase-jrnl-proc\manual-jrnl\modify-jrnls\backend_processes_modifying_manual_purchase_journals.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Voiding/Deleting  Purchase Journals">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Void Manual Purchase Journals">
+              <param name="Local" value="purchasing\purchase-jrnl-proc\manual-jrnl\voiding-deleting\voiding_journals.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Voiding/Deleting Manual Purchase Journal">
+              <param name="Local" value="purchasing\purchase-jrnl-proc\manual-jrnl\voiding-deleting\backend_processes_voiding_deleting_manual_purchase_journal.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Deleting Transactions">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Delete Transactions - Manual Purchase Journals">
+                <param name="Local" value="purchasing\purchase-jrnl-proc\manual-jrnl\voiding-deleting\del-trans\delete_transactions_manual_purchase_journals.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Delete Transactions - Purchase Journal Profile">
+                <param name="Local" value="purchasing\purchase-jrnl-proc\manual-jrnl\voiding-deleting\del-trans\delete_transactions_purchase_journal_profile.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Delete Transactions - Purchase Journal Transactions Browser">
+                <param name="Local" value="purchasing\purchase-jrnl-proc\manual-jrnl\voiding-deleting\del-trans\del_trans_purchase_journal_trans_browser.html">
+              </object>
+              </ul>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Common Journal Processes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View System Purchase Journals">
+            <param name="Local" value="purchasing\purchase-jrnl-proc\common-jrnl-proc\viewing_system_purchase_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Lock and Open Journals">
+            <param name="Local" value="purchasing\purchase-jrnl-proc\common-jrnl-proc\closing_and_reopening_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Lock/Open a Purchase Journal">
+            <param name="Local" value="purchasing\purchase-jrnl-proc\common-jrnl-proc\close_open_a_purchase_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Purchase Journals">
+            <param name="Local" value="purchasing\purchase-jrnl-proc\common-jrnl-proc\printing_purchase_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Posting">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Posting Journals to the Accounts">
+              <param name="Local" value="purchasing\purchase-jrnl-proc\common-jrnl-proc\posting\posting_journals_to_the_accounts.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Posting Purchase Journals">
+              <param name="Local" value="purchasing\purchase-jrnl-proc\common-jrnl-proc\posting\posting_purchase_journals.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View Posted Purchase Journals">
+              <param name="Local" value="purchasing\purchase-jrnl-proc\common-jrnl-proc\posting\viewing_posted_purchase_journals.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Posting Purchase Journals">
+              <param name="Local" value="purchasing\purchase-jrnl-proc\common-jrnl-proc\posting\backend_processes_posting_purchase_journal.html">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Purchase Journals Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Unposted Purchase Journals Browser">
+          <param name="Local" value="purchasing\purchase-journals-browser\purchase_journal_browser.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Vendor Payments and Refunds">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Payments to Vendors">
+        <param name="Local" value="vendor-payments-and-refunds\payments_to_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Methods of Payment">
+        <param name="Local" value="vendor-payments-and-refunds\methods_of_payments.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Payments">
+        <param name="Local" value="vendor-payments-and-refunds\document_payments.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="System Entries for Payments">
+        <param name="Local" value="vendor-payments-and-refunds\system_entries_for_payments.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Manual Payments and Refunds">
+        <param name="Local" value="vendor-payments-and-refunds\manual_payments_and_refunds.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Foreign Currency Payments">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payments In Foreign Currency">
+          <param name="Local" value="vendor-payments-and-refunds\foreign-currency-payments\payments_in_foreign_currency.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cross-Currency Calculations">
+          <param name="Local" value="vendor-payments-and-refunds\foreign-currency-payments\cross_currency_calculations.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Calculation of Foreign Exchange Gains and Losses">
+          <param name="Local" value="vendor-payments-and-refunds\foreign-currency-payments\calculation_of_foreign_exchange_gains_and_losses.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Payment Journal Details">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payment Journal Details">
+          <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\the_manual_payment_journal_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Journal Information">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Journal Information">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\journal-information\journal_information_pmtjrnl.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Transaction Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Information">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\trans-dtls\transaction_information_pmtjrnl.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Transaction Entries">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Entries">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\transaction-entries\transaction_entries_manual_payment_journal_contents.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Types of Payment">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\transaction-entries\types_of_payment_manpmtjrnl.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Account Details">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\transaction-entries\account_column_manpmtjrnl.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Other Columns in Transaction Entries">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\transaction-entries\other_columns_in_transaction_entries_manpmtjrnl.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Entry Types - Details">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\transaction-entries\entry_types_details.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multicurrency Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Multicurrency Information">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\multicurrency-details\multicurrency_information.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payment Currency Section">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\multicurrency-details\payment_currency_section.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Bank Currency Section">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\multicurrency-details\bank_currency_section.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Vendor Currency Section">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-dtls\multicurrency-details\vendor_currency_section.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Creating a Manual Payment Journal">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Manual Payment Journal">
+          <param name="Local" value="vendor-payments-and-refunds\creating-a-manual-payment-journal\creating_a_manual_payment_journal.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Payment Journal Profile">
+          <param name="Local" value="vendor-payments-and-refunds\creating-a-manual-payment-journal\the_payment_journal_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payment Journal Profile - General">
+          <param name="Local" value="vendor-payments-and-refunds\creating-a-manual-payment-journal\payment_journal_profile_general.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payment Journal Profile - Narration">
+          <param name="Local" value="vendor-payments-and-refunds\creating-a-manual-payment-journal\payment_journal_profile_notes.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payment Journal Profile - Multi Currency">
+          <param name="Local" value="vendor-payments-and-refunds\creating-a-manual-payment-journal\payment_journal_profile_multi_currency.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payment Journal Profile Options">
+          <param name="Local" value="vendor-payments-and-refunds\creating-a-manual-payment-journal\payment_journal_profile_options.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries for Payments">
+          <param name="Local" value="vendor-payments-and-refunds\creating-a-manual-payment-journal\accounting_entries_pmtjrnl.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries for Refunds">
+          <param name="Local" value="vendor-payments-and-refunds\creating-a-manual-payment-journal\accounting_entries_for_refunds_pmtjrnl.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Back End Processes - Payment Journals">
+          <param name="Local" value="vendor-payments-and-refunds\creating-a-manual-payment-journal\backend_processes_manpmtjrnl.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Payment Journal Processes">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Add Transactions to a Payment Journal">
+          <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\adding_entries_to_a_payment_journal.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Common Journal  Profile Options">
+          <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\common_journal_profile_options.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify Payment Journals">
+          <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\modifying_system_payment_journals.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Purge Payment Journals/Transactions">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Need for Purging Payments">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\purge-payment-jrnls-trans\need_for_voiding_payments.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purge Payment Journals">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\purge-payment-jrnls-trans\voiding_payment_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes - Purging Payment Journals">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\purge-payment-jrnls-trans\back_end_processes_voiding_payment_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purging Transactions">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Purge Transactions - Payment Journal">
+              <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\purge-payment-jrnls-trans\purging-trans\del_trans_in_pmnt_jrnl.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Delete Transactions - Payment Journal Profile">
+              <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\purge-payment-jrnls-trans\purging-trans\del_trans_pmnt_jrnl_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Purge Transactions - Payment Journal Transactions Browser">
+              <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\purge-payment-jrnls-trans\purging-trans\del_trans_from_pmnt_jrnls_browser.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Purge Payment Transactions">
+              <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\purge-payment-jrnls-trans\purging-trans\backend_proc_del_trans.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Printing Checks">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Vendor Checks">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\printing-checks\printing_checks.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Checks - Unposted Payment Journals Browser">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\printing-checks\printing_checks_unposted_payment_journals_browser.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Checks - Payment Journal Profile">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\printing-checks\printing_checks_payment_journal_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Checks - Payment Journal Transactions Browser">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\printing-checks\printing_checks_payment_journals_transactions_browser.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes for Check Printing">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\printing-checks\backend_processes_for_check_printing.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Control of Checks">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\printing-checks\control_of_checks.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Common Journal Processes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View Payment Journals">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\common-jrnl-proc\viewing_payment_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View Status of Checks">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\common-jrnl-proc\viewing_paid_transactions.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Posting Payment Journals">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\common-jrnl-proc\posting_payment_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes - Posting Payment Journals">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\common-jrnl-proc\backend_processes_posting_payment_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Lock/Open a Payment Journal">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\common-jrnl-proc\close_open_a_payment_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Payment Journals">
+            <param name="Local" value="vendor-payments-and-refunds\payment-jrnl-proc\common-jrnl-proc\printing_payment_journals.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Payment Journals Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Unposted Payment Journals Browser">
+          <param name="Local" value="vendor-payments-and-refunds\payment-journals-browser\payment_journal_browser.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Other Payments/Refunds">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Credit Card Payments">
+          <param name="Local" value="vendor-payments-and-refunds\other-payments-refunds\credit_card_payments.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Multiple Payments">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multiple Payments">
+          <param name="Local" value="vendor-payments-and-refunds\multiple-payments\multiple_payments.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Making Multiple Payments">
+          <param name="Local" value="vendor-payments-and-refunds\multiple-payments\making_multiple_payments.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multiple Payments Wizard">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Multiple Payments Wizard">
+            <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\the_multiple_payments_wizard.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Welcome">
+            <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\welcome_mult_pmt_wizard.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payment Journal - Information">
+            <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\payment_information_-_payment_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payment Information - Payment Method">
+            <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\payment_information_-_payment_method.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Criteria - Payment Terms">
+            <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\document_criteria_payment_terms.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Criteria - Document Aliases">
+            <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\document_criteria_document_aliases.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Criteria - Document Dates">
+            <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\document_criteria_due_date_range.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Conclusion">
+            <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\conclusion_multiplepaymentswizard.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Multiple Payments Browser">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Multiple Payments Browser">
+              <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\browser\the_multiple_payments_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Conclude the Multiple Payments Process">
+              <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\browser\concluding_the_multiple_payments_process.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Display Columns - Multiple Payments Browser">
+              <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\browser\display_columns_multiple_payments_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Entry Columns - Multiple Payments Browser">
+              <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\browser\entry_columns_multiple_payments_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Multiple Payments Browser Options">
+              <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\browser\multiple_payments_profile_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries for Multiple Payments">
+              <param name="Local" value="vendor-payments-and-refunds\multiple-payments\wizard\browser\accounting_entries_for_multiple_payments.html">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounts Payable Details">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounts Payable Details">
+          <param name="Local" value="vendor-payments-and-refunds\accounts-payable-details\accounts_payable_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="A/P Detail Browser">
+          <param name="Local" value="vendor-payments-and-refunds\accounts-payable-details\a_p_detail_browser.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Batch Payment Processing">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Batch Payment Processing">
+          <param name="Local" value="vendor-payments-and-refunds\batch-payment-processing\batch_payment_processing_accounts_payable.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Batch Payment Processing - Others Browser">
+          <param name="Local" value="vendor-payments-and-refunds\batch-payment-processing\batch_payment_processing_others_browser_options_ap.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Sales">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Sales">
+        <param name="Local" value="sales\sales_accounting.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Sales Documents/Manual Entries">
+        <param name="Local" value="sales\sales_documents_manual_entries.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Sales through Documents">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting for Sales/Sales Return Documents">
+          <param name="Local" value="sales\sales-through-documents\accounting_for_sales_sales_return_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="System Sales Journals">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="System Sales Journals">
+            <param name="Local" value="sales\sales-through-documents\system-sales-journals\system_sales_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="System Sales Journal Profile">
+            <param name="Local" value="sales\sales-through-documents\system-sales-journals\system_sales_journal_profile_general.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="System Sales Journal Profile - General">
+            <param name="Local" value="sales\sales-through-documents\system-sales-journals\system_sales_journal_profile_general_tab.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Sales Journal Profile (System) - Narration">
+            <param name="Local" value="sales\sales-through-documents\system-sales-journals\system_sales_journal_profile_notes.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Common Journal Profile Options">
+            <param name="Local" value="sales\sales-through-documents\system-sales-journals\common_journal_profile_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounting Entries - Sales Invoice">
+            <param name="Local" value="sales\sales-through-documents\system-sales-journals\accounting_entries_syssalejrnl.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounting Entries - Credit Memo">
+            <param name="Local" value="sales\sales-through-documents\system-sales-journals\accounting_entries_credit_memo.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes - System Sales Journal">
+            <param name="Local" value="sales\sales-through-documents\system-sales-journals\backend_processes_syssalejrnl.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounts Receivable Import Journal">
+            <param name="Local" value="sales\sales-through-documents\system-sales-journals\accounts_receivable_import_journal.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Manual Sales">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Manual Sales">
+          <param name="Local" value="sales\manual-sales\manual_sales.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Manual Sales Journal Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="(Manual) Sales Journal Details">
+            <param name="Local" value="sales\manual-sales\manual-sales-journal-details\the_manual_sales_journal_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Journal Information">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Journal Information">
+              <param name="Local" value="sales\manual-sales\manual-sales-journal-details\journal-information\journal_information_mansaljrnl.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Transaction Details">
+              <param name="Local" value="sales\manual-sales\manual-sales-journal-details\trans-dtls\transaction_details_manual_sales_journal.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Transaction Information">
+              <param name="Local" value="sales\manual-sales\manual-sales-journal-details\trans-dtls\transaction_information_mansalejrnl.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Customer Information">
+              <param name="Local" value="sales\manual-sales\manual-sales-journal-details\trans-dtls\customer_information_mansaljrnl.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Document Information">
+              <param name="Local" value="sales\manual-sales\manual-sales-journal-details\trans-dtls\document_information_mansaljrnl.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Payment Information">
+              <param name="Local" value="sales\manual-sales\manual-sales-journal-details\trans-dtls\payment_information_mansaljrnl.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Entry Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Transaction Entry Details">
+              <param name="Local" value="sales\manual-sales\manual-sales-journal-details\transaction-entry-details\transaction_entry_details_manual_sj.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Transaction Entries">
+              <param name="Local" value="sales\manual-sales\manual-sales-journal-details\transaction-entry-details\transaction_entries_mansalejrnl_con.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Entry Types">
+              <param name="Local" value="sales\manual-sales\manual-sales-journal-details\transaction-entry-details\entry_types_manual_sales_journals_content.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating a Manual Sales Journal">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Manual Sales Journal">
+            <param name="Local" value="sales\manual-sales\creating-a-manual-sales-journal\creating_a_manual_sales_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Sales Journal Profile">
+            <param name="Local" value="sales\manual-sales\creating-a-manual-sales-journal\the_sales_journal_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Sales Journal Profile - General">
+            <param name="Local" value="sales\manual-sales\creating-a-manual-sales-journal\sales_journal_profile_general.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Sales Journal Profile - Narration">
+            <param name="Local" value="sales\manual-sales\creating-a-manual-sales-journal\sales_journal_profile_notes.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Common Journal Profile Options">
+            <param name="Local" value="sales\manual-sales\creating-a-manual-sales-journal\common_journal_profile_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes - Manual Sales Journal">
+            <param name="Local" value="sales\manual-sales\creating-a-manual-sales-journal\backend_processes_mansalejrnl.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Sales Journal Processes">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="System Sales Journal Processes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Common Journal  Profile Options">
+            <param name="Local" value="sales\sales-jrnl-proc\system-sales-journal-processes\common_journal_profile_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify System Sales Journals">
+            <param name="Local" value="sales\sales-jrnl-proc\system-sales-journal-processes\modifying_system_sales_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Void System Sales Journals">
+            <param name="Local" value="sales\sales-jrnl-proc\system-sales-journal-processes\voiding_system_sales_journals.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Manual Sales Journal Processes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Add Transactions to a Manual Sales Journal">
+            <param name="Local" value="sales\sales-jrnl-proc\manual-sales-jrnl-proc\adding_transactions_to_a_manual_sales_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modifying Sales Journals">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify Manual Sales Journals">
+              <param name="Local" value="sales\sales-jrnl-proc\manual-sales-jrnl-proc\modifying\modifying_manual_sales_journals.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Modify Manual Sales Journals">
+              <param name="Local" value="sales\sales-jrnl-proc\manual-sales-jrnl-proc\modifying\back_end_processes_modifying_manual_sales_journals.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Voiding/Deleting Sales Journals">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Void Manual Sales Journals">
+              <param name="Local" value="sales\sales-jrnl-proc\manual-sales-jrnl-proc\voiding-deleting\voiding_manual_sales_journals.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Voiding/Deleting Manual Sales Journal">
+              <param name="Local" value="sales\sales-jrnl-proc\manual-sales-jrnl-proc\voiding-deleting\backend_processes_voiding_manual_sales_journal.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Deleting Transactions">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Delete Transactions - Manual Sales Journals">
+                <param name="Local" value="sales\sales-jrnl-proc\manual-sales-jrnl-proc\voiding-deleting\del-trans\delete_transactions_sales_journal.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Delete Transactions - Sales Journal Profile">
+                <param name="Local" value="sales\sales-jrnl-proc\manual-sales-jrnl-proc\voiding-deleting\del-trans\delete_transactions_from_the_sales_journal_profile.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Delete Transactions - Sales Journal Transactions Browser">
+                <param name="Local" value="sales\sales-jrnl-proc\manual-sales-jrnl-proc\voiding-deleting\del-trans\delete_transactions_from_the_sales_journal_browser.html">
+              </object>
+              </ul>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Common Journal Processes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View System Sales Journals">
+            <param name="Local" value="sales\sales-jrnl-proc\common-jrnl-proc\viewing_system_sales_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Posting Sales Journals">
+            <param name="Local" value="sales\sales-jrnl-proc\common-jrnl-proc\posting_sales_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View Posted Sales Journals">
+            <param name="Local" value="sales\sales-jrnl-proc\common-jrnl-proc\viewing_posted_sales_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes - Posting Sales Journals">
+            <param name="Local" value="sales\sales-jrnl-proc\common-jrnl-proc\backend_processes_posting_sales_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Lock/Open a Sales Journal">
+            <param name="Local" value="sales\sales-jrnl-proc\common-jrnl-proc\close_open_a_sales_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Sales Journals">
+            <param name="Local" value="sales\sales-jrnl-proc\common-jrnl-proc\printing_sales_journals.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Sales Journals Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Unposted Sales Journals Browser">
+          <param name="Local" value="sales\sales-journals-browser\sales_journal_browser.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Customer Receipts and Refunds">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Receipts from Customers">
+        <param name="Local" value="customer-receipts-and-refunds\receipts_from_customers.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Methods of Receipts">
+        <param name="Local" value="customer-receipts-and-refunds\methods_of_receipts.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Receipts">
+        <param name="Local" value="customer-receipts-and-refunds\document_receipts_rptjrnl.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="System Entries for Receipts">
+        <param name="Local" value="customer-receipts-and-refunds\system_entries_for_receipts.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Manual Receipts and Refunds">
+        <param name="Local" value="customer-receipts-and-refunds\manual_receipts_and_refunds.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Foreign Currency Receipts">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Receipts In Foreign Currency">
+          <param name="Local" value="customer-receipts-and-refunds\foreign-currency-receipts\receipts_in_foreign_currency.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cross-Currency Calculations">
+          <param name="Local" value="customer-receipts-and-refunds\foreign-currency-receipts\cross_currency_calculations_receipt_journal.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Calculation of Foreign Exchange Gains and Losses">
+          <param name="Local" value="customer-receipts-and-refunds\foreign-currency-receipts\calculation_of_foreign_exchange_gains_and_losses_receipt_journal.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Receipt Journal Details">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Manual Receipt Journal Details">
+          <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\the_manual_receipt_journal_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Journal Information">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Journal Information">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\journal-information\journal_information_receipt_jrnl.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Transaction Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Information">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\trans-dtls\transaction_information_receipt_jrnl.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Transaction Entries">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Entries">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\transaction-entries\transaction_entries_receipt_journal_con.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Types of Receipt">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\transaction-entries\types_of_receipt_manrptjrnl.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Account Details">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\transaction-entries\account_details_manrptjrnl.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Other Columns in Transaction Entries">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\transaction-entries\other_transaction_entries_columns_receipt_jrnl.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Entry Types - Details">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\transaction-entries\entry_types_details_receipt_jrnl.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multicurrency Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Multicurrency Information">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\multicurrency-details\multicurrency_information_receipt_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payment Currency Section - Details">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\multicurrency-details\payment_currency_section_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Bank Currency Section - Details">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\multicurrency-details\bank_currency_section_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Customer Currency Section - Details">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-dtls\multicurrency-details\customer_currency_section_details.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Creating a Manual Receipt Journal">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Manual Receipts Journal">
+          <param name="Local" value="customer-receipts-and-refunds\creating-a-manual-receipt-journal\creating_a_manual_receipts_journal.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Receipt Journal Profile">
+          <param name="Local" value="customer-receipts-and-refunds\creating-a-manual-receipt-journal\the_receipt_journal_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Receipt Journal Profile - General">
+          <param name="Local" value="customer-receipts-and-refunds\creating-a-manual-receipt-journal\receipt_journal_profile_general.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Receipt Journal Profile - Narration">
+          <param name="Local" value="customer-receipts-and-refunds\creating-a-manual-receipt-journal\receipt_journal_profile_notes.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Receipt Journal Profile - Multi Currency">
+          <param name="Local" value="customer-receipts-and-refunds\creating-a-manual-receipt-journal\receipt_journal_profile_multi_currency.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Receipt Journal Profile Options">
+          <param name="Local" value="customer-receipts-and-refunds\creating-a-manual-receipt-journal\receipt_journal_profile_options.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries for Receipts">
+          <param name="Local" value="customer-receipts-and-refunds\creating-a-manual-receipt-journal\accounting_entries_receipt_jrnl.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries for Refunds">
+          <param name="Local" value="customer-receipts-and-refunds\creating-a-manual-receipt-journal\accounting_entries_for_refunds_rptjrnl.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Back End Processes - Receipt Journals">
+          <param name="Local" value="customer-receipts-and-refunds\creating-a-manual-receipt-journal\backend_processes_manrptjrnl.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Receipt Journal Processes">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Add Transactions to a Receipts Journal">
+          <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\adding_entries_to_a_receipts_journal.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Common Journal  Profile Options">
+          <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\common_journal_profile_options.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify Receipts Journals">
+          <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\modifying_receipts_journals.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Purge Receipt Journals/Transactions">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Need for Purging Receipts">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\rcp-jrnl-purge-trans\need_for_voiding_receipts.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purge Receipt Journals">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\rcp-jrnl-purge-trans\voiding_receipts_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes - Purging Receipt Journals">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\rcp-jrnl-purge-trans\backend_processes_voiding_receipt_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purging Transactions">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Purge Transactions - Receipt Journal">
+              <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\rcp-jrnl-purge-trans\purging-trans\deleting_transactions_receipt_journal.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Delete Transactions - Receipt Journal Profile">
+              <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\rcp-jrnl-purge-trans\purging-trans\del_trans_rcpt_jrnl_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Purge Transactions - Receipts Journal Transactions Browser">
+              <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\rcp-jrnl-purge-trans\purging-trans\del_trans_rcpts_jrnls_browser.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Purge Receipt Transactions">
+              <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\rcp-jrnl-purge-trans\purging-trans\backproc_del_rcpt_trans.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Printing Checks">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Customer Refund Checks">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\printing-checks\printing_customer_refund_checks.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Checks - Unposted Receipt Journals Browser">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\printing-checks\printing_checks_unposted_receipt_journals_browser.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Checks - Receipt Journal Profile">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\printing-checks\printing_checks_receipt_journal_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Checks - Receipt Journal Transactions Browser">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\printing-checks\printing_checks_receipt_journals_transactions_browser.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Common Journal Processes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View Receipts Journals">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\common-jrnl-proc\viewing_receipts_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Posting Receipts Journals">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\common-jrnl-proc\posting_receipts_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes - Posting Receipt Journals">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\common-jrnl-proc\backend_processes_posting_receipts_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Lock/Open Receipt Journals">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\common-jrnl-proc\closing_and_reopening_receipts_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print Receipt Journals">
+            <param name="Local" value="customer-receipts-and-refunds\receipt-jrnl-proc\common-jrnl-proc\printing_receipt_journals.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Receipt Journals Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Unposted Receipt Journals Browser">
+          <param name="Local" value="customer-receipts-and-refunds\receipt-journals-browser\receipts_journal_browser.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Multiple Receipts">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multiple Receipts">
+          <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\multiple_receipts.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Receive Multiple Payments">
+          <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\receiving_multiple_payments.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multiple Receipts Wizard">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Multiple Receipts Wizard">
+            <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\the_multiple_receipts_wizard.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Welcome">
+            <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\welcome_multiplereceiptswizard.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Receipt Information - Receipt Journal">
+            <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\receipt_information_receipt_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Receipt Information - Payment Method">
+            <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\receipt_information_payment_method.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Criteria - Payment Terms">
+            <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\document_criteria_payment_terms_multiplereceiptswizard.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Criteria - Document Aliases">
+            <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\document_criteria_document_aliases_multiplereceiptswizard.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Criteria - Document Dates">
+            <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\document_criteria_due_date_range_multiplereceiptswizard.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Conclusion">
+            <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\conclusion_multiplereceiptswizard.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Multiple Receipts Browser">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Multiple Receipts Browser">
+              <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\browser\the_multiple_receipts_browser.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Concluding the Multiple Receipts Process">
+              <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\browser\concluding_the_multiple_receipts_process.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Display Columns - Multiple Receipts Browser">
+              <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\browser\display_columns_multiple_receipts_browser.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Entry Columns - Multiple Receipts Browser">
+              <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\browser\entry_columns_multiple_receipts_browser.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Multiple Receipts Browser Options">
+              <param name="Local" value="customer-receipts-and-refunds\multiple-receipts\wizard\browser\multiple_receipts_browser_options.html">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounts Receivable Details">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounts Receivable Details">
+          <param name="Local" value="customer-receipts-and-refunds\accounts-receivable-details\accounts_receivable_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="A/R Detail Browser">
+          <param name="Local" value="customer-receipts-and-refunds\accounts-receivable-details\a_r_detail_browser.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Batch Payment Processing">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Batch Payment Processing">
+          <param name="Local" value="customer-receipts-and-refunds\batch-payment-processing\batch_payment_processing_ar.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Transactions Created in Everest">
+          <param name="Local" value="customer-receipts-and-refunds\batch-payment-processing\transactions_created_in_everest.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Transactions Created in Everest E-Commerce">
+          <param name="Local" value="customer-receipts-and-refunds\batch-payment-processing\transactions_created_in_everest_e_commerce.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Batch Payment Process Browsers">
+          <param name="Local" value="customer-receipts-and-refunds\batch-payment-processing\batch_credit_card_process_browsers.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Batch Payment Process - New Sale or Refund Browser">
+          <param name="Local" value="customer-receipts-and-refunds\batch-payment-processing\batch_credit_card_process_new_sale_or_refund_browser.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Batch Payment Process - New Authorization Browser">
+          <param name="Local" value="customer-receipts-and-refunds\batch-payment-processing\batch_credit_card_process_new_authorization_browser.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Batch Payment Process - Use Prior-Authorization Browser">
+          <param name="Local" value="customer-receipts-and-refunds\batch-payment-processing\batch_credit_card_process_use_prior_authorization_browser.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Batch Payment Process - Others Browser">
+          <param name="Local" value="customer-receipts-and-refunds\batch-payment-processing\batch_credit_card_process_others_browser.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Batch Payment Process Browser - Options">
+          <param name="Local" value="customer-receipts-and-refunds\batch-payment-processing\batch_credit_card_process_browser_options.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Payment Register">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Payment Register">
+        <param name="Local" value="payment-register\the_payment_register.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Payment Register Wizard">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Payment Register Wizard">
+          <param name="Local" value="payment-register\wizard\the_payment_register_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Welcome">
+          <param name="Local" value="payment-register\wizard\welcome_payment_register.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Bank account Selection">
+          <param name="Local" value="payment-register\wizard\bank_account_selection_payment_register.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Vendor/Customer Selection">
+          <param name="Local" value="payment-register\wizard\vendor_customer_selection_payment_register.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payment Method Selection">
+          <param name="Local" value="payment-register\wizard\payment_method_selection_payment_register.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Payments Register Browser">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payments Register Browser">
+            <param name="Local" value="payment-register\wizard\browser\payment_register_browser.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Information Available - Payment Register Browser">
+            <param name="Local" value="payment-register\wizard\browser\information_available_payment_register_browser.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payment Status">
+            <param name="Local" value="payment-register\wizard\browser\payment_status_payment_register_column.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payment Register Browser Options">
+            <param name="Local" value="payment-register\wizard\browser\payment_register_browser_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purging Transactions">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Purge Payment/Refund Transactions">
+              <param name="Local" value="payment-register\wizard\browser\purging-trans\purging_transactions_from_the_payment_register.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Purge Receipt/Refund Transactions">
+              <param name="Local" value="payment-register\wizard\browser\purging-trans\purging_receipt_refund_transactions_payment_register.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Purge/Void Payment/Refund Transactions">
+              <param name="Local" value="payment-register\wizard\browser\purging-trans\back_end_processes_for_purging_from_payment_register.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Purge/Void Receipt/Refund Transactions">
+              <param name="Local" value="payment-register\wizard\browser\purging-trans\backend_processes_purging_from_payment_register.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Voiding Transactions - Payment Register">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Void a Transaction - Payment Register">
+              <param name="Local" value="payment-register\wizard\browser\voiding-transactions-payment-register\void_a_transaction_payment_register.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Void Dialog Box">
+              <param name="Local" value="payment-register\wizard\browser\voiding-transactions-payment-register\void_dialog_box_payment_register_brow.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Void Payment/Refund Transactions - Payment Register">
+              <param name="Local" value="payment-register\wizard\browser\voiding-transactions-payment-register\voiding_transactions_from_the_payment_register.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Void Receipt/Refund Transactions - Payment Register">
+              <param name="Local" value="payment-register\wizard\browser\voiding-transactions-payment-register\voiding_receipt_refund_transactions_payment_register.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Void Payment/Refund Transactions">
+              <param name="Local" value="payment-register\wizard\browser\voiding-transactions-payment-register\accounting_entries_void_payment_refund_transactions.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Void Receipt/Refund Transactions">
+              <param name="Local" value="payment-register\wizard\browser\voiding-transactions-payment-register\accounting_entry_voiding_trans.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Voiding and Recreating Transactions - Payment Register">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Void and Recreate Payment Transactions">
+              <param name="Local" value="payment-register\wizard\browser\voiding-and-recreating-transactions\voiding_and_recreating_transactions_payment_register.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Void and Recreate Receipt Transactions">
+              <param name="Local" value="payment-register\wizard\browser\voiding-and-recreating-transactions\void_and_recreate_trans_rpt_jrnl.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Void and Recreate Payment Transactions">
+              <param name="Local" value="payment-register\wizard\browser\voiding-and-recreating-transactions\acc_entries_void_and_recreate.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Void and Recreate Receipt Transactions">
+              <param name="Local" value="payment-register\wizard\browser\voiding-and-recreating-transactions\acc_entries_void_and_recreate_rpt_jrnl.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Void and Recreate Payment Transactions">
+              <param name="Local" value="payment-register\wizard\browser\voiding-and-recreating-transactions\back_end_processes_for_voiding_and_recreating.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Void and Recreate Receipt Transactions">
+              <param name="Local" value="payment-register\wizard\browser\voiding-and-recreating-transactions\back_end_processes_voiding_and_recreating.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Voided Transactions Browser">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Voided Transactions Browser">
+              <param name="Local" value="payment-register\wizard\browser\voided-trans\voided_transactions_browser_accounting.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Voided Transactions Browser Options">
+              <param name="Local" value="payment-register\wizard\browser\voided-trans\voided_transactions_browser_options_accounting.html">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="General Journals">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="General Journal">
+        <param name="Local" value="general-journals\general_journal.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="System General Journals">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="System General Journals">
+          <param name="Local" value="general-journals\system-general-journals\system_general_journals.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General Journal Profile (System)">
+          <param name="Local" value="general-journals\system-general-journals\system_general_journal_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General Journal Profile  (System) - General">
+          <param name="Local" value="general-journals\system-general-journals\system_general_journal_profile_general.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General Journal Profile (System) - Narration">
+          <param name="Local" value="general-journals\system-general-journals\notes_sysgenjrnl.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Common Journal Profile Options">
+          <param name="Local" value="general-journals\system-general-journals\common_journal_profile_options.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries - System General Journals">
+          <param name="Local" value="general-journals\system-general-journals\accounting_entries_system_general_journals.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Foreign Currency Translations">
+          <param name="Local" value="general-journals\system-general-journals\foreign_currency_translations.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounts in Foreign Currencies">
+          <param name="Local" value="general-journals\system-general-journals\accounts_in_foreign_currencies.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Manual General Journals">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Manual General Journals">
+          <param name="Local" value="general-journals\manual-general-journals\manual_general_journals.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Manual General Journal Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Manual General Journal Details">
+            <param name="Local" value="general-journals\manual-general-journals\manual-general-journal-details\the_manual_general_journal_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Journal Information">
+            <param name="Local" value="general-journals\manual-general-journals\manual-general-journal-details\journal_information_manual_gj.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Information">
+            <param name="Local" value="general-journals\manual-general-journals\manual-general-journal-details\transactions_information_manual_gj_con.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Entries">
+            <param name="Local" value="general-journals\manual-general-journals\manual-general-journal-details\transaction_entries_manual_gj_con.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounts in Foreign Currencies">
+            <param name="Local" value="general-journals\manual-general-journals\manual-general-journal-details\accounts_in_foreign_currencies_manual_gj.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating a General Journal">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a General Journal">
+            <param name="Local" value="general-journals\manual-general-journals\creating-a-general-journal\creating_a_general_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The General Journal Profile">
+            <param name="Local" value="general-journals\manual-general-journals\creating-a-general-journal\the_general_journal_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="General Journal (Manual) Profile - General">
+            <param name="Local" value="general-journals\manual-general-journals\creating-a-general-journal\general_journal_profile_general_manual_gj.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="General Journal (Manual) Profile - Narration">
+            <param name="Local" value="general-journals\manual-general-journals\creating-a-general-journal\general_journal_profile_notes.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Common Journal Profile Options">
+            <param name="Local" value="general-journals\manual-general-journals\creating-a-general-journal\common_journal_profile_options.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="General Journal Processes">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Add Transactions to a General Journal">
+          <param name="Local" value="general-journals\processes\adding_entries_to_a_general_journal.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify General Journals">
+          <param name="Local" value="general-journals\processes\modifying_general_journals.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Purge General Journals">
+          <param name="Local" value="general-journals\processes\voiding_general_journals.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Delete Transactions - Manual General Journals">
+          <param name="Local" value="general-journals\processes\delete_transactions_manual_general_journals.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Common Journal Processes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View General Journals">
+            <param name="Local" value="general-journals\processes\common-jrnl-proc\viewing_general_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Posting General Journals">
+            <param name="Local" value="general-journals\processes\common-jrnl-proc\posting_general_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View Posted General Journals">
+            <param name="Local" value="general-journals\processes\common-jrnl-proc\viewing_posted_general_journals.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Reverse a General Journal">
+            <param name="Local" value="general-journals\processes\common-jrnl-proc\reverse_a_general_journal_acc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Auto Reversal of a General Journal">
+            <param name="Local" value="general-journals\processes\common-jrnl-proc\auto_reversal_of_a_general_journal_acc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Schedule an Automatic Transaction Reversal">
+            <param name="Local" value="general-journals\processes\common-jrnl-proc\schedule_an_automatic_transaction_reversal_acc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Process a Scheduled Auto Reverse Transaction from a Reminder">
+            <param name="Local" value="general-journals\processes\common-jrnl-proc\process_a_scheduled_auto_reverse_transaction_from_a_reminder_acc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Lock/Open a General Journal">
+            <param name="Local" value="general-journals\processes\common-jrnl-proc\close_open_a_general_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print General Journals">
+            <param name="Local" value="general-journals\processes\common-jrnl-proc\printing_general_journals.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="General Journals Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Unposted General Journals Browser">
+          <param name="Local" value="general-journals\general-journals-browser\general_journal_browser.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Memorized Transactions">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Memorized Transactions">
+        <param name="Local" value="memorized-transactions\memorized_transactions_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="How do I Create a Memorized Transactions Template?">
+        <param name="Local" value="memorized-transactions\how_do_i_create_a_memorized_transactions_template_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="How do I Retrieve a Memorized Transactions Template?">
+        <param name="Local" value="memorized-transactions\how_do_i_retrieve_a_memorized_transactions_template_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Memorized Transactions Browser">
+        <param name="Local" value="memorized-transactions\the_memorized_transaction_browser_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="How do I Modify a Memorized Transactions Template?">
+        <param name="Local" value="memorized-transactions\how_do_i_modify_a_memorized_transactions_template_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="How do I Schedule Memorized Transactions?">
+        <param name="Local" value="memorized-transactions\how_do_i_schedule_memorized_transactions_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Memorized Transactions Template Profile � Schedule Tab">
+        <param name="Local" value="memorized-transactions\memorized_transactions_template_profile_schedule_tab_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Memorized Transactions Template - Schedule Profile">
+        <param name="Local" value="memorized-transactions\memorized_transactions_template_schedule_profile_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="How do I View My Scheduled Transactions?">
+        <param name="Local" value="memorized-transactions\how_do_i_view_my_scheduled_transactions_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Scheduled Transactions Browser">
+        <param name="Local" value="memorized-transactions\scheduled_transactions_browser_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Scheduled Transactions Browser Options">
+        <param name="Local" value="memorized-transactions\scheduled_transactions_browser_options_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Scheduled Transaction Reminders">
+        <param name="Local" value="memorized-transactions\scheduled_transaction_reminders_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Transaction Status Dialog Box">
+        <param name="Local" value="memorized-transactions\transaction_status_dialog_box_acc.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Occurrence Details Dialog Box">
+        <param name="Local" value="memorized-transactions\occurrence_details_dialog_box_acc.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Provisionally Posting Journals">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Provisional Posting - Introduction">
+        <param name="Local" value="provisionally-posting-journals\provisional_posting.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Provisionally Posting Journals">
+        <param name="Local" value="provisionally-posting-journals\provisionally_posting_journals.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Provisionally Post/Unpost Journals Browser">
+        <param name="Local" value="provisionally-posting-journals\the_provisionally_post_unpost_journals_browser.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Bank Reconciliation">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Bank Reconciliation">
+        <param name="Local" value="bank-reconciliation\bank_reconciliation.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Causes for Difference">
+        <param name="Local" value="bank-reconciliation\causes_for_difference.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Reconciling an Account">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Reconcile a Bank Account">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\reconciling_a_bank_account.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Bank Reconciliation Wizard">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\the_bank_reconciliation_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Welcome">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\welcome_bankreco.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Select Bank Account Code">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\select_bank_account_code.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Enter Statement Balance">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\enter_statement_balance.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Bank Reconciliation Browser">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\bank_reconciliation_browser.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Bank Reconciliation Browser Options">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\bank_reconciliation_browser_options.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Reconciling Entries">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\reconciling_entries.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Adjusting Entries">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\adjusting_entries_brs.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Bank Reconciliation Statement Adjustment Journal">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\bank_reconciliation_statement_adjustment_journal.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Concluding the Reconciliation Process">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\concluding_the_reconciliation_process.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Saving an Incomplete Reconciliation">
+          <param name="Local" value="bank-reconciliation\reconciling-an-account\saving_an_incomplete_reconciliation.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Fixed Assets">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Fixed Assets">
+        <param name="Local" value="fixed-assets\fixed_assets.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Setting up a Fixed Asset">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up a Fixed Asset">
+          <param name="Local" value="fixed-assets\setting-up-a-fixed-asset\setting_up_a_fixed_asset.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Fixed Assets Profile">
+          <param name="Local" value="fixed-assets\setting-up-a-fixed-asset\the_fixed_asset_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Fixed Assets Profile - Asset Details">
+          <param name="Local" value="fixed-assets\setting-up-a-fixed-asset\fixed_assets_profile_asset_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Fixed Assets Profile - General">
+          <param name="Local" value="fixed-assets\setting-up-a-fixed-asset\fixed_asset_profile_general.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Fixed Assets Profile - Accounting">
+          <param name="Local" value="fixed-assets\setting-up-a-fixed-asset\fixed_assets_profile_accounting.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify the Fixed Assets Profile">
+          <param name="Local" value="fixed-assets\setting-up-a-fixed-asset\modifying_the_fixed_asset_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue a Fixed Assets Profile">
+          <param name="Local" value="fixed-assets\setting-up-a-fixed-asset\discontinuing_a_fixed_asset_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View and Activate Discontinued Fixed Asset Profiles">
+          <param name="Local" value="fixed-assets\setting-up-a-fixed-asset\view_and_activate_discontinued_fixed_asset_profiles.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Depreciating an Asset">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Depreciation">
+          <param name="Local" value="fixed-assets\depreciating-an-asset\depreciation_meaning.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Straight Line Method of Depreciation">
+          <param name="Local" value="fixed-assets\depreciating-an-asset\straight_line_method_of_depreciation.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Depreciation Entry">
+          <param name="Local" value="fixed-assets\depreciating-an-asset\creating_a_depreciation_entry.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Fixed Asset Journal Dialog Box">
+          <param name="Local" value="fixed-assets\depreciating-an-asset\fixed_asset_journal_dialog_box.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries">
+          <param name="Local" value="fixed-assets\depreciating-an-asset\accounting_entries_depreciation_journal.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Back End Processes - Depreciation Journals">
+          <param name="Local" value="fixed-assets\depreciating-an-asset\backend_processes_depreciation_journals.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Fixed Assets Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Fixed Assets Browser">
+          <param name="Local" value="fixed-assets\the-fixed-assets-browser\fixed_assets_browser.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Account Remeasurement">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Account Remeasurement">
+        <param name="Local" value="account-remeasurement\account_remeasurement_accounting.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Account Remeasurement Wizard">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Account Remeasurement Wizard">
+          <param name="Local" value="account-remeasurement\wizard\the_account_remeasurement_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Welcome">
+          <param name="Local" value="account-remeasurement\wizard\the_account_re_measurement_wizard_utility_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Account Type">
+          <param name="Local" value="account-remeasurement\wizard\account_type_account_remeasurement_wizard_utility.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Exchange Rates">
+          <param name="Local" value="account-remeasurement\wizard\exchange_rates_account_remeasurement_wizard_utility.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Finish">
+          <param name="Local" value="account-remeasurement\wizard\finish_account_remeasuremnet_utility_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Remeasure Asset Accounts">
+          <param name="Local" value="account-remeasurement\wizard\asset_accounts_finish_account_remeasuremeny_wizard_utility_contents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Remeasure Liability and Capital Accounts">
+          <param name="Local" value="account-remeasurement\wizard\liability_accounts_finish_account_remeasuremeny_wizard_utility_contents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Remeasure Customer and Vendor Accounts">
+          <param name="Local" value="account-remeasurement\wizard\customers_and_vendors_accounts_finish_account_remeasuremeny_wizard_utility_contents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries on Account Remeasurement">
+          <param name="Local" value="account-remeasurement\wizard\journal_entries_account_remeasurement_utility_wizard.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Year-end Closing">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Yearend Closing">
+        <param name="Local" value="year-end-closing\year_end_closing.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Multiple Open Accounting Years">
+        <param name="Local" value="year-end-closing\multiple_open_accounting_years.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Closing a Year - Pre-requisites">
+        <param name="Local" value="year-end-closing\closing_a_year.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounting Entries - Yearend Closing Process">
+        <param name="Local" value="year-end-closing\accounting_entry_year_end_closing_process.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Backup">
+        <param name="Local" value="year-end-closing\backup_yearending.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Year Close Wizard">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Yearend Closing Process">
+          <param name="Local" value="year-end-closing\year-close-wizard\the_year_end_closing_process.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Year Close Wizard">
+          <param name="Local" value="year-end-closing\year-close-wizard\the_year_close_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Welcome">
+          <param name="Local" value="year-end-closing\year-close-wizard\welcome_year_close_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Close Year Information">
+          <param name="Local" value="year-end-closing\year-close-wizard\close_year_information_year_close_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Unposted Journals">
+          <param name="Local" value="year-end-closing\year-close-wizard\unposted_journals_year_close_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Unclosed Periods">
+          <param name="Local" value="year-end-closing\year-close-wizard\unclosed_periods_year_close_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Unreconciled Checks">
+          <param name="Local" value="year-end-closing\year-close-wizard\unreconciled_checks_year_close_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Finish">
+          <param name="Local" value="year-end-closing\year-close-wizard\finish_year_close_wizard.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Reopen Old Year">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Open Old Year">
+          <param name="Local" value="year-end-closing\reopen-old-year\open_old_year.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries - Opening an Old Year">
+          <param name="Local" value="year-end-closing\reopen-old-year\accounting_entries_opening_an_old_year.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Accounting Flow Control and Defaults">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounting - Other Flow Control">
+        <param name="Local" value="accounting-flow-control-and-defaults\accounting_other_flow_control.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Default Check Formats">
+        <param name="Local" value="accounting-flow-control-and-defaults\default_bank_reports.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounting Defaults">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Defaults - Introduction">
+          <param name="Local" value="accounting-flow-control-and-defaults\accounting-defaults\accounting_defaults.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Accounting Dialog Box">
+          <param name="Local" value="accounting-flow-control-and-defaults\accounting-defaults\the_accounting_dialog_box.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting - Accounts">
+          <param name="Local" value="accounting-flow-control-and-defaults\accounting-defaults\accounting_dialog_box_-_posting_groups.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting - Multi-currency">
+          <param name="Local" value="accounting-flow-control-and-defaults\accounting-defaults\accounting_multi_currency.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting - Miscellaneous">
+          <param name="Local" value="accounting-flow-control-and-defaults\accounting-defaults\accounting_miscellaneous.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Budgeting">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Budgets">
+        <param name="Local" value="budgeting\budgets.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Budget Profile">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Budget Profile">
+          <param name="Local" value="budgeting\the-budget-profile\the_budget_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Budget Period">
+          <param name="Local" value="budgeting\the-budget-profile\budget_period_buget_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Budget Amounts">
+          <param name="Local" value="budgeting\the-budget-profile\budget_amounts_budget_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Prior Period Comparison">
+          <param name="Local" value="budgeting\the-budget-profile\prior_period_comparison_budget_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Graphical analysis">
+          <param name="Local" value="budgeting\the-budget-profile\graphical_analysis_budget_profile.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Budget for Chart of Accounts Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Budget for Chart of Accounts Browser">
+          <param name="Local" value="budgeting\the-budget-for-chart-of-accounts-browser\budget_for_chart_of_accounts_browser.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Accounting Balances">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Account Balances">
+        <param name="Local" value="accounting-balances\accounting_balances.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Account Summary">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Account Summary">
+          <param name="Local" value="accounting-balances\account-summary\account_summary.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Posted Summary Dialog Box">
+          <param name="Local" value="accounting-balances\account-summary\posted_summary_dialog_box.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Detailed Activity">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Detailed Activity">
+          <param name="Local" value="accounting-balances\detailed-activity\detailed_activity.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Posted Detail Activities Dialog Box">
+          <param name="Local" value="accounting-balances\detailed-activity\posted_detail_activities_dialog_box.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Other Browser Options">
+          <param name="Local" value="accounting-balances\detailed-activity\other_browser_options_posted_detail_activity.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Period Balances">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Period Balances">
+          <param name="Local" value="accounting-balances\period-balances\period_balances.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Period Balances Dialog Box">
+          <param name="Local" value="accounting-balances\period-balances\period_balances_dialog_box.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="End of Day Procedures">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="End of the Day Procedures">
+        <param name="Local" value="end-of-day-procedures\end_of_day_procedures.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Prepare Bank Deposits">
+        <param name="Local" value="end-of-day-procedures\preparing_bank_deposits.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Bank Deposit Wizard">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Bank Deposit Wizard">
+          <param name="Local" value="end-of-day-procedures\bank-deposit-wizard\bank_deposit_wizard_acc.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Bank Deposit Wizard - Filter Section">
+          <param name="Local" value="end-of-day-procedures\bank-deposit-wizard\bank_deposit_wizard_filter_section_acc.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Bank Deposit Wizard - Top Grid">
+          <param name="Local" value="end-of-day-procedures\bank-deposit-wizard\bank_deposit_wizard_top_grid_acc.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Bank Deposit Wizard - Bottom Section">
+          <param name="Local" value="end-of-day-procedures\bank-deposit-wizard\bank_deposit_wizard_bottom_section_acc.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Bank Deposit � Options Menu">
+          <param name="Local" value="end-of-day-procedures\bank-deposit-wizard\bank_deposit_options_menu_acc.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Accounting Reports">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounting reports">
+        <param name="Local" value="accounting-reports\accounting_reports.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Financial Statements">
+        <param name="Local" value="accounting-reports\financial_statements.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Find Account Activity">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Find Accounting Activity">
+        <param name="Local" value="find-account-activity\find_accounting_activity.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Find Account Activity Details">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Find Account Activity">
+          <param name="Local" value="find-account-activity\find-account-activity-details\find_account_activity_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Filter Name">
+          <param name="Local" value="find-account-activity\find-account-activity-details\filter_name_find_account_activity.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Quick Find">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Quick Find">
+            <param name="Local" value="find-account-activity\find-account-activity-details\quick-find\quick_find.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Account Type">
+            <param name="Local" value="find-account-activity\find-account-activity-details\quick-find\account_type.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Account Name">
+            <param name="Local" value="find-account-activity\find-account-activity-details\quick-find\account_name.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Journal Type">
+            <param name="Local" value="find-account-activity\find-account-activity-details\quick-find\journal_type.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Type">
+            <param name="Local" value="find-account-activity\find-account-activity-details\quick-find\type_find_account_activity.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Status">
+            <param name="Local" value="find-account-activity\find-account-activity-details\quick-find\status.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Type">
+            <param name="Local" value="find-account-activity\find-account-activity-details\quick-find\transaction_type_find_actg_activity.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Entry Type">
+            <param name="Local" value="find-account-activity\find-account-activity-details\quick-find\entry_type_find_act_activity_cont.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Header/Detail">
+            <param name="Local" value="find-account-activity\find-account-activity-details\quick-find\header_detail_find_account_activity.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Source">
+            <param name="Local" value="find-account-activity\find-account-activity-details\quick-find\source_find_actg_activity.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="More Choices">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="More Choices">
+            <param name="Local" value="find-account-activity\find-account-activity-details\more-choices\more_choices.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Amount">
+            <param name="Local" value="find-account-activity\find-account-activity-details\more-choices\transaction_amount.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Foreign Currency Amount">
+            <param name="Local" value="find-account-activity\find-account-activity-details\more-choices\foreign_currency_amount.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Department">
+            <param name="Local" value="find-account-activity\find-account-activity-details\more-choices\department.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Currency">
+            <param name="Local" value="find-account-activity\find-account-activity-details\more-choices\currency_find_account_activity.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Smart Filter">
+            <param name="Local" value="find-account-activity\find-account-activity-details\more-choices\smart_filter_accounting.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Account Type">
+            <param name="Local" value="find-account-activity\find-account-activity-details\more-choices\account_type_more_choices.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Transaction Period">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Period">
+            <param name="Local" value="find-account-activity\find-account-activity-details\transaction-period\transaction_period.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Entry Date">
+            <param name="Local" value="find-account-activity\find-account-activity-details\transaction-period\entry_date.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Fiscal Year Status">
+            <param name="Local" value="find-account-activity\find-account-activity-details\transaction-period\fiscal_year_status.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Fiscal Years">
+            <param name="Local" value="find-account-activity\find-account-activity-details\transaction-period\fiscal_years_find_activity.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Fiscal Period Status">
+            <param name="Local" value="find-account-activity\find-account-activity-details\transaction-period\fiscal_period_status.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Fiscal Periods">
+            <param name="Local" value="find-account-activity\find-account-activity-details\transaction-period\fiscal_periods.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Transaction Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transaction Details">
+            <param name="Local" value="find-account-activity\find-account-activity-details\trans-dtls\transaction_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Reference Date">
+            <param name="Local" value="find-account-activity\find-account-activity-details\trans-dtls\reference_date.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Reference Number">
+            <param name="Local" value="find-account-activity\find-account-activity-details\trans-dtls\reference_number_find_account_activity.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Doc Number">
+            <param name="Local" value="find-account-activity\find-account-activity-details\trans-dtls\doc_number.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payment Terms">
+            <param name="Local" value="find-account-activity\find-account-activity-details\trans-dtls\payment_terms_find_account_activity.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Advanced Find">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Advance Find">
+            <param name="Local" value="find-account-activity\find-account-activity-details\advanced-find\advance_find.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Query">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Query">
+            <param name="Local" value="find-account-activity\find-account-activity-details\query\query.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Creating a New Filter">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a New Filter">
+          <param name="Local" value="find-account-activity\creating-a-new-filter\create_a_new_filter_find_account_activity.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Find Account Activity Dialog Box">
+          <param name="Local" value="find-account-activity\creating-a-new-filter\find_account_dialog_box.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Find Account Activity - Quick Find">
+          <param name="Local" value="find-account-activity\creating-a-new-filter\find_account_activity_quick_find.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Find Account Activity - More Choices">
+          <param name="Local" value="find-account-activity\creating-a-new-filter\find_account_activity_more_choices.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Find Account Activity - Transaction Period">
+          <param name="Local" value="find-account-activity\creating-a-new-filter\find_account_activity_transaction_period.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Find Account Activity - Transaction Details">
+          <param name="Local" value="find-account-activity\creating-a-new-filter\find_account_activity_transaction_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Find Account Activity - Advanced Find">
+          <param name="Local" value="find-account-activity\creating-a-new-filter\find_account_activity_advanced_find.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Find Account Activity - Query">
+          <param name="Local" value="find-account-activity\creating-a-new-filter\find_account_activity_query.html">
+        </object>
+        </ul>
+      </ul>
+    </ul>
+</ul>
+</html>

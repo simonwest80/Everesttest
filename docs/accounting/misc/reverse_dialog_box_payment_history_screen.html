@@ -1,0 +1,83 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="reverse-dialog-box">Reverse Dialog Box</h1>
+
+<p>This dialog box appears from the <strong>Payment 
+ History</strong> screen (path: <strong>Sales/Purchase</strong>  documents &gt; <strong>Options</strong> &gt; <strong>Payment</strong> &gt; <strong>Payment 
+ History</strong>) and from <strong>Payment Register</strong>  browser.</p>
+
+<p>Reversal Transaction Information</p>
+
+<dl>
+  <dt><strong>Source Type</strong></dt>
+  <dd>The Source Type field defaults to the appropriate  system source type for reversals. The system source types are mentioned  below:</dd>
+</dl>
+
+<ul>
+  <li>RPA – Reversal  of Payment Transaction</li>
+  <li>RRA – Reversal  of Receipt Transaction</li>
+</ul>
+
+<p>: If a payment transaction is reversed, the Source  Type defaults to RPA. If a receipt transaction is reversed, the Source  Type defaults to RRA. However, you can select a different source type  from the drop-down list or create a new one. If no source type is selected  the system will select the default source type when you save the dialog  box. The description of Source Type displays in the untitled field to  the right.</p>
+
+<dl>
+  <dt><strong>Date of Reversal</strong></dt>
+  <dd>Select the date of reversal. By default, this field  displays the date of the original transaction. However, you can change  it.</dd>
+</dl>
+
+<p class="note">The original or selected date must fall within  an open period. If using a selected date, it must fall on or after the  date of the original transaction.</p>
+
+<dl>
+  <dt><strong>Narration</strong></dt>
+  <dd>Enter the specific reason for reversing this transaction.  This is an optional field. The reason for the reversal entered in this  field is updated in both the Reversed and Reversal Journals.</dd>
+  <dt><strong>Replace the reversed transaction with a new transaction</strong></dt>
+  <dd>Select this check box to create a new transaction  to replace the reversed transaction. This check box is unselected by default.</dd>
+</dl>
+
+<p>New Transaction Information</p>
+
+<p>The fields in this section are available only if you have selected the  <strong>Replace the reversed transaction with 
+ a new transaction</strong> check box.</p>
+
+<dl>
+  <dt><strong>Source Type</strong></dt>
+  <dd>Displays the source type of the original transaction.  However, you can select a different source type from the drop-down list  or create a new one. The description of Source Type displays in the untitled  field to the right. This field is mandatory.</dd>
+  <dt><strong>Bank Account</strong></dt>
+  <dd>The bank account for this re-created transaction  will be the bank associated to the payment method.</dd>
+</dl>
+
+<p class="note">This field is disabled when you reverse a  General Journal.</p>
+
+<dl>
+  <dt><strong>Payment Method</strong></dt>
+  <dd>Displays the payment method of the original transaction.  However, you can select a different payment method from the drop-down  list or create a new one. The description of Payment Method displays in  the untitled field to the right. If no payment method is selected, the  payment method used in the original transaction will be selected when  you save this dialog box. This field is mandatory.</dd>
+</dl>
+
+<p class="note">This field is disabled when you reverse a  General Journal.</p>
+
+<dl>
+  <dt><strong>Date</strong></dt>
+  <dd>Displays date of the original transaction, however,  you can select another date as needed.</dd>
+</dl>
+
+<p class="note">The original or selected date must fall within  an open period. If using a selected date, it must fall on or after the  date of the original transaction or date of reversal.  This  field is mandatory.</p>
+
+<p class="note">You will not be able to reverse a transaction  if the document balance shows up negative figures.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/impact_of_reversing_on_journals_reverse_dialog_box.html">Impact  of Reversing on Journals</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/misc/impact_of_reversing_on_unposted_payment_journals.html">Impact  of Reversing on Unposted Payment Journals</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/misc/impact_of_reversing_on_payment_status_and_transaction_status.html">Impact  of Reversing on Payment Status and Transaction Status</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/misc/impact_of_reversing_on_payment_history_and_transaction_history_screens.html">Impact  of Reversing on Payment History and Transaction History Screens</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/misc/purging_a_reversal_transaction.html">Purging  a Reversal Transaction</a></dd>
+</dl>
+
+
+
+
+</div>

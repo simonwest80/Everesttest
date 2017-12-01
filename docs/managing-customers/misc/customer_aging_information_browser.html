@@ -1,0 +1,65 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="customer-aging-information-browser">Customer Aging Information Browser</h1>
+
+<dl>
+  <dt><strong>Customer</strong></dt>
+  <dd>The code of the customer selected in the <strong>Customers</strong>  browser is displayed.</dd>
+  <dt><strong>Name</strong></dt>
+  <dd>The name of the customer as defined in the <strong>Account Name</strong> field of the <strong>Customer</strong>  profile is displayed.</dd>
+  <dt><strong>Location/Sub-Location</strong></dt>
+  <dd>The location/sub-location that the customer is assigned  to is displayed.</dd>
+  <dt><strong>Terms</strong></dt>
+  <dd>The payment term defined for the customer in the  <strong>Terms</strong> field is displayed (path:  <strong>Customer</strong> profile &gt; <strong>Payment 
+ Information</strong> tab).</dd>
+  <dt><strong>Credit Limit</strong></dt>
+  <dd>The credit limit, if any, defined for the customer  in the <strong>Credit Limit</strong> field (path:  <strong>Customer</strong> profile &gt; <strong>Payment 
+ Information</strong> tab) is displayed.</dd>
+  <dt><strong>Available Credit</strong></dt>
+  <dd>The available credit for the customer is calculated  by deducting the effective balance from the customer’s credit limit.</dd>
+  <dd>The settings you make in the <strong>Customers</strong>  dialog box (path: <strong>File &gt; Setup &gt; 
+ Preferences &gt; Flow Control &gt; Customers</strong>) determine whether  the effective balance or the net balance is considered.</dd>
+  <dd>Both posted and unposted  amounts are considered for calculating available credit.</dd>
+</dl>
+
+<p><strong><img src="/versata-everest-docs/managing-customers/img/example.gif" alt="" />  The  outstanding amount of a sales invoice is reduced from the available credit  limit even if the document is not posted.</strong></p>
+
+<p><strong><img src="/versata-everest-docs/managing-customers/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-customers/customer-details/accounting-information/balance_information.html">Balance Information</a></strong></p>
+
+<p>Aging Period</p>
+
+<p>The aging analysis is displayed for the outstanding amounts based on  the total days outstanding. The number of days for which a document is  outstanding is calculated from the document’s due date. The default time-blocks  for the aging analysis are 1-30 days, 31-60 days, 61-90 days, and greater  than 90 days.</p>
+
+<p>You can change these time blocks by selecting <strong>Options</strong>  &gt; <strong>Aging Options</strong>.</p>
+
+<p><img src="/versata-everest-docs/managing-customers/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/docs-profile/options/customer/quick-aging-opts/aging_options_quick_aging_customer_information_sales.html">Aging  Options</a></p>
+
+<dl>
+  <dt><strong>On Credit Hold</strong></dt>
+  <dd>The <strong>On Credit Hold</strong> check box displays the credit hold status of the customer. This  check box is selected by default, if the <strong>On 
+ Credit Hold</strong> check box in the <strong>Customer</strong> profile is selected (path: <strong>Invoicing 
+ &gt; Customers &gt; Edit &gt; In New Window &gt; Payment information tab</strong>).</dd>
+  <dt><img src="/versata-everest-docs/managing-customers/img/note.gif" alt="" />  You  cannot modify the credit hold status from here. You can change it manually  from the <strong>Customer</strong> profile.</dt>
+  <dd><img src="/versata-everest-docs/managing-customers/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-customers/customer-details/payment-information/payment_information_content.html">Payment  Information</a></dd>
+</dl>
+
+<p>Document Details</p>
+
+<p>Sales invoices, credit memos, credit orders and sales orders against  which deposits have been received are displayed in the documents section.</p>
+
+<p>Deposits outstanding on sales orders, or amounts outstanding on credit  memos are displayed as negative amounts.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-customers/misc/customer_aging_information_browser_options.html">Customer  Aging Information Browser Options</a></dd>
+  <dd><a href="/versata-everest-docs/managing-customers/customers-browser/information-available/quick_aging_customers.html">Quick Aging</a></dd>
+</dl>
+
+
+
+
+</div>

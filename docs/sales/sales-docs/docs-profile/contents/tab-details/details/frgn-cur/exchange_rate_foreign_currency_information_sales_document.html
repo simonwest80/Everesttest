@@ -1,0 +1,48 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="exchange-rate">Exchange Rate</h1>
+
+<p>The <strong>Exchange Rate</strong> field displays  the exchange rate for a foreign currency when a new foreign currency sales  document is created. The exchange rate displayed is the exchange rate  against your base currency.</p>
+
+<p><strong>Everest</strong> determines whether the  Buy Rate/Sell Rate should be used depending on the setting in the <strong>Rate for Sales Documents</strong> field (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Defaults &gt; Accounting &gt; Multicurrency &gt; Exchange Rates</strong>).  Exchange rates can be entered with up to six decimals.</p>
+
+<p>If the exchange rate for the document is different from the current  rate, then you can change the rate.</p>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> If  a sale from a foreign customer is covered by a fixed rate contract (where  you contract to buy the foreign exchange at a specified rate) the exchange  rate for the document will be the exchange rate defined in the contract.</p>
+
+<p class="note">When you convert a quote to an order or an order to  an invoice, the exchange rate displayed is the rate as per the quote/order.  If the rate has changed as on the invoice date, you must change the rate.</p>
+
+<p>If there is a time lag between the creation of an intermediate document  and the final document, the exchange rate could fluctuate. <strong>Everest</strong>  allows you to take care of such situations by setting a preference in  the <strong>Exchange rate used when converting 
+ quotes and orders</strong> field in the <strong>Documents</strong> dialog box (path: <strong>File &gt; 
+ Setup &gt; Preferences &gt; Flow Control &gt; Documents &gt; Miscellaneous 
+ &gt; Others &gt; Others 2</strong> tab). The option selected in the <strong>Exchange rate used when converting quotes and 
+ orders</strong> field takes effect when you convert a sales quote to a sales  order or a sales order to a sales invoice.</p>
+
+<p>The options available in this field are:</p>
+
+<ul>
+  <li><strong>Prompt 
+ user with the exchange rate available as on date logged in</strong> - If  you select this option, <strong>Everest</strong> prompts  you with the latest exchange rate available on the login date (for the  document currency). Click <strong>Yes</strong>  to replace the exchange rate on the document with the latest exchange  rate. Click <strong>No</strong> to retain the existing  exchange rate on the document.</li>
+  <li><strong>Use 
+ the exchange rate on the document being converted</strong> - If you select  this option, the <strong>Exchange Rate</strong> field  defaults to the exchange rate available on the document being processed.</li>
+  <li><strong>Use 
+ the exchange rate available as on date logged in</strong> - If you select  this field, the <strong>Exchange Rate</strong>  field defaults to the latest exchange rate available on the login date.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/frgn-cur/foreign_currency_information_sales_document_content.html">Foreign  Currency Information</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/multicurrency/exchange-rates/set-up-exchange-rates/defining_exchange_rates.html">Exchange  Rates</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/currency_details.html">Currency</a></dd>
+  <dd><a href="/versata-everest-docs/sales/misc/determining_inventory_control_account_for_sales_documents.html">Determining  Inventory Control Account for Sales Documents</a></dd>
+</dl>
+
+
+
+
+</div>

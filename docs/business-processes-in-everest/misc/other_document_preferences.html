@@ -1,0 +1,56 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="other-document-preferences">Other Document Preferences</h1>
+
+<dl>
+  <dt>**Set the quantity shipped value to zero </dt>
+  <dt> when converting the sales order to sales invoice (force you to enter the </dt>
+  <dt> quantity shipped)**</dt>
+  <dd>When a sales order is converted to a sales invoice,  the quantity shipped column automatically displays the quantity ordered.  The quantity shipped may differ from the quantity ordered. If you save  the sales invoice, the discrepancy gets registered in the invoice. To  prevent such errors, check this box to set the quantity shipped to zero.  Thus, you are forced to enter the actual shipped quantity, manually.</dd>
+</dl>
+
+<p class="note">This option works only for auto-serialized and inventoried (non-serialized)  items.</p>
+
+<p>For serialized items,  the  shipped column always displays ‘zero’. You have to manually attach the  required serial numbers.</p>
+
+<dl>
+  <dt>Set the quantity received value to zero when  converting a purchase/debit order to a purchase receipt or purchase invoice/debit  memo</dt>
+  <dd>When you convert a purchase order to a purchase  receipt or invoice, the Received column automatically displays the quantity  ordered. If the quantity received is less than the quantity ordered and  the purchase receipt or invoice is saved, physical quantities in stock  will not tally with the stock registered in the system. To prevent the  error, check this option to set the quantity received to zero so you must  manually enter the quantity received.</dd>
+  <dd>Similarly, when a debit order is converted to a  debit memo the Quantity Debited column automatically displays the quantity  requested. Check this option to set the quantity debited to zero so you  must manually enter the quantity debited.</dd>
+</dl>
+
+<p class="note">This option works only for auto-serialized and inventoried (non-serialized)  items.</p>
+
+<p>For serialized items,  the  shipped column always displays ‘zero’.</p>
+
+<dl>
+  <dt><strong>Set the quantity invoiced value to zero when  converting a purchase order/receipt to a purchase invoice</strong></dt>
+  <dd>When you convert a purchase order to a purchase  invoice, the Invoiced column automatically displays the quantity ordered  but not invoiced. When you convert a purchase receipt to a purchase invoice,  the Invoiced column automatically displays the quantity received but not  invoiced. If the quantity you intend to invoice is less than the quantity  ordered/received but not invoiced and the invoice is saved, the amount  payable to the vendor is not correct. Check this option to set the quantity  invoiced to zero so you must manually enter the quantity invoiced.</dd>
+  <dt><strong>Set quantity received value to zero when converting  a purchase order into a purchase invoice</strong></dt>
+  <dd>Check this option to set the quantity received to  zero when you convert a purchase order to a purchase invoice. If you check  this option, the <strong>Received</strong> field  does not populate automatically and you must manually enter the quantity  received. This option is unchecked by default.</dd>
+  <dd>If this option is unchecked, when you convert a  purchase order to a purchase invoice, the <strong>Received</strong>  column automatically updates with the quantity pending to be received  if the <strong>Use default stock bin to receive 
+ items when creating a new purchase receipt / invoice</strong> option in  the <strong>Location</strong> profile is selected  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location 
+ / Sub-Location</strong> &gt; <strong>Location</strong>  profile &gt; <strong>Stock Transfer</strong> tab  – <strong>Miscellaneous</strong> tab). The <strong>Received to Date</strong> column updates based  on the quantity entered in the <strong>Received</strong>  column.</dd>
+  <dt><strong>Update received quantity to match invoiced quantity  when creating purchase invoices</strong></dt>
+  <dd>Select this option if you want your Received quantity  to be automatically populated from your Invoiced quantity when creating  a purchase invoice. You can still make adjustments in the documents, if  necessary.</dd>
+</dl>
+
+<p class="note">If you also want to set default bins when  creating a purchase receipt/invoice, select the <strong>Use 
+ the default bin to receive items when creating a new purchase receipt/invoice</strong>  option in the <strong>Location</strong> profile  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location/Sub-Location</strong>  &gt; Select your location &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Location</strong> profile &gt; <strong>Stock 
+ Transfer</strong> &gt; <strong>Miscellaneous</strong>  tab). This automatically receives the stock into bins so that you will  not be prompted to select a bin when creating a new purchase receipt or  invoice.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/misc/miscellaneous_others_others_1_steps.html">Others  1 Tab - Documents Dialog Box</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/doc-frm/misc/flow_control_setup_dialog_box_miscellaneous_tab_con.html">Documents  Dialog Box - Miscellaneous</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/opt/setting_flow_control_options.html">Setting  up Flow Control Options</a></dd>
+</dl>
+
+
+
+
+</div>

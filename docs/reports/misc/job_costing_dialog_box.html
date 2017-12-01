@@ -1,0 +1,146 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="job-costing-dialog-box">Job Costing Dialog Box</h1>
+
+<dl>
+  <dt><strong>Sort By</strong></dt>
+  <dd>Select whether the report must be grouped by the  job code or date. If you select <strong>Job Code</strong>,  the report is grouped first by the job codes and then by the document  dates. If you select <strong>Date</strong>, the  report is grouped first by date and then by each job code.</dd>
+  <dt><strong>Job Code From</strong></dt>
+  <dd>Specify the starting code for the range of job codes  to be included in the report.</dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/reports/common-report-options/drop_down_button_and_menu_options.html">Drop-Down  List - Right-Click Menu Options</a></dd>
+  <dt><strong>Job Code To</strong></dt>
+  <dd>Specify the ending code for the range of job codes  to be included in the report.</dd>
+  <dt>If the **Job </dt>
+  <dt> Code From** and <strong>Job Code To</strong> fields  are left blank, the details of all jobs are included in the report.</dt>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/reports/common-report-options/drop_down_button_and_menu_options.html">Drop-Down  List - Right-Click Menu Options</a></dd>
+  <dt><strong>Date From</strong></dt>
+  <dd>Specify the start date of the report period. The  date you specify here is the document date. By default, the login date  is displayed.</dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/document-information/document_date.html">Document  Date - Purchase</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/doc-info/document_date_document_information_sales_content.html">Document  Date - Sales</a></dd>
+  <dt><strong>Date To</strong></dt>
+  <dd>Specify the end date of the report period. The date  you specify here is the document date. By default, the login date is displayed.</dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/document-information/document_date.html">Document  Date - Purchase</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/doc-info/document_date_document_information_sales_content.html">Document  Date - Sales</a></dd>
+  <dt><strong>Status</strong></dt>
+  <dd>Select the status of the jobs for which you want  to print the report.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>: <strong>Option</strong></td>
+      <td>: <strong>Select this option <br /> to view:</strong></td>
+    </tr>
+    <tr>
+      <td>: All</td>
+      <td>: Details of all the jobs.</td>
+    </tr>
+    <tr>
+      <td>: Open</td>
+      <td>: Details of jobs that are marked “Open”.</td>
+    </tr>
+    <tr>
+      <td>: Closed</td>
+      <td>: Details of jobs that are marked “Closed”.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: <img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/job-costing/job-costing-details/status_information.html">Status  Information</a></p>
+
+<dl>
+  <dt><strong>Include Documents</strong></dt>
+  <dd>Select the documents for which you want to print  the job costing report.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Option</strong></td>
+      <td><strong>Select this option <br /> to:</strong></td>
+    </tr>
+    <tr>
+      <td>SI,  CM, PR, DM</td>
+      <td>Include only final sales, purchase and return documents  (both customer and vendor returns) in the report.</td>
+    </tr>
+    <tr>
+      <td>SI,  CM, PR, DM, SO, CO</td>
+      <td>Include final sales, purchase and return documents.  sales and credit orders are also included in the report.</td>
+    </tr>
+    <tr>
+      <td>SI,  CM, SO, CO</td>
+      <td>Include only sales and sales return documents (other  than quotes).</td>
+    </tr>
+    <tr>
+      <td>PR, DM, PO, DO</td>
+      <td>Include only purchase and purchase return documents  (other than quotes).</td>
+    </tr>
+    <tr>
+      <td>SI,  CM</td>
+      <td>Include only the final sales and sales return documents.</td>
+    </tr>
+    <tr>
+      <td>PR, DM</td>
+      <td>Include only the final purchase and purchase return  documents.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: <img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/docs/documents_used_in_everest.html">System  Documents</a></p>
+
+<dl>
+  <dt><strong>Include Child Job Details</strong></dt>
+  <dd>Select this option to include details of child job  codes that are under a parent job code, in the report. These details include  quantity, revenue, revenue amount, expense, expense amount and margin.</dd>
+  <dt><strong>Include General Journal Entries</strong></dt>
+  <dd>Select this option to include General Journal entries  (posted and unposted) in the report.</dd>
+  <dd>If the above option is checked, the report displays  the revenue and expenditure in the total cost and total price columns  as below:</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account Type</td>
+      <td>Debit</td>
+      <td>Credit</td>
+      <td>Treatment</td>
+    </tr>
+    <tr>
+      <td>Revenue</td>
+      <td>Yes</td>
+      <td> </td>
+      <td>Displayed in Total Cost column</td>
+    </tr>
+    <tr>
+      <td>Revenue</td>
+      <td> </td>
+      <td>Yes</td>
+      <td>Displayed in Total Price column</td>
+    </tr>
+    <tr>
+      <td>Expenditure</td>
+      <td>Yes</td>
+      <td> </td>
+      <td>Displayed in Total Cost column</td>
+    </tr>
+    <tr>
+      <td>Expenditure</td>
+      <td> </td>
+      <td>Yes</td>
+      <td>Displayed in Total Price column</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/financial/job_costing_rep.html">Job Costing Report</a></dd>
+</dl>
+
+
+
+
+</div>

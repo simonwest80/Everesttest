@@ -1,0 +1,40 @@
+{% capture html %}
+    {% assign sectionTopics = site.pages | where: "dir", page.dir %}
+
+    {% if sectionTopics != null and sectionTopics.size > 1 %}
+        <h3>Topics in this section</h3>
+        <ul>
+        {% if page.sorted_pages != null %}
+            {% for pg in page.sorted_pages %}
+                {% assign pageName = pg | append: ".md" %}
+                {% assign topic = sectionTopics | where: "name", pageName | first %}
+                <li>
+                    <a href="{{site.baseurl}}{{topic.url}}">{{topic.title}}</a>
+                </li>
+            {% endfor %}
+        {% else %}            
+            {% for item in sectionTopics %}
+                {% if item.name != "index.md" %}
+                    <li>
+                        <a href="{{site.baseurl}}{{item.url}}">{{item.title}}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        </ul>
+    {% endif %}
+
+    {% if page.sections != null %}
+    <h3>Additional sections</h3>
+    <ul>
+    {% for sec in page.sections %}
+        {% assign secTocFile = page.dir | append: sec | append: "/index.md" | remove_first: "/" %}
+        {% assign secInfo = site.pages | where: "path", secTocFile | first %}
+        <li>
+        <a href="{{site.baseurl}}{{secInfo.url}}index.html">{{secInfo.title}}</a>
+        </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

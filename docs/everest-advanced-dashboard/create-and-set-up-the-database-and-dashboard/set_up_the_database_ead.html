@@ -1,0 +1,55 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="set-up-the-database">Set Up the Database</h1>
+
+<p>After entering a valid license key, if the data warehouse does not exist,  the <strong>Setup Data Warehouse</strong> dialog  box (Path: <strong>Utility &gt; Data Warehouse 
+ &gt; Setup</strong>) is displayed for you to create the data warehouse.  After the data warehouse has been setup, you can access this dialog box  at any time to view the information and to make changes.</p>
+
+<p class="note">The data warehouse should be created outside  of peak production times because it is process intensive and could impact  the overall performance of <strong>Everest</strong>.</p>
+
+<dl>
+  <dt><strong>Database Server Name*</strong></dt>
+  <dd>This field defaults to the <strong>Everest</strong>  database server configuration information. To change the name of the Database  Server that will be used to host the data warehouse, enter the database  server name or browse to locate it. The field validation is based on Microsoft  Server naming rules. This is a required field.</dd>
+</dl>
+
+<p class="note">It is recommended, but not required, that  you run the data warehouse server on a separate server than the one used  for <strong>Everest</strong>.</p>
+
+<dl>
+  <dt><strong>Database Name*</strong></dt>
+  <dd>Enter the name for your <strong>Everest</strong>  Data Warehouse database. This is a required field.</dd>
+</dl>
+
+<p><strong>Connect Using:</strong></p>
+
+<dl>
+  <dt><strong>SQL Authentication</strong></dt>
+  <dd>Select <strong>SQL Authentication</strong>  if you choose to connect using this authentication type.</dd>
+  <dt><strong>Windows Authentication</strong></dt>
+  <dd>Select <strong>Windows 
+ Authentication</strong> if you choose to connect using this authentication  type.</dd>
+</dl>
+
+<p class="note">Most users will connect using Windows authentication.</p>
+
+<dl>
+  <dt><strong>User Name*</strong></dt>
+  <dd>If you choose to connect using SQL Authentication,  enter the SQL database System Administrator user name. The field validation  is based on MS authentication user naming rules. This is a required field.</dd>
+  <dt><strong>Password*</strong></dt>
+  <dd>If you choose to connect using SQL Authentication,  enter the SQL database System Administrator user password. The field validation  is based on MS authentication password naming rules. This is a required  field.</dd>
+</dl>
+
+<p class="note">If you have multiple companies, you can create  a data warehouse for each company.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-advanced-dashboard/create-and-set-up-the-database-and-dashboard/create_the_data_warehouse_ead.html">Create  the Data Warehouse</a></dd>
+</dl>
+
+
+
+
+</div>

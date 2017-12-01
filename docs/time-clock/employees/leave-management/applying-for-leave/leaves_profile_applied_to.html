@@ -1,0 +1,95 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-leave-profile---submit-for-approval">The Leave Profile - Submit for Approval</h1>
+
+<p>The <strong>Submit for Approval</strong> tab  allows you to specify the person to whom you have to apply for leave.</p>
+
+<dl>
+  <dt><strong>Primary Approver</strong></dt>
+  <dd>Select the person to whom you have to submit the  leave application. This drop down field lists the employee that was selected  in the <strong>Reporting To</strong> field of the  <strong>User</strong> profile (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Users</strong>  &gt; <strong>Users</strong>) and also the employees  with higher authority than the one selected in <strong>Reporting 
+ To</strong> field. This field is mandatory.</dd>
+</dl>
+
+<p class="note">If no value is specified for the <strong>Reporting 
+ To</strong> field, the <strong>Primary Approver</strong>  field will be blank by default, and will list only those employees that  do not have any value selected in the <strong>Reporting 
+ To</strong> field.</p>
+
+<p><img src="/versata-everest-docs/time-clock/img/example.gif" alt="" /> Employee A <strong>Reporting 
+ To</strong> field is blank</p>
+
+<p>Employee  B reports to Employee C</p>
+
+<p>Employee  C reports to Employee D</p>
+
+<p>Employee  D <strong>Reporting To</strong> field is blank</p>
+
+<p>Employee  E <strong>Reporting To</strong> field is blank</p>
+
+<p>Therefore, if Employee A submits a leave request,  the <strong>Primary Approver</strong> and <strong>Alternate</strong></p>
+
+<p><strong>Approver</strong>  drop down fields display only Employee D and Employee E (who too do not  have a</p>
+
+<p>reporting manager- because it is assumed that  they are top level employees).</p>
+
+<dl class="warn">
+  <dt>In cases where the  <strong>Reporting To</strong>  field is blank, there is a risk that wrong persons can get selected i.e.  persons whose designation may be lower than that of the applicant, and  <strong>Everest</strong> cannot control it. So  the responsibility lies with the user to select the correct person in  these fields.</dt>
+  <dd>Suppose only one employee in <strong>Everest</strong>   has the  <strong>Reporting To</strong> field blank, it indicates  that this employee has highest authority and all other employees report  to him directly or indirectly. In such a case, if this employee applies  for leave, in his <strong>Leave Request</strong>  profile, the <strong>Primary Approver</strong>  and <strong>Alternate Approver</strong> fields  will list all employees other than him.</dd>
+</dl>
+
+<p class="example"><strong>Employee A (Team Member 1) reports to Employee  B</strong></p>
+
+<p><strong>Employee  B  (Team  Lead 1) reports to Employee C</strong></p>
+
+<p><strong>Employee  C  (Project  Lead 1) reports to Employee D</strong></p>
+
+<p><strong>Employee  D  (Project  Manager) reports to Employee E</strong></p>
+
+<p><strong>Employee  E (Vice President) **Reporting To</strong>  field is blank**</p>
+
+<dl>
+  <dt><strong>So now, if the Employee E (Vice President)  applies for leave, then the Primary Approver and Alternate Approver will  be blank by default and the drop down fields will list all the other employees  in the company (i.e. A,B,C and D). Employee E may select any of these  employees to approve his leave.  Usually  in most of the organizations, the HR Manager or the next highest employee  will be selected to approve the leave.</strong></dt>
+  <dd>Suppose the person whom you report to goes on leave,  the leave will remain unapproved till another person is specifically selected  as the Reporting manager or a user with adequate security right approves  it.</dd>
+</dl>
+
+<p class="example"><strong>Employee A reports to Employee B</strong></p>
+
+<p><strong>Employee  B reports to Employee C</strong></p>
+
+<p><strong>Employee  C reports to Employee D</strong></p>
+
+<p><strong>So, Employee B is the reporting manager of  Employee A. If Employee A applies for a leave request to Employee B who  is already on leave, either the Employee C or D can be made Reporting  manager of Employee A  (in  the user profile of  Employee  A) or they can be given security right  to  approve the applied leave.</strong></p>
+
+<dl>
+  <dt><strong>Alternate Approver</strong></dt>
+  <dd>Specify the name of the individual to whom a copy  of the leave application must be submitted. This drop down field lists  the employees that were selected in <strong>Reporting 
+ To</strong> field of the <strong>User</strong> profile.  By default, this field will be blank.</dd>
+  <dt><strong>Notes</strong></dt>
+  <dd>Enter any relevant note/information/comments.</dd>
+</dl>
+
+<p><strong><img src="/versata-everest-docs/time-clock/img/example.gif" alt="" /> Reason for leave.</strong></p>
+
+<p class="note">On migration of existing user details , note  the following:</p>
+
+<ul>
+  <li>The <strong>Reporting 
+ To</strong> field will be blank, if any cyclical references persist in the  <strong>Reporting To</strong> structure..</li>
+  <li>The <strong>Reporting 
+ To</strong> field will be blanked out, if any employee selected in the <strong>Reporting To</strong> field is discontinued.</li>
+  <li>The <strong>Primary 
+ Approver</strong> and <strong>Alternate Approver</strong>  fields will be blanked out, if the employee selected as the Reporting  Manager in the <strong>User</strong> profile is  no longer a part of the reporting chain.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/time-clock/misc/the_leave_profile.html">The Leave Request  Profile</a></dd>
+</dl>
+
+
+
+
+</div>

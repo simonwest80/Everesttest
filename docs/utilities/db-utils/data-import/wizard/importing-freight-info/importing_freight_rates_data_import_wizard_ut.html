@@ -1,0 +1,67 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="importing-freight-rates">Importing Freight Rates</h1>
+
+<p>Use the <strong>Data Import Wizard</strong> (path:  <strong>Utility</strong> &gt; <strong>Import</strong>  &gt; <strong>Data</strong>) to import freight rate  information defined by the carrier for calculating freight charges in  <strong>Everest</strong>. Freight rates are calculated  based on the combination of different destination zones and delivery methods.  Freight zones must be imported before freight rates can be imported.</p>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /> <a href="/versata-everest-docs/utilities/db-utils/data-import/wizard/import_data_wizard_data_import_wizard_utility_content.html">Data  Import Wizard</a></p>
+
+<p class="steps">To import freight rate information into Everest,  do the following:</p>
+
+<ul>
+  <li>Create the freight  rate import file for <strong>Everest</strong>.  Download rate and zone files from your freight carrier’s website. If you  do not see them published there, contact your Account Manager for the  carrier (i.e. UPS or FedEx) to request the files in .CSV or Excel format.  See the <strong>Freight 
+ Rate Import File Format</strong> section for this information.</li>
+  <li>Review the Freight  Rate import template in the following directory:
+..\Icode\Everest\Client\Utilities\ImportTemplates</li>
+  <li>From the main menu  bar, select <strong>Utility</strong> &gt; <strong>Import</strong> &gt; <strong>Data</strong>.  You will see the <strong>Data Import Wizard</strong>.</li>
+  <li>Select <strong>Next</strong>.  You will see the <strong>Select Data to Import</strong>  screen.</li>
+  <li>In the <strong>Import 
+ Data Description</strong> column, select <strong>Freight 
+ Rates</strong>.</li>
+  <li>Click <strong>Next</strong>.  The <strong>Source File Selection</strong> screen  is displayed.</li>
+</ul>
+
+<dl>
+  <dt><strong>Import File Type</strong></dt>
+  <dd>Select the type of file to be imported, such as  Excel or Text.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /> <a href="/versata-everest-docs/utilities/db-utils/data-import/wizard/src-file-selection/text-file-excel-spreadsheet/ascii_fixed_text_files.html">ASCII  Fixed Text Files</a></p>
+
+<dl>
+  <dt><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /> <a href="/versata-everest-docs/utilities/db-utils/data-import/wizard/src-file-selection/text-file-excel-spreadsheet/ascii_delimited_text_files.html">ASCII  Delimited File Import</a></dt>
+  <dd>Specify the name and path of the file containing  zone import information.</dd>
+</dl>
+
+<p>Options</p>
+
+<dl>
+  <dt><strong>Delivery Method</strong></dt>
+  <dd>Specify the delivery method for which the freight  rates are to be imported. The drop-down list contains the delivery methods  you have set up in <strong>Everest</strong> (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Freight</strong> &gt; <strong>Delivery 
+ Methods</strong>).</dd>
+</dl>
+
+<ul>
+  <li>Click <strong>Next</strong>.  You will see the <strong>Field Mapping</strong>  screen.</li>
+  <li>Map the fields  in your source file to the destination. See the <strong>Field Mapping</strong>  section for more information.</li>
+  <li>(Optional) Click  <strong>Verify File</strong> to check your file  before importing it and correct any errors found. This is a best practice  step, but you can skip it to save time.</li>
+  <li>Click <strong>Save 
+ Settings</strong> to save your mapped settings along with the file settings.</li>
+  <li>Click <strong>Next</strong>  to view the details of the file to be imported.</li>
+  <li>Click <strong>Start</strong>  to import the freight rate data into the <strong>Everest</strong>  database.</li>
+  <li>Click <strong>Close</strong>  to close the <strong>Data Import Wizard</strong>.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/db-utils/data-import/wizard/importing-freight-info/freight_rates_import_file_format_diw_ut.html">Freight  Rates Import File Format</a></dd>
+</dl>
+
+
+
+
+</div>

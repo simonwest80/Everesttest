@@ -1,0 +1,74 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" src="/versata-everest-docs/sales/misc/ehlpdhtm.js" x-save-method="compute-relative"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovInitEffects ) != 'function' ) kadovInitEffects = new Function();if( typeof( kadovInitTrigger ) != 'function' ) kadovInitTrigger = new Function();if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<h1 id="credit-card-processing-with-ic-verify">Credit Card Processing with IC Verify</h1>
+
+<p>When the payment method is attached  to a processor with ICVerify as the service selected, you can process  the following types of transactions and requests:</p>
+
+<ul>
+  <li><a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/address_verification_1.html');" id="A1">Address verification</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A1');
+//--></script>.</li>
+  <li><a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/sale_1.html');" id="A2">Sale</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A2');
+//--></script>  type of transactions where the payment is authorized and funds transferred  to your bank account in the next settlement period.</li>
+  <li>Validation  of the card verification value.</li>
+  <li>Pre-authorization  requests for <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/authorization_1.html');" id="A3">authorization</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A3');
+//--></script>.</li>
+  <li>Pre-authorization  request for <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/book_for_later_shipment_1.html');" id="A4">book for later shipment</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A4');
+//--></script>.</li>
+  <li><a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/prior_authorization_1.html');" id="A5">Prior authorization</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A5');
+//--></script>  requests for <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/force_sale_1.html');" id="A6">Force Sale</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A6');
+//--></script>  to <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/capture_1.html');" id="A7">capture</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A7');
+//--></script>  funds where the authorization has been obtained earlier. The authorizations  include <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/voice_authorizations.html');" id="A8">voice authorizations</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A8');
+//--></script>.</li>
+  <li>Prior authorization  requests for <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/ship_prior_booking__1.html');" id="A9">Ship (Prior Booking)</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A9');
+//--></script>  to capture funds where the authorization has been obtained to book for  later shipment.</li>
+</ul>
+
+<p class="note">ICVerify processes payments and refunds with up to two  places of decimal accuracy. Errors might occur in processing if the process  file contains more than two decimal places.</p>
+
+<p>Response Codes</p>
+
+<p>The first character of the response codes received for  ICVerify transactions indicates the transaction status. This could be  any of the following:</p>
+
+<ul>
+  <li>Y  - Approved</li>
+  <li>N  - Declined</li>
+  <li>P - Approved not  captured</li>
+  <li>Q  - Approved for VISA/MC  purchase card</li>
+  <li>B - Approved for  VISA/MC business  card</li>
+  <li>C  - Approved for VISA/MC  corporate card</li>
+</ul>
+
+<p>The next six digits represent the approval code. Thus,  the response for an approved transaction could be”Y123456Y”.</p>
+
+<p>If your processing network is host-based, an additional  eight digits represent the reference number that was returned by your  processing network. In this case, the response could be “Y12345687654321Y”.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/ini-file-for-icverify/configuration_file_for_icverify.html">Configuration  file for ICVerify</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/cc-pmts/credit_card_processing_with_payflow_pro.html">Credit  Card Processing with Payflow  Pro</a></dd>
+</dl>
+
+
+
+
+</div>

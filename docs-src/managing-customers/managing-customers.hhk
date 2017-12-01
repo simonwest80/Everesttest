@@ -1,0 +1,1795 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="account summary">
+    <param name="See Also" value="account summary">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile options">
+      <param name="Name" value="Account Summary">
+      <param name="Local" value="customer-profile-options\information-available\history\account-summary\account_summary_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options - history">
+      <param name="Name" value="Account Summary">
+      <param name="Local" value="customers-browser\information-available\history\account-summary\account_summary_customers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounting information">
+    <param name="Name" value="Accounting Information">
+    <param name="Local" value="customer-details\accounting-information\accounting_information_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Accounting Information">
+      <param name="Local" value="customer-details\accounting-information\accounting_information_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounting tab">
+    <param name="See Also" value="accounting tab">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - Accounting">
+      <param name="Local" value="creating-a-customer\the-customer-profile-accounting\the_customer_profile_accounting.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="activate">
+    <param name="See Also" value="activate">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued customer level profile">
+      <param name="Name" value="View and Activate a Discontinued Customer Level">
+      <param name="Local" value="customer-levels\creating-customer-levels\view_and_activate_a_discontinued_customer_level.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued customers">
+      <param name="Name" value="View and Activate a Discontinued Customer">
+      <param name="Local" value="misc\view_and_activate_a_discontinued_customer.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="address preferences">
+    <param name="Name" value="Address Preferences">
+    <param name="Local" value="customer-details\addresses\address_preferences.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Address Preferences">
+      <param name="Local" value="customer-details\addresses\address_preferences.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="address profile">
+    <param name="Name" value="The Address Profile">
+    <param name="Local" value="creating-a-customer\the-customer-profile-addresses\the-address-profile\the_address_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general tab - customers">
+      <param name="Name" value="The Address Profile - General (Customers)">
+      <param name="Local" value="creating-a-customer\the-customer-profile-addresses\the-address-profile\the_address_profile_general.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="others tab - customers">
+      <param name="Name" value="The Address Profile - Others (Customers)">
+      <param name="Local" value="creating-a-customer\the-customer-profile-addresses\the-address-profile\the_address_profile_others.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom fields tab - customers">
+      <param name="Name" value="The Address Profile - Custom Fields">
+      <param name="Local" value="creating-a-customer\the-customer-profile-addresses\the-address-profile\the_address_profile_custom_fields_customers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="address verification">
+    <param name="Name" value="The Credit Card Profile">
+    <param name="Local" value="misc\the_credit_card_profile.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="addresses browser">
+    <param name="Name" value="The Addresses Browser (Contact)">
+    <param name="Local" value="misc\the_addresses_browser_contact.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="addresses tab">
+    <param name="See Also" value="addresses tab">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - Addresses">
+      <param name="Local" value="creating-a-customer\the-customer-profile-addresses\the_customer_profile_addresses.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advanced find tab">
+    <param name="See Also" value="advanced find tab">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find customers dialog box">
+      <param name="Name" value="Find Customers - Advanced Find">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_advance_find.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="allow back order creation">
+    <param name="Name" value="Allow Back Order Creation">
+    <param name="Local" value="customer-details\miscellaneous-information\allow_back_order_creation_customer_profile.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="amount tab">
+    <param name="Name" value="Find Customers - Amount">
+    <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_amount.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find customers dialog box">
+      <param name="Name" value="Find Customers - Amount">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_amount.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="apply mask">
+    <param name="See Also" value="apply mask">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Apply Mask">
+      <param name="Local" value="customer-details\customer-billing-information\apply_mask_billing.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="assign customer levels">
+    <param name="Name" value="Assign Customer Levels">
+    <param name="Local" value="customer-levels\creating-customer-levels\assign_customer_levels.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="automated hold conditions">
+    <param name="Name" value="The Customer Profile - Payment information">
+    <param name="Local" value="creating-a-customer\the-customer-profile-payment-information\the_customer_profile_payment_information.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="average amounts">
+    <param name="Name" value="Average Amounts">
+    <param name="Local" value="misc\average_amounts.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="AVS">
+    <param name="Name" value="The Credit Card Profile">
+    <param name="Local" value="misc\the_credit_card_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="default address">
+      <param name="Name" value="The Credit Card Profile">
+      <param name="Local" value="misc\the_credit_card_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="balance information">
+    <param name="Name" value="Balance Information">
+    <param name="Local" value="customer-details\accounting-information\balance_information.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Balance Information">
+      <param name="Local" value="customer-details\accounting-information\balance_information.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="billing address">
+    <param name="Name" value="Billing Address">
+    <param name="Local" value="customer-details\addresses\billing_address_customers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Billing Address">
+      <param name="Local" value="customer-details\addresses\billing_address_customers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="cash on delivery">
+    <param name="Name" value="Cash on Delivery">
+    <param name="Local" value="misc\cash_on_delivery.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="contact address">
+    <param name="Name" value="Contact Address">
+    <param name="Local" value="customer-details\addresses\contact_address.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Contact Address">
+      <param name="Local" value="customer-details\addresses\contact_address.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="contact manager">
+    <param name="Name" value="Contact Manager">
+    <param name="Local" value="customer-profile-options\other-options\contact_manager_customers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Contact Manager">
+      <param name="Local" value="customer-profile-options\other-options\contact_manager_customers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="create">
+    <param name="See Also" value="create">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="address">
+      <param name="Name" value="Create a New Address">
+      <param name="Local" value="creating-a-customer\the-customer-profile-addresses\the-address-profile\create_a_new_address.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer">
+      <param name="Name" value="Create a New Customer">
+      <param name="Local" value="creating-a-customer\creating_a_customer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer filter">
+      <param name="Name" value="Create a New Filter">
+      <param name="Local" value="find-customers\create_a_new_filter_find_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer level">
+      <param name="Name" value="Create a New Customer Level">
+      <param name="Local" value="customer-levels\creating-customer-levels\creating_a_new_customer_level.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="credit card information">
+    <param name="Name" value="Credit Card Information">
+    <param name="Local" value="customer-details\payment-information\credit_card_information_cust_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Credit Card Information">
+      <param name="Local" value="customer-details\payment-information\credit_card_information_cust_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="credit card profile">
+    <param name="Name" value="The Credit Card Profile">
+    <param name="Local" value="misc\the_credit_card_profile.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="credit cards">
+    <param name="Name" value="Credit Cards">
+    <param name="Local" value="customer-profile-options\other-options\credit_cards_customer_profile_options.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="credit cards browser">
+    <param name="Name" value="Credit Cards Browser">
+    <param name="Local" value="misc\credit_cards_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile options">
+      <param name="Name" value="Credit Cards">
+      <param name="Local" value="customer-profile-options\other-options\credit_cards_customer_profile_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="credit information">
+    <param name="Name" value="Credit Information">
+    <param name="Local" value="misc\credit_information.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="credit limit">
+    <param name="Name" value="Credit Limits">
+    <param name="Local" value="customer-details\payment-information\credit_limits.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Credit Limits">
+      <param name="Local" value="customer-details\payment-information\credit_limits.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="custom field tab">
+    <param name="Name" value="Find Customers - Custom Field">
+    <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_custom_field.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find customers dialog box">
+      <param name="Name" value="Find Customers - Custom Field">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_custom_field.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="custom fields">
+    <param name="Name" value="The Customer Profile - Custom Fields">
+    <param name="Local" value="creating-a-customer\the-customer-profile-custom-fields\the_customer_profile_custom_fields_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Custom Fields">
+      <param name="Local" value="customers-browser\other-options\custom_fields_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="the customer profile">
+      <param name="Name" value="The Customer Profile - Custom Fields">
+      <param name="Local" value="creating-a-customer\the-customer-profile-custom-fields\the_customer_profile_custom_fields_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="custom fields tab">
+    <param name="Name" value="The Customer Profile - Custom Fields">
+    <param name="Local" value="creating-a-customer\the-customer-profile-custom-fields\the_customer_profile_custom_fields_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - Custom Fields">
+      <param name="Local" value="creating-a-customer\the-customer-profile-custom-fields\the_customer_profile_custom_fields_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer">
+    <param name="Name" value="Customer Fax">
+    <param name="Local" value="customer-profile-options\other-options\customer_fax_customer_profile_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="account code">
+      <param name="Name" value="Account Code">
+      <param name="Local" value="customer-details\customer-billing-information\account_code_billing.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="account name">
+      <param name="Name" value="Account Name">
+      <param name="Local" value="customer-details\customer-billing-information\account_name_billing.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting information">
+      <param name="Name" value="Accounting Information">
+      <param name="Local" value="customer-details\accounting-information\accounting_information_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="address">
+      <param name="Name" value="Customer Addresses">
+      <param name="Local" value="customer-details\addresses\address_content.html">
+      <param name="Name" value="Customer Billing Information">
+      <param name="Local" value="customer-details\customer-billing-information\customer_billing_information_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="address preferences">
+      <param name="Name" value="Address Preferences">
+      <param name="Local" value="customer-details\addresses\address_preferences.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="allow back order creation">
+      <param name="Name" value="Allow Back Order Creation">
+      <param name="Local" value="customer-details\miscellaneous-information\allow_back_order_creation_customer_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="apply mask">
+      <param name="Name" value="Apply Mask">
+      <param name="Local" value="customer-details\customer-billing-information\apply_mask_billing.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="balance information">
+      <param name="Name" value="Balance Information">
+      <param name="Local" value="customer-details\accounting-information\balance_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="billing address">
+      <param name="Name" value="Billing Address">
+      <param name="Local" value="customer-details\addresses\billing_address_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="billing information">
+      <param name="Name" value="Customer Billing Information">
+      <param name="Local" value="customer-details\customer-billing-information\customer_billing_information_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="contact address">
+      <param name="Name" value="Contact Address">
+      <param name="Local" value="customer-details\addresses\contact_address.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create a New Customer">
+      <param name="Local" value="creating-a-customer\creating_a_customer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="credit card information">
+      <param name="Name" value="Credit Card Information">
+      <param name="Local" value="customer-details\payment-information\credit_card_information_cust_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="credit limits">
+      <param name="Name" value="Credit Limits">
+      <param name="Local" value="customer-details\payment-information\credit_limits.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom fields">
+      <param name="Name" value="Additional Customer Information">
+      <param name="Local" value="customer-details\additional-customer-information\additional_customer_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer class">
+      <param name="Name" value="Customer Class">
+      <param name="Local" value="customer-details\accounting-information\customer_class.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="defaults">
+      <param name="Name" value="Customer Defaults">
+      <param name="Local" value="customer-preferences\customer_defaults.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="delivery method">
+      <param name="Name" value="Delivery Method">
+      <param name="Local" value="customer-details\miscellaneous-information\delivery_method.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="department">
+      <param name="Name" value="Department">
+      <param name="Local" value="customer-details\miscellaneous-information\department_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue a Customer">
+      <param name="Local" value="discontinuing-a-customer\discontinuing_a_customer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="document policy">
+      <param name="Name" value="Document Policy">
+      <param name="Local" value="customer-details\document-policy\document_policy_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="fax">
+      <param name="Name" value="Customer Fax">
+      <param name="Local" value="customer-profile-options\other-options\customer_fax_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="finance charges">
+      <param name="Name" value="Finance Charges">
+      <param name="Local" value="customer-details\finance-charges\finance_charges_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="first name">
+      <param name="Name" value="First Name and Last Name">
+      <param name="Local" value="customer-details\customer-billing-information\first_name_and_last_name_billing.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="flow control">
+      <param name="Name" value="Customer Flow Control">
+      <param name="Local" value="customer-preferences\customer_flow_control.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="geographical mapping">
+      <param name="Name" value="Geographical Mapping">
+      <param name="Local" value="customers-browser\information-available\geographical_mapping.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="introduction">
+      <param name="Name" value="Customers">
+      <param name="Local" value="customers_intro.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="last name">
+      <param name="Name" value="First Name and Last Name">
+      <param name="Local" value="customer-details\customer-billing-information\first_name_and_last_name_billing.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify customer profile">
+      <param name="Name" value="Modify Customer Information">
+      <param name="Local" value="modifying-customer-information\modifying_customer_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multi-currency information">
+      <param name="Name" value="Multicurrency Information">
+      <param name="Local" value="customer-details\accounting-information\multi_currency_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multimedia">
+      <param name="Name" value="Additional Customer Information">
+      <param name="Local" value="customer-details\additional-customer-information\additional_customer_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="other defaults">
+      <param name="Name" value="Other Defaults">
+      <param name="Local" value="customer-preferences\other_defaults_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="payment information">
+      <param name="Name" value="Payment Information">
+      <param name="Local" value="customer-details\payment-information\payment_information_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="payment terms">
+      <param name="Name" value="Payment Term Applicable">
+      <param name="Local" value="customer-details\payment-information\payment_term_applicable.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="preferences">
+      <param name="Name" value="Customer Preferences">
+      <param name="Local" value="customer-preferences\customer_preferences.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="residential">
+      <param name="Name" value="Residential">
+      <param name="Local" value="customer-details\customer-billing-information\residential.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="salesperson">
+      <param name="Name" value="Salesperson">
+      <param name="Local" value="customer-details\miscellaneous-information\salesperson.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="shipping address">
+      <param name="Name" value="Shipping Address">
+      <param name="Local" value="customer-details\addresses\shipping_address.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="storefront">
+      <param name="Name" value="E-Commerce">
+      <param name="Local" value="misc\e-commerce_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer aging information browser">
+    <param name="Name" value="Customer Aging Information Browser">
+    <param name="Local" value="misc\customer_aging_information_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer aging information browser options">
+    <param name="Name" value="Customer Aging Information Browser Options">
+    <param name="Local" value="misc\customer_aging_information_browser_options.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer class">
+    <param name="Name" value="Customer Class">
+    <param name="Local" value="customer-details\accounting-information\customer_class.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer defaults">
+    <param name="Name" value="Customer Defaults">
+    <param name="Local" value="customer-preferences\customer_defaults.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer dialog box">
+      <param name="Name" value="Customers Dialog Box">
+      <param name="Local" value="misc\customers_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer details">
+    <param name="Name" value="Customer Details">
+    <param name="Local" value="customer-details\the_customer_profile.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer level">
+    <param name="Name" value="Customer Level">
+    <param name="Local" value="customer-levels\customer_level.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign to customers">
+      <param name="Name" value="Assign Customer Levels">
+      <param name="Local" value="customer-levels\creating-customer-levels\assign_customer_levels.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create a New Customer Level">
+      <param name="Local" value="customer-levels\creating-customer-levels\creating_a_new_customer_level.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer levels browser">
+    <param name="Name" value="The Customer Levels Browser">
+    <param name="Local" value="customer-levels\creating-customer-levels\the_customer_levels_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer levels browser options">
+    <param name="Name" value="Customer List">
+    <param name="Local" value="misc\customer_list_managing_customers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer list">
+      <param name="Name" value="Customer List">
+      <param name="Local" value="misc\customer_list_managing_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item list">
+      <param name="Name" value="Item List">
+      <param name="Local" value="misc\item_list.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="special pricing">
+      <param name="Name" value="Special Pricing">
+      <param name="Local" value="misc\customer_pricing.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer levels profile">
+    <param name="Name" value="The Customer Levels Profile">
+    <param name="Local" value="customer-levels\creating-customer-levels\the_customer_levels_profile.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer list">
+    <param name="Name" value="Customer List">
+    <param name="Local" value="misc\customer_list_managing_customers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer levels browser option">
+      <param name="Name" value="Customer List">
+      <param name="Local" value="misc\customer_list_managing_customers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer preferences">
+    <param name="Name" value="Customer Preferences">
+    <param name="Local" value="customer-preferences\customer_preferences.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer profile">
+    <param name="Name" value="The Customer Profile">
+    <param name="Local" value="creating-a-customer\the_customer_profile_steps.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting tab">
+      <param name="Name" value="The Customer Profile - Accounting">
+      <param name="Local" value="creating-a-customer\the-customer-profile-accounting\the_customer_profile_accounting.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="addresses tab">
+      <param name="Name" value="The Customer Profile - Addresses">
+      <param name="Local" value="creating-a-customer\the-customer-profile-addresses\the_customer_profile_addresses.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom fields tab">
+      <param name="Name" value="The Customer Profile - Custom Fields">
+      <param name="Local" value="creating-a-customer\the-customer-profile-custom-fields\the_customer_profile_custom_fields_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="document policy tab">
+      <param name="Name" value="The Customer Profile - Document Policy">
+      <param name="Local" value="creating-a-customer\the-customer-profile-document-policy\the_customer_profile_document_policy.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="finance charges tab">
+      <param name="Name" value="The Customer Profile - Finance Charges">
+      <param name="Local" value="creating-a-customer\the-customer-profile-finance-charges\the_customer_profile_finance_charges.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general tab">
+      <param name="Name" value="The Customer Profile - General">
+      <param name="Local" value="creating-a-customer\the-customer-profile-general\the_customer_profile_general.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general tab - address information">
+      <param name="Name" value="The Customer Profile - General - Address Information">
+      <param name="Local" value="creating-a-customer\the-customer-profile-general\the_customer_profile_general_address_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general tab - contact information">
+      <param name="Name" value="The Customer Profile - General - Contact Information">
+      <param name="Local" value="creating-a-customer\the-customer-profile-general\the_customer_profile_general_contact_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general tab - general information">
+      <param name="Name" value="The Customer Profile - General - General Information">
+      <param name="Local" value="creating-a-customer\the-customer-profile-general\the_customer_profile_general_general_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="logo tab">
+      <param name="Name" value="The Customer Profile - Logo">
+      <param name="Local" value="creating-a-customer\the-customer-profile-logo\the_customer_profile_logo_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="miscellaneous tab">
+      <param name="Name" value="The Customer Profile - Miscellaneous">
+      <param name="Local" value="creating-a-customer\the-customer-profile-miscellaneous\the_customer_profile_miscellaneous.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify Customer Information">
+      <param name="Local" value="modifying-customer-information\modifying_customer_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multimedia">
+      <param name="Name" value="The Customer Profile - Multimedia">
+      <param name="Local" value="creating-a-customer\the-customer-profile-multimedia\the_customer_profile_multimedia_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="payment information tab">
+      <param name="Name" value="The Customer Profile - Payment information">
+      <param name="Local" value="creating-a-customer\the-customer-profile-payment-information\the_customer_profile_payment_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="security tab">
+      <param name="Name" value="The Customer Profile - Security">
+      <param name="Local" value="creating-a-customer\the-customer-profile-security\the_customer_profile_security.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer profile options">
+    <param name="Name" value="The Customer Profile - Options">
+    <param name="Local" value="customer-profile-options\customer_profile_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="credit cards">
+      <param name="Name" value="Credit Cards">
+      <param name="Local" value="customer-profile-options\other-options\credit_cards_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="documents">
+      <param name="Name" value="Documents">
+      <param name="Local" value="customer-profile-options\information-available\documents_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="history">
+      <param name="Name" value="History">
+      <param name="Local" value="customer-profile-options\information-available\history\history_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="history - account summary">
+      <param name="Name" value="Account Summary">
+      <param name="Local" value="customer-profile-options\information-available\history\account-summary\account_summary_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="history - items sales/returns">
+      <param name="Name" value="Items Sales/Returns">
+      <param name="Local" value="customer-profile-options\information-available\history\items_sales_returns_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="print label">
+      <param name="Name" value="Print Label">
+      <param name="Local" value="customer-profile-options\other-options\print_label_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quick aging">
+      <param name="Name" value="Quick Aging">
+      <param name="Local" value="customer-profile-options\information-available\quick_aging_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales opportunity">
+      <param name="Name" value="Sales Opportunity">
+      <param name="Local" value="customer-profile-options\information-available\sales_opportunity_customer_profile_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer reports">
+    <param name="Name" value="Customer Reports">
+    <param name="Local" value="customer-reports\customer_reports.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer statement printing preferences dialog box">
+    <param name="Name" value="Customer Statements Parameters">
+    <param name="Local" value="misc\customer_statement_parameters_customer_browser_options.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer summary">
+    <param name="Name" value="Account Summary">
+    <param name="Local" value="customers-browser\information-available\history\account-summary\account_summary_customers.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer summary tab">
+    <param name="Name" value="Customer Summary">
+    <param name="Local" value="customer-profile-options\information-available\history\account-summary\customer_summary.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="summary for customer dialog box">
+      <param name="Name" value="Customer Summary">
+      <param name="Local" value="customer-profile-options\information-available\history\account-summary\customer_summary.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer tracking">
+    <param name="Name" value="Customer Tracking">
+    <param name="Local" value="customer-profile-options\other-options\customer_tracking_managing_cust.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Customer Tracking">
+      <param name="Local" value="customer-profile-options\other-options\customer_tracking_managing_cust.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer transaction history browser">
+    <param name="Name" value="The Customer Transaction History Browser">
+    <param name="Local" value="misc\the_posted_transactions_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="options">
+      <param name="Name" value="Posted Transactions Browser Options">
+      <param name="Local" value="misc\posted_transactions_browser_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customers browser">
+    <param name="Name" value="The Customers Browser">
+    <param name="Local" value="customers-browser\the_customer_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customers browser options">
+    <param name="Name" value="Contact Manager">
+    <param name="Local" value="customer-profile-options\other-options\contact_manager_customers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="contact manager">
+      <param name="Name" value="Contact Manager">
+      <param name="Local" value="customer-profile-options\other-options\contact_manager_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom fields">
+      <param name="Name" value="Custom Fields">
+      <param name="Local" value="customers-browser\other-options\custom_fields_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer tracking">
+      <param name="Name" value="Customer Tracking">
+      <param name="Local" value="customer-profile-options\other-options\customer_tracking_managing_cust.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="documents">
+      <param name="Name" value="Documents">
+      <param name="Local" value="customers-browser\information-available\documents.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="events history">
+      <param name="Name" value="Events History">
+      <param name="Local" value="customer-profile-options\other-options\events_history_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="geographical mapping">
+      <param name="Name" value="Geographical Mapping">
+      <param name="Local" value="customers-browser\information-available\geographical_mapping.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="goto website">
+      <param name="Name" value="Goto Website">
+      <param name="Local" value="customer-profile-options\other-options\goto_website.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="history">
+      <param name="Name" value="History">
+      <param name="Local" value="customers-browser\information-available\history\history.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="history - account summary">
+      <param name="Name" value="Account Summary">
+      <param name="Local" value="customers-browser\information-available\history\account-summary\account_summary_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="history - GL transactions">
+      <param name="Name" value="GL Transactions">
+      <param name="Local" value="customer-profile-options\information-available\history\gl_transactions.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="history - items sales/returns">
+      <param name="Name" value="Items Sales/Returns">
+      <param name="Local" value="customers-browser\information-available\history\items_sales_returns.html">
+      <param name="Name" value="Items Sales/Returns - Credit Orders">
+      <param name="Local" value="misc\items_sales_returns_credit_orders.html">
+      <param name="Name" value="Items Sales/Returns - Credit Quotes">
+      <param name="Local" value="misc\items_sales_returns_credit_quotes.html">
+      <param name="Name" value="Items Sales/Returns - Sales Invoices">
+      <param name="Local" value="misc\items_sales_returns_sales_invoices.html">
+      <param name="Name" value="Items Sales/Returns - Sales Orders">
+      <param name="Local" value="misc\items_sales_returns_sales_orders.html">
+      <param name="Name" value="Items Sales/Returns - Sales Quotes">
+      <param name="Local" value="misc\items_sales_returns_sal_quotes.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="merge duplicate accounts">
+      <param name="Name" value="Merge Duplicate Accounts">
+      <param name="Local" value="customers-browser\other-options\merge_duplicate_accounts_mc.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multimedia">
+      <param name="Name" value="Multimedia">
+      <param name="Local" value="customers-browser\other-options\multimedia_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multiple receipts">
+      <param name="Name" value="Multiple Receipts">
+      <param name="Local" value="customers-browser\other-options\multiple_receipts_customer_browser_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="print label">
+      <param name="Name" value="Print Label">
+      <param name="Local" value="customers-browser\other-options\print_label.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="print statement">
+      <param name="Name" value="Print Statement">
+      <param name="Local" value="customers-browser\other-options\print_statement_customers_browser_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quick aging">
+      <param name="Name" value="Quick Aging">
+      <param name="Local" value="customers-browser\information-available\quick_aging_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales opportunity">
+      <param name="Name" value="Sales Opportunity">
+      <param name="Local" value="customers-browser\information-available\sales_opportunity.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="send email">
+      <param name="Name" value="Send Email">
+      <param name="Local" value="customer-profile-options\other-options\send_email.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customers dialog box">
+    <param name="Name" value="Customers Dialog Box">
+    <param name="Local" value="misc\customers_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="default address-AVS">
+    <param name="Name" value="The Credit Card Profile">
+    <param name="Local" value="misc\the_credit_card_profile.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="delivery method">
+    <param name="Name" value="Delivery Method">
+    <param name="Local" value="customer-details\miscellaneous-information\delivery_method.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Delivery Method">
+      <param name="Local" value="customer-details\miscellaneous-information\delivery_method.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="department">
+    <param name="Name" value="Department">
+    <param name="Local" value="customer-details\miscellaneous-information\department_customers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Department">
+      <param name="Local" value="customer-details\miscellaneous-information\department_customers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="discontinue">
+    <param name="See Also" value="discontinue">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer level profile">
+      <param name="Name" value="Discontinue a Customer Level">
+      <param name="Local" value="customer-levels\creating-customer-levels\discontinuing_a_customer_level.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Discontinue a Customer">
+      <param name="Local" value="discontinuing-a-customer\discontinuing_a_customer.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="document policy">
+    <param name="Name" value="Document Policy">
+    <param name="Local" value="customer-details\document-policy\document_policy_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="document policy tab">
+    <param name="Name" value="The Customer Profile - Document Policy">
+    <param name="Local" value="creating-a-customer\the-customer-profile-document-policy\the_customer_profile_document_policy.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - Document Policy">
+      <param name="Local" value="creating-a-customer\the-customer-profile-document-policy\the_customer_profile_document_policy.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="documents">
+    <param name="Name" value="Documents">
+    <param name="Local" value="customer-profile-options\information-available\documents_customer_profile_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile options">
+      <param name="Name" value="Documents">
+      <param name="Local" value="customer-profile-options\information-available\documents_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Documents">
+      <param name="Local" value="customers-browser\information-available\documents.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="e-mail">
+    <param name="Name" value="E-Mail">
+    <param name="Local" value="customers-browser\other-options\e_mail_customer_browser_options.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="events history">
+    <param name="Name" value="Events History">
+    <param name="Local" value="customer-profile-options\other-options\events_history_customers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Events History">
+      <param name="Local" value="customer-profile-options\other-options\events_history_customers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="fax">
+    <param name="Name" value="Customer Fax">
+    <param name="Local" value="customer-profile-options\other-options\customer_fax_customer_profile_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer">
+      <param name="Name" value="Customer Fax">
+      <param name="Local" value="customer-profile-options\other-options\customer_fax_customer_profile_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="finance charges tab">
+    <param name="Name" value="The Customer Profile - Finance Charges">
+    <param name="Local" value="creating-a-customer\the-customer-profile-finance-charges\the_customer_profile_finance_charges.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - Finance Charges">
+      <param name="Local" value="creating-a-customer\the-customer-profile-finance-charges\the_customer_profile_finance_charges.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find">
+    <param name="See Also" value="find">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Find Customers">
+      <param name="Local" value="find-customers\find_customers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find customers dialog box">
+    <param name="Name" value="Find Customers - Advanced Find">
+    <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_advance_find.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="advanced find tab">
+      <param name="Name" value="Find Customers - Advanced Find">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_advance_find.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="amount tab">
+      <param name="Name" value="Find Customers - Amount">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_amount.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom field tab">
+      <param name="Name" value="Find Customers - Custom Field">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_custom_field.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter name">
+      <param name="Name" value="Filter Name">
+      <param name="Local" value="misc\filter_name_find_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="more choices tab">
+      <param name="Name" value="Find Customers - More Choices">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_more_choices.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="query tab">
+      <param name="Name" value="Find Customers - Query">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_query.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quick find tab">
+      <param name="Name" value="Find Customers - Quick Find">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_quick_find.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="first name">
+    <param name="Name" value="First Name and Last Name">
+    <param name="Local" value="customer-details\customer-billing-information\first_name_and_last_name_billing.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="First Name and Last Name">
+      <param name="Local" value="customer-details\customer-billing-information\first_name_and_last_name_billing.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="formatted address">
+    <param name="Name" value="View Formatted Address">
+    <param name="Local" value="customer-profile-options\other-options\view_formatted_address_customer_profile_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view">
+      <param name="Name" value="View Formatted Address">
+      <param name="Local" value="customer-profile-options\other-options\view_formatted_address_customer_profile_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="general tab">
+    <param name="See Also" value="general tab">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="address profile">
+      <param name="Name" value="The Address Profile - General (Customers)">
+      <param name="Local" value="creating-a-customer\the-customer-profile-addresses\the-address-profile\the_address_profile_general.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - General">
+      <param name="Local" value="creating-a-customer\the-customer-profile-general\the_customer_profile_general.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile - address information">
+      <param name="Name" value="The Customer Profile - General - Address Information">
+      <param name="Local" value="creating-a-customer\the-customer-profile-general\the_customer_profile_general_address_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile - contact information">
+      <param name="Name" value="The Customer Profile - General - Contact Information">
+      <param name="Local" value="creating-a-customer\the-customer-profile-general\the_customer_profile_general_contact_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile - general information">
+      <param name="Name" value="The Customer Profile - General - General Information">
+      <param name="Local" value="creating-a-customer\the-customer-profile-general\the_customer_profile_general_general_information.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="geographical mapping">
+    <param name="Name" value="Geographical Mapping">
+    <param name="Local" value="customers-browser\information-available\geographical_mapping.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Geographical Mapping">
+      <param name="Local" value="customers-browser\information-available\geographical_mapping.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="GL transactions">
+    <param name="Name" value="GL Transactions">
+    <param name="Local" value="customer-profile-options\information-available\history\gl_transactions.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options - history">
+      <param name="Name" value="GL Transactions">
+      <param name="Local" value="customer-profile-options\information-available\history\gl_transactions.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="goto website">
+    <param name="Name" value="Goto Website">
+    <param name="Local" value="customer-profile-options\other-options\goto_website.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Goto Website">
+      <param name="Local" value="customer-profile-options\other-options\goto_website.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="history">
+    <param name="Name" value="History">
+    <param name="Local" value="customer-profile-options\information-available\history\history_customer_profile_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile options">
+      <param name="Name" value="History">
+      <param name="Local" value="customer-profile-options\information-available\history\history_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="History">
+      <param name="Local" value="customers-browser\information-available\history\history.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item list">
+    <param name="Name" value="Item List">
+    <param name="Local" value="misc\item_list.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer levels browser option">
+      <param name="Name" value="Item List">
+      <param name="Local" value="misc\item_list.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="items sales/returns">
+    <param name="Name" value="Items Sales/Returns">
+    <param name="Local" value="customer-profile-options\information-available\history\items_sales_returns_customer_profile_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile options">
+      <param name="Name" value="Items Sales/Returns">
+      <param name="Local" value="customer-profile-options\information-available\history\items_sales_returns_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options - history">
+      <param name="Name" value="Items Sales/Returns">
+      <param name="Local" value="customers-browser\information-available\history\items_sales_returns.html">
+      <param name="Name" value="Items Sales/Returns - Credit Orders">
+      <param name="Local" value="misc\items_sales_returns_credit_orders.html">
+      <param name="Name" value="Items Sales/Returns - Credit Quotes">
+      <param name="Local" value="misc\items_sales_returns_credit_quotes.html">
+      <param name="Name" value="Items Sales/Returns - Sales Invoices">
+      <param name="Local" value="misc\items_sales_returns_sales_invoices.html">
+      <param name="Name" value="Items Sales/Returns - Sales Orders">
+      <param name="Local" value="misc\items_sales_returns_sales_orders.html">
+      <param name="Name" value="Items Sales/Returns - Sales Quotes">
+      <param name="Local" value="misc\items_sales_returns_sal_quotes.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="last name">
+    <param name="Name" value="First Name and Last Name">
+    <param name="Local" value="customer-details\customer-billing-information\first_name_and_last_name_billing.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="First Name and Last Name">
+      <param name="Local" value="customer-details\customer-billing-information\first_name_and_last_name_billing.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="logo">
+    <param name="Name" value="The Customer Profile - Logo">
+    <param name="Local" value="creating-a-customer\the-customer-profile-logo\the_customer_profile_logo_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="the customer profile">
+      <param name="Name" value="The Customer Profile - Logo">
+      <param name="Local" value="creating-a-customer\the-customer-profile-logo\the_customer_profile_logo_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="logo tab">
+    <param name="Name" value="The Customer Profile - Logo">
+    <param name="Local" value="creating-a-customer\the-customer-profile-logo\the_customer_profile_logo_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - Logo">
+      <param name="Local" value="creating-a-customer\the-customer-profile-logo\the_customer_profile_logo_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="merge duplicate accounts">
+    <param name="Name" value="Merge Duplicate Accounts">
+    <param name="Local" value="customers-browser\other-options\merge_duplicate_accounts_mc.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="miscellaneous information">
+    <param name="Name" value="Miscellaneous Information">
+    <param name="Local" value="customer-details\miscellaneous-information\miscellaneous_information_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Miscellaneous Information">
+      <param name="Local" value="customer-details\miscellaneous-information\miscellaneous_information_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="miscellaneous tab">
+    <param name="Name" value="The Customer Profile - Miscellaneous">
+    <param name="Local" value="creating-a-customer\the-customer-profile-miscellaneous\the_customer_profile_miscellaneous.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - Miscellaneous">
+      <param name="Local" value="creating-a-customer\the-customer-profile-miscellaneous\the_customer_profile_miscellaneous.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="modify">
+    <param name="See Also" value="modify">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="address - customer">
+      <param name="Name" value="Modify an Address">
+      <param name="Local" value="creating-a-customer\the-customer-profile-addresses\the-address-profile\modify_an_address_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer level information">
+      <param name="Name" value="Modify Customer Level Information">
+      <param name="Local" value="customer-levels\creating-customer-levels\modify_customer_level_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="Modify Customer Information">
+      <param name="Local" value="modifying-customer-information\modifying_customer_information.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="more choices tab">
+    <param name="Name" value="Find Customers - More Choices">
+    <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_more_choices.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find customers dialog box">
+      <param name="Name" value="Find Customers - More Choices">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_more_choices.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="multi-currency information">
+    <param name="Name" value="Multicurrency Information">
+    <param name="Local" value="customer-details\accounting-information\multi_currency_information.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Multicurrency Information">
+      <param name="Local" value="customer-details\accounting-information\multi_currency_information.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="multimedia">
+    <param name="Name" value="The Customer Profile - Multimedia">
+    <param name="Local" value="creating-a-customer\the-customer-profile-multimedia\the_customer_profile_multimedia_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - Multimedia">
+      <param name="Local" value="creating-a-customer\the-customer-profile-multimedia\the_customer_profile_multimedia_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Multimedia">
+      <param name="Local" value="customers-browser\other-options\multimedia_customers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="multimedia tab">
+    <param name="Name" value="The Customer Profile - Multimedia">
+    <param name="Local" value="creating-a-customer\the-customer-profile-multimedia\the_customer_profile_multimedia_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - Multimedia">
+      <param name="Local" value="creating-a-customer\the-customer-profile-multimedia\the_customer_profile_multimedia_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="multiple receipts">
+    <param name="Name" value="Multiple Receipts">
+    <param name="Local" value="customers-browser\other-options\multiple_receipts_customer_browser_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Multiple Receipts">
+      <param name="Local" value="customers-browser\other-options\multiple_receipts_customer_browser_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="on account purchases">
+    <param name="Name" value="On Account">
+    <param name="Local" value="misc\on_account.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="options">
+    <param name="Name" value="The Customer Profile - Options">
+    <param name="Local" value="customer-profile-options\customer_profile_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - Options">
+      <param name="Local" value="customer-profile-options\customer_profile_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="other defaults">
+    <param name="Name" value="Other Defaults">
+    <param name="Local" value="customer-preferences\other_defaults_customers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Other Defaults">
+      <param name="Local" value="customer-preferences\other_defaults_customers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="others tab">
+    <param name="Name" value="The Address Profile - Others (Customers)">
+    <param name="Local" value="creating-a-customer\the-customer-profile-addresses\the-address-profile\the_address_profile_others.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="address profile">
+      <param name="Name" value="The Address Profile - Others (Customers)">
+      <param name="Local" value="creating-a-customer\the-customer-profile-addresses\the-address-profile\the_address_profile_others.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="payment information tab">
+    <param name="Name" value="The Customer Profile - Payment information">
+    <param name="Local" value="creating-a-customer\the-customer-profile-payment-information\the_customer_profile_payment_information.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile">
+      <param name="Name" value="The Customer Profile - Payment information">
+      <param name="Local" value="creating-a-customer\the-customer-profile-payment-information\the_customer_profile_payment_information.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="payment terms">
+    <param name="Name" value="Payment Term Applicable">
+    <param name="Local" value="customer-details\payment-information\payment_term_applicable.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Payment Term Applicable">
+      <param name="Local" value="customer-details\payment-information\payment_term_applicable.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="periodic summary tab">
+    <param name="Name" value="Periodic Summary">
+    <param name="Local" value="customer-profile-options\information-available\history\account-summary\periodic_summary.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="summary for customer dialog box">
+      <param name="Name" value="Periodic Summary">
+      <param name="Local" value="customer-profile-options\information-available\history\account-summary\periodic_summary.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="prepayments">
+    <param name="Name" value="Prepayments">
+    <param name="Local" value="misc\prepayments.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="print label">
+    <param name="Name" value="Print Label">
+    <param name="Local" value="customer-profile-options\other-options\print_label_customer_profile_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile options">
+      <param name="Name" value="Print Label">
+      <param name="Local" value="customer-profile-options\other-options\print_label_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Print Label">
+      <param name="Local" value="customers-browser\other-options\print_label.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="select a report dialog box">
+      <param name="Name" value="Select a report dialog box">
+      <param name="Local" value="misc\select_a_report_dialog_box_managing_cust.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="print statement">
+    <param name="Name" value="Print Statement">
+    <param name="Local" value="customers-browser\other-options\print_statement_customers_browser_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Print Statement">
+      <param name="Local" value="customers-browser\other-options\print_statement_customers_browser_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="query tab">
+    <param name="Name" value="Find Customers - Query">
+    <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_query.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find customers dialog box">
+      <param name="Name" value="Find Customers - Query">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_query.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quick aging">
+    <param name="Name" value="Quick Aging">
+    <param name="Local" value="customer-profile-options\information-available\quick_aging_customer_profile_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile options">
+      <param name="Name" value="Quick Aging">
+      <param name="Local" value="customer-profile-options\information-available\quick_aging_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Quick Aging">
+      <param name="Local" value="customers-browser\information-available\quick_aging_customers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quick find tab">
+    <param name="Name" value="Find Customers - Quick Find">
+    <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_quick_find.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find customers dialog box">
+      <param name="Name" value="Find Customers - Quick Find">
+      <param name="Local" value="find-customers\find-customers-dialog-box\customer_filter_quick_find.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="residential">
+    <param name="Name" value="Residential">
+    <param name="Local" value="customer-details\customer-billing-information\residential.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Residential">
+      <param name="Local" value="customer-details\customer-billing-information\residential.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales opportunity">
+    <param name="Name" value="Sales Opportunity">
+    <param name="Local" value="customer-profile-options\information-available\sales_opportunity_customer_profile_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer profile options">
+      <param name="Name" value="Sales Opportunity">
+      <param name="Local" value="customer-profile-options\information-available\sales_opportunity_customer_profile_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Sales Opportunity">
+      <param name="Local" value="customers-browser\information-available\sales_opportunity.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="salesperson">
+    <param name="Name" value="Salesperson">
+    <param name="Local" value="customer-details\miscellaneous-information\salesperson.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="select a report dialog box">
+    <param name="Name" value="Select a report dialog box">
+    <param name="Local" value="misc\select_a_report_dialog_box_managing_cust.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="send email">
+    <param name="Name" value="Send Email">
+    <param name="Local" value="customer-profile-options\other-options\send_email.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers browser options">
+      <param name="Name" value="Send Email">
+      <param name="Local" value="customer-profile-options\other-options\send_email.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="shipping address">
+    <param name="Name" value="Shipping Address">
+    <param name="Local" value="customer-details\addresses\shipping_address.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Shipping Address">
+      <param name="Local" value="customer-details\addresses\shipping_address.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="shipping addresses browser">
+    <param name="Name" value="The Addresses Browser (Shipping)">
+    <param name="Local" value="misc\the_addresses_browser_(shipping).html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="special pricing">
+    <param name="Name" value="Special Pricing">
+    <param name="Local" value="customers-browser\other-options\special_pricing_customer_browser_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer levels browser option">
+      <param name="Name" value="Special Pricing">
+      <param name="Local" value="misc\customer_pricing.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="storefront">
+    <param name="Name" value="E-Commerce">
+    <param name="Local" value="misc\e-commerce_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="E-Commerce">
+      <param name="Local" value="misc\e-commerce_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="summary for customer dialog box">
+    <param name="Name" value="Customer Summary">
+    <param name="Local" value="customer-profile-options\information-available\history\account-summary\customer_summary.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer summary tab">
+      <param name="Name" value="Customer Summary">
+      <param name="Local" value="customer-profile-options\information-available\history\account-summary\customer_summary.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="periodic summary tab">
+      <param name="Name" value="Periodic Summary">
+      <param name="Local" value="customer-profile-options\information-available\history\account-summary\periodic_summary.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="tax id">
+    <param name="Name" value="Tax ID">
+    <param name="Local" value="customer-details\accounting-information\tax_id.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Tax ID">
+      <param name="Local" value="customer-details\accounting-information\tax_id.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="types of payments">
+    <param name="Name" value="Payment Information">
+    <param name="Local" value="customer-details\payment-information\payment_information_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cash on delivery">
+      <param name="Name" value="Payment Information">
+      <param name="Local" value="customer-details\payment-information\payment_information_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="on account">
+      <param name="Name" value="Payment Information">
+      <param name="Local" value="customer-details\payment-information\payment_information_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="prepayments">
+      <param name="Name" value="Payment Information">
+      <param name="Local" value="customer-details\payment-information\payment_information_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="use an existing filter">
+    <param name="See Also" value="use an existing filter">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Use an Existing Filter">
+      <param name="Local" value="find-customers\use_an_existing_filter_find_cust.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="view">
+    <param name="See Also" value="view">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued customer level profile">
+      <param name="Name" value="View and Activate a Discontinued Customer Level">
+      <param name="Local" value="customer-levels\creating-customer-levels\view_and_activate_a_discontinued_customer_level.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued customers">
+      <param name="Name" value="View and Activate a Discontinued Customer">
+      <param name="Local" value="misc\view_and_activate_a_discontinued_customer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="formatted address">
+      <param name="Name" value="View Formatted Address">
+      <param name="Local" value="customer-profile-options\other-options\view_formatted_address_customer_profile_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="defaults">
+    <param name="See Also" value="defaults">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Customer Defaults">
+      <param name="Local" value="customer-preferences\customer_defaults.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="preferences">
+    <param name="See Also" value="preferences">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Customer Flow Control">
+      <param name="Local" value="customer-preferences\customer_flow_control.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="transaction history">
+    <param name="See Also" value="transaction history">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer">
+      <param name="Name" value="The Customer Transaction History Browser">
+      <param name="Local" value="misc\the_posted_transactions_browser.html">
+    </object>
+    </ul>
+</ul>
+</html>

@@ -1,0 +1,14 @@
+nav ul li {  
+	text-decoration: none;
+	text-overflow: ellipsis;
+	overflow: hidden; 
+	display: block; 
+	white-space: nowrap;
+}
+
+nav ul, nav li { 
+	list-style-type: none;
+	list-style-position:inside;
+	margin:0;
+	padding:0 0 0 10px; 
+}

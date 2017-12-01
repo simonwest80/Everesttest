@@ -1,0 +1,130 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="document-totals">Document Totals</h1>
+
+<p>The following totals are summed, automatically updated and displayed  in all sales documents:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Field</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>Taxable</td>
+      <td>Displays the total value of items that are subject to  tax. The line items that are assigned tax codes are liable to be taxed.  The taxable amount includes the total amount of all such line items. The  amount is displayed after deducting the discount amount.</td>
+    </tr>
+    <tr>
+      <td>Tax</td>
+      <td>The total amount of sales tax chargeable on the line  items is displayed. Click on the <img src="/versata-everest-docs/sales/img/sales_tax_button.gif" alt="" /> button beside this field  to view the <strong>Tax <br /> Breakdown</strong> window that displays the detailed breakup of tax  charged.<br /><br /><br />On a manual sales invoice this is the total of the Sales  Tax line entries either added manually by the user or inserted automatically  by the system. The Tax Breakdown is not available on a manual sales invoice.</td>
+    </tr>
+    <tr>
+      <td>Exempt</td>
+      <td>The total amount (after discount) of line items that  is taxable, is displayed here.</td>
+    </tr>
+    <tr>
+      <td>Payment Discount</td>
+      <td>Displays the amount of payment discount applied to the  document. This discount is calculated and applied based on the payment  terms selected for the document. This field is displayed only on a sales  invoice.</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>The total amount of line items after tax and discount  is displayed. The Total is the sum of the totals of Taxable, Tax and Exempt  amounts.<br /><br /><br />On a manual sales invoice this total will match the  amount specified against the Accounts Receivable entry.</td>
+    </tr>
+    <tr>
+      <td>Paid</td>
+      <td>Displays the total amount paid on the document. Click  the <img src="/versata-everest-docs/sales/img/sales_doc_alias_icon.gif" alt="" /> button beside this field to view the <strong>Payment</strong><strong>History</strong> window for payments made  against the document.</td>
+    </tr>
+    <tr>
+      <td>Balance</td>
+      <td>This field displays the balance amount (total amount  - paid amount) to be paid on the document, excluding payment discounts,  if any.</td>
+    </tr>
+    <tr>
+      <td>Deposit</td>
+      <td>Displays the amount of deposit paid on the selected  sales order.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">All the fields (taxable, tax, exempt, trade discount  and total) are display fields only (they are automatically generated).</p>
+
+<p>Taxable, Tax, Exempt, and Total fields in Manual Sales  Journals</p>
+
+<dl>
+  <dt><strong>Manual Sales Invoice</strong></dt>
+  <dd>In the case of a manual journal created for a sales  invoice, the Taxable, Tax, Exempt, and Total fields are positive or negative  (shown in brackets) based on the following:</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Sales Invoice fields</td>
+      <td>Positive if:</td>
+      <td>Negative if:</td>
+    </tr>
+    <tr>
+      <td>Taxable</td>
+      <td>the total amount of taxable entries credited is higher  than total amount of taxable entries debited</td>
+      <td>the total amount of taxable entries debited is higher  than total amount of taxable entries credited</td>
+    </tr>
+    <tr>
+      <td>Tax</td>
+      <td>the total tax amount credited is higher than total tax  amount debited</td>
+      <td>the total tax amount debited is higher than total tax  amount credited</td>
+    </tr>
+    <tr>
+      <td>Exempt</td>
+      <td>the total Exempt amount credited is higher than total  Exempt amount debited</td>
+      <td>the total Exempt amount debited is higher than total  Exempt amount credited</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>always positive because the Accounts Receivable for  a manual sales journal for a sales invoice will always be debited</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Manual Credit Memo</strong></dt>
+  <dd>In the case of a manual journal created for a credit  memo, the Taxable, Tax, Exempt, and Total fields are positive or negative  (shown in brackets) based on the following:</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Credit Memo fields</td>
+      <td>Positive if:</td>
+      <td>Negative if:</td>
+    </tr>
+    <tr>
+      <td>Taxable</td>
+      <td>the total amount of taxable entries debited is higher  than total amount of taxable entries credited</td>
+      <td>the total amount of taxable entries credited is higher  than total amount of taxable entries debited</td>
+    </tr>
+    <tr>
+      <td>Tax</td>
+      <td>the total tax amount debited is higher than total tax  amount credited</td>
+      <td>the total tax amount credited s higher than total tax  amount debited</td>
+    </tr>
+    <tr>
+      <td>Exempt</td>
+      <td>the total Exempt amount debited is higher than total  Exempt amount credited</td>
+      <td>the total Exempt amount credited is higher than total  Exempt amount debited</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>always positive because the Accounts Receivable for  a manual sales journal for a credit memo will always be credited</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+</div>

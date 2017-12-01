@@ -1,0 +1,40 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="overpayment-on-a-receipt-journal">Overpayment on a Receipt Journal</h1>
+
+<p>The total value of the payment is entered in the <strong>Amount</strong> field of the <a href="/versata-everest-docs/accounting/misc/the_check_display_section_manrptjrnl.html">Check  Display Section</a>. If you enter an amount greater than the value of  the documents selected in the <strong>Transaction 
+ Entries</strong> section of the <strong>Receipt 
+ Journal</strong> profile, it becomes an overpayment. This overpayment can  automatically be converted to a deposit.</p>
+
+<p>When you try to save such a transaction, you will be prompted to confirm  whether the overpayment has to be treated as a deposit.</p>
+
+<ul>
+  <li>Click <strong>Yes</strong> to add a line entry for <strong>Miscellaneous 
+ Deposits</strong> in the <strong>Transaction Entries</strong>  section. The document number for this entry is automatically generated  based on the sequence numbers defined for the login location or the parent  location of the login sub-location. The sequence numbers for the location  are specified in the <strong>Location</strong> profile  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location/Sub-Location</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Invoicing</strong>  tab &gt; <strong>Manual Order #</strong> field).</li>
+</ul>
+
+<dl>
+  <dt>: If sequence numbers are not defined for  the login location or the parent location of the login sub-location, the  sequence number assigned to the default location is assigned to the document.  The default location is specified in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Default Location</strong> field).</dt>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></dd>
+</dl>
+
+<ul>
+  <li>Click <strong>No</strong> if you do not want to treat the overpayment  as a deposit.</li>
+</ul>
+
+<p><strong>Everest</strong>  then informs you that the entry is not balanced. Click <strong>Yes</strong> if you want to try to balance the journal entry. Click <strong>No</strong> to save the journal without balancing it.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/customer-receipts-and-refunds/receipts_from_customers.html">Receipts from  Customers</a></dd>
+</dl>
+
+
+
+
+</div>

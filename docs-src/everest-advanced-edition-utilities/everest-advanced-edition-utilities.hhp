@@ -1,0 +1,199 @@
+[OPTIONS]
+Title=Everest Advanced Edition - Utilities
+Contents file=everest-advanced-edition-utilities.hhc
+Index file=everest-advanced-edition-utilities.hhk
+Full-text search=Yes
+
+[FILES]
+database-update-utility\dbupdate_database_update_utility.html
+database-update-utility\wizard\dbupdate_database_update_wizard.html
+database-update-utility\wizard\dbupdate_database_server_details.html
+database-update-utility\wizard\security_group_creation_and_assignment_eu.html
+database-update-utility\wizard\dbupdate_database_backup.html
+database-update-utility\wizard\database_update_disk_space_requirements_eu.html
+database-update-utility\wizard\dbu_update_comparing_company_database_with_everest_defaults.html
+database-update-utility\wizard\dbupdate_database_update.html
+database-update-utility\wizard\company_database_update_duu_eu.html
+database-update-utility\wizard\dbupdate_update_completed.html
+database-migration-utility\database_migration_utility_eu.html
+database-migration-utility\migration_scenarios.html
+database-migration-utility\wizard\database_migration_wizard_eu.html
+database-migration-utility\wizard\welcome_dmw_eu.html
+database-migration-utility\wizard\source_type_selection_dmw_eu.html
+database-migration-utility\wizard\source_database_information_dmw_eu.html
+database-migration-utility\wizard\source_file_information_dmw_eu.html
+database-migration-utility\wizard\destination_database_information_dmw_eu.html
+database-migration-utility\wizard\select_companies_dmw_eu.html
+database-migration-utility\wizard\conclusion_dmw_eu.html
+database-explorer\database_explorer.html
+database-explorer\the_db_explorer_browser.html
+custom-db-obj-utility\cdbo_custom_database_object.html
+custom-db-obj-utility\cdbo_custom_dbo_utility.html
+custom-db-obj-utility\cdbo_custom_database_object_utility_browser.html
+custom-db-obj-utility\cdbo_options_available_in_the_custom_database_object_utility_browser.html
+custom-db-obj-utility\cdbo_the_custom_database_object_profile.html
+eproxy-utility\eproxy_utility.html
+eproxy-utility\eproxy_utility_dialog_box.html
+eproxy-utility\the_eproxy_profile_dialog_box.html
+change-login-password-utility\change_login_password_utility.html
+change-login-password-utility\change_sql_server_user_name_and_password.html
+change-login-password-utility\change_the_database_username_and_password.html
+change-login-password-utility\change_the_system_password.html
+img\bullet.gif
+misc\cdbo_delete_browser_options.html
+misc\cdbo_edit-browser_options.html
+misc\cdbo_new_browser_options.html
+misc\dbupdate_database_comparison_window.html
+misc\dbupdate_summary_of_selection.html
+misc\dbu_utilty_changes_identified_in_company_database.html
+misc\db_explorer_enterprise_manager.html
+misc\db_explorer_executing_sql_statements_in_the_query_analyzer.html
+misc\db_explorer_opening_sql_files.html
+misc\db_explorer_query_analyzer.html
+misc\db_explorer_saving_sql_statements_to_a_file.html
+misc\db_explorer_server_selection_dialog_box.html
+misc\db_explorer_using_the_query_analyzer.html
+misc\ehlpdhtm.js
+misc\eproxy_browser.html
+img\example.gif
+img\ext_browse_button.gif
+img\hint.gif
+misc\icons.html
+img\kanadi.gif
+img\lens.gif
+img\note.gif
+img\refer.gif
+misc\robohtml.css
+img\steps.gif
+img\warning.gif
+misc\zzbackup_file_name_db_backup.html
+misc\zzcompany_backup_file_name_checkbox_db_backup.html
+misc\zzcompany_backup_file_name_db_backup.html
+misc\zzcompany_code_dmw_eu.html
+misc\zzcompany_name_db_server_details.html
+misc\zzdatabase_file_dmw_eu.html
+misc\zzdatabase_server_name_destination_database_info_dmw_eu.html
+misc\zzdatabase_server_name_source_database_info_dmw_eu.html
+misc\zzerror_log_file_name_db_backup.html
+misc\zzeverest_database_file_dmw_eu.html
+misc\zzeverest_database_log_file_dmw_eu.html
+misc\zzexisting_everest_database_server_dmw_eu.html
+misc\zzno_i_do_not_wish_to_backup_data_db_backup.html
+misc\zzno_i_will_assign_new_security_rights_after_db_update_sgcaa_duw_eu.html
+misc\zzpassword_db_server_details.html
+misc\zzpassword_destination_database_info_dmw_eu.html
+misc\zzpassword_source_database_info_dmw_eu.html
+misc\zzserver_name_db_server_details.html
+misc\zzsummary_of_selection.html
+misc\zzsystem_backup_file_name_checkbox_db_backup.html
+misc\zzupdate_key_db_server_details.html
+misc\zzuser_code_db_server_details.html
+misc\zzuser_name_destination_database_info_dmw_eu.html
+misc\zzuser_name_source_database_info_dmw_eu.html
+misc\zzyes_create_user_group_and_assign_rights_sgcaa_duw_eu.html
+misc\zzyes_i_wish_to_backup_db_backup.html
+[ALIAS]
+helpid_50005=misc\zzuser_code_db_server_details.html
+helpid_50006=misc\zzpassword_db_server_details.html
+helpid_50008=misc\zzyes_i_wish_to_backup_db_backup.html
+helpid_50009=misc\zzbackup_file_name_db_backup.html
+helpid_50010=misc\zzno_i_do_not_wish_to_backup_data_db_backup.html
+helpid_50011=misc\zzerror_log_file_name_db_backup.html
+helpid_51188=change-login-password-utility\change_login_password_utility.html
+helpid_51293=eproxy-utility\eproxy_utility.html
+helpid_51312=misc\eproxy_browser.html
+helpid_51323=eproxy-utility\the_eproxy_profile_dialog_box.html
+helpid_51274=database-explorer\database_explorer.html
+helpid_51875=misc\db_explorer_server_selection_dialog_box.html
+helpid_51220=custom-db-obj-utility\cdbo_custom_dbo_utility.html
+helpid_51238=custom-db-obj-utility\cdbo_custom_database_object_utility_browser.html
+helpid_50027=database-update-utility\wizard\dbupdate_database_server_details.html
+helpid_50028=database-update-utility\wizard\dbupdate_database_backup.html
+helpid_50029=misc\dbupdate_summary_of_selection.html
+helpid_50030=database-update-utility\wizard\dbu_update_comparing_company_database_with_everest_defaults.html
+helpid_50033=database-update-utility\wizard\dbupdate_update_completed.html
+helpid_50031=database-update-utility\wizard\dbupdate_database_update.html
+helpid_50003=misc\zzserver_name_db_server_details.html
+helpid_50004=misc\zzcompany_name_db_server_details.html
+helpid_50022=misc\zzupdate_key_db_server_details.html
+helpid_2=misc\zzbackup_file_name_db_backup.html
+helpid_50026=misc\zzcompany_backup_file_name_db_backup.html
+helpid_3=misc\zzno_i_do_not_wish_to_backup_data_db_backup.html
+helpid_50023=misc\zzsystem_backup_file_name_checkbox_db_backup.html
+helpid_50024=misc\zzcompany_backup_file_name_checkbox_db_backup.html
+helpid_50001=database-update-utility\wizard\dbupdate_database_update_wizard.html
+helpid_50019=misc\zzsummary_of_selection.html
+helpid_50034=database-update-utility\wizard\security_group_creation_and_assignment_eu.html
+helpid_50035=misc\zzyes_create_user_group_and_assign_rights_sgcaa_duw_eu.html
+helpid_50036=misc\zzno_i_will_assign_new_security_rights_after_db_update_sgcaa_duw_eu.html
+helpid_53138=misc\zzdatabase_server_name_source_database_info_dmw_eu.html
+helpid_53139=misc\zzuser_name_source_database_info_dmw_eu.html
+helpid_53143=misc\zzeverest_database_log_file_dmw_eu.html
+helpid_53144=misc\zzcompany_code_dmw_eu.html
+helpid_53146=misc\zzdatabase_server_name_destination_database_info_dmw_eu.html
+helpid_53147=misc\zzuser_name_destination_database_info_dmw_eu.html
+helpid_53135=misc\zzexisting_everest_database_server_dmw_eu.html
+helpid_53136=misc\zzdatabase_file_dmw_eu.html
+helpid_53142=misc\zzeverest_database_file_dmw_eu.html
+helpid_53148=misc\zzpassword_destination_database_info_dmw_eu.html
+helpid_53133=database-migration-utility\wizard\welcome_dmw_eu.html
+helpid_53134=database-migration-utility\wizard\source_type_selection_dmw_eu.html
+helpid_53137=database-migration-utility\wizard\source_database_information_dmw_eu.html
+helpid_53141=database-migration-utility\wizard\source_file_information_dmw_eu.html
+helpid_53145=database-migration-utility\wizard\destination_database_information_dmw_eu.html
+helpid_53149=database-migration-utility\wizard\select_companies_dmw_eu.html
+helpid_53150=database-migration-utility\wizard\conclusion_dmw_eu.html
+helpid_53140=misc\zzpassword_source_database_info_dmw_eu.html
+
+[MAP]
+#define helpid_50005 50005
+#define helpid_50006 50006
+#define helpid_50008 50008
+#define helpid_50009 50009
+#define helpid_50010 50010
+#define helpid_50011 50011
+#define helpid_51188 51188
+#define helpid_51293 51293
+#define helpid_51312 51312
+#define helpid_51323 51323
+#define helpid_51274 51274
+#define helpid_51875 51875
+#define helpid_51220 51220
+#define helpid_51238 51238
+#define helpid_50027 50027
+#define helpid_50028 50028
+#define helpid_50029 50029
+#define helpid_50030 50030
+#define helpid_50033 50033
+#define helpid_50031 50031
+#define helpid_50003 50003
+#define helpid_50004 50004
+#define helpid_50022 50022
+#define helpid_2 2
+#define helpid_50026 50026
+#define helpid_3 3
+#define helpid_50023 50023
+#define helpid_50024 50024
+#define helpid_50001 50001
+#define helpid_50019 50019
+#define helpid_50034 50034
+#define helpid_50035 50035
+#define helpid_50036 50036
+#define helpid_53138 53138
+#define helpid_53139 53139
+#define helpid_53143 53143
+#define helpid_53144 53144
+#define helpid_53146 53146
+#define helpid_53147 53147
+#define helpid_53135 53135
+#define helpid_53136 53136
+#define helpid_53142 53142
+#define helpid_53148 53148
+#define helpid_53133 53133
+#define helpid_53134 53134
+#define helpid_53137 53137
+#define helpid_53141 53141
+#define helpid_53145 53145
+#define helpid_53149 53149
+#define helpid_53150 53150
+#define helpid_53140 53140

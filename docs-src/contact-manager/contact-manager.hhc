@@ -1,0 +1,681 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="_blank">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800027">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Contact Manager">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Contact Manager">
+      <param name="Local" value="contact_manager.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="The Everest Contact Manager">
+      <param name="Local" value="the_everest_contact_manager.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Using the Everest Contact Manager">
+      <param name="Local" value="using_the_everest_contact_manager.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Methods of Access">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Methods of Access">
+        <param name="Local" value="methods-of-access\methods_of_access_1.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Tasks">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tasks">
+        <param name="Local" value="tasks\tasks.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Task Details">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Task Details">
+          <param name="Local" value="tasks\task-details\the_task_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Task Information">
+          <param name="Local" value="tasks\task-details\task_information.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Task Details Information">
+          <param name="Local" value="tasks\task-details\task_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multimedia Information">
+          <param name="Local" value="tasks\task-details\multimedia_information.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Task">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Task">
+          <param name="Local" value="tasks\create-a-task\creating_a_task.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Task Profile">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Task Profile">
+            <param name="Local" value="tasks\create-a-task\the-task-profile\the_task_profile_steps.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Task Profile - Task">
+            <param name="Local" value="tasks\create-a-task\the-task-profile\the_task_profile_task.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Task Profile - Details">
+            <param name="Local" value="tasks\create-a-task\the-task-profile\the_task_profile_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Task Profile - Multimedia">
+            <param name="Local" value="tasks\create-a-task\the-task-profile\the_task_profile_multimedia.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Task Profile - Custom Fields ">
+            <param name="Local" value="tasks\create-a-task\the-task-profile\the_tasks_profile_-_custom_fields_tab.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Discontinue a Task">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue a Task">
+          <param name="Local" value="tasks\discontinue-a-task\deleting_a_task.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Task">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Task">
+          <param name="Local" value="tasks\modify-a-task\modifying_task.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Incoming Call">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Incoming Call">
+          <param name="Local" value="tasks\incoming-call\incoming_call.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create an Incoming Call">
+          <param name="Local" value="tasks\incoming-call\create_an_incoming_call.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Incoming Call Profile">
+          <param name="Local" value="tasks\incoming-call\the_incoming_call_profile_cm.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Incoming Call Profile - Task">
+          <param name="Local" value="tasks\incoming-call\the_incoming_call_profile_task.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Incoming Call Profile - Details">
+          <param name="Local" value="tasks\incoming-call\the_incoming_call_profile_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Incoming Call Profile - Multimedia">
+          <param name="Local" value="tasks\incoming-call\the_incoming_call_profile_multimedia.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue an  Incoming Call">
+          <param name="Local" value="tasks\incoming-call\discontinue_an_incoming_call.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Outgoing Call">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Outgoing Call">
+          <param name="Local" value="tasks\outgoing-call\outgoing_call.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create an Outgoing Call">
+          <param name="Local" value="tasks\outgoing-call\create_an_outgoing_call.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Outgoing Call Profile">
+          <param name="Local" value="tasks\outgoing-call\the_outgoing_call_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Outgoing Call Profile - Task">
+          <param name="Local" value="tasks\outgoing-call\the_outgoing_call_profile_task.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Outgoing Call Profile - Details">
+          <param name="Local" value="tasks\outgoing-call\the_outgoing_call_profile_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Outgoing Call Profile - Multimedia">
+          <param name="Local" value="tasks\outgoing-call\the_outgoing_call_profile_multimedia.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue an  Outgoing Call">
+          <param name="Local" value="tasks\outgoing-call\discontinue_an_outgoing_call.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="General Notes">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General Notes">
+          <param name="Local" value="tasks\general-notes\general_notes.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a General Note">
+          <param name="Local" value="tasks\general-notes\create_a_general_note.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The General Notes Profile">
+          <param name="Local" value="tasks\general-notes\the_general_notes_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The General Notes Profile - Task">
+          <param name="Local" value="tasks\general-notes\the_general_notes_profile_task.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The General Notes Profile - Details">
+          <param name="Local" value="tasks\general-notes\the_general_notes_profile_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The General Notes Profile - Multimedia">
+          <param name="Local" value="tasks\general-notes\the_general_notes_profile_multimedia.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue a General Note">
+          <param name="Local" value="tasks\general-notes\discontinue_a_general_note.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Task Profile Options">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Task Profile Options">
+          <param name="Local" value="tasks\task-profile-options\task_profile_options.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Complete">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Complete">
+            <param name="Local" value="tasks\task-profile-options\complete\task_profile_option_-_complete.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Complete and Followup">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Complete and Followup">
+            <param name="Local" value="tasks\task-profile-options\complete-and-followup\task_profile_option_-_complete_and_followup.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Print">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print">
+            <param name="Local" value="tasks\task-profile-options\print\task_profile_option_print.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multimedia">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Multimedia">
+            <param name="Local" value="tasks\task-profile-options\multimedia\task_profile_option_-_multimedia.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Custom Fields">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Custom Fields">
+            <param name="Local" value="tasks\task-profile-options\custom-fields\task_profile_options_-_custom_fields.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Sales Opportunity">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Sales Opportunity">
+            <param name="Local" value="tasks\task-profile-options\sales-opportunity\task_profile_options_sales_opportunity.html">
+          </object>
+          </ul>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Appointments">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Appointments">
+        <param name="Local" value="appointments\appointment.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Appointment Details">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Appointment Details">
+          <param name="Local" value="appointments\appointment-details\the_appointment_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Appointment Information">
+          <param name="Local" value="appointments\appointment-details\appointment_information.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Appointment Details Information">
+          <param name="Local" value="appointments\appointment-details\appointment_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multimedia Information">
+          <param name="Local" value="appointments\appointment-details\multimedia_information_appointment.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create an Appointment">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create an Appointment">
+          <param name="Local" value="appointments\create-an-appointment\creating_an_appointment.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Appointment Profile">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Appointment Profile">
+            <param name="Local" value="appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_steps.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Appointment Profile - Appointment">
+            <param name="Local" value="appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_appointment.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Appointment Profile - Details">
+            <param name="Local" value="appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Appointment Profile - Multimedia">
+            <param name="Local" value="appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_multimedia.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Appointment Profile - Custom Fields">
+            <param name="Local" value="appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_-_custom_fields_tab.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Cancel an Appointment">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cancel an Appointment">
+          <param name="Local" value="appointments\cancel-an-appointment\cancelling_an_appointment.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify an Appointment">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify an Appointment">
+          <param name="Local" value="appointments\modify-an-appointment\modifying_appointment.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Appointment Profile Options">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Appointment Profile Options">
+          <param name="Local" value="appointments\appointment-profile-options\task_appointment_profile_options.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multimedia">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Multimedia">
+            <param name="Local" value="appointments\appointment-profile-options\multimedia\multimedia.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Custom Fields">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Custom Fields">
+            <param name="Local" value="appointments\appointment-profile-options\custom-fields\custom_fields.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Print">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Print">
+            <param name="Local" value="appointments\appointment-profile-options\print\appointment_profile_options_print.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Sales Opportunity">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Sales Opportunity">
+            <param name="Local" value="appointments\appointment-profile-options\sales-opportunity\sales_opportunities.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Differences between Tasks and Appointments">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Differences between a Task and an Appointment">
+          <param name="Local" value="appointments\differences-between-tasks-and-appointments\differences_between_a_task_and_an_appointment.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Link Tasks and Appointments">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Link Tasks and Appointments">
+          <param name="Local" value="appointments\link-tasks-and-appointments\linking_tasks_and_appointments.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View a Linked Task and Appointment">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View a Linked Task and Appointment">
+            <param name="Local" value="appointments\link-tasks-and-appointments\view-a-linked-task-and-appointment\viewing_linked_tasks_and_appointments.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set Task Status">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set Task Status">
+          <param name="Local" value="appointments\set-task-status\setting_task_appointment_status.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Reminders - Tasks/Appointments">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set Reminders">
+        <param name="Local" value="reminders-tasks-appointments\setting_reminders.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Reminder Dialog Box">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Reminder Dialog Box">
+          <param name="Local" value="reminders-tasks-appointments\the-reminder-dialog-box\the_reminder_dialog_box.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Viewing Tasks/Appointments">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Viewing Tasks">
+        <param name="Local" value="view-tasks-appointments\viewing_tasks.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The All Tasks Browser">
+        <param name="Local" value="view-tasks-appointments\the_all_tasks_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The My Tasks Browser">
+        <param name="Local" value="view-tasks-appointments\the_my_tasks_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The My Appointments Browser">
+        <param name="Local" value="view-tasks-appointments\the_my_appointments_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The All Appointments Browser">
+        <param name="Local" value="view-tasks-appointments\the_all_appointments_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Preview Pane">
+        <param name="Local" value="view-tasks-appointments\task_details_section.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Printing Task Reports">
+        <param name="Local" value="view-tasks-appointments\printing_task_reports.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Calendar View Profile">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Calendar View Profile">
+          <param name="Local" value="view-tasks-appointments\calendar-view-profile\contact_manager_profile_steps.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Left Panel - Calendar View Profile">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Left Panel - Calendar View Profile">
+            <param name="Local" value="view-tasks-appointments\calendar-view-profile\left-panel\the_left_panel_-_contact_manager_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Left Panel - User">
+            <param name="Local" value="view-tasks-appointments\calendar-view-profile\left-panel\the_left_panel_user.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Left Panel - Customer">
+            <param name="Local" value="view-tasks-appointments\calendar-view-profile\left-panel\the_left_panel_customer.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Left Panel - Vendor">
+            <param name="Local" value="view-tasks-appointments\calendar-view-profile\left-panel\the_left_panel_vendor.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Left Panel - Document Wide">
+            <param name="Local" value="view-tasks-appointments\calendar-view-profile\left-panel\the_left_panel_document_wide.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Right Panel - Calendar View Profile">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Right Panel - Calendar View Profile">
+            <param name="Local" value="view-tasks-appointments\calendar-view-profile\right-panel\the_right_panel_-_contact_manager_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Right Panel - Upper Section">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Right Panel - Upper Section">
+              <param name="Local" value="view-tasks-appointments\calendar-view-profile\right-panel\upper-section\right_panel_upper_section.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Right Panel - Lower Section">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Right Panel - Lower Section">
+              <param name="Local" value="view-tasks-appointments\calendar-view-profile\right-panel\lower-section\right_panel_lower_section.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Scheduler">
+              <param name="Local" value="view-tasks-appointments\calendar-view-profile\right-panel\lower-section\lower_section_of_the_right_panel_-_schedular.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Calendar">
+              <param name="Local" value="view-tasks-appointments\calendar-view-profile\right-panel\lower-section\lower_section_of_the_right_panel_calendar.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Task Pad">
+              <param name="Local" value="view-tasks-appointments\calendar-view-profile\right-panel\lower-section\lower_section_of_the_right_panel_task_pad.html">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Calendar View Profile Options">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Calendar View Profile Options">
+          <param name="Local" value="view-tasks-appointments\calendar-view-profile-options\contact_manager_profile_options.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Customize Contact Manager">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customize the Contact Manager">
+        <param name="Local" value="customize-contact-manager\customizing_the_contact_manager.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Calendar Options Dialog Box">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Calendar Options Dialog Box">
+          <param name="Local" value="customize-contact-manager\calendar-options-dialog-box\contact_manager_options_profile.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Contact Manager Reports">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Contact Manager Reports">
+        <param name="Local" value="contact-manager-reports\contact_manager_reports_cm.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Find Tasks/Appointments">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Find Tasks/Appointments">
+        <param name="Local" value="find-tasks-appointments\find_tasks_appointments.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Quick Find">
+        <param name="Local" value="find-tasks-appointments\quick_find_find_tasks_appointments.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="More Choice Details">
+        <param name="Local" value="find-tasks-appointments\more_choices_find_task_appointment.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document/Account Details">
+        <param name="Local" value="find-tasks-appointments\document_account.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Field">
+        <param name="Local" value="find-tasks-appointments\custom_field.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Advanced Find">
+        <param name="Local" value="find-tasks-appointments\advanced_find.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Query">
+        <param name="Local" value="find-tasks-appointments\query_find_task_appointment.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a New Filter">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a New Filter">
+          <param name="Local" value="find-tasks-appointments\create-new-filter\create_a_new_filter_cm.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Find Task/Appointment Dialog Box">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Find Task/Appointment Dialog Box">
+            <param name="Local" value="find-tasks-appointments\create-new-filter\find-task-appointment-dlg\the_find_task_appointment_dialog_box.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Find Task/Appointment  - Quick Find">
+            <param name="Local" value="find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_quick_find.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Find Task/Appointment  - More Choices">
+            <param name="Local" value="find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_more_choices.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Find Task/Appointment  - Document/Account">
+            <param name="Local" value="find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_document_account.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Find Task/Appointment - Custom Field">
+            <param name="Local" value="find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_custom_field.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Find Task/Appointment - Advanced Find">
+            <param name="Local" value="find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_advanced_find.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Find Task/Appointment - Query">
+            <param name="Local" value="find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_query.html">
+          </object>
+          </ul>
+        </ul>
+      </ul>
+    </ul>
+</ul>
+</html>

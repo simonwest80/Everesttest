@@ -1,0 +1,235 @@
+[OPTIONS]
+Title=Forms Designer
+Contents file=forms_designer.hhc
+Index file=forms_designer.hhk
+Full-text search=Yes
+
+[FILES]
+about_the_forms_designer_introduction.html
+introduction\features_of_everest_forms_designer.html
+introduction\assumptions_introduction.html
+forms-designer\working_with_the_forms_designer.html
+forms-designer\access_the_forms_designer.html
+forms-designer\field_chooser_fd.html
+forms-designer\component_palette_dialog_box.html
+forms-designer\object_inspector.html
+forms-designer\menu_options_design_view.html
+forms-designer\right_click_options.html
+forms-designer\create-customized-profiles\create_customized_profiles.html
+forms-designer\create-sample-customized-profiles\create_sample_customized_profiles.html
+forms-designer\create-custom-field-profile-forms\create_custom_field_profile_forms_for_extended_information_sample_fd.html
+forms-browser\the_forms_browser_chapter3.html
+forms-browser\forms_browser_options.html
+forms-browser\exporting_a_form_version.html
+forms-browser\importing_a_form_version.html
+forms-browser\assign_a_profile_version_to_a_user_or_group.html
+forms-browser\assign_a_profile_version_from_the_forms_browser.html
+forms-browser\customer_document_form_version_assignments_fd.html
+forms-browser\managing-forms-illustrated\managing_forms_with_the_forms_browser_illustrated.html
+forms-browser\assign-profile\assign_a_profile_version_from_the_users_and_groups_browsers.html
+forms-browser\assign-profile\assign_a_profile_version_to_a_specific_user_or_group.html
+forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_users_browser.html
+forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_user_profile.html
+forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_groups_browser.html
+forms-browser\access-the-assign-forms-dialog-box-\access_the_assign_forms_dialog_box_from_the_group_profile.html
+forms-browser\access-the-assign-forms-dialog-box-\individual_user_assignment.html
+forms-browser\access-the-assign-forms-dialog-box-\specific_group_assignment.html
+forms-designer-security\about_forms_designer_security.html
+forms-designer-security\forms_designer_licensing.html
+forms-designer-security\security-rights\forms_designer_security_rights.html
+forms-designer-security\security-rights\assign_a_security_right_to_a_user.html
+forms-designer-security\security-rights\remove_a_security_right_from_a_user.html
+forms-designer-security\events\forms_designer_events.html
+misc\import_dialog_forms_browser_fd.html
+misc\updating_existing_forms.html
+misc\export_forms_dialog_box.html
+misc\access_the_forms_browser.html
+misc\grant_users_a_version_of_the_form.html
+misc\grant_groups_a_version_of_the_form.html
+misc\assign_users_to_a_form_version.html
+misc\assign_groups_to_a_form_version.html
+misc\access_the_assign_forms_dialog_box.html
+misc\access_to_forms_designer_by_profile.html
+misc\access_to_profile_version_user_group_assignment.html
+misc\access_to_customized_profiles_from_a_central_location.html
+misc\using_an_existing_profile_template.html
+misc\design_the_target_form.html
+misc\add_fields_to_the_target_form.html
+misc\add_additional_controls_using_the_component_palette.html
+misc\modify_a_control_or_object_object_inspector.html
+misc\change_an_object_s_position.html
+misc\change_an_object_s_size.html
+misc\make_any_necessary_changes_to_the_menu_and_toolbar.html
+misc\save_the_target_form_create_customized_profiles.html
+misc\save_as_option_create_customized_profile.html
+misc\reset_a_version_to_the_standard_version.html
+misc\tab_and_page_controls_create_customized_profiles.html
+misc\tab_control_target_form.html
+misc\page_control_target_form.html
+misc\select_a_tab_control_target_form.html
+misc\select_the_page_control_target_form.html
+misc\add_a_new_tab_create_customized_profiles.html
+misc\rename_a_tab_create_customized_profiles.html
+misc\reorder_tabs_create_customized_profile.html
+misc\delete_a_tab_create_customized_profiles.html
+misc\change_the_tab_order_create_customized_profiles.html
+misc\add_fields_to_their_default_location_fd.html
+misc\add_the_tasks_tab_to_the_customer_profile_fd.html
+misc\add_a_dynamic_tab_create_customized_profiles_fd.html
+misc\add_all_mandatory_fields_to_a_tab_sample_profile_step10.html
+misc\add_a_new_tab_to_the_custom_fields_profile_fd.html
+misc\add_custom_fields_to_the_custom_fields_profile_fd.html
+misc\add_fields_in_a_group_box_sample_profile_step13.html
+misc\add_group_boxes_in_the_custom_fields_profile_fd.html
+misc\add_new_custom_field_to_tab_sample_profile_step6.html
+misc\add_tab_sample_profile_step17.html
+img\arrow to left.bmp
+img\arrow to right.bmp
+misc\assign_forms_browser_options.html
+misc\bullet.gif
+misc\change_the_label_sample_profile_step7.html
+misc\chapter_2.html
+misc\chapter_3.html
+img\close dialog box.gif
+misc\close_and_reopen_dialog_boxes_sample_profile_step2.html
+img\combo_box_componen_palette_and_group_boxes_stepo_fd.gif
+img\company setup profile activation options tab.gif
+img\component palette forms designer add shape control text.gif
+misc\create_another_form_version_sample_profile_step16.html
+misc\create_a_mandatory_custom_field_step4.html
+misc\create_custom_fields_fd.html
+img\custom_field_definition_profile_stepc_fd.gif
+img\custom_field_def_profile_design_mode_black_dots_stepf_fd.gif
+img\custom_field_def_profile_design_mode_char_tab_deleted_stepk_fd.gif
+img\custom_field_def_profile_design_mode_char_tab_deleted_stepl_fd.gif
+img\custom_field_def_profile_design_mode_click_char_tab_stepi_fd.gif
+img\custom_field_def_profile_design_mode_click_in_center_of_char_tab_stepj_fd.gif
+img\custom_field_def_profile_design_mode_new_page_selected_stepg_fd.gif
+img\custom_field_def_profile_design_mode_new_tab_added_steph_fd.gif
+img\custom_field_def_profile_design_mode_new_tab_renamed_stepm_fd.gif
+img\custom_field_def_profile_design_mode_stepe_fd.gif
+img\custom_field_def_profile_stepd_fd.gif
+img\custom_field_profile_stepa_fd.gif
+img\custom_field_profile_stepb_fd.gif
+misc\delete_a_tab_in_the_custom_fields_profile_fd.html
+misc\delete_the_remaining_tabs_in_the_custom_fields_profile_fd.html
+misc\design_forms_browser_options.html
+misc\display_only_mandatory_fields_sample_profile_step8.html
+img\document_alias_forms_display_flow_chart_fd.gif
+img\double arrow to left.bmp
+img\double arrow to right.bmp
+misc\ehlpdhtm.js
+img\example.gif
+misc\exit_the_forms_designer_sample_profile_step3.html
+img\field chooser handbag icon fd.gif
+img\field_chooser_add_custom_fields_stepr1_fd.gif
+img\field_chooser_add_custom_fields_stepr2_fd.gif
+img\form version example 3.gif
+misc\form_version_example_create_a_target_form.html
+img\group box icon component palette fd.gif
+img\hint.gif
+misc\icons.html
+img\item profile design mode page control.gif
+img\item profile design mode tab control correct title.gif
+img\kanadi.gif
+img\lens.gif
+img\lookup_ button_fd.bmp
+misc\make_additonal_changes_sample_profile_step18.html
+misc\move_fields_and_change_alignment_sample_profile_step14.html
+img\new_custom_field_profile_design_steps_fd.gif
+img\new_icon_fd.gif
+img\note.gif
+img\object inspector editing label add shape control text.gif
+img\object inspector item profile design mode modify object.gif
+img\object_inspector_change_combo_box_names_stepp_fd.gif
+img\object_inspector_change_combo_box_names_stepq_fd.gif
+misc\open_the_custom_fields_profile_fd.html
+misc\open_the_custom_fields_profile_in_design_mode_fd.html
+misc\open_the_forms_designer_sample_profile_step1.html
+misc\purge_forms_browser_options.html
+misc\remove_all_optional_fields_menu_option.html
+misc\remove_a_field_from_a_tab_sample_profile_step9.html
+misc\remove_a_mandatory_field_sample_profile_step12.html
+misc\remove_tabs_sample_profile_step11.html
+misc\rename_a_tab_in_the_custom_fields_profile_fd.html
+misc\rename_forms_browser_options.html
+misc\return_to_design_view_sample_profile_step5.html
+misc\robohtml.css
+img\save_and_exit_icon_fd.gif
+img\save_form_custom_fields_for_sales_documents_stept_fd.gif
+misc\save_sample_profile_step15.html
+misc\save_your_new_custom_fields_profile_form_fd.html
+img\see_also.gif
+img\steps.gif
+img\targeted_drop_cursor_fd.gif
+misc\test_and_assign_your_new_custom_fields_profile_form_to_users_and_groups_fd.html
+misc\undo_last_change_sample_profile_step19.html
+img\warning.gif
+misc\zzassigned_area_assign_form_ug_option_fb_fd.html
+misc\zzassigned_assign_forms_groups_from_main_menu.html
+misc\zzassign_area_assign_forms_user_or_groups_profile_fd.html
+misc\zzassign_forms_groups_option_forms_browser_fd.html
+misc\zzassign_forms_users_option_forms_browser_fd.html
+misc\zzassign_form_treeview_main_menu_option_fd.html
+misc\zzdesign_option_forms_browser_fd.html
+misc\zzform_class_list_assign_forms_from_ug_profile_fd.html
+misc\zzpurge_option_forms_designer_fd.html
+misc\zzrename_forms_forms_browser_fd.html
+misc\zzsave_option_assign_forms_ug_fb_fd.html
+misc\zzsave_option_assign_group_or_users_profile_fd.html
+misc\zzunassigned_area_assign_forms_groups_fd.html
+misc\zzunassigned_area_assign_form_ug_option_fb_fd.html
+misc\zzunassign_area_asign_forms_user_or_groups_profile_fd.html
+misc\zzundo_option_assign_forms_ug_fb_fd.html
+misc\zzundo_option_assign_users_or_groups_profile_fd.html
+[ALIAS]
+helpid_10437=forms-browser\access-the-assign-forms-dialog-box-\specific_group_assignment.html
+helpid_10417=misc\grant_groups_a_version_of_the_form.html
+helpid_10392=misc\grant_users_a_version_of_the_form.html
+helpid_10338=misc\zzdesign_option_forms_browser_fd.html
+helpid_10339=misc\zzrename_forms_forms_browser_fd.html
+helpid_10340=misc\zzassign_forms_groups_option_forms_browser_fd.html
+helpid_10341=misc\zzassign_forms_users_option_forms_browser_fd.html
+helpid_10342=misc\zzpurge_option_forms_designer_fd.html
+helpid_10393=misc\zzassign_form_treeview_main_menu_option_fd.html
+helpid_10394=misc\zzassigned_area_assign_form_ug_option_fb_fd.html
+helpid_10395=misc\zzunassigned_area_assign_form_ug_option_fb_fd.html
+helpid_10396=misc\zzsave_option_assign_forms_ug_fb_fd.html
+helpid_10397=misc\zzundo_option_assign_forms_ug_fb_fd.html
+helpid_10438=misc\zzassign_area_assign_forms_user_or_groups_profile_fd.html
+helpid_10439=misc\zzunassign_area_asign_forms_user_or_groups_profile_fd.html
+helpid_10440=misc\zzsave_option_assign_group_or_users_profile_fd.html
+helpid_10441=misc\zzundo_option_assign_users_or_groups_profile_fd.html
+helpid_10442=misc\zzform_class_list_assign_forms_from_ug_profile_fd.html
+helpid_10418=misc\zzassigned_assign_forms_groups_from_main_menu.html
+helpid_10419=misc\zzunassigned_area_assign_forms_groups_fd.html
+helpid_10337=forms-browser\the_forms_browser_chapter3.html
+helpid_10443=forms-browser\access-the-assign-forms-dialog-box-\individual_user_assignment.html
+helpid_10734=misc\export_forms_dialog_box.html
+helpid_10724=misc\import_dialog_forms_browser_fd.html
+
+[MAP]
+#define helpid_10437 10437
+#define helpid_10417 10417
+#define helpid_10392 10392
+#define helpid_10338 10338
+#define helpid_10339 10339
+#define helpid_10340 10340
+#define helpid_10341 10341
+#define helpid_10342 10342
+#define helpid_10393 10393
+#define helpid_10394 10394
+#define helpid_10395 10395
+#define helpid_10396 10396
+#define helpid_10397 10397
+#define helpid_10438 10438
+#define helpid_10439 10439
+#define helpid_10440 10440
+#define helpid_10441 10441
+#define helpid_10442 10442
+#define helpid_10418 10418
+#define helpid_10419 10419
+#define helpid_10337 10337
+#define helpid_10443 10443
+#define helpid_10734 10734
+#define helpid_10724 10724

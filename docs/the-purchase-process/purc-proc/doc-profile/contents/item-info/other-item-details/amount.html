@@ -1,0 +1,51 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="amount">Amount</h1>
+
+<p>The non-editable <strong>Amount</strong> column  displays the total payable for each line item. The system calculates the  Amount using the purchase document columns depending on whether the document  FOB Type is set to Origin or Destination:</p>
+
+<ul>
+  <li>FOB Origin:
+Amount = Cost after Discount * Quantity</li>
+  <li>FOB Destination:
+Amount = (Cost after Discount * Quantity) + Add-on Amount</li>
+</ul>
+
+<p>The system uses the following quantities in the calculation:</p>
+
+<ul>
+  <li>Ordered quantity  on a purchase order</li>
+  <li>Received quantity  on a purchase receipt</li>
+  <li>Received on  Invoice quantity on a purchase invoice using the Received view (in the  options menu)</li>
+  <li>Invoiced quantity  on a purchase invoice using the Invoice view (in the options menu)</li>
+</ul>
+
+<p>Purchase Documents</p>
+
+<p>The Amount column displays the net purchase amount for the item purchased.</p>
+
+<p>Purchase Return Documents</p>
+
+<p>The Amount column displays the net value of the item returned.</p>
+
+<p>View in Document Currency</p>
+
+<p>The amount is displayed, by default, in the currency defined for the  selected vendor. If the vendor’s currency is different from the base currency,  use the <strong>View in Document Currency</strong>  option to view the amount (path: <strong>Options</strong> &gt; <strong>View in Document Currency</strong>)  in the base currency.</p>
+
+<p>Select the same option to view the amount in foreign currency.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/tabs/details/for-cur-info/foreign_currency_document.html">Foreign  Currency Documents</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/item-info/item_information_pp.html">Item Information</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/purchase/measure_pur.html">Measure</a></dd>
+</dl>
+
+
+
+
+</div>

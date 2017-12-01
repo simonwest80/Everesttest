@@ -1,0 +1,119 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="identification-of-e-mails--fromto-customers-in-everest">Identification of E-mails  from/to Customers in Everest</h1>
+
+<p><strong>Everest MailBridge</strong>  identifies e-mails  SENT to customers by matching the e-mailIDs in the  <strong>To</strong>, <strong>Cc</strong>  and <strong>Bcc</strong>  fields with the:</p>
+
+<ul>
+  <li>E-mail  ID specified in the billing address of the customer</li>
+  <li>E-mail  ID specified in any of the contact addresses of the customer</li>
+  <li>E-mail  ID specified in any of the shipping addresses of the customer</li>
+</ul>
+
+<p class="note">The billing, shipping and contact addresses are entered  in the <a href="/versata-everest-docs/managing-customers/creating-a-customer/the_customer_profile_steps.html"><strong>Customer</strong> profile</a> (path: <strong>Invoicing 
+ &gt; Customers &gt; Options &gt; Edit &gt; In New Window</strong>).</p>
+
+<p>The following tables display the number of ‘tasks/e-mails’  created for each e-mail  that you SEND, that matches the e-mail  ID of customer.</p>
+
+<p>Tasks Created</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>If the e-mail <br /> is sent to:</strong></td>
+      <td><strong>Tasks created</strong></td>
+    </tr>
+    <tr>
+      <td>More than one e-mail  ID (specified in the <strong>To</strong>, <strong>Cc</strong> and <strong>Bcc</strong>  fields), that belongs to a single customer</td>
+      <td>One</td>
+    </tr>
+    <tr>
+      <td>E-mailIDs that belong  to more than one customer</td>
+      <td>One for each mail you send to each customer</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>E-mails  Created</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>If the e-mail <br /> is sent to:</strong></td>
+      <td><strong>E-mails <br /> sent</strong></td>
+    </tr>
+    <tr>
+      <td>More than one e-mail  ID (specified in the <strong>To</strong>, <strong>Cc</strong> and <strong>Bcc</strong>  fields), that belongs to a single customer</td>
+      <td>One</td>
+    </tr>
+    <tr>
+      <td>E-mailIDs that belong  to more than one customer</td>
+      <td>One for each mail you send to each customer</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>E-mails that  you RECEIVE from customers are identified by matching the e-mailIDs in the  <strong>From</strong> field with the:</p>
+
+<ul>
+  <li>E-mail  ID specified in the billing address of the customer</li>
+  <li>E-mail  ID specified in any of the contact addresses of the customer</li>
+  <li>E-mail  ID specified in any of the shipping addresses of the customer</li>
+</ul>
+
+<p class="note">The billing, shipping and contact addresses are entered  in the <a href="/versata-everest-docs/managing-customers/creating-a-customer/the_customer_profile_steps.html"><strong>Customer</strong> profile</a> (path: <strong>Invoicing 
+ &gt; Customers &gt; Options &gt; Edit &gt; In New Window</strong>).</p>
+
+<p>The following tables display the number of ‘tasks/e-mails’  created for each mail that you RECEIVE, that matches the e-mail  ID of the customer.</p>
+
+<p>Tasks Created</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>If the e-mail <br /> ID of the mail received:</strong></td>
+      <td><strong>Tasks created</strong></td>
+    </tr>
+    <tr>
+      <td>Matches the e-mail  ID of a single customer in <strong>Everest</strong></td>
+      <td>One</td>
+    </tr>
+    <tr>
+      <td>Matches the e-mail  ID of more than one customer in <strong>Everest</strong></td>
+      <td>One for each e-mail  ID that<br /><br /><br />matches</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>E-mails  Created</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>If the e-mail <br /> ID of the mail received:</strong></td>
+      <td><strong>E-mails <br /> received</strong></td>
+    </tr>
+    <tr>
+      <td>Matches the e-mail  ID of a single customer in <strong>Everest</strong></td>
+      <td>One</td>
+    </tr>
+    <tr>
+      <td>Matches the e-mail  ID of more than one customer in <strong>Everest</strong></td>
+      <td>One for each e-mail  ID that is matches</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-mailbridge/mailbridge/functions/functions_of_everest_mailbridge.html">Functions  of Everest MailBridge</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,111 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="database-update-disk-space-requirements">Database Update Disk Space Requirements</h1>
+
+<p>Use the following formulas to determine the amount of disk space that  will be required for your database upgrade:</p>
+
+<ul>
+  <li>If you select <strong>Yes, I wish to backup the data</strong> then  the amount of disk space required is 3.15 times the size of the database:</li>
+</ul>
+
+<p>(2 * Database Size) + (1 * Database Size) + (.15 * Database Size) =  3.15 * Database Size</p>
+
+<p>This consists of:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/everest-advanced-edition-utilities/img/bullet.gif" alt="" /></td>
+      <td>A copy of the database for the system to use in case the original database  update is not successful and additional space needed for processing –  This is approximately 2 times the database size. (The copy of the database  is removed after a successful update.)</td>
+    </tr>
+    <tr>
+      <td><img src="/versata-everest-docs/everest-advanced-edition-utilities/img/bullet.gif" alt="" /></td>
+      <td>A backup copy of the database – This is your backup copy and it will  not be removed after a successful update. You can move this to another  drive to save space. This is approximately 1 times the database size.</td>
+    </tr>
+    <tr>
+      <td><img src="/versata-everest-docs/everest-advanced-edition-utilities/img/bullet.gif" alt="" /></td>
+      <td>An MS SQL Server TempDB of approximately 15% of your database size in  the directory where your MS SQL Server is installed</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="example">Example 1: Your original database is 1 GB and is located in the following  directory:</p>
+
+<p>C:\Program Files\Icode\Everest\Data (example <strong>Everest</strong>  Database Server path)</p>
+
+<p>You decide to back up the database to the same directory. You will need  approximately 3 GB in that directory to complete the update. You will  also need approximately 0.15 GB for a temporary MS SQL Server TempDB in  the directory where your MS SQL Server is installed.</p>
+
+<p>2.00  GB – Used by the system during the database update</p>
+
+<p><strong>+1.00 
+ GB</strong> – A backup copy of the database made at your request</p>
+
+<p><strong>**3.00 GB</strong>  – Approximate disk space required in the C:\Program Files\Icode\Everest\Data  directory (example Everest Database Server path)**</p>
+
+<p><strong>**+</strong><strong>0.15 
+ GB</strong> – Approximate disk space required in the directory where your  MS SQL Server is installed**</p>
+
+<p><strong>**3.15 GB – Approximate 
+ total of the disk space required for the update</strong>**</p>
+
+<p class="example">Example 2: You determine that you do not have enough disk space on the  C: drive and you decide to place the backup copy of the database on the  D: drive. In this situation, you will need approximately 2 GB in the directory  on the C: drive and 1 GB in the directory on the D: drive. You will also  need approximately 0.15 GB for a temporary MS SQL Server TempDB in the  directory where your MS SQL Server is installed.</p>
+
+<p><strong>**2.00 GB</strong>  – Used by the system during the database update – Approximate disk space  required in the C:\Program Files\Icode\Everest\Data directory (example  Everest Database Server path)**</p>
+
+<p><strong>**1.00 GB</strong>  – A backup copy of the database made at your request (Approximate total  of the disk space required for database backup on the D: drive)**</p>
+
+<p><strong>**+</strong><strong>0.15 
+ GB</strong> – Approximate disk space required in the directory where your  MS SQL Server is installed**</p>
+
+<p><strong>**3.15 GB – Approximate 
+ total of the disk space required for the update</strong>**</p>
+
+<ul>
+  <li>If you select <strong>No, I do not wish to backup the data</strong>  then the amount of disk space required is 2.15 times the size of the database:</li>
+</ul>
+
+<p>(2 * Database Size) + (.15 * Database Size) = 2.15 * Database Size</p>
+
+<p>This consists of:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/everest-advanced-edition-utilities/img/bullet.gif" alt="" /></td>
+      <td>A copy of the database for the system to use in case the original database  update is not successful and additional space needed for processing –  This is approximately 2 times the database size. (The copy of the database  is removed after a successful update.)</td>
+    </tr>
+    <tr>
+      <td><img src="/versata-everest-docs/everest-advanced-edition-utilities/img/bullet.gif" alt="" /></td>
+      <td>An MS SQL Server TempDB of approximately 15% of your database size in  the directory where your MS SQL Server is installed</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="example">Your original database is 1 GB and is located in the following directory:</p>
+
+<p>C:\Program Files\Icode\Everest\Data (example Everest Database Server  path)</p>
+
+<p>You decide NOT to back up the database since your company does regular  tape backups of the directory. You will need approximately 2 GB in that  directory to complete the update. You will also need approximately 0.15  GB for a temporary MS SQL Server TempDB in the directory where your MS  SQL Server is installed.</p>
+
+<p><strong>**2.00 GB</strong>  – Used by the system during the database update – Approximate disk space  required in the C:\Program Files\Icode\Everest\Data directory (example  Everest Database Server path)**</p>
+
+<p><strong>**+</strong><strong>0.15 
+ GB</strong> – Approximate disk space required in the directory where your  MS SQL Server is installed**</p>
+
+<p><strong>**2.15 GB – Approximate 
+ total of the disk space required for the update</strong>**</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-advanced-edition-utilities/database-update-utility/dbupdate_database_update_utility.html">Database  Update Utility</a></dd>
+  <dd><a href="/versata-everest-docs/everest-advanced-edition-utilities/database-update-utility/wizard/dbupdate_database_backup.html">Database  Backup</a></dd>
+</dl>
+
+
+
+
+</div>

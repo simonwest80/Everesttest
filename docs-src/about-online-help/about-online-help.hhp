@@ -1,0 +1,43 @@
+[OPTIONS]
+Title=About Help
+Contents file=about-online-help.hhc
+Full-text search=Yes
+
+[FILES]
+about-help.html
+assumptions.html
+audience.html
+help-conventions.html
+help-structure.html
+using-help.html
+img\example.gif
+img\Help_icon_aoh.gif
+img\Hint.gif
+img\Kanadi.gif
+img\Large_help_button_aoh.gif
+img\Lens.gif
+img\Note.gif
+img\refer.gif
+img\Steps.gif
+img\Warning.gif
+img\Whats_this_icon_aoh.gif
+img\Whats_this_small_icon_aoh.gif
+misc\robohtml.css
+
+[ALIAS]
+helpid_7=about-help.html
+helpid_1=about-help.html
+helpid_2=assumptions.html
+helpid_3=audience.html
+helpid_4=help-conventions.html
+helpid_5=help-structure.html
+helpid_6=using-help.html
+
+[MAP]
+#define helpid_7 7
+#define helpid_1 1
+#define helpid_2 2
+#define helpid_3 3
+#define helpid_4 4
+#define helpid_5 5
+#define helpid_6 6

@@ -1,0 +1,97 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="transaction-entries">Transaction Entries</h1>
+
+<dl>
+  <dt><strong>Short/Over</strong></dt>
+  <dd>This field displays the amount by which the transaction  is out of balance (i.e. the amount of difference between the debits and  credits). This amount is automatically computed.</dd>
+  <dt><strong>Account</strong></dt>
+  <dd>Specify the account to be debited or credited in  this column. The Accounts Payable Control account displayed by default,  as the first entry in this column cannot however be edited or deleted.  Only detailed accounts that have the same currency as the vendor’s currency  are available for selection.</dd>
+  <dt><strong>Description</strong></dt>
+  <dd>The name of the account is displayed in this field.</dd>
+  <dt><strong>Entry Type</strong></dt>
+  <dd>Select the type of the purchase entry:</dd>
+</dl>
+
+<ul>
+  <li>None – this  is the default.</li>
+  <li>Taxable Purchase  – the purchase entry is liable to purchase tax.</li>
+  <li>Exempt Purchase  – the purchase entry is exempt from taxes.</li>
+</ul>
+
+<p class="note">The automatic Accounts Payable entry defaults  to the entry type “None” and you cannot edit this.</p>
+
+<dl>
+  <dt><strong>Tax Code</strong></dt>
+  <dd>This optional field enables only if you select “Taxable  Purchase” or “Exempt Purchase” in the Entry Type column. If you select  “Taxable Purchase” it displays all active tax codes except those with  the Non-taxable box checked in the tax code profile (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Taxes</strong> &gt; <strong>Tax 
+ Codes</strong> &gt; <strong>New/Edit</strong>). If  you select “Exempt Purchase” it displays all active tax codes marked Non-taxable  in the tax code profile.</dd>
+  <dt>Tax codes containing a tax component with  the “Amount Recoverable” choice of the “Recoverable” option selected (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Taxes</strong>  &gt; <strong>Tax Components</strong> &gt; <strong>New/Edit</strong>) do not appear in the drop  down box. The “Amount Recoverable” option is based on a unit of measure,  and manual purchase documents do not include measures.</dt>
+  <dd>For each taxable entry with a tax code selected,  the system automatically inserts a row beneath the entry for each tax  component of the tax code. If you chose “% Recoverable” in the tax component’s  “Recoverable” option with less than 100%, the system creates a row for  both the recoverable and non-recoverable portions of tax. If you left  the option at 100% only a row for recoverable tax displays; if you did  not select the option only a row for non-recoverable tax displays.</dd>
+  <dd>You may manually add entries for the Recoverable  Tax account. If you choose the “Taxable Purchase” entry type, the system  will add the automatic rows and calculate the recoverable and non-recoverable  tax as with any other entry.</dd>
+  <dt>If the selected tax code contains only one  tax component, you may edit the tax in the automatically generated Recoverable  and Non-recoverable tax rows or even delete the purchase entry itself  (with adequate security rights). If you edit the tax, the related tax  rows recalculate. If you delete the entry, the system deletes the automatically  added rows. In both cases, however, you must manually change the Accounts  Payable entry if the journal is no longer balanced.</dt>
+  <dd>The system-generated Non-recoverable Purchase Tax  rows affect the column information as follows:</dd>
+</dl>
+
+<ul>
+  <li>Account - defaults  to the account selected as the Taxable Purchase. You may change the account.</li>
+  <li>Description  - displays the description of the account. You may not change the description.</li>
+  <li>Location/Sub-location  - displays the location/sub-location of the taxable purchase entry. You  may not change the location.</li>
+  <li>Entry Type  - defaults to “Non-recoverable Purchase Tax.” You may not change the entry  type.</li>
+  <li>Tax Code –  disables. You may not edit the tax code.</li>
+  <li>Notes - remains  blank. You may add and edit notes.</li>
+  <li>Job Code -  remains blank. You may not change the job code.</li>
+  <li>Debit - displays  the purchase tax amount if the corresponding taxable amount is in the  Debit column. If the tax code has only one tax component, you may change  the amount or delete the entry and add it to the Credit column.</li>
+  <li>Credit - column  displays the purchase tax amount if the corresponding taxable amount is  in the Credit column. If the tax code has only one tax component, you  may change the amount or delete the entry and add it to the Debit column.</li>
+</ul>
+
+<p>: The system-generated Recoverable Purchase Tax rows  affect the column information as follows:</p>
+
+<ul>
+  <li>Account - defaults  to the account selected for the tax component in the Tax Component Profile.  You may change the account.</li>
+  <li>Description  - displays the description of the account. You may not change the description.</li>
+  <li>Location/Sub-location  - remains blank. You may not change the location.</li>
+  <li>Entry Type  - defaults to “Recoverable Purchase Tax.” You may not change the entry  type.</li>
+  <li>Tax Code –  disables. You may not edit the tax code.</li>
+  <li>Notes - remains  blank. You may add and edit notes.</li>
+  <li>Job Code -  remains blank. You may not change the job code.</li>
+  <li>Debit - displays  the purchase tax amount if the corresponding taxable amount is in the  Debit column. If the tax code has only one tax component, you may change  the amount or delete the entry and add it to the Credit column.</li>
+  <li>Credit - displays  the purchase tax amount if the corresponding taxable amount is in the  Credit column. If the tax code has only one tax component, you may change  the amount or delete the entry and add it to the Debit column.</li>
+</ul>
+
+<p>: You need adequate security rights to edit or delete  the tax code of an unposted manual purchase journal.</p>
+
+<p class="note">If you modify the tax code and save the purchase  journal, the system will update the manual purchase invoice.</p>
+
+<dl>
+  <dt><strong>Loc/Sub-Loc</strong></dt>
+  <dd>Specify the location or sub-location to which the  journal pertains.</dd>
+  <dt><strong>Notes</strong></dt>
+  <dd>Press the <strong>Enter</strong>  key or click in this column to activate a drop-down <img src="/versata-everest-docs/accounting/img/act_drop_down_button.gif" alt="" /> button.  Click the drop-down button to view a dialog box where you can enter additional  details of the transaction. After specifying the details, click the save  <img src="/versata-everest-docs/accounting/img/act_save.gif" alt="" /> button to save the details and return to the journal  profile.</dd>
+  <dd>You may enter a different note for each transaction  entry.</dd>
+  <dt><strong>Job Code</strong></dt>
+  <dd>Specify the job code applicable to the purchase  or purchase return.</dd>
+  <dt><strong>Allocate</strong></dt>
+  <dd>Select the <strong>Allocate</strong>  check box for the transaction entries that you would like to distribute  among accounts based on a percentage. The total percentage of these accounts  should equal 100%.</dd>
+  <dt><strong>% Allocation</strong></dt>
+  <dd>For the accounts that you have selected to allocate  by marking the check box in the <strong>Allocation</strong>  field, you must enter a percentage in the <strong>% 
+ Allocation</strong> field. The total percentage of these accounts should  equal 100%. The Debit/Credit amounts automatically calculate based on  the percentages entered.</dd>
+  <dt><strong>Debit and Credit</strong></dt>
+  <dd>Enter the amount being debited in the <strong>Debit</strong>  column while the amount being credited is entered in the <strong>Credit</strong>  column. An account cannot be debited and credited in the same transaction  entry. For Taxable Purchase entry types, the amount you enter must excludes  any taxes.</dd>
+  <dd>In the case of foreign currency vendors, the amount  can be entered in foreign currency or the base currency. By default, you  must enter the amounts in foreign currency. To enter the amount in base  currency, select <strong>Options &gt; View in 
+ Foreign Currency</strong> from the <strong>Purchase 
+ Journal</strong> profile.</dd>
+  <dd>The number of decimals that can be entered depends  on the settings made in the <strong>Currency</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Multi</strong>-<strong>currency</strong>  &gt; <strong>Currency</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Decimals to display</strong>  field).</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/purchasing/manual-purchases/manual-purchase-jrnl-dtls/transaction-entries/transaction_entries_manpurjrnl_con.html">Transaction  Entries - Details</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/purchasing/manual-purchases/creating-a-manual-purchase-journal/purchase_journal_profile_general.html">Purchase  Journal Profile - General</a></dd>
+</dl>
+
+
+
+
+</div>

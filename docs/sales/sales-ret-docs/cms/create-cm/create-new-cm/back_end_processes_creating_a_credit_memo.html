@@ -1,0 +1,66 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---creating-a-credit-memo">Back End Processes - Creating a Credit Memo</h1>
+
+<p>The following back-end processes occur  when a credit memo is created:</p>
+
+<ul>
+  <li>A credit memo  is created with the status ‘Open’.</li>
+  <li>If the credit  memo is created by converting an order, and all items requested are received  or credited, the status of the order changes to ‘Closed’. If items remain  to be received, the status changes to ‘Backorder’.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-ret-docs/sales-ret-doc/contents/tab-details/dtls-info/other/document_status.html">Document  Status</a></strong></p>
+
+<ul>
+  <li>The sequence  number of the credit memo is generated automatically by the system.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-ret-docs/sales-ret-doc/contents/doc-info/document_number_document_information_sales_return_document_content.html">Document  Number</a></strong></p>
+
+<ul>
+  <li>
+    <p>When the items  requested are returned, the stock status of the item displays the following  changes:</p>
+  </li>
+  <li><strong>Stock 
+ Status of the item</strong> – There is a decrease in the quantity of ‘On  Credit’ and  ‘On Credit Committed’  for the items received. There is an increase in the ‘Total Stock’ and  ‘Available Stock’ of the item.</li>
+  <li><strong>Stock 
+ Status in the assigned stock area</strong> - The assigned stock area is  the stock area to which the item is transferred when the credit memo is  created. There is an increase in the quantity of item in the ‘Available  Stock’ and ‘Stock’ columns of the assigned stock area.</li>
+  <li><strong>Stock 
+ Status in Committed Stock Area</strong> - If the quantity returned was committed  on the order, the quantity ‘On Credit’ decreases in the stock area from  which it was committed. The ‘Stock’ of the item in the committed stock  area also decreases.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><font style="color: #800080;" color="#800080">
+ </font><a href="/versata-everest-docs/sales/sales-docs/docs-profile/options/items/stock_status_items_option_sales_contents.html">Stock Status</a></p>
+
+<ul>
+  <li>
+    <p>If the item  is serialized/auto-serialized, an entry is added to the <strong>Serial 
+ Number History</strong> of the item.</p>
+  </li>
+  <li>
+    <p>When a serialized  item is returned, the total stock value of that item is increased by the  actual cost of the item. The average cost of the item is recalculated  after the return.</p>
+  </li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> The  average cost of 10 units of a serialized item is $100. A unit whose actual  cost is $110 is returned. The total value of the 11 items in stock is  $1110 {($100 * 10) + $110} and the average cost changes to $100.09.</p>
+
+<ul>
+  <li>Stock value  of items is increased by the value of items returned.</li>
+  <li>The customer’s  unposted amount  and receivable amount reduces by the value of the memo. When the sales  journal for the credit memo is posted, the posted amount reduces and the  unposted amount  increases.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/cms/create-cm/create-new-cm/accnt-entries/accounting_entries_creating_a_credit_memo.html">Accounting  Entries - Creating a Credit Memo</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/sales-ret-doc/contents/item-info/details/requested_committed_and_credited_columns_in_credit_memos.html">Requested,  Committed and Received Quantities</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/cms/create-cm/create-new-cm/creating_a_new_credit_memo.html">Creating  a Credit Memo</a></dd>
+</dl>
+
+
+
+
+</div>

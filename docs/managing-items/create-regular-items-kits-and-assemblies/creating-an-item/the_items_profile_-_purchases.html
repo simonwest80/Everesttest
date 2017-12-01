@@ -1,0 +1,127 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-item-profile---purchases">The Item Profile - Purchases</h1>
+
+<p>Use the <strong>Purchases</strong> tab to specify  purchase information such as cost information, purchase measure and the  quantity entry method.</p>
+
+<p>Cost information</p>
+
+<p>Enter information for each purchase measure. Right click and select  <strong>Insert</strong> to add additional measures.  Right click and select <strong>Delete</strong>  to remove a measure from the list. Purchase measures can be added and  removed at any time.</p>
+
+<dl>
+  <dt><strong>Default</strong></dt>
+  <dd>Specify only one default purchase measure from the  drop-down list. Right click the <strong>Default</strong>  field and select <strong>Set As Default</strong>.  The default purchase measure can be changed at any time.</dd>
+  <dt><strong>Measure</strong></dt>
+  <dd>Specify the purchase measure of the item. Only measures  with a conversion factor to the stock measure are available in the drop-down  list. Measures listed here are the only allowed purchase measures for  this item in purchase documents. Purchase measures can be deleted even  if they are used in documents and they can be added at any time.</dd>
+</dl>
+
+<ul class="note">
+  <li>This field defaults  to the value specified in <strong>File &gt; Setup 
+ &gt; Preferences &gt; Defaults &gt; Items</strong>. You can select any measure  but it will be considered with a quantity of one for a Kit.</li>
+  <li>
+    <dl>
+      <dt>In case of a matrix  group, you are asked if you would like to apply the measure selected to  the matrix items as well. You cannot edit this field in a matrix item’s  profile.</dt>
+      <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/measure/measure_profile_general_tab.html">The  Measure Profile</a></dd>
+      <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/purchase/measure_pur.html">Purchase  Measure</a></dd>
+    </dl>
+  </li>
+</ul>
+
+<dl>
+  <dt><strong>Last Landed Cost</strong></dt>
+  <dd>This field indicates the most recent cost at which  you purchased the item as per the purchase measure. You can leave this  field at 0 when creating an item.  When you purchase an item, <strong>Everest</strong> automatically updates this field.  It is used to compute the selling price of the item, where the calculation  method is based on last landed cost.</dd>
+</dl>
+
+<p class="note">The last landed cost of a Kit is not updated  when there is a change in the last landed cost of any of the items that  comprise the Kit. None of the related fields in the Purchase tab of the  Item profile are automatically updated for kit items. The kit’s last landed  cost has to be manually updated to reflect the changes in the last landed  cost of component items.</p>
+
+<p class="note">The <strong>Last 
+ Landed Cost</strong> in the stock measure on the <strong>Inventory</strong>  tab is updated at the same time the <strong>Last 
+ Landed Cost</strong> for the purchase measure is updated.</p>
+
+<dl class="example">
+  <dt>If item ABC is purchased in KG at 10/per kg,  the <strong>Last Landed Cost</strong> for the KG  measure is updated. If the purchase cost is either the <strong>High</strong>  or <strong>Low Cost</strong> for the item, one  of these fields is updated as well. The **Last </dt>
+  <dt> Landed Cost** for the stock measure, located on the <strong>Inventory</strong>  tab, is also updated based on the conversion factor.</dt>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/item-costing/purchase_costs_landed_cost_mi.html">Landed  Cost</a></dd>
+  <dd>This field updates whenever you receive items on  a purchase receipt, purchase invoice, or debit memo.</dd>
+  <dt><strong>Factored Cost</strong></dt>
+  <dd>This field indicates the factored cost of the item.  The system calculates the factored cost based on the last landed cost  and using the percentage or amount specified on the <strong>Inventory</strong>  tab of the Item profile.</dd>
+</dl>
+
+<p class="note">The factored last landed cost of a Kit is  not updated when there is a change in the last landed cost of any of the  items that comprise the Kit. None of the related fields in the Purchase  tab of the Item profile are automatically updated for kit items. The kit’s  last landed cost has to be manually updated to reflect the changes in  the last landed cost of component items.</p>
+
+<dl>
+  <dt><strong>Last Cost</strong></dt>
+  <dd>Specify the last cost at which you purchased the  item from the vendor. This cost considers just the actual cost (price  minus discounts) of the item and excludes any additional costs. This field  updates every time you purchase an item in the measure associated with  the vendor. By default this field shows the line item’s last cost, but  you may edit the field. The Last Cost field always accepts up to six decimal  places.</dd>
+  <dd>This field updates whenever you receive items on  a purchase receipt, purchase invoice, or debit memo.</dd>
+  <dt><strong>Last Add-on Cost</strong></dt>
+  <dd>This displays the last add-on cost at which you  purchased the item from the vendor. Add-on costs, a portion of Landed  Cost, consider just the additional costs necessary to transport the items  to you such as custom duties, transportation insurance, etc. You may not  edit this field.</dd>
+  <dd>This field updates whenever you receive items on  a purchase receipt, purchase invoice, or debit memo.</dd>
+  <dt><strong>High Cost</strong></dt>
+  <dd>This field indicates the highest cost at which an  item has been purchased. <strong>E</strong>verest  calculates this value<font style="color: #ff0000;" color="#FF0000"> </font>for all items<font style="color: #000000;" color="#000000">. You cannot edit this field.</font></dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/item-costing/high_cost_item_costing.html">High  Cost</a></dd>
+  <dt><strong>Low Cost</strong></dt>
+  <dd>This field indicates the lowest cost of an item  it ever has. <strong>Everest</strong> calculates  this value for all items. You cannot edit this field.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/item-costing/low_cost_item_costing.html">Low  Cost</a></dd>
+  <dt><strong>Freight</strong></dt>
+  <dd>This field indicates if freight is being considered  for this measure. Double-click the field to open the <strong>Item 
+ Freight</strong> dialog box. Enter the item freight details in this dialog  box.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item/item_freight_dialog_box_mi.html">Item  Freight Dialog Box</a></dd>
+  <dt><strong>Cost Decimal Accuracy</strong></dt>
+  <dd>Specify a decimal accuracy of between 0 and 6from  the drop-down list.  You  can modify this field after the item is used in a document. All of the  costs in the Purchase and Inventory tabs are based on this cost decimal  accuracy, except the Last Cost fields (Last Cost, Last Add-on Cost, and  Last Landed Cost) which always allow up to six decimal places.</dd>
+  <dd>The following can be entered in the cost decimal  accuracy for the item:</dd>
+</dl>
+
+<ul>
+  <li>: The cost price  and the discount value in the purchase documents</li>
+  <li>: The cost in  the work order and inventory adjustment documents</li>
+  <li>: The cost in  the sales documents</li>
+</ul>
+
+<p class="note">: • For serialized items, the stock measure is shown  as the default purchase measure automatically and cannot be changed. In  this case, additional purchase measures cannot be selected.</p>
+
+<p>Other purchase information</p>
+
+<dl>
+  <dt><strong>Allow Freight Distribution</strong></dt>
+  <dd>Select this check box to distribute the freight  charge among the items you purchase according to the distribution methods  specified in the <strong>Freight Distribution</strong>  dialog box. If the option <strong>Allow Freight 
+ Distribution</strong> is unchecked the item will not be available for the  distribution of freight charges.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/purchase/freight_distribution_item_profile_content.html">Freight  Distribution</a></dd>
+  <dt><strong>Drop Shipment</strong></dt>
+  <dd>Select this check box this item to appear as a “drop  ship” item in a Sales document.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/misc/drop_shipment_pur__tab_content.html">Drop  Shipment</a></dd>
+  <dt><strong>Include in Freight Calculation</strong></dt>
+  <dd>Use this option to indicate whether the weight of  this item is to be included when estimating freight on a purchase document  in which the item is included.</dd>
+  <dd>You can enter the weight for computation of freight  on purchases in the <strong>Weight</strong> field  of the <strong>Item Freight</strong> dialog box.  Double-click the <strong>Freight</strong> field  in the <strong>Cost Information</strong> section  grid. Freight is computed on purchases only for items that have this option  selected.</dd>
+</dl>
+
+<ul class="note">
+  <li>If this option  is not selected, freight calculations will not consider the weight of  the item in any document for computing freight based on Item/ Category  based freight rates.</li>
+  <li>If freight rates  have been defined for document weight, the document weight used to determine  freight on the document will not include the weight of the item.</li>
+  <li>Further, if freight  rates have been defined for document value, the document value used to  determine freight on the document will not include the value of the item.</li>
+</ul>
+
+<ul class="note">
+  <li>If this option  is not checked for a complete kit, but is checked for the items contained  in the kit, the complete kit is not considered for freight calculation.  Freight is not calculated and charged.</li>
+  <li>When this option  is checked for a kit, freight is calculated based on the total weight  of the kit, after excluding all items, which have this option unchecked.  The item weights are recalculated based on the quantity of items.</li>
+</ul>
+
+<dl class="example">
+  <dt>If the freight calculation option is checked for a kit, and only  6  out of 8 items comprising the kit have the freight calculation option  checked, <strong>Everest</strong> considers only  the 6 items for calculating the document weight and applies the freight  rate for the document weight calculated.</dt>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/sales/include_in_freight.html">Include  in freight calculation</a></dd>
+  <dt><strong>Tax-inclusive Cost</strong></dt>
+  <dd>Select this check box to include the tax amount  in the purchase cost of an item<strong>.</strong></dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/purchase/cost_including_tax_item_profile_content.html">Cost  Including Tax</a></dd>
+  <dt>See also</dt>
+  <dd>
+    <font style="color: #008000;" color="#008000"><a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item/setting_up_an_item.html">Create an Item</a></font>
+  </dd>
+</dl>
+
+
+
+
+</div>

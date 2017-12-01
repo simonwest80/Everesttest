@@ -1,0 +1,149 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payment-register-browser-options">Payment Register Browser Options</h1>
+
+<p>The browser options available in <strong>Payment 
+ Register</strong> browser are mentioned below:</p>
+
+<dl>
+  <dt><strong>Purge</strong></dt>
+  <dd>Purging deletes the transaction permanently from  the database and it will not appear anywhere in <strong>Everest</strong>  . A transaction can be purged only if it is an unposted transaction irrespective  of whether it is a:</dd>
+</dl>
+
+<ul>
+  <li>Check printed  transaction</li>
+  <li>Reversal transaction</li>
+  <li>Transaction  for which checks have not yet been printed</li>
+</ul>
+
+<ul class="note">
+  <li>Adequate security  right is needed to purge a transaction.</li>
+  <li>The customer/ vendor  balances will change and revert  back  to the  balance  amount that was there  before  the transaction took place.</li>
+  <li>You cannot purge  a transaction if it results in document balance becoming negative or if  the balance becomes double.</li>
+</ul>
+
+<p class="example">In a sales document, if a receipt is purged  the customer balances will be the same amount as it was before recording  the receipt. If the refund is purged the customer balances will display  the same amount as it was before recording the refund.</p>
+
+<dl>
+  <dt><strong>Void</strong></dt>
+  <dd>Changes the amount in the transaction to $0.00 (zero),  and the customer/vendor associated with this transaction will be removed.  A transaction can be voided only if it is an UNPOSTED transaction irrespective  of the following types:</dd>
+</dl>
+
+<ul>
+  <li>Check Printed  Transactions</li>
+  <li>Transaction  for which checks have not yet been printed</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /></td>
+      <td><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/voiding-transactions-payment-register/void_dialog_box_payment_register_brow.html">Void  dialog box</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Reverse</strong></dt>
+  <dd>Creates a new transaction with exactly opposite  data. An unposted or posted transaction for which the Payment Status  is  <strong>Outstanding</strong> can be reversed.  This  means transactions which use the payment method <strong>Check</strong>  or has check # assigned to it can be reversed only if a check has been  printed for it. Transactions that use payment methods of the type: <strong>Cash</strong>, <strong>Credit 
+ Card</strong>, <strong>Others</strong> always have  the Payment Status as <strong>Outstanding</strong>  and can be reversed.</dd>
+  <dd>Reverse is not possible on the following types of  transactions:</dd>
+</dl>
+
+<ul>
+  <li>Already Reversed  Transactions</li>
+  <li>Reversal Transactions</li>
+  <li>Cleared/ Reconciled  Transactions</li>
+  <li>Voided Transactions</li>
+</ul>
+
+<p class="note">Adequate security right is needed to view the <strong>Reverse</strong>  dialog box.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /></td>
+      <td><a href="/versata-everest-docs/accounting/misc/reverse_dialog_box_payment_history_screen.html">Reverse  dialog box</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Quick Void</strong></dt>
+  <dd>You can sort the <strong>Payment 
+ Register</strong> browser by the Ref# /Check# column and then sometimes  you notice that there is a break in the sequence number of checks. Few  check#’s  do  not appear in <strong>Payment Register</strong>  browser because those checks were accidentally spoiled in the process  and never got accounted for. Without re-creating the payment/receipt transaction,  you can use <strong>Quick Void</strong> option  to account for these spoiled check.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /></td>
+      <td><a href="/versata-everest-docs/accounting/misc/quick_void_payment_register_browser_options.html">Quick  Void</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Change Payment Status</strong></dt>
+  <dd>This option comprises the following sub-options:</dd>
+</dl>
+
+<ul>
+  <li>To be printed</li>
+  <li>Outstanding</li>
+  <li>Cleared</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /></td>
+      <td><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/payment_status_payment_register_column.html">Payment  Status</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: If you select more than one record and click on  any one option the effect on all the records will be based on the record  where the cursor is focused.</p>
+
+<p class="example">If you select 10 records where records 1 to  7 has the Payment Status as <strong>Outstanding</strong>  and records 8 to 10 has the Payment Status as <strong>Cleared</strong>  and clicks the option <strong>Change Payment 
+ Status</strong> &gt; <strong>Outstanding</strong>,  <strong>Everest</strong> checks for the cursor  position. If the cursor is on record 6 which has Payment Status as <strong>Outstanding</strong> then records 1 to 8 will  have the Payment Status changed from <strong>Outstanding</strong>  to <strong>Cleared</strong>.</p>
+
+<p class="note">Changing the payment status here will also affect the Payment status  displayed in the payment/receipts journal and the <strong>Voided 
+ Transactions</strong> browser.</p>
+
+<dl>
+  <dt><strong>Change Deposit Status</strong></dt>
+  <dd>This option has the following two sub-options:</dd>
+</dl>
+
+<ul>
+  <li>Mark Deposit</li>
+  <li>Clear Deposit</li>
+</ul>
+
+<dl>
+  <dt>: Use this option to correct a deposit status to show  whether or not the payment was deposited.</dt>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /><a href="/versata-everest-docs/accounting/misc/deposit_status_payment_register_browser_column_acc.html">Deposit  Status</a></dd>
+  <dt><strong>Print Check</strong></dt>
+  <dd>You can use this option to print the transaction  from the <strong>Payment Register</strong> browser.  This option is enabled only for the <strong>Normal</strong>  Transactions which are Unposted and if the payment status is <strong>To 
+ be Printed.</strong></dd>
+</dl>
+
+<p class="note">This option is disabled if multiple records are selected.</p>
+
+<p class="note">For payroll journals none of the options mentioned  above will be enabled in the <strong>Payment 
+ Register</strong> browser.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/payment_register_browser.html">Payment Register  Browser</a></dd>
+</dl>
+
+
+
+
+</div>

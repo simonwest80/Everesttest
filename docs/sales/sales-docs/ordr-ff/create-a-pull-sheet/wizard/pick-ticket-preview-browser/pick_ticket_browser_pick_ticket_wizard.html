@@ -1,0 +1,54 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="pick-ticket-preview-browser">Pick Ticket (Preview) Browser</h1>
+
+<p>The <strong>Pick Ticket (Preview)</strong>  browser in the Pull Sheet Wizard gives you a preview of the pick tickets  that will be created for the pull sheet. You can view this browser only  while creating a pull sheet in the wizard. This is different from the  <strong>Pick Tickets</strong> browser (path: <strong>Inventory</strong> &gt; <strong>Pick</strong><strong>Tickets</strong>) that lists all the pick  tickets in the system and can be accessed without opening the wizard.</p>
+
+<p>Based on the parameters set in the previous sections of the  wizard, the items displayed in the <strong>Pick 
+ Ticket Preview</strong> browser are sorted according to their sales order  numbers. The header that contains the details of each order displays whether  the customer pertaining to the order is on credit hold. If the effective  balance of the customer is above credit limit, the amount by which the  credit limit is exceeded is also displayed on the header.</p>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> If  you specify the <strong>FIFO</strong> method in  the <strong>Sales Order Priority</strong> section,  the sales orders created earliest are displayed first in this browser.</p>
+
+<p><img src="/versata-everest-docs/sales/img/pick_ticket_browser_sal.gif" alt="" /></p>
+
+<p><strong>Figure: Pick Ticket Browser</strong></p>
+
+<p>Use the <strong>Pick Ticket Browser</strong>  to select the items and their quantities that have to be included in the  pick ticket. Uncommitted line items that can be filled will be selected  by default.  Based  on the option selected on the <strong>Line Item</strong>  section of the Pull Sheet Wizard, manually committed items are either  checked or unchecked by default.</p>
+
+<p class="note">The <strong>Pick Ticket Browser</strong> does not include ‘non-inventoried’ items since you cannot maintain  stock of such items.</p>
+
+<p>The information and options in the <strong>Pick 
+ Ticket Browser</strong> are categorized under the following:</p>
+
+<ul>
+  <li><a href="/versata-everest-docs/sales/sales-docs/ordr-ff/create-a-pull-sheet/wizard/pick-ticket-preview-browser/quantity_columns_in_the_pick_ticket_browser.html">Quantity  Columns in the <strong>Pick Ticket Browser</strong></a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/ordr-ff/create-a-pull-sheet/wizard/pick-ticket-preview-browser/record_colors_in_the_pick_ticket_browser.html">Record  Colors in the <strong>Pick Ticket Browser</strong></a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/ordr-ff/create-a-pull-sheet/wizard/pick-ticket-preview-browser/options_in_the_pick_ticket_browser.html">Options  in the <strong>Pick Ticket Browser</strong></a></li>
+</ul>
+
+<p>Click <strong>Create Pull Sheet</strong> from  the <strong>Pick Ticket Browser</strong>. You will  see the <strong>Pull 
+ Sheet</strong> window.</p>
+
+<ul class="note">
+  <li>If you exit the  <strong>Pull Sheet Wizard</strong> at this stage,  pick tickets will not be created.</li>
+  <li>If any of the item  quantities are not in stock, <strong>Everest</strong>  does not create a pull sheet when you click the <strong>Create 
+ Pull Sheet</strong> button in the <strong>Pick 
+ Ticket Preview</strong> browser and displays a warning message.</li>
+  <li>Non-inventoried  items are not included in pick tickets unless the <strong>Include 
+ on Pick Ticket</strong> column is selected for the line item in a sales  order. This option can be selected by default by selecting the <strong>Include 
+ on Pick Ticket</strong> option on the <strong>Inventory</strong>  tab of the Item profile of the non-inventoried item.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/ordr-ff/create-a-pull-sheet/wizard/the_pull_sheet_wizard.html">The Pull Sheet  Wizard</a></dd>
+</dl>
+
+
+
+
+</div>

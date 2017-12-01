@@ -1,0 +1,118 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-price-protection-profile">The Price Protection Profile</h1>
+
+<dl>
+  <dt><strong><img src="/versata-everest-docs/warehouse-management/img/wh_notes_icon.gif" alt="wh_notes_icon.gif" /> (Document Notes)</strong></dt>
+  <dd>Click <img src="/versata-everest-docs/warehouse-management/img/wh_notes_icon.gif" alt="wh_notes_icon.gif" /> to attach notes to the document.  You will see the <strong>Document</strong> <strong>Notes</strong> dialog box where you can enter  the relevant information.</dd>
+  <dt><strong>Document #</strong></dt>
+  <dd>When you save a document, the system automatically  generates the document number.  Price  protection results in an increase or decrease in Accounts Payable. A manual  purchase document is created with the document number prefixed by ‘M’  for the inventory adjustment amount.</dd>
+  <dd>If the vendor has to be credited for the increase  in purchase cost, a manual purchase invoice is created. If the vendor  has to be debited for the decrease in purchase cost, a manual debit memo  is created.</dd>
+  <dt><strong>Document Date</strong></dt>
+  <dd>The login  date is populated in this field. You cannot change the date.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/warehouse-management/misc/document_information_inv_adj_details.html">Document  Information</a></p>
+
+<dl>
+  <dt><strong>Vendor Code</strong></dt>
+  <dd>Specify the vendor who has to be debited or credited  with the inventory adjustment amount. You cannot modify this field. This  is a mandatory field.</dd>
+  <dt><strong>Vendor Name</strong></dt>
+  <dd>This field displays the name of the vendor from  whom the item is procured. You cannot modify this field.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/warehouse-management/inv-adj/price-protection/price_protection_details_new.html">Price  Protection Details</a></p>
+
+<dl>
+  <dt><strong>Accounts Payable</strong></dt>
+  <dd>The account displayed in this field is based on  the Vendor Posting Group assigned to the vendor of the document. You can  however select any other control account of the type Account Payable.</dd>
+</dl>
+
+<p>Item Grid Information</p>
+
+<dl>
+  <dt><strong>Line No.</strong></dt>
+  <dd>This column displays the line number of the Item  Details Grid.</dd>
+  <dt><strong>Item Code</strong></dt>
+  <dd>Specify the code of the item for which you want  to make price protection. This is a mandatory field.</dd>
+  <dt><strong>Description</strong></dt>
+  <dd>This field displays the description of the item.  You cannot modify this field.</dd>
+  <dt><strong>Type</strong></dt>
+  <dd>Inventory type of the item is displayed in this  field. You cannot modify this field.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/warehouse-management/misc/item_information_inv_adj_details.html">Item  Information</a></p>
+
+<dl>
+  <dt><strong>Current Stock</strong></dt>
+  <dd>The total quantity of the selected item available  from all the stock areas is displayed in this column. The current stock  is shown in the default purchase measure. This quantity cannot be edited.</dd>
+</dl>
+
+<p class="note"><strong>Everest</strong> displays  the current stock from only those stock areas for the logged in location,  depending upon your flow control preferences (path: <strong>File 
+ &gt; Set up &gt; Preferences &gt; Flow Control &gt; Other Flow Control 
+ &gt; General</strong> tab <strong>&gt; Allow Users 
+ to access only those stock areas in the logged in location</strong> check  box). If you select the above-mentioned check box, then, only the current  stock in the stock areas of the logged-in location will<font style="font-family: Verdana;" face="Verdana"> </font>be displayed.</p>
+
+<dl>
+  <dt><strong>UM</strong></dt>
+  <dd>You can change the purchase unit of measure, if  necessary, to any of the purchase measures defined for the selected item.  The <strong>Current Stock</strong> field is updated  to the changed measure.</dd>
+  <dt><strong>Quantity</strong></dt>
+  <dd>Enter quantity of the item, if the item specified  is non-serialized. The quantity defaults to 1 with the decimal accuracy  of the measure. With the appropriate security rights, you can increase  the quantity decimal accuracy up to 6.</dd>
+  <dt><strong>Your default purchase measure is KG and the  KG decimal accuracy is 2. The quantity is shown as 1.00, but you can enter  1.123 or 1.12345.</strong></dt>
+  <dd>If you change the decimal accuracy of the purchase  unit of measure, the original quantity is retained with the decimal accuracy  of the changed measure.</dd>
+  <dt><strong>If your quantity is entered as 10.20 and the  decimal accuracy of the measure is changed to 0, the quantity is shown  as 10.</strong></dt>
+  <dd>You will have to attach the serial numbers of the  item, if the item specified is serialized or auto-serialized.</dd>
+</dl>
+
+<p class="steps">To attach a serial number of the item, do  the following:</p>
+
+<ul>
+  <li>From the <strong>Price Protection</strong> profile, select <strong>Options &gt; Attach Serial #</strong>. You will  see the <strong>Retrieve Serial Numbers</strong>  dialog box.</li>
+  <li>Specify the  serial number of the item.</li>
+  <li>Click <strong>OK</strong></li>
+</ul>
+
+<p><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/warehouse-management/inv-adj/price-protection/calculation_of_inventory_adjustment_amounts_price_prot.html">Calculation  of Inventory Adjustment Amount</a></p>
+
+<dl>
+  <dt><strong>Correction</strong></dt>
+  <dd>This column shows the difference between the  Previous  Cost and the Corrected Cost. The Price Protection is made with the value  in this field.</dd>
+  <dt><strong>Inventory Acnt</strong></dt>
+  <dd>The Inventory Control Account defined in the Posting  Group assigned to the line item is considered first. If no Inventory Control  Account is defined for the item, the control account defined for the category  to which the line item belongs is used. If the Inventory Control Account  is not defined for either the item or the category, the Inventory Control  Account of the stock area’s location from where the item is assigned is  taken into consideration. You can choose any other inventory control account  of the type Inventory Control Account.</dd>
+  <dt><strong>Previous Cost</strong></dt>
+  <dd>This field displays the average cost of the line  item (based on purchase measure) before enabling price protection. The  previous cost is shown in the cost price decimal accuracy of the item.</dd>
+  <dt><strong>Corrected Cost</strong></dt>
+  <dd>Enter the new cost, based on the selected measure,  in this field. The price protection is made with the value you enter in  this field. You can enter the cost in the cost price decimal accuracy  of the item. If you have the appropriate security rights, you can increase  the cost price decimal accuracy up to 6.</dd>
+  <dt><strong>Inventory Adjustment Amount</strong></dt>
+  <dd>The amount of inventory adjustment on that line  is calculated and displayed in this column.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="" /></td>
+      <td><a href="/versata-everest-docs/warehouse-management/inv-adj/the-inventory-adjustment-document/inventory_adjustment_document_details.html">Inventory  Adjustment Details</a><br /><br /><br /><a href="/versata-everest-docs/warehouse-management/inv-adj/price-protection/price_protection_details_new.html">Price Protection  Details</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/misc/details_tab_price_prot_steps.html">Details  Tab</a></dd>
+  <dd><a href="/versata-everest-docs/warehouse-management/misc/multimedia_tab_price_prot_steps.html">Multimedia  Tab</a></dd>
+  <dd><a href="/versata-everest-docs/warehouse-management/misc/custom_fields_tab_stck_trnsfr_profile_steps.html">Custom  Fields Tab </a></dd>
+  <dd><a href="/versata-everest-docs/warehouse-management/misc/accounting_entries_tab_price_prot_steps.html">Accounting  Entries Tab</a></dd>
+  <dd><a href="/versata-everest-docs/warehouse-management/misc/transaction_history_tab_price_prot_steps.html">Transaction  History Tab</a></dd>
+  <dd><a href="/versata-everest-docs/warehouse-management/misc/status_bar_information_price_prot_steps.html">Status  Bar Information</a></dd>
+  <dd><a href="/versata-everest-docs/warehouse-management/inv-adj/price-protection/create-a-price-protection-document/create_price_protection.html">Create Price  Protection</a></dd>
+  <dd><a href="/versata-everest-docs/warehouse-management/misc/editing_accounts_in_inventory_adjustment_documents.html">Editing  Accounts in Inventory Adjustment Documents</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,55 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="change-due-to-customers">Change Due to Customers</h1>
+
+<p>There may be instances when a customer pays more than the amount that  appears on the Point of Sale (sales invoice) document. The cashier at  the Point of Sale terminal has to refund the change due to the customer.</p>
+
+<p>For refunding change due to customers, set a preference by checking  the <strong>Default Payment Method for Change 
+ Due</strong> field in the following dialog boxes:</p>
+
+<ul>
+  <li><strong>Cash 
+ Register</strong> profile (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Miscellaneous</strong>  &gt; <strong>Cash Register</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong>)</li>
+  <li><strong>WorkStation Settings</strong>  dialog box (path: <strong>File &gt; Setup &gt; 
+ Preferences &gt; WorkStation 
+ Settings</strong> <strong>&gt; General &gt; Others</strong>  tab)</li>
+  <li><strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong> tab).</li>
+</ul>
+
+<p><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/point-of-sale/misc/default_preferences_change_due_to_customers_defaults.html">Default  Preferences - Change Due to Customers</a></p>
+
+<p class="note"><strong>Everest</strong> uses the following precedence  for the default payment method for change due:</p>
+
+<ol>
+  <li>
+    <p>Cash register</p>
+  </li>
+  <li>
+    <p>Workstation settings</p>
+  </li>
+  <li>
+    <p>The preference setting in accounting defaults</p>
+  </li>
+</ol>
+
+<p>The change due to a customer is displayed in the <strong>Change</strong>  field of the Point of Sale (sales invoice) document.</p>
+
+<p class="note"><strong>Everest</strong> allows  for only cash type of over payments. You have to select <strong>Cash</strong>  in the <strong>Pay By</strong> column of the <strong>Payment Details</strong> dialog box.</p>
+
+<p>You cannot save the document until the balance is reduced to zero. Insert  a new line to enter the change due amount in the Payment Details Grid.  The payment method and the currency for this line default to those in  the previous line.</p>
+
+<p>When you click <strong>OK</strong> on the <strong>Payment Details</strong> dialog box, an <strong>Information</strong> dialog box appears that  displays the change due amount in the base currency as well as the currency  selected for the change due. This acts as a reminder to the cashier to  pay the amount due to the customer.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/pos-receipts/change-due-to-customers/accounting-entries/accounting_entries_change.html">Accounting  Entries - Change Due to Customers</a></dd>
+</dl>
+
+
+
+
+</div>

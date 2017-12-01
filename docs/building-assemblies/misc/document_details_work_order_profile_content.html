@@ -1,0 +1,57 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" src="/versata-everest-docs/building-assemblies/misc/ehlpdhtm.js" x-save-method="compute-relative"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovInitEffects ) != 'function' ) kadovInitEffects = new Function();if( typeof( kadovInitTrigger ) != 'function' ) kadovInitTrigger = new Function();if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<h1 id="document-details">Document Details</h1>
+
+<dl>
+  <dt><strong>Created By</strong></dt>
+  <dd>This field displays the name of the logged in user  by default. This is a display field and cannot be edited.</dd>
+  <dt><strong>Assigned By</strong></dt>
+  <dd>This field displays the user code of the person  assigning the work order. The name of the logged in user is displayed  by default.</dd>
+  <dt><strong>Assigned To</strong></dt>
+  <dd>This field displays the name of the user to whom  the work order has been assigned. This is a mandatory field.</dd>
+  <dt><strong>Main Order #</strong></dt>
+  <dd><strong>Everest</strong>  allows you to process work orders in parts if you do not want to build  the entire required output during one assembly run.</dd>
+  <dd>When the first batch is assembled, <strong>Everest</strong> creates another work order to account for the remaining quantity  to be built. For the newly created work order, the main order is the original  work order based on which the current one is created.</dd>
+  <dd><img src="/versata-everest-docs/building-assemblies/img/example.gif" alt="" /><font color="#000080" class="hcp3"> &nbsp;</font>You  may need to build 100 computers but due to a shortage of materials, you  want to build only 10 on the first assembly run. You create Work Order  # 10000 to build these 10 computers. When the next work order (work order  # 10020) is created for another 50 computers, work order # 10000 is it’s  main order.</dd>
+  <dt><strong>Back Order</strong></dt>
+  <dd>If work orders are processed in parts, the work  order that is created based on the current work order is called the Back  Order.</dd>
+  <dd><img src="/versata-everest-docs/building-assemblies/img/example.gif" alt="" /><font color="#000080" class="hcp3"> &nbsp;</font>In  the above example, the second work order (10020) is the back order for  work order # 10000.</dd>
+  <dt><strong>Loc/Sub-Loc</strong></dt>
+  <dd>The <strong>Loc/Sub-Loc</strong>  field displays the location or sub-location for which the work order is  created. By default this field displays the logged in location or sub-location.  You can select another location/sub-location, if you are executing a work  order on behalf of another location/sub-location. You cannot change the  location/sub-location once you select the <a href="javascript:BSSCPopup('/versata-everest-docs/building-assemblies/misc/in_process_wo_status_assembly_content.html');" id="A1"><strong>In 
+ Process</strong></a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A1');
+//--></script>  option.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/locations_and_departments.html">Locations  and Sub-Location</a></p>
+
+<dl>
+  <dt><strong>Description</strong></dt>
+  <dd>The <strong>Description</strong>  field (beside the <strong>Loc/Sub-Loc</strong>  field) displays the location/sub-location’s description as entered in  the <strong>Location</strong>/<strong>Sub-Location</strong> profile (path: <strong>File</strong> &gt;  <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location/Sub-Location</strong>&gt;  <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>General</strong> tab &gt; <strong>Description</strong> field). This is a display field and cannot be edited.</dd>
+  <dt><strong>Assigned Date</strong></dt>
+  <dd>This field displays the date on which the work order  was assigned. The date displayed in this field is the login date.</dd>
+  <dt><strong>Build Date</strong></dt>
+  <dd>This field displays the date on which the details  of the quantities built are entered. The date displayed in this field  is the login date (when the work order was built). This is a display field  and cannot be edited.</dd>
+  <dt><strong>Build<font style="color: #ff0000;" color="#FF0000"> </font>By</strong></dt>
+  <dd>This field displays the name of the user who is  responsible for the production batch. This field is updated with the name  of the user specified in the <strong>Build by</strong>  field of the <strong>Build</strong> dialog box.  This field cannot be edited.</dd>
+  <dt><strong>Actual Output</strong></dt>
+  <dd>The total output (sum of normal output and defectives)  is displayed in this field. This field is updated when the work order  is built and cannot be edited.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/creating-wo/wo-details/document_tab_view_information.html">Document  Tab View Information</a></dd>
+</dl>
+
+
+
+
+</div>

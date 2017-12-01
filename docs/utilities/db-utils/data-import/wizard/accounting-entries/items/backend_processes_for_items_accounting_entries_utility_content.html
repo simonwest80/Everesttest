@@ -1,0 +1,29 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes-for-items">Back End Processes for Items</h1>
+
+<ul>
+  <li>The balance in  the Inventory Control account increases to the extent of the item value.</li>
+  <li>The balance in  the Journal Difference account, which is an expense account increases  by the value of the items. The balance in the journal difference account  is nullified when the other Trial Balance items are imported.</li>
+</ul>
+
+<p>When items are imported, entries are made in an open general journal  that fulfills the following conditions:</p>
+
+<ul>
+  <li>The login date  falls in the same accounting period as the open general journal.</li>
+  <li>The open general  journal belongs to the same journal group as the one selected in <strong>Workstation Settings</strong> (path: <strong>File 
+ &gt; Setup &gt; Preferences &gt; Workstation Settings</strong>).</li>
+  <li>The open general  journal with the same location/sub-location as the login location/sub-location  of the user importing the balances.</li>
+  <li>A system journal  with the description ‘Item Import’  exists.</li>
+</ul>
+
+<p class="note">If such an open journal does not exist, a  new general journal is created using the sequence number from the <strong>Location</strong> profile (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location</strong>/<strong>Sub-Location</strong>&gt;  <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Inventory</strong> tab).</p>
+
+
+
+
+</div>

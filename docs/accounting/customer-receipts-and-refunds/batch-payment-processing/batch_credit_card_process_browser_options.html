@@ -1,0 +1,90 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="batch-payment-process-browser---options">Batch Payment Process Browser - Options</h1>
+
+<p>The <strong>Batch Payment Process</strong> browser  has the following options (path: <strong>Batch 
+ Payment Process</strong> browser &gt; <strong>Options</strong>):</p>
+
+<dl>
+  <dt><strong>Select All</strong></dt>
+  <dd>This is a toggle option that allows you to select  or deselect all the records in the browser.</dd>
+  <dt><strong>Payment Details</strong></dt>
+  <dd>Select this option to display the details of payments  and refunds on the selected document. When you select this option, you  will see the <strong>Payment History</strong> browser.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/payment-history/payment_history.html">Payment  History Browser</a></dd>
+  <dt><strong>Modify Document</strong></dt>
+  <dd>Select this option to open the document for editing.</dd>
+  <dt><strong>Get Latest Exchange Rate</strong></dt>
+  <dd>Select this option to retrieve the latest exchange  rate (as on the login date) in the <strong>Rate 
+ (Document Currency)</strong>, <strong>Rate (Bank 
+ Currency)</strong> and <strong>Rate (Payment Currency)</strong>  columns.</dd>
+  <dt>To view the **Rate </dt>
+  <dt> (Document Currency)**, **Rate (Bank </dt>
+  <dt> Currency)** and <strong>Rate (Payment Currency)</strong>  columns, drag and drop these fields from the <strong>Customize</strong>  window (path: <strong>Batch Payment Process</strong> browser  &gt; <strong>Options &gt; Field Chooser</strong>)  into the browser.</dt>
+  <dd>The exchange rate is retrieved from the <strong>Buy 
+ Rate/Sell Rate</strong> fields in the <strong>Exchange 
+ Rates</strong> profile (path: <strong>File &gt; 
+ Setup &gt; Accounting &gt; Multi-Currency &gt; Exchange Rates &gt; Options 
+ &gt; Edit &gt; In New Window</strong>).</dd>
+  <dt>Whether the buy rate/sell rate is displayed  depends in turn, on the option you have selected in the **Rate </dt>
+  <dt> for receipts** field in the <strong>Accounting</strong> dialog box (path: **File &gt; Setup </dt>
+  <dt> &gt; Preferences &gt; Defaults &gt; Accounting &gt; Multi Currency &gt; </dt>
+  <dt> Exchange Rates** tab).</dt>
+  <dd>You can edit these exchange rates. When the rate  columns are updated, the corresponding amounts in the <strong>Bank 
+ Amount</strong>, <strong>Document Amount</strong> and  <strong>Payment Amount</strong> columns are also  updated.</dd>
+</dl>
+
+<p class="hint">To view the <strong>Bank 
+ Amount</strong>, <strong>Document Amount</strong> and  <strong>Payment Amount</strong> columns, drag and  drop these fields from the <strong>Customize</strong>  window (path: <strong>Batch Payment Process</strong> browser  &gt; <strong>Options &gt; Field Chooser</strong>)  into the browser.</p>
+
+<dl>
+  <dt><strong>Change Document</strong></dt>
+  <dd>Select this option to apply the payment to another  document from the <strong>Sales Documents</strong>  browser. The <strong>Sales Documents</strong> browser  displays all unpaid documents created for the selected customer.</dd>
+  <dd>Payment Amount Column</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Browser Selected From:</td>
+      <td>Payment Amount Column:</td>
+    </tr>
+    <tr>
+      <td><strong>Batch Payment Process – Prior Authorizations</strong>  browser</td>
+      <td>Is automatically  replaced with the balance of the new document or the authorization amount,  whichever is lesser.</td>
+    </tr>
+    <tr>
+      <td>Any other Batch Payment Process browser</td>
+      <td>- Automatically changes  to the new document balance, if the document balance on the new document  is less that the payment amount.<br />- If the document  balance on the new document is more than the payment amount, <strong>Everest</strong>  prompts you to confirm whether you want to change the payment amount to  match the new document balance. If you click <strong>No</strong>,  and save the browser without processing the transaction, <strong>Everest</strong>  displays the <strong>Batch Payment Error</strong>  dialog box.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: If you select another document, the <strong>Document 
+ #</strong> column on the browser is updated. When you process the transaction,  the payment is applied to the new document and the balance on the new  document accordingly reduces.</p>
+
+<dl>
+  <dt><strong>Process</strong></dt>
+  <dd>Select this option to process the receipt/refund.  If the transaction is a credit card receipt/refund, the funds are captured.  If the transaction is a cash or check payment the accounting entry is  created to account for the receipt/refund.</dd>
+  <dt><strong>Update Details</strong></dt>
+  <dd>Select this option to save all the changes made  in the <strong>Batch</strong> <strong>Payment 
+ Process</strong> browser. You must select the <strong>Update</strong><strong>Details</strong> option, to ensure that  the changes made, if any, are saved.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/misc/columns_in_the_batch_credit_card_process_browser.html">Columns  in the Batch Payment Process Browser</a></dd>
+  <dt><strong>Delete</strong></dt>
+  <dd>Select this option to delete a record from the <strong>Batch</strong> <strong>Payment 
+ Process</strong> browser. To delete the record you must first select the  record by clicking in the <strong>Select</strong> column.</dd>
+  <dt><strong>View Last Errors</strong></dt>
+  <dd>Select this option to display the credit card transactions  that could not be processed in the <strong>Batch 
+ Credit Card Error Log</strong> window.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/process_payment_refund_transactions_in_a_batch.html">Process  Batch Credit Cards</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/customer-receipts-and-refunds/batch-payment-processing/batch_credit_card_process_browser_options.html">Batch  Payment Process Browser - Options</a></dd>
+</dl>
+
+
+
+
+</div>

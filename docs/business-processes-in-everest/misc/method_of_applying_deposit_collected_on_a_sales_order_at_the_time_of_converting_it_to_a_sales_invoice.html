@@ -1,0 +1,56 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="method-for-applying-deposit-collected-on-a-sales-order-when-converting--it-to-a-sales-invoice">Method for applying deposit collected on a sales order when converting  it to a sales invoice</h1>
+
+<p><strong>Everest</strong> calculates finance charges  on overdue sales documents based on the amounts outstanding in the document.  <strong>Everest</strong> provides you with the  following options to apply deposits:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Field Name</td>
+      <td><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td>Automatically create a new transaction to apply deposit to Sales Invoice</td>
+      <td>Select this option to automatically apply the deposit from the sales  order to the sales invoice on saving the invoice. The paid field is automatically  populated with the applied deposit from the sales order. The net amount  due from the customer is the invoice amount less the deposit. The amount  applied is shown as a separate new transaction on the sales invoice.</td>
+    </tr>
+    <tr>
+      <td>Automatically move deposit to Sales Invoice, if possible. Otherwise,  auto create transaction to apply deposit.</td>
+      <td>Select this option to automatically move the deposit to the sales invoice.  This option will be exceuted only if the following conditions are met:<br /><br />- The sales order  and sales invoice are created on the same day.<br />- There is only one  payment on the sales order. If multiple payments are made on the same  sales order, the system does not move the deposit to the sales invoice  automatically.<br /><br /><br /><br />The sales order and the payment information are shown as two different  transactions if they are created on different days.</td>
+    </tr>
+    <tr>
+      <td>Prompt user to allow them to select how they would like to treat the  deposit</td>
+      <td>Select this option to prompt users with options for applying the deposit  when they save the sales invoice after converting a sales order to a sales  invoice. The Everest Prompt displays while applying the deposit from a  sales order to a sales invoice.</td>
+    </tr>
+    <tr>
+      <td>Keep deposit on the Sales Order</td>
+      <td>This option does not move the deposit and retains the deposit on the  sales order. This gives the user more control on when and how to apply  the deposit received on a sales order. The entire invoice amount becomes  the amount due from the customer on the document since the amount received  on the order is not applied. The deposit made against the order can be  applied to any other sales document of the customer or applied on the  invoice on a different date.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>When you select the option <strong>Prompt 
+ user to allow them to select how they would like to treat the deposit</strong>  while converting a sales order to a sales invoice, the Everest Prompt  displays.</p>
+
+<p>The <strong>Everest Prompt</strong>  provides you three options:</p>
+
+<ul>
+  <li>Move deposit from  Sales Order to Sales Invoice</li>
+  <li>Create a new transaction  to apply deposit to Sales Invoice</li>
+  <li>Keep deposit on  this Sales Order</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/doc-frm/prompts/sales-prompts/prompts_sales_document_sales_document_2.html">Prompts  - Sales Document - Sales Document 2</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/opt/setting_flow_control_options.html">Setting  up Flow Control Options</a></dd>
+</dl>
+
+
+
+
+</div>

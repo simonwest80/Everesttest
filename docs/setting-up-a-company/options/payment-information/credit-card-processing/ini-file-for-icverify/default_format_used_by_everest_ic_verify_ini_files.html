@@ -1,0 +1,44 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="default-format-used-by-everest">Default Format Used by Everest</h1>
+
+<p>The default formats used by <strong>Everest</strong>  for request and answer files are given below:</p>
+
+<p><strong>Transaction Request</strong></p>
+
+<p>If a request format is not specified for a processor, <strong>Everest</strong>  generates requests in the following format:</p>
+
+<p><strong>SALE</strong> = <C1>, CLERK, ORDERNO,  ACCOUNT, EXP  + SWIPEINFO,'AMOUNT,  ZIP, ADDRESS,, TAX,,,,,, ORDERNO,,,  CVV2</C1></p>
+
+<p><strong>SHIP</strong> = <CO>, CLERK, ORDERNO,  ACCOUNT, EXP  + SWIPEINFO,  AMOUNT, ZIP, ADDRESS</CO></p>
+
+<p><strong>REFUND</strong> = <C3>, CLERK,  ORDERNO, ACCOUNT,  EXP + SWIPEINFO,  AMOUNT</C3></p>
+
+<p><strong>BOOK</strong> = <C4>, CLERK, ORDERNO,  ACCOUNT, EXP  + SWIPEINFO,  AMOUNT, ZIP, ADDRESS,, TAX,,,,,, ORDERNO,,,  CVV2</C4></p>
+
+<p><strong>FORCE</strong> = <C5>, CLERK, ORDERNO,  ACCOUNT, EXP  +SWIPEINFO,  AMOUNT, APPROVECODE,  ZIP, ADDRESS</C5></p>
+
+<p><strong>AUTH</strong>  = <C6>, CLERK, ORDERNO,  ACCOUNT, EXP  + SWIPEINFO,  AMOUNT, ZIP, ADDRESS,, TAX,,,,,, ORDERNO,,,  CVV2</C6></p>
+
+<p><strong>Answer</strong></p>
+
+<p>If a request is not specified for a processor, <strong>Everest</strong>  translates the response assuming that the answer file is in the format  given below:</p>
+
+<p>APPROVE=2,1</p>
+
+<p>RESPONSE=3,6</p>
+
+<p>AVS=9,1</p>
+
+<p>CVV2=10,1</p>
+
+<p>TRANID=12,12</p>
+
+
+
+
+</div>

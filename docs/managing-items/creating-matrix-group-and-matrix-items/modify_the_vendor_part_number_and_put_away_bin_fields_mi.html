@@ -1,0 +1,61 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="modify-the-vendor-part-number-and-put-away-bin-fields">Modify the Vendor Part Number and Put Away Bin Fields</h1>
+
+<p><strong>Everest</strong> allows individual matrix  items to retain the <strong>Vendor Part Number</strong>  and <strong>Put Away Bin</strong> field details,  while modifying other details of all the matrix items from the matrix  group profile.</p>
+
+<p>The system does not overwrite the <strong>Vendor 
+ Part Number</strong> and <strong>Put Away Bin</strong>  fields assigned to matrix items while modifying the group profile, provided  these fields are left blank in the group profile.</p>
+
+<p class="example"><strong>Everest</strong>  allows you to modify the Fixed price of all the matrix items from $75  to $72 while modifying the group profile, and retain the details of the  matrix items in the Vendor Part Number and Put Away Bin fields. This is  possible if the Vendor Part Number and Put Away Bin fields are left blank  in the group profile.</p>
+
+<p class="steps">To modify the group profile without overwriting  the Vendor Part Number field of the matrix items, do the following:</p>
+
+<ul>
+  <li>From the <strong>Item</strong> profile, enter the details in the  <strong>Vendor Part Number</strong> and <strong>Put 
+ Away Bin</strong> fields for each matrix item and save the profile.</li>
+  <li>From  the <strong>Item</strong> profile, open the matrix  group and change the Fixed price to $72. Leave the <strong>Vendor 
+ Part Number</strong> and <strong>Put Away Bin</strong>  fields blank in the group profile.</li>
+  <li>Click  <strong>Save</strong> and apply the change to all  the matrix items in the <strong>Matrix Items</strong>  browser.</li>
+</ul>
+
+<p>The <strong>Fixed</strong> price is  modified for all the matrix items and <strong>Vendor 
+ Part Number</strong> and <strong>Put Away Bin</strong>  field details of the matrix items are retained. The system does not overwrite  the <strong>Vendor Part</strong> <strong>Number</strong>  and <strong>Put Away Bin</strong> fields of the  matrix items while modifying and applying the price field for all the  matrix items from the group profile.</p>
+
+<p class="note">It is mandatory that the number of vendors  in the group and item profile is the same. While modifying the group profile,  the system overwrites the number of vendors in the Item profile with the  number of vendors of the group profile.</p>
+
+<p><strong>Everest</strong> also allows  you to modify the <strong>Vendor Part Number</strong>  field from the group profile for the first vendor, while retaining the  unique part number assigned for the second vendor in the matrix items.  This is possible if the <strong>Vendor Part Number</strong>  field is blank for the second vendor in the group profile.</p>
+
+<p class="example">You have assigned the same Vendor Part Number  for the first vendor for all matrix items. You wish to modify this part  number. While modifying the first vendor’s part number, you wish to retain  the second vendor’s part number for the matrix items.</p>
+
+<p class="steps">To modify the Vendor Part Number of the first  vendor for all the matrix items and retain the Vendor Part Number of the  second (another) vendor from the group profile, do the following:</p>
+
+<ul>
+  <li>From the <strong>Item</strong> profile, open each matrix item  and assign the group’s <strong>Vendor Part Number</strong>  for the first vendor. Add the second vendor and assign the <strong>Vendor 
+ Part Number</strong> that is unique to the matrix item.</li>
+  <li>From  the <strong>Item</strong> profile, open the group  profile and modify the Part Number of the first vendor. Leave the <strong>Vendor Part Number</strong> field blank for the  second vendor because the second vendor is assigned a unique Part Number  for each matrix item.</li>
+  <li>Click  <strong>Save</strong> and apply the changes to  all the matrix items from the <strong>Matrix 
+ Items</strong> browser.</li>
+</ul>
+
+<p>Each matrix item reflects the modified <strong>Vendor 
+ Part Number</strong> for the first Vendor and retains the unique Part Number  assigned to it for the second vendor.</p>
+
+<p>The <strong>Put Away Bin</strong>  field also exhibits this unique feature. <strong>Everest</strong>  allows you to modify the group profile while retaining the different bins  assigned to individual matrix items.</p>
+
+<p class="example">Some matrix items are assigned the stock bin  StockCA and some are assigned the stock bin CAMAIN. Leave the <strong>Put 
+ Away Bin</strong> field blank while modifying the price of all the matrix  items from the group profile. Each matrix item’s stock bin field detail  is retained and the price is modified.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/creating-matrix-group-and-matrix-items/modifying_item_matrix.html">Modify an Item  Matrix</a></dd>
+</dl>
+
+
+
+
+</div>

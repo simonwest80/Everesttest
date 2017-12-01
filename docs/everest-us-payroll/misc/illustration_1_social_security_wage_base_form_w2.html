@@ -1,0 +1,180 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="illustration-1">Illustration 1</h1>
+
+<p>Illustration 1 pertains to the year 2009 wherein the upper limit of  the social security wages is $106,800.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Transaction 1 - January 2009</td>
+      <td>Display in Payroll Transaction profile</td>
+    </tr>
+    <tr>
+      <td>Employee</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Social Security Tips (in transaction profile)*</td>
+      <td>$80,000</td>
+    </tr>
+    <tr>
+      <td>Social Security Wages -Taxable Amount field in Employee tab (includes  tips of 80000)</td>
+      <td>$138,065</td>
+    </tr>
+    <tr>
+      <td>Social Security tax withheld<br /><br /><br />($106,800*6.2%)</td>
+      <td>$6,621.60</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>*Social Security Tips is denoted in the <strong>Payroll 
+ Transaction</strong> profile as Third Party Payments (path: <strong>US 
+ Payroll &gt; Processing &gt; Payroll Transactions &gt; Edit &gt; In New 
+ Window &gt; Payroll Transaction</strong> profile <strong>&gt; General</strong> tab <strong>&gt; Totals</strong>  section).</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Box</td>
+      <td>Display in Form W2</td>
+    </tr>
+    <tr>
+      <td>Box 3</td>
+      <td>$26,800 (106,800 – 80,000)</td>
+    </tr>
+    <tr>
+      <td>Box 4</td>
+      <td>$6,621.60<br /><br /><br />(Limit of 2007 $106,800*6.2%)</td>
+    </tr>
+    <tr>
+      <td>Box 7</td>
+      <td>$80,000</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="steps">The procedure for calculating values for  Form W2 is as follows:</p>
+
+<ul>
+  <li>Calculate the value  for Box 7 first and store it in memory.</li>
+  <li>Box 3 is calculated  in either of the two ways, whichever is lower:</li>
+  <li>The difference  between Upper Limit and Box 7, that is, $26,800 (106,800-80,000)</li>
+  <li>Actual Social  Security wages portion, that is, $58,065 (138,065-80,000)</li>
+</ul>
+
+<p><img src="/versata-everest-docs/everest-us-payroll/img/hint.gif" alt="" />To calculate  the Actual Social Security Wages portion of a transaction, deduct the  Social Security Tips from the taxable amount of Social Security for the  employee (path: <strong>US Payroll &gt; Processing 
+ &gt; Payroll Transactions &gt; Edit &gt; In New Window &gt; Payroll Transaction</strong> profile <strong>&gt; Employee Taxes</strong> tab <strong>&gt; Taxable Amount</strong> section).</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Transaction 2 - February 2009</td>
+      <td>Display in Payroll Transaction profile</td>
+    </tr>
+    <tr>
+      <td>Employee</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Social Security Tips (in transaction profile)</td>
+      <td>$80,000</td>
+    </tr>
+    <tr>
+      <td>Social Security Wages -Taxable Amount field in Employee tab (includes  tips of 80000)</td>
+      <td>$138,065</td>
+    </tr>
+    <tr>
+      <td>Social Security tax withheld (106,800*6.2%)</td>
+      <td>$0<br /><br /><br /><img src="/versata-everest-docs/everest-us-payroll/img/note.gif" alt="" /> Since the social security tax can never exceed $6,621.60  in this year, it should be displayed as 0 once this limit is reached.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Box</td>
+      <td>Display in Form W2</td>
+    </tr>
+    <tr>
+      <td>Box 3</td>
+      <td>$26,800 ($106,800 – $80,000)<br /><br /><br /><img src="/versata-everest-docs/everest-us-payroll/img/note.gif" alt="" /> Since the sum of box 3 and 7 has already reached its  upper limit of $106,800 in the previous transaction, Box 3 cannot display  a value other than $26,800.</td>
+    </tr>
+    <tr>
+      <td>Box 4</td>
+      <td>$6,621.60<br /><br /><br /><img src="/versata-everest-docs/everest-us-payroll/img/note.gif" alt="" /> Once it has reached this value in the previous transaction,  no further transactions will affect this amount.</td>
+    </tr>
+    <tr>
+      <td>Box 7</td>
+      <td>$80,000<br /><br /><br /><img src="/versata-everest-docs/everest-us-payroll/img/note.gif" alt="" /> Since the sum of box 3 and 7 has already reached its  upper limit of $106,800 in the previous transaction, no extra value can  be included from this transaction.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Transaction 3 - March 2009</td>
+      <td>Display in Payroll Transaction profile</td>
+    </tr>
+    <tr>
+      <td>Employee</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>Social Security Tips (in transaction profile)*</td>
+      <td>$40,000</td>
+    </tr>
+    <tr>
+      <td>Social Security Wages -Taxable Amount field in Employee tab (includes  tips of 80000)</td>
+      <td>$106,800</td>
+    </tr>
+    <tr>
+      <td>Social Security tax withheld<br /><br /><br />(106,800*6.2%)</td>
+      <td>$6,621.60</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Form W2</td>
+      <td>Display for Employee A</td>
+      <td>Display for Employee B</td>
+    </tr>
+    <tr>
+      <td>Box 3</td>
+      <td>$26,800 ($106,800 – $80,000)</td>
+      <td>$66,800 ($106,800 – $40,000)</td>
+    </tr>
+    <tr>
+      <td>Box 4</td>
+      <td>$6,621.60</td>
+      <td>$6,621.60</td>
+    </tr>
+    <tr>
+      <td>Box 7</td>
+      <td>$80,000</td>
+      <td>$40,000</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In the illustration given above, it is assumed that Box 7 is tracked  to only one payroll item that is taxable to social security.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-us-payroll/misc/validations_for_yearly_upper_limit_(social_security_wage_base)_form_w2.html">Validations  for Upper Limit (Social Security Wage Base)</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,46 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="general-journal-in-which-entries-for-write-off-quantity-documents-are--made">General Journal in which entries for Write off Quantity documents are  made</h1>
+
+<p>Accounting entries are created in a General Journal with the description  ‘Quantity Adjustment’.  These general journals cannot be modified or voided.</p>
+
+<p>Entries are made in an open general journal that fulfils  the following conditions:</p>
+
+<ul>
+  <li>The login  date corresponds with the accounting period of the journal.</li>
+  <li>A journal’s  group is same as the journal group selected in <strong>Workstation 
+ Settings</strong> of the user creating the inventory adjustment document.</li>
+  <li>A journal’s  location/sub-location is same as the login  location/sub-location of the user creating the quantity adjustment document.</li>
+  <li>A system journal  has the description ‘Quantity Adjustment’.</li>
+</ul>
+
+<p>If no such open journal exists,  a new general journal is created. The general journal number for the new  journal is taken from the sequence number for general journals for the  login location  or the sub-location’s parent  location.</p>
+
+<p>If sequence numbers are not defined for the login  location or sub-location, then the document uses the sequence number assigned  to the default location. The default location is specified in the <strong>Accounting</strong> dialog box (path: <strong>File 
+ &gt; Setup &gt; Preferences &gt; Defaults &gt; Accounting &gt; Miscellaneous</strong> tab <strong>&gt; Default Location</strong>  field).</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="" /></td>
+      <td><a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a><br /><br /><br /><a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/locations_and_departments.html">Locations  and Sub-Locations</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The <strong>General Journal</strong> number and  transaction number for the entry are displayed in the <strong>Inventory 
+ Adjustment</strong> document.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/misc/accounting_entries_for_a_write_off_quantity_document.html">Accounting  Entries for a Write off Quantity Document</a></dd>
+</dl>
+
+
+
+
+</div>

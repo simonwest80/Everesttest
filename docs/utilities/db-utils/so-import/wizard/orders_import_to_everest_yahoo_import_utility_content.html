@@ -1,0 +1,39 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="import-sales-orders-to-everest">Import Sales Orders to Everest</h1>
+
+<p>Data from the online store must first be converted to the .CSV (comma  separated variables format) before it is imported into <strong>Everest.</strong> The following two .CSV files are required for importing:</p>
+
+<ul>
+  <li><strong>Order 
+ data File</strong> - comprises a list of all the orders generated for the  online store along with the order number.</li>
+  <li><strong>Items 
+ data File</strong> - comprises a list of all the items details (item code,  price, quantity etc.) for each order generated on the online store along  with the order number.</li>
+</ul>
+
+<p class="note">The Order data file and the Items data file  are temporary files created in the database of the company currently logged  into <strong>Everest</strong>. Sales orders are  created using the information in the temporary tables.</p>
+
+<p class="steps">To import orders from your online store into  Everest, do the following:</p>
+
+<ul>
+  <li>From the main  menu bar, select <strong>Utility</strong> &gt;  <strong>Import</strong> &gt; <strong>Sales 
+ Orders</strong> &gt; <strong>Import</strong>. You  will see the <a href="/versata-everest-docs/utilities/db-utils/so-import/wizard/orders_import_to_everest_profile_yahoo_import_utility_content.html"><strong>Sales Order Import Wizard</strong></a>.</li>
+</ul>
+
+<p class="note">Before you being actual import, you must <a href="/versata-everest-docs/utilities/db-utils/so-import/set-prefs/set_import_preferences_yahoo_import_utility_content.html">set Import  Preferences</a>.</p>
+
+<p>When an order containing an item of type Kit  is being imported, the total kit price from the order is imported as it  is and specified against the item code for the kit. All the components  of the kit are displayed in the imported order, with price as zero.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/db-utils/so-import/yahoo_import_utility_content.html">Sales  Order Import</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,136 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="advanced-filter-section---custom-tracking-list-dialog-box">Advanced Filter Section - Custom Tracking List Dialog Box</h1>
+
+<p>This section allows you to set further conditions for generating the  item list. This section contains <strong>Include 
+ list - Group/Selection</strong> and <strong>Exclude 
+ list - Group/Selection</strong>.</p>
+
+<p><strong>Include List - And/Or</strong></p>
+
+<p>The various selections that you can make and the results are detailed  in the table below:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Group</td>
+      <td>Selection</td>
+      <td>Result</td>
+    </tr>
+    <tr>
+      <td>AND</td>
+      <td>AND</td>
+      <td>Items tagged with all choices selected in all the groups.</td>
+    </tr>
+    <tr>
+      <td>AND</td>
+      <td>OR</td>
+      <td>Items tagged with at least one of the choices selected in each group  for which a selection has been specified.</td>
+    </tr>
+    <tr>
+      <td>OR</td>
+      <td>AND</td>
+      <td>Items tagged with all choices selected in any of the groups for which  a selection has been specified.</td>
+    </tr>
+    <tr>
+      <td>OR</td>
+      <td>OR</td>
+      <td>Items tagged with at least one selection in any of the groups.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong><img src="/versata-everest-docs/custom-tracking/img/example.gif" alt="example.gif" />  You  have selected the choices ‘A’ and ‘B’ respectively for the tracking groups  ‘C’ and ‘D’ with vendors tagged in the following manner:</strong></p>
+
+<ul>
+  <li>Vendor  1 is tagged to both ‘A’ and ‘B’</li>
+  <li>Vendor  2 is tagged to only ‘A’</li>
+  <li>Vendor  3 is tagged to only ‘B’</li>
+  <li>Vendor  4 is tagged to other selections in both groups</li>
+  <li>Vendor  5 is tagged to other selections in ‘A’</li>
+  <li>Vendor  6 is tagged to other selections in ‘B’</li>
+</ul>
+
+<p>According to the conditions you set in  the include list, the output is as follows:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Group</td>
+      <td>Choice</td>
+      <td>Result</td>
+    </tr>
+    <tr>
+      <td>AND</td>
+      <td>AND</td>
+      <td>Vendor 1</td>
+    </tr>
+    <tr>
+      <td>AND</td>
+      <td>OR</td>
+      <td>Vendor 1</td>
+    </tr>
+    <tr>
+      <td>OR</td>
+      <td>AND</td>
+      <td>Vendor 1</td>
+    </tr>
+    <tr>
+      <td>OR</td>
+      <td>OR</td>
+      <td>Vendor 1,2,3,4,5,6</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Exclude List - And/Or</strong></p>
+
+<p>From the list of items that match the criteria for the <strong>Include 
+ list</strong>, you can exclude items based on selections in the <strong>Exclude 
+ List</strong>. Advanced filter allows you to set conditions for exclusion.</p>
+
+<p>The various selections that you can make and the results are detailed  in the table below:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Group</td>
+      <td>Selection</td>
+      <td>Result</td>
+    </tr>
+    <tr>
+      <td>AND</td>
+      <td>AND</td>
+      <td>Exclude items tagged with all choices selected in all the groups for  which a selection has been specified.</td>
+    </tr>
+    <tr>
+      <td>AND</td>
+      <td>OR</td>
+      <td>Exclude items tagged with at least one of the choices selected in each  group for which a selection has been specified.</td>
+    </tr>
+    <tr>
+      <td>OR</td>
+      <td>AND</td>
+      <td>Exclude items tagged with all choices selected in any of the groups  for which a selection has been specified.</td>
+    </tr>
+    <tr>
+      <td>OR</td>
+      <td>OR</td>
+      <td>Exclude items tagged with at least one selection in any of the groups.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/custom-tracking/item-tracking/custom_tracking_list_details.html">Custom  Tracking List Details</a></dd>
+</dl>
+
+
+
+
+</div>

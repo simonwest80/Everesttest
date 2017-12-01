@@ -1,0 +1,160 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="purchase-tax-details-dialog-box">Purchase Tax Details Dialog Box</h1>
+
+<p>Select the following parameters to view the <strong>Purchase 
+ Tax Details</strong> report.</p>
+
+<dl>
+  <dt><strong>Group By</strong></dt>
+  <dd>This field allows you to determine the order in  which the documents in the report must be grouped.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Option Name</strong></td>
+      <td><strong>Select this option to view:</strong></td>
+    </tr>
+    <tr>
+      <td>Jurisdiction/Location/Sub-location/Tax</td>
+      <td>The purchase tax details summed first by the jurisdiction, then by each  location/sub-location and finally by each tax code.</td>
+    </tr>
+    <tr>
+      <td>Jurisdiction/Tax/Location/Sub-location</td>
+      <td>The purchase tax details summed by each jurisdiction, then by each tax  code and finally by each selected location/sub-location.</td>
+    </tr>
+    <tr>
+      <td>Location/Sub-location/Jurisdiction/Tax</td>
+      <td>The purchase tax details summed by each location/sub-location, then  by each tax jurisdiction and finally by each tax code.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">In the case of manual journals where you have  not assigned any tax codes, the report displays manual documents using  the journal’s jurisdiction tax code and tax component. If you have assigned  a tax code to some but not all taxable and exempt entries, entries with  a tax code appear under the appropriate tax code and tax component while  entries without a tax code appear under the tax code and tax component  “No GST (exempt) Acquisitions.”</p>
+
+<dl>
+  <dt><strong>Summary/Detail</strong></dt>
+  <dd>This option allows you to specify whether you want  to see a summarized or detailed report of the taxes. In both report types  the dates are organized as indicated in the Grouped By option. Select  <strong>Summary</strong> to see just the tax totals  for each date. Select <strong>Detail</strong> to  display the tax details for every item contained on each purchase or purchase  return document.</dd>
+  <dd>Because manual documents do not include line items,  the Detail report represents the tax values of manual documents using  the <strong>Item used for displaying manual documents 
+ in tax reports</strong> setting (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Items</strong>).</dd>
+  <dt><strong>Country</strong></dt>
+  <dd>Select the country for which you want to view the  tax details. This field defaults to the country of the login location  or the location of the login location/sub-location.</dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/reports/common-report-options/drop_down_button_and_menu_options.html">Drop-Down  List - Right-Click Menu Options</a></dd>
+  <dt><strong>State</strong></dt>
+  <dd>Select the state for which you want to view the  tax details. The states belonging to the selected country are available  for selection. If you do not select a state, tax details for all states  in the selected country are displayed in the report.</dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/reports/common-report-options/drop_down_button_and_menu_options.html">Drop-Down  List - Right-Click Menu Options</a></dd>
+  <dt><strong>Jurisdiction</strong></dt>
+  <dd>Select the jurisdiction for which you want to view  the tax details. The jurisdictions created for the country and/or state  specified are available for selection.</dd>
+  <dd>If you do not select a jurisdiction, tax details  for all jurisdictions belonging to the country and/or state selected are  displayed. This field defaults to the login jurisdiction.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /></td>
+      <td><a href="/versata-everest-docs/working-with-everest/everest-client/logging-in/login_department.html">Login Location/Sub-Location</a><br /><br /><br /><a href="/versata-everest-docs/reports/common-report-options/drop_down_button_and_menu_options.html">Drop-Down List - Right-Click  Menu Options</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Location/Sub-Locaiton</strong></dt>
+  <dd>Select the location/sub-location for which you want  to view the tax details. This field defaults to the login location or  sub-location.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /></td>
+      <td><a href="/versata-everest-docs/working-with-everest/everest-client/logging-in/login_department.html">Login  Location/Sub-Location</a><br /><br /><br /><a href="/versata-everest-docs/reports/common-report-options/drop_down_button_and_menu_options.html">Drop-Down List - Right-Click  Menu Options</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: The locations/sub-locations created for the country  and/or state specified are available for selection. If you do not select  a location/sub-location, tax details for all locations/sub-locations that  belong to the country and/or state selected are displayed.</p>
+
+<dl>
+  <dt><strong>Date From</strong></dt>
+  <dd>Select the start date of the report period. This  field defaults to the login date.</dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/working-with-everest/everest-client/logging-in/time_zone.html">Login  Date and Time</a></dd>
+  <dt><strong>Date To</strong></dt>
+  <dd>Select the end date of the report period. This field  defaults to the login date.</dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/working-with-everest/everest-client/logging-in/time_zone.html">Login  Date and Time</a></dd>
+  <dt><strong>Show Capital Acquisitions</strong></dt>
+  <dd>Select this check box to display tax details for  capital acquisitions in the report. Any account in the item details grid  associated to a Fixed Asset is considered a capital acquisition.</dd>
+  <dt>You can associate accounts to Fixed Assets  by including them in the Fixed Asset Posting Group in the accounting preferences  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Defaults</strong>  &gt; <strong>Accounting</strong> &gt; **Posting </dt>
+  <dt> Group** tab).</dt>
+  <dd>The report lists the capital acquisition accounts  first and lists all other accounts under “Other Acquisitions.”</dd>
+  <dt><strong>The reporting requirements in Australia require  that capital acquisitions should be disclosed separately while reporting  GST.</strong></dt>
+  <dd>If this check box remains unselected, only tax details  for purchases not considered capital acquisitions display in the report.</dd>
+  <dt><strong>Vendor Tax Invoice Date</strong></dt>
+  <dd>Select this check box to select and display documents  based on the date of the vendors’ tax invoices.</dd>
+</dl>
+
+<p class="example"><strong>In Australia, you can claim input tax credits  (GST credit  on Purchase) if you have a tax invoice from your supplier.</strong></p>
+
+<dl>
+  <dt><strong>Consider Payment Date</strong></dt>
+  <dd>Select this check box to select and display documents  based on the payment date. This check box is enabled only if you select  the <strong>Vendor Tax Invoice Date</strong> check  box</dd>
+</dl>
+
+<p class="example">While accounting for GST on a non-cash basis in Australia, you can claim  input tax credits (GST credit on Purchase) when your supplier has issued  an invoice or when you have paid them, whichever is earlier.</p>
+
+<p>However, if an advance is paid against  a purchase order during a reporting period and the items are not invoiced  (i.e., the purchase order is not converted to a purchase invoice), the  input tax credit on this purchase order cannot be claimed in that period.</p>
+
+<dl>
+  <dt><strong>Show Documents</strong></dt>
+  <dd>Select this check box to view the document numbers  associated with the taxes. In a Summary report, each document date is  totaled and lists the documents (with totals) created on each of those  dates. The Detail report is the same except that each document also lists  all of its items and their own totals.</dd>
+  <dt><strong>Group by Tax Component</strong></dt>
+  <dd>Select this check box to view the tax details with  the original grouping further broken down by tax components within each  tax code. In a Summary report, each tax component lists the tax details  for both system and manual documents by date. The Detail report is the  same except that each date also lists the items for that date and their  own totals.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/reports/img/note.gif" alt="" /></td>
+      <td>When a selected tax code has multiple tax  components, the Taxable column only displays the values for the first  tax component. The column displays a line of  asterisks  (*) for all other tax components that make up the tax code. The top of  the report shows the message “Taxable amounts are displayed as ‘*’ when  multiple tax components are assigned to a single tax code. Taxable amount  is displayed against the first tax component only.”<br /><br /><br />For example, if a single tax code has a 5%,  an 8%, and a 9% component the report displays the following:<br /><br /><br /></td>
+      <td> </td>
+      <td> </td>
+      <td>Taxable</td>
+      <td><br /></td>
+      <td>Tax Code #1</td>
+      <td> </td>
+      <td><br /></td>
+      <td> </td>
+      <td>5% Component</td>
+      <td>500</td>
+      <td><br /></td>
+      <td> </td>
+      <td>8% Component</td>
+      <td>*****</td>
+      <td><br /></td>
+      <td> </td>
+      <td>9% Component</td>
+      <td>*****</td>
+      <td><br /></td>
+      <td>Tax Code #1 Summary</td>
+      <td>500</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>When you Select both Show Documents and Group  by Tax Component</strong></dt>
+  <dd>In a Summary report, each tax component lists the  tax details for both system and manual documents by date and includes  the appropriate document numbers with totals. The Detail report is the  same except that each document number also lists the items for that document  and their own totals.</dd>
+  <dt><strong>Claim</strong></dt>
+  <dd>Click the <strong>Claim</strong> button to mark the purchase invoices contained in the report as  claimed in respect of the selected reporting period. When you click the  <strong>Claim</strong> button, the <a href="/versata-everest-docs/reports/misc/input_claim_pr_browser.html"><strong>Input Claim PI Browser</strong></a> is displayed.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/purchasing/gst_vat_on_purchases.html">Purchase Tax  Details</a></dd>
+</dl>
+
+
+
+
+</div>

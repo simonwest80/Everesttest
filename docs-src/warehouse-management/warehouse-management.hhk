@@ -1,0 +1,1863 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounting">
+    <param name="Name" value="Defaults - Accounting">
+    <param name="Local" value="flow-control-and-accounting-defaults\defaults_accounting_wm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounting entries">
+    <param name="Name" value="Accounting Entries for a Cost Adjustment Document">
+    <param name="Local" value="inv-adj\cost-adjustments\accounting_entries_for_a_cost_adjustment_document.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment">
+      <param name="Name" value="Accounting Entries for a Cost Adjustment Document">
+      <param name="Local" value="inv-adj\cost-adjustments\accounting_entries_for_a_cost_adjustment_document.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection">
+      <param name="Name" value="Accounting Entries for a Price  Protection Document">
+      <param name="Local" value="inv-adj\price-protection\accounting_entries_for_a_price_protection_document_new.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer document">
+      <param name="Name" value="Accounting Entries for a Stock Transfer Document">
+      <param name="Local" value="inv-adj\stk-trans\stock-transfer-details\accounting_entries_for_a_stock_transfer_document.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="write off quantities">
+      <param name="Name" value="Accounting Entries for a Write off Quantity Document">
+      <param name="Local" value="misc\accounting_entries_for_a_write_off_quantity_document.html">
+      <param name="Name" value="General Journal in which entries for Write off Quantity documents are made">
+      <param name="Local" value="inv-adj\qty-adj\general_journal_in_which_entries_for_write_off_quantity_documents_are_made.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="write off quantity adjustments">
+      <param name="Name" value="Accounting Entries for an Add Quantity Document">
+      <param name="Local" value="misc\accounting_entries_for_an_add_quantity_document.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="defaults">
+      <param name="Name" value="Defaults - Accounting">
+      <param name="Local" value="flow-control-and-accounting-defaults\defaults_accounting_wm.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory adjustment">
+      <param name="Name" value="Accounting Information">
+      <param name="Local" value="misc\accounting_information_inv_adj_doc_details.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lot number stock status dialog box">
+    <param name="Name" value="Lot Number Stock Status Dialog Box">
+    <param name="Local" value="misc\lot_number_stock_status_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advanced find tab">
+    <param name="Name" value="Advanced Find">
+    <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_advanced_find.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find serial number dialog box">
+      <param name="Name" value="Advanced Find">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_advanced_find.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="assign">
+    <param name="Name" value="Assign a Lot Number">
+    <param name="Local" value="lot-number-tracking\assigning-a-lot-number\assign_a_lot_number_wm.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="lot number">
+      <param name="Name" value="Assign a Lot Number">
+      <param name="Local" value="lot-number-tracking\assigning-a-lot-number\assign_a_lot_number_wm.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="attach">
+    <param name="Name" value="Attach a Manufacturer's Serial Number to Items">
+    <param name="Local" value="misc\attaching_manufacturer_s_serial_numbers_to_items.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="manufacturers serial number to items">
+      <param name="Name" value="Attach a Manufacturer's Serial Number to Items">
+      <param name="Local" value="misc\attaching_manufacturer_s_serial_numbers_to_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="auto generated lot numbers">
+    <param name="Name" value="Auto generated Lot Numbers">
+    <param name="Local" value="misc\auto_generated_lot_numbers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="lot tracking preferences">
+      <param name="Name" value="Auto generated Lot Numbers">
+      <param name="Local" value="misc\auto_generated_lot_numbers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="back end process">
+    <param name="Name" value="Back End Processes">
+    <param name="Local" value="inv-adj\stk-trans\stock-transfer-details\back_end_processes_stck_trsr.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer">
+      <param name="Name" value="Back End Processes">
+      <param name="Local" value="inv-adj\stk-trans\stock-transfer-details\back_end_processes_stck_trsr.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="backend processes">
+    <param name="Name" value="Back End Processes">
+    <param name="Local" value="misc\back_end_processes_add_quantity.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add quantities">
+      <param name="Name" value="Back End Processes">
+      <param name="Local" value="misc\back_end_processes_add_quantity.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment">
+      <param name="Name" value="Back End Processes">
+      <param name="Local" value="inv-adj\cost-adjustments\back_end_processes_cost_adjustment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection">
+      <param name="Name" value="Back End Processes">
+      <param name="Local" value="misc\back_end_processes_price_prot_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="write off quantities">
+      <param name="Name" value="Back End Processes">
+      <param name="Local" value="misc\back_end_processes_write_off_quantity.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="browser">
+    <param name="Name" value="The Cost Adjustments Browser">
+    <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\the_cost_adjustments_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment">
+      <param name="Name" value="The Cost Adjustments Browser">
+      <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\the_cost_adjustments_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="lot history browser">
+      <param name="Name" value="The Lot History Browser">
+      <param name="Local" value="lot-number-tracking\assigning-a-lot-number\the_lot_history_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection">
+      <param name="Name" value="The Price Protection Browser">
+      <param name="Local" value="inv-adj\price-protection\create-a-price-protection-document\the_price_protection_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity adjustments">
+      <param name="Name" value="The Quantity Adjustments Browser">
+      <param name="Local" value="inv-adj\qty-adj\create-a-qty-adj-doc\the_quantity_adjustments_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer">
+      <param name="Name" value="The Stock Transfers Browser">
+      <param name="Local" value="inv-adj\stk-trans\create-stock-transfer-document\the_stock_transfers_browser_new.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="cost adjustment">
+    <param name="Name" value="Cost Adjustments">
+    <param name="Local" value="inv-adj\cost-adjustments\cost_adjustments_new.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting entries">
+      <param name="Name" value="Accounting Entries for a Cost Adjustment Document">
+      <param name="Local" value="inv-adj\cost-adjustments\accounting_entries_for_a_cost_adjustment_document.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="backend processes">
+      <param name="Name" value="Back End Processes">
+      <param name="Local" value="inv-adj\cost-adjustments\back_end_processes_cost_adjustment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="The Cost Adjustments Browser">
+      <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\the_cost_adjustments_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="calculation of inventory adjustment amounts">
+      <param name="Name" value="Calculation of Inventory Adjustment Amounts">
+      <param name="Local" value="inv-adj\cost-adjustments\calculation_of_inventory_adjustment_amounts_cost_adj.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create  a Cost Adjustment">
+      <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\create_a_cost_adjustment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="difference with price protection">
+      <param name="Name" value="Difference between Cost Adjustment and Price Protection">
+      <param name="Local" value="inv-adj\price-protection\difference_between_cost_adjustment_and_price_protection_new.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general journal">
+      <param name="Name" value="General Journal in which Cost Adjustment entries are made">
+      <param name="Local" value="inv-adj\cost-adjustments\general_journal_in_which_cost_adjustment_entries_are_made.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify a Cost Adjustment Profile">
+      <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\modify_a_cost_adjustment_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Cost Adjustment Profile">
+      <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\the_cost_adjustment_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity expression">
+      <param name="Name" value="Quantity Expression">
+      <param name="Local" value="inv-adj\cost-adjustments\quantity_expression_cost_adj.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="cost column logic">
+    <param name="Name" value="Cost Column Logic for Serial Numbers Browser">
+    <param name="Local" value="misc\cost_column_logic_for_serial_numbers_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serial numbers browser">
+      <param name="Name" value="Cost Column Logic for Serial Numbers Browser">
+      <param name="Local" value="misc\cost_column_logic_for_serial_numbers_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="cost information">
+    <param name="Name" value="Masking Cost Information in Stock Transfers">
+    <param name="Local" value="misc\masking_cost_information_in_stock_transfers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="mask cost in stock transfers">
+      <param name="Name" value="Masking Cost Information in Stock Transfers">
+      <param name="Local" value="misc\masking_cost_information_in_stock_transfers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="create">
+    <param name="Name" value="Create  a Cost Adjustment">
+    <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\create_a_cost_adjustment.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment">
+      <param name="Name" value="Create  a Cost Adjustment">
+      <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\create_a_cost_adjustment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection">
+      <param name="Name" value="Create Price Protection">
+      <param name="Local" value="inv-adj\price-protection\create-a-price-protection-document\create_price_protection.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity adjustments">
+      <param name="Name" value="Create a Quantity Adjustment Document">
+      <param name="Local" value="inv-adj\qty-adj\create-a-qty-adj-doc\create_a_quantity_adjustment_document.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer document">
+      <param name="Name" value="Create a Stock Transfer Document">
+      <param name="Local" value="inv-adj\stk-trans\create-stock-transfer-document\create_a_stock_transfer_document.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="custom fields tab">
+    <param name="Name" value="Custom Field">
+    <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_custom_field.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find serial number dialog box">
+      <param name="Name" value="Custom Field">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_custom_field.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory adjustment document">
+      <param name="Name" value="Custom Fields Information">
+      <param name="Local" value="misc\custom_fields_information_inv_adj_det.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer document">
+      <param name="Name" value="Custom Fields Tab">
+      <param name="Local" value="misc\custom_fields_tab_stck_trnsfr_profile_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serial number profile">
+      <param name="Name" value="The Serial Number Profile - Custom Fields">
+      <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_-_custom_fields.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="custom fields">
+    <param name="Name" value="Lot Number Profile Option">
+    <param name="Local" value="lot-number-tracking\assigning-a-lot-number\option_available_in_the_lot_number_profile_wm.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="lot number profile option">
+      <param name="Name" value="Lot Number Profile Option">
+      <param name="Local" value="lot-number-tracking\assigning-a-lot-number\option_available_in_the_lot_number_profile_wm.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serial numbers">
+      <param name="Name" value="Custom Fields for Serial Numbers">
+      <param name="Local" value="serial-num-trk\serial-number-details\custom_fields_in_serial_number.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="defaults">
+    <param name="Name" value="Defaults - Accounting">
+    <param name="Local" value="flow-control-and-accounting-defaults\defaults_accounting_wm.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting">
+      <param name="Name" value="Defaults - Accounting">
+      <param name="Local" value="flow-control-and-accounting-defaults\defaults_accounting_wm.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="documents">
+    <param name="Name" value="Flow Control - Documents">
+    <param name="Local" value="flow-control-and-accounting-defaults\flow_control_documents_wm.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="flow control">
+      <param name="Name" value="Flow Control - Documents">
+      <param name="Local" value="flow-control-and-accounting-defaults\flow_control_documents_wm.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="filter name">
+    <param name="Name" value="Find Serial Number - Filter Name">
+    <param name="Local" value="serial-num-trk\find\find-serial-number-details\find_serial_number_filter_name.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find serial number">
+      <param name="Name" value="Find Serial Number - Filter Name">
+      <param name="Local" value="serial-num-trk\find\find-serial-number-details\find_serial_number_filter_name.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find">
+    <param name="Name" value="Finding Serialized and Auto-serialized Items">
+    <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\finding_serialized_and_auto_serialized_items.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find serial number dialog box">
+    <param name="Name" value="The Find Serial Numbers Dialog Box">
+    <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_no_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="advanced find tab">
+      <param name="Name" value="Advanced Find">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_advanced_find.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom field tab">
+      <param name="Name" value="Custom Field">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_custom_field.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="more choices tab">
+      <param name="Name" value="More Choices">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_more_choices.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="query tab">
+      <param name="Name" value="Query">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_query.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quick find tab">
+      <param name="Name" value="Quick Find">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_quick_find.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter name">
+      <param name="Name" value="Find Serial Number - Filter Name">
+      <param name="Local" value="serial-num-trk\find\find-serial-number-details\find_serial_number_filter_name.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="auto-serialized items">
+      <param name="Name" value="Finding Serialized and Auto-serialized Items">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\finding_serialized_and_auto_serialized_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serial number">
+      <param name="Name" value="Find Serial Number">
+      <param name="Local" value="serial-num-trk\find\find_serial_number.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serialized items">
+      <param name="Name" value="Finding Serialized and Auto-serialized Items">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\finding_serialized_and_auto_serialized_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="current stock area">
+      <param name="Name" value="Current Stock Area">
+      <param name="Local" value="misc\current_stock_area.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="vendor">
+      <param name="Name" value="vendor">
+      <param name="Local" value="misc\vendor.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase receipt number, purchase invoice number and other information">
+      <param name="Name" value="Purchase Receipt Number and Other Information">
+      <param name="Local" value="misc\purchase_receipt_number_and_other_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase price">
+      <param name="Name" value="Purchase Price">
+      <param name="Local" value="misc\purchase_price.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase date">
+      <param name="Name" value="Purchase Date">
+      <param name="Local" value="misc\purchase_date.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="flow control">
+    <param name="Name" value="Flow Control - Documents">
+    <param name="Local" value="flow-control-and-accounting-defaults\flow_control_documents_wm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="flow control and accounting defaults">
+    <param name="Name" value="Flow Control and Accounting Defaults">
+    <param name="Local" value="flow-control-and-accounting-defaults\flow_control_and_accounting_defaults.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="documents">
+      <param name="Name" value="Flow Control - Documents">
+      <param name="Local" value="flow-control-and-accounting-defaults\flow_control_documents_wm.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="others">
+      <param name="Name" value="Flow Control - Others">
+      <param name="Local" value="flow-control-and-accounting-defaults\flow_control_others_wm.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="functions">
+    <param name="Name" value="Warehouse Management Functions">
+    <param name="Local" value="warehouse_management_functions.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="warehouse management">
+      <param name="Name" value="Warehouse Management Functions">
+      <param name="Local" value="warehouse_management_functions.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="general journal">
+    <param name="Name" value="General Journal in which entries for Add Quantity documents are made">
+    <param name="Local" value="inv-adj\qty-adj\general_journal_in_which_entries_for_add_quantity_documents_are_made.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add quantities">
+      <param name="Name" value="General Journal in which entries for Add Quantity documents are made">
+      <param name="Local" value="inv-adj\qty-adj\general_journal_in_which_entries_for_add_quantity_documents_are_made.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment">
+      <param name="Name" value="General Journal in which Cost Adjustment entries are made">
+      <param name="Local" value="inv-adj\cost-adjustments\general_journal_in_which_cost_adjustment_entries_are_made.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer">
+      <param name="Name" value="General Journal in which stock transfers are entered:">
+      <param name="Local" value="inv-adj\stk-trans\stock-transfer-details\general_journal_in_which_stock_transfers_are_entered_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="general tab">
+    <param name="Name" value="The Serial Number Profile - General">
+    <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_general.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serial number profile">
+      <param name="Name" value="The Serial Number Profile - General">
+      <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_general.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="inventory adjustment">
+    <param name="Name" value="Inventory Adjustments">
+    <param name="Local" value="inv-adj\inventory_adjustments.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="item">
+    <param name="Name" value="Item Labeling">
+    <param name="Local" value="managing-physical-stocks\item_labeling.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="labeling">
+      <param name="Name" value="Item Labeling">
+      <param name="Local" value="managing-physical-stocks\item_labeling.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="lot tracking preferences">
+      <param name="Name" value="Lot Tracking for Items">
+      <param name="Local" value="misc\lot_tracking_for_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="labeling">
+    <param name="Name" value="Item Labeling">
+    <param name="Local" value="managing-physical-stocks\item_labeling.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item">
+      <param name="Name" value="Item Labeling">
+      <param name="Local" value="managing-physical-stocks\item_labeling.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lot history browser">
+    <param name="Name" value="The Lot History Browser">
+    <param name="Local" value="lot-number-tracking\assigning-a-lot-number\the_lot_history_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser section">
+      <param name="Name" value="The Lot History Browser Browser Section">
+      <param name="Local" value="misc\the_lot_history_browser_browser_section.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="header section">
+      <param name="Name" value="The Lot History Browser Header Section">
+      <param name="Local" value="misc\the_lot_history_browser_header_section.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="migration records">
+      <param name="Name" value="The Lot History Browser Migration Records">
+      <param name="Local" value="misc\the_lot_history_browser_migration_records.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lot number">
+    <param name="Name" value="Assign a Lot Number">
+    <param name="Local" value="lot-number-tracking\assigning-a-lot-number\assign_a_lot_number_wm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lot number profile">
+    <param name="Name" value="The Lot Number Profile">
+    <param name="Local" value="lot-number-tracking\assigning-a-lot-number\the_lot_number_profile_wm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lot number profile option">
+    <param name="Name" value="Lot Number Profile Option">
+    <param name="Local" value="lot-number-tracking\assigning-a-lot-number\option_available_in_the_lot_number_profile_wm.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom fields">
+      <param name="Name" value="Lot Number Profile Option">
+      <param name="Local" value="lot-number-tracking\assigning-a-lot-number\option_available_in_the_lot_number_profile_wm.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lot number tracking">
+    <param name="Name" value="Lot Number Tracking">
+    <param name="Local" value="lot-number-tracking\lot_number_tracking.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="utility">
+      <param name="Name" value="Utility of Lot Number Tracking">
+      <param name="Local" value="lot-number-tracking\utility_of_lot_number_tracking.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="assign">
+      <param name="Name" value="Assign a Lot Number">
+      <param name="Local" value="lot-number-tracking\assigning-a-lot-number\assign_a_lot_number_wm.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify a Lot Number">
+      <param name="Local" value="lot-number-tracking\assigning-a-lot-number\modify_a_lot_number_wm.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Lot Number Profile">
+      <param name="Local" value="lot-number-tracking\assigning-a-lot-number\the_lot_number_profile_wm.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lot tracking in Everest">
+    <param name="Name" value="Lot Tracking in Everest">
+    <param name="Local" value="lot-number-tracking\lot_tracking_in_everest.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lot tracking preferences">
+    <param name="Name" value="Lot Tracking Preferences">
+    <param name="Local" value="lot-number-tracking\lot_tracking_preferences.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="auto generated lot numbers">
+      <param name="Name" value="Auto generated Lot Numbers">
+      <param name="Local" value="misc\auto_generated_lot_numbers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items">
+      <param name="Name" value="Lot Tracking for Items">
+      <param name="Local" value="misc\lot_tracking_for_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="lots browser">
+    <param name="Name" value="The Lots Browser">
+    <param name="Local" value="lot-number-tracking\assigning-a-lot-number\the_lots_browser_wm.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="lot history browser">
+      <param name="Name" value="The Lot History Browser">
+      <param name="Local" value="lot-number-tracking\assigning-a-lot-number\the_lot_history_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="management">
+    <param name="Name" value="Managing Physical Stocks">
+    <param name="Local" value="managing-physical-stocks\managing_physical_stocks.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="physical stocks">
+      <param name="Name" value="Managing Physical Stocks">
+      <param name="Local" value="managing-physical-stocks\managing_physical_stocks.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="manufacturers serial numbers">
+    <param name="Name" value="Manufacturer's Serial Numbers">
+    <param name="Local" value="serial-num-trk\manufacturer-s-serial-numbers\manufacturer_s_serial_numbers_wm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="matrix items">
+    <param name="Name" value="Stock Transfer of Matrix Items">
+    <param name="Local" value="inv-adj\stk-trans\trans-stk-matrix-items\stock_transfer_of_matrix_items.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer">
+      <param name="Name" value="Stock Transfer of Matrix Items">
+      <param name="Local" value="inv-adj\stk-trans\trans-stk-matrix-items\stock_transfer_of_matrix_items.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="miscellaneous tab">
+    <param name="Name" value="The Serial Number Profile - Miscellaneous">
+    <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_miscellaneous.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serial number profile">
+      <param name="Name" value="The Serial Number Profile - Miscellaneous">
+      <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_miscellaneous.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="modify">
+    <param name="Name" value="Modify a Cost Adjustment Profile">
+    <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\modify_a_cost_adjustment_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment">
+      <param name="Name" value="Modify a Cost Adjustment Profile">
+      <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\modify_a_cost_adjustment_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="lot number">
+      <param name="Name" value="Modify a Lot Number">
+      <param name="Local" value="lot-number-tracking\assigning-a-lot-number\modify_a_lot_number_wm.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="manufacturers serial number">
+      <param name="Name" value="Modify a Manufacturer's Serial Number">
+      <param name="Local" value="misc\modify_a_manufacturer_s_serial_numbers_wm.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection">
+      <param name="Name" value="Modify a Price Protection Profile">
+      <param name="Local" value="inv-adj\price-protection\create-a-price-protection-document\modify_a_price_protection_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity adjustments">
+      <param name="Name" value="Modify Quantity Adjustment Profile">
+      <param name="Local" value="inv-adj\qty-adj\create-a-qty-adj-doc\modify_quantity_adjustment_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serial number profile">
+      <param name="Name" value="Modify the Serial Number Profile">
+      <param name="Local" value="serial-num-trk\serial-number-details\modifying_the_serial_number_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer">
+      <param name="Name" value="Modify a Stock Transfer Document">
+      <param name="Local" value="inv-adj\stk-trans\create-stock-transfer-document\modify_a_stock_transfer_document.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="more choices tab">
+    <param name="Name" value="More Choices">
+    <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_more_choices.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find serial number dialog box">
+      <param name="Name" value="More Choices">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_more_choices.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="price protection">
+    <param name="Name" value="Price Protection">
+    <param name="Local" value="inv-adj\price-protection\price_protection_new.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting entries">
+      <param name="Name" value="Accounting Entries for a Price  Protection Document">
+      <param name="Local" value="inv-adj\price-protection\accounting_entries_for_a_price_protection_document_new.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="backend processes">
+      <param name="Name" value="Back End Processes">
+      <param name="Local" value="misc\back_end_processes_price_prot_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="The Price Protection Browser">
+      <param name="Local" value="inv-adj\price-protection\create-a-price-protection-document\the_price_protection_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="calculation of inv. adj. amounts">
+      <param name="Name" value="Calculation of Inventory Adjustment Amounts">
+      <param name="Local" value="inv-adj\price-protection\calculation_of_inventory_adjustment_amounts_price_prot.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create Price Protection">
+      <param name="Local" value="inv-adj\price-protection\create-a-price-protection-document\create_price_protection.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="difference with cost adjustment">
+      <param name="Name" value="Difference between Cost Adjustment and Price Protection">
+      <param name="Local" value="inv-adj\price-protection\difference_between_cost_adjustment_and_price_protection_new.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify a Price Protection Profile">
+      <param name="Local" value="inv-adj\price-protection\create-a-price-protection-document\modify_a_price_protection_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Price Protection Profile">
+      <param name="Local" value="inv-adj\price-protection\create-a-price-protection-document\the_price_protection_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase journal">
+      <param name="Name" value="Purchase Journal in which price protection entries are made">
+      <param name="Local" value="inv-adj\price-protection\purchase_journal_in_which_price_protection_entries_are_made.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity expression">
+      <param name="Name" value="Quantity Expression">
+      <param name="Local" value="inv-adj\price-protection\quantity_expression_price_protection.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="details">
+      <param name="Name" value="Price Protection Details">
+      <param name="Local" value="inv-adj\price-protection\price_protection_details_new.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="print">
+    <param name="Name" value="Print a Stock Transfer Document">
+    <param name="Local" value="misc\printing_stock_transfer_documents.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer document">
+      <param name="Name" value="Print a Stock Transfer Document">
+      <param name="Local" value="misc\printing_stock_transfer_documents.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="profile">
+    <param name="Name" value="The Cost Adjustment Profile">
+    <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\the_cost_adjustment_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment">
+      <param name="Name" value="The Cost Adjustment Profile">
+      <param name="Local" value="inv-adj\cost-adjustments\create-a-cost-adjustment\the_cost_adjustment_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection">
+      <param name="Name" value="The Price Protection Profile">
+      <param name="Local" value="inv-adj\price-protection\create-a-price-protection-document\the_price_protection_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity adjustments">
+      <param name="Name" value="The Quantity Adjustments Profile">
+      <param name="Local" value="inv-adj\qty-adj\create-a-qty-adj-doc\the_quantity_adjustments_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer">
+      <param name="Name" value="The Stock Transfers Profile">
+      <param name="Local" value="inv-adj\stk-trans\create-stock-transfer-document\the_stock_transfers_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchase details tab">
+    <param name="Name" value="The Serial Number Profile - Purchase Details">
+    <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_purchase_details.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serial number profile">
+      <param name="Name" value="The Serial Number Profile - Purchase Details">
+      <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_purchase_details.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchase journal">
+    <param name="Name" value="Purchase Journal in which price protection entries are made">
+    <param name="Local" value="inv-adj\price-protection\purchase_journal_in_which_price_protection_entries_are_made.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection">
+      <param name="Name" value="Purchase Journal in which price protection entries are made">
+      <param name="Local" value="inv-adj\price-protection\purchase_journal_in_which_price_protection_entries_are_made.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purchase process">
+    <param name="Name" value="Stock Transfers as a part of the Purchase Process:">
+    <param name="Local" value="misc\stock_transfers_as_a_part_of_the_purchase_process_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfers as a part of purchase process">
+      <param name="Name" value="Stock Transfers as a part of the Purchase Process:">
+      <param name="Local" value="misc\stock_transfers_as_a_part_of_the_purchase_process_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity adjustments">
+    <param name="Name" value="Quantity Adjustments">
+    <param name="Local" value="inv-adj\qty-adj\quantity_adjustments_price_protection.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting entries for write off quantities">
+      <param name="Name" value="Accounting Entries for a Write off Quantity Document">
+      <param name="Local" value="misc\accounting_entries_for_a_write_off_quantity_document.html">
+      <param name="Name" value="Accounting Entries for an Add Quantity Document">
+      <param name="Local" value="misc\accounting_entries_for_an_add_quantity_document.html">
+      <param name="Name" value="General Journal in which entries for Write off Quantity documents are made">
+      <param name="Local" value="inv-adj\qty-adj\general_journal_in_which_entries_for_write_off_quantity_documents_are_made.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="backend processes for add quantities">
+      <param name="Name" value="Back End Processes">
+      <param name="Local" value="misc\back_end_processes_add_quantity.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="backend processes for write off quantities">
+      <param name="Name" value="Back End Processes">
+      <param name="Local" value="misc\back_end_processes_write_off_quantity.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="The Quantity Adjustments Browser">
+      <param name="Local" value="inv-adj\qty-adj\create-a-qty-adj-doc\the_quantity_adjustments_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="calculation of inv. adj. documents">
+      <param name="Name" value="Calculation of Inventory Adjustment Amounts">
+      <param name="Local" value="inv-adj\qty-adj\calculation_of_inventory_adjustment_amounts_qty_adj.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create a Quantity Adjustment Document">
+      <param name="Local" value="inv-adj\qty-adj\create-a-qty-adj-doc\create_a_quantity_adjustment_document.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general journal for add quantities">
+      <param name="Name" value="General Journal in which entries for Add Quantity documents are made">
+      <param name="Local" value="inv-adj\qty-adj\general_journal_in_which_entries_for_add_quantity_documents_are_made.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify Quantity Adjustment Profile">
+      <param name="Local" value="inv-adj\qty-adj\create-a-qty-adj-doc\modify_quantity_adjustment_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Quantity Adjustments Profile">
+      <param name="Local" value="inv-adj\qty-adj\create-a-qty-adj-doc\the_quantity_adjustments_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity expression">
+      <param name="Name" value="Quantity Expression">
+      <param name="Local" value="inv-adj\qty-adj\quantity_expression_qty_adj_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity expression">
+    <param name="Name" value="Quantity Expression">
+    <param name="Local" value="inv-adj\cost-adjustments\quantity_expression_cost_adj.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment">
+      <param name="Name" value="Quantity Expression">
+      <param name="Local" value="inv-adj\cost-adjustments\quantity_expression_cost_adj.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection">
+      <param name="Name" value="Quantity Expression">
+      <param name="Local" value="inv-adj\price-protection\quantity_expression_price_protection.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity adjustments">
+      <param name="Name" value="Quantity Expression">
+      <param name="Local" value="inv-adj\qty-adj\quantity_expression_qty_adj_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer">
+      <param name="Name" value="Quantity Expression">
+      <param name="Local" value="misc\quantity_expression_stck_transfer_doc.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="query tab">
+    <param name="Name" value="Query">
+    <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_query.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find serial number dialog box">
+      <param name="Name" value="Query">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_query.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quick find tab">
+    <param name="Name" value="Quick Find">
+    <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_quick_find.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find serial number dialog box">
+      <param name="Name" value="Quick Find">
+      <param name="Local" value="serial-num-trk\find\serialized-and-auto-serialized-items\the_find_serial_number_dialog_box_quick_find.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales process">
+    <param name="Name" value="Stock Transfers s as a part of the Sales Process:">
+    <param name="Local" value="misc\stock_transfers_s_as_a_part_of_the_sales_process_.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfers as a part of sales process">
+      <param name="Name" value="Stock Transfers s as a part of the Sales Process:">
+      <param name="Local" value="misc\stock_transfers_s_as_a_part_of_the_sales_process_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="serial number">
+    <param name="Name" value="Attach a Manufacturer's Serial Number to Items">
+    <param name="Local" value="misc\attaching_manufacturer_s_serial_numbers_to_items.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="serial number profile">
+    <param name="Name" value="The Serial Number Profile">
+    <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_1.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general tab">
+      <param name="Name" value="The Serial Number Profile - General">
+      <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_general.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="miscellaneous tab">
+      <param name="Name" value="The Serial Number Profile - Miscellaneous">
+      <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_miscellaneous.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify the Serial Number Profile">
+      <param name="Local" value="serial-num-trk\serial-number-details\modifying_the_serial_number_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase details tab">
+      <param name="Name" value="The Serial Number Profile - Purchase Details">
+      <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_purchase_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="details">
+      <param name="Name" value="Serial Number Details">
+      <param name="Local" value="serial-num-trk\serial-number-details\the_serial_number_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom fields tab">
+      <param name="Name" value="The Serial Number Profile - Custom Fields">
+      <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_-_custom_fields.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multimedia tab">
+      <param name="Name" value="The Serial Number Profile - Multimedia">
+      <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_-_multimedia.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="serial number tracking in Everest">
+    <param name="Name" value="Serial Number Tracking in Everest">
+    <param name="Local" value="serial-num-trk\serial_number_tracking_in_everest.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="attach manufacturers serial number to items">
+      <param name="Name" value="Attach a Manufacturer's Serial Number to Items">
+      <param name="Local" value="misc\attaching_manufacturer_s_serial_numbers_to_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom fields">
+      <param name="Name" value="Custom Fields for Serial Numbers">
+      <param name="Local" value="serial-num-trk\serial-number-details\custom_fields_in_serial_number.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find">
+      <param name="Name" value="Find Serial Number">
+      <param name="Local" value="serial-num-trk\find\find_serial_number.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="manufacturer">
+      <param name="Name" value="Manufacturer's Serial Numbers">
+      <param name="Local" value="serial-num-trk\manufacturer-s-serial-numbers\manufacturer_s_serial_numbers_wm.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify manufacturers serial number">
+      <param name="Name" value="Modify a Manufacturer's Serial Number">
+      <param name="Local" value="misc\modify_a_manufacturer_s_serial_numbers_wm.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Serial Number Profile">
+      <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_1.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="tracking">
+      <param name="Name" value="Serial Number Tracking">
+      <param name="Local" value="serial-num-trk\serial_number_tracking.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="serial numbers browser">
+    <param name="Name" value="Cost Column Logic for Serial Numbers Browser">
+    <param name="Local" value="misc\cost_column_logic_for_serial_numbers_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost column logic">
+      <param name="Name" value="Cost Column Logic for Serial Numbers Browser">
+      <param name="Local" value="misc\cost_column_logic_for_serial_numbers_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="information available">
+      <param name="Name" value="Information Available in the Serial Numbers Browser">
+      <param name="Local" value="serial-num-trk\serial-number-details\browser\information_available_from_the_serial_numbers_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="options">
+      <param name="Name" value="Serial Numbers Browser Options">
+      <param name="Local" value="serial-num-trk\serial-number-details\browser\serial_numbers_browser_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="stock areas">
+    <param name="Name" value="Stock Groups and Stock Areas">
+    <param name="Local" value="managing-physical-stocks\stock_groups_and_stock_areas.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="stock groups">
+    <param name="Name" value="Stock Groups and Stock Areas">
+    <param name="Local" value="managing-physical-stocks\stock_groups_and_stock_areas.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="stock transfer">
+    <param name="Name" value="Stock Transfer">
+    <param name="Local" value="managing-physical-stocks\stock_transfer.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity expression">
+      <param name="Name" value="Quantity Expression">
+      <param name="Local" value="misc\quantity_expression_stck_transfer_doc.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Stock Transfer Profile">
+      <param name="Local" value="inv-adj\stk-trans\create-stock-transfer-document\the_stock_transfers_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Stock Transfer Details">
+    <param name="Name" value="Stock Transfer Details">
+    <param name="Local" value="inv-adj\stk-trans\stock-transfer-details\stock_transfer_details.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting entries">
+      <param name="Name" value="Accounting Entries for a Stock Transfer Document">
+      <param name="Local" value="inv-adj\stk-trans\stock-transfer-details\accounting_entries_for_a_stock_transfer_document.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="back end process">
+      <param name="Name" value="Back End Processes">
+      <param name="Local" value="inv-adj\stk-trans\stock-transfer-details\back_end_processes_stck_trsr.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="The Stock Transfers Browser">
+      <param name="Local" value="inv-adj\stk-trans\create-stock-transfer-document\the_stock_transfers_browser_new.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create document">
+      <param name="Name" value="Create a Stock Transfer Document">
+      <param name="Local" value="inv-adj\stk-trans\create-stock-transfer-document\create_a_stock_transfer_document.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general journal">
+      <param name="Name" value="General Journal in which stock transfers are entered:">
+      <param name="Local" value="inv-adj\stk-trans\stock-transfer-details\general_journal_in_which_stock_transfers_are_entered_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="mask cost information">
+      <param name="Name" value="Masking Cost Information in Stock Transfers">
+      <param name="Local" value="misc\masking_cost_information_in_stock_transfers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="matrix items">
+      <param name="Name" value="Stock Transfer of Matrix Items">
+      <param name="Local" value="inv-adj\stk-trans\trans-stk-matrix-items\stock_transfer_of_matrix_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify a Stock Transfer Document">
+      <param name="Local" value="inv-adj\stk-trans\create-stock-transfer-document\modify_a_stock_transfer_document.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="print document">
+      <param name="Name" value="Print a Stock Transfer Document">
+      <param name="Local" value="misc\printing_stock_transfer_documents.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="The Stock Transfers Profile">
+      <param name="Local" value="inv-adj\stk-trans\create-stock-transfer-document\the_stock_transfers_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer document">
+      <param name="Name" value="Stock Transfers from a Stock Transfer Document">
+      <param name="Local" value="inv-adj\stk-trans\stock_transfers_from_stock_transfer_documents.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfers as a part of the purchase process">
+      <param name="Name" value="Stock Transfers as a part of the Purchase Process:">
+      <param name="Local" value="misc\stock_transfers_as_a_part_of_the_purchase_process_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfers as a part of the sales process">
+      <param name="Name" value="Stock Transfers s as a part of the Sales Process:">
+      <param name="Local" value="misc\stock_transfers_s_as_a_part_of_the_sales_process_.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="stock transfers">
+    <param name="Name" value="Stock Transfers from Sales and Purchase Documents">
+    <param name="Local" value="inv-adj\stk-trans\stock_transfers_from_sales_purchase_documents.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase documents">
+      <param name="Name" value="Stock Transfers from Sales and Purchase Documents">
+      <param name="Local" value="inv-adj\stk-trans\stock_transfers_from_sales_purchase_documents.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales documents">
+      <param name="Name" value="Stock Transfers from Sales and Purchase Documents">
+      <param name="Local" value="inv-adj\stk-trans\stock_transfers_from_sales_purchase_documents.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="stocks">
+    <param name="Name" value="Managing Physical Stocks">
+    <param name="Local" value="managing-physical-stocks\managing_physical_stocks.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="manage physical stocks">
+      <param name="Name" value="Managing Physical Stocks">
+      <param name="Local" value="managing-physical-stocks\managing_physical_stocks.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="track">
+    <param name="Name" value="Serial Number Tracking">
+    <param name="Local" value="serial-num-trk\serial_number_tracking.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serial number">
+      <param name="Name" value="Serial Number Tracking">
+      <param name="Local" value="serial-num-trk\serial_number_tracking.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock-in-transit">
+      <param name="Name" value="Tracking a Stock-in-Transit">
+      <param name="Local" value="misc\tracking_stocks_in_transit.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="utility of lot number tracking">
+    <param name="Name" value="Utility of Lot Number Tracking">
+    <param name="Local" value="lot-number-tracking\utility_of_lot_number_tracking.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="warehouse management">
+    <param name="Name" value="Warehouse Management">
+    <param name="Local" value="warehouse_management.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="functions">
+      <param name="Name" value="Warehouse Management Functions">
+      <param name="Local" value="warehouse_management_functions.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounting entries tab">
+    <param name="See Also" value="accounting entries tab">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory adjustment document profile">
+      <param name="Name" value="Accounting Entries Information">
+      <param name="Local" value="misc\accounting_entries_information_inv_adj_doc_det.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment profile">
+      <param name="Name" value="Accounting Entries Tab">
+      <param name="Local" value="misc\accounting_entries_tab_cost_adj_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection profile">
+      <param name="Name" value="Accounting Entries Tab">
+      <param name="Local" value="misc\accounting_entries_tab_price_prot_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity adjustment profile">
+      <param name="Name" value="Accounting Entries Tab">
+      <param name="Local" value="misc\accounting_entries_tab_qty_adj_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer profile">
+      <param name="Name" value="Transactions Tab (Accounting Entries)">
+      <param name="Local" value="misc\accounting_entries_tab_stck_trnsr_profiel_steps.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="inventory adjustment document profile">
+    <param name="See Also" value="inventory adjustment document profile">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting entries tab">
+      <param name="Name" value="Accounting Entries Information">
+      <param name="Local" value="misc\accounting_entries_information_inv_adj_doc_det.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="cost adjustment profile">
+    <param name="See Also" value="cost adjustment profile">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting entries tab">
+      <param name="Name" value="Accounting Entries Tab">
+      <param name="Local" value="misc\accounting_entries_tab_cost_adj_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="details tab">
+      <param name="Name" value="Details Tab">
+      <param name="Local" value="misc\details_tab_cost_adjustments_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="transaction history tab">
+      <param name="Name" value="Transaction History Tab">
+      <param name="Local" value="misc\transaction_history_tab_cost_adj_steps.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="price protection profile">
+    <param name="See Also" value="price protection profile">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting entries tab">
+      <param name="Name" value="Accounting Entries Tab">
+      <param name="Local" value="misc\accounting_entries_tab_price_prot_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="details tab">
+      <param name="Name" value="Details Tab">
+      <param name="Local" value="misc\details_tab_price_prot_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="transaction history tab">
+      <param name="Name" value="Transaction History Tab">
+      <param name="Local" value="misc\transaction_history_tab_price_prot_steps.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity adjustment profile">
+    <param name="See Also" value="quantity adjustment profile">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounting entries tab">
+      <param name="Name" value="Accounting Entries Tab">
+      <param name="Local" value="misc\accounting_entries_tab_qty_adj_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="details tab">
+      <param name="Name" value="Details Tab">
+      <param name="Local" value="misc\details_tab_quantity_adjustments_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="transaction history tab">
+      <param name="Name" value="Transaction History Tab">
+      <param name="Local" value="misc\transaction_history_tab_qty_adj.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="stock transfer profile">
+    <param name="See Also" value="stock transfer profile">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="details tab">
+      <param name="Name" value="Details Tab">
+      <param name="Local" value="misc\details_tab_stck_trsr_profile_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="history tab (transactions)">
+      <param name="Name" value="History Tab (Transactions)">
+      <param name="Local" value="misc\transaction_history_tab_stck_trsr_profile_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity and cost information">
+      <param name="Name" value="Quantity and Cost Information">
+      <param name="Local" value="misc\quantity_and_cost_information_stck_trsr_prfle_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="status bar information">
+      <param name="Name" value="Status Bar Information">
+      <param name="Local" value="misc\status_bar_information_stck_trsr_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="transaction tab (accounting entries)">
+      <param name="Name" value="Transaction Tab (Accounting Entries)">
+      <param name="Local" value="misc\accounting_entries_tab_stck_trnsr_profiel_steps.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="area selection">
+    <param name="See Also" value="area selection">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="dialog box">
+      <param name="Name" value="Area Selection Dialog Box">
+      <param name="Local" value="inv-adj\stk-trans\trans-stk-matrix-items\details\area_selection_dialog_box_matrix_sck_trsr.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="calculation">
+    <param name="See Also" value="calculation">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer amounts">
+      <param name="Name" value="Calculation of Stock Transfer Amounts">
+      <param name="Local" value="inv-adj\stk-trans\stock-transfer-details\calculation_of_stock_transfer_amounts_new.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="stock transfer amounts">
+    <param name="See Also" value="stock transfer amounts">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="calculation">
+      <param name="Name" value="Calculation of Stock Transfer Amounts">
+      <param name="Local" value="inv-adj\stk-trans\stock-transfer-details\calculation_of_stock_transfer_amounts_new.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="inventory adjustment document">
+    <param name="See Also" value="inventory adjustment document">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom fields tab">
+      <param name="Name" value="Custom Fields Information">
+      <param name="Local" value="misc\custom_fields_information_inv_adj_det.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="details tab">
+      <param name="Name" value="Details">
+      <param name="Local" value="misc\details_doc_tab_view_info_inv_adj_det.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="document information">
+      <param name="Name" value="Document Information">
+      <param name="Local" value="misc\document_information_inv_adj_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="document tab view information">
+      <param name="Name" value="Document Tab View Information">
+      <param name="Local" value="misc\document_tab_view_information_inv_adj_doc_det.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="transaction history information">
+      <param name="Name" value="Transaction History Information">
+      <param name="Local" value="misc\transaction_history_information_inv_adj_det.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multimedia information">
+      <param name="Name" value="Multimedia Information">
+      <param name="Local" value="misc\multimedia_information_doc_tab_vie_inv_adj_doc.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="stock transfer document">
+    <param name="See Also" value="stock transfer document">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom fields tab">
+      <param name="Name" value="Custom Fields Tab">
+      <param name="Local" value="misc\custom_fields_tab_stck_trnsfr_profile_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="details tab">
+      <param name="Name" value="Details">
+      <param name="Local" value="misc\detailstab_doc_tab_view_stck_trsr.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="document information">
+      <param name="Name" value="Document Information">
+      <param name="Local" value="misc\document_information_stck_trsr.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="document tab view information">
+      <param name="Name" value="Document Tab View Information">
+      <param name="Local" value="misc\document_tab_view_information_stck_trsr.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="status bar information">
+      <param name="Name" value="Status Bar Information">
+      <param name="Local" value="misc\status_bar_information_stck_trsr_doc_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multimedia tab">
+      <param name="Name" value="Multimedia Tab">
+      <param name="Local" value="misc\multimedia_tab_stck_trsr_profile_steps.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="cost adjustment document">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multimedia tab">
+      <param name="Name" value="Multimedia Tab">
+      <param name="Local" value="misc\multimedia_tab_cost_adj_steps.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="price protection document">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multimedia tab">
+      <param name="Name" value="Multimedia Tab">
+      <param name="Local" value="misc\multimedia_tab_price_prot_steps.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity adjustment document">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multimedia tab">
+      <param name="Name" value="Multimedia Tab">
+      <param name="Local" value="misc\multimedia_tab_quantity_adjustment.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="details tab">
+    <param name="See Also" value="details tab">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory adjustment document">
+      <param name="Name" value="Details">
+      <param name="Local" value="misc\details_doc_tab_view_info_inv_adj_det.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment profile">
+      <param name="Name" value="Details Tab">
+      <param name="Local" value="misc\details_tab_cost_adjustments_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection profile">
+      <param name="Name" value="Details Tab">
+      <param name="Local" value="misc\details_tab_price_prot_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity adjustment profile">
+      <param name="Name" value="Details Tab">
+      <param name="Local" value="misc\details_tab_quantity_adjustments_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer profile">
+      <param name="Name" value="Details Tab">
+      <param name="Local" value="misc\details_tab_stck_trsr_profile_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer document">
+      <param name="Name" value="Details">
+      <param name="Local" value="misc\detailstab_doc_tab_view_stck_trsr.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="document information">
+    <param name="See Also" value="document information">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory adjustment document">
+      <param name="Name" value="Document Information">
+      <param name="Local" value="misc\document_information_inv_adj_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer document">
+      <param name="Name" value="Document Information">
+      <param name="Local" value="misc\document_information_stck_trsr.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="document tab view information">
+    <param name="See Also" value="document tab view information">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory adjustment document">
+      <param name="Name" value="Document Tab View Information">
+      <param name="Local" value="misc\document_tab_view_information_inv_adj_doc_det.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer document">
+      <param name="Name" value="Document Tab View Information">
+      <param name="Local" value="misc\document_tab_view_information_stck_trsr.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="transaction history information">
+    <param name="See Also" value="transaction history information">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory adjustment document">
+      <param name="Name" value="Transaction History Information">
+      <param name="Local" value="misc\transaction_history_information_inv_adj_det.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="transaction history tab">
+    <param name="See Also" value="transaction history tab">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment profile">
+      <param name="Name" value="Transaction History Tab">
+      <param name="Local" value="misc\transaction_history_tab_cost_adj_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection profile">
+      <param name="Name" value="Transaction History Tab">
+      <param name="Local" value="misc\transaction_history_tab_price_prot_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity adjustment profile">
+      <param name="Name" value="Transaction History Tab">
+      <param name="Local" value="misc\transaction_history_tab_qty_adj.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer profile">
+      <param name="Name" value="History Tab (Transactions)">
+      <param name="Local" value="misc\transaction_history_tab_stck_trsr_profile_steps.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="multimedia tab">
+    <param name="See Also" value="multimedia tab">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="serial number profile">
+      <param name="Name" value="The Serial Number Profile - Multimedia">
+      <param name="Local" value="serial-num-trk\serial-number-details\the-serial-number-profile\the_serial_number_profile_-_multimedia.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer document">
+      <param name="Name" value="Multimedia Tab">
+      <param name="Local" value="misc\multimedia_tab_stck_trsr_profile_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity adjustment document">
+      <param name="Name" value="Multimedia Tab">
+      <param name="Local" value="misc\multimedia_tab_quantity_adjustment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection document">
+      <param name="Name" value="Multimedia Tab">
+      <param name="Local" value="misc\multimedia_tab_price_prot_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment document">
+      <param name="Name" value="Multimedia Tab">
+      <param name="Local" value="misc\multimedia_tab_cost_adj_steps.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="matrix items view">
+    <param name="See Also" value="matrix items view">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="dialog box - stock transfers">
+      <param name="Name" value="The Matrix Items View dialog box">
+      <param name="Local" value="inv-adj\stk-trans\trans-stk-matrix-items\details\the_matrtix_items_view_dialog_box_stck_trsr.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="status bar information">
+    <param name="See Also" value="status bar information">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer profile">
+      <param name="Name" value="Status Bar Information">
+      <param name="Local" value="misc\status_bar_information_stck_trsr_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer document">
+      <param name="Name" value="Status Bar Information">
+      <param name="Local" value="misc\status_bar_information_stck_trsr_doc_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity adjustment document">
+      <param name="Name" value="Status Bar Information">
+      <param name="Local" value="misc\status_bar_information_qty_adj_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="price protection document">
+      <param name="Name" value="Status Bar Information">
+      <param name="Local" value="misc\status_bar_information_price_prot_steps.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory adjustment document">
+      <param name="Name" value="Status Bar Information">
+      <param name="Local" value="misc\status_bar_information_inv_adj_det.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cost adjustment document">
+      <param name="Name" value="Status Bar Information">
+      <param name="Local" value="misc\status_bar_information_cost_adj_steps.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="retrieve discontinued item(s)">
+    <param name="See Also" value="retrieve discontinued item(s)">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer documents">
+      <param name="Name" value="Retrieving Discontinued Item(s) into Stock Transfer Documents">
+      <param name="Local" value="misc\retrieving_discontinued_item_s_into_stock_transfer_documents.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory adjustment documents">
+      <param name="Name" value="Retrieving Discontinued Item(s) into Inventory Adjustment Documents">
+      <param name="Local" value="misc\retrieving_discontinued_item_s_into_inv_adj_documents.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity and cost information">
+    <param name="See Also" value="quantity and cost information">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock transfer profile">
+      <param name="Name" value="Quantity and Cost Information">
+      <param name="Local" value="misc\quantity_and_cost_information_stck_trsr_prfle_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory adjustment profile">
+      <param name="Name" value="Quantity and Cost Information">
+      <param name="Local" value="misc\quantity_and_cost_information_inv_adj_doc_det.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="inventory adjustment profile">
+    <param name="See Also" value="inventory adjustment profile">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="quantity and cost information">
+      <param name="Name" value="Quantity and Cost Information">
+      <param name="Local" value="misc\quantity_and_cost_information_inv_adj_doc_det.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="multimedia information">
+    <param name="See Also" value="multimedia information">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="inventory adjustment document">
+      <param name="Name" value="Multimedia Information">
+      <param name="Local" value="misc\multimedia_information_doc_tab_vie_inv_adj_doc.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="stock count">
+    <param name="Name" value="Stock Count">
+    <param name="Local" value="inv-adj\stock-count\stock_count.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create a stock count">
+      <param name="Name" value="Create a Stock Count Document">
+      <param name="Local" value="inv-adj\stock-count\create_a_stock_count_document.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock count profile">
+      <param name="Name" value="The Stock Count Profile">
+      <param name="Local" value="inv-adj\stock-count\the_stock_count_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock count browser">
+      <param name="Name" value="The Stock Count Browser">
+      <param name="Local" value="inv-adj\stock-count\the_stock_count_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="stock count profile">
+    <param name="Name" value="The Stock Count Profile">
+    <param name="Local" value="inv-adj\stock-count\the_stock_count_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="stock count profile options">
+      <param name="Name" value="Stock Count Profile Options">
+      <param name="Local" value="inv-adj\stock-count\stock-count-profile-options\stock_count_profile_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="update physical stock">
+    <param name="Name" value="Update Physical Stock">
+    <param name="Local" value="inv-adj\stock-count\update-physical-stock\update_physical_stock.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="enter or scan physical stock">
+      <param name="Name" value="Enter or Scan Physical Stock">
+      <param name="Local" value="inv-adj\stock-count\update-physical-stock\enter_or_scan_physical_stock.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="import physical stock">
+      <param name="Name" value="Import Physical Stock">
+      <param name="Local" value="inv-adj\stock-count\update-physical-stock\import_physical_stock.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="quantity adjustment">
+    <param name="Name" value="Impact of Quantity Adjustment">
+    <param name="Local" value="inv-adj\stock-count\impact-of-quantity-adjustment\impact_of_quantity_adjustment.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="impact of quantity adjustment on inventoried items">
+      <param name="Name" value="Impact of Quantity Adjustment on Inventoried Items">
+      <param name="Local" value="inv-adj\stock-count\impact-of-quantity-adjustment\impact_of_quantity_adjustment_on_inventoried_items.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="impact of quantity adjustment on serialized items">
+      <param name="Name" value="Impact of Quantity Adjustment on Serialized Items">
+      <param name="Local" value="inv-adj\stock-count\impact-of-quantity-adjustment\impact_of_quantity_adjustment_on_serialized_items.html">
+    </object>
+    </ul>
+</ul>
+</html>

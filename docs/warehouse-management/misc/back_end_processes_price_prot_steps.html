@@ -1,0 +1,30 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes">Back End Processes</h1>
+
+<p>Following are the back end processes that take place, when you make  an inventory adjustment for price protection:</p>
+
+<ul>
+  <li>The inventory  value of the item increases, if the adjustment is positive, and reduces,  if the adjustment is negative.</li>
+  <li>The average  cost of the item changes. The new average cost is calculated by dividing  the new inventory value by the quantity in stock.</li>
+  <li>If  the item is serialized, the cost of the serial numbers attached to the  document is updated with the new cost.</li>
+  <li>The  amount payable to the vendor increases, if the adjustment increases inventory  value, and decreases, if the adjustment reduces inventory value.</li>
+  <li>A  manual purchase invoice is created, if there is an increase in inventory.  The unposted  amount of the vendor also increases. When the accounting entry for the  transaction is posted, the unposted  amount decreases and posted amount increases.</li>
+  <li>A  manual debit memo is created, if there is a reduction in inventory. The  unposted amount  of the vendor also decreases. When the accounting entry for the transaction  is posted, then the unposted  amount increases and posted amount decreases.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-vendors/vendor-details/accounting-information/accounting_information_vendors_content.html">Accounting  Information</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/inv-adj/price-protection/price_protection_new.html">Price Protection</a></dd>
+</dl>
+
+
+
+
+</div>

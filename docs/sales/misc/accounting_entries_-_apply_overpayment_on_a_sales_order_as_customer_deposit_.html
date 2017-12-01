@@ -1,0 +1,65 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries---apply-overpayment-on-a-sales-order-as-customer--deposit">Accounting Entries - Apply Overpayment on a Sales Order as Customer  Deposit</h1>
+
+<p>The following accounting entries occur when you apply an overpayment  as a customer deposit to a sales order.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry Type</td>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/<br /><br /><br />Credit</td>
+      <td>Amount</td>
+      <td>Document reference</td>
+    </tr>
+    <tr>
+      <td>Apply deposit on sales order</td>
+      <td>Customer Deposit</td>
+      <td>The account selected for Customer Deposit in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; <br /> Preferences &gt; Defaults &gt; Accounting &gt; Posting Group</strong> tab)  of Customer Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><a href="/versata-everest-docs/setting-up-a-company/options/acc-info/posting-group/posting_group_profile_accounting_setup.html">Posting  Group profile</a><br /><br /><br /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_customer_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  Order for Customer Posting Group</a></td>
+      <td>Debit</td>
+      <td>Amount overpaid</td>
+      <td>Original sales order no.</td>
+    </tr>
+    <tr>
+      <td>Deposit on sales order</td>
+      <td>Customer Deposit</td>
+      <td>The account selected for Customer Deposit in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; <br /> Preferences &gt; Defaults &gt; Accounting &gt; Posting Group</strong> tab)  of Customer Posting Group type.</td>
+      <td>Credit</td>
+      <td>Amount overpaid</td>
+      <td>Manual sales order</td>
+    </tr>
+    <tr>
+      <td>Gain/Loss on deposit</td>
+      <td>Customer Deposit Account</td>
+      <td>The account selected for Customer Deposits in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; <br /> Preferences &gt; Defaults &gt; Accounting &gt; Posting Group</strong> tab)  of Customer Posting Group type.</td>
+      <td>Debit (if there is a loss)<br /><br /><br />Credit (if there is a gain)</td>
+      <td>Difference between the exchange rate on the document date and the deposit  date</td>
+      <td>Nil</td>
+    </tr>
+    <tr>
+      <td>Gain/Loss</td>
+      <td>Gain on Forex Transactions or Loss on Forex Transactions</td>
+      <td>The accounts selected in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; <br /> Preferences &gt; Defaults &gt; Accounting &gt; Multicurrency</strong> tab)<br /><br /><br />• G/L Account for gain on settlement of foreign currency documents<br /><br /><br />G/L Account for loss on settlement of foreign currency documents</td>
+      <td>Credit (for gain)<br /><br /><br />Debit (for loss)</td>
+      <td>Difference between the exchange rate at the time of receiving deposit  and applying the overpayment.</td>
+      <td>Nil</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/misc/reduce_document_value_below_paid_amount.html">Reduce  Document Value Below Paid Amount</a></dd>
+  <dd><a href="/versata-everest-docs/sales/misc/default_accounts_for_sales_transactions.html">Default  Accounts for Sales Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,56 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="stock-status-of-items---work-order-in-process">Stock Status of Items - Work Order in Process</h1>
+
+<p>You can set a preference to move the items to another stock area when  a work order’s stage changes to “In Process”. This stock area  is decided using the following logic:</p>
+
+<ul>
+  <li>Use the stock  area specified in the <strong>Select Stock Area 
+ to issue inventoried components of assembly on a work order</strong> field  of the <strong>Location</strong> profile (path:  <strong>File &gt; Setup &gt; Accounting &gt; 
+ Location/ Sub-Location &gt; Options &gt; Edit &gt; In New Window &gt; 
+ Stock Transfer &gt; Assembly1</strong> tab) for the login location.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/stock_transfer_assembly_1.html">Location  Profile - Stock Transfer - Assembly1 Tab</a></p>
+
+<ul>
+  <li>If a stock  area is not defined for the logged in location, the stock area assigned  for the default location specified in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Default Location</strong> field) is used.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></p>
+
+<ul>
+  <li>If this stock  area is not defined for the default location also, the stock area specified  in the <strong>Purchase Receipt/Invoice</strong>  option (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location</strong>/<strong>Sub-Location</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Stock</strong> <strong>Transfer</strong>  &gt; <strong>Purchase</strong> <strong>Document</strong> tab &gt; <strong>Select Stock Area to 
+ Transfer inventoried items into when creating</strong> section) for the  login location is used.</li>
+  <li>If the stock  area is not specified for the login location, the stock area specified  for purchase receipts/invoices in the default location is used.</li>
+</ul>
+
+<p>When the work order status is changed to “in process”, the  stock status of the item (as displayed in the <strong>Item 
+ Stock Status</strong> dialog box) displays the following changes:</p>
+
+<ul>
+  <li><strong>Stock 
+ Status in the transferred (in process) stock area</strong> - There is an  increase in the quantity of <strong>Stock</strong>  and <strong>On Reserve</strong> stock (by the quantity  committed) in the stock area to which the item is transferred.</li>
+  <li><strong>Stock 
+ Status in the committed stock area</strong> - There is a decrease in the  <strong>Stock</strong> and <strong>On 
+ Reserve</strong> stock (by the quantity committed) in the stock area from  which the item is committed.</li>
+</ul>
+
+<p class="note">To view the item  stock status, select <strong>Options</strong> &gt;  <strong>Item</strong> &gt; <strong>Stock</strong><strong>Status</strong> from the <strong>Work</strong><strong>Order</strong> profile.</p>
+
+<p>There is no change of stock at the item level.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/work-in-proc/process_work_orders_work_order_profile_assembly_content.html">Work  In Process</a></dd>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/work-in-proc/back_end_process_work_orders_in_process_assembly_content.html">Back  End Process - Work in Process</a></dd>
+</dl>
+
+
+
+
+</div>

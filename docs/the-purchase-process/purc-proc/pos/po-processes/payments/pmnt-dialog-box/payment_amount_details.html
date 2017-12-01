@@ -1,0 +1,63 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payment-amount-details">Payment Amount Details</h1>
+
+<dl>
+  <dt><strong>Document Amount</strong></dt>
+  <dd>This field displays the total value of the document.  You cannot edit this field.</dd>
+  <dt><strong>Already Paid</strong></dt>
+  <dd>This field displays the amount that is already paid  on the document. In case of orders, it displays the amount of deposit  that is not applied to any other document. For purchase invoices, it displays  the amount paid on the invoice and deposits applied to it. The amount  paid includes both posted payments and un-posted payments. You cannot  edit this field.</dd>
+  <dd>Click the <strong>Already 
+ Paid</strong> label to view the <strong>Payment 
+ History</strong>.</dd>
+  <dt><strong>Amount</strong></dt>
+  <dd>Enter the amount being paid to the vendor. By default  the <strong>Amount</strong> field displays the  balance amount payable on the document. You cannot pay an amount that  is greater than the value of the purchase order or purchase invoice.</dd>
+</dl>
+
+<p class="example">If the value of an order is $1000 and you  have already paid $600, the maximum amount you can pay is $400.</p>
+
+<dl>
+  <dt><strong>Advance Applied</strong></dt>
+  <dd>This field displays the amount of deposits and debit  memos applied to a purchase invoice during the current payment process.  You cannot edit this field.</dd>
+  <dd>Click the <strong>Advance 
+ Applied</strong> label to view the <a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/po-processes/payments/pmnt-dialog-box/apply_deposits_refunds_payment_dialog_box_purchases.html"><strong>Apply Deposit/Refunds</strong> tab</a>.</dd>
+  <dt><strong>Discount Available</strong></dt>
+  <dd>Discounts may be available for prompt payment based  on the payment terms for the purchase invoice. This field displays discount  calculated for the current payment. Discounts are calculated only on purchase  invoices.</dd>
+  <dd>Number of days for computing discount is calculated  from the check date to due date. If the date is blank, the database server  date is used. You cannot edit this field.</dd>
+  <dd><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><font style="color: #008000;" color="#008000"> </font><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/payment-terms/payment-term-details/discount_information.html">Payment  Terms - Discount Information</a></dd>
+</dl>
+
+<p class="note">This field is not enabled for refund on a debit memo.</p>
+
+<dl>
+  <dt><strong>Discounts Applied</strong></dt>
+  <dd>Enter the amount of available discount that is claimed  for this document. You can set a flow control preference to automatically  apply discounts by selecting the <strong>Automatically</strong><strong>apply</strong> <strong>payment</strong><strong>terms</strong> <strong>discount</strong><strong>for</strong> <strong>vendor</strong><strong>document</strong> option (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow</strong> <strong>Control</strong>  &gt; <strong>Documents</strong> &gt; <strong>Miscellaneous</strong>  &gt; <strong>Document</strong> <strong>Payments</strong>  tab).</dd>
+  <dd>The <strong>Payment Discount 
+ for Purchases</strong> account is credited with this payment discount.</dd>
+  <dd><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" />  <a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/pi-processes/payments/accounting-entries/accounting_entries_new_pr.html">Accounting  Entries - New Payment on a Purchase Invoice</a></dd>
+  <dd>The total discount applied is displayed in the <strong>Payment</strong> <strong>Discounts</strong>  field of the <strong>Purchase Invoice</strong> profile.</dd>
+</dl>
+
+<p class="note">Discounts are calculated and displayed only if the payment  is made from a document. If you make a payment from a payment journal,  then the available discounts are not displayed.</p>
+
+<p>If the payment entry, having a payment discount, is  deleted, the amount of discount is reduced from the total payment discount  on the purchase invoice.</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/doc-frm/misc/document_payments_business_process_contents.html">Flow  Control - Document Payments</a></p>
+
+<dl>
+  <dt><strong>Total Paid</strong></dt>
+  <dd>This field displays the total amount paid on the  document. This is the sum of the amount already paid, the amount currently  being paid and the advance applied less the discount applied. This amount  cannot be greater than the document value. You cannot edit this field.</dd>
+  <dt><strong>Balance</strong></dt>
+  <dd>This field displays the balance remaining to be  paid on the purchase order/invoice. You cannot edit this field.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/po-processes/payments/pmnt-dialog-box/the_payment_for_dialog_box_general_tab_purhcase.html">Payment  Dialog Box - General</a></dd>
+</dl>
+
+
+
+
+</div>

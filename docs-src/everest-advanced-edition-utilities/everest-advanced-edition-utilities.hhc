@@ -1,0 +1,194 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="_blank">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800027">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest Advanced Edition - Utilities">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Database Update Utility">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Database Update Utility">
+        <param name="Local" value="database-update-utility\dbupdate_database_update_utility.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Database Update Wizard">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Database Update Wizard">
+          <param name="Local" value="database-update-utility\wizard\dbupdate_database_update_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Database Server and Company Details">
+          <param name="Local" value="database-update-utility\wizard\dbupdate_database_server_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Security Group Creation and Assignment">
+          <param name="Local" value="database-update-utility\wizard\security_group_creation_and_assignment_eu.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Database Backup">
+          <param name="Local" value="database-update-utility\wizard\dbupdate_database_backup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Database Update Disk Space Requirements">
+          <param name="Local" value="database-update-utility\wizard\database_update_disk_space_requirements_eu.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Comparing System Database with Everest  Defaults">
+          <param name="Local" value="database-update-utility\wizard\dbu_update_comparing_company_database_with_everest_defaults.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="System Database Update">
+          <param name="Local" value="database-update-utility\wizard\dbupdate_database_update.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company Database Update">
+          <param name="Local" value="database-update-utility\wizard\company_database_update_duu_eu.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Update Completed">
+          <param name="Local" value="database-update-utility\wizard\dbupdate_update_completed.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Database Migration Utility">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Database Migration Utility">
+        <param name="Local" value="database-migration-utility\database_migration_utility_eu.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Migration Scenarios">
+        <param name="Local" value="database-migration-utility\migration_scenarios.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Database Migration Wizard">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Database Migration Wizard">
+          <param name="Local" value="database-migration-utility\wizard\database_migration_wizard_eu.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Welcome">
+          <param name="Local" value="database-migration-utility\wizard\welcome_dmw_eu.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Source Type Selection">
+          <param name="Local" value="database-migration-utility\wizard\source_type_selection_dmw_eu.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Source Database Information">
+          <param name="Local" value="database-migration-utility\wizard\source_database_information_dmw_eu.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Source File Information">
+          <param name="Local" value="database-migration-utility\wizard\source_file_information_dmw_eu.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Destination Database Information">
+          <param name="Local" value="database-migration-utility\wizard\destination_database_information_dmw_eu.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Select Companies">
+          <param name="Local" value="database-migration-utility\wizard\select_companies_dmw_eu.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Conclusion">
+          <param name="Local" value="database-migration-utility\wizard\conclusion_dmw_eu.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Database Explorer">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Database Explorer">
+        <param name="Local" value="database-explorer\database_explorer.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The DB Explorer Browser">
+        <param name="Local" value="database-explorer\the_db_explorer_browser.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Custom Database Object Utility">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Database Object">
+        <param name="Local" value="custom-db-obj-utility\cdbo_custom_database_object.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Dbo Utility">
+        <param name="Local" value="custom-db-obj-utility\cdbo_custom_dbo_utility.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Database Object Utility browser">
+        <param name="Local" value="custom-db-obj-utility\cdbo_custom_database_object_utility_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Options Available in the Custom Database Object Utility Browser">
+        <param name="Local" value="custom-db-obj-utility\cdbo_options_available_in_the_custom_database_object_utility_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Database Object Profile">
+        <param name="Local" value="custom-db-obj-utility\cdbo_the_custom_database_object_profile.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Eproxy Utility">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Eproxy Utility">
+        <param name="Local" value="eproxy-utility\eproxy_utility.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="EProxy Utility Dialog Box">
+        <param name="Local" value="eproxy-utility\eproxy_utility_dialog_box.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The EProxy Profile Dialog Box">
+        <param name="Local" value="eproxy-utility\the_eproxy_profile_dialog_box.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Change Login Password Utility">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Change Login Password Utility">
+        <param name="Local" value="change-login-password-utility\change_login_password_utility.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Change SQL Server User Name and Password">
+        <param name="Local" value="change-login-password-utility\change_sql_server_user_name_and_password.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Change the Database Username and Password">
+        <param name="Local" value="change-login-password-utility\change_the_database_username_and_password.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Change the System Password">
+        <param name="Local" value="change-login-password-utility\change_the_system_password.html">
+      </object>
+      </ul>
+    </ul>
+</ul>
+</html>

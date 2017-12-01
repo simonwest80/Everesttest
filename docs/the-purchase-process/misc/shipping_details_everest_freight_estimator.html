@@ -1,0 +1,79 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="shipping-details">Shipping Details</h1>
+
+<dl>
+  <dt><strong>Ship Via</strong></dt>
+  <dd>The delivery method defined in the <strong>Ship 
+ Via</strong> field of the document profile is displayed, by default, in  this field. You can change the delivery method from the document profile  or the <strong>Rate Shop</strong> window. You must  identify the shipping agent/carrier in the <strong>Delivery 
+ Method</strong> profile.</dd>
+  <dt><strong>Rate Shop</strong></dt>
+  <dd>Click the <img src="/versata-everest-docs/the-purchase-process/img/pur_rate_shop.gif" alt="" /> button to change the  delivery method in this field. You will see the <strong>Rate</strong><strong>Shop</strong> <strong>Browser</strong>  that displays a list of all delivery methods and the corresponding rates.  To change the delivery method, select a record from the <strong>Rate</strong><strong>Shop</strong> <strong>Browser</strong>  and click <strong>OK</strong>.</dd>
+  <dd>If you change the delivery method in this field,  and update the document with the freight charges, the <strong>Ship</strong><strong>Via</strong> field in the document profile  also reflects the changes made.</dd>
+  <dt><strong>Declared Value</strong></dt>
+  <dd>The declared value is the total amount of all the  items (including non-inventoried items) on the document. This value is  used for computation of insurance. You can edit the declared value.</dd>
+  <dt><strong>Number of Packages</strong></dt>
+  <dd>Specify the number of packages in which the items  are shipped. Package based freight related charges (such as COD fee and  residential address charges) if any, are computed based on the number  of packages.</dd>
+  <dd><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/delivery_method_profile_rate_tab.html">The  Carrier Profile - Additional Rates</a></dd>
+</dl>
+
+<p><strong>Weight</strong></p>
+
+<p>By default, the weight of all the items on the document  duly converted to the weight measure (such as Kg/Lb) of the country pertaining  to the document’s location/sub-location is displayed. The weight of the  shipment determines the transportation cost.</p>
+
+<p><strong>Consider Pack Separately Flag</strong></p>
+
+<p>Select this check box if the pack separately setting  in the <strong>Item</strong> profile must be considered  while computing the number of packages.</p>
+
+<p class="example">You purchase three monitors, each unit weighing  10 lbs. You are charged freight at $3 per lb or $50 per package of the  item, whichever is more.</p>
+
+<p><strong>Case 1:</strong>  If you do not select the “Pack Separately” check box:</p>
+
+<p>Freight for 3 monitors = $3 x (3x10 lbs) =  $90</p>
+
+<p>Minimum freight per package = $50</p>
+
+<p>Thus, freight for the monitors is $90.00</p>
+
+<p><strong>Case 2:</strong>  If you select the “Pack Separately” check box:</p>
+
+<p>Freight for 3 monitors = $3 x (3x10 lbs) =  $90</p>
+
+<p>Minimum freight per package = $50</p>
+
+<p>Thus, freight for the three monitors is $150  (3x $50)</p>
+
+<p>This check box is enabled and automatically selected  if you select the <strong>Pack Separately</strong>  check box in the <strong>Item</strong> profile  (path: <strong>Inventory &gt; Items &gt; Options 
+ &gt; Edit &gt; in New Window &gt; Sales</strong> tab) for any item contained  in the purchase document.</p>
+
+<p><strong>C.O.D</strong></p>
+
+<dl>
+  <dt>Select this check box if the <strong>COD</strong>  (Cash on Delivery) fee has to be added to the estimated freight cost.  This check box is automatically selected if <strong>COD</strong>  is selected (path: **File &gt; Setup &gt; </dt>
+  <dt> Accounting &gt; Payment Terms &gt; Options &gt; Edit &gt; In New Window </dt>
+  <dt> &gt; Payment Term Type** field) for the payment term associated with  the document. You can modify this field.</dt>
+  <dd><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/payment-information/payment-terms/payment_terms.html">Payment  Terms</a></dd>
+</dl>
+
+<p><strong>Insured</strong></p>
+
+<p>Select this check box to compute insurance charges  on the insured shipment.</p>
+
+<p><strong>Residential</strong></p>
+
+<p>This check box is checked by default if you select  the <strong>Residential</strong> check box for  the address displayed in the <strong>Shipment 
+ Destination</strong> field. You can modify this field. The residential charges  are computed only if this check box is selected.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/doc-options/utils/freight-est/everest_freight_estimator_dialog_box_purchases.html">Everest  Freight Estimator dialog box</a></dd>
+</dl>
+
+
+
+
+</div>

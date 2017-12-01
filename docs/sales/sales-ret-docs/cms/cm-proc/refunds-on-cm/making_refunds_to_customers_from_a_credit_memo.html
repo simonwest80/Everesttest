@@ -1,0 +1,49 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="making-refunds-to-customers-from-a-credit-memo">Making Refunds to Customers from a Credit Memo</h1>
+
+<p>Payments may be made against a credit memo in one of the two ways:</p>
+
+<ul>
+  <li>Making a payment  to the customer.</li>
+  <li>Applying the  amount of the credit memo to a sales order as a deposit or an existing  sales invoice for payment.</li>
+</ul>
+
+<p>Foreign Exchange Information</p>
+
+<p>If you apply a credit memo against a sales order, the system does not  calculate foreign exchange gains or losses. Instead, the system applies  the balance of the credit memo to the sales order. If you make a payment  to a customer to settle a credit memo, the system calculates a foreign  exchange gain or loss and creates an accounting entry of Gain/Loss to  reflect the difference in exchange rate.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/misc/accounting_defaults_multi_currency.html">Accounting  Defaults - Multicurrency</a></p>
+
+<p><a href="/versata-everest-docs/sales/misc/applying_credit_memo_to_a_sales_order.html">Apply  a Credit Memo to a Sales Order</a></p>
+
+<p>If you have set a default account in EITHER the <strong>G/L 
+ account for gain on settlement for foreign currency documents</strong> field  OR the <strong>G/L 
+ account for loss on settlement for foreign currency documents</strong> field,  it can be used for both gains and losses.</p>
+
+<p>Refunds to customers from a credit memo can be made through a credit  card. A credit card payment is  processed  when you select the <strong>Use Payment Processor</strong>  option in the <strong>Payment Method</strong> profile  (path: <strong>File &gt; Setup &gt; Accounting 
+ &gt; Payment Methods &gt; Options &gt; Edit &gt; In New Window &gt;</strong><strong>Credit Card Processing</strong> tab).</p>
+
+<p class="steps">To make refunds on a credit memo, do the  following:</p>
+
+<ul>
+  <li>From the <strong>Credit Memo</strong> profile, select <strong>Options 
+ &gt; Payment &gt; Refund</strong>. You will see the <a href="/versata-everest-docs/sales/sales-ret-docs/cos/co-proc/refunds/dlg/the_payment_dialog_box_refund_cm.html"><strong>Refund</strong> dialog box</a>.</li>
+</ul>
+
+<p class="note">The <strong>Refund</strong> option  is enabled only when the refund is NOT made on the credit memo. On a new  credit memo the option is available when the credit memo is saved.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/cms/cm-proc/refunds-on-cm/refund-dlg/accounting_entries_refund_credit_memo.html">Accounting  Entries - Refund Credit Memo</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/cms/cm-proc/refunds-on-cm/refund-dlg/back_end_processes_refund_credit_memo.html">Back  End Processes - Refund Credit Memo</a></dd>
+</dl>
+
+
+
+
+</div>

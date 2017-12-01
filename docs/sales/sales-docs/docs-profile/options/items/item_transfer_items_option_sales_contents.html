@@ -1,0 +1,54 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="item-transfer">Item Transfer</h1>
+
+<p><strong>Important:</strong> The information in  this help file does not pertain to item transfers on sales orders. For  information on the process of transferring items on a sales order, refer  to the following topic:</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><a href="/versata-everest-docs/sales/misc/item_transfer_for_sales_orders_sal.html">Item  Transfer for Sales Orders </a></p>
+
+<p>The <strong>Item Transfer</strong> (path: Sales  Document profile &gt; <strong>Options &gt; Item 
+ &gt; Item Transfer</strong>) option allows you to transfer serialized items  attached to a sales document (other than a sales quote) to another stock  area of the same type. You can transfer serial numbers attached to both  positive and negative quantities of items. However, you can transfer these  items only to the same type of stock area to which they are committed.</p>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> A  positive quantity committed in a sales order and a negative quantity in  a credit order will be in a ‘stock’ type of stock area. Hence, they can  be transferred only to a ‘stock’ type of stock area.</p>
+
+<p>You can choose to transfer multiple serial numbers attached to an item  from different stock areas to one area at the same time. You can have  both positive and negative quantities of items on a document. Positive  quantities on a sales invoice indicate that the item has been sold. Negative  quantities indicate that the item has been returned by the customer. Positive  quantities on a sales order indicate that the item is to be sold, while  negative quantities indicate that it is to be returned.</p>
+
+<p>A serial number attached and committed to a positive item on a sales  order is in a ‘stock’ type of area, while a serial number attached to  a negative quantity is in an ‘out’ type of area. A serial number attached  to a sales invoice is generally in an ‘out’ type of stock area. All the  serial numbers selected for transfer from a document must be in the same  type of stock area - either ‘stock’ or ‘out’ type. They cannot be from  different types of stock areas.</p>
+
+<p class="note">You cannot transfer non-serialized items.</p>
+
+<p>You can only transfer serialized items that are attached  to currently open sales order/invoice using the <strong>Item 
+ Transfer</strong> option.</p>
+
+<p>The <strong>Item Transfer</strong> option from  within a sales document automatically creates a stock transfer document  for that particular transfer. Further, it also updates the inventory and  serial number history for all the items that are transferred.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/warehouse-management/inv-adj/inventory_adjustments.html">Inventory  Adjustment</a></p>
+
+<p><a href="/versata-everest-docs/managing-items/misc/inventory_history_grid.html">Inventory  History</a></p>
+
+<p><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/enter-cmt-qty/serial_number_history.html">Serial  Number History</a></p>
+
+<p class="steps">To transfer serialized items attached to  a sales document, do the following:</p>
+
+<ul>
+  <li>From the Sales  Document profile, select <strong>Options &gt; 
+ Item &gt; Item Transfer</strong>. You will see the <a href="/versata-everest-docs/sales/misc/the_serial_transfer_for_all_items_browser_item_transfer_sales_options.html"><strong>Serial # Transfer for All Items</strong> browser</a>.</li>
+  <li>Select the  serial numbers you want to transfer by selecting the check box next to  it.</li>
+  <li>Specify the  stock area to which you want to transfer the item in the <strong>Stock 
+ Area</strong> field and click <strong>Transfer</strong>.  Stock can be transferred only to the same stock area types.</li>
+  <li>Click <strong>Close</strong> to return to the sales document.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/options/items/item_information_items_option_sales_contents.html">Item  Information</a></dd>
+</dl>
+
+
+
+
+</div>

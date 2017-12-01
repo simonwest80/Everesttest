@@ -1,0 +1,74 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="posting-groups-for-respective-accounts">Posting Groups for Respective Accounts</h1>
+
+<p>In manual journals, the accounts used for accounting entries depend  on the selection of the vendor or customer in the respective journal.  The table below also details the Posting Groups for the accounts.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Journal</strong></td>
+      <td><strong>Account</strong></td>
+      <td><strong>Selection</strong></td>
+      <td><strong>Posting Group</strong></td>
+    </tr>
+    <tr>
+      <td>Purchase Journals</td>
+      <td>A/P Control Account</td>
+      <td>Vendor</td>
+      <td>Vendor Posting Group</td>
+    </tr>
+    <tr>
+      <td>Payment Journals</td>
+      <td>A/P Control Account</td>
+      <td>Vendor</td>
+      <td>A/P Control Account defined in the corresponding purchase document or  journal.</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Vendor Advances account</td>
+      <td> </td>
+      <td>Vendor Posting Group for the selected vendor for the first deposit.</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Miscellaneous Payments account</td>
+      <td> </td>
+      <td>Expense account defined in the Vendor profile. In case this field is  blank, the expense account specified for the Vendor Posting Group is used.</td>
+    </tr>
+    <tr>
+      <td>Sales Journals</td>
+      <td>A/R Control Account</td>
+      <td>Customer</td>
+      <td>Customer Posting Group</td>
+    </tr>
+    <tr>
+      <td>Receipts Journals</td>
+      <td>A/R Control Account</td>
+      <td>Customer</td>
+      <td>A/R Control Account defined in the corresponding sales document or journal.</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Customer Advances account</td>
+      <td> </td>
+      <td>Customer Posting Group for the selected customer for the first deposit.<br /><br /><br />The same account is used for subsequent deposits or when the deposit  is applied to subsequent receipts.</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Miscellaneous Receipts account</td>
+      <td> </td>
+      <td>Select any account in this field.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+</div>

@@ -1,0 +1,47 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="general-information">General Information</h1>
+
+<dl>
+  <dt><strong>Document Amount</strong></dt>
+  <dd>The document amount is the total value of the document.  This is a display field.</dd>
+  <dt><strong>Already Paid</strong></dt>
+  <dd>This is the amount of the document that is already  paid. In case of orders, it is the deposit received against the order.<font style="color: #ff0000;" color="#FF0000"> <span style="color: #000000;">It</span> </font>also  includes deposits that are applied to the sales invoice. Receipts whose  journal have or have not been posted are included. This is a display field.</dd>
+  <dd>Click the <strong>Already 
+ Paid</strong> label to view the <strong>Payment 
+ History</strong>.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/payment-history/payment_history.html">Payment  History</a></dd>
+  <dt><strong>Discount Applied</strong></dt>
+  <dd>This is the amount that was given as a discount  to the customer at the time of receipt of payment, against this SI.  This is a display field.</dd>
+  <dt><strong>Discount Call Back</strong></dt>
+  <dd>When you give a discount to a customer on the sale  of an item, the discount is applied and displayed in the <strong>Payment 
+ Discount</strong> field of the sales document. If the customer returns the  item and you refund an amount, a proportionate amount of discount should  be deducted from the discount originally allowed to the customer, i.e.,  the <a href="/versata-everest-docs/sales/misc/payment_amount_details_payment_dialog.html#discount_applied">Discount  applied</a>. If the entire amount has been refunded, the <strong>Discount</strong><strong>Call</strong> <strong>Back</strong>  field displays the total amount of <strong>Discount</strong><strong>Applied</strong> on the sales invoice.  If an amount is partially refunded, this field displays a proportionate  amount.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> You create a Sales Invoice for $1000  and receive a payment of $950 and give a discount of $50 to the customer.  Thus, the Discount Applied will be $50.</dd>
+</dl>
+
+<ul>
+  <li>If  the customer returns the goods and refunds the full amount of $950, the  <strong>Discount Call Back</strong> amount is $50.</li>
+  <li>If  the customer returns refunds half the amount, i.e., $475, the <strong>Discount 
+ Call Back</strong> amount is $25.</li>
+</ul>
+
+<p>: You can edit the amount in the <strong>Discount</strong><strong>Call</strong> <strong>Back</strong>  field. This amount cannot be greater than the total payment discount on  the document. In such a case, <strong>Everest</strong>  prompts you with a message.</p>
+
+<p class="note">The <strong>Discount Applied</strong>  and <strong>Discount Call Back</strong> fields  are visible only if there exists a payment discount in a final sales/sales  return document.</p>
+
+<dl>
+  <dt><strong>Balance</strong></dt>
+  <dd>The balance amount that can be refunded on the document  is displayed in this field. This is a display field. The balance is arrived  at by using the following formula:</dd>
+  <dd>Balance = Already paid - Amount</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/refunds-on-so/the_refund_dialog_box_general_sales.html">The  Refund Dialog Box - General</a></dd>
+</dl>
+
+
+
+
+</div>

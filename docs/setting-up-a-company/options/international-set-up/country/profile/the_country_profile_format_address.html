@@ -1,0 +1,65 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-country-profile---format-address">The Country Profile - Format Address</h1>
+
+<p>Use this tab to specify the address format for a particular country.</p>
+
+<dl>
+  <dt><strong>Extended Address Description</strong></dt>
+  <dd>Specify the address format for the country using  this field. Right-click in the field and use the pre-defined tags in <strong>Everest</strong> to specify the format.</dd>
+</dl>
+
+<p class="note">In addition to tags you can enter other characters such as Space, Enter,  &lt;, &gt;, %, etc.</p>
+
+<p class="example">If you want all US addresses to be printed as:</p>
+
+<p>Jane Alexander</p>
+
+<p>5121 St. Wood Dr</p>
+
+<p>Apt 300</p>
+
+<p>Centerville,  VA 20120</p>
+
+<p>United States of America</p>
+
+<p>You should specify the format as:</p>
+
+<p>$First Name$  $Last Name$</p>
+
+<p>$Street Address Line 1$</p>
+
+<p>$Street Address Line 2$</p>
+
+<p>$City$, $State$  $Postal Code$</p>
+
+<dl>
+  <dt>$Country$</dt>
+  <dd>The formatted address can be viewed in the following  profiles:</dd>
+</dl>
+
+<ul>
+  <li>Vendors (Purchasing  &gt; Vendor)</li>
+  <li>Customers (Invoicing  &gt; Customers)</li>
+  <li>Locations (File  &gt; Setup &gt; Accounting &gt; Location)</li>
+  <li>Users (File  &gt; Setup &gt; Users &gt; Users)</li>
+</ul>
+
+<dl class="note">
+  <dt>The field chooser for the formatted address  is called “Address Memo” in the <strong>Locations/Sub-Locations</strong> and <strong>Users</strong> browsers, while  in the document browsers it is “ Billing Address”, “Shipping  Address” (or Return Address), and “Contact Address”.</dt>
+  <dd>This field can be added to the browser from the  <a href="/versata-everest-docs/working-with-everest/everest-client/ui/browsers/options/field-chooser/browser_options_field_chooser.html">Field  Chooser</a> <font style="color: #000000;" color="#000000">and used in the label designer to print 
+ labels with formatted addresses. The format specified here will be used 
+ while printing the shipping labels for the documents created for the respective 
+ country.</font></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/international-set-up/country/profile/the_country_profile.html">The Country Profile</a></dd>
+</dl>
+
+
+
+
+</div>

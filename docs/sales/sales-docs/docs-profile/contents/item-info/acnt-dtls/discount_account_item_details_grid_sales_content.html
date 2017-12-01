@@ -1,0 +1,39 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="discount-account">Discount Account</h1>
+
+<p>The <strong>Discount Account</strong> column  displays the account to which the discount amount is debited. The discount  account for the item is determined by the following rules:</p>
+
+<ul>
+  <li>The account defined  for sales discount in the <strong>Discount Revenue</strong>  field of the <strong>Item</strong> profile (path:  <strong>Inventory &gt; Items &gt;</strong> <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Accounts</strong> tab) is assigned.</li>
+  <li>If it is not defined  for the item, the sales discount account defined in the <strong>Revenue 
+ Discount</strong> field of the item’s <strong>Category</strong>  profile (path: <strong>Inventory &gt; Categories 
+ &gt; Options &gt; Edit &gt; In New Window &gt; Accounting</strong> tab)  is assigned.</li>
+</ul>
+
+<p>: <img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/item-profile-details/item-categories/item_categories.html">Item  Category</a></p>
+
+<ul>
+  <li>If it is not defined  in the item’s <strong>Category</strong> profile,  the sales discount account specified in the <strong>Sales 
+ Discount</strong> field of the <strong>Accounting</strong> dialog box (path: <strong>File &gt; Setup 
+ &gt; Preferences &gt; Defaults &gt; Accounting &gt; Revenue Accounts</strong>)  is assigned</li>
+</ul>
+
+<p>If the discount account selected in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Revenue Accounts</strong> tab) is  the same as the revenue account, the revenue is calculated after deducting  the discount amount. If the revenue account is different from the discount  account, the revenue is stated at the gross amount and the discount (sales)  account displays the discount amounts.</p>
+
+<p class="note">You can select any other discount account of type revenue  for the specified item in this line. You cannot, however, select any of  the accounts specified in the <strong>Control 
+ Accounts</strong> tab of the <strong>Accounting</strong>  dialog box.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/item-info/acnt-dtls/account_details_item_details_grid_sales_process_content.html">Account  Details</a></dd>
+</dl>
+
+
+
+
+</div>

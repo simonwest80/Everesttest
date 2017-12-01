@@ -1,0 +1,122 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries-for-payroll">Accounting Entries for Payroll</h1>
+
+<p>When a payroll journal is created, the following accounting entries  are made:</p>
+
+<ul>
+  <li>Accounting  entry for take home pay</li>
+  <li>Accounting  entry for crediting vendors for deductions made, taxes withheld and company  contributions</li>
+</ul>
+
+<p><strong>Accounting entry for take home pay</strong>  - An accounting entry is made for crediting the vendor selected in the  <strong>Employee</strong> profile with the take  home pay for the transaction. A purchase receipt is created for the take  home pay. The document number assigned to the receipt is the payroll transaction  number prefixed by <strong>MPAY</strong>.</p>
+
+<p>The purchase receipt created is like a manual purchase receipt; it will  have no line items. The purchase receipt created can be viewed by selecting  the option <strong>Manual documents</strong> in  the <strong>Purchase Receipts</strong> browser  (path: <strong>Purchasing &gt; Purchase Receipts</strong>  &gt; from the <strong>Purchase Receipts</strong>  browser, select <strong>Options &gt; Search By 
+ Vendor &gt; Manual documents</strong> or select <strong>View</strong>  &gt; <strong>US Payroll</strong>).</p>
+
+<p>The accounting entries created are:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Accounts</td>
+      <td>Credit/Debit</td>
+    </tr>
+    <tr>
+      <td>A/P Control Account (for the amount of take home pay)</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>Expense Account for Payroll Item of type Salary, Regular Pay, Overtime  Pay, Sick Pay, Vacation Pay, Additions of type paycheck, Accruals and  Company Contribution</td>
+      <td>Debit</td>
+    </tr>
+    <tr>
+      <td>Expense Account for taxes payable by employer</td>
+      <td>Debit</td>
+    </tr>
+    <tr>
+      <td>Liability Account for Payroll Items of type Accruals,  Deduction and Company Contribution</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>Liability Account for taxes withheld</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>Liability account for taxes payable by employer</td>
+      <td>Credit</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note"><strong>An accounting entry is created for each transaction  even though transactions are for the same employee.</strong></p>
+
+<p><strong>Accounting entries are not created if the  take home pay is zero.</strong></p>
+
+<p><strong>Accounting entry for crediting vendors 
+ for deductions made, taxes withheld and company contributions</strong>:</p>
+
+<p>The total amount payable to the vendors associated with deductions,  taxes and company contributions are cumulated and an entry is created  for crediting the vendor.</p>
+
+<p class="example">If there are 3 payroll transactions on which  Federal Income Tax withheld is $125, $500 and $750; the liability account  associated with the Federal Income Tax would be credited in the accounting  entry for crediting the take home pay. An additional entry is created  for crediting the vendor associated with the Federal Income Tax payable  (the IRS) and debiting the liability account for the same. With this entry,  the liability accounts are zeroed out and the vendors associated with  them are credited.</p>
+
+<p>A purchase receipt is created for the liability. The document number  assigned to the receipt is prefixed with <strong>MPAYL</strong>.</p>
+
+<p>The purchase receipt created is like a manual purchase receipt, it will  have no line items in it. The purchase receipt created can be viewed by  selecting the option <strong>Manual documents</strong>  in the <strong>Purchase Receipts</strong> browser  (path: <strong>Purchasing &gt; Purchase Receipts</strong>  &gt; from the <strong>Purchase Receipts</strong>  browser, select <strong>Options &gt; Search By 
+ Vendor &gt; Manual documents</strong> or Select <strong>View</strong> &gt; <strong>US Payroll</strong>).</p>
+
+<p>The accounting entries created are:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Accounts</td>
+      <td>Credit/Debit</td>
+    </tr>
+    <tr>
+      <td>A/P Control Account (for the amount of take home pay)</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>Liability Account for Payroll Items of type accruals,  deductions and company contributions</td>
+      <td>Debit</td>
+    </tr>
+    <tr>
+      <td>Liability Account for taxes withheld</td>
+      <td>Debit</td>
+    </tr>
+    <tr>
+      <td>Liability account for taxes payable by employer</td>
+      <td>Debit</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Payroll entries are accounted in a purchase journal that fulfills the  following conditions:</p>
+
+<ul>
+  <li>The Journal  should have the status ‘open’.</li>
+  <li>The date of  the transaction corresponds with the accounting period of the Journal.</li>
+  <li>Journal with  the same journal group as the journal group selected in the Workstation  Settings dialog box (path: <strong>File &gt; 
+ Setup &gt; Preferences &gt; Work Station Settings</strong>) of the user  who makes the Payroll entries.</li>
+  <li>Journal with  the location as the login  location/sub-location of the user creating the payroll journal.</li>
+  <li>Journal should  have the same account for Account Payable Control. If the A/P Control  Account is different, all subsequent entries are created in a new journal  although there are open system journals available for the same login  location/sub-location, accounting period and journal group.</li>
+  <li>Description  of the Journal should be ‘Payroll Journal’.</li>
+</ul>
+
+<p>If no such open journal exists, a new payroll journal is created. The  payroll journal number for the new journal is taken from the sequence  number for purchase journals for the location of the login  location/sub-location. If the login  location or sub-location does not have sequence numbers assigned, it will  use the sequence number of the default location.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/locations_and_departments.html">Locations  and Sub-Locations</a></dd>
+  <dd><a href="/versata-everest-docs/everest-us-payroll/misc/accounts_for_accounting_entries_in_payroll.html">Accounts  for Accounting Entries in Payroll</a></dd>
+</dl>
+
+
+
+
+</div>

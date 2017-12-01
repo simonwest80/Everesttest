@@ -1,0 +1,27 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---canceling-a-credit-order">Back End Processes - Canceling a Credit Order</h1>
+
+<p><strong>The following back-end processes occur  when a credit order is canceled:</strong></p>
+
+<ul>
+  <li>The credit  order is converted to a credit quote.</li>
+  <li>If the canceled  credit order was converted from a quote, it gets converted to a credit  quote with the same number as the original quote.</li>
+  <li>If the canceled  credit order was created directly, it gets converted to a credit quote  with the next number assigned to it in the sequence of credit quotes.</li>
+  <li>The sequence  number of the canceled credit order is not available for further use in  other credit orders.</li>
+  <li>The quantity  ‘on credit’ for the item reduces in the item stock status.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/cos/co-proc/cancel-a-credit-order/canceling_a_credit_order.html">Canceling  a Credit Order</a></dd>
+</dl>
+
+
+
+
+</div>

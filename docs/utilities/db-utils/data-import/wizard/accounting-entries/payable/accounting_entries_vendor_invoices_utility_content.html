@@ -1,0 +1,72 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries">Accounting Entries</h1>
+
+<p>For each import row in the Accounts Payable import table, an accounting  entry is made in the Purchase Journal for the value of the Accounts Payable  amounts that are imported.</p>
+
+<p>The following accounting entries are created when you import vendor  amounts:</p>
+
+<p>Document Type - Purchase Invoice</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit /Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Accounts Payable Control</td>
+      <td>If you populate the <strong>A/P</strong> <strong>Control Account</strong> field during the A/P  import, the A/P Control Account used is the account specified.<br /><br /><br />If you leave the <strong>A/P Control Account</strong>  field blank during the A/P import, the A/P Control Account of the appropriate  Posting Group is used:<br /><br /><br />Account specified in the <strong>Accounts Payable</strong>  field (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Posting <br /> Group</strong> profile &gt; <strong>Accounts</strong>  tab) of the Vendor Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><strong>Posting <br /> Group</strong> Profile<br /><br /><br /><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_vendor_posting_group_misc_tab.html">Hierarchical  Order for Vendor Posting Group</a></td>
+      <td>Credit</td>
+      <td>The total value of the purchase invoices being imported.</td>
+    </tr>
+    <tr>
+      <td>Crossing Entry Account (1-4)</td>
+      <td>Account specified at the time of import. Different accounts may be used  for different invoices.</td>
+      <td>Debit</td>
+      <td>The total value of the purchase invoices being imported.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Document Type - Debit Memo</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit /Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Crossing Entry Account (1-4)</td>
+      <td>Account specified at the time of import. Different accounts may be used  for different debit memos.</td>
+      <td>Credit</td>
+      <td>The total value of the debit memos being imported.</td>
+    </tr>
+    <tr>
+      <td>Accounts Payable Control</td>
+      <td>If you populate the <strong>A/P Control Account</strong>  field during the A/P import, the A/P Control Account used is the account  specified.<br /><br /><br />If you leave the <strong>A/P Control Account</strong>  field blank during the A/P import, the A/P Control Account of the appropriate  Posting Group is used:<br /><br /><br />Account specified in the <strong>Accounts Payable</strong>  field (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Posting <br /> Group</strong> profile &gt; <strong>Accounts</strong>  tab) of the Vendor Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><strong>Posting <br /> Group</strong> Profile<br /><br /><br /><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_vendor_posting_group_misc_tab.html">Hierarchical  Order for Vendor Posting Group</a></td>
+      <td>Debit</td>
+      <td>The total value of the debit memos being imported.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/db-utils/data-import/wizard/accounting-entries/payable/vendor_invoices_accounting_entries_utility_content.html">Accounts  Payable</a></dd>
+  <dd><a href="/versata-everest-docs/utilities/db-utils/data-import/wizard/accounting-entries/payable/backend_processes_for_vendor_invoices_utility_content.html">Back  End Processes</a></dd>
+</dl>
+
+
+
+
+</div>

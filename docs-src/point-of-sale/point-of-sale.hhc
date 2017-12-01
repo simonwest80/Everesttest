@@ -1,0 +1,1301 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="_blank">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800027">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Point of Sale">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Point of Sale System">
+      <param name="Local" value="point_of_sale_system.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Point of Sale Setup">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Point of Sale Setup">
+        <param name="Local" value="pos-setup\point_of_sale_set_up.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Pole Display">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Pole Display">
+          <param name="Local" value="pos-setup\pole-display\pole_display.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up a Pole Display">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up a Pole Display">
+            <param name="Local" value="pos-setup\pole-display\setup\setting_up_a_pole_display.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Pole Display Properties Profile">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Pole Display Properties Profile">
+              <param name="Local" value="pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Pole Properties Profile - General Tab">
+              <param name="Local" value="pos-setup\pole-display\setup\properties-profile\the_pole_properties_profile_general_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Pole Display Properties Profile - Cursor Tab">
+              <param name="Local" value="pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile_cursor_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Pole Display Properties Profile - Setup Tab">
+              <param name="Local" value="pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile_setup_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Pole Display Properties Profile - Miscellaneous Tab">
+              <param name="Local" value="pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile_miscellaneous_tab.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Pole Display">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify the Pole Display Properties Profile">
+            <param name="Local" value="pos-setup\pole-display\modify-a-pole-display\modifying_the_pole_display_properties_profile.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue a Pole Display">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue/Reactivate a Pole Display">
+            <param name="Local" value="pos-setup\pole-display\discontinue-a-pole-display\discontinuing_a_pole_display.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate a Discontinued Pole Display">
+            <param name="Local" value="pos-setup\pole-display\discontinue-a-pole-display\view_and_activate_a_discontinued_pole_display.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Pole Display Browser">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Pole Display Browser">
+            <param name="Local" value="pos-setup\pole-display\the-pole-display-browser\the_pole_display_browser.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Cash Registers">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cash Registers">
+          <param name="Local" value="pos-setup\cash-registers\cash_registers.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up a Cash Register">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up a Cash Register">
+            <param name="Local" value="pos-setup\cash-registers\setup\setting_up_a_cash_register_pos_set_up.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Cash Register Profile">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Cash Register Profile">
+              <param name="Local" value="pos-setup\cash-registers\setup\profile\the_cash_register_profilepos_set_up.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Cash Register Profile - General Tab">
+              <param name="Local" value="pos-setup\cash-registers\setup\profile\the_cash_register_profile_general_tab_pos_set_up.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Cash Register Profile - Pole Tab">
+              <param name="Local" value="pos-setup\cash-registers\setup\profile\the_cash_register_profile_pole_tab_pos_set_up.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Cash Register Profile - Cash Drawer Tab">
+              <param name="Local" value="pos-setup\cash-registers\setup\profile\cash_drawer_information_pos_setup.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Cash Register Profile - Point of Sale Tab">
+              <param name="Local" value="pos-setup\cash-registers\setup\profile\the_cash_register_profile_point_of_sale_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Cash Register Profile - Payment Type Tab">
+              <param name="Local" value="pos-setup\cash-registers\setup\profile\the_cash_register_profile_payment_type_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Cash Register Profile - Forms Tab">
+              <param name="Local" value="pos-setup\cash-registers\setup\profile\the_cash_register_profile_forms_tab_pos_set_up.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Cash Register Profile - Gift Receipt Tab">
+              <param name="Local" value="pos-setup\cash-registers\setup\profile\the_cash_register_profile_gift_receipt_tab_pos.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Cash Register">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify the Cash Register Profile">
+            <param name="Local" value="pos-setup\cash-registers\modify-a-cash-register\modifying_the_cash_register_profile.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue a Cash Register">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue/Reactivate a Cash Register">
+            <param name="Local" value="pos-setup\cash-registers\discontinue-a-cash-register\discontinuing_a_cash_register.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate a Discontinued Cash Register">
+            <param name="Local" value="pos-setup\cash-registers\discontinue-a-cash-register\view_and_activate_a_discontinued_cash_register.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Point of Sale Preferences">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Point of Sale Preferences">
+          <param name="Local" value="pos-setup\point-of-sale-preferences\point_of_sale_preferences.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Flow Control Preferences">
+          <param name="Local" value="pos-setup\point-of-sale-preferences\flow_control_preferences_pos.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Default Preferences">
+          <param name="Local" value="pos-setup\point-of-sale-preferences\default_preferences_pos.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Using Cash Registers">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Using Cash Registers">
+        <param name="Local" value="using-cash-registers\using_cash_registers.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Open a Cash Register">
+        <param name="Local" value="using-cash-registers\opening_cash_register.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Log In">
+        <param name="Local" value="using-cash-registers\log_in_pos_cash_registers_browser_option.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Declare the Cash Register">
+        <param name="Local" value="using-cash-registers\declare_the_cash_register.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Declare the Cash Register � Held Documents">
+        <param name="Local" value="using-cash-registers\declare_the_cash_register_held_documents_pos.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Locking and Unlocking the Cash Drawer">
+        <param name="Local" value="using-cash-registers\locking_and_unlocking_the_cash_drawer.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Cash Register Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Cash Register Browser">
+          <param name="Local" value="using-cash-registers\cash-register-browser\the_cash_register_browser.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Cash Register Browser - Information Available">
+          <param name="Local" value="using-cash-registers\cash-register-browser\the_cash_register_browser_information_available.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Cash Register Browser - Other Options">
+          <param name="Local" value="using-cash-registers\cash-register-browser\the_cash_register_browser_other_options.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Using Cash Registers in Invoicing Documents">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Using Cash Registers in Invoicing Documents">
+          <param name="Local" value="using-cash-registers\using-cash-registers-in-invoicing-documents\using_cash_registers_in_invoicing_documents.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Point of Sale Transactions">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Point of Sale transactions">
+        <param name="Local" value="pos-trans\point_of_sale_transactions.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Point of Sale Document">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Point of Sale Document">
+          <param name="Local" value="pos-trans\create-pos-doc\creating_pos_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Point of Sale (Sales Invoice) Profile">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale (Sales Invoice) Profile">
+            <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\create_a_point_of_sale_(invoice)_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale (Sales Invoice) Profile Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Point of Sale (Sales Invoice) Profile Details">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\contents_of_a_pos_invoice.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Customer Information">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Customer Information">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\customer-info\customer_information_pos_docs_content.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Cash Register Details">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Cash Register Information">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\cash-register-details\cash_register_details_content_pos_docs.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Sales Representative and Cashier">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Sales Rep and Cashier">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\sales-rep-and-cashier\sales_rep_and_cashier_pos_doc_content.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Document Information">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Document Information">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\doc-info\document_information_content_pos_docs.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Item Information">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Item Information">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\item-info\item_information_pos_docs_content.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Document Tab View Details">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Document Tab View Details">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\tabs-details\document_view_details_contents_pos_docs.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Categories Tab">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\tabs-details\categories_information_doc_view_details_pos.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Details Tab">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\tabs-details\details_doc_view_details_pos.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Others Tab">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\tabs-details\others_tab_pos_profile_pos.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Point of Sale Outlook Bar">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="The Point of Sale Outlook Bar">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\pos-outlook-bar\the_point_of_sale_outlook_bar.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Status Bar Information">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Status Bar Information">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\details\status-bar-info\status_bar_information_pos_contents.html">
+              </object>
+              </ul>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Custom Tracking in Point of Sale">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Custom Tracking in Point of Sale">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\custom-tracking-in-point-of-sale\custom_tracking_in_pos.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Service Items in Point of Sale Documents">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Service Items in Point of Sale">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\service-items\service_items_in_point_of_sale.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Force Sale">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Force Sale">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\force-sale\force_sale_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Quantity Brought to Cash Counter Exceeds Quantity Available">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Quantity Brought to the Cash Counter Exceeds the Quantity Available">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\force-sale\excd-avl-qty\qty_exceeds_available.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Mark an Item as Force Sale">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Flow Control Preference for Force Sale">
+                </object>
+                <ul>
+                  <li><object type="text/sitemap">
+                    <param name="Name" value="Flow Control Preferences for Force Sale">
+                    <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\force-sale\excd-avl-qty\force-sale-item\flow-ctrl-prefs\prefs.html">
+                  </object>
+                  <li><object type="text/sitemap">
+                    <param name="Name" value="Force Sale Options Dialog Box">
+                    <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\force-sale\excd-avl-qty\force-sale-item\flow-ctrl-prefs\options.html">
+                  </object>
+                  </ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="From within the Point of Sale Document">
+                </object>
+                <ul>
+                  <li><object type="text/sitemap">
+                    <param name="Name" value="Force Sale - From within the Point of Sale Document">
+                    <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\force-sale\excd-avl-qty\force-sale-item\from-within-pos-doc\force_sale_from_pos.html">
+                  </object>
+                  </ul>
+                </ul>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Item Belongs to a Third Party">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Force Sale - Item Belongs to a Third Party">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\force-sale\item-belongs-to-3rd\item_belongs_to_a_third_party.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Force Sale">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Accounting Entries - Force Sale">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\force-sale\accounting-entries\accounting_entries_force_sale.html">
+              </object>
+              </ul>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Point of Sale (Sales Invoice) Profile">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Point of Sale (Sales Invoice) Profile">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\pos-create-si\create_a_point_of_sale_(invoice)_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Point of Sale (Sales Invoice) Profile">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="The Point of Sale (Sales Invoice) Profile">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\pos-create-si\profile\the_point_of_sales_invoice_profile.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Create a Point of Sale Invoice">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Accounting Entries - Point of Sale (Sales Invoice) Document">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\pos-create-si\accounting-entries\accounting_entries_for_pos_invoices.html">
+              </object>
+              </ul>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale (Sales Invoice) Options">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Point of Sale Document Options">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\point_of_sale_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Customer Information">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\customer_information_pos_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Return Process">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\return_process_point_of_sale_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Tax Breakdown">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\tax_breakdown_pos_document_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Change Gift Receipt Printing Type">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\change_gift_receipt_printing_type_pos_option_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Print">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\print_pos_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Print Pick Location Report">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\print_pick_location_report_pos_invoice_options_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Inline Notes">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\inline_notes_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Save as Sales Order">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\save_as_sales_order_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Sales Order">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\sales_order_pos_invoice_options_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Switch to Sales Order">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\switch_to_sales_order_pos_invoice_options_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Switch to Sales Credit">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\switch_to_sales_credit_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View in Document Currency">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\view_in_document_currency_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Gift Card Balance Inquiry">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\gift_card_balance_inquiry_cash_register_profile_options_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Document">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\document_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Transaction History">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\transaction_history_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Payment">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\payment_pos_inv_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Item Information">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\item_information_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Line Items">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\line_items_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Stock Status For All Items">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\stock_status_for_all_items_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Show All Serial #">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\show_all_serial_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Attach/Retrieve Serial #">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\attach_retrieve_serial_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Retrieve">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\retrieve_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="No Sale - Open Cash Drawer">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\no_sale_open_cash_drawer.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Pricing Analysis">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\pricing_analysis_pos_invoice_option.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Contact Manager">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\contact_manager_pos_invoice_options.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Move to Quantity">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\move_to_quantity.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Move to Price">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\move_to_price.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Move to Discount">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\move_to_discount.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Revenue">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\revenue_pos_document_options_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Store Closing Report">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\store_closing_report_pos_document_options_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Cash Register Closing Report">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\options\cash_register_closing_report_pos_document_options_pos.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale - View Menu">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Point of Sale - View Menu">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\view-menu\point_of_sale_view_menu_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Barcode Search Field - Point of Sale Profile">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\view-menu\barcode_search_field_point_of_sale_profile_pos.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale - Action Menu">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Point of Sale - Action Menu">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-si-profile\point-of-sale-action-menu\point_of_sale_action_menu_pos.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Point of Sale Receipts">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale Receipts">
+            <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\pos_receipts.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Payment Details Dialog Box">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Payment Details Dialog Box">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\payment-dlg\the_payment_details_dialog_box_pos_receipts.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Payment Reference Details">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\payment-dlg\payment_reference_details_payment_details_dialog_pos_receipts.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Payment Amount Details">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\payment-dlg\payment_amount_details_payment_details_dialog_pos_receipts.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Processing Credit Card Payments">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Processing Credit Card Payments">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\processing_credit_card_payments_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Activities in Credit Card Processing">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\activities_in_credit_card_processing_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Credit Card Processing with IC Verify">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\credit_card_processing_with_ic_verify_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Credit Card Processing with Payflow Pro">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\credit_card_processing_with_payflow_pro_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Receiving Credit Card Payments - Point of Sale">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Receiving Credit Card Payments - Point-of-Sale">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\receiving_credit_card_payments_point_of_sale.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Card Verification Details">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Card Verification Details">
+                  <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\card_verification_details_pos.html">
+                </object>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Amount of Payment">
+                </object>
+                <ul>
+                  <li><object type="text/sitemap">
+                    <param name="Name" value="Amount of Payment">
+                    <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\pmnt-amnt\amount_of_payment.html">
+                  </object>
+                  </ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Card Details">
+                </object>
+                <ul>
+                  <li><object type="text/sitemap">
+                    <param name="Name" value="Card Details">
+                    <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\card-details\card_details.html">
+                  </object>
+                  </ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Sale Details">
+                </object>
+                <ul>
+                  <li><object type="text/sitemap">
+                    <param name="Name" value="Sale">
+                    <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\sale-details\sale.html">
+                  </object>
+                  </ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Prior Authorization Information">
+                </object>
+                <ul>
+                  <li><object type="text/sitemap">
+                    <param name="Name" value="Prior Authorization Information">
+                    <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\prior-auth-info\prior_auth_info.html">
+                  </object>
+                  </ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Address and Security Code Verification Details">
+                </object>
+                <ul>
+                  <li><object type="text/sitemap">
+                    <param name="Name" value="Address and Security Code Verification Details">
+                    <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\avs-and-cvv\avs-and-cvv-vrf-dtls.html">
+                  </object>
+                  </ul>
+                </ul>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Card Verification Dialog Box">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="The Card Verification Dialog Box">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\verification-dlg\the_card_verification_dialog_box_pos.html">
+              </object>
+              </ul>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounting Entries - Payments from Customers">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Payments from Customers">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\accounting-entries\accounting_entries_payments_from_customers_pos.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Gift Card Processing - Point of Sales Profile">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Selling Gift Cards as an Item">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\gift-card-processing-pos-profile\selling_gift_cards_as_an_item.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Gift Card as a Payment Method">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\gift-card-processing-pos-profile\gift_card_as_a_payment_method.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Change Due to Customers">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Change Due to Customers">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\change-due-to-customers\change_due_to_customers_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Change Due to Customers">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Accounting Entries - Change Due to Customers">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\change-due-to-customers\accounting-entries\accounting_entries_change.html">
+              </object>
+              </ul>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Printing Point of Sale Receipts">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Printing Point of Sale Receipts">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\printing\printing_point-of-sale_receipts.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Print Messages in Narrow Receipts">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\printing\print_messages_in_narrow_receipts_pos.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Default Format for Printing Narrow Receipts">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-receipts\printing\default_format_for_printing_narrow_receipts_pos.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Point of Sale (Credit Memo) Document">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale (Credit Memo) Document">
+            <param name="Local" value="pos-trans\create-pos-doc\pos-cm-doc\pos_credit_memos.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Point of Sale (Credit Memo) Document">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Point of Sale (Credit Memo) Document">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-cm-doc\pos-create-cm\create_a_point_of_sale_sales_credit_document.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounting Entries - Point of Sale (Credit Memo) Document">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Point of Sale (Credit Memo) Document">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-cm-doc\accounting-entries\accounting_entries_for_point_of_sale_credit_memos.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Point of Sale Refunds">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale Refunds">
+            <param name="Local" value="pos-trans\create-pos-doc\pos-refunds\point_of_sale_refunds.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Processing Credit Card Refunds">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Processing Credit Card Refunds - Point of Sale">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-refunds\processing\processing_credit_card_refunds_point_of_sale.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Card Verification Details">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Card Verification Details">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-refunds\processing\verify-dtls\card_verification_details_pos_refunds.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Amount of Payment">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Amount of Payment">
+                  <param name="Local" value="pos-trans\create-pos-doc\pos-refunds\processing\verify-dtls\pmnt-amnt\amount_of_payment.html">
+                </object>
+                </ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Card Details">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Card Details">
+                  <param name="Local" value="pos-trans\create-pos-doc\pos-refunds\processing\verify-dtls\card-details\card_details.html">
+                </object>
+                </ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Refund Details">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Refund Details">
+                  <param name="Local" value="pos-trans\create-pos-doc\pos-refunds\processing\verify-dtls\refund-details\refund_card_verification_details_pos_refunds.html">
+                </object>
+                </ul>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Card Verification Dialog box">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="The Card Verification Dialog Box">
+                <param name="Local" value="pos-trans\create-pos-doc\pos-refunds\processing\verification-dlg\the_card_verification_dialog_box_pos_refunds.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Back End Processes - Refund a Point of Sale (Credit Memo)">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Back End Processes - Refund a Point of Sale (Credit Memo)">
+                  <param name="Local" value="pos-trans\create-pos-doc\pos-refunds\processing\verification-dlg\backend-proc-refund-cm\backend_proc_refund_cm.html">
+                </object>
+                </ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Accounting Entries - Refund a Point of Sale (Credit Memo)">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Accounting Entries - Refund a Point of Sale (Credit Memo)">
+                  <param name="Local" value="pos-trans\create-pos-doc\pos-refunds\processing\verification-dlg\accnt-entries-refund-cm\accounting_entries.html">
+                </object>
+                </ul>
+              </ul>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Point of Sale Documents on Hold">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale Documents On Hold">
+            <param name="Local" value="pos-trans\create-pos-doc\point-of-sale-documents-on-hold\pos_on_hold.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View a Held Document">
+            <param name="Local" value="pos-trans\create-pos-doc\point-of-sale-documents-on-hold\viewing_a_held_document.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View Held Documents of all Cash Registers">
+            <param name="Local" value="pos-trans\create-pos-doc\point-of-sale-documents-on-hold\view_held_documents_of_all_cash_registers_pos.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Open and Edit Held Documents">
+            <param name="Local" value="pos-trans\create-pos-doc\point-of-sale-documents-on-hold\open_held_documents_pos_doc_profile_option.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Cancel a Held Document">
+            <param name="Local" value="pos-trans\create-pos-doc\point-of-sale-documents-on-hold\canceling_a_held_document.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Close a Held Document">
+            <param name="Local" value="pos-trans\create-pos-doc\point-of-sale-documents-on-hold\close_a_held_document_pos_docs_on_hold_pos.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Customer Layaways">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Customer Layaways">
+            <param name="Local" value="pos-trans\create-pos-doc\customer-layaways\customer_layaways_pos.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Customer Layaways through Point of Sale">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Customer Layaways through POS">
+              <param name="Local" value="pos-trans\create-pos-doc\customer-layaways\customer-layaways-through-pos\customer_layaways_through_pos.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View Point of Sale Documents">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View a Point of Sale (Sales Invoice) Document">
+            <param name="Local" value="pos-trans\create-pos-doc\view-point-of-sale-documents\view_a_pos_invoice.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View a Point of Sale (Credit Memo) Document">
+            <param name="Local" value="pos-trans\create-pos-doc\view-point-of-sale-documents\view_a_pos_credit_memo.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View a Held Document">
+            <param name="Local" value="pos-trans\create-pos-doc\view-point-of-sale-documents\viewing_a_held_document.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify Point of Sale Documents">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify a Point of Sale (Sales Invoice) Document">
+            <param name="Local" value="pos-trans\create-pos-doc\modify-point-of-sale-documents\modifying_a_pos_invoice.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify a Point of Sale (Credit Memo) Document">
+            <param name="Local" value="pos-trans\create-pos-doc\modify-point-of-sale-documents\modifying_a_pos_credit_memo.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="POS Cash Registers Browser">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="POS Cash Registers Browser">
+            <param name="Local" value="pos-trans\create-pos-doc\pos-cash-registers-browser\point_of_sale_cash_registers_browser.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="POS Cash Register Browser Options">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="POS Cash Registers Browser Options">
+              <param name="Local" value="pos-trans\create-pos-doc\pos-cash-registers-browser\options\pos_cash_registers_browser_options.html">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="User Interfaces in Point of Sale">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="User Interfaces in Point of Sale">
+        <param name="Local" value="ui\user_interfaces_in_point_of_sale.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Touch Screen Compatibility">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Touch Screen Compatibility">
+          <param name="Local" value="ui\touch-screen-compatibility\touch_screen_compatibility_pos.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Optimize Touch Screen Compatibility">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Optimize Touch Screen Compatibility">
+            <param name="Local" value="ui\touch-screen-compatibility\optimize\optimum_touch_screen_compatibility_pos.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Customize the Font Settings">
+            <param name="Local" value="ui\touch-screen-compatibility\optimize\customize_the_font_settings_pos.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Category Selection">
+            <param name="Local" value="ui\touch-screen-compatibility\optimize\category_wise_selection_pos.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Short Cut Keys">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Short Cut Keys">
+          <param name="Local" value="ui\short-cut-keys\short_cut_keys.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Point of Sale (Sales Invoice) Document">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Short Cut Keys">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Short Cut Keys - Point of Sale (Sales Invoice) Document">
+              <param name="Local" value="ui\short-cut-keys\pos-si-doc\short-cut-keys\short_cut_keys_point_of_sale_invoice_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Display Browsers/Dialog Boxes">
+              <param name="Local" value="ui\short-cut-keys\pos-si-doc\short-cut-keys\display_browsers_dialog_boxes_-_pos_invoice.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Go to a Field">
+              <param name="Local" value="ui\short-cut-keys\pos-si-doc\short-cut-keys\go_to_a_field_pos_invoice.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Other Short Cut Keys">
+              <param name="Local" value="ui\short-cut-keys\pos-si-doc\short-cut-keys\other_short_cut_keys_pos_invoice.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Point of Sale Browser">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Short Cut Keys">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Short Cut Keys - Point of Sale Browser">
+              <param name="Local" value="ui\short-cut-keys\browser\short-cut-keys\short_cut_keys_point_of_sale_browser.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Display Browsers/Dialog Boxes">
+              <param name="Local" value="ui\short-cut-keys\browser\short-cut-keys\display_browsers_dialog_boxes-_pos_browser.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Go to a Field">
+              <param name="Local" value="ui\short-cut-keys\browser\short-cut-keys\go_to_a_field_pos_browser.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Other Short Cut Keys">
+              <param name="Local" value="ui\short-cut-keys\browser\short-cut-keys\other_short_cut_keys_pos_browser.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Point of Sale (Credit Memo) Document">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Short Cut Keys">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Short Cut Keys - Point of Sale (Credit Memo) Document">
+              <param name="Local" value="ui\short-cut-keys\pos-cm-doc\short-cut-keys\short_cut_keys_point_of_sale_sales_credit_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Display Browsers/Dialog Boxes">
+              <param name="Local" value="ui\short-cut-keys\pos-cm-doc\short-cut-keys\display_browsers_dialog_boxes_pos_sales_credit.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Go to a Field">
+              <param name="Local" value="ui\short-cut-keys\pos-cm-doc\short-cut-keys\go_to_a_field_pos_sales_credit.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Other Short Cut Keys">
+              <param name="Local" value="ui\short-cut-keys\pos-cm-doc\short-cut-keys\other_short_cut_keys_sales_credit.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Sales Credit Browser">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Short Cut Keys - Sales Credit Browser">
+            <param name="Local" value="ui\short-cut-keys\sales-credit-browser\short_cut_keys_sales_credit_browser.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Display Browsers/Dialog Boxes">
+            <param name="Local" value="ui\short-cut-keys\sales-credit-browser\display_browsers_dialog_boxes_sales_credit_browser.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Go to a Field">
+            <param name="Local" value="ui\short-cut-keys\sales-credit-browser\go_to_a_field_sales_credit_browser.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Other Short Cut Keys">
+            <param name="Local" value="ui\short-cut-keys\sales-credit-browser\other_short_cut_keys_sales_credit_browser.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="POS Cash Register Browser">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Short Cut Keys - POS Cash Registers Browser">
+            <param name="Local" value="ui\short-cut-keys\pos-cash-register-browser\short_cut_keys_pos_cash_registers_browser.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Select Sort Tabs">
+            <param name="Local" value="ui\short-cut-keys\pos-cash-register-browser\select_sort_tabs_pos_cash_register.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Display Browsers/Dialog Boxes">
+            <param name="Local" value="ui\short-cut-keys\pos-cash-register-browser\display_browsers_dialog_boxes_pos_cash_register.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Go to a Field">
+            <param name="Local" value="ui\short-cut-keys\pos-cash-register-browser\go_to_a_field_pos_invoice.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Other Short Cut Keys">
+            <param name="Local" value="ui\short-cut-keys\pos-cash-register-browser\other_short_cut_keys_pos_cash_register.html">
+          </object>
+          </ul>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Point of Sale Reports">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Point of Sale Reports">
+        <param name="Local" value="point-of-sale-reports\point_of_sale_reports.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Revenue Report">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Revenue">
+          <param name="Local" value="point-of-sale-reports\revenue-report\revenue_report_pos.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Store Closing Report">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Store Closing">
+          <param name="Local" value="point-of-sale-reports\store-closing-report\store_closing_report_pos.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Cash Register Closing Report">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cash Register Closing">
+          <param name="Local" value="point-of-sale-reports\cash-register-closing-report\cashier_closing_pos.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="POS Reconciliation Report">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="POS Reconciliation">
+          <param name="Local" value="point-of-sale-reports\pos-reconciliation-report\pos_reconciliation_pos.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="POS Discount Report">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="POS Discount">
+          <param name="Local" value="point-of-sale-reports\pos-discount-report\pos_discount_pos.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="POS Discount Report Dialog Box">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="POS Discount Report Dialog Box">
+            <param name="Local" value="point-of-sale-reports\pos-discount-report\pos-discount-report-dialog-box\pos_discount_report_dialog_box_pos.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="POS X Out Report">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="POS X Out">
+          <param name="Local" value="point-of-sale-reports\pos-x-out-report\pos_x_out_pos.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="POS X-Out Report Dialog Box">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The POS X-Out Report Dialog Box">
+            <param name="Local" value="point-of-sale-reports\pos-x-out-report\pos-x-out-report-dialog-box\the_pos_x_out_report_dialog_box_pos.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="POS Z Out Report">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="POS Z Out">
+          <param name="Local" value="point-of-sale-reports\pos-z-out-report\pos_z_out.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="POS Z-Out Report Dialog Box">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The POS Z-Out Report Dialog Box">
+            <param name="Local" value="point-of-sale-reports\pos-z-out-report\pos-z-out-report-dialog-box\the_pos_z_out_report_dialog_box.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="POS Activity Report">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="POS Activity">
+          <param name="Local" value="point-of-sale-reports\pos-activity-report\pos_activity.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="POS Activity Report Dialog Box">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The POS Activity Report Dialog Box">
+            <param name="Local" value="point-of-sale-reports\pos-activity-report\pos-activity-report-dialog-box\the_pos_activity_report_dialog_box.html">
+          </object>
+          </ul>
+        </ul>
+      </ul>
+    </ul>
+</ul>
+</html>

@@ -1,0 +1,49 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="pricing-analysis-dialog-box">Pricing Analysis Dialog Box</h1>
+
+<p>The critical or minimum mark up/margin is specified in the <strong>Pricing 
+ Analysis</strong> dialog box (path: <strong>File 
+ &gt; Setup &gt; Preferences &gt; Defaults &gt; Pricing Analysis</strong>).  This feature allows you to ensure that the selling price of the item does  not fall below the critical or minimum margins or mark up.</p>
+
+<dl>
+  <dt>Analysis By</dt>
+  <dd>This option allows you to specify whether the pricing  analysis is to be based on <a href="/versata-everest-docs/sales/misc/mark_up_on_cost_pricing_analysis.html">markup</a>  or <a href="/versata-everest-docs/sales/misc/preferred_margin_on_sales_pricing_analysis.html">margin</a>.</dd>
+  <dt><strong>Markup</strong></dt>
+  <dd>Select <strong>Markup</strong>  and specify <strong>Minimum markup</strong> and  <strong>Critical</strong> <strong>markup</strong>  percentages.</dd>
+  <dt><strong>Margin</strong></dt>
+  <dd>Select <strong>Margin</strong> to  specify <strong>Minimum margin</strong> and <strong>Critical margin</strong> percentages.</dd>
+  <dt><strong>Start Rate</strong></dt>
+  <dd>Enter the rate at which the pricing analysis should  begin.</dd>
+  <dt><strong>Step Rate</strong></dt>
+  <dd>Enter the step up value at which the subsequent  rates should be increased.</dd>
+  <dt><strong>Minimum Markup/Margin</strong></dt>
+  <dd>Minimum margin/markup is set up to ensure that the  gross margin covers selling, distribution and operation costs. Enter the  minimum mark-up or margin that a sales representative can sell at. A user  with appropriate security rights can bypass this setting.</dd>
+  <dt><strong>Critical Mark-up/Margin</strong></dt>
+  <dd>Critical margin/markup is set up to ensure that  the gross margins cover at least operational costs. Enter the absolute  minimal (critical) mark-up or margin for a sale in this field. A user  with appropriate security rights can bypass this setting. Typically, a  sales manager can be given rights to change this value.</dd>
+</dl>
+
+<p class="note">The <strong>Critical Markup/Margin</strong>  must be less than the <strong>Minimum Markup/Margin</strong>.   The minimum  markup/margin and critical markup/margin is based on all items in the  document, if the user is in extended mode. When not in extended mode,  it is based only on commissionable items. If there are any non-commissionable  items in the document, they are not considered for checking the validations  of minimum markup/margin and critical markup/margin.</p>
+
+<p>The critical and minimum margin/mark-ups are based on  the <a href="/versata-everest-docs/sales/sales-docs/sqs/sq-proc/pricing-analysis/maintaining_critical_and_minimum_markup_margin_on_sales.html#costtype">cost  type</a> selected for commission calculations in the flow control preferences.</p>
+
+<dl>
+  <dt><strong>Apply Critical and Minimum Mark-up/Margins to  POS Invoices</strong></dt>
+  <dd>Check this option to ensure that the minimum and  critical margin/markup is applied to POS invoices. This check box is selected  by default.</dd>
+  <dd>To disregard this setting, you must have adequate  security rights.</dd>
+  <dd>If this option is selected and a user with the necessary  rights saves an invoice with a document value below the minimum and critical  margin/markup, an event is triggered to record this occurrence.</dd>
+  <dd>If you clear this check box, you can save a POS  invoice even if its total value is below the critical and minimum margin/markup.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sqs/sq-proc/pricing-analysis/pricing_analysis.html">Pricing Analysis</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sqs/sq-proc/pricing-analysis/the_pricing_analysis_browser.html">The Pricing  Analysis Browser</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sqs/sq-proc/pricing-analysis/maintaining_critical_and_minimum_markup_margin_on_sales.html">Maintaining  Critical and Minimum Markup/Margin on Sales</a></dd>
+</dl>
+
+
+
+
+</div>

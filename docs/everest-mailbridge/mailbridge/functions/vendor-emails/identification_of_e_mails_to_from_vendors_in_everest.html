@@ -1,0 +1,89 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="identification-of-e-mails--tofrom-vendors-in-everest">Identification of E-mails  to/from Vendors in Everest</h1>
+
+<p><strong>Everest MailBridge</strong>  identifies e-mails  SENT to vendors by matching the e-mailIDs in the  <strong>To, Cc</strong> and <strong>Bcc</strong>  field with the:</p>
+
+<ul>
+  <li>E-mail  ID specified in the billing address of the vendor</li>
+  <li>E-mail  ID specified in any of the contact addresses of the vendor</li>
+  <li>E-mail  ID specified in any of the return addresses of the vendor</li>
+</ul>
+
+<p class="note">The billing, return and contact addresses are entered  in the <a href="/versata-everest-docs/managing-vendors/creating/the_vendor_profile_steps_by_steps.html"><strong>Vendor</strong> profile</a> (path: <strong>Purchasing 
+ &gt; Vendors &gt; Options &gt; Edit &gt; In New Window</strong>).</p>
+
+<p>The following tables display the number of ‘tasks/e-mails’  created for each mail that you SEND, that matches the e-mail  ID of the vendor.</p>
+
+<p>Tasks Created</p>
+
+<p>An <strong>Everest</strong> task is created for  each e-mail ID, but the task will not be linked.</p>
+
+<p>E-mails  Created</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>If the mail is sent <br /> to:</strong></td>
+      <td><strong>E-mails <br /> sent</strong></td>
+    </tr>
+    <tr>
+      <td>More than one e-mail  ID (in the <strong>To</strong>, <strong>Cc</strong>  and <strong>Bcc</strong>  fields), that belongs to a single vendor</td>
+      <td>One</td>
+    </tr>
+    <tr>
+      <td>E-mailIDs that belong  to more than one vendor</td>
+      <td>One for each mail you send to each vendor</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>E-mails that  you RECEIVE from vendors are identified by matching the e-mailIDs in the  <strong>From</strong> field with the:</p>
+
+<ul>
+  <li>E-mail  ID specified in the billing address of the vendor</li>
+  <li>E-mail  ID specified in any of the contact addresses of the vendor</li>
+  <li>E-mail  ID specified in any of the return addresses of the vendor</li>
+</ul>
+
+<p class="note">The billing, return and contact addresses are entered  in the <a href="/versata-everest-docs/managing-vendors/creating/the_vendor_profile_steps_by_steps.html"><strong>Vendor</strong> profile</a> (path: <strong>Purchasing 
+ &gt; Vendors &gt; Options &gt; Edit &gt; In New Window</strong>).</p>
+
+<p>The following tables display the number of ‘tasks/e-mails’  created for each mail that you RECEIVE, that matches the e-mail  ID of the vendor.</p>
+
+<p>Tasks Created</p>
+
+<p>An <strong>Everest</strong> task is created for  each e-mail ID, but the task will not be linked.</p>
+
+<p>E-mails  Created</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>If the e-mail <br /> ID of the mail received:</strong></td>
+      <td><strong>E-mails <br /> received</strong></td>
+    </tr>
+    <tr>
+      <td>Matches the e-mail  ID of a single vendor in <strong>Everest</strong></td>
+      <td>One</td>
+    </tr>
+    <tr>
+      <td>Matches the e-mail  ID of more than one vendor in <strong>Everest</strong></td>
+      <td>One for each e-mail  ID that matches</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-mailbridge/mailbridge/functions/functions_of_everest_mailbridge.html">Functions  of Everest MailBridge</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,45 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payment-currency-section---details">Payment Currency Section - Details</h1>
+
+<dl>
+  <dt><strong>Payment Currency</strong></dt>
+  <dd>This field is used to specify the currency in which  you are receiving the payment or making the refund. The customer currency  is displayed by default in this field. You can select another currency  from the drop-down list.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/example.gif" alt="" />  Based  on the example given in the <a href="/versata-everest-docs/accounting/misc/example_cross_currency_calculations_receipts.html"><strong>Example - Cross Currencies Calculations</strong></a>  section, EUR (Euro) will be the payment currency.</dd>
+  <dt><strong>Source currency</strong></dt>
+  <dd>The source currency depends on the <strong>Quote 
+ type</strong> specified in the <strong>Currency</strong>  profile (path: <strong>File &gt; Setup &gt; Accounting 
+ &gt; Multi - Currency &gt; Currency</strong>). If the rate is expressed  from <strong>foreign to base</strong>, then the  source currency displayed is the payment currency. If the rate is expressed  from <strong>base to foreign</strong>, the base  currency is displayed in this field.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/example.gif" alt="" />  Based  on the example given in the <a href="/versata-everest-docs/accounting/misc/example_cross_currency_calculations_receipts.html"><strong>Example - Cross Currencies Calculations</strong></a>  section if EUR is expressed in terms of USD (i.e. the quote type is foreign  to base), EUR is displayed as the source currency.</dd>
+  <dd>If USD is expressed in terms of EUR (i.e.  the quote type is base to foreign), USD is displayed as the source currency.</dd>
+  <dt><strong>Exchange Rate</strong></dt>
+  <dd>The current rate of exchange defined in the <strong>Exchange Rates</strong> profile (path: **File &gt; Setup &gt; Accounting &gt; Multi
+    <ul>
+      <li>Currency &gt; Exchange Rates &gt; Options &gt; Edit &gt; In New Window**),  between payment currency and the base currency is displayed.</li>
+    </ul>
+  </dd>
+  <dd>You can change this rate if required. Correspondingly  the foreign amount of the payment currency, bank currency and customer  currency sections also change. The transaction amounts for the journal  entry in the <strong>General</strong> tab of the  <strong>Receipt Journal</strong> profile also change.</dd>
+  <dt><strong>Destination currency</strong></dt>
+  <dd>The destination currency depends on the <strong>Quote 
+ type</strong> specified in the <strong>Currency</strong> profile. If the rate is expressed from <strong>foreign 
+ to base</strong>, then the destination currency displayed is the base currency.  If the rate is expressed from <strong>base to 
+ foreign</strong>, the payment currency is displayed in this field.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/example.gif" alt="" />  Based  on the example given in the <a href="/versata-everest-docs/accounting/misc/example_cross_currency_calculations_receipts.html"><strong>Example - Cross Currencies Calculations</strong></a>  section, if EUR is expressed in terms of USD (i.e. the quote type is foreign  to base), EUR is displayed as the destination currency.</dd>
+  <dd>If USD is expressed in terms of EUR (i.e.  the quote type is base to foreign), USD is displayed as the destination  currency.</dd>
+  <dt><strong>Foreign Amount</strong></dt>
+  <dd>The amount in customer’s currency displayed in the  <strong>General</strong> tab of the <strong>Receipt 
+ Journal</strong> profile is automatically displayed in this field. When  you change the payment currency, the exchange rate defined in <strong>Exchange 
+ Rate</strong> profile is used to arrive at this amount.</dd>
+  <dd>The foreign amount in the ‘Payment Currency’  section can be edited as required. When you edit this amount, the foreign  amount fields of the bank currency and customer currency sections get  updated automatically, using the existing exchange rates. The amounts  in the <strong>General</strong> tab also get updated  automatically.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/payment_currency_section_step_by_step_receipts_journal.html">Payment  Currency Section</a></dd>
+</dl>
+
+
+
+
+</div>

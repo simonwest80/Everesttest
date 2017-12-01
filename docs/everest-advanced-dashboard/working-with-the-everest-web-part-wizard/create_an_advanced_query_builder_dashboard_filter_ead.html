@@ -1,0 +1,90 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="create-an-advanced-query-builder-dashboard-filter">Create an Advanced Query Builder Dashboard Filter</h1>
+
+<p>Advanced users with knowledge of Microsoft SQL can create  custom Advanced Query Builder filters directly on the <strong>Everest 
+ Advanced Dashboard</strong> without using the Advanced Query Builder utility  in <strong>Everest</strong>. This can be very helpful  if your business requires more information than is available from the  <strong>Everest</strong> standard filters. Since  the Advanced Filter Web Parts on the dashboard are “read only”, advanced  filters created on the dashboard are not added to the Advanced Query Builder  filters in <strong>Everest</strong>.</p>
+
+<p class="note">If you want to create an Advanced Query Builder  filter that can be used in <strong>Everest</strong>  or on the dashboard, first create the filter in the Advanced Query Builder  Utility (path: <strong>Utility</strong> &gt; <strong>Advanced Query Builder</strong>), and then add  the filter to the dashboard using the “Add an Advanced Query Builder Filter  Web Part” procedure.</p>
+
+<p class="steps">To create an Advanced Query Builder filter  on the Everest Advanced Dashboard using Microsoft SQL, do the following:</p>
+
+<ul>
+  <li>On the top right  side of the Dashboard, click the down arrow following <strong>Site 
+ Actions</strong>.</li>
+  <li>Select <strong>Edit 
+ Page</strong>. The Dashboard displays in Edit mode.</li>
+  <li>In the dashboard  location where you would like the new web part added (Header, Left Column,  Middle Column, Right Column, or Footer), click <strong>Add 
+ a Web Part</strong>. The <strong>Add Web Parts</strong>  dialog box displays for the dashboard location selected.</li>
+  <li>Select <strong>Everest 
+ Advanced Filter</strong> from the All Web Parts list.</li>
+  <li>Click the <strong>Add</strong> button. The <strong>Everest 
+ Advanced Filter</strong> web part is added to your dashboard. The number  in brackets indicates if there is more than one Advanced Query Builder  filter web part on the dashboard. You still need to link to the filter  content.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/everest-advanced-dashboard/img/create_aqb_web_part_1_ead.gif" alt="" /></p>
+
+<p><strong>Figure: New Advanced Query Builder Web Part Added</strong></p>
+
+<ul>
+  <li>Click the drop  down arrow following <strong>edit</strong> and  select <strong>Modify Shared Web Part</strong>.  A dotted line appears around the new <strong>Everest 
+ Advanced Filter</strong> web part indicating that it is in Edit Mode and  the dialog box for the selected web part is displayed.</li>
+  <li>Verify that <strong>&lt;Custom SQL&gt;</strong> is selected in the  <strong>Filter</strong> drop-down list.</li>
+  <li>Enter your SQL  in the <strong>Custom SQL</strong> field.</li>
+  <li>In the <strong>Appearance</strong>  section, enter a title for your Advanced Query Builder filter.</li>
+</ul>
+
+<dl>
+  <dt>In the figure below, the following SQL was added to the Custom  SQL field:</dt>
+  <dd>select top 20 xp.qty_rec Qty,</dd>
+  <dd>i.itemno  Item,</dd>
+  <dd>i.Descript  Descrption,</dd>
+  <dd>p.doc_no  Document,</dd>
+  <dd>p.order_date  Date</dd>
+  <dd>from</dd>
+  <dd>po  p (nolock),</dd>
+  <dd>x_po  xp (nolock),</dd>
+  <dd>items  i (nolock)</dd>
+  <dd>where</dd>
+  <dd>p.status=24  and p.order_no=xp.order_no</dd>
+  <dd>and  p.status=xp.status</dd>
+  <dd>and  xp.item_code=i.itemno</dd>
+  <dd>order by</dd>
+  <dd>p.order_date  desc,</dd>
+  <dd>p.order_no  desc</dd>
+</dl>
+
+<p>This advanced filter displays a list of the product just  received into inventory.</p>
+
+<p><img src="/versata-everest-docs/everest-advanced-dashboard/img/create_aqb_web_part2_products_just_arrived_ead.gif" alt="" /></p>
+
+<p><strong>Figure: Everest Advanced Filter Dialog Box with  SQL and Title Added</strong></p>
+
+<p class="hint">In the <strong>Everest 
+ Advanced Filter</strong> dialog box <strong>Layout</strong>  section, select <strong>Hidden</strong> to keep  your new Advanced Query Builder web part off the dashboard until you are  finished adjusting it.</p>
+
+<ul>
+  <li>Click <strong>Apply</strong>.</li>
+  <li>Click <strong>OK</strong>  to save the changes and close the dialog box. The new name displays on  the web part.</li>
+  <li>Click the <strong>Exit Edit Mode</strong> link in the top right  corner of the dashboard to exit edit mode. The new Advanced Query Builder  Web Part displays on the dashboard.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/everest-advanced-dashboard/img/create_aqb_web_part3_products_just_arrived_ead.gif" alt="" /></p>
+
+<p><strong>Figure: Everest Advanced Filter “Products Just  Arrived” created with SQL from the Dashboard</strong></p>
+
+<p class="note">If you see the “Error occurred while fetching  the query  results”  error message in your web part, you will need to adjust your SQL to view  the required results.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-advanced-dashboard/working-with-the-everest-web-part-wizard/modify_an_advanced_query_builder_web_part_ead.html">Modify  an Advanced Query Builder Web Part</a></dd>
+</dl>
+
+
+
+
+</div>

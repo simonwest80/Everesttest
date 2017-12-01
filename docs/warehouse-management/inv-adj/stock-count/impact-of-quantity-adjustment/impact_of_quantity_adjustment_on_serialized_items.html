@@ -1,0 +1,638 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="impact-of-quantity-adjustment-on-serialized-items">Impact of Quantity Adjustment on Serialized Items</h1>
+
+<p>Determination of a mismatch between the system and physical stocks of  serialized items is easy. The following are indicative of a discrepancy:</p>
+
+<ul>
+  <li>Serial numbers  available in the system are not available physically.</li>
+  <li>Serial numbers  are available physically as well as in the system but not in the same  bin.</li>
+</ul>
+
+<p>This aberration can be corrected by using the <strong>Finalize 
+ and Adjust Quantity</strong> option. The corresponding items are displayed  in the <strong>Serial Number Discrepancy Details</strong>  browser. Select the items that you want adjusted and click <strong>OK</strong>  in this browser. The adjustments done are based on the kind of discrepancy.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Discrepancy</td>
+      <td>Adjustments</td>
+      <td>Other Impacts</td>
+    </tr>
+    <tr>
+      <td>Serial number available physically but not available in the system in  the counted bin</td>
+      <td>Transfer of serial number from the bin in which system stock is available  to the bin in which the stock is physically available</td>
+      <td>- The stock transfer  quantity column shows the total number of serial numbers transferred.<br />- Serial numbers  are transferred at the actual cost.<br />- Stock transfer  value is the sum of the serial numbers transferred.</td>
+    </tr>
+    <tr>
+      <td>Serial numbers available in the system but not physically available</td>
+      <td>Serial numbers written off to an OUT area</td>
+      <td>- Adjustment  quantity shows the total number of serial numbers written off.<br />- Serial numbers  are written off at the actual cost. The adjustment cost column shows the  weighted average of the actual cost of the serial numbers written off.<br />- Adjustment  value is Adjustment Quantity multiplied by the Adjustment Cost.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="example"><strong>Item 17 700 Monitor is stocked in three bins.  Create a Stock Count document for bins 1, 2, and 3 and complete the process  of counting in the same order. The impact of transfer of serial numbers  to the correct bins at the end of each stock count process is detailed  below.</strong></p>
+
+<p>Counting in Bin</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Bin 1</td>
+      <td>Bin 2</td>
+      <td>Bin 3</td>
+      <td>Out Area</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>Physical Sl. No.</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>4</td>
+      <td> </td>
+      <td>7</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>5</td>
+      <td>5</td>
+      <td> </td>
+      <td>8</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>9</td>
+      <td>6</td>
+      <td> </td>
+      <td>9</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Reconciliation of serial numbers in Bin 1</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Bin 1</td>
+      <td>Bin 2</td>
+      <td>Bin 3</td>
+      <td>Out Area</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>Physical Sl. No.</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>4</td>
+      <td> </td>
+      <td>7</td>
+      <td> </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5</td>
+      <td>6</td>
+      <td> </td>
+      <td>8</td>
+      <td> </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>9</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Serial numbers  2 and 3 are written off.</li>
+  <li>Serial number  5 is moved from bin 2 to bin 1.</li>
+  <li>Serial number  9 is moved from bin 3 to bin 1.</li>
+  <li>Variance quantity  is zero.</li>
+  <li>Adjustment  quantity is 2.</li>
+  <li>Stock transfer  quantity is 2.</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Item Code</td>
+      <td>Serial #</td>
+      <td>Bin from</td>
+      <td>Bin to</td>
+      <td>Qty</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>2</td>
+      <td>Bin 1</td>
+      <td>Out</td>
+      <td>-1</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>3</td>
+      <td>Bin 1</td>
+      <td>Out</td>
+      <td>-1</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>5</td>
+      <td>Bin 2</td>
+      <td>Bin 1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>9</td>
+      <td>Bin 3</td>
+      <td>Bin 1</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Counting in Bin 2</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Bin 1</td>
+      <td>Bin 2</td>
+      <td>Bin 3</td>
+      <td>Out Area</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>Physical Sl. No.</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td> </td>
+      <td>4</td>
+      <td>4</td>
+      <td>7</td>
+      <td> </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td> </td>
+      <td>6</td>
+      <td>2</td>
+      <td>8</td>
+      <td> </td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Reconciliation of serial numbers in Bin 2</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Bin 1</td>
+      <td>Bin 2</td>
+      <td>Bin 3</td>
+      <td>Out Area</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>Physical Sl. No.</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>4</td>
+      <td>4</td>
+      <td>7</td>
+      <td> </td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5</td>
+      <td>2</td>
+      <td>2</td>
+      <td>8</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>9</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Serial number  2 is brought into bin 2 from the OUT area by way of a credit memo.</li>
+  <li>Serial number  6 is written off and assigned to the OUT area.</li>
+  <li>Variance is  zero.</li>
+</ul>
+
+<p>Serial number discrepancy details</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Item Code</td>
+      <td>Serial #</td>
+      <td>Bin from</td>
+      <td>Bin to</td>
+      <td>Qty</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>6</td>
+      <td>Bin 2</td>
+      <td>Out</td>
+      <td>-1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Counting in Bin 3</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Bin 1</td>
+      <td>Bin 2</td>
+      <td>Bin 3</td>
+      <td>Out Area</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>Physical Sl. No.</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td> </td>
+      <td>4</td>
+      <td>4</td>
+      <td>7</td>
+      <td>3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td> </td>
+      <td>6</td>
+      <td>2</td>
+      <td>8</td>
+      <td>6</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>3</td>
+      <td>7</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>6</td>
+      <td>8</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Reconciliation of serial numbers in Bin 3</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Bin 1</td>
+      <td>Bin 2</td>
+      <td>Bin 3</td>
+      <td>Out Area</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>Physical Sl. No.</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td> </td>
+      <td>4</td>
+      <td>4</td>
+      <td>3</td>
+      <td>3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td> </td>
+      <td>2</td>
+      <td>2</td>
+      <td>6</td>
+      <td>6</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>7</td>
+      <td>7</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>8</td>
+      <td>8</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Variance in bin 3 is zero.</p>
+
+<p class="example"><strong>Item 17 700 Monitor is stocked in two bins.  Bin 1 is counted first and thereafter bin 2 is counted. The details of  the impact of the transfer of the serial numbers to the correct bins are  given below.</strong></p>
+
+<p>Counting in Bin 1</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Bin 1</td>
+      <td>Bin 2</td>
+      <td>Out Area</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>Physical Sl. No.</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>4</td>
+      <td>4</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>5</td>
+      <td>5</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>6</td>
+      <td>6</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Reconciliation of serial numbers in bin 1</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Bin 1</td>
+      <td>Bin 2</td>
+      <td>Out Area</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>Physical Sl. No.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4</td>
+      <td> </td>
+      <td> </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5</td>
+      <td> </td>
+      <td> </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>6</td>
+      <td> </td>
+      <td> </td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Serial numbers  1, 2, and 3 are written off and assigned to the OUT area.</li>
+  <li>Serial numbers  4, 5, and 6 are moved from bin 2 to bin 1.</li>
+  <li>Variance for  bin 1 is zero.</li>
+</ul>
+
+<p>Counting in Bin 2</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Bin 1</td>
+      <td>Bin 2</td>
+      <td>Out Area</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>Physical Sl. No.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5</td>
+      <td>2</td>
+      <td>2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>6</td>
+      <td>3</td>
+      <td>3</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Reconciliation of serial numbers in bin 2</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Bin 1</td>
+      <td>Bin 2</td>
+      <td>Out Area</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>System Sl. No.</td>
+      <td>Physical Sl. No.</td>
+      <td>Physical Sl. No.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5</td>
+      <td>2</td>
+      <td>2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>6</td>
+      <td>3</td>
+      <td>3</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Serial numbers  1, 2, and 3 are brought into bin 2 from the OUT area by way of a credit  memo.</li>
+  <li>Variance for  bin 2 is zero.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/inv-adj/stock-count/impact-of-quantity-adjustment/impact_of_quantity_adjustment.html">Impact  of Quantity Adjustment</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,6 @@
+---
+title: Print Bar Code
+---
+
+
+Check this option to print the document number as a barcode. This barcode is printed on the top right corner of the document.

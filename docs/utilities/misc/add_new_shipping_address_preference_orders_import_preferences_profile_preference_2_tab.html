@@ -1,0 +1,34 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="create-a-new-shipping-address-unless-shipping-address-found-with-matching">Create a New Shipping Address Unless Shipping Address Found with Matching</h1>
+
+<p>Select your preference for the condition that will not create a new  shipping address for a customer. The system automatically creates a new  shipping address unless it finds an existing shipping address in the <strong>Everest</strong> database with a matching:</p>
+
+<ul>
+  <li><strong>Telephone-1</strong>  – Select this option if you do not want to create a new shipping address  when the Telephone-1 field of the customer shipping address entered in  the online store matches the existing shipping address in the <strong>Everest</strong>  database. 
+If this field is blank in both the imported shipping address and in  the existing shipping address in <strong>Everest</strong>,  a comparison is not possible and therefore the system creates a new shipping  address.</li>
+  <li><strong>Street 
+ Address and Telephone-1</strong> – Select this option if you do not want  to create a new shipping address when the Street Address and Telephone-1  fields of the customer shipping address entered in the online store match  the existing shipping address in the <strong>Everest</strong>  database. If any one of these fields does not match, the system creates  a new shipping address. 
+If any of these fields are blank in both the imported shipping address  and in the existing shipping address in Everest, the system considers  these field values the same for this field and does not create a new shipping  address based on this field.</li>
+  <li><strong>Street 
+ Address, Zip and Telephone-1</strong> – Select this option if you do not  want to create a new shipping address when the Street Address, Zip, and  Telephone-1 fields of the customer shipping address entered in the online  store match the existing shipping address in the Everest database. If  any one of these fields does not match, the system creates a new shipping  address. 
+If any of these fields are blank in both the imported shipping address  and in the existing shipping address in Everest, the system considers  these field values the same for this field and does not create a new shipping  address based on this field.</li>
+</ul>
+
+<p>For all of the above options, fields match if they contain identical  values. A field with a value does not match a blank field.</p>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/db-utils/so-import/prefs/details/add_new_shipping_address_import_order_preferences_profile_utility_main_content.html">Add  New Shipping Address</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/db-utils/so-import/set-prefs/prefs-profile/orders_import_preferences_profile_preferences_2_utility.html">Sales  Order Import Preferences Profile - Payments</a></dd>
+</dl>
+
+
+
+
+</div>

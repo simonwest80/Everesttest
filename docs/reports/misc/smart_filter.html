@@ -1,0 +1,67 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="smart-filter">Smart Filter</h1>
+
+<p>Use the <strong>Smart Filter</strong> to select  accounts based on your segments. Wildcards can be used in this field and  up to 250 characters can be entered. <strong>Segment 
+ Separators</strong> must be entered between segments. Enter a semi-colon  (<strong>;</strong>) to separate accounts in the  <strong>Smart Filter</strong>.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Smart Filter Wildcard</td>
+      <td>Meaning</td>
+    </tr>
+    <tr>
+      <td>?</td>
+      <td>One Character</td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td>Multiple Characters</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="example">A company has a segment format of DIV-DEP-PRODUCT-ACCT  (Division, Department, Product, and Account). The accountant wants to  know the sales figures (Account 4000) for Product ABC in all Divisions  and Departments and also wants to see sales figures for Product XYZ for  Division 001 only.</p>
+
+<p>The following is entered in the <strong>Smart 
+ Filter</strong> field:</p>
+
+<p>*-*-ABC-4000; 001-*-XYZ-4000</p>
+
+<p>The meaning of this entry is further explained in the following table:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Character or Characters</td>
+      <td>Meaning</td>
+    </tr>
+    <tr>
+      <td>*-*-ABC-4000</td>
+      <td>All Divisions, All Departments, Product ABC, and Account  4000</td>
+    </tr>
+    <tr>
+      <td>;</td>
+      <td>Separator used to separate smart filter requests</td>
+    </tr>
+    <tr>
+      <td>001-*-XYZ-4000</td>
+      <td>Division 001, All Departments, Product XYZ, and Account  4000</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/acc-info/coa/chart-of-accounts-details/segmented_chart_of_accounts.html">Segmented  Chart of Accounts</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,40 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="copying-events">Copying Events</h1>
+
+<p>Once you have created the new application, copy the required events  from the sample events.</p>
+
+<p class="steps">To copy the events from the sample events  pack into the new application, do the following:</p>
+
+<ul>
+  <li>Open the <strong>Everest CRM 
+ Studio Architect</strong> window and select <strong>Application 
+ Events</strong>.</li>
+  <li>Select the  sample company application and click on <strong>Events</strong>.  You will see the list of existing sample events.</li>
+  <li>Select the  event in the right panel and choose <strong>Edit 
+ &gt; Copy</strong> from the menu.</li>
+  <li>Now select  <strong>Events</strong> under the new application  you have created. Choose <strong>Edit &gt; Paste</strong>.  The event gets copied into the new application.</li>
+  <li>Similarly,  copy the required events one by one from the reference pack and paste  them into the new application.</li>
+</ul>
+
+<p>It is not enough to copy the event from the reference pack into another  application. Copy the related query definitions, report definitions, scheduled  reports and basic scripts (if any) associated with the event in a similar  way as said above.</p>
+
+<p class="note">All the associated queries, reports, etc.  should refer to the new application that you created and not the sample  company application. Hence, if a query is copied it has to be removed  and again added using the new application.</p>
+
+<p>For example, you have created a new application APP1. You copy an event  X and a query Y  (associated with event X) from the sample events into APP1. Now double-click  on the event X in APP1. Note that the query selected for content in the  <strong>Queries</strong> tab refers to the APP1  application. If not, select and remove the query (use <strong>Remove 
+ Query</strong>) and add the query again (use <strong>Add 
+ Query</strong>) ensuring that you are adding it from the application APP1.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-crm/misc/upgrading_events.html">Upgrading Events</a></dd>
+</dl>
+
+
+
+
+</div>

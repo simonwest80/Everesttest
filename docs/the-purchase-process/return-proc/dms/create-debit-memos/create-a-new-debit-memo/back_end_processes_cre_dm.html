@@ -1,0 +1,58 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---create-a-debit-memo">Back End Processes - Create a Debit Memo</h1>
+
+<p>When a debit memo is created the following back end processes occur:</p>
+
+<ul>
+  <li>A debit memo  is created with the status ‘Open’.</li>
+  <li>If the debit  memo was created by converting an order, and all items requested are returned,  the status of the order changes to ‘Closed’. If items remain to be returned,  it changes to ‘Backorder’.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/return-proc/doc-prof/contents/document-information/document_status_pr.html">Document  Status</a></strong></p>
+
+<ul>
+  <li>The sequence  number of the debit memo is generated automatically by the system</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/return-proc/doc-prof/contents/document-information/document_number_pr.html">Document  Number</a></strong></p>
+
+<ul>
+  <li>When quantities  of an item requested are returned on a debit memo, the stock status of  the item displays the following changes as viewed in the <a href="/versata-everest-docs/managing-items/misc/the_item_stock_status_dialog_box.html"><strong>Item Stock Status</strong> dialog box</a>:</li>
+</ul>
+
+<ol>
+  <li><strong>Stock 
+ status of the item</strong> - There is a decrease in the quantity of items  “On Debit” for the items returned. If the items were committed  on the debit order, the quantity “On Debit Committed” also reduces.  There is a decrease in the “Total stock”.
+    <ul>
+      <li><strong>Stock 
+ status in the assigned stock area</strong> - The assigned stock area is  the area to which items are transferred when a debit memo is created.  There is an increase in the “Out” and “Free Out” quantity  in the assigned stock area.</li>
+      <li><strong>Stock 
+ Status in the committed stock area</strong> - If the quantity returned was  committed on the order, the “Stock” and “On Debit”  quantity reduces in the committed stock area.</li>
+    </ul>
+  </li>
+</ol>
+
+<ul>
+  <li><strong>Average 
+ cost of serialized items</strong> - When a serialized item is returned,  the total stock value of that item is reduced by the actual cost of the  item. The average cost of the item is recalculated after the return.</li>
+</ul>
+
+<p class="example">The average cost of 10 units of a serialized  item is $100; you return a unit whose actual cost is $110, the total value  of the 9 items in stock is $890 and the average cost changes to $98.8.</p>
+
+<ul>
+  <li><strong>Serial 
+ numbers of serialized/auto-serialized items</strong> - If the item is serialized/auto-serialized,  an entry is added to the <strong>Serial Number 
+ History</strong> of the item.</li>
+  <li>The vendor’s unposted  amount and payable amount reduces by the value of memo. When the Purchase  Journal for the memo is posted, the posted amount reduces and unposted  amount increases.</li>
+</ul>
+
+
+
+
+
+</div>

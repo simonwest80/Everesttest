@@ -1,0 +1,77 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" src="/versata-everest-docs/sales/misc/ehlpdhtm.js" x-save-method="compute-relative"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovInitEffects ) != 'function' ) kadovInitEffects = new Function();if( typeof( kadovInitTrigger ) != 'function' ) kadovInitTrigger = new Function();if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<h1 id="prior-authorization-information">Prior Authorization Information</h1>
+
+<p>The <strong>Use Prior Authorization</strong>  section in the <strong>Card Verification</strong>  dialog box is used for processing payments on cards, which are pre-authorized.  Upon fulfillment of the order, when the payment becomes due, the amount  for which <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/prior_authorization_1.html');" id="A1">prior authorization</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A1');
+//--></script>  is obtained must be processed to <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/capture_1.html');" id="A2">capture</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A2');
+//--></script>  funds.</p>
+
+<dl>
+  <dt><strong>ICVerify</strong></dt>
+  <dd>When the payment service is ICVerify, select <strong>Force Sale</strong> to capture funds on an existing  <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/voice_authorizations.html');" id="A3">voice authorization</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A3');
+//--></script>  or other <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/authorization_1.html');" id="A4">authorization</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A4');
+//--></script>.  Select <strong>Ship (Prior Booking)</strong> to  capture amounts that have been booked through prior authorization in case  of <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/mo_to_1.html');" id="A5">MO/TO</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A5');
+//--></script>  sales.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/credit_card_processing_ic_verify.html">Credit  Card Processing with IC Verify</a></dd>
+  <dd>When this option is selected, you have to select  the approval code for the amount which you have previously obtained.</dd>
+  <dd>If this amount is MORE than what you enter in the  payment details window, <strong>Everest</strong>  prompts you with the following message and options:</dd>
+  <dd>“The amount being processed is less than the previously  authorized amount of XX.XX for the selected approval code.  How  would you like to proceed?”</dd>
+</dl>
+
+<ul>
+  <li>Receive partial  payment of YY.YY and maintain the difference of ZZ.ZZ for future re-authorization</li>
+  <li>Receive partial  payment of YY.YY</li>
+</ul>
+
+<dl>
+  <dt>: The variables mentioned above stand for the following:</dt>
+  <dd>YY.YY is the amount the user entered in the payment  screen</dd>
+  <dd>XX.XX is the amount of the Batch Payment Record  (authorized amount)</dd>
+  <dd>ZZ.ZZ is equal to XX.XX - YY.YY.</dd>
+  <dd>Depending on your selection, the respective action  will be taken.</dd>
+  <dd>In case you select an approval code for an amount  that is LESS than what you enter in the payment details window, <strong>Everest</strong> prompts you with the following  message:</dd>
+  <dd>“The maximum amount that can be processed using  the selected approval code is XX.XX.  Would  you like to adjust this payment to use this amount?”</dd>
+  <dd>If you select Yes, the transaction is submitted  for amount XX.XX. If you select No, the transaction is not submitted and  you are returned to the <strong>Credit Card Processing</strong>  dialog box.</dd>
+  <dt><strong>Payflow  Pro</strong></dt>
+  <dd>When the payment service is Payflow  Pro, select <strong>Voice Authorization</strong> to  capture funds on an existing voice authorization or any other authorization.  Select <strong>Delayed Capture</strong> to capture  amounts that are booked through prior authorization in case of MO/TO sales.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/credit_card_processing_payflow_pro.html">Credit  Card Processing with Payflow  Pro</a></dd>
+  <dt><strong>Approval Code/PNRef #</strong></dt>
+  <dd>Enter the approval code, if it is a voice authorization.  In case of existing authorizations, select the approval code.</dd>
+  <dd>In case the payment service is Payflow  Pro and the option selected is <strong>Delayed 
+ Capture</strong> select the appropriate PNREF number  (Payment Network Reference Number) in this field.</dd>
+</dl>
+
+<p class="note">You can select only one of the options: new payment,  sale, pre-authorization or use prior authorization while processing a  payment.</p>
+
+<p><strong>Accounting Entries for Prior Authorization</strong></p>
+
+<p>The accounting entries for approved payments are the same as the entries  made when payment is made through cash, check or any other method.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/pmts-on-so/rcpt-dlg/accounting_entries.html">Accounting Entries -  Payments from Customers</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/cc-pmts/cc-verify/prior-authorization/back_end_processes_prior_authorization.html">Back  End Processes - Prior Authorization</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/cc-pmts/cc-verify/card_verification_details.html">Card Verification  Details</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,1606 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounting entries">
+    <param name="Name" value="Accounting Entries">
+    <param name="Local" value="db-utils\data-import\wizard\accounting-entries\accounting_entries_content_utility_contents.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounts receivable import">
+      <param name="Name" value="Accounting Entries">
+      <param name="Local" value="db-utils\data-import\wizard\accounting-entries\receivable\accounting_entries_for_customer_invoices_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items">
+      <param name="Name" value="Accounting Entries">
+      <param name="Local" value="db-utils\data-import\wizard\accounting-entries\items\accounting_entries_items_accounting_entries_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounts payable import">
+      <param name="Name" value="Accounting Entries">
+      <param name="Local" value="db-utils\data-import\wizard\accounting-entries\payable\accounting_entries_vendor_invoices_utility_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounts payable data import">
+    <param name="Name" value="Accounts Payable">
+    <param name="Local" value="db-utils\data-import\wizard\accounting-entries\payable\vendor_invoices_accounting_entries_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accounts receivable data import">
+    <param name="Name" value="accounts receivable">
+    <param name="Local" value="db-utils\data-import\wizard\accounting-entries\receivable\customer_invoices_accounting_entries_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="add-ins">
+    <param name="Name" value="Add-Ins">
+    <param name="Local" value="other-utilities\add-in-manager\add_ins_addin_manager_utility_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="add-in manager utility">
+    <param name="Name" value="Add-In Manager Utility">
+    <param name="Local" value="other-utilities\add-in-manager\addin_manager_utility_ut.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="register add-ins">
+      <param name="Name" value="Register Add-Ins">
+      <param name="Local" value="other-utilities\add-in-manager\register_add_ins_addin_manager_utility_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="enable registered add-ins">
+      <param name="Name" value="Enable Registered Add-Ins">
+      <param name="Local" value="other-utilities\add-in-manager\enable_registered_add_ins_addin_manager_utility_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view registered add-ins">
+      <param name="Name" value="View Registered Add-Ins">
+      <param name="Local" value="other-utilities\add-in-manager\vew_registered_add_ins_addin_manager_utility_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="disable registered add-ins">
+      <param name="Name" value="Disable Registered Add-Ins">
+      <param name="Local" value="other-utilities\add-in-manager\disable_registered_add_ins_addin_manager_utility_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="configure add-ins">
+      <param name="Name" value="Configure Add-Ins">
+      <param name="Local" value="other-utilities\add-in-manager\configure_add_ins_addin_manager_utility_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="remove add-ins">
+      <param name="Name" value="Remove Add-Ins">
+      <param name="Local" value="other-utilities\add-in-manager\remove_add_ins_addin_manager_utility_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="installing add-ins">
+      <param name="Name" value="Installing Add-Ins">
+      <param name="Local" value="other-utilities\add-in-manager\installing_add_ins_addin_manager_utility_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add-ins dialog box">
+      <param name="Name" value="Add-Ins Dialog Box">
+      <param name="Local" value="other-utilities\add-in-manager\addins_dialog_box_addin_manager_utility_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="manage registered add-ins">
+      <param name="Name" value="Manage Registered Add-Ins">
+      <param name="Local" value="other-utilities\add-in-manager\manage_registered_add_ins_addin_manager_utility_ut.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advanced filter">
+    <param name="Name" value="Advanced Query Builder">
+    <param name="Local" value="other-utilities\the-advanced-query-builder\the_query_builder_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advanced query builder">
+    <param name="Name" value="Advanced Query Builder">
+    <param name="Local" value="other-utilities\the-advanced-query-builder\the_query_builder_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="how to add a query from sql">
+      <param name="Name" value="How to add a Query from SQL to Advanced Query Builder">
+      <param name="Local" value="other-utilities\the-advanced-query-builder\how_to_add_a_query_from_sql_to_advanced_query_builder_ut.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advanced query builder examples">
+    <param name="Name" value="Example: Create a Query to retrieve all Active Customer Addresses">
+    <param name="Local" value="other-utilities\the-advanced-query-builder\example_create_query_to_retrieve_all_active_customer_addresses_ut.html">
+    <param name="Name" value="Example: Create an Interactive Filter with Drill-down Documents and Profiles">
+    <param name="Local" value="other-utilities\the-advanced-query-builder\example_create_an_interactive_filter_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advanced query builder supported actions">
+    <param name="Name" value="Advanced Query Builder Supported Actions">
+    <param name="Local" value="other-utilities\the-advanced-query-builder\advanced_query_builder_supported_actions_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advanced query builder tabs">
+    <param name="Name" value="Query Details Section">
+    <param name="Local" value="misc\query_builder_query_details_section.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="audit trail">
+    <param name="Name" value="Audit Trail">
+    <param name="Local" value="audit-trail\audit_trail_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="back end processes">
+    <param name="Name" value="Backend Processes for Customer Invoices">
+    <param name="Local" value="db-utils\data-import\wizard\accounting-entries\receivable\backend_processes_for_customer_invoices_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounts receivable import">
+      <param name="Name" value="Back End Processes - Importing Accounts Receivable">
+      <param name="Local" value="db-utils\data-import\wizard\accounting-entries\receivable\backend_processes_for_customer_invoices_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items">
+      <param name="Name" value="Back end Processes for Items">
+      <param name="Local" value="db-utils\data-import\wizard\accounting-entries\items\backend_processes_for_items_accounting_entries_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accounts payable import">
+      <param name="Name" value="Back End Processes - Importing Accounts Payable">
+      <param name="Local" value="db-utils\data-import\wizard\accounting-entries\payable\backend_processes_for_vendor_invoices_utility_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="backup company">
+    <param name="Name" value="Backup Company">
+    <param name="Local" value="db-utils\database-backup\housekeeping_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="backup dialog box">
+    <param name="Name" value="The Backup Dialog Box">
+    <param name="Local" value="db-utils\database-backup\backup-dialog-box\backup_dialog_box_housekeeping_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="backup information">
+      <param name="Name" value="Backup Information">
+      <param name="Local" value="db-utils\database-backup\backup-dialog-box\backup_information_backup_dialog_box_housekeeping_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="destination backup to">
+      <param name="Name" value="Destination Backup To">
+      <param name="Local" value="db-utils\database-backup\backup-dialog-box\destination_backup_to_backup_dialog_box_housekeeping_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general information">
+      <param name="Name" value="General Information">
+      <param name="Local" value="db-utils\database-backup\backup-dialog-box\general_information_backup_dialog_box_housekeeping_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="options">
+      <param name="Name" value="Options">
+      <param name="Local" value="db-utils\database-backup\backup-dialog-box\options_backup_dialog_box_housekeeping_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="overwrite">
+      <param name="Name" value="Overwrite">
+      <param name="Local" value="db-utils\database-backup\backup-dialog-box\overwrite_backup_dialog_box_housekeeping_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="schedule">
+      <param name="Name" value="Schedule">
+      <param name="Local" value="db-utils\database-backup\backup-dialog-box\schedule_backup_dialog_box_housekeeping_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="security">
+      <param name="Name" value="Security">
+      <param name="Local" value="db-utils\database-backup\backup-dialog-box\security_backup_dialog_box_housekeeping_utility.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="calculator">
+    <param name="Name" value="Calculator">
+    <param name="Local" value="other-utilities\calculator\calculator_other_utilities_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="calendar">
+    <param name="Name" value="Calendar">
+    <param name="Local" value="other-utilities\calendar\calendar_other_utilities_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="change document alias">
+    <param name="Name" value="Change Document Alias">
+    <param name="Local" value="document-utility-programs\change_document_alias_utility_bp.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="change document alias dialog box">
+      <param name="Name" value="The Change Document Alias Dialog Box">
+      <param name="Local" value="document-utility-programs\the_change_document_alias_dialog_box_bp.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="change item code">
+    <param name="Name" value="Change Item Codes">
+    <param name="Local" value="item-management\change_item_code_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="change item code dialog box">
+    <param name="Name" value="The Change Item Code Dialog Box">
+    <param name="Local" value="item-management\the_change_item_code_dialog_box_steps_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="configure utilities dialog box">
+    <param name="Name" value="The Configure Utilities Dialog Box">
+    <param name="Local" value="other-utilities\other-programs\the_configure_utilities_dialog_box_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="create">
+    <param name="Name" value="Create New Generic Catalog">
+    <param name="Local" value="item-management\importing-3rd-catalogs\import-generic-catalog\create_new_generic_catalog.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="generic third party catalog">
+      <param name="Name" value="Create New Generic Catalog">
+      <param name="Local" value="item-management\importing-3rd-catalogs\import-generic-catalog\create_new_generic_catalog.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="query">
+      <param name="Name" value="Steps to Create a Query">
+      <param name="Local" value="other-utilities\the-advanced-query-builder\steps_to_create_a_query.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="data import summary">
+    <param name="Name" value="Importing Data">
+    <param name="Local" value="db-utils\data-import\wizard\data_import_summay_data_import_wizard_final_screen_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="data import wizard">
+    <param name="Name" value="Import Data">
+    <param name="Local" value="db-utils\data-import\wizard\importing_data_data_import_wizard_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="ASCII delimited file">
+      <param name="Name" value="ASCII Delimited File Import">
+      <param name="Local" value="db-utils\data-import\wizard\src-file-selection\text-file-excel-spreadsheet\ascii_delimited_text_files.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="ASCII fixed text files">
+      <param name="Name" value="ASCII Fixed Text Files">
+      <param name="Local" value="db-utils\data-import\wizard\src-file-selection\text-file-excel-spreadsheet\ascii_fixed_text_files.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="select data to import">
+      <param name="Name" value="Select Data to Import">
+      <param name="Local" value="db-utils\data-import\wizard\destination_table_selection_data_import_wizard_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="field mapping">
+      <param name="Name" value="Field Mapping">
+      <param name="Local" value="db-utils\data-import\wizard\field-mapping\field_mapping_data_import_wizard_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="field mapping buttons">
+      <param name="Name" value="Field Mapping Buttons">
+      <param name="Local" value="db-utils\data-import\wizard\field-mapping\field_mapping_buttons_field_mapping_screen_diw_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="importing data (summary)">
+      <param name="Name" value="Importing Data (Summary)">
+      <param name="Local" value="db-utils\data-import\wizard\data_import_summay_data_import_wizard_final_screen_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="importing historical documents">
+      <param name="Name" value="Importing Historical Documents">
+      <param name="Local" value="db-utils\data-import\wizard\hist-docs\importing_historical_documents_data_import_wizard.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="importing items">
+      <param name="Name" value="Importing Items">
+      <param name="Local" value="db-utils\data-import\wizard\importing-items\importing_items_data_import_wizard_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="matrix items import">
+      <param name="Name" value="Matrix Items Import">
+      <param name="Local" value="db-utils\matrix-items-import\matrix_items_import_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="source file selection">
+      <param name="Name" value="Source File Selection">
+      <param name="Local" value="db-utils\data-import\wizard\src-file-selection\source_file_selection_data_import_wizard_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="welcome">
+      <param name="Name" value="Data Import Wizard">
+      <param name="Local" value="db-utils\data-import\wizard\import_data_wizard_data_import_wizard_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="error dialog box">
+      <param name="Name" value="Data import wizard Error dialog box">
+      <param name="Local" value="misc\data_import_wizard_error_dialog_box.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter dialog box">
+      <param name="Name" value="Filter Dialog Box">
+      <param name="Local" value="db-utils\data-import\wizard\field-mapping\filter_dialog_box_import_data_wizard_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="specify a default value">
+      <param name="Name" value="Specify a Default Value">
+      <param name="Local" value="misc\specify_a_default_value_field_mapping_data_import_dialog_utility.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="database maintenance">
+    <param name="Name" value="Database Maintenance">
+    <param name="Local" value="db-utils\database-maintenance\database_maintenance_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="database update utility">
+    <param name="See Also" value="database update utility">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="update key">
+      <param name="Name" value="Update Key">
+      <param name="Local" value="misc\update_key_database_update_utility.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="database utility programs">
+    <param name="Name" value="Database Utility Programs">
+    <param name="Local" value="db-utils\database_utility.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="defrag indexes">
+    <param name="Name" value="Defragment Indexes">
+    <param name="Local" value="db-utils\database-maintenance\defrag-indexes\defrag_indexes.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="intermediate level">
+      <param name="Name" value="Intermediate Level">
+      <param name="Local" value="misc\intermediate_level_defrag_indexes.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="leaf level">
+      <param name="Name" value="Leaf Level">
+      <param name="Local" value="misc\leaf_level_defrag_indexes.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="root level">
+      <param name="Name" value="Root Level">
+      <param name="Local" value="misc\root_level_defrag_indexes.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="defragmenting indexes dialog box">
+    <param name="Name" value="Defragmenting Indexes Dialog Box">
+    <param name="Local" value="db-utils\database-maintenance\defrag-indexes\defragmenting_indexes_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="document utility programs">
+    <param name="Name" value="Document Utility Programs">
+    <param name="Local" value="misc\document_utility_programs_bp.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="e-commerce search catalog update schedule dialog box">
+    <param name="Name" value="E-Commerce Search Catalog Update Schedule Dialog Box">
+    <param name="Local" value="misc\e_commerce_search_catalog_update_schedule_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="daily frequency">
+      <param name="Name" value="Daily Frequency">
+      <param name="Local" value="misc\daily_frequency_e-commerce_search_catalog_update.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="duration">
+      <param name="Name" value="Duration">
+      <param name="Local" value="misc\duration_e-commerce_search_catalog_update.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="occurs">
+      <param name="Name" value="Occurs">
+      <param name="Local" value="misc\occurs_e-commerce_search_catalog_update.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="edit clear lock job dialog box">
+    <param name="Name" value="Edit Clear Lock Job dialog box">
+    <param name="Local" value="misc\edit_clear_lock_job_dialog_box_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="edit recurring job schedule">
+    <param name="Name" value="Daily Frequency">
+    <param name="Local" value="misc\daily_frequency_section_edit_recurring_job_schedule_dialog_box_database_backup_utility.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="edit recurring job schedule dialog box">
+    <param name="Name" value="Edit Recurring Job Schedule Dialog Box">
+    <param name="Local" value="misc\edit_recurring_job_schedule_dialog_box_data_backup_utility.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="daily frequency">
+      <param name="Name" value="Daily Frequency">
+      <param name="Local" value="misc\daily_frequency_section_edit_recurring_job_schedule_dialog_box_database_backup_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="duration">
+      <param name="Name" value="Duration">
+      <param name="Local" value="misc\duration_section_edit_recurring_job_schedule_dialog_box_database_backup_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="occurs">
+      <param name="Name" value="Occurs">
+      <param name="Local" value="misc\occurs_section_edit_recurring_job_schedule_dialog_box_database_backup_utility.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="edit schedule dialog box">
+    <param name="Name" value="Edit Schedule dialog box">
+    <param name="Local" value="misc\edit_schedule_dialog_box_schedule_back_up_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="enumerated values dialog box">
+    <param name="Name" value="Enumerated Values Dialog Box">
+    <param name="Local" value="misc\enumerated_values_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="error log">
+    <param name="Name" value="Client Error Log">
+    <param name="Local" value="other-utilities\error-log\client_error_log_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="client">
+      <param name="Name" value="Client Error Log">
+      <param name="Local" value="other-utilities\error-log\client_error_log_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="server">
+      <param name="Name" value="Server Error Log">
+      <param name="Local" value="other-utilities\error-log\server_error_log_utility_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="event history">
+    <param name="Name" value="All Events">
+    <param name="Local" value="audit-trail\event-history\event_history_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="events history browser">
+    <param name="Name" value="Events Log Browser">
+    <param name="Local" value="audit-trail\event-history\events_history_browser_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="events history browser options">
+    <param name="Name" value="Events Log Browser - Options">
+    <param name="Local" value="misc\events_log_browser_options.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="filter conditions">
+    <param name="Name" value="Query Details Section - Filters">
+    <param name="Local" value="misc\query_details_section_filters.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add condition">
+      <param name="Name" value="Query Details Section - Filters">
+      <param name="Local" value="misc\query_details_section_filters.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="delete condition">
+      <param name="Name" value="Query Details Section - Filters">
+      <param name="Local" value="misc\query_details_section_filters.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="expand/collapse condition">
+      <param name="Name" value="Query Details Section - Filters">
+      <param name="Local" value="misc\query_details_section_filters.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="make a composite condition">
+      <param name="Name" value="Query Details Section - Filters">
+      <param name="Local" value="misc\query_details_section_filters.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="historical documents">
+    <param name="Name" value="Importing Historical Documents">
+    <param name="Local" value="db-utils\data-import\wizard\hist-docs\importing_historical_documents_data_import_wizard.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="data import wizard">
+      <param name="Name" value="Importing Historical Documents">
+      <param name="Local" value="db-utils\data-import\wizard\hist-docs\importing_historical_documents_data_import_wizard.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="import shipment tracking wizard">
+    <param name="Name" value="Select Excel Source File Section">
+    <param name="Local" value="db-utils\shipment-tracking-import\select_excel_source_file_section.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="select excel source file section">
+      <param name="Name" value="Select Excel Source File Section">
+      <param name="Local" value="db-utils\shipment-tracking-import\select_excel_source_file_section.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="welcome">
+      <param name="Name" value="Import Shipment Tracking Wizard - Welcome">
+      <param name="Local" value="db-utils\shipment-tracking-import\import_shipment_tracking_wizard_welcome.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="import add-on items">
+    <param name="Name" value="Import Add-on Items">
+    <param name="Local" value="db-utils\add-on-items-import\import_add-on_items_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="import custom tracking">
+    <param name="Name" value="Import Custom Tracking">
+    <param name="Local" value="db-utils\custom-tracking-import\import_custom_tracking_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="import related items">
+    <param name="Name" value="Import Related Items">
+    <param name="Local" value="db-utils\related-items-import\import_related_items_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="import third party catalogs into Everest">
+    <param name="Name" value="Import Third Party Catalogs into Everest">
+    <param name="Local" value="item-management\importing-3rd-catalogs\import_third_party_catalogs_into_everest.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="importing a/r and a/p">
+    <param name="Name" value="Importing A/R and A/P">
+    <param name="Local" value="db-utils\data-import\wizard\importing-a-r-and-a-p\importing_a_r_and_a_p_data_import_utility_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="importing freight rates and freight zones">
+    <param name="Name" value="Importing Freight Rates and Freight Zones">
+    <param name="Local" value="db-utils\data-import\wizard\importing-freight-info\importing_freight_rates_and_freight_zones_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="importing historical documents">
+    <param name="Name" value="Importing Historical Documents">
+    <param name="Local" value="db-utils\data-import\wizard\hist-docs\importing_historical_documents_data_import_wizard.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="importing items">
+    <param name="Name" value="Importing Items">
+    <param name="Local" value="db-utils\data-import\wizard\importing-items\importing_items_data_import_wizard_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="import matrix items">
+    <param name="Name" value="Matrix Items Import">
+    <param name="Local" value="db-utils\matrix-items-import\matrix_items_import_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="items">
+    <param name="Name" value="Items">
+    <param name="Local" value="db-utils\data-import\wizard\accounting-entries\items\items_accounting_entries_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="launch an application from Everest">
+    <param name="Name" value="Launch an Application from Everest">
+    <param name="Local" value="other-utilities\other-programs\launch_an_application_from_everest_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="logged in users browser option">
+    <param name="Name" value="Events">
+    <param name="Local" value="misc\events_logged_in_users_browser_options_active_users.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="events">
+      <param name="Name" value="Events">
+      <param name="Local" value="misc\events_logged_in_users_browser_options_active_users.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="logged in users browser options">
+    <param name="Name" value="Logged in Users Browser Options">
+    <param name="Local" value="misc\logged_in_users_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="other">
+      <param name="Name" value="Other Options">
+      <param name="Local" value="misc\other_options_logged_in_users_browser_options_active_users.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="matrix items import">
+    <param name="Name" value="Matrix Items Import">
+    <param name="Local" value="db-utils\matrix-items-import\matrix_items_import_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="modify">
+    <param name="Name" value="Modify the Sales Order Import Preferences Profile">
+    <param name="Local" value="db-utils\so-import\set-prefs\modify-the-sales-order-import-preferences-profile\modify_the_yahoo_store_preferences_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales order preferences profile">
+      <param name="Name" value="Modify the Sales Order Import Preferences Profile">
+      <param name="Local" value="db-utils\so-import\set-prefs\modify-the-sales-order-import-preferences-profile\modify_the_yahoo_store_preferences_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="order import preferences details">
+    <param name="Name" value="Add a New Customer Profile">
+    <param name="Local" value="db-utils\so-import\prefs\details\add_new_customer_addresses_import_order_preferences_profile_uitilty_main_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add a new customer profile">
+      <param name="Name" value="Add a New Customer Profile">
+      <param name="Local" value="db-utils\so-import\prefs\details\add_new_customer_addresses_import_order_preferences_profile_uitilty_main_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add new shipping address">
+      <param name="Name" value="Add a New Shipping Address">
+      <param name="Local" value="db-utils\so-import\prefs\details\add_new_shipping_address_import_order_preferences_profile_utility_main_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="default sales order information">
+      <param name="Name" value="Default Sales Order Information">
+      <param name="Local" value="db-utils\so-import\prefs\details\default_sales_order_information_order_import_preferences_details_utulity_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="tax calculations and adjustments">
+      <param name="Name" value="Tax Calculations and Adjustments">
+      <param name="Local" value="db-utils\so-import\prefs\details\tax_calculations_and_adjustments_order_import_preferences_utility_main_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add new customer - preference">
+      <param name="Name" value="Add New Customer Preference">
+      <param name="Local" value="misc\add_new_customer_preference_orders_import_preferences_profile_preference_2_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add a new shipping address - preference">
+      <param name="Name" value="Add New Shipping Address Preference">
+      <param name="Local" value="misc\add_new_shipping_address_preference_orders_import_preferences_profile_preference_2_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="order import preferences profile">
+    <param name="Name" value="Sales Order Import Preferences Profile - Customers">
+    <param name="Local" value="db-utils\so-import\set-prefs\prefs-profile\orders_import_preferences_profile_preferences_1_utility.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Sales Order Import Preferences Profile - Customers">
+      <param name="Local" value="db-utils\so-import\set-prefs\prefs-profile\orders_import_preferences_profile_preferences_1_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general">
+      <param name="Name" value="Sales Order Import Preferences Profile - General">
+      <param name="Local" value="db-utils\so-import\set-prefs\prefs-profile\orders_import_preferences_profile_general_tab_step_by_step_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="miscellaneous">
+      <param name="Name" value="Sales Order Import Preferences Profile - Miscellaneous">
+      <param name="Local" value="db-utils\so-import\set-prefs\prefs-profile\orders_import_preferences_profile_preferences_3_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="payments">
+      <param name="Name" value="Sales Order Import Preferences Profile - Payments">
+      <param name="Local" value="db-utils\so-import\set-prefs\prefs-profile\orders_import_preferences_profile_preferences_2_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="tax details">
+      <param name="Name" value="Tax Details">
+      <param name="Local" value="misc\tax_details_yahoo_store_order_pref_profile_general_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="orders import">
+    <param name="Name" value="Order Import Preferences Details">
+    <param name="Local" value="db-utils\so-import\prefs\details\order_import_preferences_details_yahoo_import_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="orders import to Everest">
+    <param name="Name" value="Orders Import to Everest">
+    <param name="Local" value="db-utils\so-import\wizard\orders_import_to_everest_yahoo_import_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="utility">
+      <param name="Name" value="Orders Import to Everest">
+      <param name="Local" value="db-utils\so-import\wizard\orders_import_to_everest_yahoo_import_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="order import preferences details">
+      <param name="Name" value="Order Import Preferences Details">
+      <param name="Local" value="db-utils\so-import\prefs\details\order_import_preferences_details_yahoo_import_utility_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="other programs">
+    <param name="Name" value="Other Programs">
+    <param name="Local" value="other-utilities\other-programs\other_programs_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="other utilities">
+    <param name="Name" value="Other Utilities">
+    <param name="Local" value="other-utilities\other_utilities_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="prerequisites">
+    <param name="Name" value="Prerequisites of the Third Party Catalog Import Process">
+    <param name="Local" value="item-management\importing-3rd-catalogs\prerequisites_of_the_third_party_catalog_import_process.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Third Party catalog import">
+      <param name="Name" value="Prerequisites of the Third Party Catalog Import Process">
+      <param name="Local" value="item-management\importing-3rd-catalogs\prerequisites_of_the_third_party_catalog_import_process.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purge">
+    <param name="Name" value="Purge Browser Options">
+    <param name="Local" value="db-utils\purge\the-purge-browser\browser_options_purge_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purge browser">
+    <param name="Name" value="The Purging Browser">
+    <param name="Local" value="db-utils\purge\the-purge-browser\the_purge_browser_purge_utility_contents.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="options">
+      <param name="Name" value="Purge Browser Options">
+      <param name="Local" value="db-utils\purge\the-purge-browser\browser_options_purge_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser options">
+      <param name="Name" value="Purge Browser Options">
+      <param name="Local" value="db-utils\purge\the-purge-browser\browser_options_purge_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="credit quotes">
+      <param name="Name" value="Purge Credit Quotes">
+      <param name="Local" value="db-utils\purge\purge_credit_quotes_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="debit quotes">
+      <param name="Name" value="Purge Debit Quotes">
+      <param name="Local" value="db-utils\purge\purge_debit_quotes_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="event log">
+      <param name="Name" value="Purge Event Log">
+      <param name="Local" value="db-utils\purge\purge_event_log_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="freight rate">
+      <param name="Name" value="Purge Freight Rates">
+      <param name="Local" value="db-utils\purge\purge_freight_rates_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="freight zone">
+      <param name="Name" value="Purge Freight Zones">
+      <param name="Local" value="db-utils\purge\purge_freight_zones_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase quotes">
+      <param name="Name" value="Purge Purchase Quotes">
+      <param name="Local" value="db-utils\purge\purge_purchase_quotes_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales quotes">
+      <param name="Name" value="Purge Sales Quotes">
+      <param name="Local" value="db-utils\purge\purge_sales_quotes_utility_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="query builder">
+    <param name="Name" value="Advanced Query Builder">
+    <param name="Local" value="other-utilities\the-advanced-query-builder\the_query_builder_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accessing">
+      <param name="Name" value="Accessing the Query Builder">
+      <param name="Local" value="other-utilities\the-advanced-query-builder\accessing_the_query_builder.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom query builder">
+      <param name="Name" value="Custom Query Builder">
+      <param name="Local" value="misc\custom_query_builder.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest schema information">
+      <param name="Name" value="Everest Schema Information">
+      <param name="Local" value="misc\query_builder_everest_schema_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter name">
+      <param name="Name" value="Filter Name">
+      <param name="Local" value="misc\query_builder_filter_name.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="query details">
+      <param name="Name" value="Query Details Section">
+      <param name="Local" value="misc\query_builder_query_details_section.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="query builder tabs">
+    <param name="Name" value="Query Details Section - Browser Settings">
+    <param name="Local" value="misc\query_details_section_browser_settings.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser settings">
+      <param name="Name" value="Query Details Section - Browser Settings">
+      <param name="Local" value="misc\query_details_section_browser_settings.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="caption/search field selection">
+      <param name="Name" value="Query Details Section - Caption/Search Field Selection">
+      <param name="Local" value="misc\query_details_section_caption_search_field_selection.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="field information">
+      <param name="Name" value="Query Details Section - Field Information">
+      <param name="Local" value="misc\query_details_section_field_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filters">
+      <param name="Name" value="Query Details Section - Filters">
+      <param name="Local" value="misc\query_details_section_filters.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="SQL statement">
+      <param name="Name" value="Query Details Section - SQL Statement">
+      <param name="Local" value="misc\query_details_section_sql_statement.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="re-assign users">
+    <param name="Name" value="Re-assign Users - Options">
+    <param name="Local" value="sales-utils\re-assign-reps-users\wizard\re_assign_users_options_reassign_reps_users_wizard_utility.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="options">
+      <param name="Name" value="Re-assign Users - Options">
+      <param name="Local" value="sales-utils\re-assign-reps-users\wizard\re_assign_users_options_reassign_reps_users_wizard_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="progress view">
+      <param name="Name" value="Re-assign Users - Progress View">
+      <param name="Local" value="sales-utils\re-assign-reps-users\wizard\re_assign_users_progress_view_reassign_reps_users_wizard.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="users selection">
+      <param name="Name" value="Re-assign Users - Users Selection">
+      <param name="Local" value="sales-utils\re-assign-reps-users\wizard\re_assign_users_users_selection_reassign_reps_users_wizard_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="single user to multiple original users">
+      <param name="Name" value="Re-assign a Single User to Multiple Original Users">
+      <param name="Local" value="misc\a_single_user_to_multiple_original_users_reassign_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multiple users to multiple original users">
+      <param name="Name" value="Re-assign Multiple Users to Multiple Original Users">
+      <param name="Local" value="misc\multiple_users_to_multiple_original_users_reassign_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multiple users to single original user">
+      <param name="Name" value="Re-assign Multiple Users to Single Original User">
+      <param name="Local" value="misc\multiple_users_to_single_original_user_reassign_utility.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="re-assign users/representatives">
+    <param name="Name" value="Re-assign Users/Representatives">
+    <param name="Local" value="sales-utils\re-assign-reps-users\re_assign_users_representatives_sales_option_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="re-assign">
+      <param name="Name" value="Re-assign a User/Representative">
+      <param name="Local" value="sales-utils\re-assign-reps-users\wizard\re_assign_an_user_representative_wizard.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="finished">
+      <param name="Name" value="Re-assigned Users - Finished">
+      <param name="Local" value="sales-utils\re-assign-reps-users\wizard\re_assigned_users_finished_reassign_reps_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="summary report">
+      <param name="Name" value="ReAssigned Users - Summary Report">
+      <param name="Local" value="misc\reassigned_users_summary_report.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="welcome">
+      <param name="Name" value="Welcome">
+      <param name="Local" value="misc\welcome_reassign_reps_users_wizard_utility.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="reindex">
+    <param name="Name" value="Rebuild Indexes">
+    <param name="Local" value="db-utils\database-maintenance\rebuild-indexes\reindex_database_maintenance.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="reindexing dialog box">
+    <param name="Name" value="Reindexing Dialog Box">
+    <param name="Local" value="db-utils\database-maintenance\rebuild-indexes\reindexing_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="restore company">
+    <param name="Name" value="Restore Company">
+    <param name="Local" value="db-utils\database-restore\restore_company_utility.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="restore company dialog box">
+    <param name="Name" value="The Restore Company Dialog Box">
+    <param name="Local" value="db-utils\database-restore\the_restore_company_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general tab">
+      <param name="Name" value="Restore Company - General">
+      <param name="Local" value="misc\restore_company_general_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="options tab">
+      <param name="Name" value="Restore Company - Options">
+      <param name="Local" value="misc\restore_company_options_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="from database">
+      <param name="Name" value="Restore from Database">
+      <param name="Local" value="misc\restore_from_database_restore_comp_db_general_tab_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="from device">
+      <param name="Name" value="Restore from Device">
+      <param name="Local" value="misc\restore_from_device_restore_comp_db_general_tab_option.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales">
+    <param name="Name" value="Sales Utility Programs">
+    <param name="Local" value="sales-utils\sales_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales order import preferences browser">
+    <param name="Name" value="Sales Order Import Preferences Browser">
+    <param name="Local" value="db-utils\so-import\prefs-browser\order_import_preferences_browser_yahoo_import_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales order import wizard">
+    <param name="Name" value="Sales Order Import Wizard">
+    <param name="Local" value="db-utils\so-import\wizard\orders_import_to_everest_profile_yahoo_import_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="order details">
+      <param name="Name" value="Sales Order Import Wizard - Order Details">
+      <param name="Local" value="db-utils\so-import\wizard\yahoo_order_import_wizard_order_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="order selection section">
+      <param name="Name" value="Sales Order Import Wizard Order Selection Section">
+      <param name="Local" value="db-utils\so-import\wizard\yahoo_import_wizard_order_selection_section.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="status section">
+      <param name="Name" value="Sales Order Import Wizard Status Section">
+      <param name="Local" value="db-utils\so-import\wizard\yahoo_import_wizard_status_section.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="welcome">
+      <param name="Name" value="Sales Order Import Wizard - Welcome">
+      <param name="Local" value="db-utils\so-import\wizard\yahoo_order_import_wizard_welcome.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sales order import preferences">
+    <param name="Name" value="Sales Order Import Preferences Profile">
+    <param name="Local" value="db-utils\so-import\set-prefs\prefs-profile\orders_import_preferences_profile_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify the Sales Order Import Preferences Profile">
+      <param name="Local" value="db-utils\so-import\set-prefs\modify-the-sales-order-import-preferences-profile\modify_the_yahoo_store_preferences_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="negative tax difference">
+      <param name="Name" value="Negative Tax Difference">
+      <param name="Local" value="misc\negative_tax_difference_yahoo_import_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="positive tax difference">
+      <param name="Name" value="Positive Tax Difference">
+      <param name="Local" value="misc\positive_tax_difference_utility_yahoo_import_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales person selections">
+      <param name="Name" value="Sales Person Selections">
+      <param name="Local" value="misc\sales_person_selections_orders_import_preferences_profile_preference_2_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="store information">
+      <param name="Name" value="Store Information">
+      <param name="Local" value="misc\store_information_orders_import_preferences_profile_general_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="set online store preferences">
+    <param name="Name" value="Set Sales Order Import Preferences">
+    <param name="Local" value="db-utils\so-import\set-prefs\set_import_preferences_yahoo_import_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="setup">
+    <param name="Name" value="Setup an Application to be Launched from Everest">
+    <param name="Local" value="other-utilities\other-programs\setup_an_application_to_be_launched_from_everest_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="application to be launched from Everest">
+      <param name="Name" value="Setup an Application to be Launched from Everest">
+      <param name="Local" value="other-utilities\other-programs\setup_an_application_to_be_launched_from_everest_utility_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="shipment tracking wizard">
+    <param name="Name" value="Shipment Tracking Import">
+    <param name="Local" value="db-utils\shipment-tracking-import\shipment_tracking_import.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="map the source fields">
+      <param name="Name" value="Map the Source Fields">
+      <param name="Local" value="db-utils\shipment-tracking-import\map_the_source_fields_shipment_tracking.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="shipment tracking information to be imported">
+      <param name="Name" value="Shipment Tracking Information to be imported">
+      <param name="Local" value="db-utils\shipment-tracking-import\shipment_tracking_information_to_be_imported.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="SQL query - add to advanced query builder">
+    <param name="Name" value="How to add a Query from SQL to Advanced Query Builder">
+    <param name="Local" value="other-utilities\the-advanced-query-builder\how_to_add_a_query_from_sql_to_advanced_query_builder_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="system information">
+    <param name="Name" value="Version">
+    <param name="Local" value="misc\version_sys_info_utility_con.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="you">
+      <param name="Name" value="You">
+      <param name="Local" value="misc\you_sys_info_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="system">
+      <param name="Name" value="System">
+      <param name="Local" value="misc\system_sys_info_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="screen">
+      <param name="Name" value="Screen">
+      <param name="Local" value="misc\screen_sys_info_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="network">
+      <param name="Name" value="Network">
+      <param name="Local" value="misc\network_sys_info_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="mouse">
+      <param name="Name" value="Mouse">
+      <param name="Local" value="misc\mouse_sys_info_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="memory">
+      <param name="Name" value="Memory">
+      <param name="Local" value="misc\memory_sys_info_utility_con.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="locales">
+      <param name="Name" value="Locales">
+      <param name="Local" value="misc\locales_sys_info_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="keyboard">
+      <param name="Name" value="Keyboard">
+      <param name="Local" value="misc\keyboard_sys_info_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="environment">
+      <param name="Name" value="Environment">
+      <param name="Local" value="misc\environment_sys_info_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="directories">
+      <param name="Name" value="Directories">
+      <param name="Local" value="misc\directories_sys_info_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="desktop">
+      <param name="Name" value="Desktop">
+      <param name="Local" value="misc\desktop_sys_info_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="accessibility">
+      <param name="Name" value="Accessibility">
+      <param name="Local" value="misc\accessibility_sys_info_utility.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="system information window">
+    <param name="Name" value="System Information">
+    <param name="Local" value="other-utilities\system-information\system_information_other_utilities_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="left panel">
+      <param name="Name" value="The Left Panel">
+      <param name="Local" value="other-utilities\system-information\the_left_panel_system_information_other_utilities_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="right panel">
+      <param name="Name" value="The Right Panel">
+      <param name="Local" value="other-utilities\system-information\the_right_panel_system_information_other_utilities_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="version">
+      <param name="Name" value="Version">
+      <param name="Local" value="misc\version_sys_info_utility_con.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="third party catalog image">
+    <param name="Name" value="Actual Images">
+    <param name="Local" value="misc\actual_images.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="actual">
+      <param name="Name" value="Actual Images">
+      <param name="Local" value="misc\actual_images.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="banner">
+      <param name="Name" value="Banner Image">
+      <param name="Local" value="misc\banner_image.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="icon">
+      <param name="Name" value="Icon">
+      <param name="Local" value="misc\icon.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="small image">
+      <param name="Name" value="Small Image">
+      <param name="Local" value="misc\small_image.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="thumbnails">
+      <param name="Name" value="Thumbnails">
+      <param name="Local" value="misc\thumbnails.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="tool tip">
+      <param name="Name" value="Tool Tip">
+      <param name="Local" value="misc\tool_tip.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="third party catalog import">
+    <param name="Name" value="Create new catalog">
+    <param name="Local" value="misc\create_new_catalog.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="catalog details - generic">
+      <param name="Name" value="Third Party Catalog Import - Catalog Details">
+      <param name="Local" value="item-management\importing-3rd-catalogs\import-generic-catalog\third_party_catalog_import_catalog_details_generic.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="file type">
+      <param name="Name" value="Third Party Catalog Import - File Type">
+      <param name="Local" value="item-management\importing-3rd-catalogs\import-generic-catalog\third_party_catalog_import_file_type.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view items">
+      <param name="Name" value="View Items Imported from Third Party Catalogs">
+      <param name="Local" value="item-management\importing-3rd-catalogs\view_items_imported_from_third_party_catalogs.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="third party catalog import wizard">
+    <param name="See Also" value="third party catalog import wizard">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="catalog and import details">
+      <param name="Name" value="Third Party Catalog Import - Import Details">
+      <param name="Local" value="item-management\importing-3rd-catalogs\import-generic-catalog\third_party_catalog_import_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="import status">
+      <param name="Name" value="Third Party Catalog Import - Import Status">
+      <param name="Local" value="item-management\importing-3rd-catalogs\import-generic-catalog\third_party_catalog_import_import_status.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="map source fields">
+      <param name="Name" value="Third Party Catalog Import - Map Source Fields">
+      <param name="Local" value="item-management\importing-3rd-catalogs\import-generic-catalog\third_party_catalog_import_map_source_fields.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="source table">
+      <param name="Name" value="Third Party Catalog Import - Source Table">
+      <param name="Local" value="item-management\importing-3rd-catalogs\import-generic-catalog\third_party_catalog_import_source_table_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="generic">
+      <param name="Name" value="Create new catalog">
+      <param name="Local" value="misc\create_new_catalog.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Tech Data">
+      <param name="Name" value="Create new catalog">
+      <param name="Local" value="misc\create_new_catalog.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="update e-commerce search catalog">
+    <param name="Name" value="Update E-Commerce Search Catalog">
+    <param name="Local" value="db-utils\database-maintenance\update-e-commerce-search-catalog\update_e_commerce_search_catalog_utility.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="update price differentials for items browser">
+    <param name="Name" value="Update Price Differentials for Items">
+    <param name="Local" value="item-management\update-price-diffs\for-items\update_price_differentials_for_items_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="update price differentials for kits browser">
+    <param name="Name" value="Update Price Differentials for Kits">
+    <param name="Local" value="item-management\update-price-diffs\for-kits\update_price_differentials_for_kits_utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="URL">
+    <param name="Name" value="URL">
+    <param name="Local" value="misc\url.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="utility">
+    <param name="Name" value="Utility">
+    <param name="Local" value="utility_content.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="utility programs">
+    <param name="Name" value="Database Utility Programs">
+    <param name="Local" value="db-utils\database_utility.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="database">
+      <param name="Name" value="Database Utility Programs">
+      <param name="Local" value="db-utils\database_utility.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="data import">
+      <param name="Name" value="Data Import">
+      <param name="Local" value="db-utils\data-import\data_import_wizard_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="document">
+      <param name="Name" value="Document Utility Programs">
+      <param name="Local" value="misc\document_utility_programs_bp.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="error log">
+      <param name="Name" value="Error Log">
+      <param name="Local" value="other-utilities\error-log\error_log_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="housekeeping">
+      <param name="Name" value="Backup Company">
+      <param name="Local" value="db-utils\database-backup\housekeeping_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purge">
+      <param name="Name" value="Purge">
+      <param name="Local" value="db-utils\purge\purge_database_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales order import">
+      <param name="Name" value="Sales Order Import">
+      <param name="Local" value="db-utils\so-import\yahoo_import_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="shipment tracking import">
+      <param name="Name" value="Shipment Tracking Import">
+      <param name="Local" value="db-utils\shipment-tracking-import\shipment_tracking_import.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="item management">
+      <param name="Name" value="Item Management Utility Programs">
+      <param name="Local" value="misc\item_management_utility_programs.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="view missing sequence numbers">
+    <param name="Name" value="View Missing Sequence Numbers">
+    <param name="Local" value="misc\view_missing_sequence_numbers_utility.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="zip code import">
+    <param name="Name" value="Zip Code Import">
+    <param name="Local" value="db-utils\zip-codes-import\zip_code_import_utility.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="zip codes import dialog box">
+    <param name="Name" value="Zip/FIPS Codes Import Dialog Box">
+    <param name="Local" value="db-utils\zip-codes-import\zip_fips_codes_import_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="auto increment values">
+    <param name="Name" value="Auto Incremental Values">
+    <param name="Local" value="misc\auto_incremental_values_field_mapping_data_import_dialog_utility.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="default">
+    <param name="Name" value="Default Sales Order Information">
+    <param name="Local" value="db-utils\so-import\prefs\details\default_sales_order_information_order_import_preferences_details_utulity_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="department">
+      <param name="Name" value="Department">
+      <param name="Local" value="misc\department_sales_order_info_order_import_preferences_details_utility_main_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="payment term">
+      <param name="Name" value="Default Payment Term">
+      <param name="Local" value="misc\default_payment_term_sales_order_info_order_import_preferences_details_utility_main_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="payment method">
+      <param name="Name" value="Default Payment Method">
+      <param name="Local" value="misc\default_payment_method_sales_order_info_order_import_preferences_details_utility_main_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="delivery method">
+      <param name="Name" value="Default Delivery Method">
+      <param name="Local" value="misc\default_delivery_method_default_sales_order_info_order_import_preferences_details_utility_main_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="third party catalog import wizard - images">
+    <param name="Name" value="Import Third Party Catalogs into Everest">
+    <param name="Local" value="item-management\importing-3rd-catalogs\import_third_party_catalogs_into_everest.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="import from">
+    <param name="Name" value="Source File Selection">
+    <param name="Local" value="db-utils\data-import\wizard\src-file-selection\source_file_selection_data_import_wizard_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="ASCII text file">
+      <param name="Name" value="Import from ASCII Text File">
+      <param name="Local" value="db-utils\data-import\wizard\src-file-selection\text-file-excel-spreadsheet\import_from_ascii_text_file.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="ASCII text file">
+    <param name="Name" value="Source File Selection">
+    <param name="Local" value="db-utils\data-import\wizard\src-file-selection\source_file_selection_data_import_wizard_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="import from">
+      <param name="Name" value="Import from ASCII Text File">
+      <param name="Local" value="db-utils\data-import\wizard\src-file-selection\text-file-excel-spreadsheet\import_from_ascii_text_file.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="import">
+    <param name="Name" value="Import Shipment Tracking Information">
+    <param name="Local" value="db-utils\shipment-tracking-import\import_shipment_tracking_information.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="data">
+      <param name="Name" value="Data Import">
+      <param name="Local" value="db-utils\data-import\data_import_wizard_utility_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="freight rates">
+      <param name="Name" value="Importing Freight Rates">
+      <param name="Local" value="db-utils\data-import\wizard\importing-freight-info\importing_freight_rates_data_import_wizard_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="freight zones">
+      <param name="Name" value="Import Freight Zones">
+      <param name="Local" value="db-utils\data-import\wizard\importing-freight-info\import_freight_zones_data_import_wizard_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="a/r and a/p">
+      <param name="Name" value="Importing A/R and A/P">
+      <param name="Local" value="db-utils\data-import\wizard\importing-a-r-and-a-p\importing_a_r_and_a_p_data_import_utility_ut.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="shipment tracking information">
+      <param name="Name" value="Import Shipment Tracking Information">
+      <param name="Local" value="db-utils\shipment-tracking-import\import_shipment_tracking_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="historical documents">
+      <param name="Name" value="Importing Historical Documents">
+      <param name="Local" value="db-utils\data-import\wizard\hist-docs\importing_historical_documents_data_import_wizard.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items">
+      <param name="Name" value="Importing Items">
+      <param name="Local" value="db-utils\data-import\wizard\importing-items\importing_items_data_import_wizard_ut.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="shipment tracking information">
+    <param name="Name" value="Import Shipment Tracking Information">
+    <param name="Local" value="db-utils\shipment-tracking-import\import_shipment_tracking_information.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="import">
+      <param name="Name" value="Import Shipment Tracking Information">
+      <param name="Local" value="db-utils\shipment-tracking-import\import_shipment_tracking_information.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="import file type">
+    <param name="Name" value="Data Import Wizard">
+    <param name="Local" value="db-utils\data-import\wizard\import_data_wizard_data_import_wizard_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="text file/excel spreadsheet">
+      <param name="Name" value="Exported Text File">
+      <param name="Local" value="db-utils\data-import\wizard\src-file-selection\text-file-excel-spreadsheet\exported_text_file.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="login date dialog box">
+    <param name="Name" value="Login Date Dialog Box">
+    <param name="Local" value="misc\login_date_dialog_box_login_options_other_utilities_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="login jurisdiction">
+    <param name="Name" value="Login Jurisdiction for Tax Calculations">
+    <param name="Local" value="misc\login_jurisdiction_for_tax_calculations_default_sales_order_info_order_import_preferences_details_utility_main_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="tax calculations">
+      <param name="Name" value="Login Jurisdiction for Tax Calculations">
+      <param name="Local" value="misc\login_jurisdiction_for_tax_calculations_default_sales_order_info_order_import_preferences_details_utility_main_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="login options">
+    <param name="Name" value="Login Options">
+    <param name="Local" value="other-utilities\login-options\login_options_other_utilities_ut.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="tax calculations">
+    <param name="Name" value="Login Jurisdiction for Tax Calculations">
+    <param name="Local" value="misc\login_jurisdiction_for_tax_calculations_default_sales_order_info_order_import_preferences_details_utility_main_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="login jurisdiction">
+      <param name="Name" value="Login Jurisdiction for Tax Calculations">
+      <param name="Local" value="misc\login_jurisdiction_for_tax_calculations_default_sales_order_info_order_import_preferences_details_utility_main_content.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="missing sequence numbers">
+    <param name="Name" value="Missing Sequence Numbers">
+    <param name="Local" value="misc\missing_sequence_numbers_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="Missing Sequence Numbers Browser">
+      <param name="Local" value="misc\missing_sequence_numbers_browser_utility.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="purge event log">
+    <param name="Name" value="Purge Event Log">
+    <param name="Local" value="db-utils\purge\purge_event_log_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="dialog box">
+      <param name="Name" value="Purge Event Log Dialog Box">
+      <param name="Local" value="misc\purge_event_log_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="query results">
+    <param name="Name" value="Query Results Browser">
+    <param name="Local" value="misc\query_results_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="Query Results Browser">
+      <param name="Local" value="misc\query_results_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="select backup">
+    <param name="Name" value="The Select Backup Dialog Box">
+    <param name="Local" value="misc\the_select_backup_dialog_box_restore_co.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="dialog box">
+      <param name="Name" value="The Select Backup Dialog Box">
+      <param name="Local" value="misc\the_select_backup_dialog_box_restore_co.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="update price differentials">
+    <param name="Name" value="Update Price Differentials">
+    <param name="Local" value="item-management\update-price-diffs\update_price_differentials_utility_content.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="for items">
+      <param name="Name" value="Update Price Differentials for Items">
+      <param name="Local" value="item-management\update-price-diffs\for-items\update_price_differentials_for_items_utility_content.html">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="browser">
+        <param name="Name" value="The Update Price Differentials for Items Browser">
+        <param name="Local" value="item-management\update-price-diffs\for-items\update_price_differentials_for_items_browser_utility.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="for kits">
+      <param name="Name" value="Update Price Differentials for Kits">
+      <param name="Local" value="item-management\update-price-diffs\for-kits\update_price_differentials_for_kits_utility_content.html">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="browser">
+        <param name="Name" value="The Update Price Differentials for Kits Browser">
+        <param name="Local" value="item-management\update-price-diffs\for-kits\update_price_differentials_for_kits_browser_utility.html">
+      </object>
+      </ul>
+    </ul>
+</ul>
+</html>

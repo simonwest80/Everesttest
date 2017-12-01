@@ -1,0 +1,54 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="example-associate-actions-with-the-query">Example: Associate Actions with the Query</h1>
+
+<p>Follow the procedure below to select an action to occur when  a field is clicked in the <strong>Advanced</strong><strong>Query</strong> browser. This allows you  to drill down into your advanced query filter results. In this example,  the customer profile will open when the <strong>Name</strong>  field is clicked in the <strong>Advanced Query</strong>  browser filter results.</p>
+
+<p class="steps">To associate actions with the query, do the  following:</p>
+
+<ul>
+  <li>Open the <strong>Advanced Query Builder</strong> (path: <strong>Utility</strong> &gt; <strong>Advanced 
+ Query Builder</strong>).</li>
+  <li>In the <strong>Filter 
+ Name</strong> field, select the “Active Customers” filter that you created  in the “Create a Query to retrieve all Active Customer Addresses” example.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/example_create_query_to_retrieve_all_active_customer_addresses_ut.html">Example:  Create a Query to retrieve all Active Customer Addresses</a></p>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_field_settings_tab_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder Field Settings  Tab Showing Actions</strong></p>
+
+<ul>
+  <li>In the <strong>Action</strong>  column for the <strong>ADDRESS.NAME</strong> field,  select <strong>Open Customer profile</strong> from  the drop-down list. This sets the Customer profile to open if the Name  field is double-clicked in the query results browser.</li>
+  <li>In the <strong>Action 
+ Parameter 1</strong> column for the <strong>ADDRESS.NAME</strong>  field, select <strong>CUST_CODE</strong>. If you  select a name in the query results browser, the Customer profile of the  customer code for the name selected will open. This action parameter is  necessary because there can be identical names with different customer  codes.</li>
+  <li>Click <strong>Save</strong>  to save the “Active Customers” filter.</li>
+  <li>Click <strong>Find</strong>  to view the filter output in the <strong>Advanced 
+ Query</strong> browser.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_advanced_query_browser_showing_action_only_with_caption_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Browser Showing Selected  Action</strong></p>
+
+<p>In the above figure, the “Open Customer Profile Action” was  selected for the ADDRESS.NAME field on the <strong>Field 
+ Settings</strong> tab. In the <strong>Action Parameter 
+ 1</strong> field, “CUST_CODE” was selected. In this situation, if you click  the <strong>Name</strong> field, the system opens  the Customer profile for the customer code of the selected row.</p>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/advanced_query_builder_supported_actions_ut.html">Advanced  Query Builder Supported Actions</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/example_create_query_to_retrieve_all_active_customer_addresses_ut.html">Example:  Create a Query to retrieve all Active Customer Addresses</a></dd>
+  <dd><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/example_create_an_interactive_filter_ut.html">Example:  Create an Interactive Filter with Drill-down Documents and Profiles</a></dd>
+</dl>
+
+
+
+
+</div>

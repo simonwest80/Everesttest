@@ -1,0 +1,54 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-lot-history-browser---migration-records">The Lot History Browser - Migration Records</h1>
+
+<p>Migration Records in the Lot History Browser</p>
+
+<p>If you have upgraded from a previous version of <strong>Everest</strong>,  the <strong>Lot History</strong> browser will only  display the stock quantity of the Lot as on the date of upgrade with the  transaction type as ‘Opening Balance’.</p>
+
+<p>The following record is created on migration for all lot tracked items:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Field</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>Document Date</td>
+      <td>Date of Migration</td>
+    </tr>
+    <tr>
+      <td>Quantity in Stock</td>
+      <td>Stock for the Lot as on Date</td>
+    </tr>
+    <tr>
+      <td>Stock UM</td>
+      <td>Stock Unit of Measure</td>
+    </tr>
+    <tr>
+      <td>Transaction Type</td>
+      <td>Displays the Transaction Type ‘Opening Balance’</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This record appears as a line in the <strong>Lot 
+ History</strong> browser.</p>
+
+<p class="example">Item A is created and lot tracked using version  2.1.  Item  A has 10 units in Lot 1234 and 20 units in Lot 4321.  After  the migration to version 3.0, the <strong>Lot 
+ History</strong> browser for Lot 1234 displays an opening balance of 10  and the <strong>Lot History</strong> browser for  Lot 4321 displays an opening balance of 20. These opening balances are  the initial balances of the two lots in version 3.0.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/lot-number-tracking/assigning-a-lot-number/the_lot_history_browser.html">The Lot History  Browser</a></dd>
+</dl>
+
+
+
+
+</div>

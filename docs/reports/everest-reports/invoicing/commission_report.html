@@ -1,0 +1,65 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="sales-commission">Sales Commission</h1>
+
+<p>The <strong>Sales Commission</strong> report  calculates the commission payable to the sales representatives on the  sales made by them.</p>
+
+<ul>
+  <li>Commissions paid  to sales representatives are based on the value of items, or profit made  on the sale. The basis for computing commission is defined in the <strong>Commission Based On</strong> field in the <strong>Other Flow</strong> dialog box (path: <strong>File 
+ &gt; Setup &gt; Preferences &gt; Flow Control &gt; Other Flow Control 
+ &gt; Item Cost/Sales Summary</strong> tab).</li>
+  <li>The cost displayed  in the report is based on the option selected in the <strong>Type 
+ of cost used for commission calculation</strong> and <strong>Default 
+ value for user defined cost</strong> column in the document fields (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Flow Control &gt; Other Flow Control &gt; Item Cost/Sales Summary</strong>  tab).</li>
+</ul>
+
+<p class="note">The commission report displays the commission payable only if the relevant  sales and receipt journals recording the transaction are posted. Further,  the report lists only those items for which the option <strong>Include 
+ in commission report calculation</strong> is checked in the <strong>Sales</strong>  tab of the <strong>Item</strong> profile.</p>
+
+<p class="example">A sales invoice with serial number 1421 is generated when the option  <strong>Actual Cost</strong> is selected in the  <strong>Type of cost used for commission calculation</strong>  field (path<strong>: File &gt; Setup &gt; Preferences 
+ &gt; Flow Control &gt; Other Flow Control &gt; Item Cost/Sales Summary</strong>  tab). The sales commission is calculated on the <strong>Actual 
+ Cost</strong> of the item.</p>
+
+<p>Later the option is changed from <strong>Actual 
+ Cost</strong> to <strong>Average Cost</strong> in  the <strong>Type of cost used for commission 
+ calculation</strong> field (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow</strong> <strong>Control</strong>  &gt; <strong>Other</strong> <strong>Flow</strong><strong>Control</strong> &gt; <strong>Item</strong><strong>Cost/Sales</strong> <strong>Summary</strong>  tab). Now another sales invoice is created with serial number 1521. The  sales representative’s commission for this invoice is calculated based  on the <strong>Average Cost of items</strong> sold.</p>
+
+<p>The report displays the following information:</p>
+
+<ul>
+  <li>Sales invoice/Credit  memo number and date of creation of the document.</li>
+  <li>Item category and  code on which the commission is applicable, along with the quantity and  unit of measure.</li>
+  <li>Cost of each item,  and profit, and margin percentage (if selected) on sale of each item.  If the option <strong>Use Margin</strong> is not  selected, the markup percentage is displayed in the report.</li>
+  <li>Commission percentage  and amount of commission payable (if selected) for each item.</li>
+  <li>Total commission  payable to each sales person.</li>
+</ul>
+
+<p class="steps">To  generate the Sales Commission report, do the following:</p>
+
+<ul>
+  <li>From the main  menu bar, select <strong>Reports</strong> &gt;  <strong>Invoicing</strong> &gt; <strong>Commission</strong>.  You will see the <a href="/versata-everest-docs/reports/misc/commission_report_dialog_box_rep.html"><strong>Sales Commission Report</strong> dialog box</a>.</li>
+  <li>
+    <p>Specify the  report parameters and click:</p>
+  </li>
+  <li><strong>Preview</strong>,  to preview the report in the <strong>Report Preview</strong> dialog box</li>
+  <li><strong>Print</strong>,  to print the report</li>
+  <li><strong>Export</strong>,  to save the report in text, Excel, HTML or Crystal Report file formats</li>
+</ul>
+
+<p class="note">Sales reports show values in the unit of measure  selected in the sales document.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/invoicing/invoicing.html">Invoicing</a></dd>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/invoicing/invoicing_reports.html">Invoicing Reports</a></dd>
+</dl>
+
+
+
+
+</div>

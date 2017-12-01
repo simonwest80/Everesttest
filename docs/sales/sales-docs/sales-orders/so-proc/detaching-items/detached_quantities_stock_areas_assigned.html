@@ -1,0 +1,44 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="detached-quantities---stock-areas-assigned">Detached Quantities - Stock Areas Assigned</h1>
+
+<p>Detached quantities are moved to the default stock area that is specified  in the <strong>Workstation</strong> <strong>Settings</strong>  or the stock transfer settings specified for the logged in location.</p>
+
+<p>Items detached from a sales order are assigned to <strong>Stock</strong>  type of stock areas. This is because such stock continues to remain in  your ownership.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><font style="color: #800080;" color="#800080"> </font><a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/stock-areas/stock_areas_setup.html">Stock  Areas</a></p>
+
+<p>The stock area to which detached quantities are assigned is determined  based on the following rules:</p>
+
+<ul>
+  <li>If a default  stock area for unassigned items on a sales order is specified in <strong>Workstation Settings</strong> of the user detaching  the quantities (path: <strong>File &gt; Setup 
+ &gt; Preferences &gt; Workstation Settings &gt; Stock Areas &gt; For Sales</strong> tab), the quantities are assigned to this stock area.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/work_station_settings_stock_areas_for_sales.html">Workstation  Settings - Stock Transfers</a></p>
+
+<ul>
+  <li>If no default  stock areas are defined in <strong>Workstation 
+ Settings</strong>, the items are assigned to the stock area defined for  unassigned items on sales orders in the <strong>Location</strong>  profile of the logged in location/sub-location (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location</strong>/ <strong>Sub-Location</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Stock</strong> <strong>Transfer</strong>  &gt; <strong>Sales</strong> <strong>Document</strong>  tab).</li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/stock_transfer_information_sales_document.html">Location  Profile - Stock Transfers</a></p>
+
+<ul>
+  <li>If default  stock areas are NOT defined in <strong>Workstation 
+ Settings</strong> or the <strong>Location</strong>  profile, the item continues to remain in the stock area it was in, before  it was detached from the sales order<font style="color: #ff0000;" color="#FF0000">.</font><font style="color: #000000;" color="#000000"> </font></li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/detaching-items/detaching_committed_quantities.html">Detaching  Committed Quantities</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,81 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="receipts-in-foreign-currency">Receipts In Foreign Currency</h1>
+
+<p>Below is information on how the system handles accounting entries for  payments received in foreign currency.</p>
+
+<p>The system does not create accounting entries for gains or losses at  the time you accept deposits against order documents. Instead, the system  creates accounting entries for a gain or loss when you apply the deposit  on the final document only. Therefore, you will not see any gain or loss  accounting entries in the receipt or payment journal when you make or  receive deposits.</p>
+
+<p>However, you should expect to see an accounting entry for a gain or  loss on the total transaction when the final document in reconciled. The  Gain/Loss entry offsets the difference in the exchange rate between when  the payment was accepted and when the payment was applied.</p>
+
+<p>Below is a sample Receipt journal viewed in base currency for the final  transaction. Notice the adjustment entry for the gain/loss due to the  exchange rate difference.</p>
+
+<p>Payments on an SO applied to SI</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry Type</td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>Payment on invoice</td>
+      <td> </td>
+      <td>Base currency deposit amount applied to current exchange rate</td>
+    </tr>
+    <tr>
+      <td>Apply deposit on SO</td>
+      <td>Original base currency deposit amount</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Gain/Loss</td>
+      <td>A loss is posted here</td>
+      <td>A gain is posted here</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Refunds on a SO</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry Type</td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>Payment by cash</td>
+      <td> </td>
+      <td>Base currency deposit amount applied to current exchange rate</td>
+    </tr>
+    <tr>
+      <td>Deposit on PO</td>
+      <td>Original deposit amount</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Gain/Loss</td>
+      <td>A loss is posted here</td>
+      <td>A gain is posted here</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You must have accounts set up to handle exchange gains or losses. Refer  to the link below for information on how to set up foreign exchange gain/loss  accounts.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/accounting_defaults_multi_currency.html">Accounting  Defaults - Multicurrency</a></dd>
+</dl>
+
+
+
+
+</div>

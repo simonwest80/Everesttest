@@ -1,0 +1,35 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="automatic">Automatic</h1>
+
+<p>When a sales document is created, the <strong>Tax 
+ Calculation Type</strong> field defaults to <strong>Automatic</strong>.  Taxes are automatically calculated based on the jurisdiction that the  sale belongs to. <strong>Everest</strong> determines  the sales jurisdiction based on the shipping address and the login  jurisdiction.</p>
+
+<p>If the option selected in the <strong>Tax Calculation 
+ Type</strong> field was previously set to <strong>Manual</strong>  or <strong>Special tax rule override</strong>,  and you have selected <strong>Automatic</strong>,  the taxes are recalculated.</p>
+
+<p>Taxes are recalculated whenever there is a change in the delivery method  or shipping address.</p>
+
+<p>When a new item is added to the document, the taxes are automatically  calculated based on the jurisdiction of the sales document.</p>
+
+<p>Taxes are also recalculated if the tax code associated with the jurisdiction  to which the document pertains is changed.</p>
+
+<p>When you open a saved but unposted sales document with the Tax Calculation  Type set to Automatic, the system compares the stored tax code with the  current tax settings in the <strong>Jurisdiction</strong>  and <strong>Special Tax Rules</strong> profiles.  If a difference exists for the tax code assigned to that jurisdiction  or for the vendor/item/category based on the special tax rule, you get  a message asking if you would like to update the tax details of the document  based on the new tax settings specified in the <strong>Jurisdiction</strong>  and/or <strong>Special Tax Rules</strong> profiles.  Click <strong>Yes</strong> to update the tax details  in the document (and recalculate all affected tax-related fields) or <strong>No</strong> to retain the original tax calculations  in the document. If you click <strong>Yes</strong>  to update the information you must save the document to retain the new  settings.</p>
+
+<p class="note">When you manually change the tax code, the <strong>Tax 
+ Calculation Type</strong> field displays the <strong>Manual 
+ override</strong> option.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/pmnt/tax_calculation_type_pyt_infon_sales.html">Tax  Calculation Type</a></dd>
+</dl>
+
+
+
+
+</div>

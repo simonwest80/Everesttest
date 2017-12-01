@@ -1,0 +1,95 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="cc-transaction-types">CC Transaction Types</h1>
+
+<p>The values that can be displayed in the <strong>CC 
+ transaction</strong> column of <strong>Batch Payment 
+ Process</strong> browsers are detailed below:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>Processors + Selections on the Card Verification Dialog  Box</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>CC TRANSACTION TYPE</strong></td>
+      <td><strong>IC Verify (MO)</strong></td>
+      <td><strong>IC Verify (Retail)</strong></td>
+      <td>Payflowpro</td>
+      <td>Saferpay</td>
+    </tr>
+    <tr>
+      <td>SALE</td>
+      <td>Sale</td>
+      <td>Sale</td>
+      <td>Sale</td>
+      <td>Sale</td>
+    </tr>
+    <tr>
+      <td>REFUND</td>
+      <td>Refund</td>
+      <td>Refund</td>
+      <td>Refund</td>
+      <td>Refund</td>
+    </tr>
+    <tr>
+      <td>AUTHORIZE</td>
+      <td>Pre-authorization + Authorize Only</td>
+      <td>Pre-authorization</td>
+      <td>Pre-authorization</td>
+      <td>Pre-authorization</td>
+    </tr>
+    <tr>
+      <td>BOOK</td>
+      <td>Pre-authorization + Book for Later Shipment</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>VOICE</td>
+      <td>Use prior authorization + Force Sale + manual entry of approval code</td>
+      <td>Use prior authorization + manual entry of approval code</td>
+      <td>Use prior authorization + Voice Authorization + manual entry of approval  code</td>
+      <td>Use prior authorization + Voice Authorization + manual entry of approval  code</td>
+    </tr>
+    <tr>
+      <td>CAPTURE</td>
+      <td>When “Authorize” type of transactions are processed (this  is the second stage of authorization)</td>
+      <td>When “Authorize” type of transactions are processed (this  is the second stage of authorization)</td>
+      <td>Use prior authorization + Delayed Capture + manual entry of PN  reference #</td>
+      <td>Use prior authorization + Capture + manual entry of approval code</td>
+    </tr>
+    <tr>
+      <td>SHIP</td>
+      <td>Use prior authorization + Ship (Prior Booking) + manual entry of approval  code</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>All transactions processed on your <strong>Everest 
+ eStorefront</strong> shop that use “WorldPay” are recorded as “Pre-paid”  transactions.</p>
+
+<p>Sales orders imported with the credit card processing option set to  <strong>No payment has been processed</strong> are  recorded as “Sale or Authorize” transactions.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/cc-pmts/cc-verify-dlg/the_card_verification_dialog_box.html">Card  Verification Dialog Box</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/misc/columns_in_the_batch_credit_card_process_browser.html">Columns  in the Batch Payment Process Browser</a></dd>
+</dl>
+
+
+
+
+</div>

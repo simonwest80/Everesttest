@@ -1,0 +1,53 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="entry-for-inventoried-items---no-items-received">Entry for Inventoried Items - No Items Received</h1>
+
+<p>When you create a purchase invoice and no quantity is received on the  invoice, the following entries are made in a system Purchase Journal:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/<br /><br /><br />Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Accounts Payable Account</td>
+      <td>The account specified in the <strong>Accounts <br /> Payable</strong> field (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> profile) of  <strong>Vendor Posting Group</strong> type.<br /><br /><br /><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/the-company-creation-wizard/accounting/accounting_defaults_setupco.html">Defaults  - Accounting</a></td>
+      <td>Credit</td>
+      <td>Total amount of the document (including recoverable  and non-recoverable portion of tax)</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchases Account</td>
+      <td>The account specified in the <strong>Accrued <br /> Purchases</strong> field (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> profile) of  <strong>Vendor Posting Group</strong> type.<br /><br /><br /><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/the-company-creation-wizard/accounting/accounting_defaults_setupco.html">Defaults  - Accounting</a></td>
+      <td>Debit</td>
+      <td>Invoiced amount (including non-recoverable portion of  tax)</td>
+    </tr>
+    <tr>
+      <td>Tax Component Account (the asset account for Value  Added Tax recoverable in tax component in the purchase tax code)</td>
+      <td>The account selected for Tax Account Code in the Tax  Components profile (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Taxes</strong> &gt; <strong>Tax <br /> Components</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In New Window</strong> &gt; <strong>Purchase</strong>  tab).</td>
+      <td>Debit</td>
+      <td>Amount of recoverable tax</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/note.gif" alt="" />If a negative quantity is included in the Invoiced column,  an accounting entry will be created for the net amount.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/entry_for_inventoried_items_create_pi_qty_recd_pur.html">Entry  for Inventoried Items - Items Received</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/create-pi/create-new-pi/accounting_entries_create_a_purchase_invoice_pur.html">Accounting  Entries - Create a Purchase Invoice</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/default_accounts_for_purchase_transactions.html">Default  Accounts for Purchase Transactions</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_inventory_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  Order for Inventory Posting Group</a></dd>
+</dl>
+
+
+
+
+</div>

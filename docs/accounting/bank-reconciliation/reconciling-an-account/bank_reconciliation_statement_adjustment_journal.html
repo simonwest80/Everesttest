@@ -1,0 +1,33 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="bank-reconciliation-statement-adjustment-journal">Bank Reconciliation Statement Adjustment Journal</h1>
+
+<p>The adjusting entries are created in a system general journal with the  description ‘Bank Reconciliation Adjustments’. The login date is the transaction  date for adjusting entries. The login date must fall within the active  period, if an active period is defined. If no active period exists, the  login date must fall within any one of the open periods.</p>
+
+<p>Accounting entries for adjusting entries for bank reconciliation are  entered in an open general journal that fulfills the following conditions:</p>
+
+<ul>
+  <li>The journal’s  accounting period must coincide with the period of the login date.</li>
+  <li>The journal  must have the same journal group as the one selected in the <strong>Workstation 
+ Settings</strong> dialog box (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Workstation Settings</strong> &gt;  <strong>Company Settings</strong> tab &gt; <strong>Journal</strong> <strong>Group</strong>  field) of the user entering the adjusting entries for reconciliation.</li>
+  <li>The journal  must have the same location/sub-location as the login location/sub-location  of the user entering the adjusting entries for reconciliation.</li>
+  <li>The journal  must have the description ‘Bank Reconciliation Adjustments’.</li>
+</ul>
+
+<p>If no such <strong>open</strong> journal exists,  a new general journal is created. The general journal number for the new  journal is taken from the sequence number specified for general journals  in the login location or the parent location of the login sub-location.</p>
+
+<p><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/set-up-locations/location_profile_accounting.html">Location  Profile - Accounting Tab</a></p>
+
+<p>If sequence numbers are not defined for the login location or the parent  location of the login sub-location, the sequence number assigned to the  default location (path: <strong>File &gt; Setup 
+ &gt; Preferences &gt; Defaults &gt; Accounting &gt; Miscellaneous</strong> tab <strong>&gt; Default Location</strong> field) is assigned  to the document.</p>
+
+<p><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></p>
+
+
+
+
+</div>

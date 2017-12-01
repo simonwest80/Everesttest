@@ -1,0 +1,72 @@
+wwe_baseurl: "" #working with everest
+sc_baseurl: "" #setting up a company
+bp_baseurl: "" #business processes in everest
+fd_baseurl: "" #forms designer
+mi_baseurl: "" #managing items
+mv_baseurl: "" #managing vendors
+mc_baseurl: "" #managing customers
+ct_baseurl: "" #custom tracking
+pp_baseurl: "" #purchasing process
+ba_baseurl: "" #building assemblies
+wm_baseurl: "" #warehouse management
+sp_baseurl: "" #the sales process
+pos_baseurl: "" #point of sale
+cm_baseurl: "" #contact manager
+tc_baseurl: "" #time clock
+acc_baseurl: "" #accounting
+utl_baseurl: "" #utilities
+db_baseurl: "" #dashboard
+rpt_baseurl: "" #reports
+rmgr_baseurl: "" #reports manager
+prl_baseurl: "" #everest us payroll
+eml_baseurl: "" #everest e-mail
+mb_baseurl: "" #mailbridge
+crm_baseurl: "" #crm
+advutl_baseurl: "" #crm
+gloss_baseurl: "" #crm
+aoh_baseurl: "" #about-online-help
+
+#CHM links
+aoh_chm: "about-online-help.chm::"
+acc_chm: "accounting.chm::"
+ba_chm: "building-assemblies.chm::"
+bp_chm: "business-processes.chm::"
+cm_chm: "contact-manager.chm::"
+ct_chm: "custom-tracking::"
+db_chm: "everest_advanced_dashboard.chm::"
+advutl_chm: "everest-advanced-edition-utilities.chm::"
+crm_chm: "acrm.chm::"
+eml_chm: "everest-e-mail.chm::"
+mb_chm: "mailbridge.chm::"
+prl_chm: "everest-us-payroll.chm::"
+fd_chm: "forms_designer.chm::"
+gloss_chm: "everest_advance_edition_glossary.chm::"
+mc_chm: "managing-customers.chm::"
+mi_chm: "managing-items.chm::"
+mv_chm: "managing-vendors.chm::"
+pos_chm: "point-of-sale.chm::"
+rpt_chm: "reports.chm::"
+rmgr_chm: "report-manager.chm::"
+sp_chm: "the-sales-process.chm::"
+sc_chm: "setting-up-a-company.chm::"
+pp_chm: "the-purchase-process.chm::"
+tc_chm: "time-clock.chm::"
+utl_chm: "utility.chm::"
+wm_chm: "warehouse-management.chm::"
+wwe_chm: "working-with-everest.chm::"
+
+is_chm: true
+markdown: kramdown
+parse_block_html: true
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "chm-default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - build_chm.bat
+  - out

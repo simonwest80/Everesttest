@@ -1,0 +1,56 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" src="/versata-everest-docs/sales/misc/ehlpdhtm.js" x-save-method="compute-relative"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovInitEffects ) != 'function' ) kadovInitEffects = new Function();if( typeof( kadovInitTrigger ) != 'function' ) kadovInitTrigger = new Function();if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<h1 id="pre-authorization-information">Pre-Authorization Information</h1>
+
+<p>Pre-authorization is the verification of the authenticity of the card  and the credit limit on the card without the payment being processed.  Instead, the amount is put on hold and the payment from the customer is  credited to your account on a later date after fulfillment of the order.</p>
+
+<p>For settling the payment you have to send a <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/prior_authorization_1.html');" id="A1">prior authorization</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A1');
+//--></script>  request with the <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/approval_code_1.html');" id="A2">approval code</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A2');
+//--></script>  to the merchant bank.</p>
+
+<p class="note">You can select only one of the options: sale, pre-authorization  or use prior authorization while processing a payment.</p>
+
+<p>The <strong>Authorize Only</strong> and <strong>Book for Later Shipment</strong> options are  enabled depending on the payment service selected.</p>
+
+<dl>
+  <dt><strong>ICVerify</strong></dt>
+  <dd>When the payment service is ICVerify, select <strong>Authorize Only</strong> to obtain an authorization  to block the processed amount. Issue a <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/force_sale_1.html');" id="A3">Force Sale</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A3');
+//--></script>  transaction request with the authorization code to capture the funds.</dd>
+  <dd>Select <strong>Book for 
+ later Shipment</strong> to book amounts in case of <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/mo_to_1.html');" id="A4">MO/TO</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A4');
+//--></script>  sales. Issue a <a href="javascript:BSSCPopup('/versata-everest-docs/sales/misc/ship_prior_booking__1.html');" id="A5">Ship (Prior Booking)</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovFilePopupInit('A5');
+//--></script>  request with the authorization code to capture the funds.</dd>
+</dl>
+
+<p class="note">If an authorization is not used (i.e. processed for  capture) within a certain time period, it will drop off or expire. The  bank that issues the credit card determines the time period for drop off.</p>
+
+<p>Accounting Entries for Pre-authorization</p>
+
+<p>No accounting entries are created for pre-authorization, as it only  blocks the funds in a cardholder’s account and does not result in a charge  to the account.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/cc-pmts/cc-verify/pre-authorization/back_end_processes_pre_authorization.html">Back  End Processes - Pre- Authorization</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/cc-pmts/cc-verify/card_verification_details.html">Card Verification  Details</a></dd>
+</dl>
+
+
+
+
+</div>

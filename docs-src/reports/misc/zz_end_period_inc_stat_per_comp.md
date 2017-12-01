@@ -1,0 +1,6 @@
+---
+title: End Period
+---
+
+
+Specify a period to compare income and expenses with Period 1.

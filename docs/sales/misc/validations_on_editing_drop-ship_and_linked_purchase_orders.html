@@ -1,0 +1,31 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="validations-on-editing-drop-ship-and-linked-purchase-orders">Validations on Editing Drop-ship and Linked Purchase Orders</h1>
+
+<p>On a sales order, if you change the quantity of a line item  that has a Purchase Order reference number associated with it or delete  such a line item, <strong>Everest</strong> displays  a <strong>Modification of Linked PO</strong> dialog  box.</p>
+
+<p><img src="/versata-everest-docs/sales/img/modification_of_linked_po_sal.gif" alt="" /></p>
+
+<p><strong>Figure: Modification of Linked PO Dialog Box</strong></p>
+
+<p>The message informs you that some or all of the line items  are linked to purchase orders and provides three options:</p>
+
+<dl>
+  <dt><strong>Delete/Modify the item on the SO and change the  quantity on the purchase order</strong></dt>
+  <dd>If you select this option and click <strong>OK</strong>,  the item quantity can be modified or the line item can be deleted on both  the sales order and the linked purchase order. After the sales order is  saved, the purchase order is updated and the <strong>PO</strong>  quantity for the line items in the <strong>Items</strong>  browser is recalculated. An additional security right is required to make  this selection (Sales Order: Delete/Modify the item and change the quantity  on the purchase order).</dd>
+  <dt><strong>Delete/Modify the item on the SO and do not change  the quantity on the purchase order</strong></dt>
+  <dd>If you select this option and click <strong>OK</strong>,  the item quantity can be modified or the line item can be deleted on the  sales order but NOT on the linked purchase order. The purchase order link  will be broken to the sales order. An additional security right is required  to make this selection (Sales Order: Delete/Modify the item and do not  change the quantity on the purchase order).</dd>
+  <dt><strong>Do not delete/modify the item on the SO and do  not change the quantity on the purchase order</strong></dt>
+  <dd>This is the default selection. If you select this  option and click <strong>OK</strong>, the linked  purchase order will not be updated and the item remains unchanged on the  sales order.  Additional  security rights are NOT required to make this selection.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/gen-po-util/the_generate_drop_ship_order_utility_sales_contents.html">The  Generate Purchase Orders Utility</a></dd>
+</dl>
+
+
+
+
+</div>

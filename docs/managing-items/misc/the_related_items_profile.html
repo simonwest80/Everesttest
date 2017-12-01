@@ -1,0 +1,168 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-related-items-profile">The Related Items Profile</h1>
+
+<p>Use the <strong>Related Items</strong> profile  to define an upgrade/ downgrade for an item.</p>
+
+<dl>
+  <dt><strong>Related Item Code</strong></dt>
+  <dd>Specify the code of the related item for the selected  item. This field is mandatory.</dd>
+  <dt><strong>Web-Enabled</strong></dt>
+  <dd>Select this check box to enable the item to be displayed  as an upgrade/ downgrade on your online store.</dd>
+  <dt><strong>Description</strong></dt>
+  <dd>The description of the item selected in the <strong>Related Item Code</strong> field will be displayed  here. You can edit this field if required. The <strong>Related 
+ Items</strong> browser is updated with any change made to the description  of a related item.</dd>
+</dl>
+
+<p class="note">If the description of the related item is changed in the <strong>Related 
+ Items</strong> tab of an <strong>Item</strong> profile,  it will be used only when that item is retrieved into a document and is  replaced with the related item. It does not update the description in  the <strong>Related</strong> <strong>Items</strong>  tab for all those items where this item is specified as a related item.  You will have to manually edit such item descriptions if required.</p>
+
+<p class="example">Item code X with a description “80GB Hard Drive” is a related  item for items Y  and Z. Changing  the description of item code X  in  the Related items tab of ITEM Y  to “80GB Hard Drive (7500RPM)” will not automatically change  the description in the Related Items tab of items Z.   Also, the  item profile for Item code X will still display “80GB Hard Drive”.</p>
+
+<p>If required, you can manually change the description in the Related  Items tab by opening the Item profile of item Z and accessing  the <strong>Related Items</strong> tab.</p>
+
+<dl>
+  <dt><strong>Sales Measure</strong></dt>
+  <dd>Specify the sales measure of the item from the list  of allowed sales measures for the related item. Any sales measures of  the related item that exist in the original item display in the list.  Price differentials will apply when selecting the related item in the  sales document.</dd>
+  <dd>This <strong>Sales Measure</strong>  field applies only to desktop transactions. Your online store displays  the default sales measure or the stock measure based on your web sales  preference (Path: <strong>Item</strong> profile  &gt; <strong>E-Commerce</strong> tab &gt; <strong>Web Sales</strong> tab &gt; Select or clear the  <strong>Allow Sales in Stock Measure</strong> field).</dd>
+  <dt><strong>Price Differential</strong></dt>
+  <dd>The price differential is the difference between  the selling price of the original item and its upgrade. When defining  a price differential, you can:</dd>
+</dl>
+
+<ul>
+  <li>Enter a flat  amount or</li>
+  <li>Use a formula  to calculate the price differential.</li>
+</ul>
+
+<dl class="example">
+  <dt>Selling Price of Item A +/- Price Differential = Selling Price of Item  B (the related item).</dt>
+  <dd>In order to specify a flat amount, enter the amount  in the <strong>Price Differential</strong> field.  To specify the price differential for a downgrade item, prefix the amount  by a ‘-’ (minus) sign to indicate that the price differential must be  subtracted from the selling price.</dd>
+  <dd>To specify a formula for calculating the price difference,  click the button <img src="/versata-everest-docs/managing-items/img/mi_price_diff_icon.gif" alt="mi_price_diff_icon.gif" /> beside the <strong>Price differential</strong> field.<font style="font-family: Verdana;" face="Verdana"> </font>You will see the <a href="/versata-everest-docs/managing-items/misc/price_differential_dialog_box.html"><strong>Price Differential</strong></a> dialog box.</dd>
+  <dd>The price differential option is disabled for kits  and matrix groups.</dd>
+  <dd>On the <strong>Everest 
+ eStorefront</strong>, the Price Differential only works for related items  when they are part of a kit.</dd>
+  <dt><strong>Use Item’s Price</strong></dt>
+  <dd>Check this option to use the related item’s price  in the sales document, instead of calculating any price differential.  The <strong>Price Differential</strong> field is  disabled when you check this option.</dd>
+  <dd>Leave this box unchecked <strong>Everest</strong>  to apply the price difference between the related item and the original  item calculated according to the formula you have specified. If you have  not checked this option and have not specified any price difference between  the original item and the related item, <strong>Everest</strong>  displays the price of the original item in the sales document.</dd>
+  <dd>The <strong>Use</strong><strong>Item’s</strong> <strong>Price</strong>  option helps you to arrive at the price dynamically. You need not update  the price differential during fluctuations.</dd>
+</dl>
+
+<p class="example">You have  chosen Intel P II, priced at $305 (Original item), but since it is out  of stock you decide on the related item Intel P III priced at $415. The  sales document will take $415 as the item price if you have CHECKED the  option <strong>Use Item’s Price</strong> in the  <strong>Related Items</strong> profile.</p>
+
+<p>If you have the option UNCHECKED the price displayed in the sales document  is $305 (When no price differential is specified).</p>
+
+<p>When a price differential is specified, the price displayed is adjusted  based on the price difference formula you have specified in the <strong>Price Differential</strong> dialog box.</p>
+
+<dl>
+  <dt><strong>Sequence</strong></dt>
+  <dd>Enter the order in which the item selected in the  <strong>Related Item Code</strong> has to be listed  among other item upgrades and downgrades. The items are available for  selection in the order specified here. The sequence number should be unique  for the original item.</dd>
+</dl>
+
+<p class="example">If you specify upgrades A, B and C  for item 1000 A and B cannot have the sequence 2 when being defined for  item 1000. But if A is defined for item 1000 and B for item 1002, both  can have the same sequence number.</p>
+
+<dl>
+  <dt><strong>Available for selection on</strong></dt>
+  <dd>Specify the availability of this item as a related  item for the original item when the original item is retrieved as a component  of a kit. The following options are available:</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Option</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>No Kits</td>
+      <td>The related item is not available on any kit of which the original item  is a component</td>
+    </tr>
+    <tr>
+      <td>All Kits</td>
+      <td>The related item is available on all kits of which the original item  is a component</td>
+    </tr>
+    <tr>
+      <td>Selected Kits</td>
+      <td>The related item is available on specific kits of which the original  item is a component</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: Related Items for kits and matrix groups do not  have these options available and they default to the “No Kits” option.</p>
+
+<p class="note">If <strong>Selected Kits</strong> is selected  from the drop-down list, a selection grid is displayed below this field.  Select the kit item on which you want this item to be available as a related  item.</p>
+
+<p class="example">Kit item Intermediate Computer Series 1 has three kit components:</p>
+
+<ul>
+  <li>17 700 monitor</li>
+  <li>Logitech  mouse</li>
+  <li>Intel printer</li>
+</ul>
+
+<p>Kit item Intermediate Computer Series 2 has three kit components:</p>
+
+<ul>
+  <li>17 700 monitor</li>
+  <li>IBM mouse</li>
+  <li>IBM printer</li>
+</ul>
+
+<p>Original item 17 700 monitor has three related items:</p>
+
+<ul>
+  <li>17 Crt  monitor</li>
+  <li>17 Black bezel</li>
+  <li>17 Multisynch</li>
+</ul>
+
+<p>In the <strong>Related Item</strong> profile  of 17 Crt monitor,  select the option <strong>No Kits</strong>.</p>
+
+<p>In the <strong>Related Item</strong> profile  of 17 Black bezel, select the option <strong>All 
+ Kits</strong>.</p>
+
+<p>In the <strong>Related Item</strong> profile  of Multisynch,  select the option <strong>Selected Kits</strong>  and select Intermediate Computer Series 1 in the selection grid.</p>
+
+<p>If 17 700 monitor is retrieved as part of Intermediate Computer Series  1, the following related items are displayed in the <strong>Related 
+ Items</strong> browser:</p>
+
+<ul>
+  <li>17 Black bezel</li>
+  <li>17 Multisynch</li>
+</ul>
+
+<p>If 17 700 monitor is retrieved as part of Intermediate Computer Series  2, the following related items are displayed in the <strong>Related 
+ Items</strong> browser:</p>
+
+<ul>
+  <li>17 Black bezel</li>
+</ul>
+
+<dl>
+  <dt><strong>Recommended Item</strong></dt>
+  <dd>This field pertains only to kits when the option  for <strong>Available for Selection On</strong>  is either “All Kits” or “Selected Kits”. Select this check box to flag  a related item as a recommended item. Recommended items are highlighted  in blue on the web store. If “All Kits” is selected in the <strong>Available 
+ for Selection On</strong> field, this will be a recommended item for all  kits. If “Selected Kits” is chosen, this will be a recommended item for  the selected kits listed.</dd>
+  <dt>A computer kit contains an “HP DeskJet Printer”  component and related items “HP LaserJet Printer” and “HP 2500C Printer”.  The related item “HP LaserJet Printer” can be flagged as a recommended  item for this kit so that it is highlighted on the web store to upsell  this item.</dt>
+  <dd><img src="/versata-everest-docs/managing-items/img/eet_recommended_item_highlighted_in_blue_mi.gif" alt="" /></dd>
+</dl>
+
+<p><strong>Figure: Recommended Item Highlighted in Blue</strong></p>
+
+<p class="note">If an item is marked as a recommended item  for a kit component on the <strong>Item</strong>  profile – <strong>Details</strong> tab of a kit  and another related item is marked as a recommended item in the related  item profile, the web page will display both the items as recommended  items for the kit component.</p>
+
+<p><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="building-an-online-store.chm::/How_do_I_set_Kit_Components_or_Related_Items_as_Recommended_Items_bos.htm">How  do I set Kit Components or Related Items as Recommended Items?</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/misc/update_price_differentials.html">Update  Price Differentials</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/the-items-browser/other-options/related_items.html">Related Items</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/misc/set_up_related_items.html">Set up Related  Items</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/misc/computation_of_upgrade_downgrade_price.html">Computation  of Upgrade/Downgrade Price</a></dd>
+</dl>
+
+
+
+
+</div>

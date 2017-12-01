@@ -1,0 +1,108 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="transaction-entries">Transaction Entries</h1>
+
+<dl>
+  <dt><strong>Short/Over</strong></dt>
+  <dd>This field indicates the amount by which the transaction  is out of balance. If the amount displayed is positive, total debits exceed  total credits; if the amount is negative, total credits exceed total debits.</dd>
+  <dd>Negative amounts display in red color with a negative  symbol preceding it. An unbalanced journal cannot be posted.</dd>
+  <dt><strong>Account</strong></dt>
+  <dd>Specify the account to debit or credit in this column.  The first line automatically displays the account specified as the default  in the <strong>Accounts Receivable</strong> field  of the <strong>Accounting</strong> preference (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Defaults &gt; Accounting</strong>).</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_defaults.html">Accounting  defaults</a></dd>
+  <dd>This account cannot be changed. The account to be  debited or credited can be selected for further entries. Only detailed  accounts of the same currency as the customer’s currency can be selected.</dd>
+  <dd>In the case of an automatically generated row for  a tax component this defaults to the account selected for the tax component  in the <strong>Tax Component</strong> profile;  you may change the account.</dd>
+  <dt><strong>Description</strong></dt>
+  <dd>The name of the selected account displays in this  field.</dd>
+  <dt><strong>Loc/Sub-Loc</strong></dt>
+  <dd>Specify the location/sub-location to which you want  to allocate the amount. This field identifies the cost centers or profit  centers for an expense or revenue account. Locations/Sub-Locations cannot  be assigned to asset and liability accounts.</dd>
+  <dd>In the case of an automatically generated row for  a tax component this column remains blank; you may not edit the location.</dd>
+  <dt><strong>Entry Type</strong></dt>
+  <dd>Specify the type of entry being created.</dd>
+  <dd>In the case of an automatically generated row for  a tax component this defaults to “Sales Tax;” you may not change the entry  type.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/sales/manual-sales/manual-sales-journal-details/transaction-entry-details/entry_types_manual_sales_journals_content.html">Entry  Types</a></dd>
+  <dt><strong>Tax Code</strong></dt>
+  <dd>Select the appropriate tax code. The drop down box  displays the active tax codes for the following entry types:</dd>
+</dl>
+
+<ul>
+  <li>Taxable Commissionable  Revenue</li>
+  <li>Taxable Non-commissionable  Revenue</li>
+  <li>Exempt Commissionable  Revenue</li>
+  <li>Exempt Non-commissionable  Revenue</li>
+</ul>
+
+<p>: The tax codes available for each line item depend  on the entry type (taxable or non-taxable).</p>
+
+<dl class="note">
+  <dt>The tax code drop down box will not display  tax codes where one or more of the tax components have the “Calculation  Method,” such as “Percentage of Cost” and “Amount per Unit of Quantity.”</dt>
+  <dd>When you select a tax code for a taxable entry,  you must enter the tax exclusive amount (the value of the items or services  sold) in either the Debit (for a credit memo) or Credit (for a sales invoice)  column. The system will automatically insert a row with the entry type  “Sales Tax” and calculate the tax amount for each tax component based  on the tax exclusive amount you entered.</dd>
+</dl>
+
+<p class="example">If you choose a tax code with five tax components,  the system will add five rows with the entry type “Sales Tax” beneath  the original line.</p>
+
+<p class="note">The system does not insert a row for the contra  entry of the sales tax. You may add it to the Accounts Receivable entry  or add a new row to balance out the sales tax.</p>
+
+<dl>
+  <dt>If you edit the taxable amount after the sales  tax entries are automatically inserted, the tax component amounts will  recalculate. However you must manually change the Accounts Receivable  entry if the journal is not balanced.</dt>
+  <dd>The automatically entered Sales Tax rows will contain  the following information:</dd>
+</dl>
+
+<ul>
+  <li><strong>Account</strong>  - this defaults to the account selected for the tax component in the Tax  Component Profile. You may change the account.</li>
+  <li><strong>Description</strong>  - this displays the description of the account. You may not change the  description.</li>
+  <li><strong>Location/Sub-location</strong>  - this remains blank. You may not change the location.</li>
+  <li><strong>Entry 
+ Type</strong> - this defaults to “Sales Tax.” You may not change the entry  type.</li>
+  <li><strong>Notes</strong>  - this remains blank. You may add and edit notes.</li>
+  <li><strong>Job 
+ Code</strong> - this remains blank. You may not change the job code.</li>
+  <li><strong>Debit</strong>  - this displays the sales tax amount if the corresponding taxable amount  is in the Debit column. If the tax code has only one tax component, you  may change the amount or delete the entry and add it to the Credit column.</li>
+  <li><strong>Credit</strong>  - this column displays the sales tax amount if the corresponding taxable  amount is in the Credit column. If the tax code has only one tax component,  you may change the amount or delete the entry and add it to the Debit  column.</li>
+</ul>
+
+<dl>
+  <dt>: Entering a tax code for both taxable and non-taxable  entries is optional; you may leave it blank. You may also modify the tax  codes and tax amounts (where the tax code has only one tax component)  in Unposted Sales Journals with the proper security rights.</dt>
+  <dd>You may use the tax codes to automatically insert  rows of the Sales Tax entry type, or you may manually add entries with  the Sales Tax entry type. However, you cannot use both of these systems  in one manual sales journal. If you specify a tax code and manually insert  a Sales Tax entry, on saving the journal you get an error message.</dd>
+  <dt><strong>Notes</strong></dt>
+  <dd>Press the <strong>Enter</strong>  key or click in this column to activate a drop-down <img src="/versata-everest-docs/accounting/img/act_drop_down_button.gif" alt="" /> button.  Click the drop-down button to view a dialog box where you can enter additional  details about the transaction. After specifying the details, click the  save <img src="/versata-everest-docs/accounting/img/act_save.gif" alt="" /> button to save the details and return to the journal  profile.</dd>
+  <dt><strong>Job Code</strong></dt>
+  <dd>Specify the job code, if any, applicable to the  sales invoice or credit memo being created.</dd>
+  <dd>In the case of an automatically generated row for  a tax component this column remains blank; you may not change the job  code.</dd>
+  <dt><strong>Debit and Credit</strong></dt>
+  <dd>Enter the amount to debit in the <strong>Debit</strong>  column or to credit in the <strong>Credit</strong>  column. An account cannot be debited and credited in the same transaction  entry.</dd>
+</dl>
+
+<p class="note">If a document alias for sales invoices is selected and an amount is  entered in the credit column, <strong>Everest</strong>  will change the type to <strong>Credit Memo</strong> once  you confirm this.</p>
+
+<dl>
+  <dt>If a document alias for credit memos is selected, you cannot enter an  amount in the debit column against Accounts Receivable Control Account.</dt>
+  <dd>The debit and credit amounts for foreign currency  documents may be entered in foreign or base currency depending on the  view. The amounts are automatically translated using the exchange rate  specified in the <strong>Exchange</strong> <strong>Rate</strong> profile (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Multi - Currency</strong> &gt; <strong>Exchange Rates</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong>) and displayed in the foreign or base currency. To view  the transaction in the base currency, select <strong>Options 
+ &gt; Base Currency</strong>.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/frgn-cur/foreign_currency_documents_sales_document_content.html">Foreign  Currency Documents</a></dd>
+  <dd>The number of decimals that can be entered depends  on the settings made in the <strong>Currency</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Multi</strong>-<strong>currency</strong>  &gt; <strong>Currency</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Decimals to display</strong>  field).</dd>
+  <dd>In the case of an automatically generated row for  a tax component, the <strong>Debit</strong> column  displays the sales tax amount if the corresponding taxable amount is in  the <strong>Debit</strong> column and the <strong>Credit</strong> column displays the sales tax  amount if the corresponding taxable amount is in the <strong>Credit</strong>  column. If the tax code has only one tax component, you may change the  amount or delete the entry and add it to the opposite column.</dd>
+</dl>
+
+<p class="steps">To select an account/loc/sub-loc/job code,  do the following:</p>
+
+<ul>
+  <li>Click in the  <strong>Account/Loc/Sub-Loc/Job Code</strong> column  for the respective transaction entry. You will see the drop-down button  <img src="/versata-everest-docs/accounting/img/act_drop_down_button.gif" alt="" />.</li>
+  <li>Select the  required account/loc/sub-loc/job code from the drop-down list.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/sales/manual-sales/creating-a-manual-sales-journal/sales_journal_profile_general.html">Sales  Journal Profile - General</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,4 @@
+everest-reports-manager,manager
+the-reports-manager-window,window
+registering-and-unregistering-reports,registering-and-unregistering
+report-parameter-interface,parameter-interface

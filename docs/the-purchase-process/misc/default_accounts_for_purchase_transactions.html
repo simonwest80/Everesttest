@@ -1,0 +1,51 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="default-accounts-for-purchase-transactions">Default accounts for purchase transactions</h1>
+
+<p>While creating a company <strong>Everest</strong>  prompts you to automatically set default accounts for the company. If  you opt to do it manually go to <strong>Posting 
+ Group</strong> profile.</p>
+
+<p>Default accounts for purchase transactions</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Posting Group</td>
+    </tr>
+    <tr>
+      <td>All accounts except Gain/Loss on purchase</td>
+      <td>Vendor Posting Group</td>
+    </tr>
+    <tr>
+      <td>Inventory account</td>
+      <td>Inventory Posting Group</td>
+    </tr>
+    <tr>
+      <td>Gain/Loss on purchase</td>
+      <td>Vendor Posting Group or Inventory Posting Group based on the flow control  preference (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preference</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> &gt; <strong>Others</strong> &gt; <strong>Others <br /> 2</strong> tab)</td>
+    </tr>
+    <tr>
+      <td>Vendor Advances for initial documents</td>
+      <td>For the first payment, Vendor Posting Group will be based on hierarchy.  Subsequent payments for the same document will use the Vendor advances  account used for the first payment.<br /><br /><br /><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_vendor_posting_group_misc_tab.html">Hierarchical  Order for Vendor Posting Group</a></td>
+    </tr>
+    <tr>
+      <td>Payments for final documents</td>
+      <td>If vendor advance is applied, the account used for the corresponding  initial document is considered.<br /><br /><br />If vendor advances are not applied and payment is made on a purchase  invoice from the Payment dialog box or the Payment Journal, the relevant  A/P control account is used. Also, once a Account Payable control account  is used in a payment for a document, subsequent payments will use the  same Account Payable control account . User cannot change the Account  Payable control account while making part payments for the same document.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/misc/default_accounts_for_sales_transactions.html">Default  Accounts for Sales Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

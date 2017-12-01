@@ -1,0 +1,537 @@
+[OPTIONS]
+Title=Everest CRM
+Contents file=acrm.hhc
+Index file=acrm.hhk
+Full-text search=Yes
+
+[FILES]
+what_is_crm.html
+scope_of_crm_in_everest.html
+features_of_everest_crm.html
+crm_installation.html
+standard-crm\standard_crm.html
+standard-crm\contact_manager.html
+standard-crm\opportunity-management\opportunity_management.html
+standard-crm\opportunity-management\sales_opportunities_an_introduction.html
+standard-crm\opportunity-management\sales_analysis.html
+standard-crm\bam\business_activity_monitoring.html
+standard-crm\bam\monitoring_business_activity_with_system_events.html
+standard-crm\bam\configuration_business_activity_monitoring.html
+standard-crm\bam\templates\templates.html
+standard-crm\bam\templates\the_templates_profile.html
+standard-crm\bam\templates\the_templates_profile_general.html
+standard-crm\bam\templates\the_templates_profile_template.html
+standard-crm\bam\templates\templates_profile_menu_options.html
+standard-crm\bam\templates\modify_the_templates_profile.html
+standard-crm\bam\templates\discontinue_a_template.html
+standard-crm\bam\templates\activate_a_discontinued_template.html
+standard-crm\bam\templates\the_template_browser.html
+standard-crm\bam\processes\processes_activities.html
+standard-crm\bam\activity\processes_activities.html
+standard-crm\bam\processes\define_processes.html
+standard-crm\bam\processes\the_process_profile.html
+standard-crm\bam\processes\modify_a_process.html
+standard-crm\bam\processes\discontinue_a_process.html
+standard-crm\bam\processes\activate_a_discontinued_process.html
+standard-crm\bam\processes\process_activities_browser.html
+standard-crm\bam\activity\define_activities.html
+standard-crm\bam\activity\the_activity_profile.html
+standard-crm\bam\activity\discontinue_an_activity.html
+standard-crm\bam\activity\activate_a_discontinued_activity.html
+standard-crm\bam\activity\monitoring-activities\monitor_activities.html
+standard-crm\bam\activity\monitoring-activities\activity_history.html
+standard-crm\bam\activity\monitoring-activities\activity_execution_schedule.html
+standard-crm\bam\activity\find-function\find-activities\find_activities.html
+standard-crm\bam\activity\find-function\find-activities\find_activities_quick_find.html
+standard-crm\bam\activity\find-function\find-activities\find_activities_more_choices.html
+standard-crm\bam\activity\find-function\find-activity-history\find_activity_history.html
+standard-crm\bam\activity\find-function\find-activity-history\find_activity_history_quick_find.html
+standard-crm\bam\activity\find-function\find-activity-history\find_activity_history_more_choices.html
+standard-crm\bam\customer-vendor-category\customer_vendor_category.html
+standard-crm\bam\customer-vendor-category\the_customer_vendor_category_profile.html
+standard-crm\bam\customer-vendor-category\modify_customer_vendor_category_profile.html
+standard-crm\bam\customer-vendor-category\discontinue_a_customer_vendor_category.html
+standard-crm\bam\customer-vendor-category\activate_a_discontinued_customer_vendor_category.html
+standard-crm\bam\customer-vendor-category\the_customer_vendor_category_browser.html
+crm-studio\advanced_crm.html
+crm-studio\advantages_of_crm_studio.html
+crm-studio\configuration_crm_studio.html
+crm-studio\setting_up_crm_studio.html
+crm-studio\pre-defined_events.html
+misc\create_task_appointment.html
+misc\print_letter_memo.html
+misc\print_reports.html
+misc\run_another_application.html
+misc\send_e_mail.html
+misc\daily_frequency_crm_scheduling_activity.html
+misc\duration_crm_scheduling_activity.html
+misc\occurs_crm_scheduling_activity.html
+misc\modify_an_activity.html
+misc\changing_activity_sequence.html
+misc\copying_events.html
+misc\customizing_attachment_templates.html
+misc\limitations_of_system_events.html
+misc\print_reports_general.html
+misc\print_reports_reports.html
+misc\process_activity_browser.html
+misc\send_e_mail_setup_additional_addresses.html
+misc\send_e_mail_setup_general.html
+misc\upgrading_events.html
+misc\adding_subscriber_crm_studio.html
+misc\add_email_accounts_crm_studio.html
+misc\add_fax_accounts_crm_studio.html
+misc\assigning_email_accounts_to_events_crm_studio.html
+misc\assigning_fax_accounts_to_events_crm_studio.html
+misc\assigning_subscribers_to_events_crm_studio.html
+misc\attachment_template_names.html
+misc\bullet.gif
+misc\category_code_customer_vendor_category_profile.html
+misc\create_an_application.html
+img\crm_add_icon.gif
+img\crm_down_arrow.gif
+img\crm_lookup_icon.gif
+img\crm_more_email_ids.gif
+img\crm_notes_icon.gif
+img\crm_open_folder.gif
+img\crm_remove_icon.gif
+img\crm_up_arrow.gif
+misc\description_customer_vendor_category_profile.html
+misc\ehlpdhtm.js
+img\example.gif
+misc\example_of_a_template.html
+misc\e_mail_accounts_browser.html
+misc\find_activities_more_choices_ext_application.html
+misc\find_activities_more_choices_modified_date.html
+misc\find_activities_more_choices_report.html
+misc\find_activities_more_choices_template_id.html
+misc\find_activities_more_choices_user_modified.html
+misc\find_activities_quick_find_action.html
+misc\find_activities_quick_find_activity_desc.html
+misc\find_activities_quick_find_created_date.html
+misc\find_activities_quick_find_event_id.html
+misc\find_activities_quick_find_no_of_records_to_retrieve.html
+misc\find_activities_quick_find_process_desc.html
+misc\find_activities_quick_find_user_created.html
+misc\format_specifiers.html
+img\hint.gif
+misc\host_email_setup.html
+misc\icons.html
+img\kanadi.gif
+img\lens.gif
+misc\list_of_tags_for_attachment_template.html
+img\note.gif
+misc\parent_category_customer_vendor_category_profile.html
+misc\preview_message_window.html
+misc\properties_select_ids_db_send_email_action.html
+img\refer.gif
+misc\reports_browser_report_action_add_reports.html
+misc\robohtml.css
+misc\selecting_schedules_for_events_crm_studio.html
+misc\select_e_mail_ids_dialog_box.html
+misc\show_names_for_select_ids_db_send_email_action.html
+misc\special_tags.html
+img\steps.gif
+misc\tags_browser_tag_option_templates_profile.html
+misc\template_types.html
+misc\the_update_job_schedule_for_crm_process_action_dialog_box.html
+misc\to_cc_bcc_select_ids_db_send_email_action.html
+misc\type_customer_vendor_category_profile.html
+misc\type_name_or_select_from_list_select_ids_db_send_email_action.html
+img\warning.gif
+misc\zzbevel.html
+misc\zz_action_activity_profile.html
+misc\zz_action_details_dhmo.html
+misc\zz_action_events_profile.html
+misc\zz_activities_process_setup_profile.html
+misc\zz_activity_number_activity_profile.html
+misc\zz_additional_e_mail_address_send_email_setup_db.html
+misc\zz_admin_password_crm.html
+misc\zz_assigned_users_task_appt_db.html
+misc\zz_assign_users_button_task_appt_details_db.html
+misc\zz_attachments_email_setup.html
+misc\zz_attachments_send_email_db.html
+misc\zz_billing_address_address_options_to_cc_bcc_send_email_setup.html
+misc\zz_category_events_profile.html
+misc\zz_cc_preview_msg_window_monitor_activites_browser_option.html
+misc\zz_code_template_profile_crm.html
+misc\zz_configuration_business_activity_monitoring.html
+misc\zz_contact_address_address_option_to_cc_bcc_send_email_setup.html
+misc\zz_customers_send_email_setup_db.html
+misc\zz_date_preview_msg_window_monitor_activites_browser_option.html
+misc\zz_description_activity_profile.html
+misc\zz_description_process_setup_profile.html
+misc\zz_description_template_profile_crm.html
+misc\zz_duration_days.html
+misc\zz_duration_minutes.html
+misc\zz_duration_seconds.html
+misc\zz_duration_task_appt_details_db.html
+misc\zz_edit_action_button_activity_profile.html
+misc\zz_email_host_crm.html
+misc\zz_event_activity_profile.html
+misc\zz_event_group_activity_profile.html
+misc\zz_event_group_event_profile.html
+misc\zz_event_group_template_profile_crm.html
+misc\zz_executed_end_date_find_act_hist_crm.html
+misc\zz_executed_start_date_find_act_hist_crm.html
+misc\zz_external_application_edit_action_activity_profile.html
+misc\zz_filter_name_find_activites_crm.html
+misc\zz_filter_name_find_act_history_crm.html
+misc\zz_find_activities_more_choices_ext_application.html
+misc\zz_find_activities_more_choices_modified_date.html
+misc\zz_find_activities_more_choices_report.html
+misc\zz_find_activities_more_choices_template_id.html
+misc\zz_find_activities_more_choices_user_modified.html
+misc\zz_find_activities_quick_find_action.html
+misc\zz_find_activities_quick_find_activity_desc.html
+misc\zz_find_activities_quick_find_created_date.html
+misc\zz_find_activities_quick_find_created_end_date.html
+misc\zz_find_activities_quick_find_created_start_date.html
+misc\zz_find_activities_quick_find_event_id.html
+misc\zz_find_activities_quick_find_no_of_records_to_retrieve.html
+misc\zz_find_activities_quick_find_no_of_records_to_retrieve_next.html
+misc\zz_find_activities_quick_find_process_desc.html
+misc\zz_find_activities_quick_find_user_created.html
+misc\zz_find_activity_history_more_choices_executed_date.html
+misc\zz_find_activity_history_more_choices_scheduled_date.html
+misc\zz_find_activity_history_quick_find_action_status.html
+misc\zz_find_activity_history_quick_find_activity_id.html
+misc\zz_find_activity_history_quick_find_process_id.html
+misc\zz_from_e-mail_address_email_setup.html
+misc\zz_from_e_mail_address_send_email_db.html
+misc\zz_from_preview_msg_window_monitor_activites_browser_option.html
+misc\zz_location_code_process_setup_profile_crm.html
+misc\zz_logged_in_user_task_appt_db.html
+misc\zz_mail_server_requires_authentication_email_setup_db.html
+misc\zz_message_body_preview_msg_window_monitor_activites_browser_option.html
+misc\zz_modified_end_date_find_activity_crm.html
+misc\zz_modified_start_date_find_activity_crm.html
+misc\zz_names_grid_select_email_ids_db.html
+misc\zz_notify_user_name_print_letter.html
+misc\zz_notify_user_name_print_report_setup.html
+misc\zz_notify_user_name_run_another_app.html
+misc\zz_notify_user_print_letter_memo_db.html
+misc\zz_notify_user_print_report_db.html
+misc\zz_notify_user_run_application_db.html
+misc\zz_number_of_records_to_retrieve_-_display_field_find_act_hist_crm.html
+misc\zz_number_of_records_to_retrieve_act_hist_quick_find.html
+misc\zz_occurence.html
+misc\zz_preview_message_window_bcc.html
+misc\zz_priority_task_appt_details_db.html
+misc\zz_process_id_process_setup_profile_crm.html
+misc\zz_reference_date_activity_profile.html
+misc\zz_remind.html
+misc\zz_reminder_date_and_time_task_details_db.html
+misc\zz_reminder_time.html
+misc\zz_remind_task_appt_details_db.html
+misc\zz_report_name_print_report_db_reports_tab.html
+misc\zz_report_paramaters_print_reports_db_reports_tab.html
+misc\zz_sales_rep_address_option_to_cc_bcc_send_email_setup.html
+misc\zz_sales_rep_task_appt_details_db.html
+misc\zz_scheduled_end_date_find_act_hist_crm.html
+misc\zz_scheduled_start_date_find_act_hust_crm.html
+misc\zz_schedule_action_activity_profile.html
+misc\zz_server_port_no_email_setup_db.html
+misc\zz_shipping_address_address_option_to_cc_bcc_send_email_setup.html
+misc\zz_subject_preview_msg_window_monitor_activites_browser_option.html
+misc\zz_subject_template_profile_crm.html
+misc\zz_template_description_print_letter_memo_db.html
+misc\zz_template_text_template_profile_crm.html
+misc\zz_template_type_template_profile_crm.html
+misc\zz_to_msg_window_task_creation_monitor_activities_browser.html
+misc\zz_to_preview_msg_window_monitor_activites_browser_option.html
+misc\zz_type_task_appointment_details_db.html
+misc\zz_user_code_crm.html
+misc\zz_vendors_send_email_setup_db.html
+[ALIAS]
+helpid_80101=standard-crm\bam\activity\monitoring-activities\monitor_activities.html
+helpid_80401=standard-crm\bam\activity\find-function\find-activities\find_activities.html
+helpid_81001=misc\print_letter_memo.html
+helpid_81201=misc\print_reports.html
+helpid_81301=standard-crm\bam\activity\monitoring-activities\activity_history.html
+helpid_81401=standard-crm\bam\processes\the_process_profile.html
+helpid_81501=standard-crm\bam\activity\the_activity_profile.html
+helpid_81601=misc\run_another_application.html
+helpid_81701=misc\create_task_appointment.html
+helpid_81801=misc\send_e_mail.html
+helpid_82002=standard-crm\bam\templates\the_template_browser.html
+helpid_82001=standard-crm\bam\templates\the_templates_profile.html
+helpid_80010=misc\zz_email_host_crm.html
+helpid_82004=misc\zz_code_template_profile_crm.html
+helpid_82005=misc\zz_description_template_profile_crm.html
+helpid_82006=misc\zz_template_type_template_profile_crm.html
+helpid_82007=misc\zz_event_group_template_profile_crm.html
+helpid_82009=misc\zz_subject_template_profile_crm.html
+helpid_82010=misc\zz_template_text_template_profile_crm.html
+helpid_81405=misc\zz_description_process_setup_profile.html
+helpid_81406=misc\zz_location_code_process_setup_profile_crm.html
+helpid_80402=misc\zz_filter_name_find_activites_crm.html
+helpid_80601=standard-crm\bam\activity\find-function\find-activity-history\find_activity_history.html
+helpid_81404=misc\zz_process_id_process_setup_profile_crm.html
+helpid_80113=misc\show_names_for_select_ids_db_send_email_action.html
+helpid_80114=misc\type_name_or_select_from_list_select_ids_db_send_email_action.html
+helpid_80116=misc\to_cc_bcc_select_ids_db_send_email_action.html
+helpid_80119=misc\properties_select_ids_db_send_email_action.html
+helpid_80201=standard-crm\bam\customer-vendor-category\the_customer_vendor_category_profile.html
+helpid_80202=standard-crm\bam\customer-vendor-category\the_customer_vendor_category_browser.html
+helpid_80204=misc\category_code_customer_vendor_category_profile.html
+helpid_80205=misc\description_customer_vendor_category_profile.html
+helpid_80206=misc\type_customer_vendor_category_profile.html
+helpid_80207=misc\parent_category_customer_vendor_category_profile.html
+helpid_80801=misc\preview_message_window.html
+helpid_81402=standard-crm\bam\processes\process_activities_browser.html
+helpid_81410=misc\changing_activity_sequence.html
+helpid_81802=misc\send_e_mail_setup_general.html
+helpid_81814=misc\send_e_mail_setup_additional_addresses.html
+helpid_82003=standard-crm\bam\templates\the_templates_profile_general.html
+helpid_82008=standard-crm\bam\templates\the_templates_profile_template.html
+helpid_82121=misc\process_activity_browser.html
+helpid_80001=standard-crm\bam\configuration_business_activity_monitoring.html
+helpid_80051=crm-studio\configuration_crm_studio.html
+helpid_80053=misc\zz_user_code_crm.html
+helpid_80054=misc\zz_admin_password_crm.html
+helpid_80111=misc\select_e_mail_ids_dialog_box.html
+helpid_80115=misc\zz_names_grid_select_email_ids_db.html
+helpid_9061=misc\e_mail_accounts_browser.html
+helpid_80802=misc\zz_from_preview_msg_window_monitor_activites_browser_option.html
+helpid_80803=misc\zz_to_preview_msg_window_monitor_activites_browser_option.html
+helpid_80804=misc\zz_cc_preview_msg_window_monitor_activites_browser_option.html
+helpid_80805=misc\zz_subject_preview_msg_window_monitor_activites_browser_option.html
+helpid_80806=misc\zz_date_preview_msg_window_monitor_activites_browser_option.html
+helpid_80807=misc\zz_message_body_preview_msg_window_monitor_activites_browser_option.html
+helpid_81004=misc\zz_template_description_print_letter_memo_db.html
+helpid_81005=misc\zz_notify_user_print_letter_memo_db.html
+helpid_81205=misc\zz_notify_user_print_report_db.html
+helpid_81207=misc\zz_report_name_print_report_db_reports_tab.html
+helpid_81208=misc\zz_report_paramaters_print_reports_db_reports_tab.html
+helpid_81503=misc\zz_activity_number_activity_profile.html
+helpid_81505=misc\zz_description_activity_profile.html
+helpid_81506=misc\zz_event_activity_profile.html
+helpid_81507=misc\zz_action_activity_profile.html
+helpid_81508=misc\zz_edit_action_button_activity_profile.html
+helpid_81516=misc\zz_schedule_action_activity_profile.html
+helpid_81515=misc\zz_reference_date_activity_profile.html
+helpid_81604=misc\zz_external_application_edit_action_activity_profile.html
+helpid_81605=misc\zz_notify_user_run_application_db.html
+helpid_81705=misc\zz_type_task_appointment_details_db.html
+helpid_81706=misc\zz_priority_task_appt_details_db.html
+helpid_81707=misc\zz_duration_task_appt_details_db.html
+helpid_81708=misc\zz_sales_rep_task_appt_details_db.html
+helpid_81709=misc\zz_logged_in_user_task_appt_db.html
+helpid_81710=misc\zz_assigned_users_task_appt_db.html
+helpid_81711=misc\zz_assign_users_button_task_appt_details_db.html
+helpid_81712=misc\zz_remind_task_appt_details_db.html
+helpid_81713=misc\zz_reminder_date_and_time_task_details_db.html
+helpid_81806=misc\zz_from_e_mail_address_send_email_db.html
+helpid_81812=misc\zz_attachments_send_email_db.html
+helpid_81819=misc\zz_customers_send_email_setup_db.html
+helpid_81820=misc\zz_vendors_send_email_setup_db.html
+helpid_81807=misc\zz_billing_address_address_options_to_cc_bcc_send_email_setup.html
+helpid_81809=misc\zz_contact_address_address_option_to_cc_bcc_send_email_setup.html
+helpid_81808=misc\zz_shipping_address_address_option_to_cc_bcc_send_email_setup.html
+helpid_81810=misc\zz_sales_rep_address_option_to_cc_bcc_send_email_setup.html
+helpid_81811=misc\zz_additional_e_mail_address_send_email_setup_db.html
+helpid_80403=standard-crm\bam\activity\find-function\find-activities\find_activities_quick_find.html
+helpid_80615=misc\zz_find_activity_history_more_choices_executed_date.html
+helpid_80618=misc\zz_find_activity_history_more_choices_scheduled_date.html
+helpid_80404=misc\zz_find_activities_quick_find_process_desc.html
+helpid_80405=misc\zz_find_activities_quick_find_activity_desc.html
+helpid_80406=misc\zz_find_activities_quick_find_user_created.html
+helpid_80407=misc\zz_find_activities_quick_find_created_date.html
+helpid_80408=misc\zz_find_activities_quick_find_created_start_date.html
+helpid_80409=misc\zz_find_activities_quick_find_created_end_date.html
+helpid_80411=misc\zz_find_activities_quick_find_action.html
+helpid_80412=misc\zz_find_activities_quick_find_event_id.html
+helpid_80413=misc\zz_find_activities_quick_find_no_of_records_to_retrieve.html
+helpid_80416=misc\zz_find_activities_more_choices_user_modified.html
+helpid_80417=misc\zz_find_activities_more_choices_modified_date.html
+helpid_80420=misc\zz_find_activities_more_choices_template_id.html
+helpid_80421=misc\zz_find_activities_more_choices_report.html
+helpid_80422=misc\zz_find_activities_more_choices_ext_application.html
+helpid_80604=misc\zz_find_activity_history_quick_find_process_id.html
+helpid_80606=misc\zz_find_activity_history_quick_find_activity_id.html
+helpid_80611=misc\zz_find_activity_history_quick_find_action_status.html
+helpid_80811=misc\zz_to_msg_window_task_creation_monitor_activities_browser.html
+helpid_80415=standard-crm\bam\activity\find-function\find-activities\find_activities_more_choices.html
+helpid_80161=misc\reports_browser_report_action_add_reports.html
+helpid_80181=misc\tags_browser_tag_option_templates_profile.html
+helpid_80013=misc\zz_configuration_business_activity_monitoring.html
+helpid_81407=misc\zz_activities_process_setup_profile.html
+helpid_81511=misc\zz_action_details_dhmo.html
+helpid_81714=misc\zz_reminder_time.html
+helpid_81715=misc\zz_occurence.html
+helpid_81716=misc\zz_remind.html
+helpid_81717=misc\zz_duration_days.html
+helpid_81718=misc\zz_duration_minutes.html
+helpid_81719=misc\zz_duration_seconds.html
+helpid_80809=misc\zz_preview_message_window_bcc.html
+helpid_6776=misc\zz_category_events_profile.html
+helpid_6777=misc\zz_action_events_profile.html
+helpid_6778=misc\zz_event_group_event_profile.html
+helpid_9066=misc\zz_server_port_no_email_setup_db.html
+helpid_9072=misc\zz_mail_server_requires_authentication_email_setup_db.html
+helpid_81517=misc\zz_event_group_activity_profile.html
+helpid_81824=misc\zz_from_e-mail_address_email_setup.html
+helpid_81825=misc\host_email_setup.html
+helpid_81813=misc\zz_attachments_email_setup.html
+helpid_81209=misc\zz_notify_user_name_print_report_setup.html
+helpid_81006=misc\zz_notify_user_name_print_letter.html
+helpid_81606=misc\zz_notify_user_name_run_another_app.html
+helpid_80434=misc\find_activities_quick_find_no_of_records_to_retrieve.html
+helpid_80631=misc\zz_number_of_records_to_retrieve_act_hist_quick_find.html
+helpid_80418=misc\zz_modified_start_date_find_activity_crm.html
+helpid_80419=misc\zz_modified_end_date_find_activity_crm.html
+helpid_80602=misc\zz_filter_name_find_act_history_crm.html
+helpid_80632=misc\zz_number_of_records_to_retrieve_-_display_field_find_act_hist_crm.html
+helpid_80619=misc\zz_scheduled_start_date_find_act_hust_crm.html
+helpid_80620=misc\zz_scheduled_end_date_find_act_hist_crm.html
+helpid_80616=misc\zz_executed_start_date_find_act_hist_crm.html
+helpid_80617=misc\zz_executed_end_date_find_act_hist_crm.html
+helpid_7179=misc\the_update_job_schedule_for_crm_process_action_dialog_box.html
+helpid_16560=misc\zzbevel.html
+
+[MAP]
+#define helpid_80101 80101
+#define helpid_80401 80401
+#define helpid_81001 81001
+#define helpid_81201 81201
+#define helpid_81301 81301
+#define helpid_81401 81401
+#define helpid_81501 81501
+#define helpid_81601 81601
+#define helpid_81701 81701
+#define helpid_81801 81801
+#define helpid_82002 82002
+#define helpid_82001 82001
+#define helpid_80010 80010
+#define helpid_82004 82004
+#define helpid_82005 82005
+#define helpid_82006 82006
+#define helpid_82007 82007
+#define helpid_82009 82009
+#define helpid_82010 82010
+#define helpid_81405 81405
+#define helpid_81406 81406
+#define helpid_80402 80402
+#define helpid_80601 80601
+#define helpid_81404 81404
+#define helpid_80113 80113
+#define helpid_80114 80114
+#define helpid_80116 80116
+#define helpid_80119 80119
+#define helpid_80201 80201
+#define helpid_80202 80202
+#define helpid_80204 80204
+#define helpid_80205 80205
+#define helpid_80206 80206
+#define helpid_80207 80207
+#define helpid_80801 80801
+#define helpid_81402 81402
+#define helpid_81410 81410
+#define helpid_81802 81802
+#define helpid_81814 81814
+#define helpid_82003 82003
+#define helpid_82008 82008
+#define helpid_82121 82121
+#define helpid_80001 80001
+#define helpid_80051 80051
+#define helpid_80053 80053
+#define helpid_80054 80054
+#define helpid_80111 80111
+#define helpid_80115 80115
+#define helpid_9061 9061
+#define helpid_80802 80802
+#define helpid_80803 80803
+#define helpid_80804 80804
+#define helpid_80805 80805
+#define helpid_80806 80806
+#define helpid_80807 80807
+#define helpid_81004 81004
+#define helpid_81005 81005
+#define helpid_81205 81205
+#define helpid_81207 81207
+#define helpid_81208 81208
+#define helpid_81503 81503
+#define helpid_81505 81505
+#define helpid_81506 81506
+#define helpid_81507 81507
+#define helpid_81508 81508
+#define helpid_81516 81516
+#define helpid_81515 81515
+#define helpid_81604 81604
+#define helpid_81605 81605
+#define helpid_81705 81705
+#define helpid_81706 81706
+#define helpid_81707 81707
+#define helpid_81708 81708
+#define helpid_81709 81709
+#define helpid_81710 81710
+#define helpid_81711 81711
+#define helpid_81712 81712
+#define helpid_81713 81713
+#define helpid_81806 81806
+#define helpid_81812 81812
+#define helpid_81819 81819
+#define helpid_81820 81820
+#define helpid_81807 81807
+#define helpid_81809 81809
+#define helpid_81808 81808
+#define helpid_81810 81810
+#define helpid_81811 81811
+#define helpid_80403 80403
+#define helpid_80615 80615
+#define helpid_80618 80618
+#define helpid_80404 80404
+#define helpid_80405 80405
+#define helpid_80406 80406
+#define helpid_80407 80407
+#define helpid_80408 80408
+#define helpid_80409 80409
+#define helpid_80411 80411
+#define helpid_80412 80412
+#define helpid_80413 80413
+#define helpid_80416 80416
+#define helpid_80417 80417
+#define helpid_80420 80420
+#define helpid_80421 80421
+#define helpid_80422 80422
+#define helpid_80604 80604
+#define helpid_80606 80606
+#define helpid_80611 80611
+#define helpid_80811 80811
+#define helpid_80415 80415
+#define helpid_80161 80161
+#define helpid_80181 80181
+#define helpid_80013 80013
+#define helpid_81407 81407
+#define helpid_81511 81511
+#define helpid_81714 81714
+#define helpid_81715 81715
+#define helpid_81716 81716
+#define helpid_81717 81717
+#define helpid_81718 81718
+#define helpid_81719 81719
+#define helpid_80809 80809
+#define helpid_6776 6776
+#define helpid_6777 6777
+#define helpid_6778 6778
+#define helpid_9066 9066
+#define helpid_9072 9072
+#define helpid_81517 81517
+#define helpid_81824 81824
+#define helpid_81825 81825
+#define helpid_81813 81813
+#define helpid_81209 81209
+#define helpid_81006 81006
+#define helpid_81606 81606
+#define helpid_80434 80434
+#define helpid_80631 80631
+#define helpid_80418 80418
+#define helpid_80419 80419
+#define helpid_80602 80602
+#define helpid_80632 80632
+#define helpid_80619 80619
+#define helpid_80620 80620
+#define helpid_80616 80616
+#define helpid_80617 80617
+#define helpid_7179 7179
+#define helpid_16560 16560

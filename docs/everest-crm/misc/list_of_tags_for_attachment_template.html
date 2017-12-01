@@ -1,0 +1,416 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="list-of-tags-for-attachment-template">List of tags for Attachment Template</h1>
+
+<p>You can add document custom fields and line item custom fields as tags  in the attachments. If you rename the custom field, the system will display  in the attachment in the name defined by you. Otherwise, it will be displayed  in the attachment in the system defined name.</p>
+
+<p>You can apply the given tags only for the specified document types given  in the table below to create attachment template.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Description</td>
+      <td>Tag</td>
+      <td>Applicable Document Types</td>
+    </tr>
+    <tr>
+      <td>Title of the Attachment</td>
+      <td>&lt;#DOC_ALIAS&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Document Number</td>
+      <td>&lt;#DOC_NO&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Document Date</td>
+      <td>&lt;#DOC_DATE&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Company Name</td>
+      <td>&lt;#COMPANY_NAME&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Company address</td>
+      <td>&lt;#COMP_ADDR&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>City</td>
+      <td>&lt;#CITY&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>State</td>
+      <td>&lt;#STATE&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Zip Code</td>
+      <td>&lt;#ZIP&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Country</td>
+      <td>&lt;#COUNTRY&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Telephone</td>
+      <td>&lt;#TEL&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Fax</td>
+      <td>&lt;#FAX&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Account Code</td>
+      <td>&lt;#CUST_VEND_CODE&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Payment Method</td>
+      <td>&lt;#PAY_METHOD&gt;</td>
+      <td>SO, SI, CO, CM, WSO</td>
+    </tr>
+    <tr>
+      <td>Payment Terms</td>
+      <td>&lt;#PAY_TERMS&gt;</td>
+      <td>PQ, PO, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM, WSO, WCQ,  WCO</td>
+    </tr>
+    <tr>
+      <td>Ship Via</td>
+      <td>&lt;#DELIV_METHOD&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Vendor Invoice No.</td>
+      <td>&lt;#VEND_INV_NO&gt;</td>
+      <td>PO, PR, PI, DQ, DO, DM,</td>
+    </tr>
+    <tr>
+      <td>Vendor Invoice Date</td>
+      <td>&lt;#VEND_INV_DATE&gt;</td>
+      <td>PO, PR, PI, DQ, DO, DM,</td>
+    </tr>
+    <tr>
+      <td>Customer PO No.</td>
+      <td>&lt;#CUST_PO_NO&gt;</td>
+      <td>SQ, SO, SI, CQ, CO, CM, WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Customer PO Date</td>
+      <td>&lt;#CUST_PO_DATE&gt;</td>
+      <td>SQ, SO, SI, CQ, CO, CM, WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Billing Address</td>
+      <td>&lt;#BILL_ADDR&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Shipping Address</td>
+      <td>&lt;#SHIP_ADDR&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Contact Address</td>
+      <td>&lt;#CONT_ADDR&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Serial Number</td>
+      <td>&lt;#LINE_SL_NO&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Item Code</td>
+      <td>&lt;#ITEM_CODE&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Item Description</td>
+      <td>&lt;#ITEM_DESC&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Quantity</td>
+      <td>&lt;#QTY&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Receive / Ship Quantity</td>
+      <td>&lt;#RECEIVE_SHIP_QTY&gt;</td>
+      <td>PO, PR, PI, DO, DM, SO, SI, CO, CM, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Item Price</td>
+      <td>&lt;#ITEM_PRICE&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Item Discount Amount</td>
+      <td>&lt;#ITEM_DISC_AMT&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Amount</td>
+      <td>&lt;#LINE_AMT&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Taxable Amount</td>
+      <td>&lt;#TAXABLE_AMT&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Exempted Amount</td>
+      <td>&lt;#EXMPT_AMT&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Sub-Total</td>
+      <td>&lt;#SUB_TOTAL&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Tax</td>
+      <td>&lt;#TAX_AMT&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>&lt;#TOTAL_AMT&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Paid Amount</td>
+      <td>&lt;#PAID_AMT&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,</td>
+    </tr>
+    <tr>
+      <td>Balance Amount</td>
+      <td>&lt;#BALANCE_AMT&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTCHAR1</td>
+      <td>&lt;#LINE_CUSTCHAR1&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTCHAR2</td>
+      <td>&lt;#LINE_CUSTCHAR2&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTCHAR3</td>
+      <td>&lt;#LINE_CUSTCHAR3&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTCHAR4</td>
+      <td>&lt;#LINE_CUSTCHAR4&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTDATE1</td>
+      <td>&lt;#LINE_CUSTDATE1&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTDATE2</td>
+      <td>&lt;#LINE_CUSTDATE2&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTDATE3</td>
+      <td>&lt;#LINE_CUSTDATE3&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTDATE4</td>
+      <td>&lt;#LINE_CUSTDATE4&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTLOG1</td>
+      <td>&lt;#LINE_CUSTLOG1&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTLOG2</td>
+      <td>&lt;#LINE_CUSTLOG2&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTLOG3</td>
+      <td>&lt;#LINE_CUSTLOG3&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTLOG4</td>
+      <td>&lt;#LINE_CUSTLOG4&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTNUM1</td>
+      <td>&lt;#LINE_CUSTNUM1&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTNUM2</td>
+      <td>&lt;#LINE_CUSTNUM2&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTNUM3</td>
+      <td>&lt;#LINE_CUSTNUM3&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTNUM4</td>
+      <td>&lt;#LINE_CUSTNUM4&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTMEMO1</td>
+      <td>&lt;#LINE_CUSTMEMO1&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTMEMO2</td>
+      <td>&lt;#LINE_CUSTMEMO2&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTMEMO3</td>
+      <td>&lt;#LINE_CUSTMEMO3&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Line Item CUSTMEMO4</td>
+      <td>&lt;#LINE_CUSTMEMO4&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ, WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTCHAR1</td>
+      <td>&lt;#DOC_CUSTCHAR1&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTCHAR2</td>
+      <td>&lt;#DOC_CUSTCHAR2&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTCHAR3</td>
+      <td>&lt;#DOC_CUSTCHAR3&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTCHAR4</td>
+      <td>&lt;#DOC_CUSTCHAR4&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTDATE1</td>
+      <td>&lt;#DOC_CUSTDATE1&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTDATE2</td>
+      <td>&lt;#DOC_CUSTDATE2&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTDATE3</td>
+      <td>&lt;#DOC_CUSTDATE3&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTDATE4</td>
+      <td>&lt;#DOC_CUSTDATE4&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTLOG1</td>
+      <td>&lt;#DOC_CUSTLOG1&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTLOG2</td>
+      <td>&lt;#DOC_CUSTLOG2&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTLOG3</td>
+      <td>&lt;#DOC_CUSTLOG3&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTLOG4</td>
+      <td>&lt;#DOC_CUSTLOG4&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTNUM1</td>
+      <td>&lt;#DOC_CUSTNUM1&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTNUM2</td>
+      <td>&lt;#DOC_CUSTNUM2&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTNUM3</td>
+      <td>&lt;#DOC_CUSTNUM3&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTNUM4</td>
+      <td>&lt;#DOC_CUSTNUM4&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTMEMO1</td>
+      <td>&lt;#DOC_CUSTMEMO1&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTMEMO2</td>
+      <td>&lt;#DOC_CUSTMEMO2&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTMEMO3</td>
+      <td>&lt;#DOC_CUSTMEMO3&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+    <tr>
+      <td>Document CUSTMEMO4</td>
+      <td>&lt;#DOC_CUSTMEMO4&gt;</td>
+      <td>PQ, PO, PR, PI, DQ, DO, DM, SQ, SO, SI, CQ, CO, CM,  WSQ, WSO, WCQ. WCO</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-crm/misc/customizing_attachment_templates.html">Customizing  Attachment Templates</a></dd>
+</dl>
+
+
+
+
+</div>

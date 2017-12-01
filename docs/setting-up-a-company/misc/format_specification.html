@@ -1,0 +1,96 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="format-specification">Format Specification</h1>
+
+<p>The formats for the telephone, mobile and zip codes are represented  by masks. Masks have the following special characters.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Mask</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>!</td>
+      <td>If a ! character appears in the mask, optional characters  are represented in the EditText  as leading blanks. Otherwise, they are represented as trailing blanks.</td>
+    </tr>
+    <tr>
+      <td>&gt;</td>
+      <td>If a &gt; character appears in the mask, all characters  that follow are in uppercase until the end of the mask or until a &lt;  character is encountered.</td>
+    </tr>
+    <tr>
+      <td>&lt;</td>
+      <td>If a &lt; character appears in the mask, all characters  that follow are in lowercase until the end of the mask or until a &gt;  character is encountered.</td>
+    </tr>
+    <tr>
+      <td>&lt;&gt;</td>
+      <td>If these two characters appear together in a mask, the  user can format  the  data in any case.</td>
+    </tr>
+    <tr>
+      <td>\</td>
+      <td>The character that follows a \ character is a literal  character. Use this character to use any of the mask special characters  as a literal in the data.</td>
+    </tr>
+    <tr>
+      <td>L</td>
+      <td>The L  character requires an alphabetic character only in this position. For  the US, this is A-Z,  a-z.</td>
+    </tr>
+    <tr>
+      <td>l</td>
+      <td>The l  character permits only an alphabetic character in this position, but does  not require it.</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>The A character requires an alphanumeric character only  in this position. For the US, this is A-Z,  a-z, 0-9.</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>The a character permits an alphanumeric character in  this position, but does not require it.</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>The C  character requires an arbitrary character in this position.</td>
+    </tr>
+    <tr>
+      <td>c</td>
+      <td>The c  character permits an arbitrary character in this position, but does not  require it.</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>The 0 character requires a numeric character only in  this position.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>The 9 character permits a numeric character in this  position, but does not require it.</td>
+    </tr>
+    <tr>
+      <td>#</td>
+      <td>The # character permits a numeric character, or a plus  or minus sign in this position, but does not require it.</td>
+    </tr>
+    <tr>
+      <td>:</td>
+      <td>The : character is used to separate hours, minutes,  and seconds in times. If the character that separates hours, minutes,  and seconds is different in the regional settings of the Control Panel  utility on your computer system, that character is used instead.</td>
+    </tr>
+    <tr>
+      <td>/</td>
+      <td>The / character is used to separate months, days, and  years in dates. If the character that separates months, days, and years  is different in the regional settings of the Control Panel utility on  your computer system, that character is used instead.</td>
+    </tr>
+    <tr>
+      <td>;</td>
+      <td>The ; character is used to separate the three fields  of the mask.</td>
+    </tr>
+    <tr>
+      <td>_</td>
+      <td>The _ character automatically inserts spaces into the  text. When the user enters characters in the field, the cursor skips the  _ character.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+</div>

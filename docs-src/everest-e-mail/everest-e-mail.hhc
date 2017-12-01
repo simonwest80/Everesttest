@@ -1,0 +1,261 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="_blank">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800027">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest E-mail">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Get Started with Everest E-mail">
+      <param name="Local" value="get_started_with_everest_e_mail.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Basic Features of Everest E-mail">
+      <param name="Local" value="basic_features_of_everest_e_mail.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Access Everest E-mail">
+      <param name="Local" value="access_everest_e_mail.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Set Up Everest E-mail">
+      <param name="Local" value="set_up_everest_e_mail.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Create POP3 E-mail Accounts">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="POP3">
+        <param name="Local" value="create-pop3-e-mail-accounts\pop3.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create POP3 E-mail Account">
+        <param name="Local" value="create-pop3-e-mail-accounts\create_pop3_e_mail_account.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Create MAPI E-mail Accounts">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="MAPI">
+        <param name="Local" value="create-mapi-e-mail-accounts\mapi.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create MAPI E-mail Accounts">
+        <param name="Local" value="create-mapi-e-mail-accounts\create_mapi_e_mail_accounts.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Modify E-mail Account Properties">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify E-mail Account Properties">
+        <param name="Local" value="modify-e-mail-account-properties\modify_e_mail_account_properties.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Properties Dialog Box (POP3)">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Properties Dialog Box - POP3">
+          <param name="Local" value="modify-e-mail-account-properties\properties-dialog-box-pop3-\properties_dialog_box_pop3.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Properties - General (POP3)">
+          <param name="Local" value="modify-e-mail-account-properties\properties-dialog-box-pop3-\properties_general_pop3_.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Properties - Server (POP3)">
+          <param name="Local" value="modify-e-mail-account-properties\properties-dialog-box-pop3-\properties_server_pop3_.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Properties - Advanced (POP3)">
+          <param name="Local" value="modify-e-mail-account-properties\properties-dialog-box-pop3-\properties_advanced_pop3_.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Properties - Exclusions (POP3)">
+          <param name="Local" value="modify-e-mail-account-properties\properties-dialog-box-pop3-\properties_exclude_list_pop3.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Properties Dialog Box (MAPI)">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Properties Dialog Box - MAPI">
+          <param name="Local" value="modify-e-mail-account-properties\properties-dialog-box-mapi-\properties_dialog_box_mapi.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Properties - General (MAPI)">
+          <param name="Local" value="modify-e-mail-account-properties\properties-dialog-box-mapi-\properties_general_mapi.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Properties - Advanced">
+          <param name="Local" value="modify-e-mail-account-properties\properties-dialog-box-mapi-\properties_advance.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Properties - Exclusions (MAPI)">
+          <param name="Local" value="modify-e-mail-account-properties\properties-dialog-box-mapi-\properties_exclude_list_mapi.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Work with Files and Folders">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Working with Files and Folders">
+        <param name="Local" value="work-with-files-and-folders\working_with_files_and_folders.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a New Folder">
+        <param name="Local" value="work-with-files-and-folders\create_a_new_folder.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Copy a Folder">
+        <param name="Local" value="work-with-files-and-folders\copy_a_folder.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Delete a Folder">
+        <param name="Local" value="work-with-files-and-folders\delete_a_folder.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Move a Folder">
+        <param name="Local" value="work-with-files-and-folders\move_a_folder.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Use Everest E-mail">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Using Everest E-mail">
+        <param name="Local" value="use-everest-e-mail\using_everest_e_mail.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a New Message">
+        <param name="Local" value="use-everest-e-mail\create_a_new_message.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Spell Check">
+        <param name="Local" value="use-everest-e-mail\spell_check_em.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="HTML Format">
+        <param name="Local" value="use-everest-e-mail\html_format_em.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Check for New Messages">
+        <param name="Local" value="use-everest-e-mail\check_for_new_messages.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Send Messages">
+        <param name="Local" value="use-everest-e-mail\send_messages.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Reply to a Message">
+        <param name="Local" value="use-everest-e-mail\reply_to_a_message.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Forward Messages">
+        <param name="Local" value="use-everest-e-mail\forward_messages.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Move Messages">
+        <param name="Local" value="use-everest-e-mail\move_messages.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Delete Messages">
+        <param name="Local" value="use-everest-e-mail\deleting_messages.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Copy Messages">
+        <param name="Local" value="use-everest-e-mail\copy_messages.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Save Messages">
+        <param name="Local" value="use-everest-e-mail\save_messages.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Print a Message">
+        <param name="Local" value="use-everest-e-mail\print_a_message.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Using the Address Book">
+        <param name="Local" value="use-everest-e-mail\using_the_address_book.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Search for E-mails">
+        <param name="Local" value="use-everest-e-mail\search_for_e_mails.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Use Address Book">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Using the Address Book">
+        <param name="Local" value="use-address-book\using_the_address_book.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Send E-mail from the Address book">
+        <param name="Local" value="use-address-book\send_e_mail_from_the_address_book.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Search for E-mails">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Search for E-mails">
+        <param name="Local" value="search-for-e-mails\search_for_e_mails.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Find E-mail - Quick Find tab">
+        <param name="Local" value="search-for-e-mails\find_e_mail_quick_find_tab.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Find E-mail - More Choices tab">
+        <param name="Local" value="search-for-e-mails\find_e_mail_more_choices_tab.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Find E-mail - Advance Filter tab">
+        <param name="Local" value="search-for-e-mails\find_e_mail_advance_filter_tab.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Find E-mail - Query tab">
+        <param name="Local" value="search-for-e-mails\find_e_mail_query_tab.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Set Up E-mail Preferences">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set up Everest E-mail preferences">
+        <param name="Local" value="set-up-e-mail-preferences\set_up_everest_e_mail_preferences.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Customize Everest E-mail">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customize Everest E-mail">
+        <param name="Local" value="customize-everest-e-mail\customize_everest_e_mail.html">
+      </object>
+      </ul>
+    </ul>
+</ul>
+</html>

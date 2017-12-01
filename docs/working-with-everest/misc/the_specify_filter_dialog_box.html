@@ -1,0 +1,73 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-specify-filter-dialog-box">The Specify Filter Dialog Box</h1>
+
+<p>This dialog box consists of the <strong>Filter 
+ (Display) Panel</strong>.</p>
+
+<dl>
+  <dt><strong>Specify Filter - Filter (Display) Panel</strong></dt>
+  <dd>This panel enables you to build a find condition,  using the available parameters. The options available in the <strong>Specify 
+ Filter</strong> dialog box are:</dd>
+  <dt><strong>OK</strong></dt>
+  <dd>Select this option when you have finished defining  the condition, and want to save it. The <strong>Filter 
+ Name</strong> dialog box is displayed, which enables you to specify a name  for the newly created <strong>Classic Style</strong>  filter, and save it.</dd>
+  <dt><strong>Cancel</strong></dt>
+  <dd>Select this option to close the <strong>Specify 
+ Filter</strong> dialog box.</dd>
+</dl>
+
+<p class="example">To filter the <strong>Items</strong> browser  for items with available stock less than 5, you must define the following  condition, by selecting the required parameters:</p>
+
+<p>BrwCol.AVAILABLE  less than 5</p>
+
+<p>The query is displayed in the <strong>Filter 
+ (Display) Panel</strong>. Click <strong>OK</strong>  to save the condition. The <strong>Filter Name</strong>  dialog box is displayed. Specify a name for the newly created <strong>Classic 
+ Style</strong> filter, and click <strong>OK</strong>.  You will see the <strong>Filters</strong> dialog  box. Click <strong>Apply</strong> to run the filter.</p>
+
+<p>The <strong>Items</strong> browser displays only  those items with available stock less than 5.</p>
+
+<p><img src="/versata-everest-docs/working-with-everest/img/note.gif" alt="" /></p>
+
+<p>Only the records displayed in the browser  are filtered. To filter all the records using the specified  criteria,  you must first display all the records in the browser, by using the <strong>Get All</strong> option.</p>
+
+<p>The following message is displayed above the browser’s status bar:</p>
+
+<p><img src="/versata-everest-docs/working-with-everest/img/stock less than 5.bmp" alt="" /></p>
+
+<p>To further filter the records in the browser, or modify the filter,  double-click the filter details and define additional conditions in the  <strong>Filter (Display) Panel</strong>. Click  <img src="/versata-everest-docs/working-with-everest/img/x.bmp" alt="" />  to  clear the filter that has been applied to the browser.</p>
+
+<p class="steps">To define the above mentioned condition,  do the following:</p>
+
+<ul>
+  <li>From the main  menu, select <strong>Inventory &gt; Items</strong>.  You will see the <strong>Items</strong> browser.</li>
+  <li>Click the <strong>Expert Style Filter</strong> <img src="/versata-everest-docs/working-with-everest/img/wwe_standard_browser_options_expert_style_filter.gif" alt="" /> icon.  You will see the <strong>Filters</strong> dialog  box.</li>
+  <li>Click the drop-down  arrow beside the <strong>Add</strong> button. Select  <strong>Classic Style</strong> from the drop-down  list.</li>
+  <li>You will see  the <strong>Specify Filter</strong> dialog box.</li>
+  <li>In the display  panel, click . You will see the following parameter: ‘BrwCol.ITEMNO  contains &lt;?&gt;’.</li>
+  <li>Click ‘BrwCol.ITEMNO’.  From the drop-down list, select ‘BrwCol.AVAILABLE’.</li>
+  <li>Click ‘contains’.  From the drop-down list, select ‘less than’.</li>
+  <li>Click ‘&lt;?&gt;’.  Enter ‘5’ in the text box.</li>
+  <li>Click <strong>OK</strong>. You will see the <strong>Filter 
+ Name</strong> dialog box.</li>
+  <li>Specify a name  for the newly created <strong>Classic Style</strong>  filter, and click <strong>OK</strong>.</li>
+  <li>You will see  the <strong>Filters</strong> dialog box. Click  <strong>Apply</strong> to run the filter.</li>
+  <li>The browser  lists records that meet the selection criteria specified.</li>
+</ul>
+
+<p>Similarly, you can add more parameters to the <strong>Classic 
+ Style</strong> condition statement, to narrow your search.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/working-with-everest/misc/filter_records_using_the_classic_style_filter.html">Filter  Records using the Classic Style Filter</a></dd>
+</dl>
+
+
+
+
+</div>

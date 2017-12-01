@@ -1,0 +1,51 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="summary-of-charges">Summary of Charges</h1>
+
+<p>This section displays the freight charges, the freight padding amount,  special pricing if any and the total freight for the document.</p>
+
+<dl>
+  <dt><strong>Freight</strong></dt>
+  <dd>This field displays the freight amount. Click the  <img src="/versata-everest-docs/sales/img/sales_freight_details_lookup_button.gif" alt="" /> button to view a breakup of the freight charges. You  will see the <a href="/versata-everest-docs/sales/misc/freight_details_dialog_box_freight_estimation.html"><strong>Freight Details</strong> dialog box</a>.</dd>
+  <dt><strong><a href=""></a>Padding</strong></dt>
+  <dd>While shipping goods, you may want to charge your  customers an additional amount/percentage over the actual freight charges.  This is called the freight padding amount.</dd>
+</dl>
+
+<p><strong>You can specify the freight padding amount or  percentage in:</strong></p>
+
+<ul>
+  <li>The <strong>Padding 
+ and Padding Amount/%</strong> fields of the <a href="/versata-everest-docs/setting-up-a-company/misc/delivery_method_profile_rate_tab.html"><strong>Carrier</strong> profile</a> (path: <strong>File 
+ &gt; Setup &gt; Freight &gt; Carrier &gt; Options &gt; Edit &gt; In New 
+ Window &gt; Additional Rates</strong> tab).</li>
+  <li>The <strong>Padding</strong>  and <strong>Padding</strong> <strong>Amount</strong>/<strong>Percent</strong> fields of the <a href="/versata-everest-docs/business-processes-in-everest/other-defaults/the_other_defaults_dialog_box.html"><strong>Other Defaults</strong> dialog box</a> (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Defaults &gt; Other Defaults</strong>).</li>
+</ul>
+
+<p>If you specify a freight padding amount or percentage in both the <strong>Carrier</strong> and the <strong>Other</strong><strong>Defaults</strong> dialog box, the value  specified in the <strong>Carrier</strong> profile  takes precedence (provided the carrier for which freight padding is specified,  is the carrier for the delivery method specified on the document) and  is displayed in the <strong>Padding</strong> <strong>Amount</strong> field. You can edit this field.</p>
+
+<p>You compute freight on an intermediate document and then specify a different  amount/percentage (in the <strong>Carrier</strong>  profile or <strong>Other Defaults</strong> dialog  box). When you later convert the document into a final document, <strong>Everest</strong> prompts you that the amount/percentage  specified differs from that of the document. You can choose if you want  to use the new value or not.</p>
+
+<dl class="note">
+  <dt>If freight padding has been specified as a percentage  in the <strong>Other</strong> <strong>Defaults</strong>  dialog box/<strong>Carrier</strong> profile, and  you modify the <strong>Padding</strong> <strong>Amount</strong>  field by entering an amount, <strong>Everest</strong>  considers the padding type for the document as ‘amount’ and not as a ‘percentage’.</dt>
+  <dd><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/delivery/freight_padding_applied_common_sales_content.html">Freight  Padding Applied</a></dd>
+  <dt><strong>Special Pricing</strong></dt>
+  <dd>If you have specified a special price for the freight  charged on documents, <strong>Everest</strong>  calculates and displays the amount in this field. You can specify this  in the <a href="/versata-everest-docs/managing-items/misc/special_pricing_details_section_special_pricing_db.html"><strong>Special Pricing</strong> dialog box</a> by specifying  <strong>Freight</strong> in the <strong>Discount</strong><strong>Type</strong> field (path: <strong>Inventory 
+ &gt; Discounts &gt; Special Pricing &gt; Options &gt; New &gt; In New 
+ Window</strong>).</dd>
+  <dd>This is a display field and cannot be edited.</dd>
+  <dt><strong>Total</strong></dt>
+  <dd>The freight amount charged on the document, including  the freight padding and special pricing amount, if any, is displayed in  this field.</dd>
+  <dd>Total = Freight + Padding + Special Pricing</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/options/utility/freight-est/everest-freight-estimator/the_everest_freight_estimator_dialog_box.html">The  Everest Freight Estimator Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

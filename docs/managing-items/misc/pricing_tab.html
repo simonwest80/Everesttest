@@ -1,0 +1,124 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="pricing-tab">Pricing Tab</h1>
+
+<p>Use the <strong>Pricing</strong> tab to define  how item prices will be calculated when you retrieve the kit in to a sales  document.</p>
+
+<dl>
+  <dt><strong>Type</strong></dt>
+  <dd>Specify the sales price calculation method.</dd>
+</dl>
+
+<p>Display the price of each item separately</p>
+
+<p>Select this option to display the price of each item in the kit separately.  This option displays the following fields:</p>
+
+<dl>
+  <dt><strong>Use item price defined in the kit details</strong></dt>
+  <dd>Select this option to display the individual price  of the items in the kit.</dd>
+  <dt><strong>Recalculate the price of each item in the kit</strong></dt>
+  <dd>Select this option to recalculate the price of each  item in the kit based on any special pricing rules set up. <strong>Everest</strong>  calculates the least price of each item, after considering all the pricing  options set up, like Customer Level pricing, Quantity pricing etc.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/item-pricing/discounts-and-special-pricing/discounts_and_special_pricing.html">Discounts  and Special Pricing</a></p>
+
+<p>The following table details the price display based on the options detailed  above:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Pricing Option</strong></td>
+      <td><strong>Price Displayed in <br /> Sales Documents</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Price of the Kit</td>
+      <td>Price of Individual Items in the Kit</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Use item price defined in the kit details</td>
+      <td>Will not be displayed</td>
+      <td>Individual prices of items in the kit are displayed</td>
+    </tr>
+    <tr>
+      <td>Recalculate the price of each item in the kit</td>
+      <td>Will not be displayed</td>
+      <td>Individual prices of items in the kit <strong>based <br /> on special pricing rule</strong> are displayed</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt>Reset item prices to zero and display the total price  of the kit on a total line</dt>
+  <dd>Select this option to reset the prices of all individual  items in the kit to zero, and display the total price of the kit according  to the options displayed. This option displays the following fields:</dd>
+  <dt><strong>Use pricing defined in the Sales tab to determine  the total price</strong></dt>
+  <dd>Select this option to display the sales price of  the item kit, specified in the <strong>Sales</strong>  tab of the <strong>Item</strong> profile. The kit  is added as the first line item with the prices defined in its profile.  <strong>Everest</strong> displays zero prices for  all individual items in the kit.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item/the_item_profile_-_sales_tab.html">Item Profile  -Sales Tab</a></p>
+
+<p><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item-kit/how_do_i_discount_a_kit_mi.html">How Do I Discount  a Kit?</a></p>
+
+<dl>
+  <dt><strong>Sum item prices defined in the kit details to  determine the total price of the kit</strong></dt>
+  <dd>Select this option to display the sum of the prices  of all individual items in the kit, as the kit price. The individual items  display zero prices.</dd>
+  <dt><strong>Recalculate the price of each item in the kit  and sum them to determine the total price of the kit</strong></dt>
+  <dd>Select this option to display the sum of the recalculated  prices of the items in the kit (based on any special pricing rules set  up). <strong>Everest</strong> displays zero prices  for the individual items.</dd>
+</dl>
+
+<p class="note">If the option <strong>Tax 
+ inclusive selling price</strong> (<strong>Item</strong>  profile &gt; <strong>Sales</strong> tab) is checked  for any of the kit components and you select either of the options - <strong>Sum item prices defined in the kit details 
+ to determine the total price of the kit</strong> or <strong>Recalculate 
+ the price of each item in the kit and sum them to determine the total 
+ price of the kit</strong>, <strong>Everest</strong>  displays the following message:</p>
+
+<p>“Some of the kit components are marked tax  inclusive. When this kit is retrieved into a sales document, the total  price of the kit in the sales document will be the sum of tax inclusive  price for kit components marked as tax inclusive and tax exclusive price  for kit components marked as tax exclusive. Tax will be calculated on  the total price.</p>
+
+<p>Do you wish to save?”</p>
+
+<p>The following table details the price display based on the options detailed  above</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Pricing Option </strong></td>
+      <td><strong>Price Displayed in <br /> Sales Documents</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Price of the Kit</strong></td>
+      <td>Price of Individual Items in the Kit</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Use pricing defined in the <strong>Sales</strong>  tab to determine the total price</td>
+      <td>Fixed Price of kit as defined in the <strong>Sales</strong>  tab</td>
+      <td>Individual prices of items in the kit display 0</td>
+    </tr>
+    <tr>
+      <td>Sum item prices defined in the kit details to determine  the total price of the kit</td>
+      <td>Sum of prices of individual items in the kit</td>
+      <td>Individual prices of items in the kit display 0</td>
+    </tr>
+    <tr>
+      <td>Recalculate the price of each item in the kit and sum  them to determine the total price of the kit</td>
+      <td>Sum of prices of individual items in the <strong>kit <br /> based on special pricing rules</strong></td>
+      <td>Individual prices of items in the kit display 0</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item-kit/the_item_profile_details.html">Item Profile  - Details Tab</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,63 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="foreign-currency-columns">Foreign Currency Columns</h1>
+
+<p>The transaction entries for foreign currency payments can be viewed  in terms of the foreign as well as the base currency. The default view  is in terms of base currency.</p>
+
+<p>Select <strong>Options &gt; View in Foreign 
+ Currency</strong> to view the entries in foreign currency. The following  additional columns are displayed in the “Transaction Entries”  section when you select the <strong>View in Foreign 
+ Currency</strong> option:</p>
+
+<dl>
+  <dt><strong>Currency Code</strong></dt>
+  <dd>This column displays the currency code depending  on the type of transaction.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>### Transaction Type</td>
+      <td><strong>Column Displays</strong></td>
+    </tr>
+    <tr>
+      <td>Miscellaneous Payment</td>
+      <td>Currency code of the selected account.</td>
+    </tr>
+    <tr>
+      <td>Apply payments to a foreign currency document</td>
+      <td>Currency code for the document.</td>
+    </tr>
+    <tr>
+      <td>Transaction related to the bank account</td>
+      <td>Currency code of the bank account.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The currency code cannot be edited.</p>
+
+<dl>
+  <dt><strong>Exchange Rate</strong></dt>
+  <dd>The current exchange rate defined for the currency  (in the <strong>Currency Code</strong> column)  is displayed by default in this column. The exchange rate is defined in  the <strong>Exchange</strong> <strong>Rate</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Multi</strong> - <strong>currency</strong>  &gt; <strong>Exchange</strong> <strong>Rates</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In New Window</strong> &gt;  <strong>Buy Rate</strong>/<strong>Sell 
+ Rate</strong> field). The buy rate or sell rate is displayed in the <strong>Exchange Rate</strong> column based on the setting  made in the <strong>Rate for payments</strong> field  of the <strong>Accounting</strong> dialog box (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Defaults</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Multi</strong><strong>Currency</strong> &gt; <strong>Exchange</strong><strong>rates</strong> tab). If the exchange rate  is changed in the <strong>Multi Currency</strong>  tab of the <strong>Payment Journal</strong> profile,  this column is automatically updated. You cannot edit this column.</dd>
+  <dt><strong>Debit/Credit</strong></dt>
+  <dd>The <strong>Debit</strong> and  <strong>Credit</strong> columns are renamed to  <strong>Forex 
+ Debit</strong> and <strong>Forex 
+ Credit</strong>. These columns display the amounts debited and credited  in foreign currency.</dd>
+</dl>
+
+<p class="note">The debits and credits will not tally in the  foreign currency view as the amounts are expressed in different currencies.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/vendor-payments-and-refunds/foreign-currency-payments/calculation_of_foreign_exchange_gains_and_losses.html">Calculation  of Foreign Currency Gains and Losses</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,51 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---editing-a-purchase-invoice">Back End Processes - Editing a Purchase Invoice</h1>
+
+<p>You can edit Line Item details in a saved but unposted <strong>Purchase 
+ Invoice</strong> profile. Whenever you modify the editable columns like  Invoiced Quantity, Item Cost, Discount Value, Discount %, Tax Code, and  Add-on Cost for a line item, and it results in a change in the total value  of the line item, the following back-end processes occur:</p>
+
+<ul>
+  <li>New columns are  created that store the original values on the purchase invoice:</li>
+  <li>Original Item  Cost</li>
+  <li>Original Discount</li>
+  <li>Original Tax  Amount</li>
+  <li>
+    <p>Original Add-on  Cost</p>
+  </li>
+  <li>The following existing  columns display the last modified cost:</li>
+  <li>Item Cost</li>
+  <li>Discount value</li>
+  <li>Discount %</li>
+  <li>Tax Code</li>
+  <li>Job Code</li>
+  <li>Add-on cost</li>
+</ul>
+
+<p>On saving a modified <strong>Purchase 
+ Invoice</strong> profile the system checks whether there is a Sales Invoice  created between the Original Date and Time when the purchase invoice was  created and the Date and Time when the purchase invoice was modified and  whether there is a difference in the Original Cost and the Cost mentioned  in the modified purchase invoice.</p>
+
+<p>If system finds out any such records then those  records must be marked with * in the <strong>Sales 
+ Commission Report</strong> next to the Cost column.</p>
+
+<ul class="note">
+  <li>Adequate security  right is needed to modify the line item details.</li>
+  <li>You cannot edit  the Received column on a saved Purchase Invoice profile.</li>
+  <li>Modifying the Add-on  Cost in <strong>Add-on Cost Distribution</strong>  dialog box, it will reflect in Item Details grid.</li>
+  <li>If the total value  of the Line Item edited is equal to the value that was there earlier the  system will not generate the <strong>Cost Adjustment</strong>  document.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/modify-a-purchase-invoice/accounting_entries_edit_a_purchase_invoice_pur.html">Accounting  Entries - Edit a Purchase Invoice</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/modify-a-purchase-invoice/modifying_purchase_invoices_pur.html">Modify  a Purchase Invoice</a></dd>
+</dl>
+
+
+
+
+</div>

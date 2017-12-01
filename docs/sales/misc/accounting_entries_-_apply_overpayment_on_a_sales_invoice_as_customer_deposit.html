@@ -1,0 +1,133 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries---apply-overpayment-on-a-sales-invoice-as-customer--deposit">Accounting Entries - Apply Overpayment on a Sales Invoice as Customer  Deposit</h1>
+
+<p>Sometimes a customer will make a payment or deposit against a sales  invoice that is more than the document total. If you use the overpayment  as a customer deposit, the system creates the following journal entries:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry Type</td>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/<br /><br /><br />Credit</td>
+      <td>Amount</td>
+      <td>Document Reference</td>
+    </tr>
+    <tr>
+      <td>Payment by cash/check/credit card/others</td>
+      <td>Bank Account</td>
+      <td>The account selected for Accounts in the <strong>Payment <br /> Method</strong> dialog box (path: <strong>File <br /> &gt; Setup &gt; Accounting &gt; Payment Methods &gt; Options &gt; Edit <br /> &gt; In New Window &gt; General</strong> tab).</td>
+      <td>Nil</td>
+      <td>Nil</td>
+      <td>Nil</td>
+    </tr>
+    <tr>
+      <td>Refund of invoice</td>
+      <td>Accounts Receivable Control Account</td>
+      <td>The account selected for Accounts Receivable in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; <br /> Preferences &gt; Defaults &gt; Accounting &gt; Posting Group</strong> tab)  of Customer Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_customer_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  Order for Customer Posting Group</a></td>
+      <td>Debit</td>
+      <td>The amount of overpayment</td>
+      <td>Sales invoice no.</td>
+    </tr>
+    <tr>
+      <td>Payment Discount</td>
+      <td>Payment Discount on Sales Account</td>
+      <td>The account defined for Payment Discount for Sales in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; <br /> Preferences &gt; Defaults &gt; Accounting &gt; Posting Group</strong> tab)  of Vendor Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_vendor_posting_group_misc_tab.html">Hierarchical  Order for Vendor Posting Group</a></td>
+      <td>Credit</td>
+      <td>Discount call back value</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Deposit on sales order</td>
+      <td>Customer deposit</td>
+      <td>The account selected for Customer Deposit in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; <br /> Preferences &gt; Defaults &gt; Accounting &gt; Posting Group</strong> tab)  of Customer Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_customer_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  Order for Customer Posting Group</a></td>
+      <td>Credit</td>
+      <td>The amount of overpayment at the rate identified in the <strong>Prior <br /> Payments</strong> tab</td>
+      <td>Manual sales order no.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Exchange Rate Information</p>
+
+<p>For foreign currency documents, the system takes into consideration  the exchange rate difference. Because the exchange rate that was available  when the overpayment was made may be different from the exchange rate  that is used when the overpayment is applied to a sales order, the system  creates a miscellaneous deposit entry to compensate for the difference.</p>
+
+<p>Below is an example.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>Document</td>
+      <td>Base</td>
+      <td>Exchange Rate</td>
+    </tr>
+    <tr>
+      <td>Currency</td>
+      <td>GBP</td>
+      <td>USD</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Amount</td>
+      <td>GBP 1200</td>
+      <td>USD 600</td>
+      <td>$1=2.0 GBP</td>
+    </tr>
+    <tr>
+      <td>Deposit</td>
+      <td>GBP 1500</td>
+      <td>USD 500</td>
+      <td>$1=3.0 GBP</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In the scenario above, the customer paid an extra 300 GBP. The system  creates the following accounting entries when the overpayment is treated  as a customer deposit:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry Type</td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>Payment By cash</td>
+      <td>$500</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Deposit on Sales Order</td>
+      <td> </td>
+      <td>$400</td>
+    </tr>
+    <tr>
+      <td>Miscellaneous  Deposit</td>
+      <td> </td>
+      <td>$100</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Payment by Cash= GBP 1500/3= $500</p>
+
+<p>Deposit on SO = GBP 1200/3 = $400.00</p>
+
+<p>Miscellaneous Deposit = GBP 300/3 = $100.00</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/misc/reduce_document_value_below_paid_amount.html">Reduce  Document Value Below Paid Amount</a></dd>
+  <dd><a href="/versata-everest-docs/sales/misc/default_accounts_for_sales_transactions.html">Default  Accounts for Sales Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

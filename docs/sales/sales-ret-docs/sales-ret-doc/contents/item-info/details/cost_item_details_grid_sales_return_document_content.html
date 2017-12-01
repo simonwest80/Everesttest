@@ -1,0 +1,44 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="cost">Cost</h1>
+
+<p>The <strong>Cost</strong> column in the Item  Details Grid displays the cost of the item. This column displays the average  cost or the last cost, depending on the preferences set in the <strong>Default 
+ value for the user defined cost column in a document</strong> option of  the <strong>Other</strong> <strong>Flow</strong><strong>Control</strong> dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow</strong><strong>Control</strong> &gt; <strong>Other</strong><strong>Flow</strong> <strong>Control</strong> &gt; <strong>Item</strong> <strong>Cost</strong>/<strong>Sales</strong> <strong>Summary</strong> tab).</p>
+
+<p>If the display cost in the <strong>Other</strong><strong>Flow</strong> <strong>Control</strong>  dialog box is set to <strong>None</strong> then  the cost displayed will be zero.</p>
+
+<p>If the item is factored, the factored last or average cost is displayed.  Factored costs are displayed only if the item’s cost is factored and if  the option <strong>Factor cost (enable cost inflation)</strong>  is selected in the <strong>Other</strong> <strong>Flow Control</strong> dialog box (path: <strong>File &gt; Setup &gt; Preferences &gt; Flow 
+ Control &gt; Other Flow Control &gt; Item Cost/Sales Summary</strong> tab).</p>
+
+<p>For non-inventoried items with cost calculated as a percent of selling  price, cost displayed is displayed as a percent of the return price.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/workstation-settings/work_station_settings.html">Workstation  Settings</a></p>
+
+<p>If required, the cost displayed in the sales return document can be  modified.</p>
+
+<p>The cost displayed or entered in this column will be used to calculate  sales commissions:</p>
+
+<ul>
+  <li>If sales commission  is calculated on profits and</li>
+  <li>The type of  cost used for commission calculation is user-defined cost (defined in  the <strong>Type of cost used for commission 
+ calculation</strong> option of the <strong>Other</strong><strong>Flow Control</strong> dialog box. Path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Flow Control &gt; Other Flow Control &gt; Item Cost/Sales Summary</strong>  tab).</li>
+</ul>
+
+<p>However, accounting entries for the Cost of Goods sold are generated  for the actual cost (in case of serialized items) or the average cost  (in case of non-serialized or non-inventoried items).</p>
+
+<p class="note">When non-serialized or non-inventoried items are returned,  cost at which the return is accounted is the current average cost and  not the average cost at the time of sale.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/misc/item_information_sales_return_document_content.html">Item  Information</a></dd>
+</dl>
+
+
+
+
+</div>

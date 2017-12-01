@@ -1,0 +1,69 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries---void-a-work-order">Accounting Entries - Void a Work Order</h1>
+
+<p>An accounting entry generated reversing the initial entry for <strong>In-process</strong> work order:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Account Name</strong></td>
+      <td><strong>Path</strong></td>
+      <td><strong>Debit/</strong><br /><br /><br /><strong>Credit</strong></td>
+      <td><strong>Amount</strong></td>
+    </tr>
+    <tr>
+      <td>Work In Progress Account*</td>
+      <td> </td>
+      <td>Credit</td>
+      <td>Value of the inventoried items on the work order.</td>
+    </tr>
+    <tr>
+      <td>Inventory Control Account</td>
+      <td>Inventory Control account will be based on <a href="/versata-everest-docs/sales/misc/determining_inventory_control_account_for_sales_documents.html">Rule  1a/b</a> or if unavailable then based on inventory account assigned to  the stock area selected in <strong>Location</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location/Sub location &gt; New &gt; <br /> Location</strong> profile &gt; <strong>Stock Transfer</strong>  &gt; <strong>Assembly 1</strong> tab &gt; <strong>Select stock area to receive back inventoried <br /> components of assembly previously issued on a WO</strong>)</td>
+      <td>Debit</td>
+      <td>Value of the inventoried items on the work order.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>* The WIP account debited in the ‘In Process’ stage will be credited  now.</p>
+
+<p>An accounting entry generated reversing the initial entry for <strong>Not Started</strong> work order:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Account Name</strong></td>
+      <td><strong>Path</strong></td>
+      <td><strong>Debit/</strong><br /><br /><br /><strong>Credit</strong></td>
+      <td><strong>Amount</strong></td>
+    </tr>
+    <tr>
+      <td>Inventory Control Account</td>
+      <td>This Inventory Control account  will be based on <a href="/versata-everest-docs/sales/misc/determining_inventory_control_account_for_sales_documents.html">Rule  1a/b</a> and if unavailable there, then based on inventory account assigned  from the stock area’s location defined in <strong>Location</strong>  profile (<strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location/Sub <br /> location</strong> &gt; <strong>New</strong> &gt;  <strong>Location</strong> profile &gt; <strong>Stock <br /> Transfer</strong> &gt; <strong>Assembly 1</strong>  tab &gt; <strong>Select stock area to issue inventoried <br /> components of assembly on a work order</strong>)</td>
+      <td>Credit</td>
+      <td>Value of the inventoried items on the work order.</td>
+    </tr>
+    <tr>
+      <td>Inventory Control Account</td>
+      <td>Inventory Control account will be based on <a href="/versata-everest-docs/sales/misc/determining_inventory_control_account_for_sales_documents.html">Rule  1a/b</a> or if unavailable then based on inventory account assigned to  the stock area selected in <strong>Location</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location/Sub location &gt; New &gt; <br /> Location</strong> profile &gt; <strong>Stock Transfer</strong>  &gt; <strong>Assembly 1</strong> tab &gt; <strong>Select stock area to receive back inventoried <br /> components of assembly previously issued on a WO</strong>)</td>
+      <td>Debit</td>
+      <td>Value of the inventoried items on the work order.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/voiding-a-work-order/void_a_work_order.html">Void a Work Order</a></dd>
+</dl>
+
+
+
+
+</div>

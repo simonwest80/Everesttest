@@ -1,0 +1,182 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Everest Advanced Edition
+email: success@everestsoftwareinc.com
+description:
+destination: ./../docs
+baseurl: "/versata-everest-docs" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+wwe_baseurl: "/versata-everest-docs/working-with-everest"
+sc_baseurl: "/versata-everest-docs/setting-up-a-company"
+bp_baseurl: "/versata-everest-docs/business-processes-in-everest"
+fd_baseurl: "/versata-everest-docs/forms-designer"
+mi_baseurl: "/versata-everest-docs/managing-items"
+mv_baseurl: "/versata-everest-docs/managing-vendors"
+mc_baseurl: "/versata-everest-docs/managing-customers"
+ct_baseurl: "/versata-everest-docs/custom-tracking"
+pp_baseurl: "/versata-everest-docs/the-purchase-process"
+ba_baseurl: "/versata-everest-docs/building-assemblies"
+wm_baseurl: "/versata-everest-docs/warehouse-management"
+sp_baseurl: "/versata-everest-docs/sales"
+pos_baseurl: "/versata-everest-docs/point-of-sale"
+cm_baseurl: "/versata-everest-docs/contact-manager"
+tc_baseurl: "/versata-everest-docs/time-clock"
+acc_baseurl: "/versata-everest-docs/accounting"
+utl_baseurl: "/versata-everest-docs/utilities"
+db_baseurl: "/versata-everest-docs/everest-advanced-dashboard"
+rpt_baseurl: "/versata-everest-docs/reports"
+rmgr_baseurl: "/versata-everest-docs/reports-manager"
+prl_baseurl: "/versata-everest-docs/everest-us-payroll"
+eml_baseurl: "/versata-everest-docs/everest-e-mail"
+mb_baseurl: "/versata-everest-docs/everest-mailbridge"
+crm_baseurl: "/versata-everest-docs/everest-crm"
+advutl_baseurl: "/versata-everest-docs/everest-advanced-edition-utilities"
+gloss_baseurl: "/versata-everest-docs/glossary"
+aoh_baseurl: "/versata-everest-docs/about-online-help"
+
+#CHM links
+wwe_chm: "/versata-everest-docs/working-with-everest"
+sc_chm: "/versata-everest-docs/setting-up-a-company"
+bp_chm: "/versata-everest-docs/business-processes-in-everest"
+fd_chm: "/versata-everest-docs/forms-designer"
+mi_chm: "/versata-everest-docs/managing-items"
+mv_chm: "/versata-everest-docs/managing-vendors"
+mc_chm: "/versata-everest-docs/managing-customers"
+ct_chm: "/versata-everest-docs/custom-tracking"
+pp_chm: "/versata-everest-docs/the-purchase-process"
+ba_chm: "/versata-everest-docs/building-assemblies"
+wm_chm: "/versata-everest-docs/warehouse-management"
+sp_chm: "/versata-everest-docs/sales"
+pos_chm: "/versata-everest-docs/point-of-sale"
+cm_chm: "/versata-everest-docs/contact-manager"
+tc_chm: "/versata-everest-docs/time-clock"
+acc_chm: "/versata-everest-docs/accounting"
+utl_chm: "/versata-everest-docs/utilities"
+db_chm: "/versata-everest-docs/everest-advanced-dashboard"
+rpt_chm: "/versata-everest-docs/reports"
+rmgr_chm: "/versata-everest-docs/reports-manager"
+prl_chm: "/versata-everest-docs/everest-us-payroll"
+eml_chm: "/versata-everest-docs/everest-e-mail"
+mb_chm: "/versata-everest-docs/everest-mailbridge"
+crm_chm: "/versata-everest-docs/everest-crm"
+advutl_chm: "/versata-everest-docs/everest-advanced-edition-utilities"
+gloss_chm: "/versata-everest-docs/glossary"
+aoh_chm: "/versata-everest-docs/about-online-help"
+
+is_chm: false
+
+#relative_permalinks: false
+# Build settings
+markdown: kramdown
+#theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "ng-default"
+
+include: [".nojekyll"]
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - build_chm.bat
+  - working-with-everest/working-with-everest.hhp
+  - working-with-everest/working-with-everest.hhc
+  - working-with-everest/working-with-everest.hhk
+  - setting-up-a-company/setting-up-a-company.hhp
+  - setting-up-a-company/setting-up-a-company.hhc
+  - setting-up-a-company/setting-up-a-company.hhk
+  - business-processes-in-everest/business-processes.hhp
+  - business-processes-in-everest/business-processes.hhc
+  - business-processes-in-everest/business-processes.hhk
+  - forms-designer/forms-designer.hhp
+  - forms-designer/forms-designer.hhc
+  - forms-designer/forms-designer.hhk
+  - "Help cleanup and verification.pdf"
+  - out
+  - managing-items/managing-items.hhp
+  - managing-items/managing-items.hhc
+  - managing-items/managing-items.hhk
+  - managing-vendors/managing-vendors.hhp
+  - managing-vendors/managing-vendors.hhc
+  - managing-vendors/managing-vendors.hhk
+  - managing-customers/managing-customers.hhp
+  - managing-customers/managing-customers.hhc
+  - managing-customers/managing-customers.hhk
+  - custom-tracking/custom-tracking.hhp
+  - custom-tracking/custom-tracking.hhc
+  - custom-tracking/custom-tracking.hhk
+  - the-purchase-process/the-purchase-process.hhp
+  - the-purchase-process/the-purchase-process.hhc
+  - the-purchase-process/the-purchase-process.hhk
+  - building-assemblies/building-assemblies.hhp
+  - building-assemblies/building-assemblies.hhc
+  - building-assemblies/building-assemblies.hhk
+  - warehouse-management/warehouse-management.hhp
+  - warehouse-management/warehouse-management.hhc
+  - warehouse-management/warehouse-management.hhk 
+  - sales/the-sales-process.hhp
+  - sales/the-sales-process.hhc
+  - sales/the-sales-process.hhk
+  - point-of-sale/point-of-sale.hhp
+  - point-of-sale/point-of-sale.hhc
+  - point-of-sale/point-of-sale.hhk
+  - contact-manager/contact-manager.hhp
+  - contact-manager/contact-manager.hhc
+  - contact-manager/contact-manager.hhk
+  - accounting/accounting.hhp
+  - accounting/accounting.hhc
+  - accounting/accounting.hhk
+  - utilities/utility.hhp
+  - utilities/utility.hhc
+  - utilities/utility.hhk
+  - everest-advanced-dashboard/Everest_Advanced_Dashboard.hhp
+  - everest-advanced-dashboard/Everest_Advanced_Dashboard.hhc
+  - everest-advanced-dashboard/Everest_Advanced_Dashboard.hhk
+  - reports/reports.hhp
+  - reports/reports.hhc
+  - reports/reports.hhk
+  - reports-manager/report-manager.hhp
+  - reports-manager/report-manager.hhc
+  - reports-manager/report-manager.hhk
+  - everest-us-payroll/everest-us-payroll.hhp
+  - everest-us-payroll/everest-us-payroll.hhc
+  - everest-us-payroll/everest-us-payroll.hhk
+  - everest-e-mail/everest-e-mail.hhp
+  - everest-e-mail/everest-e-mail.hhc
+  - everest-e-mail/everest-e-mail.hhk
+  - everest-mailbridge/mailbridge.hhp
+  - everest-mailbridge/mailbridge.hhc
+  - everest-mailbridge/mailbridge.hhk
+  - everest-crm/acrm.hhp
+  - everest-crm/acrm.hhc
+  - everest-crm/acrm.hhk
+  - everest-advanced-edition-utilities/everest-advanced-edition-utilities.hhp
+  - everest-advanced-edition-utilities/everest-advanced-edition-utilities.hhc
+  - everest-advanced-edition-utilities/everest-advanced-edition-utilities.hhk
+  - glossary/Everest_Advance_Edition_Glossary.hhp
+  - glossary/Everest_Advance_Edition_Glossary.hhc
+  - glossary/Everest_Advance_Edition_Glossary.hhk
+  - bin
+  - about-online-help/about-online-help.hhp
+  - about-online-help/about-online-help.hhc
+

@@ -1,0 +1,69 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries---not-started-stage">Accounting Entries - Not Started Stage</h1>
+
+<p>Create a GJ to account for the transfer the inventory control account  from the component’s to the assembly area.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Account Name</strong></td>
+      <td><strong>Path</strong></td>
+      <td><strong>Debit/</strong><br /><br /><br /><strong>Credit</strong></td>
+      <td><strong>Amount</strong></td>
+    </tr>
+    <tr>
+      <td>Inventory Control Account</td>
+      <td>This Inventory Control account  will be based on <a href="/versata-everest-docs/sales/misc/determining_inventory_control_account_for_sales_documents.html">Rule  1a/b</a> and if undefined there, then from the stock area’s location defined  in <strong>Location</strong> profile (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location/Sub <br /> location</strong> &gt; <strong>New</strong> &gt;  <strong>Location</strong> profile &gt; <strong>Stock <br /> Transfer</strong> &gt; <strong>Assembly 1</strong>  tab &gt; <strong>Select stock bin to issue inventoried <br /> components of assembly on a work order</strong>)</td>
+      <td>Debit</td>
+      <td>Value of the inventoried items on the work order.</td>
+    </tr>
+    <tr>
+      <td>Inventory Control Account<br /><br /><br />(Of Components)</td>
+      <td>Inventory Control account (of components) will be defaulted based on  <a href="/versata-everest-docs/sales/misc/determining_inventory_control_account_for_sales_documents.html">Rule  1a/b</a> and user can override them in the document.</td>
+      <td>Credit</td>
+      <td>Value of the inventoried items on the work order.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You can edit the quantities and stock areas in a Not Started Work in  Process document and a new General Journal should be created every time  for only the change in Stock.</p>
+
+<p>In case where the stock of components is reduced , then the entry will  be as follows:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Account Name</strong></td>
+      <td><strong>Path</strong></td>
+      <td><strong>Debit/</strong><br /><br /><br /><strong>Credit</strong></td>
+      <td><strong>Amount</strong></td>
+    </tr>
+    <tr>
+      <td>Inventory Control Account</td>
+      <td>This Inventory Control account  will be based on <a href="/versata-everest-docs/sales/misc/determining_inventory_control_account_for_sales_documents.html">Rule  1a/b</a> and if undefined there, then based on inventory account assigned  to the  stock  area’s location defined in <strong>Location</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location/Sub location</strong> &gt;  <strong>New</strong> &gt; <strong>Location</strong>  profile &gt; <strong>Stock Transfer</strong> &gt;  <strong>Assembly 1</strong> tab &gt; <strong>Select <br /> stock bin to issue inventoried components of assembly on a work order</strong>)</td>
+      <td>Debit</td>
+      <td>Value of the inventoried items on the work order.</td>
+    </tr>
+    <tr>
+      <td>Inventory Control Account<br /><br /><br />(Of Components)</td>
+      <td>Inventory Control account (of components) will be based on <a href="/versata-everest-docs/sales/misc/determining_inventory_control_account_for_sales_documents.html">Rule  1a/b</a> and if unavailable there, then from the stock area’s location  defined in <strong>Location</strong> profile  (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location/Sub <br /> location</strong> &gt; <strong>New</strong> &gt;  <strong>Location</strong> profile &gt; <strong>Stock <br /> Transfer</strong> &gt; <strong>Assembly 1</strong>  tab &gt; <strong>Select stock bin to issue inventoried <br /> components of assembly on a work order</strong>).</td>
+      <td>Credit</td>
+      <td>Value of the inventoried items on the work order.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/building-wo/entering-qty-built/accounting-entries/jrn_in_which_acc_entries_are_recorded.html">Journal  in Which Accounting Entries are Recorded</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,116 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="other-flow-control---general">Other Flow Control - General</h1>
+
+<dl>
+  <dt><strong>Prompt user with Document Printing Preferences  Profile before printing a document</strong></dt>
+  <dd>Select this check box to be prompted with the <strong>Printing</strong> <strong>Preferences</strong>  dialog box before you print a document.</dd>
+  <dd><img src="/versata-everest-docs/business-processes-in-everest/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/rpt-prt/set-prt/the_printing_preferences_dialog_box_step_by_step_bp.html">Printing  Preferences Dialog Box</a></dd>
+  <dt><strong>Allow user to clock in/out across days</strong></dt>
+  <dd>Select this check box if you want the user to clock  in/out across days other than the current date.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/business-processes-in-everest/img/example.gif" alt="" />  A  user could clock in on April 12th and clock out on April 13th.</p>
+
+<dl>
+  <dt><strong>Enable global password mode at login</strong></dt>
+  <dd>Select this check box to enable the global password  at login. Whenever a user logs into <strong>Everest</strong>  the user can perform all functions for which access has been granted without  having to re-enter the password.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/business-processes-in-everest/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/security/passwords/global_password_on_off.html">Global  Password On/Off</a></p>
+
+<dl>
+  <dt><strong>Allow user to post a journal even if it is not  printed</strong></dt>
+  <dd>Check this box to post journals to the relevant  ledger accounts, even if these journals have not been printed.</dd>
+</dl>
+
+<p class="hint">It is recommended that all journals be printed  before posting for audit purposes.</p>
+
+<p><img src="/versata-everest-docs/business-processes-in-everest/img/lens.gif" alt="" />  <a href="/versata-everest-docs/accounting/accounting-structure-in-everest/posting/posting.html">Posting</a></p>
+
+<dl>
+  <dt><strong>Automatically popup customer tracking when creating  a new customer</strong></dt>
+  <dd>Select this check box to automatically popup the  customer tracking browser when you create a new customer.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/business-processes-in-everest/img/example.gif" alt="" />  This  feature can be used to force tagging of customers by ‘How the customer  found us’ when a new customer is created, and acts as a reminder to use  the tracking feature.</p>
+
+<dl>
+  <dt><strong>Automatically popup vendor tracking when creating  a new vendor</strong></dt>
+  <dd>Select this check box to automatically display the  vendor tracking browser when you create a new vendor. This browser will  be displayed when you save information for the new <strong>Vendor</strong>  profile.</dd>
+  <dt><strong>Copy files to Global Multimedia Repository</strong></dt>
+  <dd>Select this option to copy files to the <strong>Global 
+ Multimedia Repository</strong>, <strong>** which  is a global directory in which multimedia files are copied. Files will  be copied to the global repository only if you have specified the global  multimedia repository path in the default preferences (path: **File 
+ &gt; Setup &gt; Preferences &gt; Defaults &gt; Other Defaults</strong>).</dd>
+  <dt><strong>Prompt user if an appointment conflicts with  an existing appointment</strong></dt>
+  <dd>Select this check box to prompt the user if an appointment  conflicts with an existing appointment. If this option is left unchecked,  you can create more than one appointment at the same instance.</dd>
+</dl>
+
+<p class="note">If there is a conflict with an existing appointment  and this option is selected, you will be informed that there is a conflict  with an existing appointment and will be asked whether you want to retain  the existing time schedule.</p>
+
+<ul>
+  <li>Click <strong>Yes</strong> to create the appointment.</li>
+  <li>Click <strong>No</strong> if you want to reschedule the appointment.</li>
+</ul>
+
+<dl>
+  <dt><strong>Automatically check for reminders every _ seconds</strong></dt>
+  <dd>You can display reminders for tasks and appointments.  Select this check box if you want <strong>Everest</strong>  to automatically check for reminders and specify the frequency for checking  reminders. If this check box is not selected, reminders are NOT displayed.</dd>
+  <dd>The value in the <strong>Automatically 
+ check for reminders every</strong> field on the <strong>Workstation 
+ Settings</strong> dialog box (path: <strong>File 
+ &gt; Setup &gt; Preferences &gt; Workstation Settings &gt; General &gt; 
+ Others</strong> tab) defaults to the value specified here. Since this setting  is applicable at the company wide level, deselecting  this box will allow <strong>Everest</strong> to  load faster. If you deselect  this checkbox, the reminder preference in the <strong>Workstation 
+ Settings</strong> dialog box cannot be selected.</dd>
+</dl>
+
+<p class="note">: You can specify a maximum value of 999 in this field.</p>
+
+<dl>
+  <dt><strong>Enter the maximum number of records that can  be fetched through get more function in the browsers without security  check</strong></dt>
+  <dd>Enter the maximum number of records that can be  retrieved into a browser by clicking the “Get” button. If more  records have to be retrieved at a time into the browser, the user must  have appropriate security rights.</dd>
+  <dd><img src="/versata-everest-docs/business-processes-in-everest/img/example.gif" alt="" />  If  100 is specified in this field, you can get only 100 records at a time  into any browser. If you need to retrieve more than 100 records at a time,  the “Get records above threshold limit in a browser” right must  also be assigned to you.</dd>
+  <dt><strong>Allow users to access stock bins of</strong></dt>
+  <dd>Select <strong>Logged in 
+ Location</strong> option from this drop down field to assign/access stock  bins that belong to the login location or select <strong>All 
+ Locations</strong> option to assign/access stock bins of all locations.</dd>
+</dl>
+
+<p class="note">If you select <strong>Logged 
+ in Location</strong> from <strong>Allow users to 
+ access stock bins of</strong> drop down field (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Other 
+ Flow Control</strong>) <strong>Specific location</strong>  option will automatically get selected in the <strong>View</strong>  drop down field in <strong>Attach Quantity</strong>  dialog box and <strong>Retrieve Serial Numbers</strong>  dialog box. The <strong>Location</strong> drop  down field will have locations pertaining to the logged in location.</p>
+
+<p>If you select <strong>All 
+ Locations</strong> option from <strong>Allow users 
+ to access stock bins of</strong> drop down field (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Other 
+ Flow Control</strong>) <strong>All Locations</strong>  option will automatically get selected in the <strong>View</strong>  drop down field in <strong>Attach Quantity</strong>  dialog box and <strong>Retrieve Serial Numbers</strong>  dialog box. Also, an extra <strong>Location</strong>  column will get added in the grid of <strong>Attach 
+ Quantity</strong> dialog box.</p>
+
+<dl>
+  <dt><strong>Remove automated customer on hold automatically</strong></dt>
+  <dd>Select this check box to remove automatic on credit  holds automatically. The conditions for automatic on credit holds are  set in the <strong>Customer</strong> profile –  <strong>Payment Information</strong> tab. If the  conditions are met, the system places an automatic on credit hold for  the customer. If you select this option and the customer no longer meets  the automatic on hold conditions, the system automatically removes the  automatic on credit hold. System checks for automatic credit hold removal  occur at the following times:</dd>
+</dl>
+
+<ul>
+  <li>Once per day at 12:00  AM</li>
+  <li>Every time a payment/refund  or another financial change is made to the customer account</li>
+</ul>
+
+<dl class="example">
+  <dt>If the **Number </dt>
+  <dt> of days past due** is 15 days, the customer is put on hold automatically  after 15 days. If the customer makes the required payments according to  the payment terms after the automatic credit hold is placed and the <strong>Remove automated customer on hold automatically</strong>  option is selected, the system automatically removes the credit hold since  the account is current.</dt>
+  <dd>If this option is not selected, the customer must  be manually removed from hold if the customer no longer meets the hold  conditions.</dd>
+  <dd><img src="/versata-everest-docs/business-processes-in-everest/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-customers/creating-a-customer/the-customer-profile-payment-information/the_customer_profile_payment_information.html">The  Customer Profile - Payment Information Tab (Automated Hold Conditions)</a></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/other-flow-control/the-other-flow-control-dialog-box/other_flow_control_dialog_box_step_by_step.html">The  Other Flow Control Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,64 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="discount-value">Discount Value</h1>
+
+<p>Enter the discount available on an item in the <strong>Discount</strong><strong>Value</strong> column. Enter the discount  value in the cost decimal accuracy of the item. You can modify the discount  value even after saving the purchase document.</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/purchase/measure_pur.html">Measure</a></p>
+
+<p>When you enter the discount value, the discount percent is computed  automatically and displayed in the <strong>Discount 
+ %</strong> column and vice-versa. The discount value cannot be greater than  the price of item.</p>
+
+<p><strong>Discounts on Items Whose Cost Includes Tax</strong></p>
+
+<p>Discount is computed differently for items whose cost includes tax.  You must define whether the item’s cost includes tax in the <strong>Tax 
+ inclusive cost</strong> field (path: <strong>Item</strong>  profile &gt; <strong>Purchase</strong> tab).</p>
+
+<p>If the cost of an item is inclusive of tax, discount is calculated on  the item cost after excluding tax while discount is directly computed  on the item cost for an item whose price does NOT include tax. In the  case of an item with ‘Tax inclusive cost’, the cost is computed in the  following manner:</p>
+
+<ul>
+  <li>The cost of the  item excluding tax is computed.</li>
+  <li>The discount applicable  to the item is computed on this cost.</li>
+  <li>The amount of discount  is deducted from the item’s cost.</li>
+  <li>The tax is then  computed on the discounted cost.</li>
+  <li>The item cost including  tax is displayed in the Item Cost column of the Item Details Grid.</li>
+</ul>
+
+<p class="example">Case 1: Tax inclusive cost</p>
+
+<p>An item’s cost is $100 which is inclusive of tax at 5%. Discount of  10 percent is allowed on the item.</p>
+
+<p>Cost = 100/1.05 = 95.24</p>
+
+<p>Discount = 95.24x10% = 9.524</p>
+
+<p>Tax = (95.24 - 9.524) X 5% = 4.29</p>
+
+<p>Amount = 100 - 9.524 - 4.29 = 86.19</p>
+
+<p>Case 2: Tax exclusive cost</p>
+
+<p>An item’s cost is $100 which is exclusive of tax at 5%. Discount of  10 percent is allowed on the item.</p>
+
+<p>Discount = 100x10% = 10</p>
+
+<p>Tax = (100 - 10) X 5% = 4.5</p>
+
+<p>Amount = 100 - 10 = 90</p>
+
+<p class="note">Tax that can be recovered is deducted from the item’s cost when calculating  the discount.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/item-info/item_information_pp.html">Item Information</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/item-info/discount-details/discount_percent.html">Discount Percent</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,52 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="committed-quantities---stock-areas-assigned">Committed Quantities - Stock Areas Assigned</h1>
+
+<p>When items are committed on a sales order, they are assigned to a <strong>Stock</strong> type of stock area. These items  are transferred to an <strong>Out</strong> type  of stock area only when the related sales invoice is created.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><font style="color: #800080;" color="#800080"> </font><a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/stock-areas/stock_area_types.html">Stock  Areas Types</a></p>
+
+<p>The stock area to which committed quantities are assigned is determined  based on the following rules:</p>
+
+<ul>
+  <li>If a default  stock area for sales orders is specified in the <strong>Assign 
+ inventory from</strong> &gt; <strong>Sales</strong><strong>Order</strong> field of the <strong>Workstation</strong><strong>Settings</strong> (path: <strong>File 
+ &gt; Setup &gt; Preferences &gt; Workstation Settings &gt; Stock Areas 
+ &gt; For Sales</strong> tab), the quantities are assigned to this stock  area.</li>
+</ul>
+
+<p>: <img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/work_station_settings_stock_areas_for_sales.html">Workstation  Settings</a></p>
+
+<ul>
+  <li>If no default  stock areas are defined in <strong>Workstation 
+ Settings</strong>, the items are assigned to the stock area defined for  sales orders in the logged in location/sub-location (path: <strong>File 
+ &gt; Setup &gt; Accounting &gt; Location/Sub-Location &gt; Location</strong> profile <strong>&gt; Stock Transfer &gt; Sales Document</strong>  tab). In case of insufficient stock of non-serialized inventoried items  not tracked for lots in the default stock area, <strong>Everest</strong>  automatically searches in other stock areas, at the time of committing  quantities in sales order and invoice. This is done if you have selected  the options to search in other areas in the <strong>Location</strong>  profile (path: <strong>File &gt; Setup &gt; Accounting 
+ &gt; Location/Sub-Location &gt; Location</strong> profile <strong>&gt; Stock transfer</strong> tab <strong>&gt; Miscellaneous</strong>  tab).</li>
+</ul>
+
+<ul class="note">
+  <li>The stock area  to which committed quantities are assigned on a sales order will be the  same for a document, irrespective of the workstation settings or flow  control settings at the time of committing the quantities.</li>
+  <li>The <strong>Stock 
+ Area</strong> field displays in the status bar when you need to select a  stock area. Select a stock area and press the <strong>Enter</strong>  key or <strong>ESC</strong> key to exit this field  and continue.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> You  commit quantities of Item 1 on sales order #1000, and the stock area determined  is ‘Inspection of Customer Shipments’. You save the order and then change  the default stock area for sales orders in the <strong>Workstation 
+ Settings</strong> to ‘Customer Shipments’.</p>
+
+<p>If you reopen order #1000 and commit quantities  of Item 2, the stock area assigned continues to be ‘Inspection of Customer  Shipments’. However, if you commit quantities to a sales order that does  not already have committed items, the stock area used will be ‘Customer  Shipments’.</p>
+
+<p class="warn">Where the inventory control account of the  stock area from which the items are committed is different from the inventory  control account of the stock area to which the items need to be committed,  there is no stock movement  between  these stock areas. Stock is still retained in the ‘From’ stock area till  the Purchase Receipt or Invoice is created. On creating the Sales Invoice,  the stock moves to the ‘Out’ area.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/enter-cmt-qty/entering_committed_quantities.html">Entering  Committed Quantities</a></dd>
+</dl>
+
+
+
+
+</div>

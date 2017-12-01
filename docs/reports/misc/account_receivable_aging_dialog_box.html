@@ -1,0 +1,192 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" x-save-method="compute-relative" src="/versata-everest-docs/reports/misc/ehlpdhtm.js"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<p>If there are only Unposted sales Journals and no receipt journals, then  none of these sales documents appear in the report when the <strong>Posted 
+ Transactions Only</strong> option is selected.</p>
+
+<p>Similarly if there are Unposted sales Journals with corresponding receipt  journals that are still Unposted, then the report will still not display  these sales journals.</p>
+
+<p class="example">Create a sales receipt for $200 but do not  post the corresponding sales journal in <strong>Everest</strong>.  Make a $100 receipt and do not post the receipt journal. If you select  the option <strong>Posted Transactions Only</strong>,  then neither the sales journal nor the receipt journal appears in <strong>Everest</strong>.</p>
+
+<p>If you select the option <strong>Show Payment 
+ Details</strong>, the details of the Unposted receipt transaction are not  displayed.</p>
+
+<p>Where a sales journal is yet to be posted, but the corresponding receipt  journals have been posted, then the report will display the document amount  as zero. In this situation, the document <strong>Paid</strong>  column will show the paid amount from the receipt journal and the document  balance will be displayed as negative since Document Amount (0) - Document  Paid (xxx) = Document Balance (-xxx).</p>
+
+<p class="example">Create a sales receipt for $200 but do not  post the corresponding sales journal in <strong>Everest</strong>.  Make a $100 receipt and post the receipt journal. If you select the option  <strong>Posted Transactions</strong> Only, the  posted receipt journal is displayed but the document amount is zero, the  document paid shows the paid amount ($100) and the document balance is  negative (-$100).</p>
+
+<p>If you select the option <strong>Show Payment 
+ Details</strong>, the details of the posted receipt transaction are displayed.</p>
+
+<p>If there are posted sales journals without any corresponding posted  receipt journals, then the sales journal appears in the report with the  document amount displayed, however the <strong>Paid</strong>  column is zero and the document <strong>Balance</strong>  column displays the document amount (which means the document is still  outstanding).</p>
+
+<p class="example">Create a sales receipt for $200 and post it  in <strong>Everest</strong>. Make a $100 receipt  but do not post the receipt journal. If you select the option <strong>Posted 
+ Transactions Only</strong>, the posted sales journal is displayed with the  document amount as $200.00; the document <strong>Paid</strong>  shows the paid amount as $0.00 (since it is not posted) and the document  balance is $200.00 (the entire amount displayed still outstanding).</p>
+
+<p>If you select the option <strong>Show Payment 
+ Details</strong>, the details of the Receipt transaction are not displayed,  since the receipt transactions are not posted.</p>
+
+<p>If there are posted sales journals and the corresponding receipt journals  have been posted, then the sales journal appears in the report with the  document amount displayed. The document <strong>Paid</strong>  column displays the actual value from the Posted receipt journal and the  document <strong>Balance</strong> column displays  the correct balance that is still outstanding (if any).</p>
+
+<p class="example">Create a sales receipt for $200 and post it  in <strong>Everest</strong>. Make a $100 receipt  and post the receipt journal. If you select the option <strong>Posted 
+ Transactions Only</strong>, the posted receipt journal is displayed, with  the document amount as $200.00; the document <strong>Paid</strong>  column shows the paid amount as $100 and the document <strong>Balance</strong>  is $100 (since only $100.00 is still outstanding).</p>
+
+<p>If you select the option <strong>Show Payment 
+ Details</strong>, the details of the posted receipt transaction are displayed.</p>
+
+<p>If the user has created only manual receipt journals without a corresponding  sales journal and the receipt journal is yet to be posted, you will not  find these receipt journals in this report.</p>
+
+<p class="example">Create only a receipt for $200 but do not  post it in <strong>Everest</strong>. If you select  the option <strong>Posted Transactions Only</strong>,  the posted receipt journal is not displayed.</p>
+
+<p>If the user has created only manual receipt journals without a corresponding  sales journal and the receipt journal has been posted, then these receipt  journals appear in this report and the document amount is shown as zero.  In this situation, the document <strong>Paid</strong>  column will show the paid amount from the receipt journal and the document  balance will be displayed as negative since Document Amount (0) - Document  Paid (xxx) = Document Balance (-xxx).</p>
+
+<p class="example">Create only a receipt for $200 and post it  in <strong>Everest</strong>.  If  you select the option <strong>Posted Transactions 
+ Only</strong>, the posted receipt journal is displayed but the document  amount is zero, the document paid shows the paid amount ($100) and the  document balance is negative (-$100).</p>
+
+<p>If you select the option <strong>Show Payment 
+ Details</strong>, the details of the posted receipt transaction are displayed.</p>
+
+<h1 id="account-receivable-aging-dialog-box">Account Receivable Aging Dialog Box</h1>
+
+<dl>
+  <dt><strong>Group By</strong></dt>
+  <dd>Group the report based on the customer name, code  or balance. The options available in this field are as follows.</dd>
+</dl>
+
+<ul>
+  <li><strong>Account 
+ Name</strong> - Select this option to view the customers by their names  as specified in the <strong>Account Name</strong>  field of the customers’ profiles.</li>
+  <li><strong>Account 
+ Code</strong> - Select this option to view the customers by their codes  as displayed in the <strong>Account Code</strong>  field of the customers’ profiles.</li>
+  <li><strong>Account 
+ Balance</strong> - Select this option to view the customers by their balances.</li>
+</ul>
+
+<dl>
+  <dt><strong>Sort By</strong></dt>
+  <dd>Sort the report by any of the three options:</dd>
+</dl>
+
+<ul>
+  <li><strong>Document 
+ Date</strong> - Select this option to sort the report in the ascending order  of the documents’ dates.</li>
+  <li><strong>Due 
+ Date</strong> - Select this option to sort the report in the ascending order  of the due dates of the documents.</li>
+  <li><strong>Discount 
+ Date</strong> - Select this option to sort the report in the ascending order  of the Discount Date. This option appears only if you select <strong>Show 
+ Document Details</strong> checkbox.</li>
+</ul>
+
+<p class="note">If there is no <strong>Discount Date</strong>  available, <strong>Everest</strong> sorts data  for those records based on Document Date.</p>
+
+<ul>
+  <li><strong>Document 
+ Balance</strong> - Select this option to sort the report in the descending  order of the documents’ balances.</li>
+</ul>
+
+<p class="note">The <strong>Sort By</strong> field is enabled  only when you select the <strong>Show Document 
+ Details</strong> check box.</p>
+
+<dl>
+  <dt><strong>Aging Details</strong></dt>
+  <dd>Specify how you want to arrive at the age of the  outstanding amount. The options available in this field are as follows.</dd>
+</dl>
+
+<ul>
+  <li><strong>Age 
+ using due date</strong> - Select this option if you want to use the payment  due date of the document for arriving at the age of the outstanding amount.</li>
+  <li><strong>Age 
+ using document date</strong> - Select this option if you want to use the  document date for arriving at the age of the outstanding amount.</li>
+  <li><strong>Do 
+ not show aging</strong> - Select this option if you do not want the aging  details based on the document date to be included in the report.</li>
+</ul>
+
+<dl>
+  <dt><strong>Transactions to Include</strong></dt>
+  <dd>Specify whether you want to include all documents  or only posted documents having outstanding amounts in the report. The  options available in this field are as follows.</dd>
+</dl>
+
+<ul>
+  <li><strong>All 
+ Transactions</strong> - Select this option to include both posted and unposted  documents in the report.</li>
+  <li><strong>Posted 
+ Transactions Only</strong> - Select this option to include all posted transactions  irrespective of whether the corresponding documents are posted or not  in the report. There could be several scenarios as follows:</li>
+</ul>
+
+<dl>
+  <dt>: <a href="javascript:kadovTextPopup(this)" id="a1">Scenario 1 - Unposted Sales Journals  and no Receipt Journals</a><script type="text/javascript" language="JavaScript1.2">&lt;!--</script></dt>
+  <dt>kadovTextPopupInit(‘a1’);</dt>
+  <dt>//–&gt;&lt;/script&gt;</dt>
+  <dd><a href="javascript:kadovTextPopup(this)" id="a2">Scenario 2 - Unposted Sales Journals  with Corresponding Unposted Receipt Journals</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a2');
+//--></script></dd>
+  <dd><a href="javascript:kadovTextPopup(this)" id="a3">Scenario 3 - Unposted Sales Journal  with Corresponding Posted Receipt Journal</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a3');
+//--></script></dd>
+  <dd><a href="javascript:kadovTextPopup(this)" id="a4">Scenario 4 - Posted Sales Journals  without Corresponding Posted Receipt Journals</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a4');
+//--></script></dd>
+  <dd><a href="javascript:kadovTextPopup(this)" id="a5">Scenario 5 - Posted Sales Journals  with Corresponding Posted Receipt Journals</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a5');
+//--></script></dd>
+  <dd><a href="javascript:kadovTextPopup(this)" id="a6">Scenario 6 - Only Manual Unposted  Receipt Journals without a Corresponding Sales Journal</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a6');
+//--></script></dd>
+  <dd><a href="javascript:kadovTextPopup(this)" id="a7">Scenario 7 - Only Manual Posted  Receipt Journals without a Corresponding Sales Journal</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a7');
+//--></script></dd>
+  <dt><strong>As of Date</strong></dt>
+  <dd>Specify the date as on which the aging details are  displayed in the report. Depending on the date selected, only posted documents  (payment entries and sales journals) are included in the report. Select  the date on which the documents were created.</dd>
+  <dt>Currency</dt>
+  <dd>You can choose whether to view the information in  base currency or the currencies used by your customers.</dd>
+</dl>
+
+<ul>
+  <li><strong>Base 
+ Currency</strong> - This is the default; the report information displays  in your base currency.</li>
+  <li><strong>Customer 
+ Currency</strong> - The report information displays in the currencies of  your customers if different from your own base currency. Each line item  indicates the currency code in use by that customer.</li>
+</ul>
+
+<p>Options</p>
+
+<dl>
+  <dt><strong>Show Document Details</strong></dt>
+  <dd>Select this check box if you want to display details  of documents with balances outstanding for each customer. The report displays  details of all document types such as sales orders, sales invoices, credit  orders and credit memos including manual documents. All amounts are displayed  in the base currency.</dd>
+  <dd>If this check box is not selected, the report displays  only the sum of the outstanding amounts for each customer.</dd>
+  <dt><strong>Show Payment Details</strong></dt>
+  <dd>Select this check box if you want to display receipt  details made against each document created for the customer.</dd>
+</dl>
+
+<p class="note">When both <strong>Show Document Details</strong> and  <strong>Show Payment Details</strong> options are  selected, then for each outstanding document, payment details are displayed.  The <strong>Show Payment Details</strong> check  box is enabled only when the <strong>Show Document 
+ Details</strong> check box is selected. The payment details are sorted by  payment date, in ascending order. Credit card numbers are displayed as  ‘xxxx <last four="" digits="" of="" the="" card="">’.</last></p>
+
+<dl>
+  <dt><strong>Exclude Credit Memos</strong></dt>
+  <dd>Select this check box if you do not want to display  credit memos created for the customers in the report.</dd>
+  <dt><strong>Exclude Advances</strong></dt>
+  <dd>Select this check box to exclude advances received  against sales orders or credit orders to be considered for aging calculation  in the report.</dd>
+  <dd>Sales orders are displayed only if any advances  have been received against them. The <strong>Paid</strong>  column in the report output displays the amount received. The <strong>Balance</strong>  column displays the received amount as a negative value. When the balance  amounts are summed up for the customer, then the advance amounts received  against sales orders are subtracted from the overall balance amount.</dd>
+  <dd>The age is determined using the current date and  the date on which the payment has been received. In case of multiple receipts  against the same sales order, then all amounts falling in the same time  bucket are summed and displayed in the respective time bucket as a negative  amount.</dd>
+  <dt><strong><img src="/versata-everest-docs/reports/img/advanced options button.gif" alt="" /> <a href="/versata-everest-docs/reports/misc/advanced_options_account_receivable_aging_dialog.html">Advanced  Options</a></strong></dt>
+  <dd>You can view the advance options by clicking the  toggle button. Click the advanced button again to hide the <strong>Advanced 
+ Options.</strong></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/invoicing/account_receivable_aging_rep.html">Accounts  Receivable Aging</a></dd>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/invoicing/invoicing.html">Invoicing</a></dd>
+</dl>
+
+
+
+
+</div>

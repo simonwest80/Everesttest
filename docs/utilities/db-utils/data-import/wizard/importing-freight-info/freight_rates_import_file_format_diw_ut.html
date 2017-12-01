@@ -1,0 +1,41 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="freight-rates-import-file-format">Freight Rates Import File Format</h1>
+
+<p>Before a freight rates file can be imported into <strong>Everest</strong>,  it must be adjusted to an acceptable format. Freight zones must be imported  before freight rates can be imported.</p>
+
+<p>Freight Rates import files must be imported based on document weight.  The freight rate import file must contain weight and zone columns. Type  and zone columns can optionally be included.</p>
+
+<dl>
+  <dt><strong>Weight Column</strong></dt>
+  <dd>The freight rates import file must include a weight  column for the document weights specified by the carrier.</dd>
+  <dt><strong>Type Column (Optional)</strong></dt>
+  <dd>The <strong>Type</strong>  column is an optional column for freight rate type. You can include a  <strong>Type</strong> column corresponding to a  flat rate, a per unit rate, or a per hundred unit weight. Valid values  are integers 1-3:</dd>
+  <dd><strong>1</strong> - Rate  Per Unit</dd>
+  <dd><strong>2</strong> - Flat  Rate</dd>
+  <dd><strong>3</strong> - Per  Hundred Weight</dd>
+  <dd>If this column is not included, the default <strong>Type</strong> will be <strong>2</strong>  - Flat Rate.</dd>
+  <dt><strong>Measure Column (Optional)</strong></dt>
+  <dd>You can also include a <strong>Measure</strong>  column for the weight. If this column is not included, the default <strong>Measure</strong> will be pounds (LB).</dd>
+  <dt><strong>Zone(s) Column(s)</strong></dt>
+  <dd>The freight rates import file must include a column  for each zone that you want to populate with rates. Not all zones for  the carrier have to be included.</dd>
+  <dt><strong>Other File Information</strong></dt>
+  <dd>Files may include column header information at the  top but no additional information can be included at the top or bottom  of the file. A sample of an acceptable file format is shown below.</dd>
+  <dd><img src="/versata-everest-docs/utilities/img/acceptable_freight_rates_import_file_sample_ut.gif" alt="" /></dd>
+</dl>
+
+<p><strong>Acceptable Freight Rates Import File Sample</strong></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/db-utils/data-import/wizard/importing-freight-info/importing_freight_rates_data_import_wizard_ut.html">Importing  Freight Rates</a></dd>
+</dl>
+
+
+
+
+</div>

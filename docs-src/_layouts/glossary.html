@@ -1,0 +1,21 @@
+﻿{% if site.is_chm %}
+    <!DOCTYPE html>
+    <html lang="en-us">
+    <head>
+        <title>{{ page.title | default: site.title }}</title>
+        <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+        <link rel="StyleSheet" href="{{site.wwe_baseurl}}/misc/robohtml.css">
+        <script language="JavaScript" title="BSSC Special Effects" src="{{site.wwe_baseurl}}/misc/ehlpdhtm.js"></script>
+    </head>
+    {{ content }}
+    </html>
+{% else %}
+    <script type="text/javascript" data-sys="1">
+        sessionStorage.redirect = location.href;
+        window.location = "{{site.baseurl}}/";
+    </script>
+    <div class="content">
+        {{content}}
+    </div>
+{% endif %}
+

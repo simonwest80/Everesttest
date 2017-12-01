@@ -1,0 +1,710 @@
+[OPTIONS]
+Title=Contact Manager
+Contents file=contact-manager.hhc
+Index file=contact-manager.hhk
+Full-text search=Yes
+
+[FILES]
+contact_manager.html
+the_everest_contact_manager.html
+using_the_everest_contact_manager.html
+methods-of-access\methods_of_access_1.html
+tasks\tasks.html
+tasks\task-details\the_task_profile.html
+tasks\task-details\task_information.html
+tasks\task-details\task_details.html
+tasks\task-details\multimedia_information.html
+tasks\create-a-task\creating_a_task.html
+tasks\create-a-task\the-task-profile\the_task_profile_steps.html
+tasks\create-a-task\the-task-profile\the_task_profile_task.html
+tasks\create-a-task\the-task-profile\the_task_profile_details.html
+tasks\create-a-task\the-task-profile\the_task_profile_multimedia.html
+tasks\create-a-task\the-task-profile\the_tasks_profile_-_custom_fields_tab.html
+tasks\discontinue-a-task\deleting_a_task.html
+tasks\modify-a-task\modifying_task.html
+tasks\incoming-call\incoming_call.html
+tasks\incoming-call\create_an_incoming_call.html
+tasks\incoming-call\the_incoming_call_profile_cm.html
+tasks\incoming-call\the_incoming_call_profile_task.html
+tasks\incoming-call\the_incoming_call_profile_details.html
+tasks\incoming-call\the_incoming_call_profile_multimedia.html
+tasks\incoming-call\discontinue_an_incoming_call.html
+tasks\outgoing-call\outgoing_call.html
+tasks\outgoing-call\create_an_outgoing_call.html
+tasks\outgoing-call\the_outgoing_call_profile.html
+tasks\outgoing-call\the_outgoing_call_profile_task.html
+tasks\outgoing-call\the_outgoing_call_profile_details.html
+tasks\outgoing-call\the_outgoing_call_profile_multimedia.html
+tasks\outgoing-call\discontinue_an_outgoing_call.html
+tasks\general-notes\general_notes.html
+tasks\general-notes\create_a_general_note.html
+tasks\general-notes\the_general_notes_profile.html
+tasks\general-notes\the_general_notes_profile_task.html
+tasks\general-notes\the_general_notes_profile_details.html
+tasks\general-notes\the_general_notes_profile_multimedia.html
+tasks\general-notes\discontinue_a_general_note.html
+tasks\task-profile-options\task_profile_options.html
+tasks\task-profile-options\complete\task_profile_option_-_complete.html
+tasks\task-profile-options\complete-and-followup\task_profile_option_-_complete_and_followup.html
+tasks\task-profile-options\print\task_profile_option_print.html
+tasks\task-profile-options\multimedia\task_profile_option_-_multimedia.html
+tasks\task-profile-options\custom-fields\task_profile_options_-_custom_fields.html
+tasks\task-profile-options\sales-opportunity\task_profile_options_sales_opportunity.html
+appointments\appointment.html
+appointments\appointment-details\the_appointment_profile.html
+appointments\appointment-details\appointment_information.html
+appointments\appointment-details\appointment_details.html
+appointments\appointment-details\multimedia_information_appointment.html
+appointments\create-an-appointment\creating_an_appointment.html
+appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_steps.html
+appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_appointment.html
+appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_details.html
+appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_multimedia.html
+appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_-_custom_fields_tab.html
+appointments\cancel-an-appointment\cancelling_an_appointment.html
+appointments\modify-an-appointment\modifying_appointment.html
+appointments\appointment-profile-options\task_appointment_profile_options.html
+appointments\appointment-profile-options\multimedia\multimedia.html
+appointments\appointment-profile-options\custom-fields\custom_fields.html
+appointments\appointment-profile-options\print\appointment_profile_options_print.html
+appointments\appointment-profile-options\sales-opportunity\sales_opportunities.html
+appointments\differences-between-tasks-and-appointments\differences_between_a_task_and_an_appointment.html
+appointments\link-tasks-and-appointments\linking_tasks_and_appointments.html
+appointments\link-tasks-and-appointments\view-a-linked-task-and-appointment\viewing_linked_tasks_and_appointments.html
+appointments\set-task-status\setting_task_appointment_status.html
+reminders-tasks-appointments\setting_reminders.html
+reminders-tasks-appointments\the-reminder-dialog-box\the_reminder_dialog_box.html
+view-tasks-appointments\viewing_tasks.html
+view-tasks-appointments\the_all_tasks_browser.html
+view-tasks-appointments\the_my_tasks_browser.html
+view-tasks-appointments\the_my_appointments_browser.html
+view-tasks-appointments\the_all_appointments_browser.html
+view-tasks-appointments\task_details_section.html
+view-tasks-appointments\printing_task_reports.html
+view-tasks-appointments\calendar-view-profile\contact_manager_profile_steps.html
+view-tasks-appointments\calendar-view-profile\left-panel\the_left_panel_-_contact_manager_profile.html
+view-tasks-appointments\calendar-view-profile\left-panel\the_left_panel_user.html
+view-tasks-appointments\calendar-view-profile\left-panel\the_left_panel_customer.html
+view-tasks-appointments\calendar-view-profile\left-panel\the_left_panel_vendor.html
+view-tasks-appointments\calendar-view-profile\left-panel\the_left_panel_document_wide.html
+view-tasks-appointments\calendar-view-profile\right-panel\the_right_panel_-_contact_manager_profile.html
+view-tasks-appointments\calendar-view-profile\right-panel\upper-section\right_panel_upper_section.html
+view-tasks-appointments\calendar-view-profile\right-panel\lower-section\right_panel_lower_section.html
+view-tasks-appointments\calendar-view-profile\right-panel\lower-section\lower_section_of_the_right_panel_-_schedular.html
+view-tasks-appointments\calendar-view-profile\right-panel\lower-section\lower_section_of_the_right_panel_calendar.html
+view-tasks-appointments\calendar-view-profile\right-panel\lower-section\lower_section_of_the_right_panel_task_pad.html
+view-tasks-appointments\calendar-view-profile-options\contact_manager_profile_options.html
+customize-contact-manager\customizing_the_contact_manager.html
+customize-contact-manager\calendar-options-dialog-box\contact_manager_options_profile.html
+contact-manager-reports\contact_manager_reports_cm.html
+find-tasks-appointments\find_tasks_appointments.html
+find-tasks-appointments\quick_find_find_tasks_appointments.html
+find-tasks-appointments\more_choices_find_task_appointment.html
+find-tasks-appointments\document_account.html
+find-tasks-appointments\custom_field.html
+find-tasks-appointments\advanced_find.html
+find-tasks-appointments\query_find_task_appointment.html
+find-tasks-appointments\create-new-filter\create_a_new_filter_cm.html
+find-tasks-appointments\create-new-filter\find-task-appointment-dlg\the_find_task_appointment_dialog_box.html
+find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_quick_find.html
+find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_more_choices.html
+find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_document_account.html
+find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_custom_field.html
+find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_advanced_find.html
+find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_query.html
+misc\the_all_tasks_browser_options.html
+misc\the_all_tasks_browser_view.html
+misc\all_tasks_browser_details_section.html
+misc\contact_manager_profile_options_decrease_duration.html
+misc\contact_manager_profile_options_go_to_date.html
+misc\contact_manager_profile_options_go_to_today.html
+misc\contact_manager_profile_options_increase_duration.html
+misc\contact_manager_profile_options_-_multimedia.html
+misc\contact_manager_profile_options_new.html
+misc\contact_manager_profile_options_preferences.html
+misc\contact_manager_profile_options_print.html
+misc\contact_manager_profile_options_resource.html
+misc\filter_options.html
+misc\the_my_tasks_view.html
+misc\the_my_tasks_browser_options.html
+misc\task_details_section_details.html
+misc\purchase_document.html
+misc\purchase_document_type.html
+misc\sales_document_type.html
+misc\sales_documents.html
+misc\task_details_section_custom_fields.html
+misc\task_details_section_link_tasks.html
+misc\task_history_browser.html
+misc\the_task_profile_-_details_tab_-_account_details_section.html
+misc\the_task_profile_-_details_tab_-_document_details_section.html
+misc\account_find_task_app_cm.html
+misc\account_type_find_task_app_cm.html
+img\all_tasks_browser_-_task_details_section.gif
+misc\appointment_history_browser.html
+misc\assigned_users_find_task_app_cm.html
+misc\bullet.gif
+img\cm_alram.gif
+img\cm_attach_button.gif
+img\cm_browse_button.gif
+img\cm_browse_button1.gif
+img\cm_cust_icon.gif
+img\cm_cust_track_button.gif
+img\cm_cust_vend_prof_icon.gif
+img\cm_cust_vend_track_button.gif
+img\cm_cust_vend_track_button1.gif
+img\cm_doc_track_icon.gif
+img\cm_doc_vide_icon.gif
+img\cm_drop_down_button.gif
+img\cm_lookup_button.gif
+img\cm_multiple_user_selection_icon.gif
+img\cm_note_icon.gif
+img\cm_outgoing_call_button.gif
+img\cm_printer_icon.gif
+img\cm_sales_opp_button.gif
+img\cm_save_icon.gif
+img\cm_set_links_icon.gif
+img\cm_user_icon.gif
+img\cm_vend_icon.gif
+img\cm_view_document.gif
+img\cm_view_links_icon.gif
+misc\e-mail_find_task_app_cm.html
+misc\ehlpdhtm.js
+img\example.gif
+misc\filter_on.html
+img\kanadi.gif
+img\lens.gif
+img\mi_browse_icon.gif
+misc\my_task_history_browser.html
+img\note.gif
+misc\notes_find_task_app_cm.html
+img\preview icon.bmp
+misc\robohtml.css
+misc\set_links_for__tasks_appointments__browser.html
+img\steps.gif
+misc\subject_find_task_app_cm.html
+misc\task_pad.html
+misc\the_filter_name_1.html
+misc\the_linked_appointments_task_browser.html
+misc\vendor_account.html
+misc\view_discontinued_appointments_browser.html
+misc\view_discontinued_tasks_browser.html
+misc\web_page_address_find_task_app_cm.html
+misc\zzaccount_type_tasks.html
+misc\zzclick_snooze_to_be_reminded_again_reminder_dialog_box_.html
+misc\zzcontact_manager_-_print_dialog_box_format.html
+misc\zzdismiss_reminder_dialog_box_.html
+misc\zznumber_of_records_to_retrieve_-_display_field_cm.html
+misc\zzopen_item_reminder_dialog_box_.html
+misc\zzprompt_user_if_any_appointment_conflicts_with_an_existing_appointment_tasks.html
+misc\zzset_reminder_task.html
+misc\zzshow_appointments_task_query.html
+misc\zzshow_tasks_task_query.html
+misc\zzsnooze_reminder_dialog_box_.html
+misc\zztimenew_appointment_profile.html
+misc\zzweb_page_address_tasks.html
+misc\zz_account_code_appointment_profile.html
+misc\zz_account_code_task_profile.html
+misc\zz_account_find_tasks_appointments_profile.html
+misc\zz_account_type_appointment_profile.html
+misc\zz_account_type_find_tasks_appointments_profile.html
+misc\zz_account_type_task_profile.html
+misc\zz_address_app_profile_details_tab_cm.html
+misc\zz_address_task_profile_details_tab_cm.html
+misc\zz_advanced_find_find_tasks_appointments_profile.html
+misc\zz_alias_details_tab_app_profile_cm.html
+misc\zz_alias_details_tab_task_profile_cm.html
+misc\zz_appointments_find_tasks_appointments_profile.html
+misc\zz_appointment_details_tab_id.html
+misc\zz_assigned_users_find_tasks_appointments_profile.html
+misc\zz_calendar_contact_manager_profile.html
+misc\zz_calendar_view.html
+misc\zz_calendar_work_week.html
+misc\zz_completed_find_tasks_appointments_profile.html
+misc\zz_completed_task_color.html
+misc\zz_completed_task_color_contact_manager_option.html
+misc\zz_complete_task_profile.html
+misc\zz_contact_address_app_profile_details_tab_cm.html
+misc\zz_contact_address_task_profile_details_tab_cm.html
+misc\zz_contact_code_appointment_profile.html
+misc\zz_contact_code_task_profile.html
+misc\zz_contact_e-mail_app_profile_details_tab_cm.html
+misc\zz_contact_manager_-_print_dialog_box_layout.html
+misc\zz_contact_manager_-_print_dialog_box_printer.html
+misc\zz_contact_web_page_address_app_profile_details_tab_cm.html
+misc\zz_created_end_date_fidn_task_app_quick_find_tab_cm.html
+misc\zz_created_start_date_find_task_app_quick_find_tab_cm.html
+misc\zz_create_date_find_tasks_appointments_profile.html
+misc\zz_customer.html
+misc\zz_customer_account.html
+misc\zz_customer_account_type.html
+misc\zz_customer_code.html
+misc\zz_customer_name.html
+misc\zz_custom_fields_find_tasks_appointments_profile.html
+misc\zz_custom_field_find_task_appointment_profile.html
+misc\zz_daily_contact_manager_profile.html
+misc\zz_daily_monthly_contact_manager_profile.html
+misc\zz_day_view.html
+misc\zz_display_appointments_tasks_for.html
+misc\zz_document_account_find_task_appointments_profile.html
+misc\zz_document_appointment_profile.html
+misc\zz_document_code_contact_manager_profile.html
+misc\zz_document_find_tasks_appointments_profile.html
+misc\zz_document_task_profile.html
+misc\zz_document_type_appointment_profile.html
+misc\zz_document_type_contact_manager_profile.html
+misc\zz_document_type_find_tasks_appointment_profile.html
+misc\zz_document_type_task_profile.html
+misc\zz_document_wide_document.html
+misc\zz_document_wide_document_alias.html
+misc\zz_document_wide_document_type.html
+misc\zz_due_date_1_find_tasks_app_more_choices_cm.html
+misc\zz_due_date_2_find_tasks_app_more_choices_cm.html
+misc\zz_due_date_find_tasks_appointments_profile.html
+misc\zz_due_date_task_profile.html
+misc\zz_due_time_1_find_tasks_app_more_choices_cm.html
+misc\zz_due_time_2_find_tasks_app_more_choices_cm.html
+misc\zz_due_time_task_profile.html
+misc\zz_e-mail_app_profile_details_tab.html
+misc\zz_e-mail_contact_code_task_profile.html
+misc\zz_end_date_appointment_profile.html
+misc\zz_end_time_appointment_profile.html
+misc\zz_end_time_contact_manager_option.html
+misc\zz_e_mail.html
+misc\zz_e_mail_find_tasks_appointments_profile.html
+misc\zz_filter_appointments_tasks_contact_manager_profile.html
+misc\zz_filter_on.html
+misc\zz_filter_options_contact_manager_profile.html
+misc\zz_find_tasks_appointments_form_help.html
+misc\zz_from_date_contact_manager_profile.html
+misc\zz_from_date_to_date_contact_manager.html
+misc\zz_from_date_to_date_contact_manager_profile.html
+misc\zz_intervals_for_a_day.html
+misc\zz_intervals_for_a_day_contact_manager_options.html
+misc\zz_mark_completed.html
+misc\zz_mark_completed_and_follow_up.html
+misc\zz_monthly_contact_manager_profile.html
+misc\zz_more_choices_find_task_appointment_profile.html
+misc\zz_non_working_day_color.html
+misc\zz_non_working_day_color_contact_manager_option.html
+misc\zz_non_working_hours_color.html
+misc\zz_non_working_hours_color_contact_manager_option.html
+misc\zz_notes_appointment_profile.html
+misc\zz_notes_find_tasks_appointments_profile.html
+misc\zz_notes_task_profile.html
+misc\zz_number_of_records_to_retrieve_find_tasks_appointments_profile.html
+misc\zz_pending_find_tasks_appointments_profile.html
+misc\zz_preview_color_for_appointments.html
+misc\zz_preview_color_for_appointments_contact_manager_option.html
+misc\zz_preview_color_of_the_task.html
+misc\zz_preview_color_of_the_task_contact_manager_option.html
+misc\zz_priority.html
+misc\zz_priority_task_profile.html
+misc\zz_prompt_user_if_any_appointment_conflicts_with_an_existing_appointment.html
+misc\zz_query_find_tasks_appointments_profile.html
+misc\zz_quick_find_find_tasks_appointments_profile.html
+misc\zz_reminder_set_find_tasks_appointments_profile.html
+misc\zz_remind_date.html
+misc\zz_remind_date_1_find_tasks_app_more_choices_cm.html
+misc\zz_remind_date_2_find_tasks_app_more_choices_cm.html
+misc\zz_remind_date_find_tasks_appointments_profile.html
+misc\zz_remind_time.html
+misc\zz_remind_time_1_find_tasks_app_more_choices_cm.html
+misc\zz_remind_time_2_find_tasks_app_more_choices_cm.html
+misc\zz_sales_documents_find_task_appointment.html
+misc\zz_sales_document_type_find_task_appointment.html
+misc\zz_scheduler_contact_manager_profile.html
+misc\zz_set_reminder_appointment_profile.html
+misc\zz_set_reminder_task_profile.html
+misc\zz_show_appointments.html
+misc\zz_show_appointments_contact_manager_profile.html
+misc\zz_show_tasks.html
+misc\zz_show_tasks_contact_manager_profile.html
+misc\zz_start_date_1_find_tasks_app_more_choices_cm.html
+misc\zz_start_date_2_find_tasks_app_more_choices_cm.html
+misc\zz_start_date_appointment_profile.html
+misc\zz_start_date_find_tasks_appointments_profile.html
+misc\zz_start_date_task_profile.html
+misc\zz_start_time_1_find_tasks_app_more_choices_cm.html
+misc\zz_start_time_2_find_tasks_app_more_choices_cm.html
+misc\zz_start_time_appointment_profile.html
+misc\zz_start_time_contact_manager_options.html
+misc\zz_start_time_end_time.html
+misc\zz_start_time_task_profile.html
+misc\zz_status_task_profile.html
+misc\zz_subject_appointment_profile.html
+misc\zz_subject_find_tasks_appointments_profile.html
+misc\zz_subject_task_profile.html
+misc\zz_sunday_contact_manager_option.html
+misc\zz_tasks_1_find_tasks_appointments_profile.html
+misc\zz_task_appointment_information_contact_manager_profile.html
+misc\zz_task_details_tab_id.html
+misc\zz_task_pad_contact_manager_profile.html
+misc\zz_task_tab_id.html
+misc\zz_the_first_day_of_the_week.html
+misc\zz_the_first_day_of_the_week_contact_manager_option.html
+misc\zz_to_date_contact_manager_profile.html
+misc\zz_user_1.html
+misc\zz_user_code.html
+misc\zz_user_s_appointment_profile.html
+misc\zz_user_s_task_profile.html
+misc\zz_vendor_account_type.html
+misc\zz_vendor_cm.html
+misc\zz_vendor_code.html
+misc\zz_vendor_name.html
+misc\zz_viewing_pending_task_user_form_help_id.html
+misc\zz_web_page_address.html
+misc\zz_web_page_address_app_profile_details_tab_cm.html
+misc\zz_web_page_address_find_tasks_appointments_profile.html
+misc\zz_weekly_contact_manager_profile.html
+misc\zz_week_view.html
+misc\zz_working_day_color.html
+misc\zz_working_day_color_contact_manager_option.html
+misc\zz_working_hours_color.html
+misc\zz_working_hours_color_contact_manager_option.html
+[ALIAS]
+helpid_4001=misc\zz_subject_task_profile.html
+helpid_4002=misc\zz_user_s_task_profile.html
+helpid_4003=misc\zz_start_date_task_profile.html
+helpid_4004=misc\zz_start_time_task_profile.html
+helpid_4007=misc\zz_set_reminder_task_profile.html
+helpid_4005=misc\zz_due_date_task_profile.html
+helpid_4006=misc\zz_due_time_task_profile.html
+helpid_4010=misc\zz_document_type_task_profile.html
+helpid_4011=misc\zz_document_task_profile.html
+helpid_4012=misc\zz_account_type_task_profile.html
+helpid_4013=misc\zz_account_code_task_profile.html
+helpid_4014=misc\zz_contact_code_task_profile.html
+helpid_4027=misc\zz_appointments_find_tasks_appointments_profile.html
+helpid_4028=misc\zz_tasks_1_find_tasks_appointments_profile.html
+helpid_4029=misc\zz_reminder_set_find_tasks_appointments_profile.html
+helpid_4030=misc\zz_pending_find_tasks_appointments_profile.html
+helpid_4031=misc\zz_completed_find_tasks_appointments_profile.html
+helpid_4032=misc\zz_assigned_users_find_tasks_appointments_profile.html
+helpid_4033=misc\zz_subject_find_tasks_appointments_profile.html
+helpid_4034=misc\zz_create_date_find_tasks_appointments_profile.html
+helpid_4035=misc\zz_number_of_records_to_retrieve_find_tasks_appointments_profile.html
+helpid_4037=misc\zz_start_date_find_tasks_appointments_profile.html
+helpid_4038=misc\zz_due_date_find_tasks_appointments_profile.html
+helpid_4039=misc\zz_remind_date_find_tasks_appointments_profile.html
+helpid_4040=misc\zz_notes_find_tasks_appointments_profile.html
+helpid_4044=misc\zz_account_type_find_tasks_appointments_profile.html
+helpid_4046=misc\zz_e_mail_find_tasks_appointments_profile.html
+helpid_4047=misc\zz_web_page_address_find_tasks_appointments_profile.html
+helpid_4057=misc\zz_subject_appointment_profile.html
+helpid_4058=misc\zz_user_s_appointment_profile.html
+helpid_4059=misc\zz_start_date_appointment_profile.html
+helpid_4060=misc\zz_start_time_appointment_profile.html
+helpid_4061=misc\zz_end_date_appointment_profile.html
+helpid_4062=misc\zz_end_time_appointment_profile.html
+helpid_4063=misc\zz_set_reminder_appointment_profile.html
+helpid_4064=misc\zz_notes_appointment_profile.html
+helpid_4066=misc\zz_document_type_appointment_profile.html
+helpid_4067=misc\zz_document_appointment_profile.html
+helpid_4068=misc\zz_account_type_appointment_profile.html
+helpid_4069=misc\zz_account_code_appointment_profile.html
+helpid_4070=misc\zz_contact_code_appointment_profile.html
+helpid_4114=misc\zz_sunday_contact_manager_option.html
+helpid_4121=misc\zz_the_first_day_of_the_week_contact_manager_option.html
+helpid_4122=misc\zz_intervals_for_a_day_contact_manager_options.html
+helpid_4123=misc\zz_start_time_contact_manager_options.html
+helpid_4124=misc\zz_end_time_contact_manager_option.html
+helpid_4131=misc\zz_preview_color_for_appointments_contact_manager_option.html
+helpid_4130=misc\zz_preview_color_of_the_task_contact_manager_option.html
+helpid_4129=misc\zz_completed_task_color_contact_manager_option.html
+helpid_4128=misc\zz_non_working_day_color_contact_manager_option.html
+helpid_4127=misc\zz_working_day_color_contact_manager_option.html
+helpid_4126=misc\zz_non_working_hours_color_contact_manager_option.html
+helpid_4125=misc\zz_working_hours_color_contact_manager_option.html
+helpid_4082=misc\zz_document_type_contact_manager_profile.html
+helpid_4083=misc\zz_document_code_contact_manager_profile.html
+helpid_4099=misc\zz_show_tasks_contact_manager_profile.html
+helpid_4098=misc\zz_show_appointments_contact_manager_profile.html
+helpid_4100=misc\zz_filter_options_contact_manager_profile.html
+helpid_4101=misc\zz_from_date_contact_manager_profile.html
+helpid_4102=misc\zz_to_date_contact_manager_profile.html
+helpid_4103=misc\zz_task_appointment_information_contact_manager_profile.html
+helpid_4084=misc\zz_daily_contact_manager_profile.html
+helpid_4085=misc\zz_scheduler_contact_manager_profile.html
+helpid_4090=misc\zz_task_pad_contact_manager_profile.html
+helpid_4086=misc\zz_calendar_contact_manager_profile.html
+helpid_4091=misc\zz_daily_monthly_contact_manager_profile.html
+helpid_4094=misc\zz_weekly_contact_manager_profile.html
+helpid_4096=misc\zz_monthly_contact_manager_profile.html
+helpid_4097=misc\zz_filter_appointments_tasks_contact_manager_profile.html
+helpid_4088=misc\zz_from_date_to_date_contact_manager_profile.html
+helpid_4089=misc\zz_from_date_to_date_contact_manager.html
+helpid_4045=misc\zz_account_find_tasks_appointments_profile.html
+helpid_4049=misc\zz_custom_fields_find_tasks_appointments_profile.html
+helpid_4015=misc\zz_remind_date.html
+helpid_4016=misc\zz_remind_time.html
+helpid_4019=misc\zz_e_mail.html
+helpid_4022=misc\zz_web_page_address.html
+helpid_4092=misc\zz_day_view.html
+helpid_4093=misc\zz_calendar_view.html
+helpid_4095=misc\zz_week_view.html
+helpid_4104=misc\filter_on.html
+helpid_4009=tasks\create-a-task\the-task-profile\the_task_profile_details.html
+helpid_4048=find-tasks-appointments\custom_field.html
+helpid_4054=find-tasks-appointments\advanced_find.html
+helpid_4065=appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_details.html
+helpid_4020=misc\zzweb_page_address_tasks.html
+helpid_4132=misc\zzprompt_user_if_any_appointment_conflicts_with_an_existing_appointment_tasks.html
+helpid_4157=misc\zz_filter_on.html
+helpid_4055=find-tasks-appointments\query_find_task_appointment.html
+helpid_4025=find-tasks-appointments\find_tasks_appointments.html
+helpid_4023=misc\zz_mark_completed.html
+helpid_4024=misc\zz_mark_completed_and_follow_up.html
+helpid_4021=misc\zz_e-mail_contact_code_task_profile.html
+helpid_4026=find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_quick_find.html
+helpid_4036=find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_more_choices.html
+helpid_4041=find-tasks-appointments\create-new-filter\find-task-appointment-dlg\find_task_appointment_document_account.html
+helpid_4321=misc\zz_display_appointments_tasks_for.html
+helpid_4376=misc\zzdismiss_reminder_dialog_box_.html
+helpid_4377=misc\zzsnooze_reminder_dialog_box_.html
+helpid_4378=misc\zzopen_item_reminder_dialog_box_.html
+helpid_4379=misc\zzclick_snooze_to_be_reminded_again_reminder_dialog_box_.html
+helpid_4375=reminders-tasks-appointments\the-reminder-dialog-box\the_reminder_dialog_box.html
+helpid_4325=misc\zz_document_wide_document_type.html
+helpid_4326=misc\zz_document_wide_document.html
+helpid_4327=misc\zz_document_wide_document_alias.html
+helpid_4330=misc\zz_vendor_name.html
+helpid_4329=misc\vendor_account.html
+helpid_4328=misc\zz_vendor_account_type.html
+helpid_4322=misc\zz_customer_account_type.html
+helpid_4323=misc\zz_customer_account.html
+helpid_4324=misc\zz_customer_name.html
+helpid_4266=misc\zz_priority_task_profile.html
+helpid_4267=misc\zz_complete_task_profile.html
+helpid_4531=misc\zzcontact_manager_-_print_dialog_box_format.html
+helpid_4532=misc\zz_contact_manager_-_print_dialog_box_layout.html
+helpid_4533=misc\zz_contact_manager_-_print_dialog_box_printer.html
+helpid_4530=misc\contact_manager_profile_options_print.html
+helpid_4265=misc\zz_status_task_profile.html
+helpid_4650=tasks\outgoing-call\the_outgoing_call_profile.html
+helpid_4700=tasks\general-notes\the_general_notes_profile.html
+helpid_4710=misc\zz_document_type_find_tasks_appointment_profile.html
+helpid_4711=misc\zz_document_find_tasks_appointments_profile.html
+helpid_4712=misc\zz_sales_document_type_find_task_appointment.html
+helpid_4713=misc\zz_sales_documents_find_task_appointment.html
+helpid_4480=view-tasks-appointments\the_all_tasks_browser.html
+helpid_4430=view-tasks-appointments\the_my_tasks_browser.html
+helpid_4073=misc\zztimenew_appointment_profile.html
+helpid_4320=view-tasks-appointments\calendar-view-profile\contact_manager_profile_steps.html
+helpid_4600=tasks\incoming-call\the_incoming_call_profile_cm.html
+helpid_4000=tasks\create-a-task\the-task-profile\the_task_profile_steps.html
+helpid_4750=misc\task_history_browser.html
+helpid_4760=misc\my_task_history_browser.html
+helpid_4770=misc\appointment_history_browser.html
+helpid_4017=misc\zz_address_task_profile_details_tab_cm.html
+helpid_4018=misc\zz_contact_address_task_profile_details_tab_cm.html
+helpid_4075=misc\zz_address_app_profile_details_tab_cm.html
+helpid_4076=misc\zz_e-mail_app_profile_details_tab.html
+helpid_4077=misc\zz_web_page_address_app_profile_details_tab_cm.html
+helpid_4078=misc\zz_contact_address_app_profile_details_tab_cm.html
+helpid_4079=misc\zz_contact_e-mail_app_profile_details_tab_cm.html
+helpid_4080=misc\zz_contact_web_page_address_app_profile_details_tab_cm.html
+helpid_4781=misc\zz_created_start_date_find_task_app_quick_find_tab_cm.html
+helpid_4782=misc\zz_created_end_date_fidn_task_app_quick_find_tab_cm.html
+helpid_4783=misc\zznumber_of_records_to_retrieve_-_display_field_cm.html
+helpid_4784=misc\zz_start_date_1_find_tasks_app_more_choices_cm.html
+helpid_4785=misc\zz_start_date_2_find_tasks_app_more_choices_cm.html
+helpid_4786=misc\zz_start_time_1_find_tasks_app_more_choices_cm.html
+helpid_4787=misc\zz_start_time_2_find_tasks_app_more_choices_cm.html
+helpid_4788=misc\zz_due_date_1_find_tasks_app_more_choices_cm.html
+helpid_4789=misc\zz_due_date_2_find_tasks_app_more_choices_cm.html
+helpid_4790=misc\zz_due_time_1_find_tasks_app_more_choices_cm.html
+helpid_4791=misc\zz_due_time_2_find_tasks_app_more_choices_cm.html
+helpid_4792=misc\zz_remind_date_1_find_tasks_app_more_choices_cm.html
+helpid_4793=misc\zz_remind_date_2_find_tasks_app_more_choices_cm.html
+helpid_4794=misc\zz_remind_time_1_find_tasks_app_more_choices_cm.html
+helpid_4795=misc\zz_remind_time_2_find_tasks_app_more_choices_cm.html
+helpid_4115=misc\zz_alias_details_tab_task_profile_cm.html
+helpid_4796=misc\zz_alias_details_tab_app_profile_cm.html
+helpid_4829=customize-contact-manager\calendar-options-dialog-box\contact_manager_options_profile.html
+helpid_4056=appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_steps.html
+helpid_4482=misc\view_discontinued_tasks_browser.html
+helpid_4771=misc\view_discontinued_appointments_browser.html
+helpid_4268=misc\zz_notes_task_profile.html
+helpid_4801=misc\the_linked_appointments_task_browser.html
+helpid_4380=misc\set_links_for__tasks_appointments__browser.html
+helpid_10807=tasks\create-a-task\the-task-profile\the_tasks_profile_-_custom_fields_tab.html
+helpid_10808=appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_-_custom_fields_tab.html
+helpid_4560=view-tasks-appointments\the_all_appointments_browser.html
+helpid_4520=view-tasks-appointments\the_my_appointments_browser.html
+helpid_4071=appointments\create-an-appointment\the-appointment-profile\the_appointment_profile_appointment.html
+helpid_4483=misc\task_details_section_details.html
+helpid_4484=misc\task_details_section_link_tasks.html
+
+[MAP]
+#define helpid_4001 4001
+#define helpid_4002 4002
+#define helpid_4003 4003
+#define helpid_4004 4004
+#define helpid_4007 4007
+#define helpid_4005 4005
+#define helpid_4006 4006
+#define helpid_4010 4010
+#define helpid_4011 4011
+#define helpid_4012 4012
+#define helpid_4013 4013
+#define helpid_4014 4014
+#define helpid_4027 4027
+#define helpid_4028 4028
+#define helpid_4029 4029
+#define helpid_4030 4030
+#define helpid_4031 4031
+#define helpid_4032 4032
+#define helpid_4033 4033
+#define helpid_4034 4034
+#define helpid_4035 4035
+#define helpid_4037 4037
+#define helpid_4038 4038
+#define helpid_4039 4039
+#define helpid_4040 4040
+#define helpid_4044 4044
+#define helpid_4046 4046
+#define helpid_4047 4047
+#define helpid_4057 4057
+#define helpid_4058 4058
+#define helpid_4059 4059
+#define helpid_4060 4060
+#define helpid_4061 4061
+#define helpid_4062 4062
+#define helpid_4063 4063
+#define helpid_4064 4064
+#define helpid_4066 4066
+#define helpid_4067 4067
+#define helpid_4068 4068
+#define helpid_4069 4069
+#define helpid_4070 4070
+#define helpid_4114 4114
+#define helpid_4121 4121
+#define helpid_4122 4122
+#define helpid_4123 4123
+#define helpid_4124 4124
+#define helpid_4131 4131
+#define helpid_4130 4130
+#define helpid_4129 4129
+#define helpid_4128 4128
+#define helpid_4127 4127
+#define helpid_4126 4126
+#define helpid_4125 4125
+#define helpid_4082 4082
+#define helpid_4083 4083
+#define helpid_4099 4099
+#define helpid_4098 4098
+#define helpid_4100 4100
+#define helpid_4101 4101
+#define helpid_4102 4102
+#define helpid_4103 4103
+#define helpid_4084 4084
+#define helpid_4085 4085
+#define helpid_4090 4090
+#define helpid_4086 4086
+#define helpid_4091 4091
+#define helpid_4094 4094
+#define helpid_4096 4096
+#define helpid_4097 4097
+#define helpid_4088 4088
+#define helpid_4089 4089
+#define helpid_4045 4045
+#define helpid_4049 4049
+#define helpid_4015 4015
+#define helpid_4016 4016
+#define helpid_4019 4019
+#define helpid_4022 4022
+#define helpid_4092 4092
+#define helpid_4093 4093
+#define helpid_4095 4095
+#define helpid_4104 4104
+#define helpid_4009 4009
+#define helpid_4048 4048
+#define helpid_4054 4054
+#define helpid_4065 4065
+#define helpid_4020 4020
+#define helpid_4132 4132
+#define helpid_4157 4157
+#define helpid_4055 4055
+#define helpid_4025 4025
+#define helpid_4023 4023
+#define helpid_4024 4024
+#define helpid_4021 4021
+#define helpid_4026 4026
+#define helpid_4036 4036
+#define helpid_4041 4041
+#define helpid_4321 4321
+#define helpid_4376 4376
+#define helpid_4377 4377
+#define helpid_4378 4378
+#define helpid_4379 4379
+#define helpid_4375 4375
+#define helpid_4325 4325
+#define helpid_4326 4326
+#define helpid_4327 4327
+#define helpid_4330 4330
+#define helpid_4329 4329
+#define helpid_4328 4328
+#define helpid_4322 4322
+#define helpid_4323 4323
+#define helpid_4324 4324
+#define helpid_4266 4266
+#define helpid_4267 4267
+#define helpid_4531 4531
+#define helpid_4532 4532
+#define helpid_4533 4533
+#define helpid_4530 4530
+#define helpid_4265 4265
+#define helpid_4650 4650
+#define helpid_4700 4700
+#define helpid_4710 4710
+#define helpid_4711 4711
+#define helpid_4712 4712
+#define helpid_4713 4713
+#define helpid_4480 4480
+#define helpid_4430 4430
+#define helpid_4073 4073
+#define helpid_4320 4320
+#define helpid_4600 4600
+#define helpid_4000 4000
+#define helpid_4750 4750
+#define helpid_4760 4760
+#define helpid_4770 4770
+#define helpid_4017 4017
+#define helpid_4018 4018
+#define helpid_4075 4075
+#define helpid_4076 4076
+#define helpid_4077 4077
+#define helpid_4078 4078
+#define helpid_4079 4079
+#define helpid_4080 4080
+#define helpid_4781 4781
+#define helpid_4782 4782
+#define helpid_4783 4783
+#define helpid_4784 4784
+#define helpid_4785 4785
+#define helpid_4786 4786
+#define helpid_4787 4787
+#define helpid_4788 4788
+#define helpid_4789 4789
+#define helpid_4790 4790
+#define helpid_4791 4791
+#define helpid_4792 4792
+#define helpid_4793 4793
+#define helpid_4794 4794
+#define helpid_4795 4795
+#define helpid_4115 4115
+#define helpid_4796 4796
+#define helpid_4829 4829
+#define helpid_4056 4056
+#define helpid_4482 4482
+#define helpid_4771 4771
+#define helpid_4268 4268
+#define helpid_4801 4801
+#define helpid_4380 4380
+#define helpid_10807 10807
+#define helpid_10808 10808
+#define helpid_4560 4560
+#define helpid_4520 4520
+#define helpid_4071 4071
+#define helpid_4483 4483
+#define helpid_4484 4484

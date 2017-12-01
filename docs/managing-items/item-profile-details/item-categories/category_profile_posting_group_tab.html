@@ -1,0 +1,86 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-category-profile---accounts">The Category Profile - Accounts</h1>
+
+<dl>
+  <dt><strong>Posting Account Preferences</strong></dt>
+  <dd>Specify an account selection methodology to be used  for the Category profile. You can specify accounts without setting up  posting groups. If you prefer to use posting groups (groups of accounts),  instead of making individual account selections, that option is also available.</dd>
+</dl>
+
+<ul>
+  <li><strong>Use 
+ Accounts Based Upon Hierarchy</strong> – Select this option if you would  like the system to use inventory accounts at the location level first  (if defined) and then at the company level (accounting defaults).</li>
+  <li><strong>Use 
+ Posting Groups</strong> – Select this option if you would like to use Posting  Groups to define your accounts. If you select this option, you must enter  an “Inventory Posting Group” in the <strong>Posting</strong><strong>Group</strong> field that appears when  you make this selection. 
+Select a Posting Group to be associated with the category being defined.  All the Posting Groups of the type Inventory are available for selection.  This is not a mandatory field.
+If no Posting Group is defined in these two profiles, the Posting Group  selected in the <strong>Location-Category</strong>  grid of the <strong>Location</strong> profile is  used.</li>
+</ul>
+
+<p class="note">The location referred to is the location of  the stock area from where or to which the items are retrieved into a sales  or purchase document.</p>
+
+<p class="warn">It is not recommended to select a Posting  Group in the Item category for which an Inventory control account is defined.   Doing so  would override the inventory account specified in the stock area’s location  . As a result discrepancies would occur in the financial and inventory  reports. A warning message is displayed when the user selects such a Posting  Group in a Item category. You may choose to continue, or select another  Posting Group in this field.</p>
+
+<ul>
+  <li><strong>Specify 
+ Accounts</strong> – Select this option if you would like to specify the  inventory control accounts to use for this Category. Click the <img src="/versata-everest-docs/managing-items/img/look_up_button_mi.gif" alt="" /> lookup button to view the related accounts that can be defined  (see the following figure). On the <strong>Accounts</strong>  screen, select the <strong>Inventory</strong> <strong>Control Accounts</strong> that you would like  to define for this Category. Click <strong>Apply</strong>  and then click <strong>OK</strong> to apply your  selections.</li>
+</ul>
+
+<p><strong>Accounts Screen (Category)</strong></p>
+
+<p>If you selected “Specify Accounts”, specify the control accounts  to use for this category.</p>
+
+<p><img src="/versata-everest-docs/managing-items/img/category_profile_ accts_tab_when_lookup_selected_ accounts_1.gif" alt="" /></p>
+
+<p><strong>Figure: Accounts (Category) screen that displays  when the Lookup button for “Specify Accounts” is clicked – Accounts 1  tab</strong></p>
+
+<dl>
+  <dt><strong>Inventory Account</strong></dt>
+  <dd>Select an account defined in the Chart of Accounts  (COA) profile with the Account Type “Inventory Control”. (This field is  only available if “Specify Accounts” is selected.)</dd>
+  <dt><strong>WIP</strong></dt>
+  <dd>Select an account defined in the Chart of Accounts  (COA) profile with the Account Type “Inventory Control” for Work In Process  (WIP). (This field is only available if “Specify Accounts” is selected.)</dd>
+  <dt><strong>Cost of Goods (Cost Factor)</strong></dt>
+  <dd>Select an expense account to use for the Inventory  control account for this field. (This field is only available if “Specify  Accounts” is selected.)</dd>
+  <dt><strong>Cost of Goods</strong></dt>
+  <dd>Select an expense account to use for the Inventory  control account for this field. (This field is only available if “Specify  Accounts” is selected.)</dd>
+  <dt><strong>Expense Account</strong></dt>
+  <dd>Select an expense account to use for the Inventory  control account for this field. (This field is only available if “Specify  Accounts” is selected.)</dd>
+  <dt><strong>Asset Account</strong></dt>
+  <dd>Select an asset account to use for the Inventory  control account for this field. (This field is only available if “Specify  Accounts” is selected.)</dd>
+  <dt><strong>Liability Account</strong></dt>
+  <dd>Select a liability account to use for the Inventory  control account for this field. (This field is only available if “Specify  Accounts” is selected.)</dd>
+  <dt><strong>Inventory Adjustment</strong></dt>
+  <dd>Select an expense or liability account to use for  the Inventory control account for inventory adjustments. (This field is  only available if “Specify Accounts” is selected.)</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/managing-items/img/category_profile_accts_tab_when_lookup_selected_ accounts_2.gif" alt="" /></p>
+
+<p><strong>Figure: Accounts (Category) screen that displays  when the Lookup button for “Specify Accounts” is clicked – Accounts 2  tab</strong></p>
+
+<dl>
+  <dt><strong>Sales</strong></dt>
+  <dd>Select a revenue account to use for the Inventory  control account for sales for this location. (This field is only available  if “Specify Accounts” is selected.)</dd>
+  <dt><strong>Sales Returns</strong></dt>
+  <dd>Select a revenue account to use for the Inventory  control account for sales returns for this location. (This field is only  available if “Specify Accounts” is selected.)</dd>
+  <dt><strong>Sales Line Item Discounts</strong></dt>
+  <dd>Select a revenue or expense account to use for the  Inventory control account for discounts on sales line items for this location.  (This field is only available if “Specify Accounts” is selected.)</dd>
+  <dt><strong>Gain on Purchase Returns</strong></dt>
+  <dd>Select a revenue or expense account to use for the  Inventory control account for gains on purchase returns. (This field is  only available if “Specify Accounts” is selected.)</dd>
+  <dt><strong>Loss on Purchase Returns</strong></dt>
+  <dd>Select a revenue or expense account to use for the  Inventory control account for losses on purchase returns. (This field  is only available if “Specify Accounts” is selected.)</dd>
+  <dt><strong>Work Order Abnormal Gain</strong></dt>
+  <dd>Select a revenue or expense account to use for the  Inventory control account for abnormal gains on work orders. (This field  is only available if “Specify Accounts” is selected.)</dd>
+  <dt><strong>Work Order Abnormal Loss</strong></dt>
+  <dd>Select a revenue or expense account to use for the  Inventory control account for abnormal losses on work orders. (This field  is only available if “Specify Accounts” is selected.)</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/item-categories/setting_up_a_category.html">Create an Item  Category</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/item-categories/item_categories.html">Item Categories</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,1252 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="_blank">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800027">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest US Payroll">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Introduction">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="About Everest US Payroll">
+        <param name="Local" value="introduction\about_us_payroll.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Features of Everest US Payroll">
+        <param name="Local" value="introduction\features_of_everest_us_payroll.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Assumptions">
+        <param name="Local" value="introduction\assumptions_payroll.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Setting up Everest Payroll">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Payroll Item Accounts">
+        <param name="Local" value="setup\payroll_item_accounts_1.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Payroll Setup Functions">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Setup Functions">
+          <param name="Local" value="setup\payroll-setup-functions\payroll_setup_functions.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Payroll Setup Wizard">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Payroll Setup Wizard">
+          <param name="Local" value="setup\the-payroll-setup-wizard\the_payroll_setup_wizard.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up US Payroll">
+          <param name="Local" value="setup\the-payroll-setup-wizard\set_up_us_payroll_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Welcome Window">
+          <param name="Local" value="setup\the-payroll-setup-wizard\welcome_window_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company Information">
+          <param name="Local" value="setup\the-payroll-setup-wizard\company_information_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Taxes - FUTA and SUTA/SDI Rates">
+          <param name="Local" value="setup\the-payroll-setup-wizard\taxes_futa_and_suta_sdi_rates_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Taxes - Accounts">
+          <param name="Local" value="setup\the-payroll-setup-wizard\taxes_accounts_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Taxes - Local Taxes">
+          <param name="Local" value="setup\the-payroll-setup-wizard\taxes_local_taxes_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Items - Setup">
+          <param name="Local" value="setup\the-payroll-setup-wizard\payroll_items_setup_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Items - Form W2 Tracking">
+          <param name="Local" value="setup\the-payroll-setup-wizard\payroll_items_form_w2_tracking_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Employee Information - Employee Template">
+          <param name="Local" value="setup\the-payroll-setup-wizard\employee_information_employee_template_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Employee Information- Employees">
+          <param name="Local" value="setup\the-payroll-setup-wizard\employee_information_employees_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Employee Information - Employee History">
+          <param name="Local" value="setup\the-payroll-setup-wizard\employee_information_employee_history_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Conclusion">
+          <param name="Local" value="setup\the-payroll-setup-wizard\conclusion_sup.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Payroll Company Setup">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Company Setup Details">
+          <param name="Local" value="setup\payroll-company-setup\payroll_company_setup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company Name and Address">
+          <param name="Local" value="setup\payroll-company-setup\company_name_and_address.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Federal ID and Currency Code">
+          <param name="Local" value="setup\payroll-company-setup\federal_id_and_currency_code.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up Company Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up Company Details">
+            <param name="Local" value="setup\payroll-company-setup\setting-up-company-details\setting_up_company_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Payroll Company Setup Profile">
+            <param name="Local" value="setup\payroll-company-setup\setting-up-company-details\the_payroll_company_setup_dialog_box.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify Company Details">
+            <param name="Local" value="setup\payroll-company-setup\setting-up-company-details\modifying_company_details_1.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="State Setup">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="State Setup Details">
+          <param name="Local" value="setup\state-setup\the_state_setup_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="State Code and ID">
+          <param name="Local" value="setup\state-setup\state_code_and_id.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tax Applicability">
+          <param name="Local" value="setup\state-setup\tax_applicability.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up State Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up State Details">
+            <param name="Local" value="setup\state-setup\setting-up-state-details\setting_up_state_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The State Setup Profile">
+            <param name="Local" value="setup\state-setup\setting-up-state-details\the_state_setup_profile_general.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify State Details">
+            <param name="Local" value="setup\state-setup\setting-up-state-details\modifying_state_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue State Details">
+            <param name="Local" value="setup\state-setup\setting-up-state-details\discontinuing_state_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate Discontinued State Details">
+            <param name="Local" value="setup\state-setup\setting-up-state-details\view_and_activate_discontinued_state_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="State Setup Browser">
+            <param name="Local" value="setup\state-setup\setting-up-state-details\state_setup_browser_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="State Setup Browser Options">
+            <param name="Local" value="setup\state-setup\setting-up-state-details\state_setup_browser_options_1sup.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="FUTA Setup">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="FUTA Setup Details">
+          <param name="Local" value="setup\futa-setup\futa_setup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up FUTA Rates">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up FUTA Rates">
+            <param name="Local" value="setup\futa-setup\setting-up-futa-rates\setting_up_futa_rates.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify FUTA Rates">
+            <param name="Local" value="setup\futa-setup\setting-up-futa-rates\modifying_futa_rates.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue FUTA Rates">
+            <param name="Local" value="setup\futa-setup\setting-up-futa-rates\discontinuing_futa_rates.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate Discontinued FUTA Rates Information">
+            <param name="Local" value="setup\futa-setup\setting-up-futa-rates\view_and_activate_discontinued_futa_rates_information.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="FUTA Setup Browser">
+            <param name="Local" value="setup\futa-setup\setting-up-futa-rates\futa_setup_browser_options.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Federal Account Setup">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Federal Account Details">
+          <param name="Local" value="setup\federal-account-setup\federal_account_setup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Federal Account Setup - Employee">
+          <param name="Local" value="setup\federal-account-setup\federal_account_setup_employee.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Federal Account Setup - Employer">
+          <param name="Local" value="setup\federal-account-setup\federal_account_setup_employer.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up Federal Accounts">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up Federal Accounts">
+            <param name="Local" value="setup\federal-account-setup\setting-up-federal-accounts\setting_up_federal_accounts.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify Federal Accounts">
+            <param name="Local" value="setup\federal-account-setup\setting-up-federal-accounts\modifying_federal_accounts.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="SUTA/SDI Setup">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SUTA/SDI Details">
+          <param name="Local" value="setup\suta-sdi-setup\the_suta_sdi_setup_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Year and Code">
+          <param name="Local" value="setup\suta-sdi-setup\year_and_code.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SUTA">
+          <param name="Local" value="setup\suta-sdi-setup\suta.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SDI">
+          <param name="Local" value="setup\suta-sdi-setup\sdi.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up SUTA/SDI Rates">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up SUTA/SDI Rates">
+            <param name="Local" value="setup\suta-sdi-setup\setup-rates\setting_up_suta_sdi_rates.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify SUTA/SDI Rates">
+            <param name="Local" value="setup\suta-sdi-setup\setup-rates\modifying_suta_sdi_rates.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue SUTA/SDI Rates">
+            <param name="Local" value="setup\suta-sdi-setup\setup-rates\discontinuing_a_suta_sdi_information.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate Discontinued SUTA/SDI Rates">
+            <param name="Local" value="setup\suta-sdi-setup\setup-rates\view_and_activate_a_discontinued_suta_sdi_information.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="SUTA/SDI Browser Options">
+            <param name="Local" value="setup\suta-sdi-setup\setup-rates\suta_sdi_browser_options.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="State Accounts">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="State Accounts Details">
+          <param name="Local" value="setup\state-accounts\the_state_accounts_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="State Accounts - Employee">
+          <param name="Local" value="setup\state-accounts\state_accounts_employee.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="State Accounts - Employer">
+          <param name="Local" value="setup\state-accounts\state_accounts_employer.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up State Accounts">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up State Accounts">
+            <param name="Local" value="setup\state-accounts\setup\setting_up_state_accounts.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify State Accounts">
+            <param name="Local" value="setup\state-accounts\setup\modifying_state_accounts.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue State Accounts">
+            <param name="Local" value="setup\state-accounts\setup\discontinuing_state_accounts.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate Discontinued State Accounts">
+            <param name="Local" value="setup\state-accounts\setup\view_and_activate_a_discontinued_state_accounts_information.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="State Accounts Browser Options">
+            <param name="Local" value="setup\state-accounts\setup\state_accounts_browser_options.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Local Taxes">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Local Taxes">
+          <param name="Local" value="setup\local-taxes\local_taxes.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Default Local Taxes">
+          <param name="Local" value="setup\local-taxes\default_local_taxes.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Local Tax Details">
+          <param name="Local" value="setup\local-taxes\the_local_tax_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General Information">
+          <param name="Local" value="setup\local-taxes\general_information_2.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tax Details">
+          <param name="Local" value="setup\local-taxes\tax_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up Local Taxes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up a Local Tax">
+            <param name="Local" value="setup\local-taxes\setting-up-local-taxes\setting_up_local_taxes.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify a Local Tax">
+            <param name="Local" value="setup\local-taxes\setting-up-local-taxes\modify_a_local_tax.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Local Tax">
+            <param name="Local" value="setup\local-taxes\setting-up-local-taxes\discontinuing_a_local_tax.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate a Discontinued Local Tax">
+            <param name="Local" value="setup\local-taxes\setting-up-local-taxes\view_and_activate_a_discontinued_local_tax.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Local Taxes Browser">
+            <param name="Local" value="setup\local-taxes\setting-up-local-taxes\local_tax_browser_options.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Employee Level Accounts">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Employee Level Accounts">
+          <param name="Local" value="setup\employee-level-accounts\employee_level_accounts_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up Employee Level Accounts">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up Employee Level Accounts">
+            <param name="Local" value="setup\employee-level-accounts\setup\set_up_employee_level_accounts_sup.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Employee Account Setup Dialog Box">
+            <param name="Local" value="setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_sup.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Employee Account Setup Dialog Box - Federal Accounts">
+            <param name="Local" value="setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_federal_accounts_sup.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Employee Account Setup Dialog Box - State Accounts">
+            <param name="Local" value="setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_state_accounts_sup.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Employee Account Setup Dialog Box - Local Accounts">
+            <param name="Local" value="setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_local_accounts.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify Employee Level Accounts">
+            <param name="Local" value="setup\employee-level-accounts\setup\modify_employee_level_accounts_sup.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Payroll Items">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Items">
+          <param name="Local" value="setup\payroll-items\payroll_items.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Checklist for Payroll Items">
+          <param name="Local" value="setup\payroll-items\checklist_for_payroll_items.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Default Payroll Items">
+          <param name="Local" value="setup\payroll-items\default_payroll_items.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Item Details">
+          <param name="Local" value="setup\payroll-items\the_payroll_items_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Item - General Details">
+          <param name="Local" value="setup\payroll-items\payroll_item_general_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Items - Taxability Details">
+          <param name="Local" value="setup\payroll-items\payroll_items_taxability_details_tab.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Code and Type">
+          <param name="Local" value="setup\payroll-items\code_and_type.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Pay Type">
+          <param name="Local" value="setup\payroll-items\pay_type.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up Payroll Items">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up a Payroll Item">
+            <param name="Local" value="setup\payroll-items\setting-up-payroll-items\setting_up_payroll_items.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify a Payroll Item">
+            <param name="Local" value="setup\payroll-items\setting-up-payroll-items\modifying_payroll_items.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Payroll Item">
+            <param name="Local" value="setup\payroll-items\setting-up-payroll-items\discontinuing_a_payroll_item.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate a Discontinued Payroll Item">
+            <param name="Local" value="setup\payroll-items\setting-up-payroll-items\view_and_activate_a_discontinued_payroll_item.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payroll Item Browser Options">
+            <param name="Local" value="setup\payroll-items\setting-up-payroll-items\payroll_item_browser_options.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="W2 Tracking of Payroll Items">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="W2 Tracking of Payroll Items">
+          <param name="Local" value="setup\w2-tracking-of-payroll-items\w2_tracking_of_payroll_items.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up W2 Tracking">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up W2 Tracking">
+            <param name="Local" value="setup\w2-tracking-of-payroll-items\setting-up-w2-tracking\setting_up_w2_tracking.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify W2 Tracking">
+            <param name="Local" value="setup\w2-tracking-of-payroll-items\setting-up-w2-tracking\modifying_w2_tracking.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Associating Payroll Items">
+            <param name="Local" value="setup\w2-tracking-of-payroll-items\setting-up-w2-tracking\associating_payroll_items.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Employee Template">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Employee Template Details">
+          <param name="Local" value="setup\the-employee-template\the_employee_template.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General Information">
+          <param name="Local" value="setup\the-employee-template\employee_template_general.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tax Information">
+          <param name="Local" value="setup\the-employee-template\tax_information_1.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Employee Template - Pay Details">
+          <param name="Local" value="setup\the-employee-template\the_employee_template_pay_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up Employee Template">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up an Employee Template">
+            <param name="Local" value="setup\the-employee-template\setting-up-employee-template\setting_up_employee_template.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify an Employee Template">
+            <param name="Local" value="setup\the-employee-template\setting-up-employee-template\modifying_employee_template.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Employees">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Employees">
+          <param name="Local" value="setup\employees\employees.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Employee Details">
+          <param name="Local" value="setup\employees\the_employee_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General Information">
+          <param name="Local" value="setup\employees\general_information.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tax Information">
+          <param name="Local" value="setup\employees\tax_information.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Pay Details">
+          <param name="Local" value="setup\employees\pay_details_1.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating an Employee">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create an Employee">
+            <param name="Local" value="setup\employees\creating-an-employee\setting_up_employees.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify an Employee">
+            <param name="Local" value="setup\employees\creating-an-employee\modifying_an_employee_information.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue an Employee">
+            <param name="Local" value="setup\employees\creating-an-employee\discontinuing_an_employee_information.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate a Discontinued Employee">
+            <param name="Local" value="setup\employees\creating-an-employee\view_and_activate_a_discontinued_employee_information.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employees Browser">
+            <param name="Local" value="setup\employees\creating-an-employee\employees_browser_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employees Browser Options">
+            <param name="Local" value="setup\employees\creating-an-employee\employees_browser_options_1sup.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Employee History">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Employee History">
+          <param name="Local" value="setup\employee-history\employee_history.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Consolidated Transactions">
+          <param name="Local" value="setup\employee-history\consolidated_transactions_sup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General Information">
+          <param name="Local" value="setup\employee-history\general_information_1.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Taxes">
+          <param name="Local" value="setup\employee-history\taxes.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating an Employee History">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create an Employee History">
+            <param name="Local" value="setup\employee-history\create\setting_up_an_employee_history.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employee History Dialog Box">
+            <param name="Local" value="setup\employee-history\create\employee_history_dialog_box.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify an Employee History">
+            <param name="Local" value="setup\employee-history\create\modifying_an_employee_history.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate a Discontinued Employee History">
+            <param name="Local" value="setup\employee-history\create\view_and_activate_a_discontinued_employee_history.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employee Histories Browser Options">
+            <param name="Local" value="setup\employee-history\create\employee_history_browser_options.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Back End Processes and Accounting Entries">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes and Accounting Entries">
+            <param name="Local" value="setup\employee-history\backend-proc-and-acc-entries\backend_processes_and_accounting_entries.html">
+          </object>
+          </ul>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Payroll Transaction Process">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Steps in Payroll Processing">
+        <param name="Local" value="payroll-process\steps_in_payroll_processing.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Regular Payroll">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Regular Payroll Transaction">
+          <param name="Local" value="payroll-process\regular-payroll\regular_payroll_transaction.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Process with Preview">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Process with Preview">
+          <param name="Local" value="payroll-process\process-with-preview\process_with_preview.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Process without Preview">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Process without Preview">
+          <param name="Local" value="payroll-process\process-without-preview\process_without_preview.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Errors in Process without Preview">
+          <param name="Local" value="payroll-process\process-without-preview\errors_in_process_without_preview.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Payroll Transaction Details">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Transaction Details">
+          <param name="Local" value="payroll-process\transaction-details\the_payroll_transactions_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General Information">
+          <param name="Local" value="payroll-process\transaction-details\general_informationptp.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Employee Taxes">
+          <param name="Local" value="payroll-process\transaction-details\employee_taxes.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Employer Taxes">
+          <param name="Local" value="payroll-process\transaction-details\employer_taxes.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Leave Adjustment Details">
+          <param name="Local" value="payroll-process\transaction-details\leave_adjustment_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tax Calculations">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Tax Calculations">
+            <param name="Local" value="payroll-process\transaction-details\tax-calculations\tax_calculations.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Transactions">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Creating a Payroll Transaction">
+            <param name="Local" value="payroll-process\transaction-details\payroll\creating_a_payroll_transaction_ptp.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payroll Transaction Processing Wizard">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Payroll Transaction Processing Wizard">
+              <param name="Local" value="payroll-process\transaction-details\payroll\wizard\payroll_transaction_processing_wizard_ptp.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Steps in the Payroll Transaction Processing Wizard">
+              <param name="Local" value="payroll-process\transaction-details\payroll\wizard\steps_in_the_payroll_transaction_processing_wizard_ptp.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Regular Payroll Transaction">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Regular Payroll Transaction">
+            <param name="Local" value="payroll-process\transaction-details\create-regular-transaction\creating_a_regular_payroll_transaction.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Payroll Transactions Profile">
+            <param name="Local" value="payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_2.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Payroll Transactions Profile - General">
+            <param name="Local" value="payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_general.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Payroll Transactions Profile - Employee Taxes">
+            <param name="Local" value="payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_employee_taxes.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Payroll Transactions Profile - Employer Taxes">
+            <param name="Local" value="payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_employer_taxes.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Payroll Transactions Profile - Leave Adjustment">
+            <param name="Local" value="payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_leave_adjustment.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Supplemental Payroll">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Supplemental Payroll Transaction">
+          <param name="Local" value="payroll-process\supplemental\supplemental_payroll_transaction.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Supplemental Payroll Transaction">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Supplemental Payroll Transaction">
+            <param name="Local" value="payroll-process\supplemental\create-supplemental-transaction\creating_a_supplemental_payroll_transaction.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Options Available in the Payroll Transactions Profile">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Transactions Profile Options">
+          <param name="Local" value="payroll-process\transactions-profile-options\options_available_with_payroll_transactions_profile.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modifying Payroll Transactions">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Regular Payroll Transaction">
+          <param name="Local" value="payroll-process\modifying-payroll-transactions\modifying_a_regular_payroll_transaction.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Supplemental Payroll Transaction">
+          <param name="Local" value="payroll-process\modifying-payroll-transactions\modifying_a_supplemental_payroll_transaction.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Viewing a Payroll Transaction">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View a Payroll Transaction">
+          <param name="Local" value="payroll-process\viewing-a-payroll-transaction\viewing_payroll_transactions.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Select Payroll Transactions Dialog Box">
+          <param name="Local" value="payroll-process\viewing-a-payroll-transaction\select_payroll_transactions_dialog_box.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Transactions List Dialog Box">
+          <param name="Local" value="payroll-process\viewing-a-payroll-transaction\the_payroll_transaction_list_browser_1.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Purge a Payroll Transaction">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Purge a Payroll Transaction">
+          <param name="Local" value="payroll-process\purge\deleting_payroll_transactions.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Transactions Browser">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payroll Transactions Browser">
+            <param name="Local" value="payroll-process\purge\browser\the_payroll_transactions_browser.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payroll Transactions Browser Options">
+            <param name="Local" value="payroll-process\purge\browser\options_available_with_the_payroll_transactions_browser.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Creating a Payroll Journal">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Journal">
+          <param name="Local" value="payroll-process\creating-journal\payroll_journal.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Payroll Journal">
+          <param name="Local" value="payroll-process\creating-journal\creating_a_payroll_journal.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries for Payroll">
+          <param name="Local" value="payroll-process\creating-journal\accounting_entries_for_payroll.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Payroll Journal">
+          <param name="Local" value="payroll-process\creating-journal\modifying_a_payroll_journal.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Viewing a Payroll Journal">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View a Payroll Journal">
+            <param name="Local" value="payroll-process\creating-journal\viewing-a-payroll-journal\view_a_payroll_journal_pts.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payroll Journal Dialog Box">
+            <param name="Local" value="payroll-process\creating-journal\viewing-a-payroll-journal\the_payroll_journal_browser.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Voiding a Payroll Journal">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Void a  Payroll Journal">
+            <param name="Local" value="payroll-process\creating-journal\voiding-journal\voiding_payroll_journal.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Void Payroll Journal Dialog Box">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Void Payroll Journal Dialog Box">
+              <param name="Local" value="payroll-process\creating-journal\voiding-journal\void-dlg\void_payroll_journal_dialog_box_ptp.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Void Payroll Journal Dialog Box Options">
+              <param name="Local" value="payroll-process\creating-journal\voiding-journal\void-dlg\void_payroll_journal_dialog_box_options_ptp.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes - Void Payroll Journal">
+              <param name="Local" value="payroll-process\creating-journal\voiding-journal\void-dlg\back_end_process_-_payroll_journal.html">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Paying Employees">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Paying Employees">
+          <param name="Local" value="payroll-process\paying-employees\paying_employees_ptp.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Payment Wizard">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payroll Payment Wizard">
+            <param name="Local" value="payroll-process\paying-employees\wizard\the_payroll_payment_wizard.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Creating a Payment Journal">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Payment Journal">
+              <param name="Local" value="payroll-process\paying-employees\wizard\creating-journal\creating_a_payment_journal.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify a Payment Journal">
+              <param name="Local" value="payroll-process\paying-employees\wizard\creating-journal\modify_a_payment_journal_ptp.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Viewing a Payment Journal">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View a Payment Journal">
+              <param name="Local" value="payroll-process\paying-employees\wizard\viewing-journal\view_a_payment_journal_ptp.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Payroll Payments Browser">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Payroll Payments Browser">
+                <param name="Local" value="payroll-process\paying-employees\wizard\viewing-journal\payments-browser\payroll_payments_browser_ptp_.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Payroll Payments Browser Options">
+                <param name="Local" value="payroll-process\paying-employees\wizard\viewing-journal\payments-browser\payroll_payments_browser_options_ptp.html">
+              </object>
+              </ul>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Reverse a Payment Journal">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Ways of Reversing Payments">
+              <param name="Local" value="payroll-process\paying-employees\wizard\reverse-journal\ways_of_reversing_payments_us_payroll.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Reverse Payments Browser">
+              <param name="Local" value="payroll-process\paying-employees\wizard\reverse-journal\reverse_payment_browser_payments_us_payroll.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Reverse Payment Browser Options">
+              <param name="Local" value="payroll-process\paying-employees\wizard\reverse-journal\reverse_payment_browser_options_payment_us_payroll.html">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Printing Payroll Checks">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Print a Payroll Check">
+          <param name="Local" value="payroll-process\printing-payroll-checks\print_a_payroll_check_ptp.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Check Details Browser">
+          <param name="Local" value="payroll-process\printing-payroll-checks\check_printing_dialog_box_ptp.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Check Printing Browser">
+          <param name="Local" value="payroll-process\printing-payroll-checks\the_payroll_check_printing_browser.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Rectifying Errors in a Payroll Transaction">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Rectifying Errors in a Payroll Transaction">
+          <param name="Local" value="payroll-process\rectifying-errors-in-a-payroll-transaction\rectifying_errors_in_payroll_processing.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Resetting Leave Balances">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Resetting Leave Balances">
+          <param name="Local" value="payroll-process\resetting-leave-balances\resetting_leave_balances_ptp.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Statutory Forms and Reports">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="US Payroll Reports">
+        <param name="Local" value="statutory-forms-and-reports\payroll_reports_sfp.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Statutory Forms">
+        <param name="Local" value="statutory-forms-and-reports\statutory_forms_sfr.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Form W2">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Form W2">
+          <param name="Local" value="statutory-forms-and-reports\form-w2\form_w2_sfr.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating a Form W2 Report">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Form W2 Report">
+            <param name="Local" value="statutory-forms-and-reports\form-w2\creating-a-form-w2-report\create_a_form_w2_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify Form W2">
+            <param name="Local" value="statutory-forms-and-reports\form-w2\creating-a-form-w2-report\modify_a_form_w2_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Adjustments to the Values in Form W2">
+            <param name="Local" value="statutory-forms-and-reports\form-w2\creating-a-form-w2-report\adjustments_to_the_values_in_form_w2_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employee Form W2 Options">
+            <param name="Local" value="statutory-forms-and-reports\form-w2\creating-a-form-w2-report\employee_form_w2_options_sfr.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Form W3">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Form W3">
+          <param name="Local" value="statutory-forms-and-reports\form-w3\form_w3_sfr.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating a Form W3 Report">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Form W3 Report">
+            <param name="Local" value="statutory-forms-and-reports\form-w3\creating-a-form-w3-report\create_a_form_w3_report_sfr.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Form 940">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Form 940">
+          <param name="Local" value="statutory-forms-and-reports\form-940\form_940_sfr.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating a Form 940 Report">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Form 940 Report">
+            <param name="Local" value="statutory-forms-and-reports\form-940\creating-a-form-940-report\create_a_form_940_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify a Form 940">
+            <param name="Local" value="statutory-forms-and-reports\form-940\creating-a-form-940-report\modify_a_form_940_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Form 940 Options">
+            <param name="Local" value="statutory-forms-and-reports\form-940\creating-a-form-940-report\employee_form_940_options_sfr.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Form 941">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Form 941">
+          <param name="Local" value="statutory-forms-and-reports\form-941\form_941_sfr.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating a Form 941 Report">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Form 941 Report">
+            <param name="Local" value="statutory-forms-and-reports\form-941\creating-a-form-941-report\create_a_form_941_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify a Form 941">
+            <param name="Local" value="statutory-forms-and-reports\form-941\creating-a-form-941-report\modify_a_form_941sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Form 941 Options">
+            <param name="Local" value="statutory-forms-and-reports\form-941\creating-a-form-941-report\employee_form_941_options_sfr.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Schedule B">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Form 941 (Schedule B) Dialog Box">
+            <param name="Local" value="statutory-forms-and-reports\form-941\schedule-b\form_941_(schedule_b)_dialog_box.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Payroll Reports">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payroll Reports">
+          <param name="Local" value="statutory-forms-and-reports\payroll-reports\payroll_reports_sfr.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating Payroll Reports">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Company Contributions Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_a_company_contribution_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Deductions Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_a_deduction_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employee Cost Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_an_employee_cost_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employee Earning (Detail) Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_an_employee_earning_detail_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employee Earnings (Summary) Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_an_employee_earnings_summary_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employee Journals Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_an_employee_journals_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employee List (Detail) Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_an_employee_list_detail_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employee List (Summary) Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_an_employee_list_summary_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employee Outstanding Check Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_an_employee_outstanding_check_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Employee Vacation and Sick Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_an_employee_vacation_and_sick_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Pay Stubs Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_a_pay_stub_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Posted Transactions Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_a_posted_transaction_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Unposted Transactions Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_an_unposted_transaction_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Reverse Payments Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_a_voided_payment_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Voided Transactions Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_a_voided_transaction_report_sfr.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Withholdings Report">
+            <param name="Local" value="statutory-forms-and-reports\payroll-reports\create\create_a_withholdings_report_sfr.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="FAQs on Payroll">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="FAQs on Payroll">
+          <param name="Local" value="statutory-forms-and-reports\faqs-on-payroll\faqs_on_payroll.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Payroll Glossary">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="US Payroll - Glossary">
+        <param name="Local" value="payroll-glossary\us_payroll_glossary.html">
+      </object>
+      </ul>
+    </ul>
+</ul>
+</html>

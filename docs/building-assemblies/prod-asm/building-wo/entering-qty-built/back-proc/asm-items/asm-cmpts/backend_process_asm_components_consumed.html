@@ -1,0 +1,44 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="stock-area-to-which-components-utilized-are-transferred">Stock Area to which Components Utilized are Transferred</h1>
+
+<p>Inventoried items used during production lose their individual identity.  The items consumed must be transferred to an ‘OUT’ type of stock area  as these items can no longer be available for use or sale.</p>
+
+<p>You can define another stock area to transfer these inventoried items  to using the following logic:</p>
+
+<ul>
+  <li>Use the stock  area defined in the <strong>Select stock area 
+ to transfer inventoried components of completed assembly items</strong> field  of the <strong>Location</strong> profile (path:  <strong>File &gt; Setup &gt; Accounting &gt; 
+ Location/Sub-Location &gt; Options &gt; Edit &gt; In New Window &gt; Stock 
+ Transfer &gt; Assembly 1</strong> tab) for the login  location.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/set-up-locations/the_location_profile_stock_transfer.html">Location  Profile - Stock Transfer Tab</a></strong></p>
+
+<ul>
+  <li>If a stock  area is not defined for the logged in location/sub-location, the stock  area assigned for the default location in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Default Location</strong> field) is used.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></strong></p>
+
+<ul>
+  <li>If it is not  defined for the default location also, the stock area specified in the  <strong>Sales Invoice</strong> option (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location</strong>/<strong>Sub-Location</strong>&gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Stock</strong> <strong>Transfer</strong> &gt; <strong>Sales 
+ Document</strong> tab &gt; <strong>Select stock 
+ area to transfer inventoried items when creating</strong> section) for the  login location  is used.</li>
+  <li>If it is not  specified for the login  location, the stock area specified for sales invoices in the default location  is used.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/building-wo/entering-qty-built/back-proc/asm-items/asm-cmpts/stock_status_of_assembly_components.html">Stock  Status of Assembly Components</a></dd>
+</dl>
+
+
+
+
+</div>

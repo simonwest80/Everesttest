@@ -1,0 +1,125 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="document-details">Document Details</h1>
+
+<dl>
+  <dt><strong>Print using quick report</strong></dt>
+  <dd>Check this option if you want sales and credit documents  to be printed using quick reports. Quick reports enable faster printing  of document reports over a network on a laser printer. Leave this box  unchecked if you want to print documents using Crystal Reports.</dd>
+</dl>
+
+<p class="note">If this check box is selected, the <strong>Display 
+ in matrix format</strong> check box is automatically disabled.</p>
+
+<dl>
+  <dt><strong>Company Information</strong></dt>
+  <dd>The <strong>Company Information</strong>  field allows you to select the address and logo to be printed. Click <a href="/versata-everest-docs/point-of-sale/misc/printing_company_information_doc_details_gen_tab_printing_prefs_pos.html">here</a>  for the options.</dd>
+  <dd>The address and logo of the location of the document’s  sub-location (path: <strong>File &gt; Setup &gt; 
+ Accounting &gt; Location/ Sub-Location &gt; Options &gt; Edit &gt; In 
+ New Window &gt;</strong> <strong>Image</strong> tab)  are printed. If the address/logo is not assigned to the document’s sub-location,  the address/logo specified in the <strong>Default 
+ Location</strong> field (path: <strong>File &gt; 
+ Setup &gt; Preferences &gt; Defaults &gt; Accounting &gt; Miscellaneous</strong> tab) is used.</dd>
+  <dd><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/set-up-locations/location_profile_-_image.html">The  Location Profile - Image</a></dd>
+  <dt><strong>Billing Address</strong></dt>
+  <dd>This field allows you to indicate how the billing  address must be printed in the document. You can select one of the following  options:</dd>
+</dl>
+
+<ul>
+  <li><strong>Full 
+ (with Telephone/Fax numbers)</strong> - Print the customer’s billing address  with telephone and fax numbers.</li>
+  <li><strong>Mail/Envelope 
+ Purpose</strong> - Print the customer’s billing address without telephone  number.</li>
+</ul>
+
+<dl>
+  <dt><strong>Printer</strong></dt>
+  <dd>The <strong>Printer</strong>  option allows you to specify the printer to which the print job is to  be directed. All printers set up on your workstation are listed for selection.</dd>
+  <dt><strong>Copies</strong></dt>
+  <dd>Specify the number of copies to be printed for the  document.</dd>
+</dl>
+
+<p>Document Details</p>
+
+<dl>
+  <dt><strong>Include Serial Numbers</strong></dt>
+  <dd>Select this check box to print the serial numbers  of items attached to the document. This option is not applicable if “Display  in matrix format” is selected.</dd>
+  <dt><strong>Include Contact Address</strong></dt>
+  <dd>Select this check box to print the contact address  on the document.</dd>
+  <dt><strong>Include Ship/Return Address</strong></dt>
+  <dd>Select this check box to print the shipping address  on the document.</dd>
+  <dt><strong>Exclude Hidden Items</strong></dt>
+  <dd>Select this check box to exclude hidden lines when  the document is printed.</dd>
+  <dt><strong>Packing Slip Format</strong></dt>
+  <dd>Select this check box to print the document in a  packing slip format. In this case, the amounts are not printed. When you  select the <strong>Blind Ship</strong> check box,  this field is disabled.</dd>
+  <dt><strong>Blind Ship</strong></dt>
+  <dd>Select this check box if you want to replace the  company/location logo and address with the customer’s address and logo  while printing the sales document.</dd>
+  <dt><strong>Use Unit Prices</strong></dt>
+  <dd>If this option is selected, then per unit price  is printed in the <strong>Price</strong> column.  The measure information is not printed.</dd>
+</dl>
+
+<p class="note">The <strong>Quantity</strong> column will remain  same irrespective of whether the price printed is a unit price or not.</p>
+
+<p class="example">Suppose you order for a dozen eggs costing $12 ($1 each).  When you select the above option, the <strong>Price</strong>  column will display $1 which is the price/unit. If this option is not  selected, the <strong>Price</strong> column displays  the total price for the dozen.</p>
+
+<dl>
+  <dt><strong>Currency</strong></dt>
+  <dd>This drop-down list allows you to specify the currency  in which to print the Point of Sale (sales invoice) document. It has the  following options:</dd>
+</dl>
+
+<ul>
+  <li><strong>Print 
+ in Base Currency</strong> - Select this option to print the document in  the base currency, irrespective of the currency defined for the customer.  The <strong>Currency</strong> field defaults to  this option.</li>
+  <li><strong>Print 
+ in Document Currency</strong> - Select this option to print the document  in the currency defined for the customer selected in the document.</li>
+  <li><strong>Print 
+ in both Base and Document Currency</strong> - Select this option to print  the document in the currency defined for the customer selected in the  document. However, the document and the tax totals are displayed additionally  in the base currency at the bottom right hand side of the document.</li>
+</ul>
+
+<dl>
+  <dt><strong>Include Tax Details</strong></dt>
+  <dd>Select this check box to print the breakup of the  total tax into the amounts for each tax component.</dd>
+  <dt><strong>Print Tax Component Details</strong></dt>
+  <dd>Some countries require tax components to be displayed  individually on the sales document.</dd>
+  <dd>Select this check box to print the description of  the tax components, as entered in the <strong>Description</strong>  field of the <strong>Tax</strong> <strong>Components</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Taxes</strong> &gt; <strong>Tax</strong><strong>Components</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In</strong><strong>New</strong> <strong>Window</strong>).</dd>
+  <dd>If there are one or two tax components on the document,  they are displayed and printed separately in the right hand corner at  the bottom, along with the other document total details. If there are  more than two tax components, the first tax component is displayed and  printed separately while the remaining tax components are grouped and  displayed under the heading <strong>Others</strong>.</dd>
+  <dd>If you do not select the <strong>Print 
+ Tax Component Details</strong> check box, the breakup of the tax components  on the document will not be displayed. The total tax amount will be displayed  and printed against the heading <strong>Total 
+ Tax</strong>.</dd>
+  <dd>This option is selected/deselected by default based  on the preference you set in the <strong>Reporting 
+ Preferences</strong> dialog box (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Reporting 
+ Preferences</strong>). You can select/deselect this option as required.</dd>
+  <dt><strong>Include Payment Details</strong></dt>
+  <dd>Select this check box to print the details of amounts  paid on the selected document.</dd>
+  <dt><strong>Include Shipment Tracking#</strong></dt>
+  <dd>Check this option to include the Shipment Tracking#  while printing the Sales document. When this option is checked, shipment  tracking numbers will be printed at the end of the document.  This  will allow shoppers to track packages without calling your service staff  or visiting your website.</dd>
+  <dt><strong>Display in Matrix Format</strong></dt>
+  <dd>Check this option to display the printed documents  in matrix format for matrix items. When this option is checked, line items  that are part of a matrix group will be printed in a matrix format. Printing  in matrix format can greatly reduce the amount of space/paper it takes  to print out a document with a large number of matrix items. Vendor part  numbers and serial numbers will not display if you select this option.</dd>
+  <dt><strong>Print Barcode</strong></dt>
+  <dd>Select this check box to print the document number  as a barcode. This barcode is printed on the top right corner of the document.</dd>
+  <dt><strong>Print Line Notes</strong></dt>
+  <dd>Select this check box to print any line notes associated  with the line item. You can specify line notes in the following ways:</dd>
+</dl>
+
+<ul>
+  <li>Directly in  the <strong>Description/Note</strong> column of  the document.</li>
+  <li>In the <strong>Extended sales description</strong> field (path:  <strong>Inventory</strong> &gt; <strong>Items</strong>  &gt; <strong>Item</strong> profile &gt; <strong>Notes</strong>  tab)</li>
+  <li>Using the <strong>Inline Notes</strong> option (path: Document  profile &gt; <strong>Options</strong>).</li>
+</ul>
+
+<dl>
+  <dt><strong>Print Vendor Part Number</strong></dt>
+  <dd>This option is disabled for point of sales documents.</dd>
+  <dt><strong>Sort by</strong></dt>
+  <dd>Select the sort option for printing line items in  the document. You can sort either by <strong>Item 
+ Code</strong> or <strong>Item Description</strong>.  Based on your selection, the line items will be sorted and printed in  the ascending order.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/point-of-sale/misc/the_document_printing_preferences_dialog_box_general_pos.html">The  Document Printing Preferences Dialog Box - Printing Preferences</a></dd>
+</dl>
+
+
+
+
+</div>

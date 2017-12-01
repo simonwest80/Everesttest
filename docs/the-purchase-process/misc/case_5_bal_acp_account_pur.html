@@ -1,0 +1,356 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="case-5-partial-shipments---costs-are-different-and-tax-amounts-are--considered---acp-adjustment-entry-is-used">Case 5: Partial Shipments - Costs are Different and Tax Amounts are  considered - ACP (Adjustment) Entry is used</h1>
+
+<p>In Case 5, there are two line items with different inventory control  accounts. The PO is created first, next the PR is created, and then the  PI.</p>
+
+<p><strong>Purchase Order</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Item</td>
+      <td>Cost</td>
+      <td>Ordered Quantity</td>
+      <td>Add-on Cost Amount</td>
+      <td>Recoverable Tax Amount</td>
+      <td>Non-recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>101 FGTips</td>
+      <td>10.00</td>
+      <td>10</td>
+      <td>20.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>102 Wheels</td>
+      <td>15.00</td>
+      <td>10</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Notice that the quantity ordered for each line item is 10.</p>
+
+<p><strong>Purchase Receipt</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Item</td>
+      <td>Cost</td>
+      <td>Received Quantity</td>
+      <td>Add-on Cost Amount</td>
+      <td>Recoverable Tax Amount</td>
+      <td>Non-recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>101 FGTips</td>
+      <td>9.00</td>
+      <td>7</td>
+      <td>20.00</td>
+      <td>3.78</td>
+      <td>2.52</td>
+    </tr>
+    <tr>
+      <td>102 Wheels</td>
+      <td>15.00</td>
+      <td>7</td>
+      <td>30.00</td>
+      <td>6.30</td>
+      <td>4.20</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Notice for each line item that while 10 were ordered, only 7 were received.  The cost for 101 FGTips is also less than on the purchase order. The purchase  order shows 10.00 and the purchase receipt shows 9.00.</p>
+
+<p><strong>Purchase Receipt - Accounting Entries on Received  Quantity</strong></p>
+
+<p>The table below shows the accounting entries for 7 received items for  both line items.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>INV - 101 FGTips</td>
+      <td>85.52</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>INV - 102 Wheels</td>
+      <td>139.20</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ACP</td>
+      <td> </td>
+      <td>224.72</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>ACP (PR - Received) 101 FGTips = (  9.00 * 7) + 20.00 + 2.52 = 85.52</p>
+
+<p><strong>ACP  (PR - Received) 102 Wheels = (15.00 * 7) + 30.00 + 4.20 = 139.20</strong></p>
+
+<p>ACP (Total PR Received) = <strong>224.72</strong></p>
+
+<p><strong>Purchase Invoice - Received Amount</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Item</td>
+      <td>Cost</td>
+      <td>Received Quantity</td>
+      <td>Received Add-on Cost Amount</td>
+      <td>Recoverable Tax Amount</td>
+      <td>Non-recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>101 FGTips</td>
+      <td>10.00</td>
+      <td>3</td>
+      <td>5.00</td>
+      <td>1.80</td>
+      <td>1.20</td>
+    </tr>
+    <tr>
+      <td>102 Wheels</td>
+      <td>15.00</td>
+      <td>3</td>
+      <td>5.00</td>
+      <td>2.70</td>
+      <td>1.80</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For each line item on the purchase invoice, 3 more items were received.  Notice that the cost is now 10 for 101 FGTips.</p>
+
+<p><strong>Purchase Invoice - Accounting Entries on Received  Quantity</strong></p>
+
+<p>The table below shows the accounting entries for the remaining 3 items  received for both line items.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>INV - 101 FGTips</td>
+      <td>36.20</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>INV - 102 Wheels</td>
+      <td>51.80</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ACP</td>
+      <td> </td>
+      <td>88.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>ACP (PI - Received) 101 FGTips = (10.00 * 3) + 5.00 + 1.20 = 36.20</p>
+
+<p><strong>ACP  (PI - Received) 102 Wheels = (15.00 * 3) + 5.00 + 1.80 = 51.80</strong></p>
+
+<p>ACP (Total PI Received) = <strong>88.00</strong></p>
+
+<p><strong>Purchase Invoice - Invoiced Amount</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Item</td>
+      <td>Cost</td>
+      <td>Invoiced<br /><br /><br />Quantity</td>
+      <td>Invoiced<br /><br /><br />Add-on Cost Amount</td>
+      <td>Recoverable Tax Amount</td>
+      <td>Non-recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>101 FGTips</td>
+      <td>10.00</td>
+      <td>10</td>
+      <td>25.00</td>
+      <td>6.00</td>
+      <td>4.00</td>
+    </tr>
+    <tr>
+      <td>102 Wheels</td>
+      <td>15.00</td>
+      <td>10</td>
+      <td>40.00</td>
+      <td>9.00</td>
+      <td>6.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Purchase Invoice - Accounting Entries on Invoiced  Quantity</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>ACP</td>
+      <td>325.00</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>R-Tax</td>
+      <td>15.00</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>AP</td>
+      <td> </td>
+      <td>340.00</td>
+    </tr>
+    <tr>
+      <td>ACP (Adj)</td>
+      <td> </td>
+      <td><strong>12.28</strong></td>
+    </tr>
+    <tr>
+      <td>PPV</td>
+      <td>12.28</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>ACP (PI - Invoiced) 101 FGTips = (10.00 * 10) + 25.00 + 4.00 = 129.00</p>
+
+<p><strong>ACP  (PI - Invoiced) 102 Wheels = (15.00 * 10) + 40.00 + 6.00 = 196.00</strong></p>
+
+<p>ACP (Total PI Invoiced) = <strong>325.00</strong></p>
+
+<p><strong>Summary of the ACP and ACP (Adjustment) Account  Entries</strong></p>
+
+<p>The following table shows a summary of the ACP and ACP (Adjustment)  account entries:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Document</td>
+      <td>Account</td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>PR - Received Quantity</td>
+      <td>ACP</td>
+      <td> </td>
+      <td>224.72</td>
+    </tr>
+    <tr>
+      <td>PI - Received Quantity</td>
+      <td>ACP</td>
+      <td> </td>
+      <td>88.00</td>
+    </tr>
+    <tr>
+      <td>PI - Invoiced Quantity</td>
+      <td>ACP</td>
+      <td>325.00</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ACP (Adj)</td>
+      <td> </td>
+      <td>12.28</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The <strong>Accrued Purchase (Adjustment)</strong>  entry is the amount pertaining to the difference between the ACP amount  of the Invoiced Quantity and ACP amount of the Received Quantity. In this  example, the amount invoiced (325.00) is greater than the amount received  (224.72 + 88.00).</p>
+
+<p>Accrued Purchase (Adjustment) = 325 (ACP - Invoiced) - 312.72 (ACP -  Received) = <strong>12.28</strong></p>
+
+<p>Because of this difference, the balance in the ACP account becomes 12.28  and it should be zero to be balanced. To resolve this, the ACP (Adjustment)  account is automatically credited by the system for 12.28. This entry  is used to bring the ACP account balance to zero. The PPV account is debited  for this amount also since it is the amount used to offset the ACP (Adjustment)  account.</p>
+
+<p>The overall result of the previous accounting entries is as follows:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>ACP</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>PPV</td>
+      <td>12.28</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>INV</td>
+      <td>312.72<br /><br /><br />(224.72 + 88.00)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>AP</td>
+      <td> </td>
+      <td>340.00</td>
+    </tr>
+    <tr>
+      <td>Recoverable Tax</td>
+      <td>15.00</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>EXP</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>340.00</td>
+      <td>340.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Notice that the ACP account is in balance.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/create-pi/create-new-pi/balancing_the_acp_account_where_inv_qty_equals_rec_qty_pur.html">Balancing  the Accrued Purchases Account where the Invoiced Quantity of a Line Item  is Equal to the Received Quantity</a></dd>
+</dl>
+
+
+
+
+</div>

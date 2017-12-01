@@ -1,0 +1,147 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="valuation-of-finished-goods">Valuation of Finished Goods</h1>
+
+<p>Finished goods refer to the units of the assembly item that are built.  The finished goods include both defective items and good output. The per  unit value of finished goods is computed by the following formula:</p>
+
+<p>(Actual cost - Scrap Amount)/Required output.</p>
+
+<p>The value of finished goods is the per unit value multiplied by the  number of units of finished goods.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/building-assemblies/img/example.gif" alt="" /></td>
+      <td>The standard input for “Item A”  as defined in the bill of material is as follows:<br /><br /><br /></td>
+      <td><strong>Description</strong></td>
+      <td><strong>Quantity</strong></td>
+      <td><strong>Rate ($)</strong></td>
+      <td><strong>Gross</strong></td>
+      <td><strong>Normal loss</strong></td>
+      <td><br /></td>
+      <td>Item Component A</td>
+      <td>10</td>
+      <td>5</td>
+      <td>11</td>
+      <td>1</td>
+      <td><br /></td>
+      <td>Item Component B</td>
+      <td>2.5</td>
+      <td>3</td>
+      <td>2.5</td>
+      <td>0</td>
+      <td><br /></td>
+      <td>Scrap</td>
+      <td>10</td>
+      <td>10</td>
+      <td> </td>
+      <td> </td>
+      <td><br /><br /><br /><br />100 units of the assembly “Item A” are required.<br /><br /><br />The standard input for 100 units of Item 1 is as follows:<br /><br /><br /></td>
+      <td><strong>Description</strong></td>
+      <td><strong>Quantity</strong></td>
+      <td><strong>Rate($)</strong></td>
+      <td><strong>Total ($)</strong></td>
+      <td><br /></td>
+      <td>Estimated input - component A</td>
+      <td>1100</td>
+      <td>5</td>
+      <td>5500</td>
+      <td><br /></td>
+      <td>Estimated input - component B</td>
+      <td>250</td>
+      <td>3</td>
+      <td>750</td>
+      <td><br /></td>
+      <td>Estimated cost for required output</td>
+      <td> </td>
+      <td> </td>
+      <td>6250</td>
+      <td><br /></td>
+      <td>Scrap</td>
+      <td>10</td>
+      <td>10</td>
+      <td>100</td>
+      <td><br /><br /><br /><br />The actual output is 95 units of Item A. Out of this 90 are good and  5 are defective.<br /><br /><br />The actual input details are:<br /><br /><br /></td>
+      <td><strong>Description</strong></td>
+      <td><strong>Quantity</strong></td>
+      <td><strong>Rate($)</strong></td>
+      <td><strong>Total ($)</strong></td>
+      <td><br /></td>
+      <td>Actual input - component A</td>
+      <td>1100</td>
+      <td>6</td>
+      <td>6600</td>
+      <td><br /></td>
+      <td>Actual input - component B</td>
+      <td>230</td>
+      <td>3.5</td>
+      <td>805</td>
+      <td><br /></td>
+      <td>Actual cost of actual output</td>
+      <td> </td>
+      <td> </td>
+      <td>7405</td>
+      <td><br /></td>
+      <td>Actual scrap</td>
+      <td>9</td>
+      <td>8</td>
+      <td>72</td>
+      <td><br /><br /><br /><br />The rate per unit (of the assembly item) is computed using the following  formula:<br /><br /><br />= (Actual costs - Scrap Amount)/Required output<br /><br /><br />= 73.33<br /><br /><br />Both defectives and good units are valued at the same rate.<br /><br /><br /><strong>Abnormal loss</strong><br /><br /><br />= (Required output - Actual output)* Rate per unit (actual)<br /><br /><br />= 366.65 [(100-95)*73.33]<br /><br /><br /><strong>Cost Variance</strong><br /><br /><br />= Estimated standard costs - Actual costs<br /><br /><br />= -1155 [6250-7405]<br /><br /><br /><strong>Quantity Variance</strong><br /><br /><br />= (Estimated standard quantity/Input of each component - Actual input)*  Standard rate<br /><br /><br /></td>
+      <td><strong>Description</strong></td>
+      <td><strong>Estimated Quantity <br /> - Actual Quantity</strong></td>
+      <td><strong>Rate($)</strong></td>
+      <td>Amount</td>
+      <td><br /></td>
+      <td>Quantity variance for Component A</td>
+      <td>0</td>
+      <td>5</td>
+      <td>0</td>
+      <td><br /></td>
+      <td>Quantity variance for Component B</td>
+      <td>20</td>
+      <td>3</td>
+      <td>60</td>
+      <td><br /></td>
+      <td>Total Qty variance</td>
+      <td> </td>
+      <td> </td>
+      <td>60</td>
+      <td><br /><br /><br /><br /><strong>Rate Variance</strong><br /><br /><br />= Actual input * (Standard rate - Actual rate)<br /><br /><br /></td>
+      <td><strong>Description</strong></td>
+      <td><strong>Estimated Input</strong></td>
+      <td><strong>Standard rate - Actual <br /> rate</strong></td>
+      <td><strong>Variance</strong></td>
+      <td><br /></td>
+      <td>Rate variance - component A</td>
+      <td>1100</td>
+      <td>-1</td>
+      <td>-1100</td>
+      <td><br /></td>
+      <td>Rate variance - component B</td>
+      <td>230</td>
+      <td>-0.5</td>
+      <td>-115</td>
+      <td><br /></td>
+      <td>Total rate variance</td>
+      <td> </td>
+      <td> </td>
+      <td>-1215</td>
+      <td><br /></td>
+      <td>Total variance (quantity variance + rate variance)</td>
+      <td> </td>
+      <td> </td>
+      <td>-1155</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+</div>

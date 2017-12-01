@@ -1,0 +1,66 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---creating-a-sales-invoice">Back End Processes - Creating a Sales Invoice</h1>
+
+<p>The following back-end processes occur  when a sales invoice is created:</p>
+
+<ul>
+  <li>The status  of the sales invoice is ‘Open’.</li>
+  <li>If the sales  invoice is created from an order, and all items ordered are shipped, the  status of the order changes to ‘Closed’. If items remain to be shipped,  the status changes to ‘Backorder’.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/other/document_status_document_information_sales_content.html">Document  Status</a></strong></p>
+
+<ul>
+  <li>The sequence  number of the sales invoice is generated automatically by the system.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/doc-info/document_number_document_information_sales_content.html">Document  Number</a></strong></p>
+
+<ul>
+  <li>
+    <p>When the items  ordered are shipped, the stock status of the item displays the following  changes:</p>
+  </li>
+  <li><strong>Stock 
+ Status of the item</strong> – There is a decrease in the quantity ‘On Reserve’  for the items shipped. If the quantity shipped was committed on the order,  the quantity ‘On Reserve Committed’ reduces. There is a decrease in the  ‘Total Stock’ of the item and a decrease in the available stock and net  free stock.</li>
+  <li><strong>Stock 
+ Status in the assigned stock area</strong> – The assigned stock area is  the stock area to which the item is transferred when the sales invoice  is created. There is an increase in the quantity of item in the ‘Available  Out’ column of the assigned stock area. The stock in the ‘Out’ column  of the item in the assigned stock area increases.</li>
+  <li><strong>Stock 
+ Status in committed stock area</strong> - If the quantity shipped was committed  on the order, the quantity ‘On Reserve’ decreases in the stock area from  which it was committed. The ‘Stock’ of the item in the committed stock  area also decreases.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/docs-profile/options/items/stock_status_items_option_sales_contents.html">Stock  Status</a></p>
+
+<ul>
+  <li>
+    <p><strong>Serial 
+ numbers of serialized/auto-serialized items</strong> - If the item is serialized/auto-serialized,  an entry is added to the <strong>Serial Number 
+ History</strong> of the item.</p>
+  </li>
+  <li>
+    <p><strong>Average 
+ cost of serialized items</strong> - When a serialized item is sold, the  total stock value of that item is reduced by the actual cost of the item.  The average cost of the item is recalculated after the shipment.</p>
+  </li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> The  average cost of 10 units of a serialized item is $100. You ship a unit  whose actual cost is $110. The total value of the 9 items in stock is  $890 ($1000 - $110) and the average cost changes to $98.89 ($890/9).</p>
+
+<ul>
+  <li>Stock value  of items is reduced by the value of items that were shipped.</li>
+  <li>The customer’s  unposted amount  and net balance increases by the value of the invoice. When the sales  journal for the invoice is posted, the posted amount increases and the  unposted amount  reduces.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sis/create-si/create-new-si/accnt-entries/accounting_entries_creating_a_sales_invoice.html">Accounting  Entries - Creating a Sales Invoice</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sis/create-si/create-new-si/creating_a_new_sales_invoice.html">Creating  a Sales Invoice</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,22 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<p>By default the Posting Group assigned to the category to which the item  belongs is associated with the item. You can change the Posting Group  in the <strong>Item</strong> profile.</p>
+
+<p>For existing items, this field is blank, indicating that the Posting  Group for the category to which the item belongs would be considered.  To override the Posting Group of the category, select a Posting Group  in this field. You can define a Posting Group in the <strong>Item</strong>  profile as well as in the <strong>Category</strong>  profile.</p>
+
+<p>The selection of the Posting Group for an item is based on the following  hierarchy:</p>
+
+<p>The Posting Group defined in the <strong>Item</strong>  profile is the first preference, followed by the Posting Group specified  in the <strong>Category</strong> profile. If no  Posting Group is defined in these two profiles, the Posting Group selected  in the <strong>Location-Category</strong> grid  of the <strong>Location</strong> profile is used.  If the <strong>Location-category</strong> grid  does not contain the category to which this item belongs, the Inventory  Posting Group for the location of the stock area is considered. In case  the <strong>Inventory Posting Group Type</strong>  field for the location of the stock area is also left blank, the Posting  Group defined in the company defaults is used.</p>
+
+<p class="warn">: It is not recommended to select a Posting Group  for which an Inventory control account is defined. This account would  override the account specified in the location of the document’s location/sub-location.  As a result discrepancies would occur in the financial and inventory reports.  You may choose to continue, or select another Posting Group in this field.</p>
+
+<p class="note">: The <strong>Sales documents</strong>  and <strong>Purchase documents</strong> sections  will be displayed only for the Non-inventoried items.</p>
+
+
+
+
+</div>

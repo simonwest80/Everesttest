@@ -1,0 +1,204 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="cost-for-commission-calculation-with-multiple-unit-of-measures">Cost for Commission Calculation with Multiple Unit of Measures</h1>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/other-flow-control/the-other-flow-control-dialog-box/other_flow_control_item_cost_sales_summary_tab.html">Type  of Cost Used for Commission Calculations</a></p>
+
+<p>Even though the costs used for commission calculations are based on  preferences, costs shown in the Commission report are shown in the sales  measure.</p>
+
+<p class="example">You want to retrieve an item with multiple  measures into a sales document. You have the following information for  Item ABC:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Measure</td>
+      <td>MT</td>
+      <td>KG</td>
+      <td>LBS</td>
+      <td>GMS</td>
+    </tr>
+    <tr>
+      <td>Stock Measure</td>
+      <td>-</td>
+      <td>KG with a decimal accuracy of 3</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Sales Measure</td>
+      <td>-</td>
+      <td>-</td>
+      <td>LBS (default sales measure) with a decimal accuracy  of 4</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Sales Measure</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>GMS with a decimal accuracy of 0</td>
+    </tr>
+    <tr>
+      <td>Conversion Factor</td>
+      <td> </td>
+      <td>1 KG = .001 MT<br /><br /><br />1 KG = 2.2046226 LBS<br /><br /><br />1 KG = 1000 GMS</td>
+      <td>1 LB = 0.4535924 KG</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Item Price</td>
+      <td>$2000</td>
+      <td>$25</td>
+      <td>$11.25</td>
+      <td>$.25</td>
+    </tr>
+    <tr>
+      <td>Average cost of item</td>
+      <td> </td>
+      <td>$20.25 (Converted from sales measure)</td>
+      <td>$20.25/2.2046226 = $9.19</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Total Stock</td>
+      <td> </td>
+      <td>10.120 KG</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You retrieve Item ABC into the sales document.  This  information is used for scenarios 1 and 2.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Item</td>
+      <td>Item Price</td>
+      <td>Cost</td>
+      <td>Quantity</td>
+      <td>UOM</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>ABC</td>
+      <td>$11.25</td>
+      <td>$9.19</td>
+      <td>1.5000</td>
+      <td>LBS</td>
+      <td>$16.88</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Scenario 1 – Change the Sales Measure</strong></p>
+
+<p>You change the sales measure to GMS and the quantity changes to 1 since  the decimal accuracy of GMS is 0 and the quantity of 1.5000 cannot be  retained. The price updates to 0.25 for the GMS measure automatically.</p>
+
+<p>1.5000 LBS * .4535924 KG/LB = .6803886 KG sold</p>
+
+<p>The Total Stock is now 10.120 KG – .6803886 KG sold = 9.4396114 KG</p>
+
+<p><strong>Scenario 2 – Customer Level Pricing and Special  Pricing</strong></p>
+
+<p>Assume that customer level pricing and special pricing are defined only  for the LBS measure. The price for Level 1 is $21 and Level 2 is $22.  Special pricing for the LBS measure is $21.50 and is not applicable to  the customer pricing levels.</p>
+
+<p>When you retrieve the item in LBS for a Level 1 customer, the price  is $21. When you retrieve the item in LBS for a Level 2 customer, the  price is $22. If you change the measure to GMS, the price changes to $.25  because customer level and special pricing is not defined for this measure.</p>
+
+<p class="example"><strong>Sales Price Calculation with %Markup when  Last Cost **Is 
+ Not</strong> Available in the Sales Measure**</p>
+
+<p>You want to know how the sales price is calculated using %Markup when  the last cost is not available in the sales measure. You have the following  information:</p>
+
+<p>Stock Measure: PCS</p>
+
+<p>Purchase Measure: Box and Carton</p>
+
+<p>Sales Measure: Case with a percent markup over last cost of 20%</p>
+
+<p>1 Box = 10 PCS</p>
+
+<p>Carton = 50 PCS</p>
+
+<p>Case = 100 PCS</p>
+
+<p>You purchased the item in the Box measure at $20 and then purchased  the item in the Carton measure at $90. The <strong>Last 
+ Cost</strong> for the stock measure is shown as $20/10 = $2. After you purchased  the item in a Carton, the <strong>Last Cost</strong>  for the stock measure is shown as $90/50 = $1.80.</p>
+
+<p>When the item is retrieved into the sales document with a measure of  Case, the item price is calculated using a conversion from the stock measure  as follows:</p>
+
+<p>Price Converted from the Stock Measure + %Markup Based on Stock Measure  =</p>
+
+<p>($1.80*100) + [($1.8*100) * .20)] = 216</p>
+
+<p class="example"><strong>**Sales Price 
+ Calculation with %Markup when Last Cost Is 
+ Available in the Sales Measure</strong>**</p>
+
+<p>You want to know how the sales price is calculated using %Markup when  the last cost is available in the sales measure. You have the following  information:</p>
+
+<p>Stock Measure: Each</p>
+
+<p>Purchase Measures: Box and Each</p>
+
+<p>Sales Measures: Box and Each</p>
+
+<p>1 Box = 10 Each</p>
+
+<p>You purchased 5 units for $1 each and then purchased a box for $5. The  <strong>Last Cost</strong> on the <strong>Inventory</strong>  tab of the <strong>Item</strong> profile shows  $0.50. The <strong>Last Cost</strong> on the <strong>Purchase</strong> tab shows $1 for Each and $5  for Box.</p>
+
+<p>You set the percent markup for Each as 20%. If you sell one unit (1  Each), the price is calculated based on the last cost in the purchase  measure for Each ($1*1.2).  It  is not calculated on the last cost in the stock measure for Each ($0.5*1.2).</p>
+
+<p class="example"><strong>Calculate the Average Cost for Debiting to  COGS or Commission Calculation</strong></p>
+
+<p>You want to know how the average cost of an item sold is calculated.  You have the following information:</p>
+
+<p>Stock Measure: PCS</p>
+
+<p>Purchase Measure: Box</p>
+
+<p>Sales Measure: Carton</p>
+
+<p>1 Box = 20 PCS</p>
+
+<p>1 Carton = 100 PCS</p>
+
+<p>The average cost of each piece (PCS) is $18 and the current stock of  the item is 500 PCS.</p>
+
+<p>If you create a sales invoice for 1 carton, the average cost of the  item sold is calculated by multiplying the average cost of the stock measure  by the conversion factor to the sales measure = $18/PCS * 100PCS/Carton  = $1,800/Carton.</p>
+
+<p class="example"><strong>**Calculate 
+ the Last Cost used for Commission Calculation</strong>**</p>
+
+<p>You want to know how the last cost of an item sold is calculated for  commission calculation. You have the following information:</p>
+
+<p>Stock Measure: PCS</p>
+
+<p>Purchase Measure: Box</p>
+
+<p>Sales Measure: Carton</p>
+
+<p>1 Box = 20 PCS</p>
+
+<p>1 Carton = 100 PCS</p>
+
+<p>The last cost of each piece (PCS) is $22 and the current stock is 500  PCS.</p>
+
+<p>If you create a sales invoice for 1 carton, the last cost is calculated  by multiplying the last cost in the stock measure by a conversion factor  to obtain the last cost in the sales measure = $22/PCS * 100PCS/Carton  = $2,200/Carton.</p>
+
+<p>If the last cost is available in the Carton measure, the last cost in  the Carton measure is used and conversion from the stock measure is not  necessary. If Carton is also defined as the purchase measure and the last  cost is $12, the last cost for the commission calculation is $12 instead  of $22.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/item-info/details/cost_item_details_grid_sales_content.html">Cost</a></dd>
+</dl>
+
+
+
+
+</div>

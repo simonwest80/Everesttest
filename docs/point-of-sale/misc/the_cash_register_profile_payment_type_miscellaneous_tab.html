@@ -1,0 +1,78 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-cash-register-profile---payment-type---miscellaneous-tab">The Cash Register Profile - Payment Type - Miscellaneous Tab</h1>
+
+<dl>
+  <dt><strong>Allow split payments in multiple currencies</strong></dt>
+  <dd>Select this check box to receive payments and change  due from customers in multiple currencies. The following columns are added  to the <strong>Payment Details</strong> dialog  box.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Column name</td>
+      <td>Displays the</td>
+    </tr>
+    <tr>
+      <td>Pay Rate</td>
+      <td>Exchange rate of the payment currency with respect to  the base currency</td>
+    </tr>
+    <tr>
+      <td>Currency</td>
+      <td>Payment currency</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: The <strong>Amount</strong>  column in the <strong>Payment Details</strong>  dialog box displays the amount to be paid in the payment currency. If  you do not select this option, the amount is displayed in the document  currency.</p>
+
+<dl>
+  <dt><strong>View balance and change due in any currency</strong></dt>
+  <dd>Select this check box to view the balance amount  and change due in multiple currencies. After a part of the amount is paid  in a particular currency, the balance amount can be viewed in another  currency. Further, after making payment in a particular currency, you  can view the amount of change due in another currency. The <strong>Balance 
+ In</strong> or <strong>Change In</strong> fields  are displayed if the above option is selected.</dd>
+  <dd>If the payment amount is less than or equal to the  document total, you will see the <strong>Balance 
+ in</strong> field and if the payment amount is more than the document total,  you will see the <strong>Change in</strong> field.  By default, the <strong>Balance in</strong> field  displays the amount in document currency.</dd>
+  <dd><strong>Everest</strong>  displays the change due through an information window both in the base  currency as well as in the currency selected for change due.</dd>
+  <dd>This field is enabled only when you select the <strong>Allow split payments in multiple currencies</strong>  option.</dd>
+</dl>
+
+<p class="note">If different payment currencies are used, different transaction will  be created. But if different payment methods are used, then different  journals will be created for each payment method, if the associated bank  account is different for each method.</p>
+
+<dl>
+  <dt><strong>Allow change due against non-cash payments</strong></dt>
+  <dd>Select this check box to return change due in cash  to a customer against excess amount received in any other mode of payment  such as check, credit card, etc. However, you require adequate security  rights to do so.</dd>
+  <dt><strong>Default payment  method for change due</strong></dt>
+  <dd>Specify the default payment method to be used for  change due to customers. The payment method defined for change due will  be used as the default payment method for change due when payments are  received through the relevant cash register.</dd>
+  <dd>When you receive an excess amount of money from  a customer on account of a Point-of-Sale transaction, you will have to  refund the change due to the customer. This option allows you to specify  the default payment method to be used for change due to the customer.  Only cash type of payment methods are available for selection.</dd>
+  <dd>You can also specify the default payment method  to be used for change due to customers in the Accounting dialog box (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Defaults</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Miscellaneous</strong>  tab) and in the <strong>Others</strong> tabs of  the <strong>Workstation Settings</strong> profile  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Workstation</strong><strong>Settings</strong> &gt; <strong>General</strong>  tab).</dd>
+</dl>
+
+<p class="note">The precedence for using the default payment method  for change due by <strong>Everest</strong> is:</p>
+
+<ol>
+  <li>
+    <p>Cash register</p>
+  </li>
+  <li>
+    <p>Workstation settings</p>
+  </li>
+  <li>
+    <p>The preference setting in accounting defaults</p>
+  </li>
+</ol>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/point-of-sale/misc/journal_group_information_cash_reg.html">Payment  Type - Journal Group Information</a></dd>
+  <dd><a href="/versata-everest-docs/point-of-sale/pos-setup/cash-registers/setup/profile/the_cash_register_profilepos_set_up.html">The  Cash Register Profile</a></dd>
+  <dd><a href="/versata-everest-docs/point-of-sale/pos-setup/cash-registers/setup/setting_up_a_cash_register_pos_set_up.html">Setting  up a Cash Register</a></dd>
+</dl>
+
+
+
+
+</div>

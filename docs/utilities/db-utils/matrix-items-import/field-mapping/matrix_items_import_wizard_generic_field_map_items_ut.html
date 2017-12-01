@@ -1,0 +1,113 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="matrix-items-import-wizard---generic---field-map-items">Matrix Items Import Wizard - Generic - Field map (ITEMS)</h1>
+
+<p>The <strong>Generic - Field map 
+ (ITEMS)</strong> section maps the fields to be imported (in the source table)  with the fields in the destination table. Fields that are not mapped in  the destination table can have a default value or auto incremented. Map  each field in the Source Table to the appropriate field in the Destination  Table. This is essentially mapping the details of your matrix items to  the fields of the matrix group to be created in this screen.</p>
+
+<p><img src="/versata-everest-docs/utilities/img/importmatrix_field_map_items_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Matrix Items Import Wizard - Generic  Field Map (ITEMS)</strong></p>
+
+<p>The Generic - Field map (ITEMS) screen of the Wizard contains  two panels:</p>
+
+<ul>
+  <li><strong>Destination</strong>  - The Destination panel displays the Column Name, Description, Type and  Size of the <strong>Everest</strong> data. The  Mandatory column indicates if a field is mandatory.</li>
+  <li><strong>Source</strong>  - The Source panel displays the data in the Source field. You will map  the fields of your matrix items in this column.</li>
+</ul>
+
+<p>Destination Panel</p>
+
+<p>The <strong>Destination</strong> panel  consists of the following columns:</p>
+
+<dl>
+  <dt><strong>Column Name</strong></dt>
+  <dd>The <strong>Column Name</strong>  lists the different specifications of the matrix group as in image above.</dd>
+  <dt><strong>Description</strong></dt>
+  <dd>The <strong>Description</strong>  column details the exact description of each field of the Column. For  example, the first attribute Color is described in the Description column  as Elements of Color.</dd>
+  <dt><strong>Type</strong></dt>
+  <dd>The <strong>Type</strong>  column denotes the type of the data you can enter for this field. For  example, Decimal for Purchase Value.</dd>
+  <dt><strong>Size</strong></dt>
+  <dd>The <strong>Size</strong>  column denotes the size of the data for the field. For example, 40 in  the Color field denotes that this field can take a maximum of 40 characters.</dd>
+  <dt><strong>Mandatory</strong></dt>
+  <dd>The <strong>Mandatory</strong>  column indicates if a field is mandatory.</dd>
+</dl>
+
+<ul>
+  <li><strong>Yes</strong>  - The value Yes indicates that you have to map this field.</li>
+  <li><strong>No</strong>  - The value No indicates that this field is optional.</li>
+</ul>
+
+<p>Source Panel</p>
+
+<p>The <strong>Source</strong> panel  displays a sample view of the data in the source file.  All  mandatory fields (except Custom fields) in the destination file must be  mapped to the relevant fields in the source file.</p>
+
+<p>The Source column consists of two columns:</p>
+
+<dl>
+  <dt><strong>Column Name</strong></dt>
+  <dd>In the <strong>Column Name</strong>,  you have to map the field from your Excel spreadsheet with the corresponding  field in the Description column.</dd>
+  <dt><strong>Sample View</strong></dt>
+  <dd>The <strong>Sample View</strong>  column displays the field that you have just mapped. For example, Color  is displayed as Red or R, the exact specification you have given in your  spreadsheet.</dd>
+</dl>
+
+<p class="steps">To map the fields from your Spreadsheet to  the Everest Matrix Items Import Wizard, do the following:</p>
+
+<ul>
+  <li>Click the first  row of <strong>Column Name</strong>. The drop-down  menu displays a Pop-up window with two columns: Source Field and Sample  Data.</li>
+</ul>
+
+<p><strong>Source Field</strong> - denotes  the value in each column of your Excel spreadsheet. For example, ELEMENT  denotes the <strong>Element Separator</strong>  and <strong>Prefix</strong> denotes the prefix  for the matrix group.</p>
+
+<p><strong>Sample Data</strong> - displays  the value from the corresponding cell in your Excel spreadsheet.</p>
+
+<ul>
+  <li>Select the appropriate  value for each field in the <strong>Source Field</strong>.  For example, select Color in the Source field and you will see that the  Sample data is populated with R denoting Red. Check if this is the correct  value.</li>
+  <li>Select the appropriate  values in a similar manner for all the mandatory fields.</li>
+</ul>
+
+<p>: <img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/db-utils/matrix-items-import/field-mapping/mapping_default_and_auto_increment_values_matrix_items_ut.html">Mapping  Default and Auto Increment Values - Matrix Items</a></p>
+
+<ul>
+  <li>Click <strong>Next</strong>.  You will see the <strong>Matrix 
+ Items Import Wizard - Generic - Import</strong> screen of the Wizard.</li>
+</ul>
+
+<p><strong>Settings Button</strong></p>
+
+<p>Save Map Settings</p>
+
+<p class="steps">To save your mapping settings, do the following:</p>
+
+<ul>
+  <li>Map all the fields  from your excel file.</li>
+  <li>Click the <strong>Settings</strong> button.</li>
+  <li>Select <strong>Save 
+ Field Map Settings As</strong> button to save the mapped settings along  with the file settings to a .Map file for later use. The file path, file  format, and file setup information is saved along with the Field Mapping  settings.</li>
+</ul>
+
+<p>Load Map Settings</p>
+
+<p class="steps">To load the mapping settings automatically,  do the following:</p>
+
+<ul>
+  <li>Click the <strong>Settings</strong> button.</li>
+  <li>Click the <strong>Load Field Map Settings</strong> button.</li>
+  <li>Select the saved  *.map file. The fields will be mapped automatically.</li>
+</ul>
+
+<dl>
+  <dt><strong>Advanced Button</strong></dt>
+  <dd>You can change the format of the source data characters  by converting into upper case, lower case, proper case or smart case.  Click the <strong>Advanced</strong> button at the  bottom of the screen to access the <strong>Filters</strong>  dialog box.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/db-utils/matrix-items-import/everest_matrix_items_import_wizard_ut.html">Everest  Matrix Items Import Wizard</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,69 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="serialized-items">Serialized Items</h1>
+
+<p>Serial numbers of the item to be attached to the sales order or invoice  may be retrieved in any of the following ways:</p>
+
+<ul>
+  <li><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/enter-cmt-qty/ser/retrieving_individual_serial_numbers.html">One  by one</a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/enter-cmt-qty/ser/retrieving_a_range_of_serial_numbers.html">As  a range</a></li>
+  <li><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/enter-cmt-qty/ser/retrieving_manufacturer_s_serial_number.html">By  manufacturer’s serial number</a></li>
+</ul>
+
+<p><strong>Everest</strong> allows you to select  serial numbers from stock areas for the logged in location if you select  the <strong>Allow Users to access only those 
+ stock areas in the logged in location</strong> check box (path: <strong>File 
+ &gt; Set up &gt; Preferences &gt; Flow Control &gt; Other Flow Control 
+ &gt; General</strong> tab).</p>
+
+<p class="note">When you attach a serial number of an item not present  on the sales order or invoice, you are prompted with a message asking  you whether you want to serialize the item that does not exist on the  order. Click <strong>Yes</strong> to attach the  item on the order or invoice.</p>
+
+<p>This prompt is received if the option <strong>Prompt 
+ when trying to retrieve and serialize an item that is not already present 
+ in a document</strong> (path: <strong>File &gt; 
+ Setup &gt; Preferences &gt; Flow Control &gt; Documents &gt; Miscellaneous 
+ &gt; Others &gt; Others 2</strong> tab) is selected.</p>
+
+<p>If you retrieve the same item more than once into a document, and retrieve  or scan a range of serial numbers into the system, the serial numbers  are first assigned to the highlighted line item in the Item Details Grid.  Additional serial numbers are attached to the remaining line items.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/sales/img/example.gif" alt="" /></td>
+      <td>The item details contained in sales order # 1001 is  detailed below:<br /><br /><br /></td>
+      <td><strong>Line #</strong></td>
+      <td><strong>Item Code</strong></td>
+      <td><strong>Quantity Column</strong></td>
+      <td><br /></td>
+      <td>1</td>
+      <td>NESDESSERT</td>
+      <td>2</td>
+      <td><br /></td>
+      <td>2</td>
+      <td>NESCHOC</td>
+      <td>1</td>
+      <td><br /></td>
+      <td>3</td>
+      <td>NESDESSERT</td>
+      <td>3</td>
+      <td><br /><br /><br /><br />If you scan serial numbers 1, 2, 3, 4 and 5 while line  #1 is selected, serial numbers 1 and 2 are assigned to line 1 while the  remaining are assigned to line 3. If the serial numbers are scanned into  the system when line 3 is selected, serial numbers 1, 2 and 3 are assigned  to line 3 while the remaining are assigned to line 1.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If you scan additional serial numbers, for example, 6 and 7, into the  system, <strong>Everest</strong> asks you if the  serial numbers have to be committed to the order. If you confirm this,  the additional serial numbers are attached to the selected line item.</p>
+
+<h6 id="see_also">{:.see_also}</h6>
+<dl>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/item-info/details/ordered_committed_and_shipped_columns_in_sales_orders.html">Ordered,  Committed and Received columns</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/enter-cmt-qty/serial_number_history.html">Serial Number  History</a></dd>
+</dl>
+
+
+
+
+</div>

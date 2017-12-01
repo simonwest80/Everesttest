@@ -1,0 +1,110 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="report-batch-scheduling-dialog-box">Report Batch Scheduling Dialog Box</h1>
+
+<p>Occurs</p>
+
+<dl>
+  <dt><strong>Daily</strong></dt>
+  <dd>Select the <strong>Daily</strong>  option to set a daily schedule for running the report batch. The <strong>Every &lt;number of &gt; Day(s)</strong> field  is enabled. Specify the frequency of the schedule in this field.</dd>
+  <dd><img src="/versata-everest-docs/reports-manager/img/example.gif" alt="" /> To execute report batch once in every 5 days, enter 5 in  this field.</dd>
+  <dd>The maximum number of days that can be specified  is 100.</dd>
+  <dt><strong>Weekly</strong></dt>
+  <dd>Select the <strong>Weekly</strong>  option to set a weekly schedule for running report batches. The <strong>Every &lt;number of&gt; Week(s)</strong> field  and the <strong>Week day</strong> check boxes are  enabled. Select the required fields based on your schedule.</dd>
+  <dd><img src="/versata-everest-docs/reports-manager/img/example.gif" alt="" /> To execute report batch every alternate Friday, enter 2 in  the <strong>Every &lt;number of&gt; Week(s)</strong>  field and select the <strong>Friday</strong> check  box.</dd>
+  <dd>The maximum number of weeks that can be specified  is 100.</dd>
+  <dt><strong>Monthly</strong></dt>
+  <dd>Select the <strong>Monthly</strong>  option to set a monthly schedule for running report batches. The maximum  number of months that can be specified is 100.</dd>
+  <dd>You can set the monthly schedule in two ways:</dd>
+</dl>
+
+<ul>
+  <li>Based on the  day of the month</li>
+</ul>
+
+<p>: <img src="/versata-everest-docs/reports-manager/img/example.gif" alt="" /> Report batches can be  run on the 30th day of every third month.</p>
+
+<ul>
+  <li>Based on the  week day</li>
+</ul>
+
+<p>: <img src="/versata-everest-docs/reports-manager/img/example.gif" alt="" /> Report batches can be  run on the last Friday of every month.</p>
+
+<p>Frequency</p>
+
+<p>This section allows you to define when the report batches have to be  executed. The following options are available:</p>
+
+<ul>
+  <li>The report  batches can be run at a specified time.</li>
+  <li>The report  batches can be run at specified hourly intervals.</li>
+</ul>
+
+<p class="note">These options are used in combination with the daily, weekly or monthly  schedule.</p>
+
+<dl>
+  <dt><strong>Occurs once at</strong></dt>
+  <dd>Select this option to run report batches at a specified  time.</dd>
+  <dd><img src="/versata-everest-docs/reports-manager/img/example.gif" alt="" /> You can schedule to run report batch  every alternate day at 12:00 p.m.</dd>
+  <dt><strong>Occurs every</strong></dt>
+  <dd>Select this option to schedule report batches to  be executed at specified hourly intervals.</dd>
+  <dd><img src="/versata-everest-docs/reports-manager/img/example.gif" alt="" /> If you set a frequency of 4 hours along with the daily option  of 3 days, the report batches will be executed once in 4 hours on every  third day.</dd>
+  <dt><strong>Starting at</strong></dt>
+  <dd>Specify the time when the report batch should start  execution. This option is enabled only if you select the <strong>Occurs 
+ every</strong> option.</dd>
+  <dd><img src="/versata-everest-docs/reports-manager/img/example.gif" alt="" /> In the above instance, if you select the starting time as  10:00 a.m. and ending time as 6:00 p.m., the report batch will run once  in 4 hours on every third day, i.e., once at 2:00 p.m. and again at 6:00  p.m.</dd>
+  <dt><strong>Ending at</strong></dt>
+  <dd>Enter the time when the report batch should stop  execution.</dd>
+</dl>
+
+<p>Duration</p>
+
+<p>You can set the time period during which the schedule must be functional.</p>
+
+<dl>
+  <dt><strong>Type</strong></dt>
+  <dd>This field allows you to specify the duration for  which the report batch job scheduling will be functional. The drop-down  menu offers the following options:</dd>
+</dl>
+
+<ul>
+  <li><strong>Date 
+ Range</strong> - Specify the starting date and ending date for which the  parameters selected in the <strong>Occurs</strong>  and <strong>Frequency</strong> sections apply.  Execution of report batches will start and stop on the dates specified  here.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/reports-manager/img/example.gif" alt="" />  If  you want to execute a report batch for the month of March, you must specify  3/1/2003 in the <strong>Start</strong> <strong>Date</strong>  field and specify 3/31/2003 in the <strong>End</strong><strong>Date</strong> field.</p>
+
+<ul>
+  <li><strong>Indefinitely 
+ from Start Date</strong> - Specify the starting date for which the parameters  selected in the Occurs and Frequency sections apply. The report batches  will be executed for an indefinite time period, and will start from the  date specified in the <strong>Start</strong> <strong>Date</strong> field.</li>
+</ul>
+
+<dl>
+  <dt><strong>Start Date</strong></dt>
+  <dd>Specify the date from which the report batch should  be executed.</dd>
+  <dt><strong>End Date</strong></dt>
+  <dd>Specify the date up to which the report batch should  execute.</dd>
+</dl>
+
+<p class="note">The <strong>End Date</strong> fields appears  only if you select <strong>Date</strong> <strong>Range</strong> in the <strong>Type</strong>  field.</p>
+
+<dl>
+  <dt><strong>Execute Now</strong></dt>
+  <dd>The report batches must be executed periodically  to reflect the changes in the database. Click this button to execute the  report batch immediately.</dd>
+  <dt><strong>Save Schedule</strong></dt>
+  <dd>Click this button to save the changes made and close  the dialog box.</dd>
+</dl>
+
+<p class="note">To schedule a report batch, the SQL Agent  must be constantly running in the background on your computer.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/reports-manager/manager/window/report-batches/schedule-a-report-batch/scheduling_batches.html">Scheduling Batches</a></dd>
+</dl>
+
+
+
+
+</div>

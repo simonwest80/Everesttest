@@ -1,0 +1,53 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="non-inventoried-items">Non-inventoried Items</h1>
+
+<p>Non-inventoried items are items for which you either do not or cannot  maintain stock.</p>
+
+<p class="example">You may not want to maintain stocks of boxes  of paper clips, and you cannot maintain stock of a service item like shipping  charges.</p>
+
+<p>If you set up an item as a non-inventoried item:</p>
+
+<ul>
+  <li><strong>Everest</strong>  does not maintain stocks of the item.</li>
+  <li>You can enter  the quantity of the item bought or sold.</li>
+  <li><strong>Everest</strong>  computes the purchase cost of the item based on the quantity purchased.</li>
+</ul>
+
+<p class="example">Paper Clips and Shipping are two non-inventoried  items. You buy 10 boxes of paper clips for $10 and another 20 boxes for  $10.50. Shipping charges for each purchase are $3 and $4 respectively.  <strong>Everest</strong> computes the average cost  for paper clips at {(10*10)+(20*10.5)}/(10+20) = $10.33, but will not  maintain the stock on hand. In case of Shipping, <strong>Everest</strong>  computes the average cost at $3.50 and the last cost at $4.</p>
+
+<p>Non-inventoried items are created for:</p>
+
+<ul>
+  <li>Items that  are to be tracked for their value without being included in stock.</li>
+</ul>
+
+<p class="example">A network services company does not want to  maintain inventory for the cable wires it uses, but would like to track  the expense on such wires as well as the value of the cables in stock.  The company could create this as a non-inventoried item and associate  an asset account with it.</p>
+
+<ul>
+  <li>Expense items  billed to you by vendors, which you want to record in purchase documents.</li>
+</ul>
+
+<p class="example">Freight charges that you pay to vendors on shipments.</p>
+
+<ul>
+  <li>Services that  you want to bill customers for.</li>
+</ul>
+
+<p class="example">Repair charges, maintenance services etc.</p>
+
+<p>The accounts to be used for these item types are specified in the <strong>Accounts</strong>  tab of the <strong>Item</strong> profile (path:  <strong>Inventory &gt; Items</strong>).</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/inventory-type/inventory_type.html">Inventory Type</a></dd>
+</dl>
+
+
+
+
+</div>

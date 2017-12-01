@@ -1,0 +1,189 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" x-save-method="compute-relative" src="/versata-everest-docs/reports/misc/ehlpdhtm.js"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<p>If there are only Unposted purchase Journals and no payment journals,  then none of these purchase documents appear in the report when the <strong>Posted Transactions Only</strong> option is selected.</p>
+
+<p>Similarly if there are Unposted purchase Journals with corresponding  payment journals that are still Unposted, then the report will still not  display these purchase journals.</p>
+
+<p class="example">Create a purchase invoice for $200 but do  not post the corresponding purchase journal in <strong>Everest</strong>.  Make a $100 payment and do not post the payment journal. If you select  the option <strong>Posted Transactions Only</strong>,  then neither the purchase journal nor the payment journal appears in <strong>Everest</strong>.</p>
+
+<p>If you select the option <strong>Show Payment 
+ Details</strong>, the details of the payment transaction are not displayed.</p>
+
+<p>Where a purchase journal is yet to be posted, but the corresponding  payment journal has been posted, then the report will display the document  amount as zero. In this situation, the document <strong>Paid</strong>  column will show the paid amount from the payment journal and the document  balance will be displayed as negative since Document Amount (0) - Document  Paid (xxx) = Document Balance (-xxx).</p>
+
+<p class="example">Create a purchase invoice for $200 but do  not post the corresponding purchase journal in <strong>Everest</strong>.  Make a $100 payment and post the payment journal. If you select the option  <strong>Posted Transactions Only</strong>, the  posted payment journal is displayed but the document amount is zero, the  document paid shows the paid amount ($100) and the document balance is  negative (-$100).</p>
+
+<p>If you select the option <strong>Show Payment 
+ Details</strong>, the details of the posted payment transaction are displayed.</p>
+
+<p>If there are posted purchase journals without any corresponding posted  payment journals, then the purchase journal appears in the report with  the document amount displayed, however the <strong>Paid</strong>  column is zero and the document <strong>Balance</strong>  column displays the document amount (which means the document is still  outstanding).</p>
+
+<p class="example">Create a purchase invoice for $200 and post  it in <strong>Everest</strong>. Make a $100 payment  but do not post the payment journal. If you select the option <strong>Posted 
+ Transactions Only</strong>, the posted purchase journal is displayed with  the document amount as $200.00; the document Paid shows the paid amount  as $0.00 (since it is not posted) and the document balance is $200.00  (the entire amount displayed is still outstanding).</p>
+
+<p>Even if you check the <strong>Show Payment 
+ Details</strong> option, the payment details are not shown, as the payment  transaction is not posted.</p>
+
+<p>If there are posted purchase journals and the corresponding payment  journals have been posted, then the purchase journal appears in the report  with the document amount displayed. The document <strong>Paid</strong>  column displays the actual value from the Posted payment journal and the  document <strong>Balance</strong> column displays  the correct balance that is still outstanding (if any).</p>
+
+<p class="example">Create a purchase invoice for $200 and post  it in <strong>Everest</strong>. Make a $100 payment  and post the payment journal. If you select the option <strong>Posted 
+ Transactions Only</strong>, the posted payment journal is displayed, with  the document amount as $200.00; the document <strong>Paid</strong>  column shows the paid amount as $100 and the document <strong>Balance</strong>  is $100 (since only $100.00 is still outstanding).</p>
+
+<p>However, if the document is paid in full, the transaction does not appear  in the report.</p>
+
+<p>If the user has created only manual payment journals without a corresponding  purchase journal and the payment journal is yet to be posted, you will  not find these payment journals in this report.</p>
+
+<p class="example">Create only a payment receipt for $200 but  do not post it in <strong>Everest</strong>. If  you select the option <strong>Posted Transactions 
+ Only</strong>, the posted payment journal is not displayed.</p>
+
+<p>If the user has created only manual payment journals without a corresponding  purchase journal and the payment journal has been posted, then these payment  journals appear in this report and the document amount is shown as zero.  In this situation, the document <strong>Paid</strong>  column will show the paid amount from the payment journal and the document  balance will be displayed as negative since Document Amount (0) - Document  Paid (xxx) = Document Balance (-xxx).</p>
+
+<p class="example">Create only a payment receipt for $200 and  post it in <strong>Everest</strong>. If you select  the option <strong>Posted Transactions Only</strong>,  the posted payment journal is displayed but the document amount is zero,  the document paid shows the paid amount ($100) and the document balance  is negative (-$100).</p>
+
+<p>If you select the option <strong>Show Payment 
+ Details</strong>, the details of the posted payment transaction are displayed.</p>
+
+<h1 id="account-payable-aging-dialog-box">Account Payable Aging Dialog Box</h1>
+
+<dl>
+  <dt><strong>Group By</strong></dt>
+  <dd>Group the report based on the vendor name, code  or balance. The options available are:</dd>
+</dl>
+
+<ul>
+  <li><strong>Account 
+ Name</strong> - Select this option to view the vendors by their names as  specified in the <strong>Account Name</strong>  field of the vendors’ profiles.</li>
+  <li><strong>Account 
+ Code</strong> - Select this option to view the vendors by their codes as  displayed in the <strong>Account Code</strong>  field of the vendors’ profiles.</li>
+  <li><strong>Account 
+ Balance</strong> - Select this option to view the vendors by their balances.</li>
+</ul>
+
+<p><strong>Sort By</strong></p>
+
+<ul>
+  <li><strong>Document 
+ Date</strong> - Select this option to sort the report in the ascending order  of the documents’ dates.</li>
+  <li><strong>Due 
+ Date</strong> - Select this option to sort the report in the ascending order  of the due dates of the documents.</li>
+  <li><strong>Discount 
+ Date</strong> - Select this option to sort the report in the ascending order  of the Discount Date. This option appears only if you select <strong>Show 
+ Document Details</strong> checkbox.</li>
+</ul>
+
+<p class="note">If there is no <strong>Discount 
+ Date</strong> available, <strong>Everest</strong>  sorts data for those records based on Document Date.</p>
+
+<ul>
+  <li><strong>Document 
+ Balance</strong> - Select this option to sort the report in the descending  order of the documents’ balances.</li>
+</ul>
+
+<p class="note">The <strong>Sort By</strong> field is enabled  only when you select the <strong>Show Document 
+ Details</strong> check box.</p>
+
+<dl>
+  <dt><strong>Aging Details</strong></dt>
+  <dd>Specify how you want to arrive at the age of the  outstanding amount. The options available are:</dd>
+</dl>
+
+<ul>
+  <li><strong>Age 
+ using due date</strong> - Select this option if you want to use the payment  due date of the document for arriving at the age of the outstanding amount.</li>
+  <li><strong>Age 
+ using document date</strong> - Select this option if you want to use the  document date for arriving at the age of the outstanding amount.</li>
+  <li><strong>Do 
+ not show aging</strong> - Select this option if you do not want the aging  details based on the document date to be included in the report.</li>
+</ul>
+
+<dl>
+  <dt><strong>Transactions to Include</strong></dt>
+  <dd>Specify whether you want to include all documents  or only posted documents having outstanding amounts in the report. The  options available in this field are as follows:</dd>
+</dl>
+
+<ul>
+  <li><strong>All 
+ Transactions</strong> - Select this option to view both posted and unposted  documents in the report.</li>
+  <li><strong>Posted 
+ Transactions Only</strong> - Select this option to include all posted transactions  irrespective of whether the corresponding documents are posted or not  in the report. There could be several scenarios as follows:</li>
+</ul>
+
+<dl>
+  <dt>: <strong>Scenario 1</strong> - Unposted Purchase Journals and no Payment  Journals<script type="text/javascript" language="JavaScript1.2">&lt;!--</script></dt>
+  <dt>kadovTextPopupInit(‘a1’);</dt>
+  <dt>//–&gt;&lt;/script&gt;</dt>
+  <dd><strong>Scenario 2</strong> - Unposted Purchase Journals with Corresponding  Unposted Payment Journals<script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a2');
+//--></script></dd>
+  <dd><strong>Scenario 3</strong> - Unposted Purchase Journal with Corresponding  Posted Payment Journal<script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a3');
+//--></script></dd>
+  <dd><strong>Scenario 4</strong> - Posted Payment Journals without Corresponding  Posted Payment Journals<script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a4');
+//--></script></dd>
+  <dd><strong>Scenario 5</strong> - Posted Purchase Journals with Corresponding  Posted Payment Journals<script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a5');
+//--></script></dd>
+  <dd><strong>Scenario 6</strong> - Only Manual Unposted Payment Journals without  a Corresponding Purchase Journal<script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a6');
+//--></script></dd>
+  <dd><strong>Scenario 7</strong> - Only Manual Posted Payment Journals without  a Corresponding Purchase Journal<script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a7');
+//--></script></dd>
+  <dt><strong>As of Date</strong></dt>
+  <dd>Specify the date as on which the aging details are  displayed in the report. Depending on the date selected, only posted documents  (payment entries and purchase journals) are included in the report. Select  the date on which the documents were created.</dd>
+  <dt>Currency</dt>
+  <dd>You can choose whether to view the information in  base currency or the currencies used by your vendors.</dd>
+</dl>
+
+<ul>
+  <li><strong>Base 
+ Currency</strong> - This is the default; the report information displays  in your base currency.</li>
+  <li><strong>Vendor 
+ Currency</strong> - The report information displays in the currencies of  your vendors if different from your own base currency. Each line item  indicates the currency code in use by that vendor.</li>
+</ul>
+
+<p>Options</p>
+
+<dl>
+  <dt><strong>Show Document Details</strong></dt>
+  <dd>Select this check box if you want to display details  of documents with balances outstanding for each vendor. The report displays  details of all document types such as purchase orders, purchase invoices,  debit orders and debit memos including manual documents. All amounts are  displayed in the base currency.</dd>
+  <dd>If this check box is not selected, the report displays  only the sum of the outstanding amounts for each vendor.</dd>
+  <dt><strong>Show Payment Details</strong></dt>
+  <dd>Select this check box if you want to display payment  details made against each document created for the vendor.</dd>
+</dl>
+
+<p class="note">When both <strong>Show Document Details</strong> and  <strong>Show Payment Details</strong> options are  selected, then for each outstanding document, payment details are displayed.  The <strong>Show Payment Details</strong> check  box is enabled only when the <strong>Show Document 
+ Details</strong> check box is selected. The payment details are sorted by  payment date, in ascending order. Credit card numbers are displayed as  ‘xxxx <last four="" digits="" of="" the="" card="">’.</last></p>
+
+<dl>
+  <dt><strong>Exclude Debit Memos</strong></dt>
+  <dd>Select this check box if you do not want to display  debit memos created for the vendors in the report.</dd>
+  <dt><strong>Exclude Advances</strong></dt>
+  <dd>Select this check box to exclude advances paid against  purchase orders or debit orders to be considered for aging calculation  in the report.</dd>
+  <dd>Purchase orders are displayed only if any advances  are paid. The <strong>Paid</strong> column in the  report output for purchase orders displays the amount paid. The <strong>Balance</strong> column displays the paid amount  as a negative value. When the balance amounts are summed up for the vendor,  then the advance amounts paid against purchase orders are subtracted from  the overall balance amount. The age is determined using the current date  and the date on which the payment has been made. In case of multiple receipts  against the same purchase order, then all amounts falling in the same  time bucket are summed and displayed in the respective time bucket as  a negative amount.</dd>
+  <dt><strong>Include Employee Vendors</strong></dt>
+  <dd>Select this check box to include employee vendors,  who meet the criteria specified in the parameters of this dialog box,  in the report. This field is not selected by default so as not to make  available sensitive information pertaining to employees.</dd>
+  <dt><strong><img src="/versata-everest-docs/reports/img/advanced options button.gif" alt="" /> <a href="/versata-everest-docs/reports/misc/advanced_options_for_account_payable_aging_dialog_box.html">Advanced  Options</a></strong></dt>
+  <dd>You can view the advance options by clicking the  toggle button. Click this button again to hide the <strong>Advanced 
+ Options.</strong></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/purchasing/account_payable_aging_rep.html">Accounts  Payable Aging</a></dd>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/purchasing/purchasing_reports.html">Purchasing</a></dd>
+</dl>
+
+
+
+
+</div>

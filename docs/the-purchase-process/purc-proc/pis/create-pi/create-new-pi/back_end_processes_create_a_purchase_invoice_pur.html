@@ -1,0 +1,87 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---create-a-purchase-invoice">Back End Processes - Create a Purchase Invoice</h1>
+
+<ul>
+  <li>A purchase invoice  is created with the status ‘open’.</li>
+  <li>If the purchase  invoice was created by converting an order, and all items ordered are  both fully received and invoiced, the status of the purchase order changes  to ‘closed’. Otherwise, the purchase order remains open with a received  status (not received, partially received, or fully received) and an invoiced  status (not invoiced, partially invoiced, or fully invoiced).</li>
+</ul>
+
+<p>: <img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/document-information/document_status.html">Document  Status</a></p>
+
+<ul>
+  <li>The sequence number  of the purchase invoice is generated automatically by the system.</li>
+</ul>
+
+<p>: <img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/document-information/document_number.html">Document  Number</a></p>
+
+<ul>
+  <li>Serial numbers  of serialized/auto-serialized items - If the item is serialized/auto-serialized,  serial numbers are generated for the quantities received that were not  committed. Serial numbers are assigned when the purchase invoice is saved.</li>
+</ul>
+
+<p>: Serial numbers are generated in a series that starts  from the next serial number assigned in the Location profile (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location/Sub-Location</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong>) for the login  sub-location. If this is blank, the next serial number assigned for the  Default Location (path: <strong>File</strong> &gt;  <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>)  is used.</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/sequence_numbers_departments.html">Sequence  Numbers</a></p>
+
+<dl>
+  <dt><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></dt>
+  <dd><img src="/versata-everest-docs/the-purchase-process/img/note.gif" alt="" />  To  view serial numbers committed to all items in a document, select <strong>Show All Serial Numbers</strong>.</dd>
+</dl>
+
+<ul>
+  <li>Last cost of item  - The last cost of the item is updated with the cost on the invoice. The  last cost includes the freight distributed for the item.</li>
+</ul>
+
+<ul class="note">
+  <li>To be prompted  to update the last cost of an item when you create a purchase invoice,  you must select Always Prompt in the option <strong>When 
+ the last cost of an item changes at the time of creating a purchase invoice, 
+ how do you wish to prompt the user for updating the last cost</strong> (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow 
+ Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Prompts</strong> &gt; <strong>Purchase 
+ Document</strong> tab).</li>
+  <li>
+    <p>Select the option  <strong>Do not update the last cost when receiving</strong>  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Work 
+ Station Settings</strong> &gt; <strong>Stock Bins</strong>  &gt; <strong>For Purchase</strong> tab) to ensure  that the last cost is not updated for documents created from the workstation.</p>
+  </li>
+  <li>The average cost  of the item is updated by adding the value of items received on the invoice  to the value of total stock in “Stock” type of area and dividing it by  total quantity in stock.</li>
+</ul>
+
+<p>: Average Cost = (Value of total stock in stock type  of stock areas + Value of items received)/(Existing quantity of total  stock + Quantity received)</p>
+
+<ul>
+  <li>Value of item includes  add-on costs distributed to the item. The purchase measure is considered  for computing stock for average cost calculations.</li>
+  <li>The vendor’s unposted  amount and payable amount increase by the value of invoice. When the Purchase  Journal for the invoice is posted, the posted amount increases and the  unposted amount reduces.</li>
+  <li>The vendor’s summary  is automatically updated with the details of the document.</li>
+  <li>The low cost, high  cost and purchase history of the item is also automatically updated.</li>
+  <li>When quantities  of an item ordered are received on a purchase invoice, the stock status  of the item as viewed in the <strong>Item Stock 
+ Status</strong> dialog box displays the following changes:</li>
+</ul>
+
+<p><strong>Item Stock 
+ Status</strong></p>
+
+<ol>
+  <li>There is a  decrease in the quantity of <strong>PO</strong>  for the items received. If the quantity received was committed on order,  the quantity of <strong>PO</strong> <strong>Committed</strong>  reduces.
+    <ul>
+      <li>There is an  increase in <strong>Total</strong> quantity <em>**</em> of the item.</li>
+      <li>There is a  decrease in the <strong>Available</strong> quantity  of the item.</li>
+      <li>If the invoice  was against a <strong>Drop</strong> <strong>Shipment</strong>  sales order, the items received are automatically committed to the sales  order and the <strong>SO</strong> <strong>Commit</strong>  for the item increases.
+ <img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/misc/columns_in_the_item_stock_status_dialog_box.html">Item  Stock Status</a>
+ <strong>Stock 
+ Area Details</strong></li>
+      <li>Stock Status  in the assigned stock area - The <strong>Total</strong>  of the item in the assigned stock area increases.</li>
+      <li>Stock status  in committed stock area - If the quantity received was committed on order,  the quantity <strong>PO</strong> decreases in the  ‘out’ stock area to which it was committed.</li>
+      <li>If the quantity  was received against a new purchase invoice without converting from order,  then the stock status of the item shows the changes listed in (2) and  (4).
+ <img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/misc/stock_status_details_section.html">Stock  Status Details</a></li>
+    </ul>
+  </li>
+</ol>
+
+
+
+
+
+</div>

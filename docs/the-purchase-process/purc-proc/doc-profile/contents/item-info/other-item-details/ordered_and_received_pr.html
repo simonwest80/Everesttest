@@ -1,0 +1,85 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="ordered-ordered-but-not-received-received-invoiced-and-invoiced--but-not-received-in-purchase-receipts">Ordered, Ordered but not Received, Received, Invoiced, and Invoiced  but not Received in Purchase Receipts</h1>
+
+<dl>
+  <dt><strong>Ordered</strong></dt>
+  <dd>When you convert a purchase order to a purchase  receipt, this column of the receipt populates with the quantity in the  Ordered column of the purchase order at the time you converted it.</dd>
+  <dd>When you create a purchase receipt directly (without  first creating a purchase order), this column displays a zero.</dd>
+  <dd>You cannot edit this column.</dd>
+  <dt><strong>Ordered but not Received</strong></dt>
+  <dd>When you convert a purchase order to a purchase  receipt, this column in the receipt populates with the quantity in the  Ordered column minus the quantity in the Received column of the purchase  order at the time you converted it.</dd>
+  <dd>When you create a purchase receipt directly (without  first creating a purchase order), this column displays a zero.</dd>
+  <dd>You cannot edit this column.</dd>
+  <dt><strong>Received</strong></dt>
+  <dd>When you convert a purchase order to a purchase  receipt, this column populates with the quantity already committed into  stock at the time you convert it. If there is no quantity committed, the  column displays the quantity ordered but not received unless you select  the option <strong>Set the quantity received 
+ value to zero when converting a purchase/debit order to a purchase receipt 
+ or purchase invoice/debit memo</strong> (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> &gt; <strong>Others</strong> &gt; <strong>Others 
+ 1</strong> tab).</dd>
+</dl>
+
+<p class="note">This option works only for auto-serialized and inventoried (non-serialized)  items.</p>
+
+<dl>
+  <dt>For serialized items,  the  shipped column always displays a zero.</dt>
+  <dd>In a purchase receipt created from a purchase order  for inventoried and non-inventoried line items, the Received quantity  cannot be more than the ordered quantity. In this situation, if it is  necessary to receive more than the current ordered quantity, increase  the ordered quantity in the purchase order or include the additional quantity  received on a separate line.</dd>
+  <dd>This column is in the decimal accuracy of the unit  of measure. You can also increase the decimal accuracy up to six places.</dd>
+  <dd>You cannot edit this column after you save the purchase  receipt.</dd>
+  <dt><strong>Invoiced</strong></dt>
+  <dd>When you convert a purchase order to a purchase  receipt, this column populates with the quantity in the Invoiced column  of the purchase order at the time you converted it.</dd>
+  <dd>When you create a purchase receipt directly (without  first creating a purchase order), this column displays a zero.</dd>
+  <dd>When you convert a purchase receipt to a purchase  invoice, this column updates when you save the invoice if you entered  a new value in the Invoiced column of the purchase invoice.</dd>
+  <dd>You cannot edit this column.</dd>
+  <dt><strong>Invoiced but not Received</strong></dt>
+  <dd>When you convert a purchase order to a purchase  receipt, this column populates with the quantity in the Invoiced column  minus the quantity in the Received column of the purchase order at the  time you converted it.</dd>
+  <dd>When you create a purchase receipt directly (without  first creating a purchase order), this column displays a zero.</dd>
+  <dd>When you convert a purchase receipt to a purchase  invoice, this column updates when you save the invoice. It displays the  Invoiced value from the purchase invoice minus the Received value of the  purchase receipt and the Received on Invoice value of the purchase invoice  (the invoiced quantity minus all quantities received in both documents).</dd>
+  <dd>You cannot edit this column.</dd>
+</dl>
+
+<p><strong>Positive and Negative Quantities in Purchase  Receipts</strong></p>
+
+<p>You can have both positive and negative quantities of items on a document.  Positive quantities on a purchase receipt indicate that the item is received.  Negative quantities indicate that the item is returned.</p>
+
+<p>A serial number generated on a purchase receipt will normally be  in a ‘stock’ type of area.</p>
+
+<p>The following fields are updated to the stock measure after conversion  from the sales measure for the item:</p>
+
+<ul>
+  <li>Total Stock</li>
+  <li>PO</li>
+  <li>PO Commit</li>
+  <li>DO</li>
+  <li>DO Commit</li>
+</ul>
+
+<p>You cannot change measures in the following situations:</p>
+
+<ul>
+  <li>Committed Quantities</li>
+  <li>Backorders</li>
+  <li>Shipped Orders</li>
+</ul>
+
+<p>If you change the decimal accuracy of a measure, the original quantity  is shown in the decimal accuracy of the changed measure.</p>
+
+<p class="example">If your quantity is entered as 10.20 and the  decimal accuracy of the measure is changed to 0, the quantity is shown  as 10.</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/the-purchase-process/misc/average_cost_calculation_the_purchase_process.html">Average  Cost Calculation</a></p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/the-purchase-process/misc/last_cost_calculation_in_the_stock_measure_the_purchase_process.html">Last  Cost Calculation in the Stock Measure</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/ordered.html">Ordered</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/received.html">Recei[ved](/versata-everest-docs/the-purchase-process/misc/last_cost_calculation_in_the_stock_measure_the_purchase_process.html)</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,124 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="automated-purchases---existing-sales-orders-browser-options">Automated Purchases - Existing Sales Orders Browser Options</h1>
+
+<p>This browser has the following options:</p>
+
+<dl>
+  <dt><strong>Dates</strong></dt>
+  <dd>Select a date or period from the drop-down list.  The items are filtered based on the date specified in this field.</dd>
+  <dd>This is the due date for delivery of the item specified  at the line-item level in the sales order. If the due date field of the  item is blank, the delivery date of the sales order is taken into account.  If the sales order does not have a delivery date, <strong>Everest</strong>  assumes that delivery must be made on the login date. The options available  in the <strong>Dates</strong> field and their functions  are listed below.</dd>
+</dl>
+
+<p class="note">All date options (such as Today and This Week)  are with respect to the login date.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Option</strong></td>
+      <td>Displays a list of</td>
+    </tr>
+    <tr>
+      <td>All</td>
+      <td>All items (irrespective of the due date  for delivery)</td>
+    </tr>
+    <tr>
+      <td>Today</td>
+      <td>Items due for delivery on the login date</td>
+    </tr>
+    <tr>
+      <td>This Week</td>
+      <td>Items due for delivery during the week  in which you have logged in</td>
+    </tr>
+    <tr>
+      <td>This Week to Date</td>
+      <td>Items due for delivery between the beginning  of the week and the login date</td>
+    </tr>
+    <tr>
+      <td>This Month</td>
+      <td>Items due for delivery during the month  in which you have logged in</td>
+    </tr>
+    <tr>
+      <td>This Month to Date</td>
+      <td>Items due for delivery between the beginning  of the month and the login date</td>
+    </tr>
+    <tr>
+      <td>This Year</td>
+      <td>Items due for delivery during the year  in which you have logged in</td>
+    </tr>
+    <tr>
+      <td>This Year to Date</td>
+      <td>Items due for delivery between the beginning  of the year and the login date</td>
+    </tr>
+    <tr>
+      <td>Yesterday</td>
+      <td>Items due for delivery on the day prior  to the login date</td>
+    </tr>
+    <tr>
+      <td>Last Week</td>
+      <td>Items due for delivery during the week  prior to the one in which you have logged in</td>
+    </tr>
+    <tr>
+      <td>Last Week to date</td>
+      <td>Items due for delivery between the beginning  of the week prior to the week in which you have logged in and the login  date</td>
+    </tr>
+    <tr>
+      <td>Last Month</td>
+      <td>Items due for delivery during the month  prior to the one in which you have logged in</td>
+    </tr>
+    <tr>
+      <td>Last Month to Date</td>
+      <td>Items due for delivery between the beginning  of the month prior to the one in which you have logged in and the login  date</td>
+    </tr>
+    <tr>
+      <td>Custom</td>
+      <td>Items due for delivery between the dates  you specify in the <strong>From</strong> and <strong>To</strong> fields in the browser</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Deselect All Items</strong></dt>
+  <dd>Select this option to deselect all the items in  the <strong>Automated Purchases - Existing Orders</strong>  browser. All items are selected by default when you open the browser,  provided you have specified default vendors for these items.</dd>
+  <dt><strong>Generate Linked POs</strong></dt>
+  <dd>Select this option to create purchase orders for  the selected items in the browser with a <strong>l</strong>ink to the relevant sales order from which the items were taken.  The <strong>** **Customer 
+ PO No.</strong> field in the sales order is copied to the <strong>Customer 
+ PO No.</strong> column of the <strong>Item Details 
+ Grid</strong> of the purchase order. It also creates a purchase  order reference in the <strong>PO #</strong> column  for the corresponding line item of the sales order.</dd>
+  <dd>The purchase order has one entry for every line  item selected. The due date for each line item is the same as that specified  in the sales order. The delivery method taken is the default set for the  vendor.</dd>
+  <dt>The item quantities for line items with same  item code and vendor, are clubbed even if the line item delivery/due dates  are different. However, if the cost of the line items are different, separate  line items are created within the same purchase order.</dt>
+  <dd><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" />  <a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/create-po/auto-generate-po/for-existing-orders/receiving_items_on_linked_purchase_orders.html">Receiving  Items on Linked POs</a></dd>
+  <dt><strong>Generate PO without Links</strong></dt>
+  <dd>Select this option to create purchase orders for  the selected items in the browser without entering a reference in the  corresponding sales order. It does not create a reference to the sales  order in the purchase order either. Further, the delivery date and line  item due date are not populated in the purchase order.</dd>
+</dl>
+
+<p class="note">A single purchase order is created for each vendor with line items from  different sales orders (as line items in purchase order).</p>
+
+<p>For line items with the same <strong>Item</strong>  code and <strong>Vendor</strong>, the quantities  are clubbed. But If the cost of the line items are different, separate  line items are created.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /></td>
+      <td><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/create-po/auto-generate-po/for-existing-orders/create_purchase_orders_for_items_on_existing_sales_orders.html">Create  automated purchase orders for items on existing sales orders</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Edit Line Items</strong></dt>
+  <dd>Select this option to view the <a href="/versata-everest-docs/the-purchase-process/misc/line_items_profile.html">Profile  - Line Items</a>, which allows you to define a vendor for the highlighted  item(s). To create a purchase order, you have to define a vendor for the  item.</dd>
+  <dt>Options common to all browsers are also available in this browser.</dt>
+  <dd><a href="/versata-everest-docs/working-with-everest/everest-client/ui/browsers/standard_browser_options.html">Standard  Browser Options</a></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/create-po/auto-generate-po/for-existing-orders/automated_purchases_for_existing_sales_orders.html">Automated  Purchases for Existing Sales Orders</a></dd>
+</dl>
+
+
+
+
+</div>

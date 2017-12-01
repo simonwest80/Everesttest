@@ -1,0 +1,57 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="vendor-aging-information-browser">Vendor Aging Information Browser</h1>
+
+<dl>
+  <dt><strong>Vendor</strong></dt>
+  <dd>The code of the vendor as defined in the <strong>Vendor</strong> profile is displayed.</dd>
+  <dt><strong>Name</strong></dt>
+  <dd>The name of the vendor as defined in the <strong>Account 
+ Name</strong> field of the <strong>Vendor</strong> profile  is displayed.</dd>
+  <dt><strong>Location/Sub-Location</strong></dt>
+  <dd>The location/sub-location that the vendor is assigned  to is displayed.</dd>
+  <dt><strong>Terms</strong></dt>
+  <dd>The payment term defined for the vendor in the <strong>Payment</strong> <strong>Terms</strong> field is displayed (path: <strong>Vendor</strong> profile &gt; <strong>Accounting</strong> tab).</dd>
+  <dt><strong>Credit Limit</strong></dt>
+  <dd>The credit limit, if any, defined by the vendor  and entered in the <strong>Credit Limit</strong>  field (path: <strong>Vendor</strong> profile &gt;  <strong>Accounting</strong> tab) is displayed.</dd>
+  <dt><strong>Available Credit</strong></dt>
+  <dd>The available credit for the vendor is calculated  by deducting the net amount outstanding from the credit limit. Both posted  and unposted  amounts are considered for calculating available credit.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/managing-vendors/img/example.gif" alt="" />  The  outstanding amount of a purchase invoice is reduced from the available  credit limit even if the document has not been posted.</p>
+
+<p>Aging Period</p>
+
+<p>The aging analysis is displayed for the outstanding amounts based on  the total days outstanding. The number of days for which a document is  outstanding is calculated from the document’s due date.</p>
+
+<p>The default time blocks for the aging analysis are 1-30 days, 31-60  days, 61-90 days, and greater than 90 days. You can change these time  blocks by clicking <strong>Options</strong> &gt;  <strong>Aging Options</strong>.</p>
+
+<dl>
+  <dt><strong>On Credit Hold</strong></dt>
+  <dd>This check box displays the credit hold status of  the vendor. It is checked if the <strong>On Credit 
+ Hold</strong> check box in the <strong>Vendor</strong> profile  is selected (path: <strong>Purchasing &gt; Vendors 
+ &gt; Edit &gt; In New Window &gt; Accounting</strong> tab).</dd>
+</dl>
+
+<p class="note">You cannot modify the credit hold status from  here. You can change it manually only from the <strong>Vendor</strong> profile.</p>
+
+<p>Document Details</p>
+
+<p>Purchase invoices, debit memos, purchase orders and debit orders against  which deposits are made are displayed in the documents section.</p>
+
+<p>Deposits outstanding on purchase orders or amounts outstanding on debit  memos are displayed as negative amounts.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-vendors/misc/vendor_aging_information_browser_options.html">Vendor  Aging Information Browser Options</a></dd>
+  <dd><a href="/versata-everest-docs/managing-vendors/vendors-browser/info/quick_aging_additional_browser_options_vendor_profile.html">Quick  Aging</a></dd>
+</dl>
+
+
+
+
+</div>

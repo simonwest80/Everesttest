@@ -1,0 +1,243 @@
+[OPTIONS]
+Title=Everest Advanced Dashboard
+Contents file=Everest_Advanced_Dashboard.hhc
+Index file=Everest_Advanced_Dashboard.hhk
+Full-text search=Yes
+
+[FILES]
+introduction\features_of_the_everest_advanced_dashboard.html
+introduction\dashboard_analytics_ead.html
+introduction\assumptions_everest_advanced_dashboard.html
+data-warehouse-overview\data_warehouse_terms_ead.html
+data-warehouse-overview\data_warehouse_overview_ead.html
+data-warehouse-overview\additional_information_ead.html
+create-and-set-up-the-database-and-dashboard\set_up_the_database_ead.html
+create-and-set-up-the-database-and-dashboard\create_the_data_warehouse_ead.html
+create-and-set-up-the-database-and-dashboard\etl_scheduling_ead.html
+create-and-set-up-the-database-and-dashboard\etl_history_browser_ead.html
+create-and-set-up-the-database-and-dashboard\etl_history_details_dialog_box_ead.html
+create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\set_up_the_dashboard_ead.html
+create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\dashboard_setup_tab_dashboard_setup_profile_ead.html
+create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\cache_settings_tab_dashboard_setup_profile_ead.html
+create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\cache_management_set_up_the_dashboard_ead.html
+create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\how_old_is_the_data_in_my_web_parts_ead.html
+create-and-set-up-the-database-and-dashboard\configure_the_default_dashboard_for_users_ead.html
+working-with-the-everest-web-part-wizard\create_a_web_part_ead.html
+working-with-the-everest-web-part-wizard\create_an_analysis_web_part_ead.html
+working-with-the-everest-web-part-wizard\rename_a_web_part_ead.html
+working-with-the-everest-web-part-wizard\modify_a_web_part_ead.html
+working-with-the-everest-web-part-wizard\remove_a_web_part_from_a_site_ead.html
+working-with-the-everest-web-part-wizard\add_an_advanced_query_builder_filter_web_part_ead.html
+working-with-the-everest-web-part-wizard\create_an_advanced_query_builder_dashboard_filter_ead.html
+working-with-the-everest-web-part-wizard\modify_an_advanced_query_builder_web_part_ead.html
+working-with-the-everest-web-part-wizard\tips_for_creating_web_parts_ead.html
+working-with-the-everest-web-part-wizard\import_a_web_part_ead.html
+working-with-the-everest-web-part-wizard\web-part-maintenance\web_part_maintenance_working_with_the_ewpw_ead.html
+working-with-the-everest-web-part-wizard\web-part-maintenance\cube_usage-based_optimization_web_part_maintenance_ead.html
+working-with-the-everest-web-part-wizard\analysis_services_ead.html
+share-point-services-basics-based-on-windows-network-users-\share_point_services_basics_ead.html
+share-point-services-basics-based-on-windows-network-users-\add_a_user_share_point_services_ead.html
+share-point-services-basics-based-on-windows-network-users-\remove_a_user_share_point_services_ead.html
+share-point-services-basics-based-on-windows-network-users-\create_an_everest_advanced_dashboard_sub-site_ead.html
+share-point-services-basics-based-on-windows-network-users-\return_to_the_main_everest_dashboard_ead.html
+share-point-services-basics-based-on-windows-network-users-\access_a_sub-site_from_the_main_everest_dashboard_ead.html
+share-point-services-basics-based-on-windows-network-users-\add_users_to_a_sub-site_ead.html
+share-point-services-basics-based-on-windows-network-users-\additional_information_on_microsoft_windows_sharepoint_services_ead.html
+share-point-services-basics-based-on-windows-network-users-\view_help_files_from_everest_advanced_dashboard_ead.html
+dashboard-user-interface\dashboard_user_interface_ead.html
+dashboard-user-interface\everest_advanced_dashboard_ead.html
+dashboard-user-interface\web_parts_dashboard_user_interface_ead.html
+dashboard-user-interface\sections_of_a_web_part_dashboard_user_interface_ead.html
+dashboard-user-interface\view_a_web_part_dashboard_user_interface_ead.html
+dashboard-user-interface\filter_the_dashboard_web_parts_dashboard_user_interface_ead.html
+dashboard-user-interface\view_detailed_information_on_a_graph_web_part_ead.html
+dashboard-user-interface\add_fields_to_the_pivot_table_to_view_additional_details_ead.html
+dashboard-user-interface\change_the_filters_within_the_pivot_table_to_see_more_data_ead.html
+dashboard-user-interface\view_an_analysis_dashboard_user_interface_ead.html
+dashboard-user-interface\e-mail_an_analysis_dashboard_user_interface_ead.html
+dashboard-user-interface\export_an_analysis_to_an_excel_spreadsheet_ead.html
+dashboard-user-interface\modify_my_page_menu_options_ead.html
+dashboard-user-interface\tasks_web_part_dashboard_user_interface_ead.html
+dashboard-user-interface\calendar_events_web_part_dashboard_user_interface_ead.html
+dashboard-user-interface\for_more_information_dashboard_user_interface_ead.html
+img\add_aqb_web_part1_ead.gif
+img\add_aqb_web_part2_ead.gif
+img\add_aqb_web_part3_ead.gif
+img\add_aqb_web_part4_ead.gif
+img\add_aqb_web_part5_ead.gif
+img\add_aqb_web_part6_ead.gif
+img\add_aqb_web_part7_ead.gif
+img\add_aqb_web_part8_ead.gif
+misc\bullet.gif
+misc\calendar_events_dialog_box_calendar_events_web_part_dui_ead.html
+img\calendar_events_dialog_box_everest_selections_ead.gif
+img\calendar_events_web_part_add_new_event_selected_ead.gif
+img\create_aqb_web_part2_products_just_arrived_ead.gif
+img\create_aqb_web_part3_products_just_arrived_ead.gif
+img\create_aqb_web_part_1_ead.gif
+img\dashboard double down arrow.gif
+img\dashboard down arrow.gif
+img\dashboard pivot table example.gif
+img\dashboard pivot table media field added to pivot table.gif
+img\dashboard pivot table showing media type data.gif
+img\dashboard weather web part.gif
+img\dashboard web part figure first example.gif
+img\dashboard web part view data.gif
+img\ead add web parts - import dialog box with uploaded web part.gif
+img\ead add web parts import.gif
+img\ead add web parts x.gif
+img\ead analysis web part analysis selected.gif
+img\ead analysis web part.gif
+img\ead create sub-site - add users.gif
+img\ead create sub-site - new sharepoint site page.gif
+img\ead create web part - web part dialog box example.gif
+img\ead create web part configure no dsp.gif
+img\ead create web part new part on dashboard no dsp.gif
+img\ead dashboard help.gif
+img\ead design mode web part menu - close.gif
+img\ead design mode web part x.gif
+img\ead modify my page menu options.gif
+img\ead modify shared dialog box example.gif
+img\ead modify shared page menu - design this page selected.gif
+img\ead modify shared page personal view option.gif
+img\ead modify web part edit mode.gif
+img\ead new web part in edit mode.gif
+img\ead pivot table areas.gif
+img\ead pivot table filter settings available.gif
+img\ead pivot table filter settings showing all locations.gif
+img\ead pivot table filter showing all locations.gif
+img\ead pivot table showing location sub location filter settings.gif
+img\ead rename web part renamed web part.gif
+img\ead tips change web part name.gif
+img\ead web part help thru pivot table.gif
+img\ead web part menu.gif
+img\ead web part sales per product category.gif
+img\ead web part showing location filter.gif
+img\ead web part to be renamed.gif
+misc\ehlpdhtm.js
+img\everest_advanced_dashboard_75_percent_ead.gif
+img\example.gif
+misc\execute_now_dialog_box_etl_job_scheduling.html
+img\hint.gif
+misc\icons.html
+img\kanadi.gif
+img\lens.gif
+img\margin graph web part with title link selected.gif
+img\note.gif
+img\pivot table field list dialog box.gif
+img\pivot table for margin graph web part maximized.gif
+img\pivot table for margin graph web part.gif
+img\pivot table maximize button.gif
+misc\robohtml.css
+img\steps.gif
+img\tasks_dialog_box_showing_everest_filter_options_ead.gif
+misc\tasks_dialog_box_tasks_web_part_dui_ead.html
+img\tasks_web_part_add_new_task_selected_ead.gif
+img\tasks_web_part_open_task_ead.gif
+img\the filter web part filtered by location.gif
+img\the filter web part item down arrow selected.gif
+img\the filter web part item expanded.gif
+img\the filter web part.gif
+img\warning.gif
+img\web part menu options.gif
+img\web part net profilt by sales rep.gif
+misc\zzactivate_dashboard_dashboard_setup_dialog_box_ead.html
+misc\zzcache_result_sets_cache_settings_tab_dashboard_setup_profile_ead.html
+misc\zzcache_result_set_per_user_cache_settings_tab_dashboard_setup_profile_ead.html
+misc\zzcancel_dashboard_setup_ead.html
+misc\zzcancel_setup_data_warehouse_ead.html
+misc\zzcheck_cube_for_updates_every_minutes_cache_settings_tab_dashboard_setup_profile_ead.html
+misc\zzchoose_date_execute_now_etl_scheduling_ead.html
+misc\zzconnect_using_sql_authentication_setup_data_warehouse_ead.html
+misc\zzcreate_dashboard_setup_ead.html
+misc\zzcreate_setup_data_warehouse_ead.html
+misc\zzdashboard_server_name_dashboard_setup_ead.html
+misc\zzdashboard_url_setup_the_dashboard_ead.html
+misc\zzdatabase_name_setup_data_warehouse_ead.html
+misc\zzdatabase_server_name_setup_data_warehouse_ead.html
+misc\zzdate_execute_now_dialog_box_etl_job_scheduling_ead.html
+misc\zzdelete_and_recreate_all_cubes_execute_now_etl_job_scheduling_ead.html
+misc\zzexecute_now_etl_job_scheduling_ead.html
+misc\zzlast_run_execute_now_dialog_box_etl_job_scheduling_ead.html
+misc\zzpassword_setup_data_warehouse_ead.html
+misc\zzport_dashboard_setup_ead.html
+misc\zzrebuild_result_set_cache_every_minutes_cache_settings_tab_dashboard_setup_profile_ead.html
+misc\zzsave_schedule_etl_job_scheduling_ead.html
+misc\zzselect_server_button_setup_data_warehouse_ead.html
+misc\zzsite_name_dashboard_setup_ead.html
+misc\zzstart_over_execute_now_dialog_box_etl_job_scheduling_ead.html
+misc\zzupdate_cubes_execute_now_dialog_box_etl_job_scheduling_ead.html
+misc\zzuser_name_setup_data_warehouse_ead.html
+[ALIAS]
+helpid_53029=create-and-set-up-the-database-and-dashboard\set_up_the_database_ead.html
+helpid_53058=create-and-set-up-the-database-and-dashboard\etl_scheduling_ead.html
+helpid_53085=create-and-set-up-the-database-and-dashboard\etl_history_browser_ead.html
+helpid_53030=misc\zzdatabase_server_name_setup_data_warehouse_ead.html
+helpid_53031=misc\zzselect_server_button_setup_data_warehouse_ead.html
+helpid_53032=misc\zzdatabase_name_setup_data_warehouse_ead.html
+helpid_53033=misc\zzconnect_using_sql_authentication_setup_data_warehouse_ead.html
+helpid_53035=misc\zzuser_name_setup_data_warehouse_ead.html
+helpid_53036=misc\zzpassword_setup_data_warehouse_ead.html
+helpid_53037=misc\zzcreate_setup_data_warehouse_ead.html
+helpid_53038=misc\zzcancel_setup_data_warehouse_ead.html
+helpid_53059=misc\zzexecute_now_etl_job_scheduling_ead.html
+helpid_53060=misc\zzsave_schedule_etl_job_scheduling_ead.html
+helpid_53061=misc\execute_now_dialog_box_etl_job_scheduling.html
+helpid_53063=misc\zzchoose_date_execute_now_etl_scheduling_ead.html
+helpid_53065=misc\zzstart_over_execute_now_dialog_box_etl_job_scheduling_ead.html
+helpid_53062=misc\zzlast_run_execute_now_dialog_box_etl_job_scheduling_ead.html
+helpid_53064=misc\zzdate_execute_now_dialog_box_etl_job_scheduling_ead.html
+helpid_53105=create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\set_up_the_dashboard_ead.html
+helpid_53111=misc\zzcreate_dashboard_setup_ead.html
+helpid_53112=misc\zzcancel_dashboard_setup_ead.html
+helpid_53110=create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\set_up_the_dashboard_ead.html
+helpid_53106=misc\zzdashboard_server_name_dashboard_setup_ead.html
+helpid_53107=misc\zzport_dashboard_setup_ead.html
+helpid_53108=misc\zzsite_name_dashboard_setup_ead.html
+helpid_53109=misc\zzdashboard_url_setup_the_dashboard_ead.html
+helpid_53113=misc\zzactivate_dashboard_dashboard_setup_dialog_box_ead.html
+helpid_53175=create-and-set-up-the-database-and-dashboard\etl_history_details_dialog_box_ead.html
+helpid_53066=misc\zzupdate_cubes_execute_now_dialog_box_etl_job_scheduling_ead.html
+helpid_53067=misc\zzdelete_and_recreate_all_cubes_execute_now_etl_job_scheduling_ead.html
+helpid_53114=create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\cache_settings_tab_dashboard_setup_profile_ead.html
+helpid_53115=misc\zzcache_result_sets_cache_settings_tab_dashboard_setup_profile_ead.html
+helpid_53116=misc\zzcheck_cube_for_updates_every_minutes_cache_settings_tab_dashboard_setup_profile_ead.html
+helpid_53117=misc\zzrebuild_result_set_cache_every_minutes_cache_settings_tab_dashboard_setup_profile_ead.html
+helpid_53118=misc\zzcache_result_set_per_user_cache_settings_tab_dashboard_setup_profile_ead.html
+
+[MAP]
+#define helpid_53029 53029
+#define helpid_53058 53058
+#define helpid_53085 53085
+#define helpid_53030 53030
+#define helpid_53031 53031
+#define helpid_53032 53032
+#define helpid_53033 53033
+#define helpid_53035 53035
+#define helpid_53036 53036
+#define helpid_53037 53037
+#define helpid_53038 53038
+#define helpid_53059 53059
+#define helpid_53060 53060
+#define helpid_53061 53061
+#define helpid_53063 53063
+#define helpid_53065 53065
+#define helpid_53062 53062
+#define helpid_53064 53064
+#define helpid_53105 53105
+#define helpid_53111 53111
+#define helpid_53112 53112
+#define helpid_53110 53110
+#define helpid_53106 53106
+#define helpid_53107 53107
+#define helpid_53108 53108
+#define helpid_53109 53109
+#define helpid_53113 53113
+#define helpid_53175 53175
+#define helpid_53066 53066
+#define helpid_53067 53067
+#define helpid_53114 53114
+#define helpid_53115 53115
+#define helpid_53116 53116
+#define helpid_53117 53117
+#define helpid_53118 53118

@@ -1,0 +1,32 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---purge-receiptrefund-transactions">Back End Processes - Purge Receipt/Refund Transactions</h1>
+
+<p>The back end processes that occur when a receipt/refund transaction  is purged from the <strong>Payment Register</strong>  browser are:</p>
+
+<ul>
+  <li>The customers  unposted amount and net balance increases, if the customer was credited  in the voided transaction; the customer’s unposted amount decreases, if  the customer was debited in the voided transaction.</li>
+  <li>If the entry  type for payment was a miscellaneous deposit, the manual sales order created  for the transaction is deleted.</li>
+  <li>
+    <p>If payment  discounts were recorded in the purged/voided transaction, the <strong>Payment 
+ Discount</strong> field on the associated sales invoice changes based on  the following rules:</p>
+  </li>
+  <li>The <strong>Payment 
+ Discount</strong> field reduces by the amount debited to the sales discount  account.</li>
+  <li>The <strong>Payment 
+ Discount</strong> field increases by the amount credited to the sales discount  account.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/purging-trans/purging_receipt_refund_transactions_payment_register.html">Purging  Transactions from the Payment Register</a></dd>
+</dl>
+
+
+
+
+</div>

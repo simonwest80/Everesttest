@@ -1,0 +1,8 @@
+working-with-everest-mailbridge,mailbridge
+functions-of-everest-mailbridge,functions
+identification-of-e-mails-from-to-customers-in-everest,customer-emails
+identification-of-e-mails-from-to-users-in-everest,user-emails
+identification-of-e-mails-to-from-vendors-in-everest,vendor-emails
+link-e-mails,link-emails
+link-existing-e-mails,existing-emails
+process-e-mail-window,process-email-wnd

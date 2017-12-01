@@ -1,0 +1,202 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" x-save-method="compute-relative" src="/versata-everest-docs/warehouse-management/misc/ehlpdhtm.js"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<dl>
+  <dt><strong><a href=""></a>Line Number</strong></dt>
+  <dd>This column displays the line number of  the Item Details Grid.</dd>
+  <dt><strong>Item Code</strong></dt>
+  <dd>Specify the code of the item for which you  want to count the stock. This is a mandatory field.</dd>
+  <dt><strong>Stock Bin</strong></dt>
+  <dd>The bin that contains the line item is displayed  in this column.</dd>
+</dl>
+
+<p class="note">In case you are retrieving an item directly  in the Item Details Grid, without using any of the <strong>Retrieve</strong><strong>Items</strong> options, you are required  to select a bin in this column. Double click in this column to display  the drop-down arrow. Click the arrow and select the bin for which you  want to conduct the stock count from the browser that is displayed.</p>
+
+<dl>
+  <dt><strong>Stock Area</strong></dt>
+  <dd>This column displays the stock area to which  the line item belongs.</dd>
+  <dt><strong>Stock Measure</strong></dt>
+  <dd>The unit of measure specified in the <strong>Stock Measure</strong> field of the Item profile  (path: <strong>Inventory</strong> &gt; <strong>Items</strong>  &gt; <strong>Items</strong> <strong>browser</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Inventory</strong>  tab) is displayed in this column.</dd>
+  <dt><strong>System Cost</strong></dt>
+  <dd>In case of inventoried items, this column  displays the average cost; for serialized items, it displays the weighted  average of the actual cost of the system serial numbers.</dd>
+</dl>
+
+<p class="note">If you are using the Take Snapshot to Count  method, average cost, at the time of creation of the <strong>Stock 
+ Count</strong> profile, may differ from the average cost when the document  is marked as Counted. The <strong>System Cost</strong>  column in the Item Details Grid is automatically updated with the new  cost. This change is also conveyed through a message.</p>
+
+<dl>
+  <dt><strong>System Value</strong></dt>
+  <dd>This is calculated as follows:</dd>
+</dl>
+
+<ul>
+  <li>Inventoried  items: System Stock * Average Cost</li>
+  <li>Serialized/Auto-serialized  items: Sum of actual cost of serial numbers</li>
+</ul>
+
+<dl>
+  <dt><strong>Physical Cost</strong></dt>
+  <dd>In case of inventoried items, this column  displays the average cost and for serialized and auto-serialized items,  it displays the weighted average of the actual cost of the physical serial  numbers.</dd>
+  <dt><strong>Physical Value</strong></dt>
+  <dd>This is calculated as follows:</dd>
+</dl>
+
+<ul>
+  <li>Inventoried  items: Physical Stock * Average Cost</li>
+  <li>Serialized/Auto-serialized  items: Sum of actual cost of serial numbers</li>
+</ul>
+
+<dl>
+  <dt><strong>Adjustment Quantity</strong></dt>
+  <dd>This column displays the quantity of variance  by default. The quantity is negative if physical stock is less than the  system stock and positive if the physical stock is more than the system  stock. You can edit the quantity in the following cases:</dd>
+</dl>
+
+<ul>
+  <li>The item  is either inventoried or auto-serialized</li>
+  <li>The adjusted  quantity is being added</li>
+</ul>
+
+<dl>
+  <dt>: The adjusted quantity should not exceed  the variance quantity of the inventoried item.</dt>
+  <dd>For serialized and auto-serialized items,  this column is updated to the quantity of the serial numbers written off  when an inventory adjustment document is created.</dd>
+  <dt><strong>Adjustment Cost</strong></dt>
+  <dd>By default, this column displays the average  cost of the items used to adjust the quantity of variance. You can edit  this cost in the following cases:</dd>
+</dl>
+
+<ul>
+  <li>The item  is either inventoried or auto-serialized.</li>
+  <li>The adjusted  quantity is being added.</li>
+</ul>
+
+<dl>
+  <dt>: You cannot edit this column if you are writing  off a quantity.</dt>
+  <dd>For serialized and auto-serialized items,  this column is updated with the weighted average of the actual cost of  the serial numbers written off when an inventory adjustment document is  created.</dd>
+  <dt><strong>Adjustment Value</strong></dt>
+  <dd>This is calculated as the adjustment quantity  multiplied by the adjustment cost.</dd>
+  <dt><strong>Variance Quantity</strong></dt>
+  <dd>This column displays the difference between  the physical and system stocks.</dd>
+  <dt><strong>Variance Value</strong></dt>
+  <dd>This column displays the difference between  the physical and system values.</dd>
+</dl>
+
+<p><strong>Serial # Difference</strong></p>
+
+<dl>
+  <dt><strong>System Quantity</strong></dt>
+  <dd>This column displays the total stock of  the line item in the system when the Stock Count document is created.  The stock measure of the line item as specified in the profile of that  item is used to calculate the system stock. You cannot edit this column.</dd>
+</dl>
+
+<p class="note">Double click in this column to view details  of the system quantity of serialized items in the <strong>System 
+ Serial Numbers for All Items</strong> browser.</p>
+
+<dl>
+  <dt><strong>Physical Quantity</strong></dt>
+  <dd>Enter the actual quantity of the item determined  by the physical count.</dd>
+</dl>
+
+<p class="note">Double click in this column to view details  of the physical quantity of serialized items in the <strong>Physical 
+ Serial Numbers for All Items</strong> browser.</p>
+
+<p class="note">By default only <strong>Line 
+ number</strong>, <strong>Item Code</strong>, <strong>Stock Bin</strong>, <strong>Stock 
+ Area</strong>, <strong>Stock Measure</strong>, <strong>System Cost</strong>, <strong>System 
+ Quantity</strong>, and <strong>Physical Quantity</strong>  columns will appear. To view other columns, click <strong>Field 
+ Chooser</strong> icon from the tool bar.</p>
+
+<dl>
+  <dt><strong>Location/Sub-location</strong></dt>
+  <dd>The logged in location is displayed in this  field by default. You can select another location, if required.</dd>
+  <dd>Changing the location after retrieval of  items into the document deletes the entries in the Item Details Grid.  A message warns you of the impact of selecting another location. You may  choose to retain the items in the default location by clicking <strong>No</strong>.  If you click <strong>Yes</strong>, all the items  are deleted. Thereafter, you can retrieve items pertaining to the new  location.</dd>
+  <dt><strong>Status</strong></dt>
+  <dd>This field displays the stock count status,  which can be one of the following:</dd>
+  <dd>Uncounted – The process of counting has  yet to begin.</dd>
+</dl>
+
+<ul>
+  <li><strong>Counting 
+ in Process</strong> – The counting is in progress.</li>
+  <li><strong>Counted</strong>  – The stock is counted and the variance is reported, but the stock is  not yet reconciled.</li>
+  <li><strong>Complete</strong>  – The inventory adjustment and stock transfer documents are created.</li>
+</ul>
+
+<dl>
+  <dt><strong>Created By</strong></dt>
+  <dd>Select the person who is creating the stock  count document. By default the logged-in user is displayed in this field.</dd>
+  <dt><strong>Count Started</strong></dt>
+  <dd>The date and time of the <strong>Everest</strong>  server is displayed here when you commence the process of counting.</dd>
+  <dt><strong>Date Finalized</strong></dt>
+  <dd>When you mark the Stock Count document <strong>Complete</strong>, the date and time of the <strong>Everest</strong> server is displayed here. This  denotes that the counting process is over.</dd>
+  <dd>To mark the document as complete, select  the option <strong>Finalize and Adjust Quantity</strong>  (path: <strong>Stock Count</strong> profile &gt;  <strong>Options</strong> &gt; <strong>Process</strong>  &gt; <strong>Finalize and Adjust Quantity</strong>).</dd>
+  <dt><strong>Stock Areas</strong></dt>
+  <dd>Select the stock area for which you want  to carry out the stock count. All the stock areas that belong to the logged-in  location are available for selection. You can select multiple stock areas  in this field. The stock area of the logged-in location is displayed by  default.</dd>
+  <dt><strong>Bins</strong></dt>
+  <dd>Select the bins within the selected stock  areas to further narrow down the region for which you want to carry out  the stock count. All the bins belonging to the stock areas specified in  the <strong>Stock Areas</strong> field are available  for selection. You can select multiple bins in this field.</dd>
+  <dt><strong>Do not retrieve bins with zero quantity</strong></dt>
+  <dd>Select this check box if you do not want  to include bins where system stock is zero.</dd>
+  <dt><strong>Do not retrieve bins with zero value</strong></dt>
+  <dd>Select this check box if you do not want  to include bins for which the value is nil.</dd>
+  <dd>You can enter physical stock for items that  have zero quantity or zero value.</dd>
+</dl>
+
+<p class="note">If you modify any of the fields in the <strong>Item Retrieval</strong> <strong>Limits</strong>  section, <strong>Everest</strong> informs you that  all the existing line items in the Item Details Grid would be refreshed  based on the selection of the stock areas or bins. You may choose to continue  with the operation which refreshes all the line items. If you decide otherwise,  the existing items are retained and the field in the <strong>Item 
+ Retrieval Limits</strong> section reverts to its original value.</p>
+
+<dl>
+  <dt><strong>Adjustment Document</strong></dt>
+  <dd>This field displays the Quantity Adjustment  document that is used to reconcile the discrepancy between the system  stock and physical stock. Click in this field to view the Quantity Adjustment  document. The Quantity Adjustment document displays the quantity and value  of the adjusted item. The <strong>Stock Count</strong>  field in this document displays the number of the corresponding Stock  Count document.</dd>
+  <dt><strong>Stock Transfer Document</strong></dt>
+  <dd>This field displays the Stock Transfer document  created to transfer serial numbers from the bin in which they are available  in the system to the bin where they are physically available. Click in  this field to view the Stock Transfer document.</dd>
+</dl>
+
+<h1 id="stock-count-profile">Stock Count Profile</h1>
+
+<dl>
+  <dt><strong>Document Notes</strong></dt>
+  <dd>Click to attach notes to the document. You will  see the <strong>Notes</strong> dialog box where  you can enter the relevant information.</dd>
+  <dt><strong>Document #</strong></dt>
+  <dd>When you save a document, the system automatically  generates the document number.</dd>
+  <dt><strong>Document Date</strong></dt>
+  <dd>The login date is automatically displayed in this  field when you create the document. You cannot change this date.</dd>
+</dl>
+
+<p>The various sections available in <strong>Stock 
+ Count</strong> profile are as follows:</p>
+
+<ul>
+  <li><a href="javascript:kadovTextPopup(this)" id="a1"><strong>Item 
+ Grid Information</strong></a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a1');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a2"><strong>Details</strong></a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a2');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a3"><strong>Item 
+ Retrieval Limits</strong></a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a3');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a4">Related  Documents</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a4');
+//--></script></li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/inv-adj/stock-count/the_stock_count_browser.html">The Stock  Count Browser</a></dd>
+  <dd><a href="/versata-everest-docs/warehouse-management/inv-adj/stock-count/stock-count-profile-options/stock_count_profile_options.html">The Stock  Count Profile Options</a></dd>
+</dl>
+
+
+
+
+</div>

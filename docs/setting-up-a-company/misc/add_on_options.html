@@ -1,0 +1,214 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="integrated-options">Integrated Options</h1>
+
+<dl>
+  <dt><strong>CRM Studio</strong></dt>
+  <dd>CRM Studio is enabled in the sample company only  for a period of 30 days. If you purchase CRM Studio and Multiple Companies  option, you can use CRM Studio on any of the companies you create as part  of the Multiple Companies option.</dd>
+  <dt><strong>eStorefront</strong></dt>
+  <dd>You can create additional shops in <strong>Everest</strong>  from the <strong>E-Commerce Preferences</strong>  browser/profile (path: <strong>File</strong> &gt;  <strong>Setup</strong> &gt; <strong>E-Commerce</strong>  &gt; <strong>Preferences</strong> &gt; <strong>E-Commerce 
+ Preferences</strong>). There are no restrictions with creating the e-commerce  preferences for a company. You can create multiple websites using the  Shop Administrator, and register the websites (using the Register option)  with IIS to make them available online.</dd>
+  <dd>The eStorefront activation key determines the number  of active websites allowed. This does not limit the number of websites  you can create, but only limits the number of websites you can have actively  running live. <strong>Everest eStorefront</strong>  includes one website.  If  you purchase two additional websites, you can use these three websites  on any company or a combination of companies. In this case, the total  number of websites that you can publish online cannot exceed three.</dd>
+  <dd>One license is necessary for each <strong>E-Commerce 
+ Preference</strong> (shop) used in a web store registered in the Shop Administrator.  Use the following formula to determine the number of website licenses  required:</dd>
+  <dd>
+    <h1 id="of-licenses---of-live-registered-websites--with-different-e-commerce-preferences">of licenses = # of live registered websites  with different E-Commerce Preferences</h1>
+  </dd>
+</dl>
+
+<p class="example">Using <strong>E-Commerce Preferences</strong>,  create three sets of preferences (shops) in Everest: Default, Shop1 and  Shop2. Create four websites in the Shop Administrator.  In  the Shop Settings, select “Default” for Website1 and Website2. Select  “Shop1” for Website3 and “Shop2” for Website4.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>E-Commerce  Preference (Shop)</strong></td>
+      <td><strong>Licenses Needed</strong></td>
+      <td><strong>Registered Websites in the Shop Administrator</strong></td>
+    </tr>
+    <tr>
+      <td>Default</td>
+      <td>1</td>
+      <td>Website1</td>
+    </tr>
+    <tr>
+      <td>Default</td>
+      <td>Website2</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Shop1</td>
+      <td>1</td>
+      <td>Website3</td>
+    </tr>
+    <tr>
+      <td>Shop2</td>
+      <td>1</td>
+      <td>Website4</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt>: Notice that only one license is required for using  the “Default” E-Commerce Preference even if there are multiple websites.  You can use a singe E-Commerce Preference (shop) by multiple registered  live websites without increasing the number of licenses required.</dt>
+  <dd>In this situation, three licenses are required.  One license is required for Website1 and Website2, one license is required  for Website3, and another one is required for Website4.</dd>
+  <dd><strong>Everest</strong>  checks for distinct connections that are open for the above shops in the  E-Commerce Preferences.</dd>
+  <dd>In the above scenario, if you only had two website  licenses, you could register one of the following combinations of websites  in the Shop Administrator:</dd>
+</dl>
+
+<ul>
+  <li>Website1 and Website3</li>
+  <li>Website1, Website2  and Website3</li>
+  <li>Website2 and Website3</li>
+  <li>Website1 and Website4</li>
+  <li>Website1, Website2  and Website4</li>
+  <li>Website2 and Website4</li>
+  <li>Website3 and Website4</li>
+</ul>
+
+<dl>
+  <dt>: Website1 and Website2 can both be viewed at one  point of time along with any other website.  The restriction is based on the number of **distinct </dt>
+  <dt> connections**.</dt>
+  <dd>You can create any number of web shops and register  them. But, at any given point of time, a maximum of three websites can  actively run in the Accel Sample Company.</dd>
+  <dd>If no option key is defined, the eStorefront option  displays one website  in the <strong>License Details</strong> column.</dd>
+  <dd>In case of <strong>multiple 
+ companies</strong>, the licenses are validated against all shops across  all companies.</dd>
+</dl>
+
+<p class="example">If you create two companies and have three websites licensed, you can  set up the websites as below:</p>
+
+<p><strong>Example A</strong></p>
+
+<p>2 websites on Company one</p>
+
+<p>1 website  on Company two</p>
+
+<p><strong>Example B</strong></p>
+
+<p>1 website  on Company one</p>
+
+<p>2 websites on Company two</p>
+
+<p><strong>Example C</strong></p>
+
+<p>0 websites on Company one</p>
+
+<p>3 websites on Company two</p>
+
+<p class="note">If the distinct shop connections exceed the licensed  number, you are not allowed to log in or connect to the database.</p>
+
+<p>In that case, <strong>Everest</strong>  displays an error message on the website  stating that the system has exceeded the limits set by the software license  in connection with multiple websites.</p>
+
+<dl>
+  <dt><strong>PageBoost</strong></dt>
+  <dd>To activate the PageBoost  functionality, you first need to activate the eStorefront functionality.  PageBoost is intended for <strong>Everest Legacy 
+ E-Commerce</strong>.</dd>
+  <dt><strong>Point of Sale</strong></dt>
+  <dd>This option is activated for 5 users in the sample  company and during the evaluation period.</dd>
+  <dd>When the number of user licenses for POS is exceeded  and a user tries to login,  <strong>Everest</strong> will prompt you with the  message “The number of users that simultaneously access Point of  Sale registers cannot exceed XXX  user(s) for this license”.</dd>
+</dl>
+
+<p class="example">You have a 50 user <strong>Everest</strong>  license with a 30 user Point of Sale license. This means you can log into  only 30 cash registers at the same time. If more users try to login,  they will be prompted with the message.</p>
+
+<dl>
+  <dt><strong>MailBridge</strong></dt>
+  <dd>You require an activation key to run MailBridge  on your machine.</dd>
+  <dt><strong>US Payroll</strong></dt>
+  <dd>This integrated feature is not available in the  evaluation mode.</dd>
+  <dt><strong>Gift Card</strong></dt>
+  <dd>A Gift Card license is not a user-based license.  Only one license is required for processing gift cards for your entire  company. The Gift Card feature is available in the Sample Company and  in evaluation mode.</dd>
+  <dd>When Gift Card is not licensed:</dd>
+</dl>
+
+<ul>
+  <li>Gift Card activation  will display the error message ‘Gift Card is not licensed’ if you try  to sell a gift card item.</li>
+  <li>Gift Card redemption  will display the error message ‘Gift Card is not licensed’ if you try  to redeem a gift card item.</li>
+  <li>The Gift Card  check box is disabled in <strong>Item</strong>  profile.</li>
+  <li>The Gift Card  Balance Inquiry option is disabled in the Utility, Point of Sale and Sales  Invoice profiles.</li>
+  <li>When you try  to save a Gift Card payment method, the error message ‘Gift Card is not  licensed’ is displayed.</li>
+</ul>
+
+<dl>
+  <dt><strong>Everest Inventory Planning</strong></dt>
+  <dd>This option takes the pain and guesswork out of  inventory management. The <strong>Everest Inventory 
+ Planning Wizard</strong> utility automatically calculates minimum, maximum,  and reorder quantities based on your items’ sales/purchase histories and  settings that you configure including usage quantity, lead time, and safety  stock. It allows you to classify items according to the quantity on hand,  profitability, cost, and price. The <strong>Everest 
+ Inventory Planning Wizard</strong> utility even has special considerations  for seasonal items along with your regular items. This improves the efficiency  of your Purchasing staff by eliminating the need to export sales data,  analyze it, and then re-import it to set replenishment points.</dd>
+  <dt><strong>Everest Mobile Warehouse</strong></dt>
+  <dd>This option allows you to use a handheld <strong>Everest 
+ Mobile Warehouse</strong> device to move freely around the warehouse when  receiving items or picking items to ship without being tied to a desk.  Most tasks can be completed quickly using the built-in scanner.</dd>
+  <dt><strong>DataBridge</strong></dt>
+  <dd>This option comprises the following functionalities:</dd>
+</dl>
+
+<ul>
+  <li>Data Import</li>
+  <li>Third Party  Catalog Import</li>
+  <li>Sales Order  Import</li>
+</ul>
+
+<p>: All the above features are enabled when you purchase  the license from Everest Software. These features are not available in  the evaluation mode.</p>
+
+<dl>
+  <dt><strong>Multiple Companies</strong></dt>
+  <dd>Use the Multiple Companies option to license more  than one company inside <strong>Everest</strong>  with a single set of registration information. If you purchase this option,  there is no limit on the number of companies you can create in <strong>Everest</strong>.  All the companies will use the same user pool. If you have a 10-user license  and three companies, you can have users in each company as below:</dd>
+  <dd>Three users in company One</dd>
+  <dd>Five users in company Two</dd>
+  <dd>Two users in company Three</dd>
+  <dd>All the three companies will be working off the  same user license count and you can log in to the companies in any combination  you want as long as you do not exceed the user count of your license.</dd>
+  <dd>The Multiple Companies option for the company you  have registered with Everest Software must be activated to use the same  serial number for subsidiary companies. When you create a company and  try to activate it, <strong>Everest</strong> checks  if the database server has other companies with the same serial number.  If it finds a matching company, <strong>Everest</strong>  informs you that the serial number specified is already used for the parent  company XXX,  which has the Multiple Companies option activated. The fields for the  activation codes in the new company are disabled and no data is available.  You can activate the company by accepting the confirmation for using the  Multiple Companies license for subsidiary companies.</dd>
+  <dt><strong>Software Development Kit</strong></dt>
+  <dd>To further enhance the power of <strong>Everest</strong>,  <strong>Everest Software</strong> provides an <strong>Everest Software Development Kit</strong> <strong>(SDK)</strong> for developers, contractors, and  value-added resellers (VARs). <strong>Everest 
+ SDK</strong> supports the development of custom-fit, practical solutions  without requiring in-depth knowledge of <strong>Everest’s</strong>  architecture. SDK programs use the regular architecture for <strong>Everest</strong>  transactions. <strong>Everest SDK</strong> contains  the following components:</dd>
+</dl>
+
+<ul>
+  <li><strong>Everest 
+ API</strong> - Allows programmatic access and integrates with Everest Business  Objects</li>
+  <li><strong>EDM 
+ Case Tool</strong> - Contains supporting documentation used to integrate  with the Everest Database</li>
+  <li><strong>Everest 
+ Forms Designer</strong> - Allows customization of the layout and design  of Everest forms</li>
+  <li><strong>Everest 
+ Add-Ins</strong> - Allows programs to integrate with the Everest Client</li>
+</ul>
+
+<dl>
+  <dt><strong>Forms Designer</strong></dt>
+  <dd>Use the <strong>Forms Designer</strong>  utility to design customized profile data entry screens. You can improve  the look and feel of the profiles according to your business needs. You  can also enhance security by limiting end user access in the profile.  The Forms Designer moves customization control away from the end user  to the System Administrator or another individual authorized to design  forms.</dd>
+  <dd>The customized views that are created can be assigned  to specific users or groups of users. In this way, your existing and new  end users can be set up quickly and easily. These customizations can give  your end users a more favorable software experience and increase their  productivity at the same time.</dd>
+  <dt><strong>Everest Advanced Dashboard</strong></dt>
+  <dd>The <strong>Everest Advanced 
+ Dashboard</strong> adds an advanced business intelligence feature to your  desktop. Business Intelligence technologies allow in-depth analysis of  your company’s data and transactions after they occur for better decision-making.  Your System Administrator, or other authorized user, uses the <strong>Everest</strong>  data warehouse <strong>Setup</strong> to create  a data warehouse from your <strong>Everest</strong>  database. This data warehouse contains important data collected from your  business through <strong>Everest</strong>.  Selected  information is provided to you, based on business requirements, and is  displayed in chart or graphic format on your <strong>Everest 
+ Advanced Dashboard</strong>.  These  blocks of information provided to you are called <strong>Web 
+ Parts</strong>.</dd>
+  <dd>In <strong>Everest</strong>,  the <strong>Everest Advanced Dashboard</strong>  can replace the <strong>Everest</strong> desktop.  The <strong>Everest Advanced Dashboard</strong>  is also available as a web page that can be accessed remotely. The <strong>Everest Advanced Dashboard</strong> uses the  power of <strong>Everest’s</strong> data integration  to provide you with necessary information used for:</dd>
+</dl>
+
+<ul>
+  <li>: Searching and  reporting</li>
+  <li>: Performance  metrics</li>
+  <li>: Monitoring  key performance indicators for improvements</li>
+  <li>: Advanced analysis  and more informed decision-making</li>
+  <li>: Understanding  your customers’ needs</li>
+  <li>: Increasing  customer satisfaction</li>
+  <li>: Prospecting  new customers</li>
+  <li>: Gaining a competitive  advantage</li>
+</ul>
+
+<dl>
+  <dt>: The **Everest Advanced </dt>
+  <dt> Dashboard** gives you the ability to see mission critical information  that is relevant to you. The **Everest </dt>
+  <dt> Advanced Dashboard** can include graphs, reports, performance indicators,  and reminders on the dashboard depending upon how it has been configured.</dt>
+  <dd><img src="/versata-everest-docs/setting-up-a-company/img/lens.gif" alt="" /><a href="/versata-everest-docs/setting-up-a-company/misc/dashboard_analytics_sc.html">Dashboard  Analytics</a></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/everest_registration_option_activation_tab.html">Company  Setup Profile - Activation - Options tab</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/protection_key.html">Hardware Key</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,541 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="_blank">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800027">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Custom Tracking">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Introduction">
+      <param name="Local" value="ct_introduction.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Using Custom Tracking">
+      <param name="Local" value="using_custom_tracking.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Custom Tracking Process">
+      <param name="Local" value="custom_tracking_process.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Item Tracking">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Item Tracking">
+        <param name="Local" value="item-tracking\item_tracking.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set up Custom Tracking for Items">
+        <param name="Local" value="item-tracking\set_up_custom_tracking_for_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tracking Category Details for Items">
+        <param name="Local" value="item-tracking\tracking_category_details_for_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Tracking Category for Items">
+        <param name="Local" value="item-tracking\create_a_tracking_category_for_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Tracking Category Profile (Items)">
+        <param name="Local" value="item-tracking\the_tracking_category_profile_items_.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Tracking Category for Items">
+        <param name="Local" value="item-tracking\modify_a_tracking_category_for_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tracking Group Details for Items">
+        <param name="Local" value="item-tracking\tracking_group_details_for_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Tracking Group for Items">
+        <param name="Local" value="item-tracking\create_a_custom_tracking_group_for_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking Group Profile (Items)">
+        <param name="Local" value="item-tracking\the_custom_tracking_group_profile_items_.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Tracking Group for Items">
+        <param name="Local" value="item-tracking\modify_a_tracking_group_for_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Tracking Choice Details for Items">
+        <param name="Local" value="item-tracking\tracking_choice_details_for_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Custom Tracking Choice for Items">
+        <param name="Local" value="item-tracking\create_a_custom_tracking_choice_for_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking Choice Profile (Items)">
+        <param name="Local" value="item-tracking\the_custom_tracking_choice_profile_(items).html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Custom Tracking Choice for Items">
+        <param name="Local" value="item-tracking\modify_a_custom_tracking_choice_for_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking Setup - Item/Kit Browser">
+        <param name="Local" value="item-tracking\the_custom_tracking_setup_item_kit_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Track an Item">
+        <param name="Local" value="item-tracking\track_an_item.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking - Item/Kit Browser">
+        <param name="Local" value="item-tracking\the_custom_tracking_item_kit_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Tracking List Details - Items">
+        <param name="Local" value="item-tracking\custom_tracking_list_details.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Custom Tracking List for Items">
+        <param name="Local" value="item-tracking\create_a_custom_tracking_list_for_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Tracking List Dialog Box">
+        <param name="Local" value="item-tracking\custom_tracking_list_dialog_box.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Tracking Item Selections Browser">
+        <param name="Local" value="item-tracking\the_tracking_item_selections_browser.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Vendor Tracking">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vendor Tracking">
+        <param name="Local" value="vendor-tracking\vendor_tracking.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set up Custom Tracking for Vendors">
+        <param name="Local" value="vendor-tracking\set_up_custom_tracking_for_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tracking Category Details for Vendors">
+        <param name="Local" value="vendor-tracking\tracking_category_details_for_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Tracking Category for Vendors">
+        <param name="Local" value="vendor-tracking\create_a_tracking_category_for_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Tracking Category Profile (Vendors)">
+        <param name="Local" value="vendor-tracking\the_tracking_category_profile_vendors_.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Tracking Category for Vendors">
+        <param name="Local" value="vendor-tracking\modify_a_tracking_category_for_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Tracking Group Details for Vendors">
+        <param name="Local" value="vendor-tracking\custom_tracking_group_details_for_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Custom Tracking Group for Vendors">
+        <param name="Local" value="vendor-tracking\create_a_custom_tracking_group_for_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking Group Profile (Vendor)">
+        <param name="Local" value="vendor-tracking\the_custom_tracking_group_profile_vendor_.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Tracking Group for Vendors">
+        <param name="Local" value="vendor-tracking\modify_a_tracking_group_for_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Tracking Choice Details for Vendors">
+        <param name="Local" value="vendor-tracking\custom_tracking_choice_details_for_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Custom Tracking Choice for Vendors">
+        <param name="Local" value="vendor-tracking\create_a_custom_tracking_choice_for_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking Choice Profile(Vendors)">
+        <param name="Local" value="vendor-tracking\the_custom_tracking_choice_profile_(vendors).html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Custom Tracking Choice for Vendors">
+        <param name="Local" value="vendor-tracking\modify_a_custom_tracking_choice_for_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking Setup - Vendor Browser">
+        <param name="Local" value="vendor-tracking\the_custom_tracking_setup_vendor_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Track a Vendor">
+        <param name="Local" value="vendor-tracking\track_a_vendor.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking - Vendor Browser">
+        <param name="Local" value="vendor-tracking\the_custom_tracking_vendor_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vendor Selection">
+        <param name="Local" value="vendor-tracking\vendor_selection.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Tracking List Details - Vendors">
+        <param name="Local" value="vendor-tracking\custom_tracking_list_details_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Custom Tracking List for Vendors">
+        <param name="Local" value="vendor-tracking\create_a_custom_tracking_list_for_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Tracking List (Vendors) Dialog Box">
+        <param name="Local" value="vendor-tracking\custom_tracking_list_dialog_box_vendors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tracking Selections (Vendors) Browser">
+        <param name="Local" value="vendor-tracking\tracking_selections_vendor_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vendor Selection by Items">
+        <param name="Local" value="vendor-tracking\vendor_selection_by_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Vendor List by Item">
+        <param name="Local" value="vendor-tracking\create_a_vendor_list_by_item.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vendor Selection by Item Dialog Box">
+        <param name="Local" value="vendor-tracking\vendor_selection_by_item_dialog_box.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tracking Selections (Vendor Selection by Item) Browser">
+        <param name="Local" value="vendor-tracking\tracking_selections_vendor_selection_by_item_browser.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Customer Tracking">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customer Tracking">
+        <param name="Local" value="customer-tracking\customer_tracking.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set up Custom Tracking for Customers">
+        <param name="Local" value="customer-tracking\set_up_custom_tracking_for_customers.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tracking Category Details for Customers">
+        <param name="Local" value="customer-tracking\creating_a_tracking_category_for_customers.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Tracking Category for Customers">
+        <param name="Local" value="customer-tracking\create_a_tracking_category_for_customers.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Tracking Category Profile (Customer)">
+        <param name="Local" value="customer-tracking\the_tracking_category_profile_customer_.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Tracking Category for Customers">
+        <param name="Local" value="customer-tracking\modify_a_tracking_category_for_customers.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Tracking Group Details">
+        <param name="Local" value="customer-tracking\custom_tracking_group_details_2.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Custom Tracking Group for Customers">
+        <param name="Local" value="customer-tracking\create_a_custom_tracking_group_for_customers.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking Group Profile (Customer)">
+        <param name="Local" value="customer-tracking\the_custom_tracking_group_profile_customer_.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Tracking Group for Customers">
+        <param name="Local" value="customer-tracking\modify_a_tracking_group_for_customers.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Tracking Choice Details">
+        <param name="Local" value="customer-tracking\custom_tracking_choice_details_1.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Custom Tracking Choice for Customers">
+        <param name="Local" value="customer-tracking\create_a_custom_tracking_choice_for_customers.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking Choice Profile (Customer)">
+        <param name="Local" value="customer-tracking\the_custom_tracking_choice_profile_customer_.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Custom Tracking Choice for Customer">
+        <param name="Local" value="customer-tracking\modify_a_custom_tracking_choice.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking Setup - Customer Browser">
+        <param name="Local" value="customer-tracking\the_custom_tracking_setup_customer_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Track a Customer">
+        <param name="Local" value="customer-tracking\track_a_customer.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Custom Tracking - Customer Browser">
+        <param name="Local" value="customer-tracking\the_custom_tracking_customer_browser.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customer Selection">
+        <param name="Local" value="customer-tracking\customer_selection_ct_cust_brsr.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Using Customer Selection">
+        <param name="Local" value="customer-tracking\using_customer_selection.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Tracking List Details - Customers">
+        <param name="Local" value="customer-tracking\custom_tracking_list_details_2.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Custom Tracking List for Customers">
+        <param name="Local" value="customer-tracking\create_a_custom_tracking_list_for_customers.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Custom Tracking List (Customers) Dialog Box">
+        <param name="Local" value="customer-tracking\custom_tracking_list_dialog_box_customer_tracking.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customer Selection by Items">
+        <param name="Local" value="customer-tracking\customer_selection_by_items.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customer Selection by Item Dialog Box">
+        <param name="Local" value="customer-tracking\customer_selection_by_item_dialog_box.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Tracking Customer Selections Browser">
+        <param name="Local" value="customer-tracking\the_tracking_customer_selections_browser.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Document Tracking">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Tracking">
+        <param name="Local" value="document-tracking\document_tracking.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Tracking Preferences">
+        <param name="Local" value="document-tracking\document_tracking_preferences.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Setting up Document Tracking Preferences">
+        <param name="Local" value="document-tracking\setting_up_document_tracking_preferences.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tracking Work Orders">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up Custom Tracking for Work Orders">
+          <param name="Local" value="document-tracking\tracking-work-orders\set_up_custom_tracking_for_work_orders.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tracking Category Details">
+          <param name="Local" value="document-tracking\tracking-work-orders\tracking_category_details_1.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Tracking Category for Work Orders">
+          <param name="Local" value="document-tracking\tracking-work-orders\create_a_tracking_category_for_work_orders.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Tracking Category Profile (Work Orders)">
+          <param name="Local" value="document-tracking\tracking-work-orders\the_tracking_category_profile_work_orders_.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Tracking Category for Work Orders">
+          <param name="Local" value="document-tracking\tracking-work-orders\modify_a_tracking_category_for_work_orders.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Custom Tracking Group Details for Work Orders">
+          <param name="Local" value="document-tracking\tracking-work-orders\custom_tracking_group_details_for_work_orders.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Custom Tracking Group for Work Orders">
+          <param name="Local" value="document-tracking\tracking-work-orders\create_a_custom_tracking_group_for_work_orders.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Custom Tracking Group Profile for Work Orders">
+          <param name="Local" value="document-tracking\tracking-work-orders\the_custom_tracking_group_profile_for_work_orders.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Tracking Group for Work Orders">
+          <param name="Local" value="document-tracking\tracking-work-orders\modify_a_tracking_group_for_work_orders.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Custom Tracking Choice Details">
+          <param name="Local" value="document-tracking\tracking-work-orders\custom_tracking_choice_details_2.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Custom Tracking Choice for Work Orders">
+          <param name="Local" value="document-tracking\tracking-work-orders\create_a_custom_tracking_choice_for_work_orders.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Custom Tracking Choice Profile (Work Orders)">
+          <param name="Local" value="document-tracking\tracking-work-orders\the_custom_tracking_choice_profile_work_orders_.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Custom Tracking Choice for Work Orders">
+          <param name="Local" value="document-tracking\tracking-work-orders\modify_a_custom_tracking_choice_for_work_orders.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Custom Tracking Setup - Document Browser">
+          <param name="Local" value="document-tracking\tracking-work-orders\the_custom_tracking_setup_document_browser.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Track a Work Order">
+          <param name="Local" value="document-tracking\tracking-work-orders\track_a_work_order.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Custom Tracking Document Browser">
+          <param name="Local" value="document-tracking\tracking-work-orders\the_custom_tracking_for_documents_browser.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tracking Purchase Documents">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up Custom Tracking for Purchase Documents">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\set_up_custom_tracking_for_purchase_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tracking Category Details for Purchase Documents">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\tracking_category_details_for_purchase_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Tracking Category for Purchase Documents">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\create_a_tracking_category_for_purchase_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Tracking Category Profile (Purchase Documents)">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\the_tracking_category_profile_purchase_documents_.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Tracking Category for Purchase Documents">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\modify_a_tracking_category_for_purchase_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Custom Tracking Group Details for Purchase Documents">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\custom_tracking_group_details_for_purchase_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Custom Tracking Group for Purchase Documents">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\create_a_custom_tracking_group_for_purchase_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Custom Tracking Group profile for Purchase Documents">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\the_custom_tracking_group_profile_for_purchase_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Tracking Group for Purchase Documents">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\modify_a_tracking_group_for_purchase_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Custom Tracking Choice for Purchase Documents">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\create_a_custom_tracking_choice_for_purchase_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Custom Tracking Choice for Purchase Document">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\modify_a_custom_tracking_choice_for_purchase_document.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Custom Tracking Setup - Document Browser">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\the_custom_tracking_setup_document_browser_1.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Track a Purchase Document">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\track_a_purchase_document.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Custom Tracking - Document Browser">
+          <param name="Local" value="document-tracking\tracking-purchase-documents\the_custom_tracking_document_browser.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tracking Sales Documents">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up Custom Tracking for Sales Documents">
+          <param name="Local" value="document-tracking\tracking-sales-documents\set_up_custom_tracking_for_sales_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tracking Category Details for Sales Documents">
+          <param name="Local" value="document-tracking\tracking-sales-documents\tracking_category_details_for_sales_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Tracking Category for Sales Documents">
+          <param name="Local" value="document-tracking\tracking-sales-documents\create_a_tracking_category_for_sales_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Tracking Category Profile (Sales Documents)">
+          <param name="Local" value="document-tracking\tracking-sales-documents\the_tracking_category_profile_sales_documents_.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Tracking Category for Sales Documents">
+          <param name="Local" value="document-tracking\tracking-sales-documents\modify_a_tracking_category_for_sales_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Custom Tracking Group Details">
+          <param name="Local" value="document-tracking\tracking-sales-documents\custom_tracking_group_details_for_a_sales_document.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Custom Tracking Group for Sales Documents">
+          <param name="Local" value="document-tracking\tracking-sales-documents\create_a_custom_tracking_group_for_sales_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Tracking Group for Sales Documents">
+          <param name="Local" value="document-tracking\tracking-sales-documents\modify_a_tracking_group_for_sales_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Custom Tracking Choice for Sales Documents">
+          <param name="Local" value="document-tracking\tracking-sales-documents\create_a_custom_tracking_choice_for_sales_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Custom Tracking Choice Profile (Sales Documents)">
+          <param name="Local" value="document-tracking\tracking-sales-documents\the_custom_tracking_choice_profile_sales_documents_.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Custom Tracking Choice for Sales Documents">
+          <param name="Local" value="document-tracking\tracking-sales-documents\modify_a_custom_tracking_choice_for_sales_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Custom Tracking Setup - Document Browser">
+          <param name="Local" value="document-tracking\tracking-sales-documents\the_custom_tracking_setup_document_browser_2.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Track a Sales Document">
+          <param name="Local" value="document-tracking\tracking-sales-documents\track_a_sales_document.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Custom Tracking - Document Browser">
+          <param name="Local" value="document-tracking\tracking-sales-documents\the_custom_tracking_document_browser_1.html">
+        </object>
+        </ul>
+      </ul>
+    </ul>
+</ul>
+</html>

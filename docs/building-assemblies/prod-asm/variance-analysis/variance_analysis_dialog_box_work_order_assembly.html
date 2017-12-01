@@ -1,0 +1,88 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-variance-analysis-dialog-box">The Variance Analysis Dialog Box</h1>
+
+<p>The <strong>Variance Analysis</strong> dialog  box displays details of the cost, rate and quantity variance of each item  on the selected work order. This dialog box comprises the following columns:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Column</strong></td>
+      <td><strong>Displays:</strong></td>
+    </tr>
+    <tr>
+      <td>Item Code</td>
+      <td>The item code of the assembly item component.</td>
+    </tr>
+    <tr>
+      <td>Substitute Of</td>
+      <td>The item code of the substitute item if any.</td>
+    </tr>
+    <tr>
+      <td>Std. Input</td>
+      <td>The standard input of the item required to produce the (required) output  of the assembly item as displayed in the <strong>Std. <br /> Input</strong> column of the item details grid.</td>
+    </tr>
+    <tr>
+      <td>Normal Loss%</td>
+      <td>The normal loss percent as defined in the Bill of Material in the <strong>Input</strong> tab of the <strong>Item</strong>  profile (path: <strong>Inventory</strong> &gt;  <strong>Items</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In <br /> New Window</strong> &gt; <strong>Assembly</strong>  &gt; <strong>Input</strong> tab).</td>
+    </tr>
+    <tr>
+      <td>Normal Loss Qty</td>
+      <td>The normal loss quantity as defined in the Bill of Material.</td>
+    </tr>
+    <tr>
+      <td>Std. Input  (Incl. Loss)</td>
+      <td>The standard input before accounting for loss per unit of the assembly  item as defined in the Bill of Material.</td>
+    </tr>
+    <tr>
+      <td>Std. Input  (Excl. Loss)</td>
+      <td>The standard input after accounting for normal loss quantity for each  unit of the assembly as defined in the Bill of Material.</td>
+    </tr>
+    <tr>
+      <td>Actual Input</td>
+      <td>The actual quantity of the item used on the work order.</td>
+    </tr>
+    <tr>
+      <td>Std. Rate</td>
+      <td>The standard rate per unit of the component item as specified in the  Bill Of Material when the item was originally retrieved into the work  order.</td>
+    </tr>
+    <tr>
+      <td>Actual Rate</td>
+      <td>The actual rate per unit of the component item and is calculated based  on the item type.<br /><br /><br /><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/building-assemblies/prod-asm/building-wo/entering-qty-built/val-fnshd-goods/cost_of_inventoried_items_work_order_assembly_contents.html">Cost  of Inventoried Items</a></td>
+    </tr>
+    <tr>
+      <td>Actual Amount</td>
+      <td>The actual amount (Actual Rate * Actual Quantity) per line item.</td>
+    </tr>
+    <tr>
+      <td>Standard Amount</td>
+      <td>The standard amount (Standard Rate * Standard Quantity) per line item.</td>
+    </tr>
+    <tr>
+      <td>Rate Variance</td>
+      <td>The difference between standard or estimated rate for the item in the  Bill Of Material (defined in the (Assembly) <strong>Item</strong>  profile) and the actual rate for the work order.<br /><br /><br />Rate/Price Variance = (Standard Rate – Actual Rate) * Actual Quantity</td>
+    </tr>
+    <tr>
+      <td>Quantity Variance</td>
+      <td>The difference between estimated quantity required for the actual output  and the actual quantity used.<br /><br /><br />Quantity/Usage Variance = (Standard Input Quantity (Incl. loss) – Actual  Input Quantity) * Standard Rate</td>
+    </tr>
+    <tr>
+      <td>Cost Variance</td>
+      <td>The difference between the standard/estimated cost and the actual cost.<br /><br /><br />Cost Variance = Estimated Standard Costs – Actual Costs</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/variance-analysis/variance_analysis_work_order_profile_browser_option_assembly.html">Variance  Analysis</a></dd>
+</dl>
+
+
+
+
+</div>

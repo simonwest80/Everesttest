@@ -1,0 +1,55 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="impact-of-reversing-on-payment-history-and-transaction-history-screens">Impact of Reversing on Payment History and Transaction History Screens</h1>
+
+<p>The following table shows new statuses after an original transaction  is reversed and recreated as well as changes on the <strong>Document 
+ Payment History</strong> and <strong>Transaction 
+ History</strong> screens:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Transaction</td>
+      <td>New Transaction Status</td>
+      <td>New Payment Status</td>
+      <td>Document Payment History Screen</td>
+      <td>Transaction History screen</td>
+    </tr>
+    <tr>
+      <td>Original Transaction</td>
+      <td>Reversed</td>
+      <td>Blank</td>
+      <td> </td>
+      <td>No Change in Event Description</td>
+    </tr>
+    <tr>
+      <td>Offset Entry</td>
+      <td>Reversal</td>
+      <td>Blank</td>
+      <td>New Row (includes narration)</td>
+      <td>Event Description shows “Reversal of Journal &lt;#&gt;, Transaction  &lt;#&gt;”</td>
+    </tr>
+    <tr>
+      <td>Recreated Entry</td>
+      <td>Normal</td>
+      <td>‘To be Printed’ if payment type is check otherwise    ’Outstanding’</td>
+      <td>New Row (includes narration)</td>
+      <td>Event Description shows “Replacement of Reversed Journal &lt;#&gt;,  Transaction &lt;#&gt;”</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/reverse_dialog_box_payment_history_screen.html">Reverse</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/misc/impact_of_reversing_on_payment_status_and_transaction_status.html">Impact  of Reversing on Payment Status and Transaction Status</a></dd>
+</dl>
+
+
+
+
+</div>

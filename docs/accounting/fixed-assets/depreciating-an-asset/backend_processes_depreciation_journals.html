@@ -1,0 +1,28 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---depreciation-journals">Back End Processes - Depreciation Journals</h1>
+
+<p>The back end processes when a depreciation entry is created are:</p>
+
+<ul>
+  <li>The asset’s  current book value is reduced by the depreciation amount.</li>
+  <li>The last generation  date and number of generations fields on the <strong>Fixed 
+ Asset</strong> profile are updated.</li>
+  <li>If the asset  is fully depreciated, then the status of the asset changes to inactive.</li>
+</ul>
+
+<p class="note">Salvage value for the asset will continue  to exist as a balance in the asset account even when it is fully depreciated.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/fixed-assets/depreciating-an-asset/creating_a_depreciation_entry.html">Creating  a Depreciation Entry</a></dd>
+</dl>
+
+
+
+
+</div>

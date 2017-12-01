@@ -1,0 +1,64 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="parameters-in-an-answer-file">Parameters in an Answer File</h1>
+
+<p>The answer file specifies the parameter name, the starting position  (of the response) and the total number of characters (or length) in the  response.</p>
+
+<p>The ANSWER format is as below:</p>
+
+<p>Parameter Name - <starting position="">, <length></length></starting></p>
+
+<p>The length includes the starting position.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Parameter</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>APPROVE</td>
+      <td>Indicates whether the request was approved.  The  response is usually Y  or N.</td>
+    </tr>
+    <tr>
+      <td>RESPONSE</td>
+      <td>Returns the approval code if the transaction was approved or a response  code, otherwise.</td>
+    </tr>
+    <tr>
+      <td>AVS</td>
+      <td>Address Verification result</td>
+    </tr>
+    <tr>
+      <td>CVV2</td>
+      <td>CVV2 result</td>
+    </tr>
+    <tr>
+      <td>TRANID</td>
+      <td>Transaction ID</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/setting-up-a-company/img/note.gif" alt="" /></td>
+      <td>Some networks do not return a CVV2 value if CVV2 is not given or if  they do not support CVV2.  The  Answer file in such a case may or may not contain a blank space for the  CVV2 response.  This  does not matter if the CVV2 is the last part of the response. But, if  the CVV2 response is recorded in between two other response parameters,  and if a blank space is not sent, the response may not be interpreted  accurately.<br /><br /><br class="example" /><br />The answer file format is:<br /><br /><br />APPROVE = 2,1<br /><br /><br />RESPONSE = 3,6<br /><br /><br />AVS = 9, 1<br /><br /><br />CVV2 = 10,1<br /><br /><br />TRANID =  11, 8<br /><br /><br />If a CVV2 code is not sent for a transaction, then the TRANID  may start from position 10 instead of position 11.<br /><br /><br />Therefore, if the answer format includes CVV2 and it is in the middle  of two parameters, it is mandatory that you include the CVV2 information  in the request format.<br /><br /><br />Some networks return the CVV2 prefixed by “CVV”.   In such  cases, the Answer format must identify only the actual CVV2 response.<br /><br /><br class="example" /><br />If the 18th, 19th, and 20th positions would be occupied by “CVV”  and the actual CVV2 response would be in the 21st position, you must define  the format as:<br /><br /><br />APPROVE = 2,1<br /><br /><br />RESPONSE = 3,6<br /><br /><br />AVS = 9, 1<br /><br /><br />TRANID =  10, 8<br /><br /><br />CVV2 = 21,1<br /><br /><br />All formats are defined in the “Y”  type of answer format for ICVerify.<br /><br /><br />“Y123456WA125346039401”</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/ini-file-for-icverify/create_an_icverify_configuration_file.html">Create  an ICVerify Configuration File</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/ini-file-for-icverify/configuration_file_for_icverify.html">Configuration  File for ICVerify</a></dd>
+</dl>
+
+
+
+
+</div>

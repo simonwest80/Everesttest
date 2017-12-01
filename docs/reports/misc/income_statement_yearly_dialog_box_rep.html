@@ -1,0 +1,125 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="income-statement-yearly-dialog-box">Income Statement (Yearly) Dialog Box</h1>
+
+<p>Select the following parameters to view the <strong>Income 
+ Statement Yearly</strong> report.</p>
+
+<dl>
+  <dt><strong>Fiscal Year</strong></dt>
+  <dd>Enter the fiscal year to use for creating the income  statement. The Income Statement Yearly Report is limited to a maximum  of 24 periods defined for a fiscal year.</dd>
+  <dt>If you select 2006 as the Fiscal Year, the generated report includes  a monthly break up of income and expenses from January to December 2006.</dt>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/reports/common-report-options/drop_down_button_and_menu_options.html">Drop-Down  List - Right-Click Menu Options</a></dd>
+  <dt><strong>Report Type</strong></dt>
+  <dd>Select the type of report you want to generate.  If you select the option <strong>Detail</strong>,  the report displays a break up of the revenues and expenses by locations/sub-locations.  If the option <strong>Summary</strong> is selected,  only total revenues and expenses are displayed.</dd>
+  <dt><strong>Smart Filter</strong></dt>
+  <dd>Use the <strong>Smart Filter</strong>  to select accounts based on your segments. Wildcards can be used in this  field and up to 250 characters can be entered. <strong>Segment 
+ separators</strong> must be entered between segments. Enter a semi-colon  (;) to separate accounts in the <strong>Smart 
+ Filter</strong>.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Smart Filter Wildcard</td>
+      <td>Meaning</td>
+    </tr>
+    <tr>
+      <td>?</td>
+      <td>One Character</td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td>Multiple Characters</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="example">
+  <dt>If you enter <strong>R05</strong>*  in the <strong>Smart Filter</strong> field, you  will filter for all accounts that begin with R05.</dt>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /><a href="/versata-everest-docs/reports/misc/smart_filter.html">Smart Filter</a></dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /><a href="/versata-everest-docs/setting-up-a-company/options/acc-info/coa/chart-of-accounts-details/segmented_chart_of_accounts.html">Segmented_Chart_of_Accounts</a></dd>
+  <dt><strong>Include Provisionally Posted Amounts</strong></dt>
+  <dd>Select this check box to include provisionally posted  balances.</dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/reports/common-report-options/drop_down_button_and_menu_options.html">Drop-Down  List - Right-Click Menu Options</a></dd>
+  <dt><strong>Include Unposted Amounts</strong></dt>
+  <dd>Select this check box to display the current balance  which will include posted and unposted amounts. You can select only one  of the two check boxes - <strong>Provisionally 
+ Posted Amounts</strong> or <strong>Unposted Amounts</strong>.</dd>
+  <dt>You can either include provisionally posted amounts or unposted amounts  in the report.</dt>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/accounting-structure-in-everest/posting/posting.html">The  Posting Process</a></dd>
+  <dt><strong>Hide Accounts with Zero balance</strong></dt>
+  <dd>Select this check box to exclude accounts with a  zero balance from the report. This will also exclude discontinued accounts.  If left unchecked, all accounts display regardless of the balance status.</dd>
+  <dt><strong>Show Location Details</strong></dt>
+  <dd>Select this check box to include a location-wise  breakup of the income statement report. If unchecked, the report will  show the summary of total income and expenses.</dd>
+</dl>
+
+<p class="note">This field is disabled if you choose a specific location in the <strong>Location/Sub-Location</strong> field.</p>
+
+<dl>
+  <dt><strong>Show Other Income (Expenses) Details</strong></dt>
+  <dd>Select this check box to include the details of  Other Income (Expenses). If unchecked, the report will show the summary  of Other Income (Expenses).</dd>
+  <dt><strong>Show Provisional Tax Details</strong></dt>
+  <dd>Select this check box to include Provisional Tax  details in the report. If unchecked, the report will include the summary  of Provisional Tax details.</dd>
+  <dd>The generated report classifies the Income Statement  for the specified Fiscal Period as follows:</dd>
+</dl>
+
+<ol>
+  <li>Total Revenue
+    <ul>
+      <li>Total Cost of Goods Sold</li>
+      <li>Gross Profit</li>
+      <li>Total Operating Expense</li>
+      <li>Total Other Income (Expenses)</li>
+      <li>Total Provision for Income Taxes</li>
+    </ul>
+  </li>
+</ol>
+
+<dl>
+  <dt>: These report classifications are generated only  when the values are available. The report gives a percentage calculation  on Total Product Revenue for each of these.  The  Gross Profit is shown only when Cost of Goods Sold type of accounts are  printed.</dt>
+  <dd>The summary of the following are calculated and  given in the report:</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>1.</td>
+      <td>Gross Profit</td>
+      <td>=</td>
+      <td>Total Revenue - Total Cost of Goods Sold</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>Income from Operations</td>
+      <td>=</td>
+      <td>Gross Profit - Total Operating Expenses</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>Income before Income Taxes</td>
+      <td>=</td>
+      <td>Income from Operations + Other (Expense) Income</td>
+    </tr>
+    <tr>
+      <td>4.</td>
+      <td>Net Income</td>
+      <td>=</td>
+      <td>Income before Income Taxes - Provision for Income Taxes</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/financial/income_statement_yearly.html">Income Statement  Yearly</a></dd>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/financial/financial.html">Financial Reports</a></dd>
+</dl>
+
+
+
+
+</div>

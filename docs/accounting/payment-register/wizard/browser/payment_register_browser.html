@@ -1,0 +1,86 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payments-register-browser">Payments Register Browser</h1>
+
+<p>The <strong>Payment Register</strong> browser  displays a detailed list of payments issued during the specified period,  based on the selection criteria specified in the <strong>Payment 
+ Register Wizard</strong>.</p>
+
+<ul class="note">
+  <li>If you edit the  check number in Payment/Receipt journal, <strong>Everest</strong>  verifies the check number in the respective journals and also in <strong>Voided Transaction</strong> browser and <strong>Payment Register</strong> browser.</li>
+  <li>The options Purge,  Void, Reverse, Print Check, and Change Payment Status will be disabled  for all payroll transactions in <strong>Payment 
+ Register</strong> screen.</li>
+  <li>When you purge  or reverse a payroll transaction it will be reflected on <strong>Payment 
+ Journal</strong> browser and <strong>Payment Register</strong>  screen.</li>
+</ul>
+
+<p>This browser is displayed when the <strong>Finish</strong>  button is pressed in the <strong>Payment Register 
+ Wizard</strong>.</p>
+
+<dl>
+  <dt><strong>Dates</strong></dt>
+  <dd>Specify the date range of the payments or receipts  to view in this field. All payments or receipts within the selected period  will be included in the browser.</dd>
+  <dd>Select <strong>Custom</strong>  to enter a specific date range.</dd>
+  <dt><strong>From</strong></dt>
+  <dd>Specify the start date of payments or receipts to  be included in the browser. This field is enabled only if you select <strong>Custom</strong> in the <strong>Dates</strong>  field.</dd>
+  <dt><strong>To</strong></dt>
+  <dd>Specify the end date of payments or receipts to  be included in the browser. This field is enabled only if you select <strong>Custom</strong> in the <strong>Dates</strong>  field.</dd>
+  <dt><strong>Include reconciled transactions</strong></dt>
+  <dd>Select this check box to view transactions that  are reconciled with the bank account.</dd>
+</dl>
+
+<p>The <strong>Payments Register</strong> browser  has the following columns:</p>
+
+<ul>
+  <li><strong>Reference 
+ # / Check # -</strong> The reference number or check number specified for  the payment or receipt is displayed in this column. If the payment is  through credit card the reference # appears or if the payment is through  check the check # appears. Credit card numbers in the Reference # column  are masked using the format XXXXXXXXXXXX<last four="" digits="" of="" the="" card="">  when the **Enable Extended Mode**  check box is cleared (path: **File**  &gt; **Setup** &gt; **Preferences**  &gt; **Workstation Settings** &gt;  **Company Settings** tab). This column  is editable if the transaction is unposted or the payment status is **Outstanding** or **To 
+ be Printed**.</last></li>
+</ul>
+
+<p class="note">If you want to edit the data then you have  to blank out the entire data, which is possible only for transactions  that have <strong>Outstanding</strong> status.</p>
+
+<p class="example">Suppose the Check # assigned to Transaction  #1 in <strong>Outstanding</strong> status is 1234.  If you want to change the Check # to 1238 you have to blank out the Check  # column for this transaction. As you blank out the Check # the payment  status changes to <strong>To-be-printed</strong>.  After keying in the Check # the payment status automatically changes to  <strong>Outstanding</strong>.</p>
+
+<ul>
+  <li><strong>Date</strong> - The date that the payment was issued or received is displayed  in this column.</li>
+  <li><strong>Amount</strong>  - The amount of the payment is displayed in this column.</li>
+  <li><strong>Payment</strong><strong>Method</strong> - The payment method by  which the vendor was paid or the payment was received from the customer  was paid is displayed in this column.</li>
+  <li><strong>Payment</strong><strong>Status</strong> - This column displays  the status of the payment. Click <a href="/versata-everest-docs/accounting/payment-register/wizard/browser/payment_status_payment_register_column.html">here</a>  for further details.</li>
+  <li><strong>Account 
+ Type</strong> - The account type, Customer or Vendor is displayed in this  column. The account type depends upon your selections in the wizard.</li>
+  <li><strong>Code</strong>  - The vendor or customer code is displayed in this column.</li>
+  <li><strong>Name</strong>  - The name of the customer or vendor is displayed in this column.</li>
+  <li><strong>Narration</strong>  - This column is updated with the reason provided for voiding/reversing  a check in the <strong>Narration</strong> section  of the <strong>Void</strong> dialog box (path:  <strong>Accounting &gt;</strong> <strong> Payment 
+ Register</strong> browser &gt; <strong>Options 
+ &gt; Void</strong>).</li>
+  <li>Transaction  Status - This field indicates whether  the transaction used is a Normal transaction, Voided transaction, Reversed  transaction or Reversal transaction.</li>
+</ul>
+
+<p class="note">Transactions recreated after voiding or reversing  are marked as Normal transaction.</p>
+
+<ul>
+  <li><strong>Deposited</strong>  - You can add this column to the Payments Register from the Field Chooser.  The <strong>Deposited</strong> column displays  a checkmark if a payment has been deposited. Change the deposit status  by selecting <strong>Options</strong> &gt; <strong>Change Deposit Status</strong> &gt; <strong>Mark 
+ Deposit/Clear Deposit</strong> from the right-click menu or from the <strong>Options</strong> menu.</li>
+</ul>
+
+<p class="warn">Warning: If the deposit status is marked <strong>‘Deposited’</strong>  in the Payments Register browser, the receipt will not be listed in the  <strong>Bank Deposit Wizard</strong> even if the  receipt is still undeposited and vice versa. Be extremely cautious while  marking a payment as deposited in the <strong>Payments 
+ Register</strong> browser; it is a good practice to restrict security rights  for changing the deposit status in this browser only to authorized personnel.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/payment_register_browser_options.html">Payment  Register Browser Options</a></dd>
+  <dd>
+    <font style="color: #008000;" color="#008000"><a href="/versata-everest-docs/working-with-everest/everest-client/ui/browsers/standard_browser_options.html">Standard 
+ Browser Options</a></font>
+  </dd>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/voiding-transactions-payment-register/void_a_transaction_payment_register.html">Void  a Transaction from the Payment Register</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/information_available_payment_register_browser.html">Information  Available - Payment Register Browser</a></dd>
+</dl>
+
+
+
+
+</div>

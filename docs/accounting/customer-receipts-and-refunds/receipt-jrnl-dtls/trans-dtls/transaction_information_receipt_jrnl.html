@@ -1,0 +1,80 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="transaction-information">Transaction Information</h1>
+
+<dl>
+  <dt><strong>Transaction #</strong></dt>
+  <dd>Transaction # is the unique number used to identify  the transaction. The transaction number is generated automatically by  <strong>Everest</strong>.</dd>
+  <dd>You can have one or more transactions per journal.  You can navigate between transactions in the same journal by clicking  on the drop-down arrow and selecting the required transaction number.  After creating a transaction, select <strong>Options 
+ &gt; New Transaction</strong> to create the next transaction.</dd>
+  <dt><strong>Date</strong></dt>
+  <dd>This field denotes the transaction date for the  receipt or refund. In the case of system entries made for document payments,  the date displays the login date when the payment/refund was entered.</dd>
+  <dt><strong>Source</strong></dt>
+  <dd>This field identifies the source type of the transaction.  The source types used when a system entry is made are:</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Source Type</strong></td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>RCT</td>
+      <td>Receipt for Sales Invoice (when payments are received against a sales  invoice, either as a payment or by applying deposits/credit memos).</td>
+    </tr>
+    <tr>
+      <td>DRC</td>
+      <td>Deposit for Sales Order (when deposits are received against a sales  order, either as a payment or by applying deposits/credit memos).</td>
+    </tr>
+    <tr>
+      <td>DRT</td>
+      <td>Deposit returned for Sales Order.</td>
+    </tr>
+    <tr>
+      <td>RRT</td>
+      <td>Payment refunded for Sales Invoice.</td>
+    </tr>
+    <tr>
+      <td>CCT</td>
+      <td>Payment for Credit Memo (when a credit memo is refunded).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: When creating a manual receipt journal:</p>
+
+<ul>
+  <li>The default  source type displayed is <strong>MRE</strong>(<strong>Manual Receipt</strong>)</li>
+  <li>You can select  any other manual source type for the transaction</li>
+</ul>
+
+<dl class="example">
+  <dt>While accounting for the receipt on the sales  of recycled paper, you can select a source type that identifies miscellaneous  income.</dt>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/acc-info/source-types/source_types.html">Source  types</a></dd>
+  <dt><strong>Payment Type</strong></dt>
+  <dd>This field identifies the payment method for the  transaction. The payment method is used to identify the entry type for  the bank account in the <strong>Transaction Entries</strong>  section.</dd>
+  <dd>If you apply one sales document to another, a transaction  is automatically created in a receipt journal (for the amount applied).</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/pmts-on-so/rcpt-dlg/the_payment_dialog_box_apply_deposits_refunds_tab.html">Receipt  Dialog Box - Apply Deposits/Refunds Tab</a></dd>
+  <dd>The <strong>Payment Type</strong> field defaults to the payment method selected in the <strong>Workstation Settings</strong> dialog box &gt; <strong>Default Payment Method for Applied Payments</strong> field (path: <strong>File</strong> &gt;  <strong>Setup</strong> &gt; <strong>Preferences</strong> &gt; <strong>Workstation Settings</strong>).  If a payment method is not defined in the <strong>Workstation 
+ Settings</strong> dialog box, the payment method selected in the <strong>Default 
+ Payment Method for Applied Payments</strong> field (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong> tab) will be  used.</dd>
+  <dd><strong>Manual Entries</strong></dd>
+  <dd>This field defaults to the payment method specified  in the <strong>Default payment method for Collections</strong> field of the <strong>Accounting</strong> dialog  box (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong> &gt; <strong>Miscellaneous</strong> tab).</dd>
+  <dd><strong>Subsequent Entries</strong></dd>
+  <dd>For subsequent entries in the journal, you can only  select payment methods that are attached to the account selected in the  <strong>Bank</strong> field. The payment method  for a new transaction defaults to the one selected in the previous transaction.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/payment-information/payment-methods/payment-method-details/general_information_payment_method.html">Account  - Payment Method Profile</a></dd>
+  <dt><strong>The check display section</strong></dt>
+  <dd>The receipt amount, date and payee’s name are specified  in this section. Click <a href="/versata-everest-docs/accounting/misc/the_check_display_section_manrptjrnl.html">here</a>  for details relating to this section.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/transactions_manrptjrnl.html">Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

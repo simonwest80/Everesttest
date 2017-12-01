@@ -1,0 +1,48 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="cross-currency-calculations">Cross Currency Calculations</h1>
+
+<p>When more than one currency is involved in a receipt or refund, <strong>Everest</strong> uses cross-currency calculations.</p>
+
+<p><img src="/versata-everest-docs/accounting/img/example.gif" alt="" />  Assume  that your base currency is United States Dollar (USD) and you have created  a sales invoice for a customer whose currency is Great Britain Pound (GBP);  you receive payment from the customer in Euro (EUR)  which is deposited in a bank account maintained in Japanese Yen (JPY).  <strong>Everest</strong> uses cross currency calculations  so that your bank account balance will increase by the JPY amount that  equals the value of the EUR  check received.</p>
+
+<p>In this case, <strong>Everest</strong>  first uses the exchange rate available for EUR  to USD to calculate the equivalent USD amount for the payment amount.  <strong>Everest</strong> then translates this USD  amount to the JPY amount using the exchange rate available from USD to  JPY.</p>
+
+<p>This is called <strong>cross-currency 
+ calculations</strong>. The result thus derived is the same as directly translating  EUR to JPY  since the exchange rate from EUR  to JPY can be obtained by equating the USD/EUR  rate to the JPY/USD rate.</p>
+
+<p>Thus the accounts have to be updated not only in terms of the base currency  but also in their respective currencies.</p>
+
+<p>The presumption while performing cross currency calculations is that  the exchange rates entered for the payment currency, the bank currency  and the document currency against the base are all from the same foreign  exchange market.</p>
+
+<p><img src="/versata-everest-docs/accounting/img/example.gif" alt="" />  Base  Currency = USD</p>
+
+<p>Amount of payment = 1000 EUR</p>
+
+<p>Exchange rate for EUR  to USD: 1 EUR  = 0.133935 USD</p>
+
+<p>Bank currency = JPY</p>
+
+<p>Exchange rate for USD to JPY: 1 USD =  123.247 JPY</p>
+
+<p>1000 EUR  in terms of JPY = 16507.08 JPY</p>
+
+<p>Document currency = GBP</p>
+
+<p>Exchange rate for GBP  to USD: 1 GBP  = 1.41218 USD</p>
+
+<p>1000 EUR  in terms of GBP  = 94.84</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/customer-receipts-and-refunds/foreign-currency-receipts/receipts_in_foreign_currency.html">Receipts  in Foreign Currency</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,65 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="default-stock-area">Default Stock Area</h1>
+
+<p><strong>Everest</strong><font color="#000000" class="hcp2"> allows inventory to be automatically transferred to 
+ a stock area when a document is processed.</font></p>
+
+<p class="example">Inventory can be automatically moved into  the Main Stock Area when a Purchase Receipt or Invoice is created, or  inventory can be moved into the Released area when a Sales Invoice is  created.</p>
+
+<p>Stock areas are affected  in the following cases:</p>
+
+<ul>
+  <li>
+    <font color="#000000" class="hcp2">Inventory is received on a purchase receipt or invoice, 
+ or returned on a debit memo.</font>
+  </li>
+  <li>
+    <font color="#000000" class="hcp2">Inventory is issued on a sales invoice or received on 
+ a credit memo.</font>
+  </li>
+  <li>
+    <font color="#000000" class="hcp2">Inventory is assigned or unassigned on an order.</font>
+  </li>
+</ul>
+
+<p>You can specify default stock areas for each of these functions in the  <strong>Stock</strong> <strong>Transfer</strong>  tab of the <strong>Location</strong> profile (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location</strong>/<strong>Sub-Location</strong> &gt; From the <strong>Location/Sub-Locations</strong> browser, double-click on the required record).</p>
+
+<p class="note">The stock area can be changed on each document  at the time of receipt or sale.</p>
+
+<p><strong><font color="#000000" class="hcp2">The Location Profile - Stock 
+ Transfer Tab - Purchase Document</font></strong></p>
+
+<font color="#000000" class="hcp2">This profile is used to specify the stock areas to 
+ which items should be transferred when a purchase document such as purchase 
+ order, purchase receipt, purchase invoice, debit order and debit memo 
+ are created and items are received/returned on them.</font>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/lens.gif" alt="" /><font color="#000000" class="hcp2"> </font><a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/set-up-locations/the_location_profile_stock_transfer.html">The  <strong>Location</strong> Profile - Stock Transfer  - Purchase Documents</a></p>
+
+<p><strong><font color="#000000" class="hcp2">The Location Profile - Stock 
+ Transfer Tab - Sales Documents</font></strong></p>
+
+<font color="#000000" class="hcp2">This profile is used to specify the stock areas to 
+ which items should be transferred when a sales document such as sales 
+ order, sales invoice, credit order and credit memo are created and items 
+ are dispatched/returned on them.</font>
+
+<p class="example">If you have indicated CSHIP  (customer shipment expected) as the default stock area when items are  attached to a sales order, <strong>Everest</strong>  will automatically transfer items to CSHIP  whenever a sales order is created and items are assigned to it.</p>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/lens.gif" alt="" /><font color="#000000" class="hcp2"> </font><a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/set-up-locations/the_location_profile_stock_transfer.html">The  <strong>Location</strong> Profile - Stock Transfer  - Sales Documents</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/stock-areas/stock-areas/creating_a_new_stock_area.html">Creating  a Stock Area</a><font color="#000000" class="hcp2"> </font></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/the-company-creation-wizard/inventory/inventory_stock_areas_measures_defaults.html">Stock  Areas and Measures</a><font color="#000000" class="hcp2"> </font></dd>
+</dl>
+
+
+
+
+</div>

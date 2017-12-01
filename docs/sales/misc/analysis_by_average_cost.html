@@ -1,0 +1,57 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="analysis-by-average-cost">Analysis by Average Cost</h1>
+
+<p>When the analysis is by average cost, the current mark-up percentage  and the current margin is calculated using the selling price for the item  on the document and the average cost for the item.</p>
+
+<p class="note">The average cost is computed per sales measure of the  item.</p>
+
+<p>The average cost analysis further analyses by 3 types of average cost.</p>
+
+<ul>
+  <li><strong>Average 
+ Cost</strong> - In this case, the average cost used for analysis is the  current average cost. Where the item is serialized, the current average  cost is the average of the actual cost of units in stock. This is the  average cost that is displayed on the <strong>Item</strong>’s  profile.</li>
+  <li><strong>Last 
+ saved average cost</strong> - Each time a sales document is saved, <strong>Everest</strong> also saves the average cost  of the item. The analysis provided is based on the last saved actual average  cost.</li>
+  <li><strong>Actual 
+ average cost</strong> - When the analysis is by actual cost, the current  mark-up percentage and the current margin is calculated using the selling  price for the item on the document. Cost used is the actual cost for serialized  items and the current average cost for non-serialized items.</li>
+</ul>
+
+<p>If the document is a sales order, the actual cost for the item is computed  thus:</p>
+
+<ol>
+  <li>
+    <p>Total of the actual cost of items committed on the sales order.</p>
+  </li>
+  <li>
+    <p>Product of the item’s current average cost and quantity of items  not committed.</p>
+  </li>
+  <li>
+    <p>Sum of 1 and 2.</p>
+  </li>
+  <li>
+    <p>Divide 3 by total quantity on order.</p>
+  </li>
+</ol>
+
+<p class="note">If the option <strong>Factor 
+ Cost (enable cost inflation)</strong> is selected in the <strong>Other 
+ Flow Control</strong> dialog box (path: <strong>File 
+ &gt; Setup &gt; Preferences &gt; Flow Control &gt; Other Flow Control 
+ &gt; Item Cost/Sales Summary</strong> tab), the costs are inflated by the  factor percentage for the item. However, if the user has logged into extended  mode, the costs displayed will not include cost inflation.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/other-flow-control/the-other-flow-control-dialog-box/other_flow_control_item_cost_sales_summary_tab.html">Factor  Cost (enable cost inflation)</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sqs/sq-proc/pricing-analysis/costs_used_in_pricing_analysis.html">Costs  Used in Pricing Analysis</a></dd>
+</dl>
+
+
+
+
+</div>

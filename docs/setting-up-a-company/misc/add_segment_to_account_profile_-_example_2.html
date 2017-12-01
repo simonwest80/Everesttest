@@ -1,0 +1,67 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="add-segment-to-account-profile---example-2">Add Segment to Account Profile - Example 2</h1>
+
+<p class="example">Another company has a segment format of COM-BRAN.  The detail account is 001-Main and postings have been made to this account  in the amount of $5,000.</p>
+
+<p>Before Adding Segment to Account:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Account Type</td>
+      <td>Balance</td>
+    </tr>
+    <tr>
+      <td>001-Main</td>
+      <td>Detail</td>
+      <td>$5,000</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The user adds a 4 character segment to their segment format called DIVS.  The user accepts the default account code of 0000 for historic transactions  and creates a new detail account called 001-Main-Svcs for new transactions.</p>
+
+<p>After Adding Segment to Account:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Account Type</td>
+      <td>Balance</td>
+    </tr>
+    <tr>
+      <td>001-Main</td>
+      <td>General</td>
+      <td>$0</td>
+    </tr>
+    <tr>
+      <td>001-Main-0000</td>
+      <td>Detail (For Historical Transactions)</td>
+      <td>$5,000</td>
+    </tr>
+    <tr>
+      <td>001-Main-Svcs</td>
+      <td>Detail</td>
+      <td>$0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The 001-Main account becomes a general account and is a parent account  of 001-Main-0000. The $5,000 balance gets transferred to the 001-Main-0000  account. Transactions can now be posted to 001-Main-0000 or 001-Main-Svcs.  Since 001-Main is now a general account, no transactions can be posted  to it. To transfer part of the $5,000 balance to the 001-Main-Svcs account,  the user must create a manual entry to the General Journal.</p>
+
+<dl>
+  <dt><img src="/versata-everest-docs/setting-up-a-company/img/see_also.gif" alt="" /></dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/add_segment_to_account_profile_segmented_coa.html">Add  Segment to Account Profile</a></dd>
+</dl>
+
+
+
+
+</div>

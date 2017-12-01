@@ -1,0 +1,56 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="quantity-discounts">Quantity Discounts</h1>
+
+<p>Define discount structures based on quantities purchased by customers.  Each discount structure can have discount rates for five quantity levels.  To apply these discounts for an item, the discount scheme has to be associated  with a customer level in the <strong>Discount 
+ Code</strong> column of the <strong>Customer Level 
+ Pricing</strong> dialog box (path: Item profile &gt; Sales tab &gt; Double-click  Level Pricing field). All customers in this level become eligible for  the discount, if the quantity ordered exceeds or is equal to one of the  minimum quantities in the scheme.</p>
+
+<p>Quantity discounts must be created in an ascending order as shown in  the example below.</p>
+
+<p class="example">You can  create a discount scheme with the following structure</p>
+
+<p>Minimum Quantity  Discount rate (%)</p>
+
+<p>100    5</p>
+
+<p>150    6</p>
+
+<p>200    7</p>
+
+<p>250     10</p>
+
+<p>300     12</p>
+
+<p>You can associate this scheme with Customer Level 1 for Item A and with  Customer Level 5 for Item B. If a customer in level 1 orders 100 of item  A, the customer is eligible for a discount rate of 5% and if a customer  in level 5 orders 100 of item B, the customer is eligible for a discount  of 5%.</p>
+
+<ul class="note">
+  <li>It is not mandatory  to associate a discount scheme with every customer level.</li>
+  <li>Discounts are applicable  to each unit of measure.</li>
+</ul>
+
+<p>If the customer purchases a quantity that falls between two quantity  levels that have been defined, the discount for the previous level is  applied.</p>
+
+<p class="example">Based on the discount scheme defined in the  previous example, if a customer buys 125 (between 100 and 150); the customer’s  discount rate will be 5 % (i.e. what is applicable for 100 quantity).</p>
+
+<p>Discounts available are automatically calculated if you select the option  <strong>Automatically apply item discounts applicable 
+ to a customer when retrieving the item on a document</strong> in the <strong>Flow</strong> <strong>Control</strong>  preferences (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Document Payments</strong> tab). If this is not  selected, you can still apply discounts to a sales document by using the  <strong>Apply Discounts</strong> menu option (path:  <strong>Options</strong> &gt; <strong>Customer</strong>  &gt; <strong>Apply Discounts</strong>).</p>
+
+<p>If the quantity of an item is changed in a sales document and another  price becomes applicable to the item, the price may change automatically  or you may receive a prompt depending upon your preference selection in  the <strong>Behavior for price column if quoted/ordered 
+ quantity is changed and a new price is available</strong> field (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow 
+ Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Pricing/Discounts</strong> tab).</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/item-pricing/discounts-and-special-pricing/quantity-discounts/setting_up_a_quantity_discount_scheme.html">Define  Quantity Discounts</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/item-pricing/item_pricing.html">Item Pricing</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,810 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="_blank">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800027">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Business Processes in Everest">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="The Everest Automation Philosophy">
+      <param name="Local" value="the_everest_automation_philosophy_business_process_in_everest_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Automation of a Real Life Business Cycle">
+      <param name="Local" value="simulation_of_a_real_life_business_cycle_business_process_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Significant Features of a Business Cycle">
+      <param name="Local" value="salient_points_of_a_business_cycle_business_process_in_everest_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Functions performed by Everest">
+      <param name="Local" value="everest_performs_the_following_functions_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Overview of Business Processes in Everest">
+      <param name="Local" value="overview_of_business_processes_in_everest.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Documents used in Everest">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Documents used in Everest">
+        <param name="Local" value="docs\documents_used_in_everest.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Manual Documents">
+        <param name="Local" value="docs\manual_documents.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="System Documents">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="System Documents">
+          <param name="Local" value="docs\sys\system_documents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="List of System Documents in Everest">
+          <param name="Local" value="docs\sys\list_of_system_documents_in_everest_business_processes_in_everest_contents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="System Documents - Flowchart">
+          <param name="Local" value="docs\sys\system_documents_flow_chart.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Purchase Documents">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purchase Documents">
+            <param name="Local" value="docs\sys\purch\purchase_documents_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purchase Quote">
+            <param name="Local" value="docs\sys\purch\purchase_quote_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purchase Order">
+            <param name="Local" value="docs\sys\purch\purchase_order_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purchase Receipt">
+            <param name="Local" value="docs\sys\purch\purchase_receipt_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purchase Invoice">
+            <param name="Local" value="docs\sys\purch\purchase_invoice_bp.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Purchase Return Documents">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Purchase Return Documents">
+            <param name="Local" value="docs\sys\purch-ret\purchase_return_documents_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Debit Quote">
+            <param name="Local" value="docs\sys\purch-ret\debit_quote_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Debit Order">
+            <param name="Local" value="docs\sys\purch-ret\debit_order_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Debit Memo">
+            <param name="Local" value="docs\sys\purch-ret\debit_memo_businesss_process_in_everest_content.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Sales Documents">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Sales Documents">
+            <param name="Local" value="docs\sys\sales-documents\sales_documents_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Sales Quote">
+            <param name="Local" value="docs\sys\sales-documents\sales_quote_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Sales Order">
+            <param name="Local" value="docs\sys\sales-documents\sales_order_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Sales Invoice">
+            <param name="Local" value="docs\sys\sales-documents\sales_invoice_businesss_process_in_everest_content.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Sales Returns Documents">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Sales Returns Documents">
+            <param name="Local" value="docs\sys\sale-ret\sales_return_documents_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Credit Quote">
+            <param name="Local" value="docs\sys\sale-ret\credit_quote_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Credit Order">
+            <param name="Local" value="docs\sys\sale-ret\credit_order_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Credit Memo">
+            <param name="Local" value="docs\sys\sale-ret\credit_memo_businesss_process_in_everest_content.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Assembly Documents">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Assembly Documents">
+            <param name="Local" value="docs\sys\asm\assembly_documents_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Bill of Material">
+            <param name="Local" value="docs\sys\asm\bill_of_material_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Work Order">
+            <param name="Local" value="docs\sys\asm\work_order_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Issue Work Orders">
+            <param name="Local" value="docs\sys\asm\issue_work_orders_businesss_process_in_everest_content.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Point of Sale Documents">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale">
+            <param name="Local" value="docs\sys\pos\point_of_sale_pos_documents_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale (POS) Invoice">
+            <param name="Local" value="docs\sys\pos\point_of_sale_pos_invoice_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Point of Sale Credit (POS) Memo">
+            <param name="Local" value="docs\sys\pos\point_of_sale_credit_pos_memo_businesss_process_in_everest_content.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Inventory Adjustment Documents">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Inventory Adjustment">
+            <param name="Local" value="docs\sys\inv-adj\inventory_documents_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Stock Area Transfer Note">
+            <param name="Local" value="docs\sys\inv-adj\stock_area_transfer_note_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Inventory Adjustment Document">
+            <param name="Local" value="docs\sys\inv-adj\inventory_adjustment_document_businesss_process_in_everest_content.html">
+          </object>
+          </ul>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Document Policies">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Policies">
+        <param name="Local" value="doc-policies\document_policies_business_process_content.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create Document Policies">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Document Policy">
+          <param name="Local" value="doc-policies\create-document-policies\setting_up_document_policies.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Document Policy Profile">
+          <param name="Local" value="doc-policies\create-document-policies\general_tab.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Document Policy">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Document Policy">
+          <param name="Local" value="doc-policies\modify-a-document-policy\modify_a_document_policy_business_process_content.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Discontinue a Document Policy">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue a Document Policy">
+          <param name="Local" value="doc-policies\discontinue\discontinue_a_document_policy_business_process_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View and Activate a Discontinued Document Policy">
+          <param name="Local" value="doc-policies\discontinue\view_and_activate_a_discontinued_document_policy_business_proces_content.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Document Policies Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Document Policies Browser">
+          <param name="Local" value="doc-policies\the-document-policies-browser\the_document_policies_browser_business_process_in_everest.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Document Aliases">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Aliases">
+        <param name="Local" value="doc-aliases\document_aliases_businesss_process_in_everest_content.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Advantages of using Document Aliases">
+        <param name="Local" value="doc-aliases\advantages_of_using_document_aliases_businesss_process_in_everest_content.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Processing Document Aliases">
+        <param name="Local" value="doc-aliases\processing_of_document_aliases_businesss_process_in_everest_content.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Alias Information">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Document Alias Information">
+          <param name="Local" value="doc-aliases\info\the_doc_alias_profile_contents_businesss_process_in_everest_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Document type, Document alias, Document policy and Web enabled fields">
+          <param name="Local" value="doc-aliases\info\document_type_document_alias_document_policy_web_enabled_fields_doc_alias_content_businesss_process_in_everest_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Document alias used when creating">
+          <param name="Local" value="doc-aliases\info\document_alias_used_when_creating_doc_alias_profile_businesss_process_in_everest_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Security">
+          <param name="Local" value="doc-aliases\info\security_doc_alias_profile_businesss_process_in_everest_content.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create Document Aliases">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Document Alias">
+          <param name="Local" value="doc-aliases\create\creating_a_document_alias_businesss_process_in_everest_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Document Alias Profile">
+          <param name="Local" value="doc-aliases\create\document_alias_profile_general_tab_steps_businesss_process_in_everest_content.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Document Alias">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Document Alias">
+          <param name="Local" value="doc-aliases\modify-a-document-alias\modify_a_document_alias_document_alias_profile_business_process_content.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Discontinue a Document Alias">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue a Document Alias">
+          <param name="Local" value="doc-aliases\discontinue\discontinue_a_document_alias_document_alias_profile_business_process_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View and Activate Discontinued Document Aliases">
+          <param name="Local" value="doc-aliases\discontinue\view_and_activate_discontinued_document_aliases_document_alias_profile_business_process_content.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Document Aliases Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Document Aliases Browser">
+          <param name="Local" value="doc-aliases\the-document-aliases-browser\the_document_aliases_browser_business_process_in_everest.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Flow Control and Document Defaults">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Flow Control and Document Defaults">
+        <param name="Local" value="flow-ctrl\flow_control_and_document_defaults_businesss_process_in_everest_content.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Flow Control">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Documents Dialog Box Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Flow Control Details">
+            <param name="Local" value="flow-ctrl\ctrl\doc-frm\the_flow_control_setup_dialog_box_businesss_process_in_everest_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Popups">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Popups">
+              <param name="Local" value="flow-ctrl\ctrl\doc-frm\popups\flow_control_setup_dialog_box_popups_tab_contents_businesss_process_in_everest_content.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Customer/Vendor Browser Popup">
+              <param name="Local" value="flow-ctrl\ctrl\doc-frm\popups\customer_vendor_browser_popups_tab_businesss_process_in_everest_content.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Document Notes">
+              <param name="Local" value="flow-ctrl\ctrl\doc-frm\popups\document_notes_poups_tab_flow_control_setup_dialog_box_businesss_process_in_everest_content.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Prompts">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Prompts">
+              <param name="Local" value="flow-ctrl\ctrl\doc-frm\prompts\flow_control_setup_dialog_box_prompts_tab_con_flow_control_setup_dialog_box_businesss_process_in_everest_content.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Purchase Prompts">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Purchase">
+                <param name="Local" value="flow-ctrl\ctrl\doc-frm\prompts\purchase-prompts\flow_control_setup_dialog_box_prompts_purchase_tab_con_businesss_process_in_everest_content.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Prompts - Purchase Document - Purchase Document 1">
+                <param name="Local" value="flow-ctrl\ctrl\doc-frm\prompts\purchase-prompts\prompts_purchase_document_purchase_document_1_bp.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Prompts - Purchase Document - Purchase Document 2">
+                <param name="Local" value="flow-ctrl\ctrl\doc-frm\prompts\purchase-prompts\prompts_purchase_document_purchase_document_2_bp.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Sales Prompts">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Sales">
+                <param name="Local" value="flow-ctrl\ctrl\doc-frm\prompts\sales-prompts\flow_control_setup_dialog_box_prompts_sales_tab_con_businesss_process_in_everest_content.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Prompts - Sales Document - Sales Document 1">
+                <param name="Local" value="flow-ctrl\ctrl\doc-frm\prompts\sales-prompts\prompts_sales_document_sales_document_1.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Prompts - Sales Document - Sales Document 2">
+                <param name="Local" value="flow-ctrl\ctrl\doc-frm\prompts\sales-prompts\prompts_sales_document_sales_document_2.html">
+              </object>
+              </ul>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Pricing/Discounts">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Pricing / Discounts">
+              <param name="Local" value="flow-ctrl\ctrl\doc-frm\disc\flow_control_documents_dialog_box_pricing_discounts_tab_bp.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Miscellaneous">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Miscellaneous">
+              <param name="Local" value="flow-ctrl\ctrl\doc-frm\misc\flow_control_setup_dialog_box_miscellaneous_tab_con.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Point of Sale">
+              <param name="Local" value="flow-ctrl\ctrl\doc-frm\misc\miscellaneous_others_others_3_tab_bp.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Document Payments">
+              <param name="Local" value="flow-ctrl\ctrl\doc-frm\misc\document_payments_business_process_contents.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Other Details">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Others">
+                <param name="Local" value="flow-ctrl\ctrl\doc-frm\misc\other-details\other_tab_main_misc_tab_flow_control_others_contents_bp.html">
+              </object>
+              </ul>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up Flow Control Options">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set Flow Control Options for Documents">
+            <param name="Local" value="flow-ctrl\ctrl\opt\setting_flow_control_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Documents Dialog Box">
+            <param name="Local" value="flow-ctrl\ctrl\opt\flow_control_setup_dialog_box_step_by_step_bp.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Popups Tab">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Documents Dialog Box - Popups">
+              <param name="Local" value="flow-ctrl\ctrl\opt\popups-tab\flow_control_setup_dialog_box_popups_tab_steps.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Prompts Tab">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Documents Dialog Box - Prompts">
+              <param name="Local" value="flow-ctrl\ctrl\opt\prompts-tab\flow_control_setup_dialog_box_prompts_tab_steps.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Documents Dialog Box - Prompts - Purchase Document">
+              <param name="Local" value="flow-ctrl\ctrl\opt\prompts-tab\prompts_purchase_document_tab_step_by_step_business_process_in_everest.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Documents Dialog Box - Prompts - Sales Document">
+              <param name="Local" value="flow-ctrl\ctrl\opt\prompts-tab\prompts_sales_document_tab_step_by_step_business_process_in_everest.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Pricing/Discounts Tab">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Documents Dialog Box - Pricing/Discounts">
+              <param name="Local" value="flow-ctrl\ctrl\opt\disc\flow_control_documents_dialog_box_pricing_discounts_tab_bp.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Miscellaneous Tab">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Documents Dialog Box - Miscellaneous">
+              <param name="Local" value="flow-ctrl\ctrl\opt\misc\flow_control_setup_dialog_box_miscellaneous_tab_steps.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Documents Dialog Box - Miscellaneous - Document Payments">
+              <param name="Local" value="flow-ctrl\ctrl\opt\misc\miscellaneous_document_payments_step_by_step_business_process_in_everest.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Documents Dialog Box - Miscellaneous - Point of Sale">
+              <param name="Local" value="flow-ctrl\ctrl\opt\misc\miscellaneous_others_others_3_tab_bp.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Documents Dialog Box - Miscellaneous - Others">
+              <param name="Local" value="flow-ctrl\ctrl\opt\misc\miscellaneous_others_step_by_step_business_process_in_everest.html">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Defaults">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Document Defaults">
+          <param name="Local" value="flow-ctrl\defs\document_defaults.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Reports Related to Documents">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Reports Related to Documents">
+            <param name="Local" value="flow-ctrl\defs\rpt\reports_related_to_documents.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Setting up Default Report Options">
+            <param name="Local" value="flow-ctrl\defs\rpt\setting_up_default_report_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Documents Dialog Box">
+            <param name="Local" value="flow-ctrl\defs\rpt\documents_dialog_box.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Document Aliases Defaults">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Aliases Defaults">
+            <param name="Local" value="flow-ctrl\defs\alias-defs\document_aliases_defaults.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Setting Document Aliases Defaults">
+            <param name="Local" value="flow-ctrl\defs\alias-defs\setting_document_aliases_defaults_defaults.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Document Alias Dialog Box">
+            <param name="Local" value="flow-ctrl\defs\alias-defs\document_alias_dialog_box.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Document Policies Defaults">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Policies Defaults">
+            <param name="Local" value="flow-ctrl\defs\document-policies-defaults\document_policies_defaults.html">
+          </object>
+          </ul>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Other Flow Control">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set Other Flow Control Options">
+        <param name="Local" value="other-flow-control\set_other_flow_control_options_step_by_step_bp.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Other Flow Control Dialog Box">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Introduction">
+          <param name="Local" value="other-flow-control\the-other-flow-control-dialog-box\other_flow_control_dialog_box_step_by_step.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Other Flow Control - General">
+          <param name="Local" value="other-flow-control\the-other-flow-control-dialog-box\other_flow_control_general_tab_step_by_step.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Other Flow Control - Item Cost/Sales Summary">
+          <param name="Local" value="other-flow-control\the-other-flow-control-dialog-box\other_flow_control_item_cost_sales_summary_tab.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Other Defaults">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Other Defaults">
+        <param name="Local" value="other-defaults\other_defaults_dialog_box.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Other Defaults Dialog Box">
+        <param name="Local" value="other-defaults\the_other_defaults_dialog_box.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Document Tracking">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Tracking">
+        <param name="Local" value="document-tracking\document_tracking_bp.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Setting  Document Tacking Preferences">
+        <param name="Local" value="document-tracking\set_document_tacking_preferences.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Document Cover Letters">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Document Cover Letters">
+        <param name="Local" value="doc-cover\document_cover_letters_bp_content.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Cover Letter Details">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cover Letter Details">
+          <param name="Local" value="doc-cover\cover-letter-details\cover_letter_details_bp_contents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General">
+          <param name="Local" value="doc-cover\cover-letter-details\general_tab_cover_letter_details_bp_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Letter">
+          <param name="Local" value="doc-cover\cover-letter-details\letter_cover_letter_details_bp_content.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Cover Letter">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Cover Letter">
+          <param name="Local" value="doc-cover\create-a-cover-letter\create_a_cover_letter_bp_contents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Cover Letter Profile">
+          <param name="Local" value="doc-cover\create-a-cover-letter\the_cover_letter_profile_bp_step_by_step.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Cover Letter Profile - General">
+          <param name="Local" value="doc-cover\create-a-cover-letter\the_cover_letter_profile_general_step_by_step_bp.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Cover Letter Profile - Letter">
+          <param name="Local" value="doc-cover\create-a-cover-letter\the_cover_letter_profile_letter_step_by_step_bp.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Cover Letter">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Cover Letter">
+          <param name="Local" value="doc-cover\modify-a-cover-letter\modify_a_cover_letter_cover_letter_profile_bp_contents.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Discontinue a Cover Letter">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue a Cover Letter">
+          <param name="Local" value="doc-cover\discontinue\discontinue_a_cover_letter_cover_letter_profile_bp_contents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View and Activate a Discontinued Cover Letter">
+          <param name="Local" value="doc-cover\discontinue\view_and_activate_a_discontinued_cover_letter_cover_letter_profile_bp_contents.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Cover Letter Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Cover Letter Browser">
+          <param name="Local" value="doc-cover\the-cover-letter-browser\the_cover_letter_browser_bp_content.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Reporting and Printing Preferences">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Reporting Preferences">
+        <param name="Local" value="rpt-prt\print_preferences_details_bp_contents.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Print Settings">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Documents">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Print Setting Details">
+            <param name="Local" value="rpt-prt\prt\docs\printing_preferences_details_bp_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="General">
+            <param name="Local" value="rpt-prt\prt\docs\general_printing_preferences_details_print_prefernce_dialog_box_bp_contents.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Details">
+            <param name="Local" value="rpt-prt\prt\docs\document_details_printing_preferences_details_print_prefernce_dialog_box_bp_contents.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Lease/Rental Plans">
+            <param name="Local" value="rpt-prt\prt\docs\lease_rental_plans_printing_preferences_details_print_prefernce_dialog_box_bp_contents.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Fax/Cover">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Fax/Cover Details">
+            <param name="Local" value="rpt-prt\prt\fax-cover\fax_cover_print_preferences_dialog_box_cover_letter_bp_contents.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Include Fax Cover Letter">
+            <param name="Local" value="rpt-prt\prt\fax-cover\include_fax_cover_letter_fax_cover_tab_cover_letter_bp_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Include Cover Letter Comments">
+            <param name="Local" value="rpt-prt\prt\fax-cover\include_cover_letter_comments_fax_cover_tab_cover_letters_bp_content.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Report Settings">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Report Setting Details">
+          <param name="Local" value="rpt-prt\report-settings\the_reporting_preferences_dialog_box_export_settings_tab_bp.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set Printing Preferences">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set Printing Preferences">
+          <param name="Local" value="rpt-prt\set-prt\set_printing_preferences_step_by_step_bp.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Reporting Preferences Dialog Box">
+          <param name="Local" value="rpt-prt\set-prt\the_printing_preferences_dialog_box_step_by_step_bp.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Reporting Preferences Dialog Box - Print Settings - Documents">
+          <param name="Local" value="rpt-prt\set-prt\the_printing_preferences_dialog_box_printing_preferences_step_by_step.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Reporting Preferences Dialog Box - Print Settings - Fax/Cover">
+          <param name="Local" value="rpt-prt\set-prt\the_printing_preferences_dialog_box_fax_cover_printing_preferences_step_by_step.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set Reporting Preferences">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set Reporting Preferences">
+          <param name="Local" value="rpt-prt\set-rpt\set_reporting_preferences_reporting_preferences_dialog_box_bp.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Reporting Preferences Dialog Box - Export Settings">
+          <param name="Local" value="rpt-prt\set-rpt\the_reporting_preferences_dialog_box_export_settings_tab_bp.html">
+        </object>
+        </ul>
+      </ul>
+    </ul>
+</ul>
+</html>

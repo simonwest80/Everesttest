@@ -1,0 +1,83 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="attachretrieve-serial">Attach/Retrieve Serial</h1>
+
+<p>The submenu options under the <strong>Attach/Retrieve</strong>  option (path: <strong>Point of Sale (sales invoice</strong>)  profile <strong>&gt; Options &gt; Attach/Retrieve 
+ Serial #</strong>) allow you to attach serial numbers of the item to a Point  of Sale (sales invoice) document. The submenu options are:</p>
+
+<ul>
+  <li><strong>Serial 
+ #</strong> - Use this option to retrieve serial numbers of the item one  at a time.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/point-of-sale/misc/retrieving_individual_serial_numbers_pos.html">Retrieve  Individual Serial Numbers</a></strong></p>
+
+<ul>
+  <li><strong>Serial 
+ # Range</strong> - use this option to retrieve serial numbers of the item  as a range.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/point-of-sale/misc/retrieve_a_range_of_serial_numbers_pos.html">Retrieve  a Range of Serial Numbers</a></p>
+
+<ul>
+  <li><strong>Mfg. 
+ Serial</strong> - Use this option to retrieve serial numbers of the item  by manufacturer’s serial number.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" />  <a href="/versata-everest-docs/point-of-sale/misc/retrieve_manufacturer_s_serial_number_pos.html">Retrieve  Manufacturer’s Serial Number</a></strong></p>
+
+<p class="note">When you attach a serial number of an item not present  on the POS (sales invoice) document, you are asked whether you want to  serialize the item that does not exist on the order. Click <strong>Yes</strong>  to attach the item on the Point of Sale (sales invoice) document.</p>
+
+<p>This prompt is displayed only if the option <strong>Prompt 
+ when trying to retrieve and serialize an item that is not already present 
+ in a document</strong> in the <strong>Documents</strong> dialog box dialog box (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> &gt; <strong>Others</strong> &gt; <strong>Others 
+ 2</strong> tab) is selected.</p>
+
+<p>If you retrieve the same item more than once into a document, and retrieve  or scan a range of serial numbers into the system, the serial numbers  are first assigned to the highlighted line item in the Item Details Grid.  Additional serial numbers are attached to the remaining line items.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/point-of-sale/img/example.gif" alt="" /></td>
+      <td>The item details contained in sales order # 1001 are  detailed below:<br /><br /></td>
+      <td>Item Code</td>
+      <td>Quantity Column</td>
+      <td>Line #</td>
+      <td><br /></td>
+      <td>Item 1</td>
+      <td>2</td>
+      <td>1</td>
+      <td><br /></td>
+      <td>Item 2</td>
+      <td>1</td>
+      <td>2</td>
+      <td><br /></td>
+      <td>Item 1</td>
+      <td>3</td>
+      <td>3</td>
+      <td><br /><br /><br />If you scan serial numbers 1, 2, 3, 4 and 5 while line  #1 is highlighted, serial numbers 1 and 2 are assigned to line 1 while  the remaining are assigned to line 3. If the serial numbers are scanned  into the system when line 3 is highlighted, serial numbers 1, 2 and 3  are assigned to line 3 while the remaining are assigned to line 1.</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>Transfer 
+ / Attach area wise stock</strong> - This option allows you to attach negative  quantities to a POS (sales invoice) document. When you select this option,  you will see the <strong>Assign Quantity</strong>  dialog box.</li>
+  <li><strong>Show/Assign 
+ New Stock</strong> - This option allows you to assign non-serialized items  contained in only ‘stock’ type of stock areas to a Point of Sale (sales  invoice) document. When you select this option, you will see the <strong>Attach 
+ Quantity</strong> profile.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/pos-si-profile/options/point_of_sale_invoice_options.html">Point  of Sale Document Options</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,541 @@
+[OPTIONS]
+Title=Time Clock
+Contents file=time-clock.hhc
+Index file=time-clock.hhk
+Full-text search=Yes
+
+[FILES]
+time_clocking.html
+employees\employees_tcs.html
+employees\designations\designations.html
+employees\designations\the_designation_profile.html
+employees\designations\creating_a_designation.html
+employees\designations\assigning_designations_to_employees.html
+employees\designations\modifying_a_designation.html
+employees\designations\discontinuing_a_designation.html
+employees\designations\view_discontinued_designations.html
+employees\designations\activate_a_discontinued_designation.html
+employees\designations\designations_browser_tcs.html
+employees\working-calender\working_calendar.html
+employees\shifts\work_shifts.html
+employees\shifts\the_shift_profile.html
+employees\shifts\transition_between_standard_time_and_daylight_saving_time_tc.html
+employees\shifts\creating_a_work_shift.html
+employees\shifts\modifying_a_work_shift.html
+employees\shifts\discontinuing_a_work_shift.html
+employees\shifts\view_discontinued_shifts.html
+employees\shifts\activate_a_discontinued_shift.html
+employees\shifts\assigning_a_work_shift_to_an_employee.html
+employees\shifts\shifts_browser_tcs.html
+employees\shifts\view_pending_leave_requests_tc.html
+employees\weekly-days-off\weekly_days_off.html
+employees\weekly-days-off\defining_a_weekly_off.html
+employees\weekly-days-off\the_weekly_off_profile.html
+employees\weekly-days-off\modifying_a_weekly_off.html
+employees\weekly-days-off\discontinuing_a_weekly_day_off.html
+employees\weekly-days-off\view_discontinued_weekly_offs.html
+employees\weekly-days-off\activate_a_weekly_off.html
+employees\holidays\holidays.html
+employees\holidays\the_holidays_profile.html
+employees\holidays\defining_a_holiday.html
+employees\holidays\modifying_a_holiday.html
+employees\holidays\discontinuing_a_holiday.html
+employees\holidays\view_discontinued_holidays.html
+employees\holidays\activate_a_holiday.html
+employees\holidays\holidays_browser_tcs.html
+employees\leave-management\leave_management.html
+employees\leave-management\leave-types\defining_leave_types.html
+employees\leave-management\leave-types\the_leave_types_profile.html
+employees\leave-management\leave-types\modifying_leave_types.html
+employees\leave-management\leave-types\discontinuing_a_leave_type.html
+employees\leave-management\leave-types\view_discontinued_leave_types.html
+employees\leave-management\leave-types\activate_a_leave_type.html
+employees\leave-management\leave-types\leave_types_browser_tcs.html
+employees\leave-management\crediting-leaves\leave_credit.html
+employees\leave-management\crediting-leaves\the_leave_credit_profile.html
+employees\leave-management\crediting-leaves\view_leave_credit.html
+employees\leave-management\crediting-leaves\the_leave_credit_browser.html
+employees\leave-management\leave-balances\leaves_balance_leave_carry_forward_process.html
+employees\leave-management\leave-balances\create_an_opening_balance_leave_carry_forward_process.html
+employees\leave-management\leave-balances\the_leave_balance_profile.html
+employees\leave-management\leave-balances\viewing_leave_balances.html
+employees\leave-management\applying-for-leave\applying_for_leave.html
+employees\leave-management\applying-for-leave\the_leaves_dialog_box_general.html
+employees\leave-management\applying-for-leave\leaves_profile_applied_to.html
+employees\leave-management\applying-for-leave\modifying_leave.html
+employees\leave-management\applying-for-leave\leaves_browser_tcs.html
+employees\leave-management\leave-status\approving_leave.html
+employees\leave-management\leave-status\reject_leave.html
+employees\leave-management\leave-status\cancel_leave.html
+employees\leave-management\carry-forward-leaves\leave_carry_forward.html
+employees\leave-management\carry-forward-leaves\the_leave_carry_forward_process.html
+employees\leave-management\carry-forward-leaves\leave_carry_forward_browser.html
+employees\clocking-employee-time\clocking_employee_time.html
+employees\clocking-employee-time\the_clock_in_clock_out_dialog_box_employee.html
+employees\clocking-employee-time\record_clock_in_clock_out_time_employee.html
+employees\clocking-employee-time\modifying_employee_clock_in_clock_out_time.html
+employees\employee-time-log\employees_time_log.html
+employees\employee-time-log\view_employee_log.html
+employees\employee-time-log\the_employee_log_profile.html
+employees\employee-time-log\viewing_employee_log_for_a_specific_period.html
+employees\employee-time-log\add_a_record_to_the_employee_s_log.html
+employees\employee-time-log\modifying_employee_log_record.html
+employees\employee-time-log\deleting_employee_log_record.html
+employees\employee-time-log\the_employee_logs_browser_tcs.html
+employees\employee-time-log\additional_browser_options_employee_log.html
+employees\reports\reports_tcs.html
+visitors\visitors.html
+visitors\clocking_visitor_time.html
+visitors\areas\areas.html
+visitors\areas\setting_up_an_area.html
+visitors\areas\the_area_profile.html
+visitors\areas\modifying_areas.html
+visitors\areas\discontinuing_an_area.html
+visitors\areas\view_discontinued_areas.html
+visitors\areas\activate_an_area.html
+visitors\areas\areas_browser_tcs.html
+visitors\purpose-of-visits\setting_up_a_purpose_of_visit.html
+visitors\purpose-of-visits\the_purpose_of_visit_profile.html
+visitors\purpose-of-visits\modifying_a_purpose_of_visit.html
+visitors\purpose-of-visits\discontinue_a_purpose_of_visit.html
+visitors\purpose-of-visits\view_discontinued_purpose_of_visits.html
+visitors\purpose-of-visits\activate_a_discontinued_purpose_of_visit.html
+visitors\purpose-of-visits\purpose_of_visit_browser_tcs.html
+visitors\clocking-visitor-time\clock_visitors_time_in_time_out.html
+visitors\clocking-visitor-time\the_clock_in_out_dialog_box_recording_visitors.html
+visitors\clocking-visitor-time\modifying_visitor_details.html
+visitors\visitor-logs\visitor_logs.html
+visitors\visitor-logs\the_visitor_log_profile.html
+visitors\visitor-logs\viewing_visitor_logs_for_a_specified_period.html
+visitors\visitor-logs\add_a_record_to_the_visitors_log.html
+visitors\visitor-logs\modifying_a_visitor_log_record.html
+visitors\visitor-logs\deleting_a_visitor_log_record.html
+visitors\visitor-logs\the_visitor_logs_browser_tcs.html
+visitors\visitor-logs\additional_browser_options_visitor_log.html
+misc\the_cancellation_dialog_box.html
+misc\zz_code_employee_log.html
+misc\zz_current_leave_status_general_leaves.html
+misc\zz_date_holiday.html
+misc\zz_days_weekly_off_holiday.html
+misc\zz_from_weekly_off_holiday.html
+misc\zz_is_special_leave_leave_type.html
+misc\view_and_modify_leave_balance.html
+misc\view_leave_balance_profile.html
+misc\leave_credit_profile_select_the_criteria.html
+misc\additional_browser_options_leaves_dialog_box.html
+misc\the_leave_profile.html
+misc\zznotes_the_clock_in_out_dialog_box_visitor.html
+misc\zz_on_date_general_leaves.html
+misc\zz_partial_leave_leaves_general.html
+misc\zz_pull_weekly_off_holiday.html
+misc\the_rejection_dialog_box.html
+misc\zz_time_in_clock_in_out.html
+misc\zz_time_out_clock_in_out.html
+misc\zz_to_weekly_off_holiday.html
+misc\zz_validate_time_in_clock_in_out.html
+misc\zz_validate_time_out_clock_in_out.html
+misc\additional_leave_credited_leave_carry_forward_process.html
+misc\apply_leave_leave_carry_forward_process.html
+misc\balance_after_credit_leave_credit_balance.html
+misc\bullet.gif
+misc\carry_forward_log_browser_columns.html
+misc\carry_forward_log_bro_options.html
+misc\carry_forward_log_bro_options2.html
+misc\carry_forward_process_bro_option.html
+misc\closing_balance_carry_forward_bro_col.html
+misc\credit_date_leave_credit_tcs.html
+misc\current_balance_leave_carry_forward_bro.html
+misc\current_balance_leave_credit_details.html
+misc\date_carry_forward_log_bro_col.html
+misc\days_worked_leave_credit_details.html
+misc\ehlpdhtm.js
+misc\end_date_leave_credit_tcs.html
+img\example.gif
+misc\frequency_leaves_credit_tcs.html
+img\hint.gif
+misc\icons.html
+misc\id_no_carry_forward_log_bro_col.html
+misc\id_no_leave_carry_forward_bro.html
+misc\id_no_leave_credit_details.html
+misc\is_carry_forward_carry_forward_bro_col.html
+misc\is_carry_forward_check_box.html
+misc\is_carry_forward_leave_carry_forward_bro.html
+img\kanadi.gif
+misc\last_carry_forward_date_leave_carry_forward_bro.html
+misc\leaves_availed_leave_carry_forward_bro.html
+misc\leaves_availed_leave_carry_forward_bro_1.html
+misc\leaves_leave_credit_tcs.html
+misc\leave_carry_forward_browser_columns.html
+misc\leave_credited_leaves_credit_details.html
+misc\leave_credited_leave_carry_forward_bro.html
+misc\leave_credited_leave_carry_forward_bro_1.html
+misc\leave_credit_details_employee_leave_inforamtion.html
+misc\leave_types_leave_credit_details.html
+misc\leave_type_carry_forward_log_bro_col.html
+misc\leave_type_leave_carry_forward_bro.html
+misc\leave_type_leave_credit_details.html
+img\lens.gif
+misc\month.html
+misc\name_carry_forward_log_bro_col.html
+misc\name_leave_carry_forward_bro.html
+misc\name_leave_credit_details.html
+img\note.gif
+misc\no_of_days_leave_credit_tcs.html
+misc\opening_balance_leave_carry_forward_bro.html
+misc\opening_balance_leave_carry_forward_bro_1.html
+misc\robohtml.css
+misc\run_id_carry_forward_log_bro_col.html
+misc\start_date_leave_credit_tcs.html
+img\steps.gif
+img\time_clock_employee_visitor_button.gif
+img\warning.gif
+misc\working_days_leave_credit_details.html
+misc\zzapplied_to_the_leaves_dialog_box_general_tab.html
+misc\zzarea_the_clock_in_out_dialog_box_visitor.html
+misc\zzarea_visitor_log.html
+misc\zzcc_to_the_leaves_dialog_box_general_tab.html
+misc\zzcode_area.html
+misc\zzcode_desig.html
+misc\zzcode_purpose_of_visit.html
+misc\zzcode_shifts.html
+misc\zzcode_the_leave_types_profile_.html
+misc\zzdate_the_employee_log_profile_clock_in.html
+misc\zzdate_the_employee_log_profile_clock_out.html
+misc\zzdays_weekly_off.html
+misc\zzdefault_area_purpose_of_visit.html
+misc\zzdescription_area.html
+misc\zzdescription_desig.html
+misc\zzdescription_holiday.html
+misc\zzdescription_purpose_of_visit.html
+misc\zzdescription_shifts.html
+misc\zzdescription_the_leave_types_profile_.html
+misc\zzemployee_the_clock_in_out_dialog_box_visitor.html
+misc\zzemp_leave_info_grid_leave_credit.html
+misc\zzend_date_the_leaves_dialog_box_date_and_time_tab.html
+misc\zzend_shifts_lunch.html
+misc\zzend_shifts_time_work_shifts.html
+misc\zzend_time_the_leaves_dialog_box_date_and_time_tab.html
+misc\zzentry_pass_the_clock_in_out_dialog_box_visitor.html
+misc\zzentry_pass_visitor_logs.html
+misc\zzfrequency_the_leave_types_profile_.html
+misc\zzfrom_weekly_off.html
+misc\zzis_carry_forward_the_leave_types_profile_.html
+misc\zzis_intervene_off_leave_the_leave_types_profile_.html
+misc\zzleave_type_leaves_credit_details.html
+misc\zzleave_type_the_leaves_dialog_box_general_tab.html
+misc\zzlunch_time_is_paid_shifts.html
+misc\zznotes_the_leaves_dialog_box_date_and_time_tab.html
+misc\zznotes_visitor_log.html
+misc\zzon_duty_the_employee_log_profile.html
+misc\zzorganization_the_clock_in_out_dialog_box_visitor.html
+misc\zzorganization_visitor_log.html
+misc\zzout_on_duty_clock_in_out_dialog_box.html
+misc\zzperson_to_meet_the_clock_in_out_dialog_box_visitor.html
+misc\zzperson_to_meet_visitor_log.html
+misc\zzpull_weekly_off.html
+misc\zzpurpose_of_visit_visitor_log.html
+misc\zzpurpose_the_clock_in_out_dialog_box_visitor.html
+misc\zzshifts_holiday.html
+misc\zzshifts_weekly_off.html
+misc\zzshift_the_employee_log_profile.html
+misc\zzstart_date_the_leaves_dialog_box_date_and_time_tab.html
+misc\zzstart_shifts_lunch.html
+misc\zzstart_shifts_time_work_shift.html
+misc\zzstart_time_the_leaves_dialog_box_date_and_time_tab.html
+misc\zztime_in_clock_in_out_visitor.html
+misc\zztime_out_clock_in_out_visitor.html
+misc\zztime_visitor_log_clock_in.html
+misc\zztime_visitor_log_clock_out.html
+misc\zzto_weekly_off.html
+misc\zzvalidate_time_in_clock_in_out_visitor.html
+misc\zzvalidate_time_out_clock_in_out_visitor.html
+misc\zzvisitor_name_the_clock_in_out_dialog_box_visitor.html
+misc\zzvisitor_name_visitor_log.html
+misc\zzworking_day_the_employee_log_profile.html
+misc\zz_approved_by_leave_approval.html
+misc\zz_cancelled_by_the_cancellation_db.html
+misc\zz_clock_in_time_visitor_log.html
+misc\zz_clock_out_time_visitor_log.html
+misc\zz_date_leave_carry_forward.html
+misc\zz_date_leave_carry_fwd_process.html
+misc\zz_employee_name_leave_bal.html
+misc\zz_leaves_availed_leave_bal.html
+misc\zz_leaves_credited_leave_bal.html
+misc\zz_leave_type_leave_bal.html
+misc\zz_name_emp_leave_info.html
+misc\zz_notes_employee_logs_profile.html
+misc\zz_notes_leave_approval.html
+misc\zz_opening_balance_leave_bal.html
+misc\zz_rejected_by_the_rejection_db.html
+misc\zz_working_day_clock_in_clock_out_db.html
+[ALIAS]
+helpid_3309=employees\leave-management\crediting-leaves\the_leave_credit_browser.html
+helpid_3310=misc\frequency_leaves_credit_tcs.html
+helpid_3311=misc\start_date_leave_credit_tcs.html
+helpid_3312=misc\end_date_leave_credit_tcs.html
+helpid_3313=misc\no_of_days_leave_credit_tcs.html
+helpid_3314=misc\credit_date_leave_credit_tcs.html
+helpid_3315=misc\leaves_leave_credit_tcs.html
+helpid_3316=misc\leave_credit_details_employee_leave_inforamtion.html
+helpid_3419=employees\leave-management\carry-forward-leaves\leave_carry_forward.html
+helpid_3420=employees\leave-management\carry-forward-leaves\leave_carry_forward_browser.html
+helpid_3128=employees\clocking-employee-time\the_clock_in_clock_out_dialog_box_employee.html
+helpid_3000=employees\designations\designations_browser_tcs.html
+helpid_3014=employees\shifts\shifts_browser_tcs.html
+helpid_3033=visitors\areas\areas_browser_tcs.html
+helpid_3048=visitors\purpose-of-visits\the_purpose_of_visit_profile.html
+helpid_3047=visitors\purpose-of-visits\purpose_of_visit_browser_tcs.html
+helpid_3063=employees\leave-management\leave-types\the_leave_types_profile.html
+helpid_3062=employees\leave-management\leave-types\leave_types_browser_tcs.html
+helpid_3080=employees\holidays\the_holidays_profile.html
+helpid_3079=employees\holidays\holidays_browser_tcs.html
+helpid_3081=misc\zz_date_holiday.html
+helpid_3084=misc\zz_pull_weekly_off_holiday.html
+helpid_3085=misc\zz_days_weekly_off_holiday.html
+helpid_3086=misc\zz_from_weekly_off_holiday.html
+helpid_3087=misc\zz_to_weekly_off_holiday.html
+helpid_3094=employees\leave-management\applying-for-leave\leaves_browser_tcs.html
+helpid_3095=misc\the_leave_profile.html
+helpid_3096=employees\leave-management\applying-for-leave\leaves_profile_applied_to.html
+helpid_3100=employees\leave-management\applying-for-leave\the_leaves_dialog_box_general.html
+helpid_3135=employees\employee-time-log\the_employee_log_profile.html
+helpid_3134=employees\employee-time-log\the_employee_logs_browser_tcs.html
+helpid_3155=visitors\visitor-logs\the_visitor_log_profile.html
+helpid_3154=visitors\visitor-logs\the_visitor_logs_browser_tcs.html
+helpid_3203=employees\weekly-days-off\the_weekly_off_profile.html
+helpid_3001=employees\designations\the_designation_profile.html
+helpid_3015=employees\shifts\the_shift_profile.html
+helpid_3177=employees\leave-management\leave-balances\leaves_balance_leave_carry_forward_process.html
+helpid_3178=employees\leave-management\leave-balances\the_leave_balance_profile.html
+helpid_3421=employees\leave-management\carry-forward-leaves\the_leave_carry_forward_process.html
+helpid_3308=employees\leave-management\crediting-leaves\the_leave_credit_profile.html
+helpid_3317=misc\zzemp_leave_info_grid_leave_credit.html
+helpid_120001=misc\carry_forward_log_browser_columns.html
+helpid_3162=misc\zz_clock_in_time_visitor_log.html
+helpid_3164=misc\zz_clock_out_time_visitor_log.html
+helpid_3319=misc\zzleave_type_leaves_credit_details.html
+helpid_3129=visitors\clocking-visitor-time\the_clock_in_out_dialog_box_recording_visitors.html
+helpid_3002=misc\zzcode_desig.html
+helpid_3003=misc\zzdescription_desig.html
+helpid_3016=misc\zzcode_shifts.html
+helpid_3017=misc\zzdescription_shifts.html
+helpid_3018=misc\zzstart_shifts_time_work_shift.html
+helpid_3019=misc\zzend_shifts_time_work_shifts.html
+helpid_3020=misc\zzstart_shifts_lunch.html
+helpid_3021=misc\zzend_shifts_lunch.html
+helpid_3022=misc\zzlunch_time_is_paid_shifts.html
+helpid_3035=misc\zzcode_area.html
+helpid_3036=misc\zzdescription_area.html
+helpid_3049=misc\zzcode_purpose_of_visit.html
+helpid_3050=misc\zzdescription_purpose_of_visit.html
+helpid_3064=misc\zzcode_the_leave_types_profile_.html
+helpid_3065=misc\zzdescription_the_leave_types_profile_.html
+helpid_3066=misc\zzfrequency_the_leave_types_profile_.html
+helpid_3067=misc\zzis_carry_forward_the_leave_types_profile_.html
+helpid_3068=misc\zzis_intervene_off_leave_the_leave_types_profile_.html
+helpid_3082=misc\zzdescription_holiday.html
+helpid_3083=misc\zzshifts_holiday.html
+helpid_3097=misc\zzapplied_to_the_leaves_dialog_box_general_tab.html
+helpid_3098=misc\zzcc_to_the_leaves_dialog_box_general_tab.html
+helpid_3137=misc\zzshift_the_employee_log_profile.html
+helpid_3138=misc\zzdate_the_employee_log_profile_clock_in.html
+helpid_3140=misc\zzdate_the_employee_log_profile_clock_out.html
+helpid_3142=misc\zzworking_day_the_employee_log_profile.html
+helpid_3143=misc\zzon_duty_the_employee_log_profile.html
+helpid_3116=misc\zzemployee_the_clock_in_out_dialog_box_visitor.html
+helpid_3117=misc\zzentry_pass_the_clock_in_out_dialog_box_visitor.html
+helpid_3118=misc\zzvisitor_name_the_clock_in_out_dialog_box_visitor.html
+helpid_3119=misc\zzorganization_the_clock_in_out_dialog_box_visitor.html
+helpid_3120=misc\zzpurpose_the_clock_in_out_dialog_box_visitor.html
+helpid_3121=misc\zzarea_the_clock_in_out_dialog_box_visitor.html
+helpid_3122=misc\zzperson_to_meet_the_clock_in_out_dialog_box_visitor.html
+helpid_3123=misc\zznotes_the_clock_in_out_dialog_box_visitor.html
+helpid_3156=misc\zzentry_pass_visitor_logs.html
+helpid_3157=misc\zzvisitor_name_visitor_log.html
+helpid_3158=misc\zzorganization_visitor_log.html
+helpid_3159=misc\zzpurpose_of_visit_visitor_log.html
+helpid_3160=misc\zzarea_visitor_log.html
+helpid_3161=misc\zzperson_to_meet_visitor_log.html
+helpid_3163=misc\zztime_visitor_log_clock_in.html
+helpid_3165=misc\zztime_visitor_log_clock_out.html
+helpid_3166=misc\zznotes_visitor_log.html
+helpid_3204=misc\zzpull_weekly_off.html
+helpid_3205=misc\zzdays_weekly_off.html
+helpid_3206=misc\zzfrom_weekly_off.html
+helpid_3207=misc\zzto_weekly_off.html
+helpid_3208=misc\zzshifts_weekly_off.html
+helpid_3131=misc\zzout_on_duty_clock_in_out_dialog_box.html
+helpid_3130=misc\zz_working_day_clock_in_clock_out_db.html
+helpid_3144=misc\zz_notes_employee_logs_profile.html
+helpid_3069=misc\zz_is_special_leave_leave_type.html
+helpid_3099=misc\zznotes_the_leaves_dialog_box_date_and_time_tab.html
+helpid_3103=misc\zzstart_date_the_leaves_dialog_box_date_and_time_tab.html
+helpid_3104=misc\zzstart_time_the_leaves_dialog_box_date_and_time_tab.html
+helpid_3105=misc\zzend_date_the_leaves_dialog_box_date_and_time_tab.html
+helpid_3106=misc\zzend_time_the_leaves_dialog_box_date_and_time_tab.html
+helpid_3102=misc\zzleave_type_the_leaves_dialog_box_general_tab.html
+helpid_3109=misc\zz_partial_leave_leaves_general.html
+helpid_3107=misc\zz_current_leave_status_general_leaves.html
+helpid_3108=misc\zz_on_date_general_leaves.html
+helpid_3124=misc\zz_time_in_clock_in_out.html
+helpid_3126=misc\zz_validate_time_in_clock_in_out.html
+helpid_3125=misc\zz_time_out_clock_in_out.html
+helpid_3127=misc\zz_validate_time_out_clock_in_out.html
+helpid_3136=misc\zz_code_employee_log.html
+helpid_3034=visitors\areas\the_area_profile.html
+helpid_3476=misc\zz_date_leave_carry_forward.html
+helpid_3475=misc\carry_forward_log_bro_options2.html
+helpid_3180=misc\zz_employee_name_leave_bal.html
+helpid_3181=misc\zz_leave_type_leave_bal.html
+helpid_3182=misc\zz_opening_balance_leave_bal.html
+helpid_3183=misc\zz_leaves_availed_leave_bal.html
+helpid_3184=misc\zz_leaves_credited_leave_bal.html
+helpid_3192=misc\zz_approved_by_leave_approval.html
+helpid_3193=misc\zz_notes_leave_approval.html
+helpid_3318=misc\zz_name_emp_leave_info.html
+helpid_3422=misc\zz_date_leave_carry_fwd_process.html
+helpid_3195=misc\the_cancellation_dialog_box.html
+helpid_3194=misc\the_rejection_dialog_box.html
+helpid_3197=misc\zz_cancelled_by_the_cancellation_db.html
+helpid_3196=misc\zz_rejected_by_the_rejection_db.html
+helpid_3052=misc\zzdefault_area_purpose_of_visit.html
+helpid_3170=misc\zztime_in_clock_in_out_visitor.html
+helpid_3171=misc\zztime_out_clock_in_out_visitor.html
+helpid_3172=misc\zzvalidate_time_in_clock_in_out_visitor.html
+helpid_3173=misc\zzvalidate_time_out_clock_in_out_visitor.html
+
+[MAP]
+#define helpid_3309 3309
+#define helpid_3310 3310
+#define helpid_3311 3311
+#define helpid_3312 3312
+#define helpid_3313 3313
+#define helpid_3314 3314
+#define helpid_3315 3315
+#define helpid_3316 3316
+#define helpid_3419 3419
+#define helpid_3420 3420
+#define helpid_3128 3128
+#define helpid_3000 3000
+#define helpid_3014 3014
+#define helpid_3033 3033
+#define helpid_3048 3048
+#define helpid_3047 3047
+#define helpid_3063 3063
+#define helpid_3062 3062
+#define helpid_3080 3080
+#define helpid_3079 3079
+#define helpid_3081 3081
+#define helpid_3084 3084
+#define helpid_3085 3085
+#define helpid_3086 3086
+#define helpid_3087 3087
+#define helpid_3094 3094
+#define helpid_3095 3095
+#define helpid_3096 3096
+#define helpid_3100 3100
+#define helpid_3135 3135
+#define helpid_3134 3134
+#define helpid_3155 3155
+#define helpid_3154 3154
+#define helpid_3203 3203
+#define helpid_3001 3001
+#define helpid_3015 3015
+#define helpid_3177 3177
+#define helpid_3178 3178
+#define helpid_3421 3421
+#define helpid_3308 3308
+#define helpid_3317 3317
+#define helpid_120001 120001
+#define helpid_3162 3162
+#define helpid_3164 3164
+#define helpid_3319 3319
+#define helpid_3129 3129
+#define helpid_3002 3002
+#define helpid_3003 3003
+#define helpid_3016 3016
+#define helpid_3017 3017
+#define helpid_3018 3018
+#define helpid_3019 3019
+#define helpid_3020 3020
+#define helpid_3021 3021
+#define helpid_3022 3022
+#define helpid_3035 3035
+#define helpid_3036 3036
+#define helpid_3049 3049
+#define helpid_3050 3050
+#define helpid_3064 3064
+#define helpid_3065 3065
+#define helpid_3066 3066
+#define helpid_3067 3067
+#define helpid_3068 3068
+#define helpid_3082 3082
+#define helpid_3083 3083
+#define helpid_3097 3097
+#define helpid_3098 3098
+#define helpid_3137 3137
+#define helpid_3138 3138
+#define helpid_3140 3140
+#define helpid_3142 3142
+#define helpid_3143 3143
+#define helpid_3116 3116
+#define helpid_3117 3117
+#define helpid_3118 3118
+#define helpid_3119 3119
+#define helpid_3120 3120
+#define helpid_3121 3121
+#define helpid_3122 3122
+#define helpid_3123 3123
+#define helpid_3156 3156
+#define helpid_3157 3157
+#define helpid_3158 3158
+#define helpid_3159 3159
+#define helpid_3160 3160
+#define helpid_3161 3161
+#define helpid_3163 3163
+#define helpid_3165 3165
+#define helpid_3166 3166
+#define helpid_3204 3204
+#define helpid_3205 3205
+#define helpid_3206 3206
+#define helpid_3207 3207
+#define helpid_3208 3208
+#define helpid_3131 3131
+#define helpid_3130 3130
+#define helpid_3144 3144
+#define helpid_3069 3069
+#define helpid_3099 3099
+#define helpid_3103 3103
+#define helpid_3104 3104
+#define helpid_3105 3105
+#define helpid_3106 3106
+#define helpid_3102 3102
+#define helpid_3109 3109
+#define helpid_3107 3107
+#define helpid_3108 3108
+#define helpid_3124 3124
+#define helpid_3126 3126
+#define helpid_3125 3125
+#define helpid_3127 3127
+#define helpid_3136 3136
+#define helpid_3034 3034
+#define helpid_3476 3476
+#define helpid_3475 3475
+#define helpid_3180 3180
+#define helpid_3181 3181
+#define helpid_3182 3182
+#define helpid_3183 3183
+#define helpid_3184 3184
+#define helpid_3192 3192
+#define helpid_3193 3193
+#define helpid_3318 3318
+#define helpid_3422 3422
+#define helpid_3195 3195
+#define helpid_3194 3194
+#define helpid_3197 3197
+#define helpid_3196 3196
+#define helpid_3052 3052
+#define helpid_3170 3170
+#define helpid_3171 3171
+#define helpid_3172 3172
+#define helpid_3173 3173

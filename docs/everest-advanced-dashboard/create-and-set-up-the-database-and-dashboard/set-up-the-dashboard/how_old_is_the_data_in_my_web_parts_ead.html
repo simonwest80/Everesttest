@@ -1,0 +1,47 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="how-old-is-the-data-in-my-web-parts">How Old is the Data in My Web Parts?</h1>
+
+<p>The following example illustrates the factors that determine the age  of data in your web parts.</p>
+
+<p class="example">A business wants to know approximately how  old the data is in their web parts.  They  use the following information:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Factor Determining Age of Data</td>
+      <td>Frequency</td>
+    </tr>
+    <tr>
+      <td>ETL Run</td>
+      <td>Twice a day - at 4:00am and at 12:00pm</td>
+    </tr>
+    <tr>
+      <td>Cache Result Sets – Check cube for updates every _____  minutes</td>
+      <td>Every 10 minutes</td>
+    </tr>
+    <tr>
+      <td>Cache Result Sets – Rebuild result set cache every _____  minutes</td>
+      <td>Every 120 minutes</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>A user logs in to <strong>Everest</strong> and  the dashboard is displayed within <strong>Everest</strong>  at 9:00am. A request is made at that time to query the cube to refresh  the dashboard web page. The information displayed is the data received  from the ETL run at 4:00am. At 10:00am the user changes the filter. Another  request is made at that time to query the cube to refresh the dashboard  web page. Again, the information displayed is the data received from the  ETL run at 4:00am.</p>
+
+<p>At 12:15, the user views the information from the Sales Web Part. In  this example, the cubes are checked for updates every ten minutes and  the results sets expire every two hours. In this situation, the cache  expired since the cube is checked for updates every ten minutes. The user  sees the information from cache which contains data from the 4:00am ETL  run. If the user changes the filer resulting in a new query or presses  F5 to refresh the dashboard web page, the web part queries the cube for  a new data set since the cached data set expired.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-advanced-dashboard/create-and-set-up-the-database-and-dashboard/set-up-the-dashboard/cache_management_set_up_the_dashboard_ead.html">Cache  Management</a></dd>
+  <dd><a href="/versata-everest-docs/everest-advanced-dashboard/create-and-set-up-the-database-and-dashboard/set-up-the-dashboard/set_up_the_dashboard_ead.html">Set Up the  Dashboard</a></dd>
+</dl>
+
+
+
+
+</div>

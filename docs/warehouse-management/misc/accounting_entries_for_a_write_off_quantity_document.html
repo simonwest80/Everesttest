@@ -1,0 +1,61 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries-for-a-write-off-quantity-document">Accounting Entries for a Write off Quantity Document</h1>
+
+<p>The following accounting entries are created when quantities are written  off:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>### Account</td>
+      <td><strong>Path</strong></td>
+      <td><strong>Debit/</strong> <strong>Credit</strong></td>
+      <td>### Amount</td>
+    </tr>
+    <tr>
+      <td>Inventory Control Account</td>
+      <td>The Inventory Control Account defined in the Posting  Group assigned to the line item is considered first. If no Inventory Control  Account is defined for the item, the control account defined for the category  to which the line item belongs is used. If the Inventory Control Account  is not defined for either the item or the category, the Inventory Control  Account of the stock area’s location from where the item is assigned is  taken into consideration. The user may however override this account by  selecting another account.<br /><br /><br /><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_dialog_box_-_posting_groups.html">Accounting  Dialog Box</a></td>
+      <td>Credit</td>
+      <td>The total value of the quantity written off as displayed  in the <strong>Inventory</strong> <strong>Adjustment</strong><strong>Amount</strong> column of the <strong>Quantity <br /> Adjustments</strong> profile<br /><br /><br /><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/warehouse-management/inv-adj/qty-adj/calculation_of_inventory_adjustment_amounts_qty_adj.html">Calculation  of Inventory Adjustment Document</a></td>
+    </tr>
+    <tr>
+      <td>Inventory Adjustment Account</td>
+      <td>The Inventory Adjustment Account defined in the Posting  Group assigned to the line item is considered first. If no Inventory Adjustment  Account is defined for the item, the control account defined for the category  to which the line item belongs is used. If the Inventory Adjustment Account  is not defined for either the item or the category, the Inventory Adjustment  Account of the document’s location is taken into consideration.<br /><br /><br /><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_dialog_box_-_posting_groups.html">Accounting  Dialog Box</a></td>
+      <td>Debit</td>
+      <td>The total value of the quantity written off as displayed  in the <strong>Inventory</strong> <strong>Adjustment</strong><strong>Amount</strong> column of the <strong>Quantity <br /> Adjustments</strong> profile<br /><br /><br /><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/warehouse-management/inv-adj/qty-adj/calculation_of_inventory_adjustment_amounts_qty_adj.html">Calculation  of Inventory Adjustment Document</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If the Inventory Adjustment accounts differ from line to item, then  amounts are cumulated for each adjustment account</p>
+
+<p><img src="/versata-everest-docs/warehouse-management/img/example.gif" alt="example.gif" /> Line  1: Inventory Adjustment Account # 1 - Adjustment Amount $500</p>
+
+<p>Line 2: Inventory Adjustment Account # 2  - Adjustment Amount $500</p>
+
+<p>Line 3: Inventory Adjustment Account # 2  - Adjustment Amount $1000</p>
+
+<p>Total adjustment amount = $2000.</p>
+
+<p>Entry made:</p>
+
+<p>Inventory Control Account - Credit $1500</p>
+
+<p>Inventory Adjustment Account # 1 - Debit  $500</p>
+
+<p>Inventory Adjustment Account # 2 - Debit  $1500</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/inv-adj/qty-adj/general_journal_in_which_entries_for_write_off_quantity_documents_are_made.html">General  Journal in which entries for Write off Quantity documents are made</a></dd>
+  <dd><a href="/versata-everest-docs/warehouse-management/misc/back_end_processes_write_off_quantity.html">Back  End Processes - Write Off Quantity</a></dd>
+</dl>
+
+
+
+
+</div>

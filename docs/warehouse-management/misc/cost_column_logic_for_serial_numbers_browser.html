@@ -1,0 +1,72 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="cost-column-logic-for-serial-numbers-browser">Cost Column Logic for Serial Numbers Browser</h1>
+
+<p>The costs displayed in the <strong>Serial Numbers</strong> browser depends on whether the Extended Mode is enabled or not.</p>
+
+<p>Extended Mode Enabled</p>
+
+<p>If the <strong>Extended Mode</strong> (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Work Station Settings</strong> dialog box &gt; <strong>Company 
+ Settings</strong> tab <strong>&gt;</strong> check  <strong>Enable extended mode</strong>) is enabled,  the <strong>Serial Numbers</strong> browser displays  both average and last cost of items without factoring.</p>
+
+<p>Extended Mode Disabled</p>
+
+<p>If the <strong>Extended Mode</strong> (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Work Station Settings</strong> dialog box &gt; <strong>Company 
+ Settings</strong> tab <strong>&gt;</strong> uncheck<strong>Enable Extended Mode</strong>) is disabled, <strong>** the costs displayed in the **Serial 
+ Numbers</strong> browser depend on the flow control settings. These settings  are defined in the <strong>Other Flow Control</strong>  dialog box (path: <strong>File &gt; Set up &gt; 
+ Preferences &gt; Flow Control &gt; Other Flow Control</strong> dialog box  &gt; <strong>Item Cost/Sales Summary</strong> tab  &gt; <strong>Type of cost to be displayed in 
+ Inventory Browsers and Pricing Analysis</strong> field).</p>
+
+<p>The table below details the costs that are displayed, based on the flow  control settings</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Cost Type Selected <br /> in Flow Control Settings</strong></td>
+      <td><strong>Cost Displayed in Serial <br /> Numbers Browser</strong></td>
+    </tr>
+    <tr>
+      <td>Average Cost</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>Last Cost</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>Actual Cost</td>
+      <td>Actual Cost</td>
+    </tr>
+    <tr>
+      <td>User Defined Costs</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>All</td>
+      <td>Actual Cost</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">If  you disable extended mode, all costs displayed are factored, if cost factoring  is enabled in <strong>Factor cost</strong> check  box (path: <strong>File &gt; Set up &gt; Preferences 
+ &gt; Flow Control &gt; Other Flow Control</strong> dialog box &gt; <strong>Item Cost/Sales Summary</strong> tab), and the  item has factored cost percentages defined.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/serial-num-trk/serial-number-details/browser/serial_numbers_browser_options.html">Serial  Numbers Browser Options</a></dd>
+</dl>
+
+
+
+
+</div>

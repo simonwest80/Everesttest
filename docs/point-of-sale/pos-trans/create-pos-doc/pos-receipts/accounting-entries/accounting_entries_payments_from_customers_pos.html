@@ -1,0 +1,53 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries---payments-from-customers">Accounting Entries - Payments from Customers</h1>
+
+<p>The following accounting entry is created when a new payment is received  on a <strong>Point of Sale (sales invoice)</strong>  profile.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Entry Type</td>
+      <td>Path</td>
+      <td>Debit/Credit</td>
+      <td>Path</td>
+    </tr>
+    <tr>
+      <td>Bank Account (the account defined for the Payment Method)</td>
+      <td>Payment by cash/check/<br /><br /><br />credit card/others</td>
+      <td>The account selected for <strong>Account</strong> in the <strong>Payment</strong> Method dialog  box (path: <strong>File &gt; Setup &gt; Accounting <br /> &gt; Payment Methods &gt;</strong> <strong>Options <br /> &gt; Edit &gt; In New Window</strong> &gt; <strong>General</strong>  tab)</td>
+      <td>Debit</td>
+      <td>Net amount after discount</td>
+    </tr>
+    <tr>
+      <td>Sales Discount Account</td>
+      <td>None</td>
+      <td>The account selected for <strong>Sales <br /> Discounts</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; <br /> Preferences &gt; Defaults &gt; Accounting &gt; Revenue Accounts</strong>  tab)</td>
+      <td>Debit</td>
+      <td>Discount value</td>
+    </tr>
+    <tr>
+      <td>Accounts Receivable Control</td>
+      <td>Payment on Sales Invoice</td>
+      <td>The account selected for <strong>Accounts <br /> Receivable</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; <br /> Preferences &gt; Defaults &gt; Accounting &gt; Control Accounts</strong> tab)</td>
+      <td>Credit</td>
+      <td>Amount applied</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/pos-receipts/proc-cc-pmnts/verification-dlg/the_card_verification_dialog_box_pos.html">The  Card Verification Dialog Box</a></dd>
+  <dd><a href="accounting.chm::/accounting_control_accounts.htm">Accounting  Dialog Box - Control Accounts</a></dd>
+</dl>
+
+
+
+
+</div>

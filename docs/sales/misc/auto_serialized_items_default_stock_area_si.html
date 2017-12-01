@@ -1,0 +1,55 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="auto-serialized-items---default-stock-area">Auto-serialized Items - Default Stock Area</h1>
+
+<p>The stock area from which quantities are committed on the sales invoice  depend on the <strong>Prompt method for selecting 
+ a stock area when auto-serializing sales document</strong> option specified  in the <strong>Flow Control Preferences</strong> (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Flow Control &gt; Documents &gt; Prompts &gt; Sales Document &gt; Sales 
+ Document 1</strong> tab).</p>
+
+<p>The options available are:</p>
+
+<ul>
+  <li><strong>None</strong>  - If the prompt option selected is <strong>None</strong>,  then quantities are attached from the default stock area for auto-serialized  items specified in the <strong>Sales Invoice</strong> field of the <strong>Workstation Settings</strong> (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Workstation Settings &gt; Stock Areas &gt; For Sales</strong> tab)  of the user creating the sales document.</li>
+</ul>
+
+<p><strong>If the default stock area in the **Workstation Settings</strong> is blank, then  quantities are attached from the default stock area specified for assigning  items on sales invoices in the logged in location or sub-location (path:  <strong>File</strong> <strong>&gt; 
+ Setup &gt; Accounting &gt; Location/Sub-Location &gt; Options</strong> &gt;  <strong>New</strong> &gt; <strong>Location</strong> &gt; <strong>In New Window</strong> &gt;  <strong>Stock Transfer &gt; Sales Document</strong> tab).  If no stock area is defined for logged in location or sub-location, the  stock area defined for the default location is used.**</p>
+
+<ul>
+  <li><strong>Each 
+ item</strong> - If the prompt option selected is <strong>Each 
+ Item</strong>, then you will be asked to select the stock area from which  the quantities have to be attached for each auto-serialized item on the  sales invoice.</li>
+  <li><strong>Once 
+ for all items</strong> - If the prompt option selected is <strong>Once 
+ for all items</strong>, then you will be asked to select the stock area  from which the quantities have to be attached for all the auto-serialized  items contained in the sales invoice.</li>
+  <li>If the quantity to be committed is greater than  the quantity available in the selected stock area, then you will be asked  to select the stock area from which the remaining quantity has to be attached.</li>
+</ul>
+
+<p class="note">The <strong>Stock 
+ Area</strong> field displays in the status bar when you need to select a  stock area. Select a stock area and press the <strong>Enter</strong>  key or <strong>ESC</strong> key to exit this field  and continue.</p>
+<ul>
+  <li>If the quantity  in the selected stock area includes items to which a manufacturer’s serial  number has been assigned, then you can choose to skip such items or auto-serialize  them without being prompted. This preference has to be set in the <strong>When an item marked as auto-serialized consists 
+ of a manufacturer serial number, how do you wish to auto-serialize the 
+ item</strong> option of the <strong>Documents</strong> dialog  box (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Flow Control &gt; Documents &gt; Prompts &gt; Sales Document &gt; 
+ Sales Document 1</strong> tab).</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/misc/prompts_sales_document_sales_document_1_steps.html">Documents  Dialog Box - Prompts - Sales Document 1 tab</a></strong></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/enter-cmt-qty/auto-ser/auto_serialized_items_entering_committed_quantity.html">Auto-serialized  Items - Entering Committed Quantities</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sis/sales-invoice-processes/shipped-quantities/entering_shipped_quantities.html">Entering  Shipped Quantities</a></dd>
+</dl>
+
+
+
+
+</div>

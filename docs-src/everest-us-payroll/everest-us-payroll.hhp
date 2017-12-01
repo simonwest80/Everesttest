@@ -1,0 +1,2562 @@
+[OPTIONS]
+Title=Everest US Payroll
+Contents file=everest-us-payroll.hhc
+Index file=everest-us-payroll.hhk
+Full-text search=Yes
+
+[FILES]
+introduction\about_us_payroll.html
+introduction\features_of_everest_us_payroll.html
+introduction\assumptions_payroll.html
+setup\payroll_item_accounts_1.html
+setup\payroll-setup-functions\payroll_setup_functions.html
+setup\the-payroll-setup-wizard\the_payroll_setup_wizard.html
+setup\the-payroll-setup-wizard\set_up_us_payroll_sup.html
+setup\the-payroll-setup-wizard\welcome_window_sup.html
+setup\the-payroll-setup-wizard\company_information_sup.html
+setup\the-payroll-setup-wizard\taxes_futa_and_suta_sdi_rates_sup.html
+setup\the-payroll-setup-wizard\taxes_accounts_sup.html
+setup\the-payroll-setup-wizard\taxes_local_taxes_sup.html
+setup\the-payroll-setup-wizard\payroll_items_setup_sup.html
+setup\the-payroll-setup-wizard\payroll_items_form_w2_tracking_sup.html
+setup\the-payroll-setup-wizard\employee_information_employee_template_sup.html
+setup\the-payroll-setup-wizard\employee_information_employees_sup.html
+setup\the-payroll-setup-wizard\employee_information_employee_history_sup.html
+setup\the-payroll-setup-wizard\conclusion_sup.html
+setup\payroll-company-setup\payroll_company_setup.html
+setup\payroll-company-setup\company_name_and_address.html
+setup\payroll-company-setup\federal_id_and_currency_code.html
+setup\payroll-company-setup\setting-up-company-details\setting_up_company_details.html
+setup\payroll-company-setup\setting-up-company-details\the_payroll_company_setup_dialog_box.html
+setup\payroll-company-setup\setting-up-company-details\modifying_company_details_1.html
+setup\state-setup\the_state_setup_profile.html
+setup\state-setup\state_code_and_id.html
+setup\state-setup\tax_applicability.html
+setup\state-setup\setting-up-state-details\setting_up_state_details.html
+setup\state-setup\setting-up-state-details\the_state_setup_profile_general.html
+setup\state-setup\setting-up-state-details\modifying_state_details.html
+setup\state-setup\setting-up-state-details\discontinuing_state_details.html
+setup\state-setup\setting-up-state-details\view_and_activate_discontinued_state_details.html
+setup\state-setup\setting-up-state-details\state_setup_browser_options.html
+setup\state-setup\setting-up-state-details\state_setup_browser_options_1sup.html
+setup\futa-setup\futa_setup.html
+setup\futa-setup\setting-up-futa-rates\setting_up_futa_rates.html
+setup\futa-setup\setting-up-futa-rates\modifying_futa_rates.html
+setup\futa-setup\setting-up-futa-rates\discontinuing_futa_rates.html
+setup\futa-setup\setting-up-futa-rates\view_and_activate_discontinued_futa_rates_information.html
+setup\futa-setup\setting-up-futa-rates\futa_setup_browser_options.html
+setup\federal-account-setup\federal_account_setup.html
+setup\federal-account-setup\federal_account_setup_employee.html
+setup\federal-account-setup\federal_account_setup_employer.html
+setup\federal-account-setup\setting-up-federal-accounts\setting_up_federal_accounts.html
+setup\federal-account-setup\setting-up-federal-accounts\modifying_federal_accounts.html
+setup\suta-sdi-setup\the_suta_sdi_setup_profile.html
+setup\suta-sdi-setup\year_and_code.html
+setup\suta-sdi-setup\suta.html
+setup\suta-sdi-setup\sdi.html
+setup\suta-sdi-setup\setup-rates\setting_up_suta_sdi_rates.html
+setup\suta-sdi-setup\setup-rates\modifying_suta_sdi_rates.html
+setup\suta-sdi-setup\setup-rates\discontinuing_a_suta_sdi_information.html
+setup\suta-sdi-setup\setup-rates\view_and_activate_a_discontinued_suta_sdi_information.html
+setup\suta-sdi-setup\setup-rates\suta_sdi_browser_options.html
+setup\state-accounts\the_state_accounts_profile.html
+setup\state-accounts\state_accounts_employee.html
+setup\state-accounts\state_accounts_employer.html
+setup\state-accounts\setup\setting_up_state_accounts.html
+setup\state-accounts\setup\modifying_state_accounts.html
+setup\state-accounts\setup\discontinuing_state_accounts.html
+setup\state-accounts\setup\view_and_activate_a_discontinued_state_accounts_information.html
+setup\state-accounts\setup\state_accounts_browser_options.html
+setup\local-taxes\local_taxes.html
+setup\local-taxes\default_local_taxes.html
+setup\local-taxes\the_local_tax_profile.html
+setup\local-taxes\general_information_2.html
+setup\local-taxes\tax_details.html
+setup\local-taxes\setting-up-local-taxes\setting_up_local_taxes.html
+setup\local-taxes\setting-up-local-taxes\modify_a_local_tax.html
+setup\local-taxes\setting-up-local-taxes\discontinuing_a_local_tax.html
+setup\local-taxes\setting-up-local-taxes\view_and_activate_a_discontinued_local_tax.html
+setup\local-taxes\setting-up-local-taxes\local_tax_browser_options.html
+setup\employee-level-accounts\employee_level_accounts_sup.html
+setup\employee-level-accounts\setup\set_up_employee_level_accounts_sup.html
+setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_sup.html
+setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_federal_accounts_sup.html
+setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_state_accounts_sup.html
+setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_local_accounts.html
+setup\employee-level-accounts\setup\modify_employee_level_accounts_sup.html
+setup\payroll-items\payroll_items.html
+setup\payroll-items\checklist_for_payroll_items.html
+setup\payroll-items\default_payroll_items.html
+setup\payroll-items\the_payroll_items_profile.html
+setup\payroll-items\payroll_item_general_details.html
+setup\payroll-items\payroll_items_taxability_details_tab.html
+setup\payroll-items\code_and_type.html
+setup\payroll-items\pay_type.html
+setup\payroll-items\setting-up-payroll-items\setting_up_payroll_items.html
+setup\payroll-items\setting-up-payroll-items\modifying_payroll_items.html
+setup\payroll-items\setting-up-payroll-items\discontinuing_a_payroll_item.html
+setup\payroll-items\setting-up-payroll-items\view_and_activate_a_discontinued_payroll_item.html
+setup\payroll-items\setting-up-payroll-items\payroll_item_browser_options.html
+setup\w2-tracking-of-payroll-items\w2_tracking_of_payroll_items.html
+setup\w2-tracking-of-payroll-items\setting-up-w2-tracking\setting_up_w2_tracking.html
+setup\w2-tracking-of-payroll-items\setting-up-w2-tracking\modifying_w2_tracking.html
+setup\w2-tracking-of-payroll-items\setting-up-w2-tracking\associating_payroll_items.html
+setup\the-employee-template\the_employee_template.html
+setup\the-employee-template\employee_template_general.html
+setup\the-employee-template\tax_information_1.html
+setup\the-employee-template\the_employee_template_pay_details.html
+setup\the-employee-template\setting-up-employee-template\setting_up_employee_template.html
+setup\the-employee-template\setting-up-employee-template\modifying_employee_template.html
+setup\employees\employees.html
+setup\employees\the_employee_profile.html
+setup\employees\general_information.html
+setup\employees\tax_information.html
+setup\employees\pay_details_1.html
+setup\employees\creating-an-employee\setting_up_employees.html
+setup\employees\creating-an-employee\modifying_an_employee_information.html
+setup\employees\creating-an-employee\discontinuing_an_employee_information.html
+setup\employees\creating-an-employee\view_and_activate_a_discontinued_employee_information.html
+setup\employees\creating-an-employee\employees_browser_options.html
+setup\employees\creating-an-employee\employees_browser_options_1sup.html
+setup\employee-history\employee_history.html
+setup\employee-history\consolidated_transactions_sup.html
+setup\employee-history\general_information_1.html
+setup\employee-history\taxes.html
+setup\employee-history\create\setting_up_an_employee_history.html
+setup\employee-history\create\employee_history_dialog_box.html
+setup\employee-history\create\modifying_an_employee_history.html
+setup\employee-history\create\view_and_activate_a_discontinued_employee_history.html
+setup\employee-history\create\employee_history_browser_options.html
+setup\employee-history\backend-proc-and-acc-entries\backend_processes_and_accounting_entries.html
+payroll-process\steps_in_payroll_processing.html
+payroll-process\regular-payroll\regular_payroll_transaction.html
+payroll-process\process-with-preview\process_with_preview.html
+payroll-process\process-without-preview\process_without_preview.html
+payroll-process\process-without-preview\errors_in_process_without_preview.html
+payroll-process\transaction-details\the_payroll_transactions_profile.html
+payroll-process\transaction-details\general_informationptp.html
+payroll-process\transaction-details\employee_taxes.html
+payroll-process\transaction-details\employer_taxes.html
+payroll-process\transaction-details\leave_adjustment_details.html
+payroll-process\transaction-details\tax-calculations\tax_calculations.html
+payroll-process\transaction-details\payroll\creating_a_payroll_transaction_ptp.html
+payroll-process\transaction-details\payroll\wizard\payroll_transaction_processing_wizard_ptp.html
+payroll-process\transaction-details\payroll\wizard\steps_in_the_payroll_transaction_processing_wizard_ptp.html
+payroll-process\transaction-details\create-regular-transaction\creating_a_regular_payroll_transaction.html
+payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_2.html
+payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_general.html
+payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_employee_taxes.html
+payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_employer_taxes.html
+payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_leave_adjustment.html
+payroll-process\supplemental\supplemental_payroll_transaction.html
+payroll-process\supplemental\create-supplemental-transaction\creating_a_supplemental_payroll_transaction.html
+payroll-process\transactions-profile-options\options_available_with_payroll_transactions_profile.html
+payroll-process\modifying-payroll-transactions\modifying_a_regular_payroll_transaction.html
+payroll-process\modifying-payroll-transactions\modifying_a_supplemental_payroll_transaction.html
+payroll-process\viewing-a-payroll-transaction\viewing_payroll_transactions.html
+payroll-process\viewing-a-payroll-transaction\select_payroll_transactions_dialog_box.html
+payroll-process\viewing-a-payroll-transaction\the_payroll_transaction_list_browser_1.html
+payroll-process\purge\deleting_payroll_transactions.html
+payroll-process\purge\browser\the_payroll_transactions_browser.html
+payroll-process\purge\browser\options_available_with_the_payroll_transactions_browser.html
+payroll-process\creating-journal\payroll_journal.html
+payroll-process\creating-journal\creating_a_payroll_journal.html
+payroll-process\creating-journal\accounting_entries_for_payroll.html
+payroll-process\creating-journal\modifying_a_payroll_journal.html
+payroll-process\creating-journal\viewing-a-payroll-journal\view_a_payroll_journal_pts.html
+payroll-process\creating-journal\viewing-a-payroll-journal\the_payroll_journal_browser.html
+payroll-process\creating-journal\voiding-journal\voiding_payroll_journal.html
+payroll-process\creating-journal\voiding-journal\void-dlg\void_payroll_journal_dialog_box_ptp.html
+payroll-process\creating-journal\voiding-journal\void-dlg\void_payroll_journal_dialog_box_options_ptp.html
+payroll-process\creating-journal\voiding-journal\void-dlg\back_end_process_-_payroll_journal.html
+payroll-process\paying-employees\paying_employees_ptp.html
+payroll-process\paying-employees\wizard\the_payroll_payment_wizard.html
+payroll-process\paying-employees\wizard\creating-journal\creating_a_payment_journal.html
+payroll-process\paying-employees\wizard\creating-journal\modify_a_payment_journal_ptp.html
+payroll-process\paying-employees\wizard\viewing-journal\view_a_payment_journal_ptp.html
+payroll-process\paying-employees\wizard\viewing-journal\payments-browser\payroll_payments_browser_ptp_.html
+payroll-process\paying-employees\wizard\viewing-journal\payments-browser\payroll_payments_browser_options_ptp.html
+payroll-process\paying-employees\wizard\reverse-journal\ways_of_reversing_payments_us_payroll.html
+payroll-process\paying-employees\wizard\reverse-journal\reverse_payment_browser_payments_us_payroll.html
+payroll-process\paying-employees\wizard\reverse-journal\reverse_payment_browser_options_payment_us_payroll.html
+payroll-process\printing-payroll-checks\print_a_payroll_check_ptp.html
+payroll-process\printing-payroll-checks\check_printing_dialog_box_ptp.html
+payroll-process\printing-payroll-checks\the_payroll_check_printing_browser.html
+payroll-process\rectifying-errors-in-a-payroll-transaction\rectifying_errors_in_payroll_processing.html
+payroll-process\resetting-leave-balances\resetting_leave_balances_ptp.html
+statutory-forms-and-reports\payroll_reports_sfp.html
+statutory-forms-and-reports\statutory_forms_sfr.html
+statutory-forms-and-reports\form-w2\form_w2_sfr.html
+statutory-forms-and-reports\form-w2\creating-a-form-w2-report\create_a_form_w2_report_sfr.html
+statutory-forms-and-reports\form-w2\creating-a-form-w2-report\modify_a_form_w2_sfr.html
+statutory-forms-and-reports\form-w2\creating-a-form-w2-report\adjustments_to_the_values_in_form_w2_sfr.html
+statutory-forms-and-reports\form-w2\creating-a-form-w2-report\employee_form_w2_options_sfr.html
+statutory-forms-and-reports\form-w3\form_w3_sfr.html
+statutory-forms-and-reports\form-w3\creating-a-form-w3-report\create_a_form_w3_report_sfr.html
+statutory-forms-and-reports\form-940\form_940_sfr.html
+statutory-forms-and-reports\form-940\creating-a-form-940-report\create_a_form_940_report_sfr.html
+statutory-forms-and-reports\form-940\creating-a-form-940-report\modify_a_form_940_sfr.html
+statutory-forms-and-reports\form-940\creating-a-form-940-report\employee_form_940_options_sfr.html
+statutory-forms-and-reports\form-941\form_941_sfr.html
+statutory-forms-and-reports\form-941\creating-a-form-941-report\create_a_form_941_sfr.html
+statutory-forms-and-reports\form-941\creating-a-form-941-report\modify_a_form_941sfr.html
+statutory-forms-and-reports\form-941\creating-a-form-941-report\employee_form_941_options_sfr.html
+statutory-forms-and-reports\form-941\schedule-b\form_941_(schedule_b)_dialog_box.html
+statutory-forms-and-reports\payroll-reports\payroll_reports_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_a_company_contribution_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_a_deduction_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_an_employee_cost_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_an_employee_earning_detail_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_an_employee_earnings_summary_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_an_employee_journals_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_an_employee_list_detail_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_an_employee_list_summary_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_an_employee_outstanding_check_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_an_employee_vacation_and_sick_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_a_pay_stub_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_a_posted_transaction_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_an_unposted_transaction_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_a_voided_payment_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_a_voided_transaction_report_sfr.html
+statutory-forms-and-reports\payroll-reports\create\create_a_withholdings_report_sfr.html
+statutory-forms-and-reports\faqs-on-payroll\faqs_on_payroll.html
+payroll-glossary\us_payroll_glossary.html
+misc\accounts_required_for_payroll_items.html
+misc\additional_earnings_and_deductions_2.html
+misc\no_topic_associated.html
+misc\employee_form_940_general_sfr.html
+misc\employee_form_940_schedule_a_sfr.html
+misc\employee_form_940_part_2_and_3_sfr.html
+misc\employee_form_940_part_4_and_5_sfr.html
+misc\the_employee_form_941_address_sfr.html
+misc\zzannual_limit.html
+misc\back_end_processes_and_accounting_entries.html
+misc\balance_of_vacation_hours_employer_tax_tab.html
+misc\payment_information_bank_account.html
+misc\company_contributions_report_dialog_box_sfr.html
+misc\deduction_report_dialog_box_sfr.html
+misc\the_local_tax_profile_details.html
+misc\discontinuing_an_employee_history.html
+misc\federal_accounts_employee_sup.html
+misc\federal_accounts_employer_futa_sup.html
+misc\federal_accounts_employer_medicare_social_security_sup.html
+misc\local_accounts_employee_sup.html
+misc\local_accounts_employer_sup.html
+misc\state_accounts_employee_1sup.html
+misc\state_accounts_employer_1_sup.html
+misc\employee_cost_report_dialog_box_sfr.html
+misc\employee_earning_details_dialog_box_sfr.html
+misc\employee_earnings_summary_dialog_box_sfr.html
+misc\employee_form_w2_sfr.html
+misc\employee_form_w2_tracking.html
+misc\employee_form_w3_sfr.html
+misc\the_employee_history_profile_general.html
+misc\the_employee_history_profile_regular.html
+misc\the_employee_history_profile_supplemental.html
+misc\the_employee_history_dialog_box_taxes_sup.html
+misc\employee_information_grid.html
+misc\employee_journals_report_dialog_box_sfr.html
+misc\employee_list_detail_report_dialog_box_sfr.html
+misc\form_w2_employee_list_dialog_box_sfr.html
+misc\employee_list_summary_report_dialog_box_sfr.html
+misc\employee_outstanding_check_report_dialog_box_sfr.html
+misc\the_employee_profile_1.html
+misc\the_employee_profile_general.html
+misc\the_employee_profile_pay_details.html
+misc\the_employee_profile_taxes.html
+misc\the_federal_account_setup_dialog_box_employee.html
+misc\the_state_accounts_profile_employee.html
+misc\the_employee_template_dialog_box_1.html
+misc\the_employee_template_general.html
+misc\the_employee_template_taxes.html
+misc\employee_vacation_and_sick_dialog_box_sfr.html
+misc\the_federal_account_setup_dialog_box_employer.html
+misc\the_state_accounts_profile_employer.html
+misc\the_federal_account_setup_dialog_box_1.html
+misc\zz_federal_filing_status_employee_profile.html
+misc\employee_form_940_sfr.html
+misc\employee_form_941_sfr.html
+misc\employee_form_941_line_1_to_8_sfr.html
+misc\employee_form_941_line_16_and_17_sfr.html
+misc\employee_form_941_line_9_to_15_sfr.html
+misc\form_w2_details_dialog_box_sfr.html
+misc\form_w2_tracking_details_dialog_box_sup.html
+misc\futa_setup_browser_options_1sup.html
+misc\futa_setup_profile_general.html
+misc\the_local_tax_profile_general.html
+misc\the_payroll_transactions_profile_general_1.html
+misc\the_local_tax_profile_1.html
+misc\payroll_transactions_profile_general_tab_pay_period.html
+misc\payroll_transactions_profile_general_tab_pay_period_regular_hours.html
+misc\pay_stubs_dialog_box_sfr.html
+misc\pay_types_of_payroll_items_of_type_accruals.html
+misc\pay_types_of_payroll_items_of_type_additions.html
+misc\payment_information_payment_journal.html
+misc\payment_information_payment_method.html
+misc\the_payroll_items_profile_general.html
+misc\payroll_journal_dialog_box_options_ptp.html
+misc\transaction_date_range.html
+misc\transaction_type.html
+misc\welcome_window_payroll_payment_wizard.html
+misc\payroll_transaction_processing_section.html
+misc\payroll_transaction_processing_error_log_file_ptp.html
+misc\the_payroll_transactions_profile_1.html
+misc\posted_transactions_dialog_box_sfr.html
+misc\prorating_of_salary.html
+misc\the_state_accounts_profile_general.html
+misc\suta_2_employee_taxes_tab_payroll.html
+misc\the_suta_sdi_setup_profile_general.html
+misc\unposted_transactions_report_dialog_box_sfr.html
+misc\user_defined_payroll_items.html
+misc\void_payment.html
+misc\voided_transactions_dialog_box_sfr.html
+misc\welcome_window_payroll_transaction_processing_wizard.html
+misc\withholdings_report_dialog_box_sfr.html
+misc\accounts_for_accounting_entries_in_payroll.html
+misc\accruals.html
+misc\additional_earnings_and_deductions.html
+misc\additional_earnings_and_deductions4ptp.html
+misc\additional_earnings_and_deductionsptp.html
+misc\additional_earnings_and_deductions_1.html
+misc\additional_earnings_and_deductions_1ptp.html
+misc\additional_earnings_and_deductions_3ptp.html
+misc\additional_earnings_and_deductions_ptp3.html
+misc\additions.html
+img\avi.gif
+misc\batch processing payroll transactions.html
+misc\batch processing payroll transactions.swf
+misc\bullet.gif
+img\button_a.bmp
+img\button_b.bmp
+img\button_c.bmp
+img\button_d.bmp
+img\button_e.bmp
+img\button_f.bmp
+img\button_g.bmp
+img\button_h.bmp
+img\button_i.bmp
+img\button_j.bmp
+img\button_k.bmp
+img\button_l.bmp
+img\button_m.bmp
+img\button_n.bmp
+img\button_o.bmp
+img\button_p.bmp
+img\button_q.bmp
+img\button_r.bmp
+img\button_s.bmp
+img\button_t.bmp
+img\button_u.bmp
+img\button_v.bmp
+img\button_w.bmp
+img\button_x.bmp
+img\button_y.bmp
+img\button_z.bmp
+misc\calculation_type_1.html
+misc\calculation_type_2_sup.html
+misc\calculation_type_sup.html
+misc\code_and_pay_date.html
+misc\code_type_and_pay_type.html
+misc\company_contribution.html
+misc\debit_and_credit_accounts.html
+misc\debit_credit_accounts_and_vendor.html
+misc\deductions.html
+misc\earnings_and_deductions_ptp3.html
+misc\earnings_and_deductions_ptp_2.html
+misc\earnings_and_deductions_pts.html
+misc\earnings_summary.html
+misc\ehlpdhtm.js
+misc\eic_debit_account.html
+misc\employee_code_and_id.html
+misc\employee_code_and_id_1.html
+misc\employee_earnings.html
+misc\employee_employer_1.html
+misc\employee_employer_accounts.html
+misc\employee_form_940_worksheet_sfr.html
+misc\employment_history.html
+misc\employment_history_1.html
+misc\end_date.html
+misc\end_date_1_deductions.html
+misc\end_date_1_employee_earnings_summary.html
+misc\end_date_1_employee_journals_report.html
+misc\end_date_1_employee_outstanding_check_.html
+misc\end_date_1_employee_vacation_and_sick.html
+misc\end_date_1_map_payroll.html
+misc\end_date_1_payroll.html
+misc\end_date_1_payroll_map.html
+misc\end_date_1_posted_transactions_.html
+misc\end_date_1_unposted_transactions.html
+misc\end_date_1_voided_payments_.html
+misc\end_date_1_voided_transactions.html
+misc\end_date_1_withholdings.html
+img\example.gif
+misc\excerpts_from_pub15_circular_e_employers_tax_guide_w2_usp.html
+misc\expense_and_liability_accounts_1.html
+misc\federal.html
+misc\federal_1.html
+misc\federal_tax.html
+misc\federal_taxes.html
+misc\federal_taxes_1.html
+misc\federal_taxes_2.html
+misc\fita_and_medicare_accounts.html
+misc\fita_employee_taxes_tab_payroll.html
+misc\fita_payable_account_and_vendor.html
+misc\fita_payroll_items_-_taxability_details.html
+misc\form_940v_usp.html
+misc\for_paid_preparers_only_(optional)_part_6_form_941.html
+misc\from_employee_code_employee_list_detail.html
+misc\from_employee_code_employee_list_summary.html
+misc\from_pay_date_pay_stubs.html
+misc\from_transaction_numbers_pay_stubs.html
+misc\futa_accounts.html
+misc\futa_employer_tax_tab.html
+misc\futa_expense_and_payable_account.html
+misc\futa_payroll_items_-_taxability_details.html
+img\go_top.gif
+img\hint.gif
+misc\how_to_deposit_or_pay_the_balance_due_sfr.html
+misc\icons.html
+misc\illustration_1_social_security_wage_base_form_w2.html
+misc\illustration_2_social_security_wage_base_form_w2.html
+misc\illustration_3_social_security_wage_base_form_w2.html
+misc\irs_specified_total_payments_for_line_3_sfr.html
+img\kanadi.gif
+img\lens.gif
+misc\local_taxes_1.html
+misc\local_taxes_2.html
+misc\local_taxes_3.html
+misc\local_taxes_4.html
+misc\local_tax_1_employee_taxes_tab_payroll.html
+misc\local_tax_1_employer_tax_tab.html
+misc\local_tax_1_payroll_items_-_taxability_details.html
+misc\local_tax_2_employee_taxes_tab_payroll.html
+misc\local_tax_2_employer_tax_tab.html
+misc\local_tax_2_payroll_items_-_taxability_details.html
+misc\local_tax_applicability_sup.html
+misc\maximum_amount.html
+misc\maximum_balance_and_reset_sick.html
+misc\maximum_balance_and_reset_vacation.html
+misc\max_balance_and_reset_sick.html
+misc\max_balance_and_reset_vacation.html
+misc\medicare_accounts.html
+misc\medicare_employee_taxes_tab_payroll.html
+misc\medicare_employer_tax_tab.html
+misc\medicare_expense_and_payable_account.html
+misc\medicare_payable_account_and_vendor.html
+misc\medicare_payroll_items_-_taxability_details.html
+misc\minimum_and_maximum_amount.html
+misc\miscellaneous_information.html
+misc\miscellaneous_information_1.html
+img\note.gif
+img\no_topic_associated.gif
+misc\optional_rule_for_form_w2.html
+misc\overtime_pay.html
+misc\payroll_item_accounts.html
+misc\payroll_item_type_1.html
+misc\payroll_item_type_and_code.html
+misc\payroll_item_type_and_code_1.html
+misc\payroll_item_type_sup.html
+misc\payroll_transactions_profile_general_tab_transaction_number.html
+misc\payroll_transactions_profile_leave_adjustment_tab_amount_accrued_for_the_vacation_hours.html
+misc\payroll_transactions_profile_leave_adjustment_tab_sick_hours_credited_for_the_pay_period.html
+misc\payroll_transaction_processing_section_1.html
+misc\payroll_transaction_profile_leave_adjustment_tab_amount_accrued_for_the_sick_hours.html
+misc\pay_data.html
+misc\pay_data_1.html
+misc\pay_data_2.html
+misc\pay_data_3.html
+misc\pay_date.html
+misc\pay_details.html
+misc\pay_period.html
+misc\pay_period_and_pay_date.html
+misc\pay_period_regular_hours.html
+misc\pay_rate_and_balance_of_sick_hours.html
+misc\pay_type_and_pay_period.html
+misc\process payroll transactions by previewing each empolyee's transaction.swf
+misc\process payroll transactions by previewing each empolyees transaction.html
+misc\ptpt_payroll_transactions_profile_general_tab_overtime_pay_amount.html
+misc\ptp_payroll_transactions_profile_-_employee_taxes_tab_taxes_deducted_fita.html
+misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_local_tax_1.html
+misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_local_tax_2.html
+misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_sdi.html
+misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_sita.html
+misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_social_security.html
+misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_suta.html
+misc\ptp_payroll_transactions_profile_employer_taxes_tab_taxes_deducted_futa.html
+misc\ptp_payroll_transactions_profile_employer_taxes_tab_taxes_deducted_local_tax_1.html
+misc\ptp_payroll_transactions_profile_employer_taxes_tab_taxes_deducted_medicare.html
+misc\ptp_payroll_transactions_profile_employer_taxes_tab_taxes_deducted_sdi.html
+misc\ptp_payroll_transactions_profile_employer_taxes_tab_taxes_deducted_social_security.html
+misc\ptp_payroll_transactions_profile_employer_taxes_tab_taxes_deducted_suta.html
+misc\ptp_payroll_transactions_profile_general_tab_overtime_hours.html
+misc\ptp_payroll_transactions_profile_general_tab_sick_hours.html
+misc\ptp_payroll_transactions_profile_general_tab_vacation_hours.html
+misc\ptp_payroll_transactions_profile_leave_adjustment_tab_vacation_hours_credited_for_the_pay_period.html
+misc\ptp_payroll_transaction_process_employee_taxes_tab_taxes_deducted_medicare.html
+misc\ptp_payroll_transaction_profile_general_tab_regular_hours.html
+misc\ptp_select_payroll_transactions_db_end_date.html
+misc\ptp_select_payroll_transactions_db_include_posted_transactions.html
+misc\ptp_select_payroll_transactions_db_pay_period.html
+misc\ptp_select_payroll_transactions_db_start_date.html
+misc\ptp_select_payroll_transactions_db_transaction_type_1.html
+misc\purge_a_payment_reverse_payment_browser_options.html
+img\refer.gif
+misc\regular_and_supplemental.html
+misc\regular_and_supplemental_1.html
+misc\regular_pay.html
+misc\regular_pay_amount.html
+misc\robohtml.css
+misc\salary.html
+misc\salary_regular_pay_overtime_pay_and_sick_pay.html
+misc\schedule_b_-_form_941.html
+misc\sdi_1.html
+misc\sdi_2_employee_taxes_tab_payroll.html
+misc\sdi_2_employer_tax_tab.html
+misc\sdi_2_payroll_items_-_taxability_details.html
+misc\sdi_accounts.html
+misc\sdi_expense_and_payable_accounts.html
+misc\sdi_payable_account_and_vendor.html
+misc\sdi_payable_account_and_vendor_1.html
+misc\sdi_payable_vendor.html
+misc\sfr_form_w2_employee_list_dialog_box_form_w2_year.html
+misc\sick_accrual.html
+misc\sick_accrual_rate.html
+misc\sick_hours.html
+misc\sick_leave.html
+misc\sick_leave_details.html
+misc\sick_leave_details_1.html
+misc\sick_leave_details_2.html
+misc\sick_leave_details_3.html
+misc\sick_pay_amount.html
+misc\sick_pay_rate_and_others.html
+misc\sita_employee_taxes_tab_payroll.html
+misc\sita_payable_account_and_vendor.html
+misc\sita_payable_account_and_vendor_1.html
+misc\sita_payroll_items_-_taxability_details.html
+misc\social_security_accounts.html
+misc\social_security_and_eic_accounts.html
+misc\social_security_employee_taxes_tab_payroll.html
+misc\social_security_employer_tax_tab.html
+misc\social_security_expense_and_payable_account.html
+misc\social_security_payable_account_and_vendor.html
+misc\social_security_payroll_items_-_taxability_details.html
+misc\standard_earnings.html
+misc\standard_earnings2ptp.html
+misc\standard_earningsptp.html
+misc\standard_earnings_1.html
+misc\start_date_deduction.html
+misc\start_date_employee_earnings_detail.html
+misc\start_date_employee_earnings_summary.html
+misc\start_date_employee_journals_report.html
+misc\start_date_employee_outstanding_check_.html
+misc\start_date_employee_vacation_and_sick.html
+misc\start_date_end_date.html
+misc\start_date_payroll.html
+misc\start_date_payroll_map.html
+misc\start_date_posted_transactions.html
+misc\start_date_unposted_transactions.html
+misc\start_date_voided_payments_.html
+misc\start_date_voided_transactions_.html
+misc\start_date_withholdings.html
+misc\state_and_local.html
+misc\state_and_local_1.html
+misc\state_code_combo_add_tab_form_940_sfr.html
+misc\state_taxes.html
+misc\state_taxes_1.html
+misc\state_taxes_2.html
+misc\state_taxes_3.html
+img\steps.gif
+misc\suta_1.html
+misc\suta_2_employer_tax_tab.html
+misc\suta_2_payroll_items_-_taxability_details.html
+misc\suta_accounts.html
+misc\suta_expense_and_payable_accounts.html
+misc\suta_payable_account_and_vendor.html
+misc\suta_payable_account_and_vendor_1.html
+misc\suta_sdi.html
+misc\suta_sdi_1.html
+misc\suta_sdi_2.html
+misc\taxability_of_payroll_items.html
+misc\taxability_of_payroll_items_1.html
+misc\taxable_amount.html
+misc\taxable_amount_1.html
+misc\taxes_3_ptp.html
+misc\taxes_deducted.html
+misc\taxes_deducted_1.html
+misc\taxes_ptp.html
+misc\taxes_ptp2.html
+misc\tax_id_and_description.html
+misc\tax_id_description_and_others.html
+misc\the_employee_history_dialog_box_sup.html
+misc\the_employee_history_dialog_box_taxes_employee_sup.html
+misc\the_employee_history_dialog_box_taxes_employer_.html
+misc\the_payroll_transaction_processing_section.html
+misc\the_payroll_transaction_processing_section2.html
+misc\third-party_sick_pay_recap_forms_w2_and_w3.html
+misc\totals.html
+misc\totals_ptp.html
+misc\total_sick_hours_and_hours_used.html
+misc\total_vacation_hours_and_hours_used.html
+misc\to_employee_code_employee_list_detail.html
+misc\to_employee_code_employee_list_summary.html
+misc\to_pay_date_pay_stubs.html
+misc\to_transaction_numbers_pay_stubs.html
+misc\transactions_grid_ptp2.html
+misc\transactions_grid_ptp_2.html
+misc\transactions_grid_ptp_4.html
+misc\transactions_grid_pts.html
+misc\transactions_grid_reverse_payment_browser.html
+misc\type_1.html
+misc\type_of_payments_exempted_from_futa_tax_sfr.html
+misc\upper_limit_and_lower_limit_sup.html
+misc\vacation_accrual_rate.html
+misc\vacation_and_other_accruals.html
+misc\vacation_and_sick_hours.html
+misc\vacation_hours.html
+misc\vacation_leave.html
+misc\vacation_leave_details.html
+misc\vacation_leave_details_1.html
+misc\vacation_leave_details_2.html
+misc\vacation_leave_details_3.html
+misc\vacation_pay_amount.html
+misc\vacation_pay_and_others.html
+misc\vacation_pay_rate.html
+misc\vacation_pay_rate_and_others.html
+misc\validations_for_yearly_upper_limit_(social_security_wage_base)_form_w2.html
+misc\vendor_code.html
+misc\view_options_ptp.html
+misc\view_options_ptp2.html
+misc\view_options_ptp4.html
+misc\view_options_pts2.html
+misc\view_options_reverse_payment_browser.html
+img\warning.gif
+misc\who_must_file_form_940_sfr.html
+misc\who_must_sign_form_941_part_5_form_941.html
+misc\year_and_add_delete.html
+misc\year_and_add_delete_1.html
+misc\year_and_code_1.html
+misc\zz-federal_id_company_setup_db_setting_up_e-_payroll.html
+misc\zz12a_emp_form_w2_trking_usp.html
+misc\zz12b_emp_form_w2_trking_usp.html
+misc\zz12c_emp_form_w2_trking_usp.html
+misc\zz12d_emp_form_w2_trking_usp.html
+misc\zz4afringe_benefits_form_940_part2and3_tab_sfr.html
+misc\zz4eother_part2and3_tab_form_940_sfr.html
+misc\zzadditional_earnings_and_deductions_emp_hist_db.html
+misc\zzamended_form_940_address_tab_sfr.html
+misc\zzannual_limit_field.html
+misc\zzapplied_to_next_return_form_940_part_2.html
+misc\zzapply_reverse_payment_browser_us_payroll.html
+misc\zzcity_add_tab_form_940_sfr.html
+misc\zzdates_reverse_payment_browser_us_payroll.html
+misc\zzdependent_care_part2and3_tab_form_940_sfr.html
+misc\zzdescription_reverse_payment_browser_payment_us_payroll.html
+misc\zzein_third-party_designee_line_16-17_form_941.html
+misc\zzfinal_form_940_gen_tab_sfr.html
+misc\zzfrom_date_reverse_payment_browser_us_payroll.html
+misc\zzgrid_reverse_payment_browser_us_payroll.html
+misc\zzgroup_term_life_ins_form_940_part2and3_tab_sfr.html
+misc\zzjournal_group_reverse_payment_brow_payment_us_payroll.html
+misc\zzkind_of_payer_-_medicare_government_employer_form_w3.html
+misc\zzkind_of_payer_-_third-party_sick_pay_form_w3.html
+misc\zzkind_of_payer_941_form_w3.html
+misc\zzkind_of_payer_943_form_w3.html
+misc\zzkind_of_payer_ct-1_form_w3.html
+misc\zzkind_of_payer_household_employer_form_w3.html
+misc\zzkind_of_payer_military_form_w3.html
+misc\zzline17_part4and5_tab_form_940_sfr.html
+misc\zzline2_worksheet_form_940_sfr.html
+misc\zzline5a_worksheet_form_940_sfr.html
+misc\zzline5b_worksheet_form_940_sfr.html
+misc\zzline5c_worksheet_form_940_sfr.html
+misc\zzmax_allowable_credit_worksheet_form_940_sfr.html
+misc\zzmore_than_one_state_form_940_gen_tab_sfr.html
+misc\zzname_third-party_designee_line_16-17_form_941.html
+misc\zzno_payments_to_emp_in_form_940_gen_tab_sfr.html
+misc\zzone_state_only_form_940_gen_tab_sft.html
+misc\zzpart3_line10_part2and3_tab_form_940.html
+misc\zzpart3_line3_part2and3_tab_form_940_sfr.html
+misc\zzphone_no_third-party_designee_line_16-17_form_941.html
+misc\zzrefunded_form_940_part_2.html
+misc\zzretirement_pension_part2and3_tab_form_940_sfr.html
+misc\zzschdule_a_button_form_940_sfr.html
+misc\zzschedule_b_button_form_941_lines_16_and_17.html
+misc\zzschedule_b_grid.html
+misc\zzsdi_2_employee_history_db_taxes_tab_employee.html
+misc\zzstate_address_tab_form_940_sfr.html
+misc\zzsuccessor_employer_form_940_add_tab_sfr.html
+misc\zzsuta_2_employee_history_db_taxes_tab_employee.html
+misc\zzthird-party_designee_line_16_to_17_form_941.html
+misc\zztotal_supplemental_earnings_employee_hist_usp.html
+misc\zzto_date_reverse_payment_browser_us_payroll.html
+misc\zz_account_employee_account_setup_db_federal_accounts.html
+misc\zz_account_employee_account_setup_db_federal_medicare.html
+misc\zz_account_employee_account_setup_db_federal_ss.html
+misc\zz_additions_to_pay_check_employee_history.html
+misc\zz_address_company_setup_db_setting_up_e-payroll.html
+misc\zz_allocated_tips_emp_form_w2_trking.html
+misc\zz_amount_employee_profile_pay_details_tab.html
+misc\zz_amount_employee_template_pay_details_tab.html
+misc\zz_amount_percentage_employee_profile.html
+misc\zz_amount_percentage_local_tax_db_details_tab_employer.html
+misc\zz_amount_percentage_local_tax_db_employee.html
+misc\zz_annual_limit_employee_profile_paydetails_tab.html
+misc\zz_apply_payroll_journal.html
+misc\zz_apply_void_payroll_jrnl.html
+misc\zz_balance_of_sick_hours_employee_profile.html
+misc\zz_balance_of_sick_hours_employee_template.html
+misc\zz_balance_of_vacation_hours_employee_profile.html
+misc\zz_balance_of_vacation_hours_employee_template.html
+misc\zz_bank_code_payroll_pymt_wiz_payment_info_bank_acct.html
+misc\zz_based_on_standard_earnings_employee_prof_paydetails_tab.html
+misc\zz_based_on_standard_earnings_emp_template_pay_details.html
+misc\zz_basis_of_payment_employee_profile_pay_details_tab.html
+misc\zz_basis_of_payment_employee_template.html
+misc\zz_box12_form_w2_trking.html
+misc\zz_calculation_type_2_local_tax_profile.html
+misc\zz_calculation_type_local_tax_db_details_tab_employer.html
+misc\zz_calculation_type_supplemental_payroll_transaction_profile.html
+misc\zz_check_if_wages_form_941_line1to8.html
+misc\zz_city_payroll_company_setup_profile-setting_up_us_payroll.html
+misc\zz_code_payroll_items_profile.html
+misc\zz_code_suta_sdi_setup_profile.html
+misc\zz_company_contributions_employee_history.html
+misc\zz_company_name_company_setup_db_setting_up_e-payroll.html
+misc\zz_company_paid_expenses_employee_history.html
+misc\zz_credit_account_code_payroll_items_profile.html
+misc\zz_currency_code_company_setup_setting_up_e-payroll.html
+misc\zz_dates_payroll_journal.html
+misc\zz_dates_void_payroll_jrnl.html
+misc\zz_date_of_joining_employee_profile.html
+misc\zz_date_of_last_raise_employee_profile.html
+misc\zz_date_of_release_employee_profile.html
+misc\zz_date_of_review_employee_profile.html
+misc\zz_debit_account_code_payroll_item_db_sup.html
+misc\zz_deductions_1_employee_history.html
+misc\zz_department-federal_account_setup_db_setting_up_payroll.html
+misc\zz_department2_federal_account_setup_employer_tab_sup.html
+misc\zz_department2_state_accounts_db_employer_tab.html
+misc\zz_department4_employee_account_setup_db_federal_accounts.html
+misc\zz_department_3_local_tax_db_general_tab_employer.html
+misc\zz_department_employee_account_setu_db_federal_accounts.html
+misc\zz_department_employee_profile_pay_details_tab.html
+misc\zz_department_federal_account_setup_-_employer_tab_sup.html
+misc\zz_department_federal_account_setup_employer_tab_sup.html
+misc\zz_department_payroll_item_db_sup.html
+misc\zz_department_state_accounts_db_employer_tab.html
+misc\zz_dependent_care_benefits_emp_form_w2_trking.html
+misc\zz_description_local_tax_profile.html
+misc\zz_description_payroll_items_profile.html
+misc\zz_description_voided_payroll_jrnl.html
+misc\zz_eic_amount_employee_history_db_taxes_tab_employee.html
+misc\zz_eic_debit_account_1_employee_account_setup_db_.html
+misc\zz_eic_debit_account_federal_account_setup_employee.html
+misc\zz_eic_type_employee_profile.html
+misc\zz_eic_type_employee_template.html
+misc\zz_employee_code_employee_profile.html
+misc\zz_employee_id_employee_history_db_general_tab.html
+misc\zz_employee_id_no_employee_profile.html
+misc\zz_employee_information_grid_payroll_pay_wiz.html
+misc\zz_employee_limit_3_suta_sdi_setup_profile.html
+misc\zz_employee_limit_suta_sdi_setup_profile.html
+misc\zz_employee_local_tax_db_sup.html
+misc\zz_employee_payable_account_employee_account_setup_local.html
+misc\zz_employee_rate_3_suta_sdi_setup_profile.html
+misc\zz_employee_rate_suta_sdi_setup_profile.html
+misc\zz_employer_limit_3_suta_sdi_setup_profile.html
+misc\zz_employer_limit_suta_sdi_setup_profile.html
+misc\zz_employer_local_tax_db_general_tab.html
+misc\zz_employer_rate_3_suta_sdi_setup_profile.html
+misc\zz_employer_rate_suta_sdi_setup_profile.html
+misc\zz_employer_taxes_employee_history.html
+misc\zz_end_date_employee_history_db_general_tab.html
+misc\zz_end_date_payroll_transaction_processing_wizard_payroll_transaction_processing_.html
+misc\zz_establishment_number_form_w3.html
+misc\zz_expense_account_code_local_tax_db_general_tab_employer.html
+misc\zz_expense_account_employee_account_setup_db_federal_accounts.html
+misc\zz_expense_account_employee_profile_pay_details_tab.html
+misc\zz_federal_allowances_employee_profile.html
+misc\zz_federal_extra_withholding_employee_profile.html
+misc\zz_filing_state_employee_profile.html
+misc\zz_filing_state_employee_template.html
+misc\zz_fita_3_employee_history_db_taxes_tab_employee.html
+misc\zz_fita_check_box_payroll_items_profile_taxability_tab.html
+misc\zz_fita_employee_history_db_taxes_tab_employee.html
+misc\zz_fita_employee_profile_pay_details_tab_federal.html
+misc\zz_fita_employee_profile_taxes_tab_federal_tax.html
+misc\zz_fita_employee_template_pay_details_tab_federal_taxes.html
+misc\zz_fita_employee_template_taxes_tab.html
+misc\zz_fita_payable_account_federal_account_setup_employee.html
+misc\zz_fita_payable_vendor_federal_account_setup_-employee.html
+misc\zz_form_941_line_16_and_17_tab_third_month_liability.html
+misc\zz_from_date_payroll_journal.html
+misc\zz_from_date_void_payroll_jrnl.html
+misc\zz_futa_4_employee_template.html
+misc\zz_futa_check_box_payroll_items_profile_taxability_tab.html
+misc\zz_futa_department_employee_account_setup_db_federal.html
+misc\zz_futa_employee_profile.html
+misc\zz_futa_employee_profile_taxes_tab_federal.html
+misc\zz_futa_employee_template.html
+misc\zz_futa_emp_hist_taxes_employer_tab_tax_amt_section.html
+misc\zz_futa_emp_hist_taxes_employer_tax_withheld.html
+misc\zz_futa_expense_account_employee_account_setup_federal.html
+misc\zz_futa_expense_account_federal_account_setup_employer_tab_sup.html
+misc\zz_futa_payable_account_employee_account_setup_federal.html
+misc\zz_futa_payable_account_federal_account_setup_employer.html
+misc\zz_futa_payable_vendor_employee_account_setup_db_federal.html
+misc\zz_futa_payable_vendor_federal_account_setup_employer.html
+misc\zz_grid_payroll_journal.html
+misc\zz_grid_void_payroll_jrnl.html
+misc\zz_gross_pay_employee_history.html
+misc\zz_hourly_overtime_rate_employee_profile.html
+misc\zz_hourly_overtime_rate_employee_template_db.html
+misc\zz_hourly_regular_rate_employee_profile.html
+misc\zz_hourly_regular_rate_employee_template_db.html
+misc\zz_journal_group_void_payroll_journal.html
+misc\zz_la1_payable_vendor_employee_employee_account_setup_local.html
+misc\zz_lc1_department_employee_account_setup_employer_local.html
+misc\zz_lc1_expense_account_employer_employee_account_setup_local_.html
+misc\zz_lc1_payable_account_employer_employee_account_setup_local.html
+misc\zz_lc1_payable_vendor_employer_emplouee_account_setup_local.html
+misc\zz_lc2_department_employer_employee_account_setup_local.html
+misc\zz_lc2_expense_account_employer_employee_account_setup_local.html
+misc\zz_lc2_payable_account_employee_employee_account_setup_local.html
+misc\zz_lc2_payable_account_employer_employee_account_setup_local.html
+misc\zz_lc2_payable_vendor_employee_employee_account_setup_local.html
+misc\zz_lc2_payable_vendor_employer_employee_account_setup_local.html
+misc\zz_liability_account_employee_profile.html
+misc\zz_liability_account_employee_profile_pay_details_tab.html
+misc\zz_local_tax1_check_box_payroll_items_profile_taxability_tab.html
+misc\zz_local_tax2_check_box_payroll_items_profile_taxability_tab.html
+misc\zz_local_tax2_employee_template_pay_details_tab_.html
+misc\zz_local_tax_1_employee_history_db_taxes_tab_employee.html
+misc\zz_local_tax_1_employee_history_db_taxes_tab_employee_withheld.html
+misc\zz_local_tax_1_employee_profile.html
+misc\zz_local_tax_1_employee_profile_pay_details_tab.html
+misc\zz_local_tax_1_employee_template.html
+misc\zz_local_tax_1_employee_template_pay_details_tab_.html
+misc\zz_local_tax_2_employee_history_db_taxes_tab_employee.html
+misc\zz_local_tax_2_employee_history_db_taxes_tab_employee_withheld.html
+misc\zz_local_tax_2_employee_profile.html
+misc\zz_local_tax_2_employee_profile_pay_details_tab.html
+misc\zz_local_tax_2_employee_template.html
+misc\zz_local_tax_code1_employee_profile_pay_details_tab.html
+misc\zz_local_tax_code_3_employee_profile.html
+misc\zz_local_tax_code_3_employee_template.html
+misc\zz_local_tax_code_employee_profile.html
+misc\zz_local_tax_code_employee_profile_pay_details_tab.html
+misc\zz_local_tax_code_employee_template.html
+misc\zz_local_tax_id_local_tax_profile.html
+misc\zz_local_tax_regular_transaction_db_employr_taxes_tab.html
+misc\zz_lower_limit_amount_futa_setup_profile.html
+misc\zz_lower_limit_db_details_tab_employer.html
+misc\zz_lower_limit_local_tax_db_details_tab_employee.html
+misc\zz_maximum_balance_of_sick_hours_employee_template.html
+misc\zz_maximum_balance_of_vacation_hours_employee_template_db.html
+misc\zz_maximum_deduction_per_week_suta_sdi_setup_profile.html
+misc\zz_maximum_limit_employee_profile_pay_details_tab.html
+misc\zz_max_balance_of_sick_hours_employee_profile.html
+misc\zz_max_balance_of_vacation_hours_employee_profile.html
+misc\zz_medicare3_employee_history_db_taxes_tab_employee.html
+misc\zz_medicare_4_employee_template.html
+misc\zz_medicare_check_box_payroll_items_profile_taxability_tab.html
+misc\zz_medicare_employee_history_db_taxes_tab_employee.html
+misc\zz_medicare_employee_profile.html
+misc\zz_medicare_employee_profile_taxes_tab_federal_tax.html
+misc\zz_medicare_employee_template.html
+misc\zz_medicare_expense_account_federal_accounts_setup_employer.html
+misc\zz_medicare_payable_account_federal_accounts_setup_employee.html
+misc\zz_medicare_payable_account_federal_accounts_setup_employer.html
+misc\zz_medicare_payable_vendor_employee_account_setup_db_federal_accounts.html
+misc\zz_medicare_payable_vendor_federal_accounts_setup_employee.html
+misc\zz_medicare_payable_vendor_federal_accounts_setup_employer.html
+misc\zz_medicare_taxes_withheld_employer_taxes_tab_emp_hist.html
+misc\zz_minimum_amount_employee_template.html
+misc\zz_minimum_limit_employee_profile_pay_details_tab.html
+misc\zz_miscellaneous_information_2_employee_profile.html
+misc\zz_name_form_940_part3.html
+misc\zz_net_pay_employee_history.html
+misc\zz_nonqualified_plans_emp_form_w2_trking.html
+misc\zz_number_of_daily_pay_periods_state_setup_profile.html
+misc\zz_other_box_14_form_w2.html
+misc\zz_other_ein_used_this_year_form_w3.html
+misc\zz_overtime_pay_employee_history.html
+misc\zz_payable_account_code_local_tax_db_general_employer.html
+misc\zz_payable_account_code_local_tax_profile.html
+misc\zz_payable_account_employee_account_setup_db_federal_accounts_medicare.html
+misc\zz_payable_vendor_employer_employee_account_setup_.html
+misc\zz_payable_vendor_local_tax_db_general_tab_employee.html
+misc\zz_payable_vendor_local_tax_db_general_tab_employer.html
+misc\zz_payment_type_employee_history_db_general_tab.html
+misc\zz_payroll_item_code_employee_profile.html
+misc\zz_payroll_item_code_employee_template.html
+misc\zz_payroll_item_code_grid_emp_template_pay_details.html
+misc\zz_payroll_item_type_2_employee_profile.html
+misc\zz_payroll_item_type_2_employee_template.html
+misc\zz_payroll_payment_wizard_description_of_the_new_payment_journal.html
+misc\zz_payroll_payment_wizard_existing_payment_journal_.html
+misc\zz_payroll_payment_wizard_payment_method.html
+misc\zz_payroll_payment_wizard_select_the_journal_group_.html
+misc\zz_payroll_payment_wizard_select_the_payment_journal.html
+misc\zz_payroll_payment_wizard_transaction_date_rangeto_date.html
+misc\zz_payroll_payment_wizard_transaction_date_range_from_date.html
+misc\zz_payroll_payment_wizard_transaction_type_regular.html
+misc\zz_payroll_transaction_processing_wizard_payroll_transaction_processing_pay_date_.html
+misc\zz_payroll_transaction_processing_wizard_payroll_transaction_processing_pay_period.html
+misc\zz_payroll_transaction_processing_wizard_payroll_transaction_processing_start_date.html
+misc\zz_pay_check_date_employee_history.html
+misc\zz_pay_check_number_employee_history.html
+misc\zz_pay_date_employee_history_db_general_tab.html
+misc\zz_pay_period_employee_profile.html
+misc\zz_pay_period_employee_template_general_tab.html
+misc\zz_pay_type_1_payroll_items_profile.html
+misc\zz_percentage_futa_setup_profile.html
+misc\zz_percentage_of_last_raise_employee_profile.html
+misc\zz_personal_identification_number_form_940_part3.html
+misc\zz_phone_no_form_940_part3.html
+misc\zz_ptp_payroll_journal_db_description.html
+misc\zz_ptp_payroll_journal_db_exchange_rate.html
+misc\zz_ptp_payroll_journal_db_journal_group.html
+misc\zz_ptp_payroll_journal_db_payroll_currency_code.html
+misc\zz_ptp_wizard_payroll_transaction_processing_transaction_type.html
+misc\zz_regular_hours_employee_profile.html
+misc\zz_regular_hours_employee_template_db.html
+misc\zz_regular_payroll_transaction_processing_wizard_payroll_transaction_processing.html
+misc\zz_regular_pay_employee_history.html
+misc\zz_reset_sick_every_new_year_employee_profile.html
+misc\zz_reset_sick_every_new_year_employee_template.html
+misc\zz_reset_vacation_every_new_year_employee_profile.html
+misc\zz_reset_vacation_every_new_year_employee_template_db.html
+misc\zz_rounding_of_sita_state_setup_profile.html
+misc\zz_round_of_taxes_company_setup_profile-setting_up_us_payroll.html
+misc\zz_salary_employee_history.html
+misc\zz_sdi_2b_state_setup_profile_setting_up_us_payroll.html
+misc\zz_sdi_2_employee_history_db_taxes_tab_employee.html
+misc\zz_sdi_2_employee_profile.html
+misc\zz_sdi_2_employee_template.html
+misc\zz_sdi_2_state_setup_profile_setting_up_us_payroll.html
+misc\zz_sdi_3_employee_template.html
+misc\zz_sdi_4_employee_profile.html
+misc\zz_sdi_check_box_payroll_items_profile_taxability_tab.html
+misc\zz_sdi_department_employer_employee_account_setup_state_accounts.html
+misc\zz_sdi_expense_account_state_accounts_db_employer_tab.html
+misc\zz_sdi_expense_code_employer_employee_account_setup_state_accounts.html
+misc\zz_sdi_payable_account_state_accounts_profile_employee.html
+misc\zz_sdi_payable_account_state_accounts_profile_employer.html
+misc\zz_sdi_payable_code_employee_account_setup_state_accounts.html
+misc\zz_sdi_payable_code_employer_employee_account_setup_sate_accounts.html
+misc\zz_sdi_payable_vendor_employee_account_setup_state_accounts.html
+misc\zz_sdi_payable_vendor_employer_employee_account_setup_state_accounts.html
+misc\zz_sdi_payable_vendor_state_accounts_profile_employee.html
+misc\zz_sdi_payable_vendor_state_accounts_profile_employer.html
+misc\zz_sdi_taxes_withheld_employer_taxes_tab_emp_hist.html
+misc\zz_select_employees_grid_ptp_wizard.html
+misc\zz_select_payroll_transactions_db_include_voided_transactions.html
+misc\zz_sfr_form_940_calendar_year.html
+misc\zz_sfr_form_940_part_iii_tab_enter_the_amount_of_payment_making.html
+misc\zz_sfr_form_940_part_iii_tab_first_quarter_liability_adjustments.html
+misc\zz_sfr_form_940_part_iii_tab_fourth_quarter_liability_adjustments.html
+misc\zz_sfr_form_940_part_iii_tab_second_quarter_liability_adjustments.html
+misc\zz_sfr_form_940_part_iii_tab_third_quarter_liability_adjustments.html
+misc\zz_sfr_form_940_part_ii_tab_computation_of_tentative_credit_.html
+misc\zz_sfr_form_940_part_ii_tab_total_futa_deposited_for_the_year.html
+misc\zz_sfr_form_940_part_i_tab_adjustments_if_any_.html
+misc\zz_sfr_form_940_part_i_tab_payments_for_services_adjustments.html
+misc\zz_sfr_form_941_address_tab_if_address_is_different_from_prior_return_check_here.html
+misc\zz_sfr_form_941_address_tab_if_you_are_a_seasonal_employer.html
+misc\zz_sfr_form_941_address_tab_if_you_do_not_have_to_file_returns_in_the_future.html
+misc\zz_sfr_form_941_address_tab_quarter.html
+misc\zz_sfr_form_941_address_tab_state_code.html
+misc\zz_sfr_form_941_address_tab_trade_name_if_any.html
+misc\zz_sfr_form_941_address_tab_year.html
+misc\zz_sfr_form_941_if_this_is_an_amended_return_check_here.html
+misc\zz_sfr_form_941_if_you_will_not_have_to_file_returns_in_the_future_check_here_and_sign_the_return.html
+misc\zz_sfr_form_941_lines_1_to_8_tab_taxable_social_security_tips.html
+misc\zz_sfr_form_941_lines_1_to_8_tab_taxable_social_security_wages.html
+misc\zz_sfr_form_941_lines_1_to_8_tab_total_income_tax_withheld_adjustments.html
+misc\zz_sfr_form_941_lines_1_to_8_tab_total_wages_and_tips_adjustments.html
+misc\zz_sfr_form_941_line_16_and_17_tab_apply_to_next_return.html
+misc\zz_sfr_form_941_line_16_and_17_tab_first_month_liability.html
+misc\zz_sfr_form_941_line_16_and_17_tab_refund.html
+misc\zz_sfr_form_941_line_16_and_17_tab_second_month_liability.html
+misc\zz_sfr_form_941_line_16_and_17_tab_semiweekly_schedule_depositors.html
+misc\zz_sfr_form_941_line_16_to_17_tab_monthly_schedule_depositors.html
+misc\zz_sfr_form_941_line_1_to_8_tab_7a_taxable_medicare_wages_and_tips.html
+misc\zz_sfr_form_941_line_1_to_8_tab_no_of_employees_in_the_pay_period.html
+misc\zz_sfr_form_941_line_1_to__8_tab_adjustment_of_withheld_income_tax.html
+misc\zz_sfr_form_941_line_9_t0_15_tab_sick_pay.html
+misc\zz_sfr_form_941_line_9_to_15_tab_advance_earned_income_credit.html
+misc\zz_sfr_form_941_line_9_to_15_tab_fractions_of_cents.html
+misc\zz_sfr_form_941_line_9_to_15_tab_other.html
+misc\zz_sfr_form_941_line_9_to_15_tab_total_deposits_for_quarter.html
+misc\zz_sfr_form_941_part_i_tab_exempt_payments.html
+misc\zz_sfr_form_941_part_i_tab_total_payments_adjustments.html
+misc\zz_sfr_form_941_trade_name_if_any.html
+misc\zz_sfr_form_w2_employee_list_dialog_box_selected.html
+misc\zz_sfr_form_w3_contact_person.html
+misc\zz_sfr_form_w3_control_number.html
+misc\zz_sfr_form_w3_employer_identification_number.html
+misc\zz_sfr_form_w3_employer_s_address_and_zip_code.html
+misc\zz_sfr_form_w3_employer_s_name.html
+misc\zz_sfr_form_w3_e_mail_address.html
+misc\zz_sfr_form_w3_fax_number.html
+misc\zz_sfr_form_w3_form_w3_year.html
+misc\zz_sfr_form_w3_income_tax_withheld_by_payer_of_third_party_sick_pay.html
+misc\zz_sfr_form_w3_telephone_number.html
+misc\zz_sfr_w2_form_advance_eic_payment.html
+misc\zz_sfr_w2_form_allocated_tips.html
+misc\zz_sfr_w2_form_a_control_number.html
+misc\zz_sfr_w2_form_dependent_care_benefits.html
+misc\zz_sfr_w2_form_employee_s_address_and_zip_code.html
+misc\zz_sfr_w2_form_employee_s_name.html
+misc\zz_sfr_w2_form_employee_s_social_security_number.html
+misc\zz_sfr_w2_form_employer_s_name_address_and_zip_code.html
+misc\zz_sfr_w2_form_federal_income_tax_withheld.html
+misc\zz_sfr_w2_form_medicare_tax_withheld.html
+misc\zz_sfr_w2_form_medicare_wages_and_tips.html
+misc\zz_sfr_w2_form_nonqualified_plans.html
+misc\zz_sfr_w2_form_social_security_tax_withheld.html
+misc\zz_sfr_w2_form_social_security_tips.html
+misc\zz_sfr_w2_form_social_security_wages.html
+misc\zz_sfr_w2_form_void.html
+misc\zz_sfr_w2_form_wages_tips_other_compensation.html
+misc\zz_sfr_w2_form__employer_identification_number.html
+misc\zz_sick_accrual_rate_1_employee_template.html
+misc\zz_sick_accrual_rate_employee_profile.html
+misc\zz_sick_hours_credited_employee_profile.html
+misc\zz_sick_hours_used_employee_profile.html
+misc\zz_sick_hours_used_employee_template_db.html
+misc\zz_sick_pay_employee_history.html
+misc\zz_sick_pay_rate_employee_profile.html
+misc\zz_sick_pay_rate_employee_template.html
+misc\zz_sita3_employee_history_db_taxes_tab_employee_withheld.html
+misc\zz_sita_check_box_payroll_items_profile_taxability_tab.html
+misc\zz_sita_employee_history_db_taxes_tab_employee.html
+misc\zz_sita_employee_profile_pay_details_tab_state.html
+misc\zz_sita_employee_profile_taxes_tab_state_taxes.html
+misc\zz_sita_employee_template_pay_details_state_taxes.html
+misc\zz_sita_payable_account_state_accounts_profile_employee.html
+misc\zz_sita_payable_code_employee_account_setup_db_state_accounts.html
+misc\zz_sita_payable_vendor_employee_account_setup_state_accounts.html
+misc\zz_sita_payable_vendor_state_accounts_profile_employee.html
+misc\zz_sita_state_setup_profile.html
+misc\zz_social_security3_employee_history_db_taxes_tab_employee.html
+misc\zz_social_security_4__employee_template.html
+misc\zz_social_security_check_box_payroll_items_profile_taxability_tab.html
+misc\zz_social_security_department_employee_account_setup_db_federal.html
+misc\zz_social_security_employee_history_db_taxes_tab_employee.html
+misc\zz_social_security_employee_profile.html
+misc\zz_social_security_employee_profile_taxes_tab_federal_tax.html
+misc\zz_social_security_employee_template.html
+misc\zz_social_security_expense_account_employee_account_set_up_db_.html
+misc\zz_social_security_expense_account_federal_account_set_employer_tab.html
+misc\zz_social_security_payable_account_employee_account_setu_federal_.html
+misc\zz_social_security_payable_account_federal_accounts_setup_employee.html
+misc\zz_social_security_payable_account_federal_account_setup_employer.html
+misc\zz_social_security_payable_vendor_employee_account_setup_federal.html
+misc\zz_social_security_payable_vendor_federal_accounts_setup_employee.html
+misc\zz_social_security_payable_vendor_federal_account_setup_employer.html
+misc\zz_social_security_taxes_withheld_employer_taxes_tab_emp_hist.html
+misc\zz_social_security_tips_emp_form_w2_trking.html
+misc\zz_standard_earnings_2_employee_history.html
+misc\zz_start_date_employee_history_db_general_tab.html
+misc\zz_state_code_1_employee_profile.html
+misc\zz_state_code_1_employee_template.html
+misc\zz_state_code_3_employee_profile.html
+misc\zz_state_code_3_employee_template.html
+misc\zz_state_code_state_accounts_profile.html
+misc\zz_state_code_state_setup_setting_up_e-payroll.html
+misc\zz_state_exemptions_employee_profile.html
+misc\zz_state_extra_withholding_employee_profile.html
+misc\zz_state_filing_status_employee_profile_.html
+misc\zz_state_for_sdi_employee_history.html
+misc\zz_state_for_sita_employee_history.html
+misc\zz_state_for_suta_employee_history.html
+misc\zz_state_id_state_setup_setting_up_e-payroll.html
+misc\zz_state_income_tax_employee_template.html
+misc\zz_state_payroll_company_setup_profile_setting_up_us_payroll.html
+misc\zz_stat_emp_retire_plan_tp_sick_pay_chkbox13_frm_w2.html
+misc\zz_suta_2_employee_history_db_taxes_tab_employee_.html
+misc\zz_suta_2_employee_profile.html
+misc\zz_suta_2_employee_template.html
+misc\zz_suta_2_state_setup_profile_setting_up_us_payroll.html
+misc\zz_suta_3_employee_template.html
+misc\zz_suta_3_state_setup_profile_setting_up_us_payroll.html
+misc\zz_suta_4_employee_profile.html
+misc\zz_suta_check_box_payroll_items_profile_taxability_tab.html
+misc\zz_suta_department_employer_employee_account_setup.html
+misc\zz_suta_expense_account_state_accounts_db_employer_tab.html
+misc\zz_suta_expense_code_employer_employee_accounts_setup.html
+misc\zz_suta_payable_account_state_accounts_profile_employer.html
+misc\zz_suta_payable_account_state_account_profile_employee.html
+misc\zz_suta_payable_code_employee_account_setup_state_accounts.html
+misc\zz_suta_payable_code_employer_employee_account_setup.html
+misc\zz_suta_payable_vendor_employee_account_setup_state_accounts.html
+misc\zz_suta_payable_vendor_state_accounts_profile_employee.html
+misc\zz_suta_payable_vendor_state_accounts_profile_employer.html
+misc\zz_suta_taxes_withheld_employer_taxes_tab_emp_hist.html
+misc\zz_take_home_pay_employee_history.html
+misc\zz_tax_rates_grid_details_tab_local_tax_profile.html
+misc\zz_third_party_designee_form_940_part3.html
+misc\zz_third_party_payments_employee_history.html
+misc\zz_total_sick_hours_4_employee_profile.html
+misc\zz_total_sick_hours_employee_template_db.html
+misc\zz_total_vacation_hoursemployee_template_db.html
+misc\zz_total_vacation_hours_employee_profile.html
+misc\zz_to_date_payroll_journal.html
+misc\zz_to_date_void_payroll_jrnl.html
+misc\zz_transaction_number_employee_history.html
+misc\zz_type_employee_profile_pay_details_tab_.html
+misc\zz_type_employee_template_pay_details_tab.html
+misc\zz_type_payroll_item_db_sup.html
+misc\zz_upper_limit_amount_futa_setup_profile.html
+misc\zz_upper_limit_local_tax_db_details_employee_.html
+misc\zz_upper_limit_local_tax_db_details_tab_employer.html
+misc\zz_vacation_accrual_rate_1_employee_template_db.html
+misc\zz_vacation_accrual_rate_employee_profile.html
+misc\zz_vacation_hours_credited_employee_profile.html
+misc\zz_vacation_hours_used_employee_profile.html
+misc\zz_vacation_hours_used_employee_template_db.html
+misc\zz_vacation_pay_employee_history.html
+misc\zz_vacation_pay_rate_1_employee_template_db.html
+misc\zz_vacation_pay_rate_employee_profile.html
+misc\zz_vendor_code_1_employee_profile.html
+misc\zz_vendor_code_1_employee_profile_pay_details_tab.html
+misc\zz_vendor_code_1_payroll_items_profile.html
+misc\zz_vendor_employee_account_setup_db_federal_accounts.html
+misc\zz_vendor_employee_account_setup_db_federal_medicare.html
+misc\zz_vendor_employee_account_setup_db_ss.html
+misc\zz_vendor_for_take_home_pay_1_employee_profile.html
+misc\zz_w2_description_local_tax_profile.html
+misc\zz_withholdings_employee_history.html
+misc\zz_xchng_rate_to_base_bk_cur_pymt_info_bk_act_payroll_pymt_wiz.html
+misc\zz_xchng_rate_to_base_pymt_cur_pymt_info_bk_act_payroll_pymt_wiz.html
+misc\zz_yearly_salary_employee_profile.html
+misc\zz_yearly_salary_employee_template_db.html
+misc\zz_year_futa_setup_profile.html
+misc\zz_year_local_tax_profile.html
+misc\zz_year_suta_sdi_setup_profile.html
+misc\zz_zip_code_company_setup_db_setting_up_e-payroll.html
+[ALIAS]
+helpid_2465=payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_2.html
+helpid_2467=payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_general.html
+helpid_2473=payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_employee_taxes.html
+helpid_2482=payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_employer_taxes.html
+helpid_2488=payroll-process\transaction-details\create-regular-transaction\the_payroll_transactions_profile_leave_adjustment.html
+helpid_2502=payroll-process\viewing-a-payroll-transaction\select_payroll_transactions_dialog_box.html
+helpid_2578=payroll-process\transaction-details\payroll\wizard\payroll_transaction_processing_wizard_ptp.html
+helpid_2579=misc\welcome_window_payroll_transaction_processing_wizard.html
+helpid_2580=misc\payroll_transaction_processing_section.html
+helpid_2589=misc\payroll_transaction_processing_section_1.html
+helpid_2841=misc\pay_period.html
+helpid_2842=misc\pay_date.html
+helpid_2843=misc\start_date_end_date.html
+helpid_2844=misc\end_date.html
+helpid_2845=misc\pay_period_regular_hours.html
+helpid_2846=misc\salary.html
+helpid_2847=misc\regular_pay_amount.html
+helpid_2848=misc\overtime_pay.html
+helpid_2849=misc\vacation_pay_amount.html
+helpid_2850=misc\sick_pay_amount.html
+helpid_2851=misc\additional_earnings_and_deductions_2.html
+helpid_2852=misc\fita_employee_taxes_tab_payroll.html
+helpid_2854=misc\social_security_employee_taxes_tab_payroll.html
+helpid_2856=misc\medicare_employee_taxes_tab_payroll.html
+helpid_2853=misc\sita_employee_taxes_tab_payroll.html
+helpid_2855=misc\sdi_2_employee_taxes_tab_payroll.html
+helpid_2857=misc\suta_2_employee_taxes_tab_payroll.html
+helpid_2858=misc\local_tax_1_employee_taxes_tab_payroll.html
+helpid_2859=misc\local_tax_2_employee_taxes_tab_payroll.html
+helpid_2860=misc\social_security_employer_tax_tab.html
+helpid_2862=misc\medicare_employer_tax_tab.html
+helpid_2864=misc\futa_employer_tax_tab.html
+helpid_2861=misc\sdi_2_employer_tax_tab.html
+helpid_2863=misc\suta_2_employer_tax_tab.html
+helpid_2865=misc\local_tax_1_employer_tax_tab.html
+helpid_2866=misc\local_tax_2_employer_tax_tab.html
+helpid_2870=misc\balance_of_vacation_hours_employer_tax_tab.html
+helpid_110350=payroll-process\creating-journal\voiding-journal\void-dlg\void_payroll_journal_dialog_box_ptp.html
+helpid_110451=payroll-process\printing-payroll-checks\the_payroll_check_printing_browser.html
+helpid_2882=misc\zz_calculation_type_supplemental_payroll_transaction_profile.html
+helpid_110900=payroll-process\purge\browser\the_payroll_transactions_browser.html
+helpid_110616=misc\employee_form_w2_tracking.html
+helpid_2641=misc\employee_form_w2_sfr.html
+helpid_21090=misc\employee_earning_details_dialog_box_sfr.html
+helpid_21091=misc\start_date_employee_earnings_detail.html
+helpid_21126=misc\employee_list_detail_report_dialog_box_sfr.html
+helpid_21127=misc\from_employee_code_employee_list_detail.html
+helpid_21140=misc\to_employee_code_employee_list_summary.html
+helpid_2468=misc\payroll_transactions_profile_general_tab_transaction_number.html
+helpid_2469=misc\ptp_payroll_transaction_profile_general_tab_regular_hours.html
+helpid_2470=misc\ptp_payroll_transactions_profile_general_tab_overtime_hours.html
+helpid_2471=misc\ptp_payroll_transactions_profile_general_tab_vacation_hours.html
+helpid_2472=misc\ptp_payroll_transactions_profile_general_tab_sick_hours.html
+helpid_2474=misc\ptp_payroll_transactions_profile_-_employee_taxes_tab_taxes_deducted_fita.html
+helpid_2475=misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_social_security.html
+helpid_2476=misc\ptp_payroll_transaction_process_employee_taxes_tab_taxes_deducted_medicare.html
+helpid_2477=misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_local_tax_1.html
+helpid_2478=misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_sita.html
+helpid_2479=misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_sdi.html
+helpid_2480=misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_suta.html
+helpid_2481=misc\ptp_payroll_transactions_profile_employee_taxes_tab_taxes_deducted_local_tax_2.html
+helpid_2483=misc\ptp_payroll_transactions_profile_employer_taxes_tab_taxes_deducted_social_security.html
+helpid_2484=misc\ptp_payroll_transactions_profile_employer_taxes_tab_taxes_deducted_medicare.html
+helpid_2485=misc\ptp_payroll_transactions_profile_employer_taxes_tab_taxes_deducted_futa.html
+helpid_2486=misc\ptp_payroll_transactions_profile_employer_taxes_tab_taxes_deducted_sdi.html
+helpid_2487=misc\ptp_payroll_transactions_profile_employer_taxes_tab_taxes_deducted_suta.html
+helpid_2489=misc\ptp_payroll_transactions_profile_leave_adjustment_tab_vacation_hours_credited_for_the_pay_period.html
+helpid_2490=misc\payroll_transactions_profile_leave_adjustment_tab_sick_hours_credited_for_the_pay_period.html
+helpid_2492=misc\payroll_transaction_profile_leave_adjustment_tab_amount_accrued_for_the_sick_hours.html
+helpid_2491=misc\payroll_transactions_profile_leave_adjustment_tab_amount_accrued_for_the_vacation_hours.html
+helpid_2528=payroll-process\creating-journal\viewing-a-payroll-journal\the_payroll_journal_browser.html
+helpid_2599=payroll-process\paying-employees\wizard\the_payroll_payment_wizard.html
+helpid_2600=misc\welcome_window_payroll_payment_wizard.html
+helpid_2601=misc\payment_information_payment_journal.html
+helpid_2606=misc\payment_information_bank_account.html
+helpid_2610=misc\payment_information_payment_method.html
+helpid_2612=misc\transaction_date_range.html
+helpid_2615=misc\transaction_type.html
+helpid_2619=misc\employee_information_grid.html
+helpid_2503=misc\ptp_select_payroll_transactions_db_pay_period.html
+helpid_2504=misc\ptp_select_payroll_transactions_db_start_date.html
+helpid_2505=misc\ptp_select_payroll_transactions_db_end_date.html
+helpid_2506=misc\ptp_select_payroll_transactions_db_transaction_type_1.html
+helpid_2507=misc\ptp_select_payroll_transactions_db_include_posted_transactions.html
+helpid_2529=misc\zz_ptp_payroll_journal_db_description.html
+helpid_2530=misc\zz_ptp_payroll_journal_db_journal_group.html
+helpid_2531=misc\zz_ptp_payroll_journal_db_payroll_currency_code.html
+helpid_2532=misc\zz_ptp_payroll_journal_db_exchange_rate.html
+helpid_2508=misc\zz_select_payroll_transactions_db_include_voided_transactions.html
+helpid_2581=misc\zz_payroll_transaction_processing_wizard_payroll_transaction_processing_pay_period.html
+helpid_2582=misc\zz_payroll_transaction_processing_wizard_payroll_transaction_processing_pay_date_.html
+helpid_2583=misc\zz_payroll_transaction_processing_wizard_payroll_transaction_processing_start_date.html
+helpid_2584=misc\zz_end_date_payroll_transaction_processing_wizard_payroll_transaction_processing_.html
+helpid_2585=misc\zz_regular_payroll_transaction_processing_wizard_payroll_transaction_processing.html
+helpid_2602=misc\zz_payroll_payment_wizard_existing_payment_journal_.html
+helpid_2603=misc\zz_payroll_payment_wizard_select_the_payment_journal.html
+helpid_2604=misc\zz_payroll_payment_wizard_description_of_the_new_payment_journal.html
+helpid_2605=misc\zz_payroll_payment_wizard_select_the_journal_group_.html
+helpid_2611=misc\zz_payroll_payment_wizard_payment_method.html
+helpid_2613=misc\zz_payroll_payment_wizard_transaction_date_range_from_date.html
+helpid_2614=misc\zz_payroll_payment_wizard_transaction_date_rangeto_date.html
+helpid_2616=misc\zz_payroll_payment_wizard_transaction_type_regular.html
+helpid_2586=misc\zz_ptp_wizard_payroll_transaction_processing_transaction_type.html
+helpid_2868=misc\zz_local_tax_regular_transaction_db_employr_taxes_tab.html
+helpid_2867=misc\zz_local_tax_regular_transaction_db_employr_taxes_tab.html
+helpid_2607=misc\zz_bank_code_payroll_pymt_wiz_payment_info_bank_acct.html
+helpid_2608=misc\zz_xchng_rate_to_base_bk_cur_pymt_info_bk_act_payroll_pymt_wiz.html
+helpid_2609=misc\zz_xchng_rate_to_base_pymt_cur_pymt_info_bk_act_payroll_pymt_wiz.html
+helpid_2684=misc\zz_establishment_number_form_w3.html
+helpid_2688=misc\zz_other_ein_used_this_year_form_w3.html
+helpid_2001=setup\payroll-company-setup\setting-up-company-details\the_payroll_company_setup_dialog_box.html
+helpid_2018=setup\state-setup\setting-up-state-details\the_state_setup_profile_general.html
+helpid_2019=setup\state-setup\setting-up-state-details\state_setup_browser_options.html
+helpid_2038=misc\futa_setup_profile_general.html
+helpid_2039=setup\futa-setup\setting-up-futa-rates\futa_setup_browser_options.html
+helpid_2054=misc\the_federal_account_setup_dialog_box_1.html
+helpid_2055=misc\the_federal_account_setup_dialog_box_employee.html
+helpid_2064=misc\the_federal_account_setup_dialog_box_employer.html
+helpid_2086=misc\the_suta_sdi_setup_profile_general.html
+helpid_2087=setup\suta-sdi-setup\setup-rates\suta_sdi_browser_options.html
+helpid_2542=setup\the-payroll-setup-wizard\the_payroll_setup_wizard.html
+helpid_2543=setup\the-payroll-setup-wizard\welcome_window_sup.html
+helpid_2544=setup\the-payroll-setup-wizard\company_information_sup.html
+helpid_2547=setup\the-payroll-setup-wizard\taxes_futa_and_suta_sdi_rates_sup.html
+helpid_2550=setup\the-payroll-setup-wizard\taxes_accounts_sup.html
+helpid_2553=setup\the-payroll-setup-wizard\taxes_local_taxes_sup.html
+helpid_2557=setup\the-payroll-setup-wizard\payroll_items_setup_sup.html
+helpid_2560=setup\the-payroll-setup-wizard\payroll_items_form_w2_tracking_sup.html
+helpid_2562=setup\the-payroll-setup-wizard\employee_information_employee_template_sup.html
+helpid_2564=setup\the-payroll-setup-wizard\employee_information_employees_sup.html
+helpid_2566=setup\the-payroll-setup-wizard\employee_information_employee_history_sup.html
+helpid_2568=setup\the-payroll-setup-wizard\conclusion_sup.html
+helpid_2373=misc\sdi_payable_vendor.html
+helpid_2256=misc\the_employee_profile_1.html
+helpid_2258=misc\the_employee_profile_general.html
+helpid_2257=setup\employees\creating-an-employee\employees_browser_options.html
+helpid_2286=misc\the_employee_profile_taxes.html
+helpid_2309=misc\the_employee_profile_pay_details.html
+helpid_2407=misc\the_employee_history_dialog_box_sup.html
+helpid_2408=setup\employee-history\create\employee_history_browser_options.html
+helpid_2409=misc\the_employee_history_profile_general.html
+helpid_2438=misc\the_employee_history_dialog_box_taxes_sup.html
+helpid_2148=misc\zz_payable_account_code_local_tax_db_general_employer.html
+helpid_2149=misc\zz_expense_account_code_local_tax_db_general_tab_employer.html
+helpid_2179=misc\zz_department_payroll_item_db_sup.html
+helpid_110787=setup\payroll-items\payroll_items_taxability_details_tab.html
+helpid_110789=misc\zz_futa_check_box_payroll_items_profile_taxability_tab.html
+helpid_110788=misc\zz_fita_check_box_payroll_items_profile_taxability_tab.html
+helpid_110790=misc\zz_social_security_check_box_payroll_items_profile_taxability_tab.html
+helpid_110791=misc\zz_medicare_check_box_payroll_items_profile_taxability_tab.html
+helpid_110792=misc\zz_sita_check_box_payroll_items_profile_taxability_tab.html
+helpid_110793=misc\zz_suta_check_box_payroll_items_profile_taxability_tab.html
+helpid_110794=misc\zz_sdi_check_box_payroll_items_profile_taxability_tab.html
+helpid_110795=misc\zz_local_tax1_check_box_payroll_items_profile_taxability_tab.html
+helpid_110796=misc\zz_local_tax2_check_box_payroll_items_profile_taxability_tab.html
+helpid_2462=misc\zz_pay_date_employee_history_db_general_tab.html
+helpid_2435=misc\zz_payment_type_employee_history_db_general_tab.html
+helpid_2442=misc\zz_futa_emp_hist_taxes_employer_tab_tax_amt_section.html
+helpid_2210=misc\zz_balance_of_sick_hours_employee_template.html
+helpid_2211=misc\zz_sick_accrual_rate_1_employee_template.html
+helpid_2213=misc\zz_fita_employee_template_taxes_tab.html
+helpid_2214=misc\zz_social_security_employee_template.html
+helpid_2216=misc\zz_medicare_employee_template.html
+helpid_2215=misc\zz_eic_type_employee_template.html
+helpid_2217=misc\zz_futa_employee_template.html
+helpid_2218=misc\zz_filing_state_employee_template.html
+helpid_2219=misc\zz_state_income_tax_employee_template.html
+helpid_2220=misc\zz_state_code_1_employee_template.html
+helpid_2221=misc\zz_suta_2_employee_template.html
+helpid_2222=misc\zz_state_code_3_employee_template.html
+helpid_2223=misc\zz_sdi_2_employee_template.html
+helpid_2224=misc\zz_local_tax_1_employee_template.html
+helpid_2225=misc\zz_local_tax_code_employee_template.html
+helpid_2226=misc\zz_local_tax_2_employee_template.html
+helpid_2227=misc\zz_local_tax_code_3_employee_template.html
+helpid_2229=misc\zz_payroll_item_type_2_employee_template.html
+helpid_2230=misc\zz_payroll_item_code_employee_template.html
+helpid_2231=misc\zz_type_employee_template_pay_details_tab.html
+helpid_2232=misc\zz_amount_employee_template_pay_details_tab.html
+helpid_2233=misc\zz_minimum_amount_employee_template.html
+helpid_2234=misc\maximum_amount.html
+helpid_2235=misc\zz_basis_of_payment_employee_template.html
+helpid_2236=misc\zz_fita_employee_template_pay_details_tab_federal_taxes.html
+helpid_2237=misc\zz_social_security_4__employee_template.html
+helpid_2238=misc\zz_medicare_4_employee_template.html
+helpid_2239=misc\zz_futa_4_employee_template.html
+helpid_2240=misc\zz_sita_employee_template_pay_details_state_taxes.html
+helpid_2241=misc\zz_suta_3_employee_template.html
+helpid_2242=misc\zz_sdi_3_employee_template.html
+helpid_2243=misc\zz_local_tax_1_employee_template_pay_details_tab_.html
+helpid_2244=misc\zz_local_tax2_employee_template_pay_details_tab_.html
+helpid_2259=misc\zz_employee_code_employee_profile.html
+helpid_2260=misc\zz_employee_id_no_employee_profile.html
+helpid_2261=misc\zz_vendor_for_take_home_pay_1_employee_profile.html
+helpid_2262=misc\zz_pay_period_employee_profile.html
+helpid_2263=misc\zz_yearly_salary_employee_profile.html
+helpid_2264=misc\zz_hourly_regular_rate_employee_profile.html
+helpid_2265=misc\zz_hourly_overtime_rate_employee_profile.html
+helpid_2266=misc\zz_regular_hours_employee_profile.html
+helpid_2267=misc\zz_date_of_joining_employee_profile.html
+helpid_2268=misc\zz_date_of_review_employee_profile.html
+helpid_2269=misc\zz_date_of_last_raise_employee_profile.html
+helpid_2270=misc\zz_date_of_release_employee_profile.html
+helpid_2271=misc\zz_percentage_of_last_raise_employee_profile.html
+helpid_2272=misc\zz_total_vacation_hours_employee_profile.html
+helpid_2273=misc\zz_vacation_hours_used_employee_profile.html
+helpid_2274=misc\zz_max_balance_of_vacation_hours_employee_profile.html
+helpid_2275=misc\zz_reset_vacation_every_new_year_employee_profile.html
+helpid_2276=misc\zz_vacation_pay_rate_employee_profile.html
+helpid_2277=misc\zz_balance_of_vacation_hours_employee_profile.html
+helpid_2278=misc\zz_vacation_accrual_rate_employee_profile.html
+helpid_2279=misc\zz_total_sick_hours_4_employee_profile.html
+helpid_2280=misc\zz_sick_hours_used_employee_profile.html
+helpid_2281=misc\zz_max_balance_of_sick_hours_employee_profile.html
+helpid_2285=misc\zz_reset_sick_every_new_year_employee_profile.html
+helpid_2282=misc\zz_sick_pay_rate_employee_profile.html
+helpid_2283=misc\zz_balance_of_sick_hours_employee_profile.html
+helpid_2284=misc\zz_sick_accrual_rate_employee_profile.html
+helpid_2287=misc\zz_fita_employee_profile_taxes_tab_federal_tax.html
+helpid_2288=misc\zz_medicare_employee_profile_taxes_tab_federal_tax.html
+helpid_2289=misc\zz_social_security_employee_profile_taxes_tab_federal_tax.html
+helpid_2290=misc\zz_futa_employee_profile_taxes_tab_federal.html
+helpid_2291=misc\zz_federal_filing_status_employee_profile.html
+helpid_2292=misc\zz_federal_allowances_employee_profile.html
+helpid_2293=misc\zz_federal_extra_withholding_employee_profile.html
+helpid_2294=misc\zz_eic_type_employee_profile.html
+helpid_2295=misc\zz_filing_state_employee_profile.html
+helpid_2296=misc\zz_sita_employee_profile_taxes_tab_state_taxes.html
+helpid_2297=misc\zz_state_filing_status_employee_profile_.html
+helpid_2298=misc\zz_state_exemptions_employee_profile.html
+helpid_2299=misc\zz_state_extra_withholding_employee_profile.html
+helpid_2300=misc\zz_miscellaneous_information_2_employee_profile.html
+helpid_2301=misc\zz_state_code_1_employee_profile.html
+helpid_2302=misc\zz_suta_2_employee_profile.html
+helpid_2303=misc\zz_state_code_3_employee_profile.html
+helpid_2304=misc\zz_sdi_2_employee_profile.html
+helpid_2305=misc\zz_local_tax_1_employee_profile.html
+helpid_2306=misc\zz_local_tax_code_employee_profile.html
+helpid_2307=misc\zz_local_tax_2_employee_profile.html
+helpid_2308=misc\zz_local_tax_code_3_employee_profile.html
+helpid_2310=misc\zz_payroll_item_type_2_employee_profile.html
+helpid_2311=misc\zz_payroll_item_code_employee_profile.html
+helpid_2312=misc\zz_type_employee_profile_pay_details_tab_.html
+helpid_2313=misc\zz_amount_employee_profile_pay_details_tab.html
+helpid_2314=misc\zz_basis_of_payment_employee_profile_pay_details_tab.html
+helpid_2316=misc\zz_minimum_limit_employee_profile_pay_details_tab.html
+helpid_2315=misc\zz_maximum_limit_employee_profile_pay_details_tab.html
+helpid_2317=misc\zz_fita_employee_profile_pay_details_tab_federal.html
+helpid_2318=misc\zz_social_security_employee_profile.html
+helpid_2319=misc\zz_medicare_employee_profile.html
+helpid_2320=misc\zz_futa_employee_profile.html
+helpid_2321=misc\zz_sita_employee_profile_pay_details_tab_state.html
+helpid_2322=misc\zz_suta_4_employee_profile.html
+helpid_2323=misc\zz_sdi_4_employee_profile.html
+helpid_2324=misc\zz_local_tax_1_employee_profile_pay_details_tab.html
+helpid_2325=misc\zz_local_tax_2_employee_profile_pay_details_tab.html
+helpid_2326=misc\zz_expense_account_employee_profile_pay_details_tab.html
+helpid_2327=misc\zz_department_employee_profile_pay_details_tab.html
+helpid_2328=misc\zz_liability_account_employee_profile_pay_details_tab.html
+helpid_2329=misc\zz_vendor_code_1_employee_profile_pay_details_tab.html
+helpid_2344=misc\zz_account_employee_account_setup_db_federal_accounts.html
+helpid_2345=misc\zz_vendor_employee_account_setup_db_federal_accounts.html
+helpid_2346=misc\zz_account_employee_account_setup_db_federal_medicare.html
+helpid_2347=misc\zz_vendor_employee_account_setup_db_federal_medicare.html
+helpid_2348=misc\zz_account_employee_account_setup_db_federal_ss.html
+helpid_2349=misc\zz_vendor_employee_account_setup_db_ss.html
+helpid_2350=misc\zz_eic_debit_account_1_employee_account_setup_db_.html
+helpid_2351=misc\zz_department_employee_account_setu_db_federal_accounts.html
+helpid_2353=misc\zz_expense_account_employee_account_setup_db_federal_accounts.html
+helpid_2354=misc\zz_department4_employee_account_setup_db_federal_accounts.html
+helpid_2355=misc\zz_payable_account_employee_account_setup_db_federal_accounts_medicare.html
+helpid_2356=misc\zz_medicare_payable_vendor_employee_account_setup_db_federal_accounts.html
+helpid_2357=misc\zz_social_security_expense_account_employee_account_set_up_db_.html
+helpid_2358=misc\zz_social_security_department_employee_account_setup_db_federal.html
+helpid_2359=misc\zz_social_security_payable_account_employee_account_setu_federal_.html
+helpid_2360=misc\zz_social_security_payable_vendor_employee_account_setup_federal.html
+helpid_2362=misc\zz_futa_expense_account_employee_account_setup_federal.html
+helpid_2363=misc\zz_futa_department_employee_account_setup_db_federal.html
+helpid_2364=misc\zz_futa_payable_account_employee_account_setup_federal.html
+helpid_2365=misc\zz_futa_payable_vendor_employee_account_setup_db_federal.html
+helpid_2368=misc\zz_sita_payable_code_employee_account_setup_db_state_accounts.html
+helpid_2369=misc\zz_sita_payable_vendor_employee_account_setup_state_accounts.html
+helpid_2371=misc\zz_suta_payable_vendor_employee_account_setup_state_accounts.html
+helpid_2370=misc\zz_suta_payable_code_employee_account_setup_state_accounts.html
+helpid_2372=misc\zz_sdi_payable_code_employee_account_setup_state_accounts.html
+helpid_2375=misc\zz_suta_expense_code_employer_employee_accounts_setup.html
+helpid_2376=misc\zz_suta_department_employer_employee_account_setup.html
+helpid_2377=misc\zz_suta_payable_code_employer_employee_account_setup.html
+helpid_2378=misc\zz_payable_vendor_employer_employee_account_setup_.html
+helpid_2379=misc\zz_sdi_expense_code_employer_employee_account_setup_state_accounts.html
+helpid_2380=misc\zz_sdi_department_employer_employee_account_setup_state_accounts.html
+helpid_2381=misc\zz_sdi_payable_code_employer_employee_account_setup_sate_accounts.html
+helpid_2382=misc\zz_sdi_payable_vendor_employer_employee_account_setup_state_accounts.html
+helpid_2385=misc\zz_employee_payable_account_employee_account_setup_local.html
+helpid_2386=misc\zz_la1_payable_vendor_employee_employee_account_setup_local.html
+helpid_2387=misc\zz_lc2_payable_account_employee_employee_account_setup_local.html
+helpid_2388=misc\zz_lc2_payable_vendor_employee_employee_account_setup_local.html
+helpid_2390=misc\zz_lc1_expense_account_employer_employee_account_setup_local_.html
+helpid_2391=misc\zz_lc1_department_employee_account_setup_employer_local.html
+helpid_2392=misc\zz_lc1_payable_account_employer_employee_account_setup_local.html
+helpid_2393=misc\zz_lc1_payable_vendor_employer_emplouee_account_setup_local.html
+helpid_2394=misc\zz_lc2_expense_account_employer_employee_account_setup_local.html
+helpid_2395=misc\zz_lc2_department_employer_employee_account_setup_local.html
+helpid_2396=misc\zz_lc2_payable_account_employer_employee_account_setup_local.html
+helpid_2397=misc\zz_lc2_payable_vendor_employer_employee_account_setup_local.html
+helpid_2410=misc\zz_transaction_number_employee_history.html
+helpid_2411=misc\zz_employee_id_employee_history_db_general_tab.html
+helpid_2413=misc\zz_end_date_employee_history_db_general_tab.html
+helpid_2412=misc\zz_start_date_employee_history_db_general_tab.html
+helpid_2414=misc\zz_salary_employee_history.html
+helpid_2415=misc\zz_regular_pay_employee_history.html
+helpid_2416=misc\zz_overtime_pay_employee_history.html
+helpid_2417=misc\zz_sick_pay_employee_history.html
+helpid_2418=misc\zz_vacation_pay_employee_history.html
+helpid_2419=misc\zz_pay_check_number_employee_history.html
+helpid_2420=misc\zz_pay_check_date_employee_history.html
+helpid_2421=misc\zz_state_for_sita_employee_history.html
+helpid_2422=misc\zz_state_for_suta_employee_history.html
+helpid_2423=misc\zz_state_for_sdi_employee_history.html
+helpid_2424=misc\zz_standard_earnings_2_employee_history.html
+helpid_2425=misc\zz_additions_to_pay_check_employee_history.html
+helpid_2426=misc\zz_deductions_1_employee_history.html
+helpid_2427=misc\zz_withholdings_employee_history.html
+helpid_2428=misc\zz_employer_taxes_employee_history.html
+helpid_2429=misc\zz_company_contributions_employee_history.html
+helpid_2430=misc\zz_company_paid_expenses_employee_history.html
+helpid_2431=misc\zz_third_party_payments_employee_history.html
+helpid_2433=misc\zz_gross_pay_employee_history.html
+helpid_2432=misc\zz_net_pay_employee_history.html
+helpid_2434=misc\zz_take_home_pay_employee_history.html
+helpid_2439=misc\zz_social_security_employee_history_db_taxes_tab_employee.html
+helpid_2440=misc\zz_medicare_employee_history_db_taxes_tab_employee.html
+helpid_2441=misc\zz_fita_employee_history_db_taxes_tab_employee.html
+helpid_2450=misc\zz_sita_employee_history_db_taxes_tab_employee.html
+helpid_2451=misc\zzsuta_2_employee_history_db_taxes_tab_employee.html
+helpid_2452=misc\zz_sdi_2_employee_history_db_taxes_tab_employee.html
+helpid_2446=misc\zz_local_tax_1_employee_history_db_taxes_tab_employee.html
+helpid_2448=misc\zz_local_tax_2_employee_history_db_taxes_tab_employee.html
+helpid_2443=misc\zz_social_security3_employee_history_db_taxes_tab_employee.html
+helpid_2444=misc\zz_medicare3_employee_history_db_taxes_tab_employee.html
+helpid_2445=misc\zz_fita_3_employee_history_db_taxes_tab_employee.html
+helpid_2455=misc\zzsdi_2_employee_history_db_taxes_tab_employee.html
+helpid_2454=misc\zz_suta_2_employee_history_db_taxes_tab_employee_.html
+helpid_2447=misc\zz_local_tax_1_employee_history_db_taxes_tab_employee_withheld.html
+helpid_2449=misc\zz_local_tax_2_employee_history_db_taxes_tab_employee_withheld.html
+helpid_2453=misc\zz_sita3_employee_history_db_taxes_tab_employee_withheld.html
+helpid_2461=misc\zz_eic_amount_employee_history_db_taxes_tab_employee.html
+helpid_2191=misc\the_employee_template_dialog_box_1.html
+helpid_2192=misc\the_employee_template_general.html
+helpid_2212=misc\the_employee_template_taxes.html
+helpid_2228=setup\the-employee-template\the_employee_template_pay_details.html
+helpid_2029=misc\zz_rounding_of_sita_state_setup_profile.html
+helpid_2109=misc\the_state_accounts_profile_general.html
+helpid_2110=setup\state-accounts\setup\state_accounts_browser_options.html
+helpid_2113=misc\the_state_accounts_profile_employee.html
+helpid_2120=misc\the_state_accounts_profile_employer.html
+helpid_2138=misc\the_local_tax_profile_1.html
+helpid_2139=setup\local-taxes\setting-up-local-taxes\local_tax_browser_options.html
+helpid_2140=misc\the_local_tax_profile_general.html
+helpid_2152=misc\the_local_tax_profile_details.html
+helpid_2171=misc\the_payroll_items_profile_general.html
+helpid_2172=setup\payroll-items\setting-up-payroll-items\payroll_item_browser_options.html
+helpid_2341=setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_sup.html
+helpid_2342=setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_federal_accounts_sup.html
+helpid_2343=misc\federal_accounts_employee_sup.html
+helpid_2352=misc\federal_accounts_employer_medicare_social_security_sup.html
+helpid_2361=misc\federal_accounts_employer_futa_sup.html
+helpid_2366=setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_state_accounts_sup.html
+helpid_2367=misc\state_accounts_employee_1sup.html
+helpid_2374=misc\state_accounts_employer_1_sup.html
+helpid_2383=setup\employee-level-accounts\setup\the_employee_account_setup_dialog_box_local_accounts.html
+helpid_2384=misc\local_accounts_employee_sup.html
+helpid_2389=misc\local_accounts_employer_sup.html
+helpid_3576=misc\futa_payroll_items_-_taxability_details.html
+helpid_3577=misc\social_security_payroll_items_-_taxability_details.html
+helpid_3578=misc\medicare_payroll_items_-_taxability_details.html
+helpid_3579=misc\sita_payroll_items_-_taxability_details.html
+helpid_3580=misc\suta_2_payroll_items_-_taxability_details.html
+helpid_3581=misc\sdi_2_payroll_items_-_taxability_details.html
+helpid_3582=misc\local_tax_1_payroll_items_-_taxability_details.html
+helpid_3583=misc\local_tax_2_payroll_items_-_taxability_details.html
+helpid_110785=misc\zzannual_limit.html
+helpid_2334=misc\zz_annual_limit_employee_profile_paydetails_tab.html
+helpid_2333=misc\zz_based_on_standard_earnings_employee_prof_paydetails_tab.html
+helpid_2002=misc\zz_company_name_company_setup_db_setting_up_e-payroll.html
+helpid_2003=misc\zz_address_company_setup_db_setting_up_e-payroll.html
+helpid_2004=misc\zz_zip_code_company_setup_db_setting_up_e-payroll.html
+helpid_2005=misc\zz_round_of_taxes_company_setup_profile-setting_up_us_payroll.html
+helpid_2006=misc\zz_city_payroll_company_setup_profile-setting_up_us_payroll.html
+helpid_2007=misc\zz_state_payroll_company_setup_profile_setting_up_us_payroll.html
+helpid_2008=misc\zz-federal_id_company_setup_db_setting_up_e-_payroll.html
+helpid_2009=misc\zz_currency_code_company_setup_setting_up_e-payroll.html
+helpid_2021=misc\zz_state_code_state_setup_setting_up_e-payroll.html
+helpid_2022=misc\zz_state_id_state_setup_setting_up_e-payroll.html
+helpid_2023=misc\zz_number_of_daily_pay_periods_state_setup_profile.html
+helpid_2024=misc\zz_sita_state_setup_profile.html
+helpid_2025=misc\zz_suta_3_state_setup_profile_setting_up_us_payroll.html
+helpid_2026=misc\zz_sdi_2_state_setup_profile_setting_up_us_payroll.html
+helpid_2027=misc\zz_suta_2_state_setup_profile_setting_up_us_payroll.html
+helpid_2028=misc\zz_sdi_2b_state_setup_profile_setting_up_us_payroll.html
+helpid_2041=misc\zz_year_futa_setup_profile.html
+helpid_2042=misc\zz_lower_limit_amount_futa_setup_profile.html
+helpid_2043=misc\zz_upper_limit_amount_futa_setup_profile.html
+helpid_2044=misc\zz_percentage_futa_setup_profile.html
+helpid_2056=misc\zz_fita_payable_account_federal_account_setup_employee.html
+helpid_2057=misc\zz_fita_payable_vendor_federal_account_setup_-employee.html
+helpid_2058=misc\zz_medicare_payable_account_federal_accounts_setup_employee.html
+helpid_2059=misc\zz_medicare_payable_vendor_federal_accounts_setup_employee.html
+helpid_2060=misc\zz_social_security_payable_account_federal_accounts_setup_employee.html
+helpid_2061=misc\zz_social_security_payable_vendor_federal_accounts_setup_employee.html
+helpid_2062=misc\zz_eic_debit_account_federal_account_setup_employee.html
+helpid_2063=misc\zz_department-federal_account_setup_db_setting_up_payroll.html
+helpid_2065=misc\zz_medicare_expense_account_federal_accounts_setup_employer.html
+helpid_2066=misc\zz_department_federal_account_setup_-_employer_tab_sup.html
+helpid_2067=misc\zz_medicare_payable_account_federal_accounts_setup_employer.html
+helpid_2068=misc\zz_medicare_payable_vendor_federal_accounts_setup_employer.html
+helpid_2069=misc\zz_social_security_expense_account_federal_account_set_employer_tab.html
+helpid_2070=misc\zz_department_federal_account_setup_employer_tab_sup.html
+helpid_2071=misc\zz_social_security_payable_account_federal_account_setup_employer.html
+helpid_2072=misc\zz_social_security_payable_vendor_federal_account_setup_employer.html
+helpid_2073=misc\zz_futa_expense_account_federal_account_setup_employer_tab_sup.html
+helpid_2074=misc\zz_department2_federal_account_setup_employer_tab_sup.html
+helpid_2075=misc\zz_futa_payable_account_federal_account_setup_employer.html
+helpid_2076=misc\zz_futa_payable_vendor_federal_account_setup_employer.html
+helpid_2089=misc\zz_year_suta_sdi_setup_profile.html
+helpid_2090=misc\zz_code_suta_sdi_setup_profile.html
+helpid_2091=misc\zz_employer_limit_suta_sdi_setup_profile.html
+helpid_2092=misc\zz_employer_rate_suta_sdi_setup_profile.html
+helpid_2093=misc\zz_employee_limit_suta_sdi_setup_profile.html
+helpid_2094=misc\zz_employee_rate_suta_sdi_setup_profile.html
+helpid_2095=misc\zz_employer_limit_3_suta_sdi_setup_profile.html
+helpid_2096=misc\zz_employer_rate_3_suta_sdi_setup_profile.html
+helpid_2097=misc\zz_employee_limit_3_suta_sdi_setup_profile.html
+helpid_2098=misc\zz_employee_rate_3_suta_sdi_setup_profile.html
+helpid_2099=misc\zz_maximum_deduction_per_week_suta_sdi_setup_profile.html
+helpid_2112=misc\zz_state_code_state_accounts_profile.html
+helpid_2114=misc\zz_sita_payable_account_state_accounts_profile_employee.html
+helpid_2115=misc\zz_sita_payable_vendor_state_accounts_profile_employee.html
+helpid_2116=misc\zz_suta_payable_account_state_account_profile_employee.html
+helpid_2117=misc\zz_suta_payable_vendor_state_accounts_profile_employee.html
+helpid_2118=misc\zz_sdi_payable_account_state_accounts_profile_employee.html
+helpid_2119=misc\zz_sdi_payable_vendor_state_accounts_profile_employee.html
+helpid_2121=misc\zz_suta_expense_account_state_accounts_db_employer_tab.html
+helpid_2122=misc\zz_department_state_accounts_db_employer_tab.html
+helpid_2123=misc\zz_suta_payable_account_state_accounts_profile_employer.html
+helpid_2124=misc\zz_suta_payable_vendor_state_accounts_profile_employer.html
+helpid_2125=misc\zz_sdi_expense_account_state_accounts_db_employer_tab.html
+helpid_2126=misc\zz_department2_state_accounts_db_employer_tab.html
+helpid_2127=misc\zz_sdi_payable_account_state_accounts_profile_employer.html
+helpid_2128=misc\zz_sdi_payable_vendor_state_accounts_profile_employer.html
+helpid_2141=misc\zz_local_tax_id_local_tax_profile.html
+helpid_2153=misc\zz_year_local_tax_profile.html
+helpid_2154=misc\zz_calculation_type_2_local_tax_profile.html
+helpid_2155=misc\zz_upper_limit_local_tax_db_details_employee_.html
+helpid_2156=misc\zz_lower_limit_local_tax_db_details_tab_employee.html
+helpid_2157=misc\zz_amount_percentage_local_tax_db_employee.html
+helpid_2158=misc\zz_calculation_type_local_tax_db_details_tab_employer.html
+helpid_2159=misc\zz_upper_limit_local_tax_db_details_tab_employer.html
+helpid_2160=misc\zz_lower_limit_db_details_tab_employer.html
+helpid_2161=misc\zz_amount_percentage_local_tax_db_details_tab_employer.html
+helpid_2174=misc\zz_code_payroll_items_profile.html
+helpid_2175=misc\zz_description_payroll_items_profile.html
+helpid_2176=misc\zz_type_payroll_item_db_sup.html
+helpid_2177=misc\zz_pay_type_1_payroll_items_profile.html
+helpid_2178=misc\zz_debit_account_code_payroll_item_db_sup.html
+helpid_2180=misc\zz_credit_account_code_payroll_items_profile.html
+helpid_2181=misc\zz_vendor_code_1_payroll_items_profile.html
+helpid_2193=misc\zz_pay_period_employee_template_general_tab.html
+helpid_2194=misc\zz_yearly_salary_employee_template_db.html
+helpid_2195=misc\zz_hourly_regular_rate_employee_template_db.html
+helpid_2196=misc\zz_hourly_overtime_rate_employee_template_db.html
+helpid_2197=misc\zz_regular_hours_employee_template_db.html
+helpid_2198=misc\zz_total_vacation_hoursemployee_template_db.html
+helpid_2199=misc\zz_vacation_hours_used_employee_template_db.html
+helpid_2200=misc\zz_maximum_balance_of_vacation_hours_employee_template_db.html
+helpid_2201=misc\zz_reset_vacation_every_new_year_employee_template_db.html
+helpid_2202=misc\zz_vacation_pay_rate_1_employee_template_db.html
+helpid_2203=misc\zz_balance_of_vacation_hours_employee_template.html
+helpid_2204=misc\zz_vacation_accrual_rate_1_employee_template_db.html
+helpid_2205=misc\zz_total_sick_hours_employee_template_db.html
+helpid_2206=misc\zz_sick_hours_used_employee_template_db.html
+helpid_2207=misc\zz_maximum_balance_of_sick_hours_employee_template.html
+helpid_2208=misc\zz_reset_sick_every_new_year_employee_template.html
+helpid_2209=misc\zz_sick_pay_rate_employee_template.html
+helpid_2151=misc\zz_payable_vendor_local_tax_db_general_tab_employer.html
+helpid_2150=misc\zz_department_3_local_tax_db_general_tab_employer.html
+helpid_2142=misc\zz_employee_local_tax_db_sup.html
+helpid_2143=misc\zz_employer_local_tax_db_general_tab.html
+helpid_2144=misc\zz_description_local_tax_profile.html
+helpid_2145=misc\zz_w2_description_local_tax_profile.html
+helpid_2146=misc\zz_payable_account_code_local_tax_profile.html
+helpid_2147=misc\zz_payable_vendor_local_tax_db_general_tab_employee.html
+helpid_2629=misc\form_w2_employee_list_dialog_box_sfr.html
+helpid_2676=misc\employee_form_w3_sfr.html
+helpid_2704=misc\employee_form_940_sfr.html
+helpid_2740=misc\employee_form_941_sfr.html
+helpid_2749=misc\employee_form_941_line_1_to_8_sfr.html
+helpid_2756=misc\employee_form_941_line_9_to_15_sfr.html
+helpid_2762=misc\employee_form_941_line_16_and_17_sfr.html
+helpid_2741=misc\the_employee_form_941_address_sfr.html
+helpid_20685=misc\company_contributions_report_dialog_box_sfr.html
+helpid_20686=misc\start_date_payroll.html
+helpid_20687=misc\end_date_1_payroll.html
+helpid_21078=statutory-forms-and-reports\payroll-reports\create\create_an_employee_cost_report_sfr.html
+helpid_21079=misc\start_date_payroll_map.html
+helpid_21080=misc\end_date_1_payroll_map.html
+helpid_21092=misc\end_date_1_map_payroll.html
+helpid_21102=statutory-forms-and-reports\payroll-reports\create\create_an_employee_earnings_summary_report_sfr.html
+helpid_21103=misc\start_date_employee_earnings_summary.html
+helpid_21104=misc\end_date_1_employee_earnings_summary.html
+helpid_21114=statutory-forms-and-reports\payroll-reports\create\create_an_employee_journals_report_sfr.html
+helpid_21115=misc\start_date_employee_journals_report.html
+helpid_21116=misc\end_date_1_employee_journals_report.html
+helpid_21128=misc\to_employee_code_employee_list_detail.html
+helpid_21138=statutory-forms-and-reports\payroll-reports\create\create_an_employee_list_summary_report_sfr.html
+helpid_21139=misc\from_employee_code_employee_list_summary.html
+helpid_21150=statutory-forms-and-reports\payroll-reports\create\create_an_employee_outstanding_check_report_sfr.html
+helpid_21151=misc\start_date_employee_outstanding_check_.html
+helpid_21152=misc\end_date_1_employee_outstanding_check_.html
+helpid_21175=statutory-forms-and-reports\payroll-reports\create\create_an_employee_vacation_and_sick_report_sfr.html
+helpid_21176=misc\start_date_employee_vacation_and_sick.html
+helpid_21177=misc\end_date_1_employee_vacation_and_sick.html
+helpid_21776=statutory-forms-and-reports\payroll-reports\create\create_a_pay_stub_report_sfr.html
+helpid_21777=misc\from_transaction_numbers_pay_stubs.html
+helpid_21778=misc\to_transaction_numbers_pay_stubs.html
+helpid_21779=misc\from_pay_date_pay_stubs.html
+helpid_21780=misc\to_pay_date_pay_stubs.html
+helpid_21881=statutory-forms-and-reports\payroll-reports\create\create_a_posted_transaction_report_sfr.html
+helpid_21882=misc\start_date_posted_transactions.html
+helpid_21883=misc\end_date_1_posted_transactions_.html
+helpid_22459=statutory-forms-and-reports\payroll-reports\create\create_an_unposted_transaction_report_sfr.html
+helpid_22460=misc\start_date_unposted_transactions.html
+helpid_22547=statutory-forms-and-reports\payroll-reports\create\create_a_voided_payment_report_sfr.html
+helpid_22548=misc\start_date_voided_payments_.html
+helpid_22549=misc\end_date_1_voided_payments_.html
+helpid_22559=statutory-forms-and-reports\payroll-reports\create\create_a_voided_transaction_report_sfr.html
+helpid_22560=misc\start_date_voided_transactions_.html
+helpid_22561=misc\end_date_1_voided_transactions.html
+helpid_22571=statutory-forms-and-reports\payroll-reports\create\create_a_withholdings_report_sfr.html
+helpid_22572=misc\start_date_withholdings.html
+helpid_22573=misc\end_date_1_withholdings.html
+helpid_20943=statutory-forms-and-reports\payroll-reports\create\create_a_deduction_report_sfr.html
+helpid_20944=misc\start_date_deduction.html
+helpid_20945=misc\end_date_1_deductions.html
+helpid_110679=misc\zz_third_party_designee_form_940_part3.html
+helpid_110680=misc\zz_name_form_940_part3.html
+helpid_110681=misc\zz_phone_no_form_940_part3.html
+helpid_110682=misc\zz_personal_identification_number_form_940_part3.html
+helpid_110134=misc\zz_check_if_wages_form_941_line1to8.html
+helpid_110618=misc\zz_social_security_tips_emp_form_w2_trking.html
+helpid_110619=misc\zz_allocated_tips_emp_form_w2_trking.html
+helpid_110620=misc\zz_dependent_care_benefits_emp_form_w2_trking.html
+helpid_110621=misc\zz_nonqualified_plans_emp_form_w2_trking.html
+helpid_110626=misc\zz_stat_emp_retire_plan_tp_sick_pay_chkbox13_frm_w2.html
+helpid_110627=misc\zz_stat_emp_retire_plan_tp_sick_pay_chkbox13_frm_w2.html
+helpid_110628=misc\zz_stat_emp_retire_plan_tp_sick_pay_chkbox13_frm_w2.html
+helpid_2661=misc\zz_other_box_14_form_w2.html
+helpid_2630=misc\sfr_form_w2_employee_list_dialog_box_form_w2_year.html
+helpid_2631=misc\zz_sfr_form_w2_employee_list_dialog_box_selected.html
+helpid_2642=misc\zz_sfr_w2_form_a_control_number.html
+helpid_2643=misc\zz_sfr_w2_form__employer_identification_number.html
+helpid_2644=misc\zz_sfr_w2_form_employer_s_name_address_and_zip_code.html
+helpid_2645=misc\zz_sfr_w2_form_employee_s_social_security_number.html
+helpid_2646=misc\zz_sfr_w2_form_employee_s_name.html
+helpid_2647=misc\zz_sfr_w2_form_employee_s_address_and_zip_code.html
+helpid_2648=misc\zz_sfr_w2_form_wages_tips_other_compensation.html
+helpid_2649=misc\zz_sfr_w2_form_federal_income_tax_withheld.html
+helpid_2650=misc\zz_sfr_w2_form_social_security_wages.html
+helpid_2651=misc\zz_sfr_w2_form_social_security_tax_withheld.html
+helpid_2652=misc\zz_sfr_w2_form_medicare_wages_and_tips.html
+helpid_2653=misc\zz_sfr_w2_form_medicare_tax_withheld.html
+helpid_2654=misc\zz_sfr_w2_form_social_security_tips.html
+helpid_2655=misc\zz_sfr_w2_form_allocated_tips.html
+helpid_2656=misc\zz_sfr_w2_form_advance_eic_payment.html
+helpid_2657=misc\zz_sfr_w2_form_dependent_care_benefits.html
+helpid_2658=misc\zz_sfr_w2_form_nonqualified_plans.html
+helpid_2677=misc\zz_sfr_form_w3_control_number.html
+helpid_2685=misc\zz_sfr_form_w3_employer_identification_number.html
+helpid_2686=misc\zz_sfr_form_w3_employer_s_name.html
+helpid_2687=misc\zz_sfr_form_w3_employer_s_address_and_zip_code.html
+helpid_2689=misc\zz_sfr_form_w3_income_tax_withheld_by_payer_of_third_party_sick_pay.html
+helpid_2690=misc\zz_sfr_form_w3_contact_person.html
+helpid_2691=misc\zz_sfr_form_w3_telephone_number.html
+helpid_2692=misc\zz_sfr_form_w3_fax_number.html
+helpid_2693=misc\zz_sfr_form_w3_e_mail_address.html
+helpid_2694=misc\zz_sfr_form_w3_form_w3_year.html
+helpid_2707=misc\zz_sfr_form_941_trade_name_if_any.html
+helpid_2706=misc\zz_sfr_form_940_calendar_year.html
+helpid_2714=misc\zz_sfr_form_941_if_you_will_not_have_to_file_returns_in_the_future_check_here_and_sign_the_return.html
+helpid_2715=misc\zz_sfr_form_941_if_this_is_an_amended_return_check_here.html
+helpid_2717=misc\zz_sfr_form_941_part_i_tab_total_payments_adjustments.html
+helpid_2718=misc\zz_sfr_form_941_part_i_tab_exempt_payments.html
+helpid_2719=misc\zz_sfr_form_940_part_i_tab_adjustments_if_any_.html
+helpid_2720=misc\zz_sfr_form_940_part_i_tab_payments_for_services_adjustments.html
+helpid_2722=misc\zz_sfr_form_940_part_ii_tab_computation_of_tentative_credit_.html
+helpid_2723=misc\zz_sfr_form_940_part_ii_tab_total_futa_deposited_for_the_year.html
+helpid_2727=misc\zz_sfr_form_940_part_iii_tab_first_quarter_liability_adjustments.html
+helpid_2728=misc\zz_sfr_form_940_part_iii_tab_second_quarter_liability_adjustments.html
+helpid_2729=misc\zz_sfr_form_940_part_iii_tab_third_quarter_liability_adjustments.html
+helpid_2730=misc\zz_sfr_form_940_part_iii_tab_fourth_quarter_liability_adjustments.html
+helpid_2731=misc\zz_sfr_form_940_part_iii_tab_enter_the_amount_of_payment_making.html
+helpid_2742=misc\zz_sfr_form_941_address_tab_quarter.html
+helpid_2743=misc\zz_sfr_form_941_address_tab_year.html
+helpid_2744=misc\zz_sfr_form_941_address_tab_trade_name_if_any.html
+helpid_2745=misc\zz_sfr_form_941_address_tab_state_code.html
+helpid_2746=misc\zz_sfr_form_941_address_tab_if_address_is_different_from_prior_return_check_here.html
+helpid_2747=misc\zz_sfr_form_941_address_tab_if_you_do_not_have_to_file_returns_in_the_future.html
+helpid_2748=misc\zz_sfr_form_941_address_tab_if_you_are_a_seasonal_employer.html
+helpid_2750=misc\zz_sfr_form_941_lines_1_to_8_tab_total_wages_and_tips_adjustments.html
+helpid_2751=misc\zz_sfr_form_941_lines_1_to_8_tab_total_income_tax_withheld_adjustments.html
+helpid_2752=misc\zz_sfr_form_941_line_1_to__8_tab_adjustment_of_withheld_income_tax.html
+helpid_2753=misc\zz_sfr_form_941_lines_1_to_8_tab_taxable_social_security_wages.html
+helpid_2754=misc\zz_sfr_form_941_lines_1_to_8_tab_taxable_social_security_tips.html
+helpid_2755=misc\zz_sfr_form_941_line_1_to_8_tab_7a_taxable_medicare_wages_and_tips.html
+helpid_2757=misc\zz_sfr_form_941_line_9_t0_15_tab_sick_pay.html
+helpid_2758=misc\zz_sfr_form_941_line_9_to_15_tab_fractions_of_cents.html
+helpid_2759=misc\zz_sfr_form_941_line_9_to_15_tab_other.html
+helpid_2760=misc\zz_sfr_form_941_line_9_to_15_tab_advance_earned_income_credit.html
+helpid_2761=misc\zz_sfr_form_941_line_9_to_15_tab_total_deposits_for_quarter.html
+helpid_2763=misc\zz_sfr_form_941_line_16_and_17_tab_apply_to_next_return.html
+helpid_2764=misc\zz_sfr_form_941_line_16_and_17_tab_refund.html
+helpid_2765=misc\zz_sfr_form_941_line_16_and_17_tab_semiweekly_schedule_depositors.html
+helpid_2766=misc\zz_sfr_form_941_line_16_to_17_tab_monthly_schedule_depositors.html
+helpid_2767=misc\zz_sfr_form_941_line_16_and_17_tab_first_month_liability.html
+helpid_2768=misc\zz_sfr_form_941_line_16_and_17_tab_second_month_liability.html
+helpid_2769=misc\zz_form_941_line_16_and_17_tab_third_month_liability.html
+helpid_2590=misc\zz_select_employees_grid_ptp_wizard.html
+helpid_110351=misc\zz_description_voided_payroll_jrnl.html
+helpid_110353=misc\zz_dates_void_payroll_jrnl.html
+helpid_110354=misc\zz_from_date_void_payroll_jrnl.html
+helpid_110355=misc\zz_to_date_void_payroll_jrnl.html
+helpid_110356=misc\zz_apply_void_payroll_jrnl.html
+helpid_110357=misc\zz_grid_void_payroll_jrnl.html
+helpid_110251=misc\zz_from_date_void_payroll_jrnl.html
+helpid_110252=misc\zz_to_date_void_payroll_jrnl.html
+helpid_2940=payroll-process\viewing-a-payroll-transaction\the_payroll_transaction_list_browser_1.html
+helpid_110273=misc\additional_earnings_and_deductions_ptp3.html
+helpid_110376=misc\additional_earnings_and_deductions_3ptp.html
+helpid_110352=misc\zz_journal_group_void_payroll_journal.html
+helpid_2164=misc\zz_tax_rates_grid_details_tab_local_tax_profile.html
+helpid_2620=misc\zz_employee_information_grid_payroll_pay_wiz.html
+helpid_2660=misc\zz_box12_form_w2_trking.html
+helpid_255475=payroll-process\paying-employees\wizard\viewing-journal\payments-browser\payroll_payments_browser_ptp_.html
+helpid_2458=misc\zz_futa_emp_hist_taxes_employer_tax_withheld.html
+helpid_2247=misc\zz_payroll_item_code_grid_emp_template_pay_details.html
+helpid_2662=misc\zz_stat_emp_retire_plan_tp_sick_pay_chkbox13_frm_w2.html
+helpid_2248=misc\zz_based_on_standard_earnings_emp_template_pay_details.html
+helpid_2459=misc\zz_suta_taxes_withheld_employer_taxes_tab_emp_hist.html
+helpid_2460=misc\zz_sdi_taxes_withheld_employer_taxes_tab_emp_hist.html
+helpid_2457=misc\zz_medicare_taxes_withheld_employer_taxes_tab_emp_hist.html
+helpid_2456=misc\zz_social_security_taxes_withheld_employer_taxes_tab_emp_hist.html
+helpid_2437=misc\zzadditional_earnings_and_deductions_emp_hist_db.html
+helpid_2534=misc\zz_from_date_payroll_journal.html
+helpid_2535=misc\zz_to_date_payroll_journal.html
+helpid_110253=misc\zz_apply_payroll_journal.html
+helpid_2533=misc\zz_dates_payroll_journal.html
+helpid_2536=misc\zz_grid_payroll_journal.html
+helpid_110131=misc\zz_sfr_form_941_line_1_to_8_tab_no_of_employees_in_the_pay_period.html
+helpid_110911=misc\zzschedule_b_button_form_941_lines_16_and_17.html
+helpid_110920=statutory-forms-and-reports\form-941\schedule-b\form_941_(schedule_b)_dialog_box.html
+helpid_2724=misc\zzapplied_to_next_return_form_940_part_2.html
+helpid_2725=misc\zzrefunded_form_940_part_2.html
+helpid_2678=misc\zzkind_of_payer_941_form_w3.html
+helpid_2680=misc\zzkind_of_payer_943_form_w3.html
+helpid_2681=misc\zzkind_of_payer_ct-1_form_w3.html
+helpid_2682=misc\zzkind_of_payer_household_employer_form_w3.html
+helpid_2683=misc\zzkind_of_payer_-_medicare_government_employer_form_w3.html
+helpid_2679=misc\zzkind_of_payer_military_form_w3.html
+helpid_110921=misc\zzschedule_b_grid.html
+helpid_2173=setup\payroll-items\payroll_item_general_details.html
+helpid_110732=misc\zzthird-party_designee_line_16_to_17_form_941.html
+helpid_110733=misc\zzname_third-party_designee_line_16-17_form_941.html
+helpid_110734=misc\zzphone_no_third-party_designee_line_16-17_form_941.html
+helpid_110735=misc\zzein_third-party_designee_line_16-17_form_941.html
+helpid_110507=payroll-process\paying-employees\wizard\reverse-journal\reverse_payment_browser_payments_us_payroll.html
+helpid_110515=misc\zzgrid_reverse_payment_browser_us_payroll.html
+helpid_110514=misc\zzapply_reverse_payment_browser_us_payroll.html
+helpid_110513=misc\zzto_date_reverse_payment_browser_us_payroll.html
+helpid_110512=misc\zzfrom_date_reverse_payment_browser_us_payroll.html
+helpid_110511=misc\zzdates_reverse_payment_browser_us_payroll.html
+helpid_110510=misc\zzjournal_group_reverse_payment_brow_payment_us_payroll.html
+helpid_110509=misc\zzdescription_reverse_payment_browser_payment_us_payroll.html
+helpid_110622=misc\zz12a_emp_form_w2_trking_usp.html
+helpid_110623=misc\zz12b_emp_form_w2_trking_usp.html
+helpid_110624=misc\zz12c_emp_form_w2_trking_usp.html
+helpid_110625=misc\zz12d_emp_form_w2_trking_usp.html
+helpid_2436=misc\zztotal_supplemental_earnings_employee_hist_usp.html
+helpid_110943=misc\zzamended_form_940_address_tab_sfr.html
+helpid_110944=misc\zzsuccessor_employer_form_940_add_tab_sfr.html
+helpid_110945=misc\zzno_payments_to_emp_in_form_940_gen_tab_sfr.html
+helpid_110946=misc\zzfinal_form_940_gen_tab_sfr.html
+helpid_110947=misc\zzone_state_only_form_940_gen_tab_sft.html
+helpid_110948=misc\zzmore_than_one_state_form_940_gen_tab_sfr.html
+helpid_110949=misc\zz4afringe_benefits_form_940_part2and3_tab_sfr.html
+helpid_110950=misc\zzgroup_term_life_ins_form_940_part2and3_tab_sfr.html
+helpid_110951=misc\zzretirement_pension_part2and3_tab_form_940_sfr.html
+helpid_110952=misc\zzdependent_care_part2and3_tab_form_940_sfr.html
+helpid_110953=misc\zz4eother_part2and3_tab_form_940_sfr.html
+helpid_110954=misc\zzpart3_line3_part2and3_tab_form_940_sfr.html
+helpid_110955=misc\zzpart3_line10_part2and3_tab_form_940.html
+helpid_110956=misc\zzmax_allowable_credit_worksheet_form_940_sfr.html
+helpid_110957=misc\zzline2_worksheet_form_940_sfr.html
+helpid_110958=misc\zzline5a_worksheet_form_940_sfr.html
+helpid_110960=misc\zzline5c_worksheet_form_940_sfr.html
+helpid_110961=misc\zzcity_add_tab_form_940_sfr.html
+helpid_110962=misc\zzstate_address_tab_form_940_sfr.html
+helpid_110963=misc\state_code_combo_add_tab_form_940_sfr.html
+helpid_110964=misc\zzschdule_a_button_form_940_sfr.html
+helpid_110965=misc\zzline17_part4and5_tab_form_940_sfr.html
+helpid_110959=misc\zzline5b_worksheet_form_940_sfr.html
+
+[MAP]
+#define helpid_2465 2465
+#define helpid_2467 2467
+#define helpid_2473 2473
+#define helpid_2482 2482
+#define helpid_2488 2488
+#define helpid_2502 2502
+#define helpid_2578 2578
+#define helpid_2579 2579
+#define helpid_2580 2580
+#define helpid_2589 2589
+#define helpid_2841 2841
+#define helpid_2842 2842
+#define helpid_2843 2843
+#define helpid_2844 2844
+#define helpid_2845 2845
+#define helpid_2846 2846
+#define helpid_2847 2847
+#define helpid_2848 2848
+#define helpid_2849 2849
+#define helpid_2850 2850
+#define helpid_2851 2851
+#define helpid_2852 2852
+#define helpid_2854 2854
+#define helpid_2856 2856
+#define helpid_2853 2853
+#define helpid_2855 2855
+#define helpid_2857 2857
+#define helpid_2858 2858
+#define helpid_2859 2859
+#define helpid_2860 2860
+#define helpid_2862 2862
+#define helpid_2864 2864
+#define helpid_2861 2861
+#define helpid_2863 2863
+#define helpid_2865 2865
+#define helpid_2866 2866
+#define helpid_2870 2870
+#define helpid_110350 110350
+#define helpid_110451 110451
+#define helpid_2882 2882
+#define helpid_110900 110900
+#define helpid_110616 110616
+#define helpid_2641 2641
+#define helpid_21090 21090
+#define helpid_21091 21091
+#define helpid_21126 21126
+#define helpid_21127 21127
+#define helpid_21140 21140
+#define helpid_2468 2468
+#define helpid_2469 2469
+#define helpid_2470 2470
+#define helpid_2471 2471
+#define helpid_2472 2472
+#define helpid_2474 2474
+#define helpid_2475 2475
+#define helpid_2476 2476
+#define helpid_2477 2477
+#define helpid_2478 2478
+#define helpid_2479 2479
+#define helpid_2480 2480
+#define helpid_2481 2481
+#define helpid_2483 2483
+#define helpid_2484 2484
+#define helpid_2485 2485
+#define helpid_2486 2486
+#define helpid_2487 2487
+#define helpid_2489 2489
+#define helpid_2490 2490
+#define helpid_2492 2492
+#define helpid_2491 2491
+#define helpid_2528 2528
+#define helpid_2599 2599
+#define helpid_2600 2600
+#define helpid_2601 2601
+#define helpid_2606 2606
+#define helpid_2610 2610
+#define helpid_2612 2612
+#define helpid_2615 2615
+#define helpid_2619 2619
+#define helpid_2503 2503
+#define helpid_2504 2504
+#define helpid_2505 2505
+#define helpid_2506 2506
+#define helpid_2507 2507
+#define helpid_2529 2529
+#define helpid_2530 2530
+#define helpid_2531 2531
+#define helpid_2532 2532
+#define helpid_2508 2508
+#define helpid_2581 2581
+#define helpid_2582 2582
+#define helpid_2583 2583
+#define helpid_2584 2584
+#define helpid_2585 2585
+#define helpid_2602 2602
+#define helpid_2603 2603
+#define helpid_2604 2604
+#define helpid_2605 2605
+#define helpid_2611 2611
+#define helpid_2613 2613
+#define helpid_2614 2614
+#define helpid_2616 2616
+#define helpid_2586 2586
+#define helpid_2868 2868
+#define helpid_2867 2867
+#define helpid_2607 2607
+#define helpid_2608 2608
+#define helpid_2609 2609
+#define helpid_2684 2684
+#define helpid_2688 2688
+#define helpid_2001 2001
+#define helpid_2018 2018
+#define helpid_2019 2019
+#define helpid_2038 2038
+#define helpid_2039 2039
+#define helpid_2054 2054
+#define helpid_2055 2055
+#define helpid_2064 2064
+#define helpid_2086 2086
+#define helpid_2087 2087
+#define helpid_2542 2542
+#define helpid_2543 2543
+#define helpid_2544 2544
+#define helpid_2547 2547
+#define helpid_2550 2550
+#define helpid_2553 2553
+#define helpid_2557 2557
+#define helpid_2560 2560
+#define helpid_2562 2562
+#define helpid_2564 2564
+#define helpid_2566 2566
+#define helpid_2568 2568
+#define helpid_2373 2373
+#define helpid_2256 2256
+#define helpid_2258 2258
+#define helpid_2257 2257
+#define helpid_2286 2286
+#define helpid_2309 2309
+#define helpid_2407 2407
+#define helpid_2408 2408
+#define helpid_2409 2409
+#define helpid_2438 2438
+#define helpid_2148 2148
+#define helpid_2149 2149
+#define helpid_2179 2179
+#define helpid_110787 110787
+#define helpid_110789 110789
+#define helpid_110788 110788
+#define helpid_110790 110790
+#define helpid_110791 110791
+#define helpid_110792 110792
+#define helpid_110793 110793
+#define helpid_110794 110794
+#define helpid_110795 110795
+#define helpid_110796 110796
+#define helpid_2462 2462
+#define helpid_2435 2435
+#define helpid_2442 2442
+#define helpid_2210 2210
+#define helpid_2211 2211
+#define helpid_2213 2213
+#define helpid_2214 2214
+#define helpid_2216 2216
+#define helpid_2215 2215
+#define helpid_2217 2217
+#define helpid_2218 2218
+#define helpid_2219 2219
+#define helpid_2220 2220
+#define helpid_2221 2221
+#define helpid_2222 2222
+#define helpid_2223 2223
+#define helpid_2224 2224
+#define helpid_2225 2225
+#define helpid_2226 2226
+#define helpid_2227 2227
+#define helpid_2229 2229
+#define helpid_2230 2230
+#define helpid_2231 2231
+#define helpid_2232 2232
+#define helpid_2233 2233
+#define helpid_2234 2234
+#define helpid_2235 2235
+#define helpid_2236 2236
+#define helpid_2237 2237
+#define helpid_2238 2238
+#define helpid_2239 2239
+#define helpid_2240 2240
+#define helpid_2241 2241
+#define helpid_2242 2242
+#define helpid_2243 2243
+#define helpid_2244 2244
+#define helpid_2259 2259
+#define helpid_2260 2260
+#define helpid_2261 2261
+#define helpid_2262 2262
+#define helpid_2263 2263
+#define helpid_2264 2264
+#define helpid_2265 2265
+#define helpid_2266 2266
+#define helpid_2267 2267
+#define helpid_2268 2268
+#define helpid_2269 2269
+#define helpid_2270 2270
+#define helpid_2271 2271
+#define helpid_2272 2272
+#define helpid_2273 2273
+#define helpid_2274 2274
+#define helpid_2275 2275
+#define helpid_2276 2276
+#define helpid_2277 2277
+#define helpid_2278 2278
+#define helpid_2279 2279
+#define helpid_2280 2280
+#define helpid_2281 2281
+#define helpid_2285 2285
+#define helpid_2282 2282
+#define helpid_2283 2283
+#define helpid_2284 2284
+#define helpid_2287 2287
+#define helpid_2288 2288
+#define helpid_2289 2289
+#define helpid_2290 2290
+#define helpid_2291 2291
+#define helpid_2292 2292
+#define helpid_2293 2293
+#define helpid_2294 2294
+#define helpid_2295 2295
+#define helpid_2296 2296
+#define helpid_2297 2297
+#define helpid_2298 2298
+#define helpid_2299 2299
+#define helpid_2300 2300
+#define helpid_2301 2301
+#define helpid_2302 2302
+#define helpid_2303 2303
+#define helpid_2304 2304
+#define helpid_2305 2305
+#define helpid_2306 2306
+#define helpid_2307 2307
+#define helpid_2308 2308
+#define helpid_2310 2310
+#define helpid_2311 2311
+#define helpid_2312 2312
+#define helpid_2313 2313
+#define helpid_2314 2314
+#define helpid_2316 2316
+#define helpid_2315 2315
+#define helpid_2317 2317
+#define helpid_2318 2318
+#define helpid_2319 2319
+#define helpid_2320 2320
+#define helpid_2321 2321
+#define helpid_2322 2322
+#define helpid_2323 2323
+#define helpid_2324 2324
+#define helpid_2325 2325
+#define helpid_2326 2326
+#define helpid_2327 2327
+#define helpid_2328 2328
+#define helpid_2329 2329
+#define helpid_2344 2344
+#define helpid_2345 2345
+#define helpid_2346 2346
+#define helpid_2347 2347
+#define helpid_2348 2348
+#define helpid_2349 2349
+#define helpid_2350 2350
+#define helpid_2351 2351
+#define helpid_2353 2353
+#define helpid_2354 2354
+#define helpid_2355 2355
+#define helpid_2356 2356
+#define helpid_2357 2357
+#define helpid_2358 2358
+#define helpid_2359 2359
+#define helpid_2360 2360
+#define helpid_2362 2362
+#define helpid_2363 2363
+#define helpid_2364 2364
+#define helpid_2365 2365
+#define helpid_2368 2368
+#define helpid_2369 2369
+#define helpid_2371 2371
+#define helpid_2370 2370
+#define helpid_2372 2372
+#define helpid_2375 2375
+#define helpid_2376 2376
+#define helpid_2377 2377
+#define helpid_2378 2378
+#define helpid_2379 2379
+#define helpid_2380 2380
+#define helpid_2381 2381
+#define helpid_2382 2382
+#define helpid_2385 2385
+#define helpid_2386 2386
+#define helpid_2387 2387
+#define helpid_2388 2388
+#define helpid_2390 2390
+#define helpid_2391 2391
+#define helpid_2392 2392
+#define helpid_2393 2393
+#define helpid_2394 2394
+#define helpid_2395 2395
+#define helpid_2396 2396
+#define helpid_2397 2397
+#define helpid_2410 2410
+#define helpid_2411 2411
+#define helpid_2413 2413
+#define helpid_2412 2412
+#define helpid_2414 2414
+#define helpid_2415 2415
+#define helpid_2416 2416
+#define helpid_2417 2417
+#define helpid_2418 2418
+#define helpid_2419 2419
+#define helpid_2420 2420
+#define helpid_2421 2421
+#define helpid_2422 2422
+#define helpid_2423 2423
+#define helpid_2424 2424
+#define helpid_2425 2425
+#define helpid_2426 2426
+#define helpid_2427 2427
+#define helpid_2428 2428
+#define helpid_2429 2429
+#define helpid_2430 2430
+#define helpid_2431 2431
+#define helpid_2433 2433
+#define helpid_2432 2432
+#define helpid_2434 2434
+#define helpid_2439 2439
+#define helpid_2440 2440
+#define helpid_2441 2441
+#define helpid_2450 2450
+#define helpid_2451 2451
+#define helpid_2452 2452
+#define helpid_2446 2446
+#define helpid_2448 2448
+#define helpid_2443 2443
+#define helpid_2444 2444
+#define helpid_2445 2445
+#define helpid_2455 2455
+#define helpid_2454 2454
+#define helpid_2447 2447
+#define helpid_2449 2449
+#define helpid_2453 2453
+#define helpid_2461 2461
+#define helpid_2191 2191
+#define helpid_2192 2192
+#define helpid_2212 2212
+#define helpid_2228 2228
+#define helpid_2029 2029
+#define helpid_2109 2109
+#define helpid_2110 2110
+#define helpid_2113 2113
+#define helpid_2120 2120
+#define helpid_2138 2138
+#define helpid_2139 2139
+#define helpid_2140 2140
+#define helpid_2152 2152
+#define helpid_2171 2171
+#define helpid_2172 2172
+#define helpid_2341 2341
+#define helpid_2342 2342
+#define helpid_2343 2343
+#define helpid_2352 2352
+#define helpid_2361 2361
+#define helpid_2366 2366
+#define helpid_2367 2367
+#define helpid_2374 2374
+#define helpid_2383 2383
+#define helpid_2384 2384
+#define helpid_2389 2389
+#define helpid_3576 3576
+#define helpid_3577 3577
+#define helpid_3578 3578
+#define helpid_3579 3579
+#define helpid_3580 3580
+#define helpid_3581 3581
+#define helpid_3582 3582
+#define helpid_3583 3583
+#define helpid_110785 110785
+#define helpid_2334 2334
+#define helpid_2333 2333
+#define helpid_2002 2002
+#define helpid_2003 2003
+#define helpid_2004 2004
+#define helpid_2005 2005
+#define helpid_2006 2006
+#define helpid_2007 2007
+#define helpid_2008 2008
+#define helpid_2009 2009
+#define helpid_2021 2021
+#define helpid_2022 2022
+#define helpid_2023 2023
+#define helpid_2024 2024
+#define helpid_2025 2025
+#define helpid_2026 2026
+#define helpid_2027 2027
+#define helpid_2028 2028
+#define helpid_2041 2041
+#define helpid_2042 2042
+#define helpid_2043 2043
+#define helpid_2044 2044
+#define helpid_2056 2056
+#define helpid_2057 2057
+#define helpid_2058 2058
+#define helpid_2059 2059
+#define helpid_2060 2060
+#define helpid_2061 2061
+#define helpid_2062 2062
+#define helpid_2063 2063
+#define helpid_2065 2065
+#define helpid_2066 2066
+#define helpid_2067 2067
+#define helpid_2068 2068
+#define helpid_2069 2069
+#define helpid_2070 2070
+#define helpid_2071 2071
+#define helpid_2072 2072
+#define helpid_2073 2073
+#define helpid_2074 2074
+#define helpid_2075 2075
+#define helpid_2076 2076
+#define helpid_2089 2089
+#define helpid_2090 2090
+#define helpid_2091 2091
+#define helpid_2092 2092
+#define helpid_2093 2093
+#define helpid_2094 2094
+#define helpid_2095 2095
+#define helpid_2096 2096
+#define helpid_2097 2097
+#define helpid_2098 2098
+#define helpid_2099 2099
+#define helpid_2112 2112
+#define helpid_2114 2114
+#define helpid_2115 2115
+#define helpid_2116 2116
+#define helpid_2117 2117
+#define helpid_2118 2118
+#define helpid_2119 2119
+#define helpid_2121 2121
+#define helpid_2122 2122
+#define helpid_2123 2123
+#define helpid_2124 2124
+#define helpid_2125 2125
+#define helpid_2126 2126
+#define helpid_2127 2127
+#define helpid_2128 2128
+#define helpid_2141 2141
+#define helpid_2153 2153
+#define helpid_2154 2154
+#define helpid_2155 2155
+#define helpid_2156 2156
+#define helpid_2157 2157
+#define helpid_2158 2158
+#define helpid_2159 2159
+#define helpid_2160 2160
+#define helpid_2161 2161
+#define helpid_2174 2174
+#define helpid_2175 2175
+#define helpid_2176 2176
+#define helpid_2177 2177
+#define helpid_2178 2178
+#define helpid_2180 2180
+#define helpid_2181 2181
+#define helpid_2193 2193
+#define helpid_2194 2194
+#define helpid_2195 2195
+#define helpid_2196 2196
+#define helpid_2197 2197
+#define helpid_2198 2198
+#define helpid_2199 2199
+#define helpid_2200 2200
+#define helpid_2201 2201
+#define helpid_2202 2202
+#define helpid_2203 2203
+#define helpid_2204 2204
+#define helpid_2205 2205
+#define helpid_2206 2206
+#define helpid_2207 2207
+#define helpid_2208 2208
+#define helpid_2209 2209
+#define helpid_2151 2151
+#define helpid_2150 2150
+#define helpid_2142 2142
+#define helpid_2143 2143
+#define helpid_2144 2144
+#define helpid_2145 2145
+#define helpid_2146 2146
+#define helpid_2147 2147
+#define helpid_2629 2629
+#define helpid_2676 2676
+#define helpid_2704 2704
+#define helpid_2740 2740
+#define helpid_2749 2749
+#define helpid_2756 2756
+#define helpid_2762 2762
+#define helpid_2741 2741
+#define helpid_20685 20685
+#define helpid_20686 20686
+#define helpid_20687 20687
+#define helpid_21078 21078
+#define helpid_21079 21079
+#define helpid_21080 21080
+#define helpid_21092 21092
+#define helpid_21102 21102
+#define helpid_21103 21103
+#define helpid_21104 21104
+#define helpid_21114 21114
+#define helpid_21115 21115
+#define helpid_21116 21116
+#define helpid_21128 21128
+#define helpid_21138 21138
+#define helpid_21139 21139
+#define helpid_21150 21150
+#define helpid_21151 21151
+#define helpid_21152 21152
+#define helpid_21175 21175
+#define helpid_21176 21176
+#define helpid_21177 21177
+#define helpid_21776 21776
+#define helpid_21777 21777
+#define helpid_21778 21778
+#define helpid_21779 21779
+#define helpid_21780 21780
+#define helpid_21881 21881
+#define helpid_21882 21882
+#define helpid_21883 21883
+#define helpid_22459 22459
+#define helpid_22460 22460
+#define helpid_22547 22547
+#define helpid_22548 22548
+#define helpid_22549 22549
+#define helpid_22559 22559
+#define helpid_22560 22560
+#define helpid_22561 22561
+#define helpid_22571 22571
+#define helpid_22572 22572
+#define helpid_22573 22573
+#define helpid_20943 20943
+#define helpid_20944 20944
+#define helpid_20945 20945
+#define helpid_110679 110679
+#define helpid_110680 110680
+#define helpid_110681 110681
+#define helpid_110682 110682
+#define helpid_110134 110134
+#define helpid_110618 110618
+#define helpid_110619 110619
+#define helpid_110620 110620
+#define helpid_110621 110621
+#define helpid_110626 110626
+#define helpid_110627 110627
+#define helpid_110628 110628
+#define helpid_2661 2661
+#define helpid_2630 2630
+#define helpid_2631 2631
+#define helpid_2642 2642
+#define helpid_2643 2643
+#define helpid_2644 2644
+#define helpid_2645 2645
+#define helpid_2646 2646
+#define helpid_2647 2647
+#define helpid_2648 2648
+#define helpid_2649 2649
+#define helpid_2650 2650
+#define helpid_2651 2651
+#define helpid_2652 2652
+#define helpid_2653 2653
+#define helpid_2654 2654
+#define helpid_2655 2655
+#define helpid_2656 2656
+#define helpid_2657 2657
+#define helpid_2658 2658
+#define helpid_2677 2677
+#define helpid_2685 2685
+#define helpid_2686 2686
+#define helpid_2687 2687
+#define helpid_2689 2689
+#define helpid_2690 2690
+#define helpid_2691 2691
+#define helpid_2692 2692
+#define helpid_2693 2693
+#define helpid_2694 2694
+#define helpid_2707 2707
+#define helpid_2706 2706
+#define helpid_2714 2714
+#define helpid_2715 2715
+#define helpid_2717 2717
+#define helpid_2718 2718
+#define helpid_2719 2719
+#define helpid_2720 2720
+#define helpid_2722 2722
+#define helpid_2723 2723
+#define helpid_2727 2727
+#define helpid_2728 2728
+#define helpid_2729 2729
+#define helpid_2730 2730
+#define helpid_2731 2731
+#define helpid_2742 2742
+#define helpid_2743 2743
+#define helpid_2744 2744
+#define helpid_2745 2745
+#define helpid_2746 2746
+#define helpid_2747 2747
+#define helpid_2748 2748
+#define helpid_2750 2750
+#define helpid_2751 2751
+#define helpid_2752 2752
+#define helpid_2753 2753
+#define helpid_2754 2754
+#define helpid_2755 2755
+#define helpid_2757 2757
+#define helpid_2758 2758
+#define helpid_2759 2759
+#define helpid_2760 2760
+#define helpid_2761 2761
+#define helpid_2763 2763
+#define helpid_2764 2764
+#define helpid_2765 2765
+#define helpid_2766 2766
+#define helpid_2767 2767
+#define helpid_2768 2768
+#define helpid_2769 2769
+#define helpid_2590 2590
+#define helpid_110351 110351
+#define helpid_110353 110353
+#define helpid_110354 110354
+#define helpid_110355 110355
+#define helpid_110356 110356
+#define helpid_110357 110357
+#define helpid_110251 110251
+#define helpid_110252 110252
+#define helpid_2940 2940
+#define helpid_110273 110273
+#define helpid_110376 110376
+#define helpid_110352 110352
+#define helpid_2164 2164
+#define helpid_2620 2620
+#define helpid_2660 2660
+#define helpid_255475 255475
+#define helpid_2458 2458
+#define helpid_2247 2247
+#define helpid_2662 2662
+#define helpid_2248 2248
+#define helpid_2459 2459
+#define helpid_2460 2460
+#define helpid_2457 2457
+#define helpid_2456 2456
+#define helpid_2437 2437
+#define helpid_2534 2534
+#define helpid_2535 2535
+#define helpid_110253 110253
+#define helpid_2533 2533
+#define helpid_2536 2536
+#define helpid_110131 110131
+#define helpid_110911 110911
+#define helpid_110920 110920
+#define helpid_2724 2724
+#define helpid_2725 2725
+#define helpid_2678 2678
+#define helpid_2680 2680
+#define helpid_2681 2681
+#define helpid_2682 2682
+#define helpid_2683 2683
+#define helpid_2679 2679
+#define helpid_110921 110921
+#define helpid_2173 2173
+#define helpid_110732 110732
+#define helpid_110733 110733
+#define helpid_110734 110734
+#define helpid_110735 110735
+#define helpid_110507 110507
+#define helpid_110515 110515
+#define helpid_110514 110514
+#define helpid_110513 110513
+#define helpid_110512 110512
+#define helpid_110511 110511
+#define helpid_110510 110510
+#define helpid_110509 110509
+#define helpid_110622 110622
+#define helpid_110623 110623
+#define helpid_110624 110624
+#define helpid_110625 110625
+#define helpid_2436 2436
+#define helpid_110943 110943
+#define helpid_110944 110944
+#define helpid_110945 110945
+#define helpid_110946 110946
+#define helpid_110947 110947
+#define helpid_110948 110948
+#define helpid_110949 110949
+#define helpid_110950 110950
+#define helpid_110951 110951
+#define helpid_110952 110952
+#define helpid_110953 110953
+#define helpid_110954 110954
+#define helpid_110955 110955
+#define helpid_110956 110956
+#define helpid_110957 110957
+#define helpid_110958 110958
+#define helpid_110960 110960
+#define helpid_110961 110961
+#define helpid_110962 110962
+#define helpid_110963 110963
+#define helpid_110964 110964
+#define helpid_110965 110965
+#define helpid_110959 110959

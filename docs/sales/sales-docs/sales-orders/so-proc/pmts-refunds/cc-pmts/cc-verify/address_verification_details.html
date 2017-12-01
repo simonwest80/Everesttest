@@ -1,0 +1,76 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="address-verification-details">Address Verification Details</h1>
+
+<p>The <strong>Address Verification (AVS)</strong> field is enabled if you select the <strong>Supports</strong><strong>Address Verification</strong> <strong>(AVS)</strong>  check box in the <strong>Processor</strong> profile  and the <strong>Address Verification (AVS)</strong> check box in the <strong>Payment Method</strong> profile.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/create-a-processor/the_processors_profile.html">The  Processor Profile</a></p>
+
+<p>You can verify the card holder’s address as displayed in the card details  with the card holder’s address in the database of the issuer of the card.  Based on the comparison, a response confirms whether the address matches  or not. The verification is carried out for the address and zip code match  for addresses in the United States.</p>
+
+<p>When address verification is done, the merchant is charged at a lower  rate for the transactions processed. Address verification often allows  merchants to receive a lower interchange rate on transactions, putting  more money in the merchant’s pocket.</p>
+
+<p class="note">Banks  do not decline authorization if there is an address mismatch. This information  is for advice only. Merchants who wish to qualify for low rates with their  banks usually use the address check.</p>
+
+<p>By default, <strong>the Address Verification 
+ (AVS)</strong>  field in the <strong>Card</strong> <strong>Verification</strong>  dialog box displays the option selected in the <strong>Address 
+ Verification (AVS)</strong>  field in the <strong>Payment</strong> <strong>Method</strong>  dialog box (path: <strong>File &gt; Setup &gt; 
+ Accounting &gt; Payment Methods</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Credit Card Processing</strong>  tab). You can select another option. The options available in the <strong>Address Verification (AVS)</strong>  field are enumerated below:</p>
+
+<ul>
+  <li><strong>Do 
+ not verify AVS 
+ Information</strong> - Select this option if you do not want the message  from the processing network to provide the address verification result.</li>
+  <li><strong>Prompt 
+ if address or zip does not match</strong> <strong>before 
+ processing payment</strong> - Select this option if you want <strong>Everest</strong>  to prompt you when the address or zip code does not match. <strong>Everest</strong>   informs  you that the address or zip code cannot be verified and asks you to get  an authorization for the amount.</li>
+</ul>
+
+<p>: Select <strong>Yes</strong>  to make <strong>** a request to process the  payment. Select **No</strong> to abort to  process. If the address matches, the amount is automatically processed.</p>
+
+<ul>
+  <li><strong>Prompt 
+ Always</strong> <strong>before processing payment</strong> - If this option is selected, the message from the processing network  providing the verification result is always displayed.</li>
+</ul>
+
+<p>: Irrespective of whether the address matches or not,  you are prompted with a message asking you whether you want to get authorization  for the amount.</p>
+
+<ul>
+  <li><strong>Prompt 
+ if address does not match before processing payment</strong> - Select this  option if you want <strong>Everest</strong> to  prompt you when the address does not match. <strong>Everest</strong>  informs you that the address cannot be verified and asks whether you want  to get an authorization for the amount.</li>
+</ul>
+
+<p>: Select <strong>Yes</strong>  to make <strong>** a request to process the  payment. Select **No</strong> to abort to  process.</p>
+
+<ul>
+  <li><strong>Prompt 
+ if Zip does not match before processing payment</strong> - Select this option  if you want <strong>Everest</strong> to prompt  you when the zip code does not match. <strong>Everest</strong>  informs you that the zip code cannot be verified and asks whether you  want to get an authorization for the amount.</li>
+</ul>
+
+<p>: Select <strong>Yes</strong>  to make <strong>** a request to process the  payment. Select **No</strong> to abort to  process.</p>
+
+<p class="note">Banks do not decline authorization if there is an address  mismatch. This information is for advice only. Merchants who wish to qualify  for low rates with their banks usually use the address check.</p>
+
+<ul>
+  <li><strong>Process 
+ payment and store AVS response</strong> - This option allows you to send  the entire amount of the transaction for authorization and does not prompt  irrespective of whether or not there is a match between the address or  zip code provided and the information at the cardholder’s issuing bank.  The AVS response is merely stored in the transaction history. If you are  capturing the payment later, you can base your decision on the response  received from the processor. This eliminates the requirement for carrying  out a $1 transaction exclusively for verifying AVS and thereby helps you  reduce the cost of each transaction.</li>
+</ul>
+
+<p class="note">A $1 transaction is done with the Bank/Issuer of the  credit card for the AVS/CVV2 details to be verified. If there is a mismatch  in AVS details, only a dollar is blocked for the customer rather than  the entire amount. If this happens in E-commerce, the customer gets another  chance to re-enter the details and try again. If that transaction passes,  the authorization is carried out for the entire amount.</p>
+
+<p>Before you submit a transaction for authorization with this preference,  <strong>Everest</strong> informs you that the transaction  may be approved in spite of a mismatch and asks if you would like to proceed.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/cc-pmts/cc-verify-dlg/the_card_verification_dialog_box.html">The  Card Verification Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

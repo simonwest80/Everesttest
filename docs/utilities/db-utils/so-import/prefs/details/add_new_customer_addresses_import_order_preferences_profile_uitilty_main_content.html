@@ -1,0 +1,37 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="add-a-new-customer-profile">Add a New Customer Profile</h1>
+
+<p><strong>Customer</strong> profiles are created  based on the preferences set in the <a href="/versata-everest-docs/utilities/db-utils/so-import/set-prefs/prefs-profile/orders_import_preferences_profile_preferences_1_utility.html"><strong>Sales Order Import Preferences</strong> profile <strong>- Customers</strong> tab</a> (path: <strong>Utility</strong>  &gt; <strong>Import</strong> &gt; <strong>Sales 
+ Orders</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Sales Order Import Preferences</strong>  profile &gt; <strong>Customers</strong> tab). During  import, the system automatically creates a new Customer profile unless  an existing billing address in the <strong>Everest</strong>  database matches one of the following selected options:</p>
+
+<ul>
+  <li><strong>E-mail 
+ ID</strong> – If the E-mail ID of the customer billing address entered in  the online store matches the existing billing address in the <strong>Everest</strong>  database, do not create a new customer. If this field is blank in <strong>Everest</strong> and in the imported data, the  system creates a new customer.</li>
+  <li><strong>Street 
+ Address, Zip, and E-Mail ID</strong> – If the Street Address, Zip, and E-mail  ID fields of the customer billing address entered in the online store  match the existing billing address in the <strong>Everest</strong>  database, do not create a new customer. If any one of these fields does  not match, the system creates a new customer.</li>
+  <li><strong>Street 
+ Address, Zip, E-Mail ID and Telephone-1</strong> – If the Street Address,  Zip, E-mail ID, and Telephone-1 fields of the customer billing address  entered in the online store match the existing billing address in the  <strong>Everest</strong> database, do not create  a new customer. If any one of these fields does not match, the system  creates a new customer.</li>
+</ul>
+
+<p>For all of the above options, fields match if they contain identical  values. A field with a value does not match a blank field.</p>
+
+<p>All information populated in the Customer’s profile is derived from  the Orders file. New Customer profiles are also automatically created  when they do not exist in the <strong>Everest</strong>  database. You can view the new Customer profiles from <strong>Invoicing</strong>  &gt; <strong>Customers</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong>.</p>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/misc/add_new_customer_preference_orders_import_preferences_profile_preference_2_tab.html">Create  a New Customer Unless Billing Address Found with Matching</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/db-utils/so-import/set-prefs/prefs-profile/orders_import_preferences_profile_preferences_1_utility.html">Sales  Order Import Preferences Profile - Customers</a></dd>
+  <dd><a href="/versata-everest-docs/utilities/db-utils/so-import/prefs/details/order_import_preferences_details_yahoo_import_utility_content.html">Sales  Order Import Preferences Details</a></dd>
+</dl>
+
+
+
+
+</div>

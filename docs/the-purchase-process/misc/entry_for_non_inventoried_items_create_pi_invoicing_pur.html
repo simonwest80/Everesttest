@@ -1,0 +1,185 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="entry-for-invoicing-non-inventoried-items">Entry for Invoicing Non-inventoried Items</h1>
+
+<p><strong>Invoicing Non-inventoried Line Items (positive  amount)</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Debit/Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchases</td>
+      <td>Debit</td>
+      <td>Item Amount</td>
+    </tr>
+    <tr>
+      <td>Recoverable Tax Liability</td>
+      <td>Debit</td>
+      <td>Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>Accounts Payable</td>
+      <td>Credit</td>
+      <td>Item Amount + Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>Item Amount = (Quantity * (Item Cost – Discount Value))  + Non-recoverable Tax Amount</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Invoicing Non-inventoried Line Items (negative  amount)</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Debit/Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Accounts Payable</td>
+      <td>Debit</td>
+      <td>Item Amount + Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchases</td>
+      <td>Credit</td>
+      <td>Item Amount</td>
+    </tr>
+    <tr>
+      <td>Recoverable Tax Liability</td>
+      <td>Credit</td>
+      <td>Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>Item Amount = (Quantity * (Item Cost – Discount Value))  + Non-recoverable Tax Amount</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>**Invoicing 
+ Non-inventoried Line Items (positive amount):</strong>**</p>
+
+<ul>
+  <li>Retrieved from  a purchase order where the quantity you invoice equals all of the quantities  received in purchase receipts and purchase invoices linked to the same  purchase order</li>
+  <li>Retrieved from  a purchase receipt where the quantity you invoice equals the quantity  received in the purchase receipt</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Debit/Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchases</td>
+      <td>Debit</td>
+      <td>Item Amount</td>
+    </tr>
+    <tr>
+      <td>Recoverable Tax Liability</td>
+      <td>Debit</td>
+      <td>Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>Accounts Payable</td>
+      <td>Credit</td>
+      <td>Item Amount + Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchase (Adjustment)</td>
+      <td>Debit/Credit</td>
+      <td>Balance in the Accrued Purchases account maintained at each line level  in the linked documents</td>
+    </tr>
+    <tr>
+      <td>Purchase Price Variance</td>
+      <td>Credit/Debit</td>
+      <td>Balance in the Accrued Purchases account maintained  at each line level in the linked documents</td>
+    </tr>
+    <tr>
+      <td>Item Amount = (Quantity * (Item Cost – Discount Value))  + Non-recoverable Tax Amount</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="note">
+  <dt><strong>The “Balance in the Accrued Purchases account  maintained at each line level in the linked documents” is also the difference  amount between the ACP of the Invoiced Quantity and the ACP of the Received  Quantity.</strong></dt>
+  <dd><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/create-pi/create-new-pi/balancing_the_acp_account_where_inv_qty_equals_rec_qty_pur.html">Balancing  the Accrued Purchases Account where the Invoiced Quantity of a Line Item  is Equal to the Received Quantity</a></dd>
+</dl>
+
+<p><strong>**Invoicing 
+ Non-inventoried Line Items (negative amount):</strong>**</p>
+
+<ul>
+  <li>Retrieved from  a purchase order where the quantity you invoice equals all of the quantities  received in purchase receipts and purchase invoices linked to the same  purchase order</li>
+  <li>Retrieved from  a purchase receipt where the quantity you invoice equals the quantity  received in the purchase receipt</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Debit/Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Accounts Payable</td>
+      <td>Debit</td>
+      <td>Item Amount + Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchases</td>
+      <td>Credit</td>
+      <td>Item Amount</td>
+    </tr>
+    <tr>
+      <td>Recoverable Tax Liability</td>
+      <td>Credit</td>
+      <td>Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchase (Adjustment)</td>
+      <td>Debit/Credit</td>
+      <td>Balance in the Accrued Purchases account maintained at each line level  in the linked documents</td>
+    </tr>
+    <tr>
+      <td>Purchase Price Variance</td>
+      <td>Credit/Debit</td>
+      <td>Balance in the Accrued Purchases account maintained  at each line level in the linked documents</td>
+    </tr>
+    <tr>
+      <td>Item Amount = (Quantity * (Item Cost – Discount Value))  + Non-recoverable Tax Amount</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="note">
+  <dt><strong>The “Balance in the Accrued Purchases account  maintained at each line level in the linked documents” is also the difference  amount between the ACP of the Invoiced Quantity and the ACP of the Received  Quantity.</strong></dt>
+  <dd><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/create-pi/create-new-pi/balancing_the_acp_account_where_inv_qty_equals_rec_qty_pur.html">Balancing  the Accrued Purchases Account where the Invoiced Quantity of a Line Item  is Equal to the Received Quantity</a></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/paths_to_the_accounts_for_accounting_entries_pur.html">Paths  to the Accounts for Accounting Entries</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/create-pi/create-new-pi/accounting_entries_create_a_purchase_invoice_pur.html">Accounting  Entries - Create a Purchase Invoice</a></dd>
+</dl>
+
+
+
+
+</div>

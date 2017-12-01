@@ -1,0 +1,105 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="enterprise-manager">Enterprise Manager</h1>
+
+<p>This tab allows for easy enterprise-wide configuration and management  of SQL Server and constituent objects. You can administer multiple database  servers through a single interface and manage tables, views, stored procedures,  rules, defaults, and user-defined data types. The <strong>Enterprise 
+ Manager</strong> consists of:</p>
+
+<ul>
+  <li><strong>Objects 
+ Panel</strong>: This panel displays the SQL Server objects.</li>
+  <li><strong>Details 
+ Panel</strong>: This panel displays the details of the selected object.</li>
+</ul>
+
+<p>SQL Server uses the term ‘object’ to describe a database component.  Some of the common SQL Server Objects are:</p>
+
+<p><strong>Connections</strong>: 
+ Displays the users connected to the server.<em>**</em></p>
+
+<p><strong>Tables</strong>: 
+ A table is used to store data. It is organized in a row/column manner. 
+ You can retrieve, modify, and remove data from a table by using the SQL.<em>**</em></p>
+
+<p><strong>Views</strong>: A view is a virtual table  that looks and feels like a real table. Views limit the amount of data  a user can see and modify. Views are used to control user access to data  and to simplify data presentation.</p>
+
+<p><strong>Stored Procedures</strong>: A stored  procedure is a compiled SQL program. Within a stored procedure, you can  embed conditional logic (if / else logic), declare variables, pass parameters,  and perform other programming tasks.</p>
+
+<p><strong>Defaults</strong>: Defaults are used  to populate a column with a default value when a value is not supplied.</p>
+
+<p><strong>Rules</strong>: A rule is used to enforce  a data constraint. Rules are column specific and cannot perform table  lookups. Generally, rules are used to enforce simple business constraints.</p>
+
+<p><strong>User Defined Data Types</strong>: With  a User Defined Data Type, you can create a custom reusable data type based  on an existing SQL Server Data Type. By using user-defined Data Types,  you can ensure Data Type consistency.</p>
+
+<p><strong>Users</strong>: A user identifier identifies  a user within a database. All permissions and ownership of objects in  the database are controlled by the user account. User accounts are specific  to a database; the xyz user account in the sales database is different  from the xyz user account in the inventory database, even though both  accounts have the same ID. User IDs are defined by members of the db_owner  fixed database role.</p>
+
+<p>A login ID by itself does not give user permissions to access objects  in any databases. A login ID must be associated with a user ID in each  database before anyone connecting with that login ID, can access objects  in the databases. If a login ID has not been explicitly associated with  any user ID in a database, it is associated with the guest user ID. If  a database has no guest user account, a login cannot access the database  unless it has been associated with a valid user account.</p>
+
+<p><strong>User Defined Functions</strong>: Functions  are subroutines made up of one or more Transact-SQL statements that can  be used to encapsulate code for reuse. Users can create their own user-defined  functions.</p>
+
+<p>User-defined functions are created using the CREATE FUNCTION statement,  modified using the ALTER FUNCTION statement, and removed using the DROP  FUNCTION statement. Each fully qualified user-defined function name (database_name.owner_name.function_name)  is unique.</p>
+
+<p>You must be granted CREATE FUNCTION permissions to create, alter, or  drop user-defined functions. Users other than the owner must be granted  appropriate permissions on a function before they can use it in a Transact-SQL  statement. To create or alter tables with references to user-defined functions  in the CHECK constraint, DEFAULT clause, or computed column definition,  you must also have REFERENCES permission on the functions.</p>
+
+<p><strong>Roles</strong>: Fixed database roles,  which can be created, are defined at the database level and exist in each  database. You can add any valid user account (a Windows NT 4.0 or Windows  2000 user or group, or a SQL Server user or role) as a member of a fixed  database role. Each member gains the permissions applied to the fixed  database role. Any member of a fixed database role can add other users  to the role.</p>
+
+<p>The following table describes the fixed database roles.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Fixed database role</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>db_owner</td>
+      <td>Performs the activities of all database roles, as well as other maintenance  and configuration activities in the database. The permissions of this  role span all of the other fixed database roles.</td>
+    </tr>
+    <tr>
+      <td>db_accessadmin</td>
+      <td>Adds or removes Windows NT 4.0 or Windows 2000 groups and users, and  SQL Server users in the database.</td>
+    </tr>
+    <tr>
+      <td>db_datareader</td>
+      <td>Sees all data from all user tables in the database.</td>
+    </tr>
+    <tr>
+      <td>db_datawriter</td>
+      <td>Adds, changes, or deletes data from all user tables in the database.</td>
+    </tr>
+    <tr>
+      <td>db_ddladmin</td>
+      <td>Adds, modifies, or drops objects in the database (runs all DDLs).</td>
+    </tr>
+    <tr>
+      <td>db_securityadmin</td>
+      <td>Manages roles and members of SQL Server 2000 database roles, and manages  statement and object permissions in the database.</td>
+    </tr>
+    <tr>
+      <td>db_backupoperator</td>
+      <td>Has permission to back up the database.</td>
+    </tr>
+    <tr>
+      <td>db_denydatareader</td>
+      <td>Denies permission to select data in the database.</td>
+    </tr>
+    <tr>
+      <td>db_denydatawriter</td>
+      <td>Denies permission to change data in the database.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-advanced-edition-utilities/database-explorer/database_explorer.html">Database Explorer</a></dd>
+</dl>
+
+
+
+
+</div>

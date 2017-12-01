@@ -1,0 +1,74 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="set-up-accounts-in-foreign-currency"><font style="color: #000000;" color="#000000">Set Up Accounts in Foreign Currency</font></h1>
+
+<p>Accounts that are maintained in a foreign currency, such as accounts  in banks outside the country need to be maintained in your records as  foreign currency. <strong>Everest</strong> provides  you with these account balances in the base currency.</p>
+
+<p>You cannot change the currency code for level 1 and level 2 accounts,  which must be in the base currency. However, level 3 accounts can be in  any currency.</p>
+
+<p class="note">You can change the currency code of a level  3 account provided the detail account in its tree is NOT used in any transaction.</p>
+
+<p>If an account or account group is created below level 3, its currency  code should match that of the immediate parent. Whenever you choose to  edit the currency code of a level 3 account, Everest prompts you to confirm  if you wish to proceed as the account groups and detail accounts below  it would be updated with the new currency code. In other words, you cannot  modify the currency code of a detail account.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/setting-up-a-company/img/example.gif" alt="" /></td>
+      <td>Assume that your base currency is USD  and you create the following accounts below it.<br /><br /><br /></td>
+      <td>Asset Account</td>
+      <td>Level 1</td>
+      <td>General</td>
+      <td>USD</td>
+      <td><br /></td>
+      <td>Current Asset</td>
+      <td>Level 2`</td>
+      <td>General</td>
+      <td>USD</td>
+      <td><br /></td>
+      <td>Bank</td>
+      <td>Level 3</td>
+      <td>General</td>
+      <td>CAD</td>
+      <td><br /></td>
+      <td>Nations Bank</td>
+      <td>Level 4</td>
+      <td>Detail</td>
+      <td>CAD (The currency code of the detail account matches the code of the  parent account.)</td>
+      <td><br /></td>
+      <td>Dominion Bank</td>
+      <td>Level 4</td>
+      <td>Detail</td>
+      <td>CAD (The currency code of the detail account matches the code of the  parent account.)</td>
+      <td><br /></td>
+      <td>Singapore Bank</td>
+      <td>Level 4</td>
+      <td>Detail</td>
+      <td>SINGD (Not  possible because the currency code, SINDGD  is not the same as the code of the parent account, CAD.)</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">All control accounts - Accounts Receivable,  Accounts Payable and Inventory - can be stated only in the base currency.</p>
+
+<p><strong>Setting up an account in a foreign currency  requires you to do the following:</strong></p>
+
+<ul>
+  <li>Indicate the  <a href="/versata-everest-docs/setting-up-a-company/options/multicurrency/setup/set-up-accounts-in-foreign-currency/account_foreign_currency_code.html">foreign currency code</a>  for the account</li>
+  <li>Indicate if  <a href="/versata-everest-docs/setting-up-a-company/options/multicurrency/setup/set-up-accounts-in-foreign-currency/re_measurement.html">remeasurement</a>  is required</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/multicurrency/setup/set-up-accounts-in-foreign-currency/foreign_currency_accounts.html">Accounts  in foreign currency - Implications</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/multicurrency/setup/setting_up_multi_currency.html">Setting  up Multicurrency</a></dd>
+</dl>
+
+
+
+
+</div>

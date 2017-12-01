@@ -1,0 +1,76 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="transaction-entries">Transaction Entries</h1>
+
+<dl>
+  <dt><strong>Short/over</strong></dt>
+  <dd>This field indicates the amount by which the transaction  is out of balance. If the amount displayed is positive, the total of debits  exceeds the total credits; if the amount is negative, then total credits  exceeds the total debits.</dd>
+  <dd>An unbalanced journal however, cannot be posted.</dd>
+  <dt><strong>Account</strong></dt>
+  <dd>This field identifies the account that is debited  or credited in transaction line. Only detailed accounts can be selected.</dd>
+  <dt><strong>Description</strong></dt>
+  <dd>The name of the account is displayed in this field.  The description cannot be edited.</dd>
+  <dt><strong>Loc/Sub-Loc</strong></dt>
+  <dd>The location or sub-location to which the amount  must be allocated is displayed. The location/sub-location identifies the  cost centers or profit centers for an expense or revenue account. Locations/Sub-Locations  cannot be assigned to asset and liability accounts.</dd>
+  <dt><strong>Currency Code</strong></dt>
+  <dd>The currency code of the account (selected in the  <strong>Account</strong> column) is displayed in  this field. This column is displayed when <strong>Options 
+ &gt; View in Foreign Currency</strong> is selected.</dd>
+  <dt><strong>Exchange Rate</strong></dt>
+  <dd>The exchange rate for the account’s currency is  displayed in this column. The exchange rate is the conversion rate of  the foreign currency to your base currency.</dd>
+  <dd>This rate can be changed as required.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/general-journals/manual-general-journals/manual-general-journal-details/accounts_in_foreign_currencies_manual_gj.html">Accounts  in Foreign Currency</a></dd>
+  <dt><strong>Notes</strong></dt>
+  <dd>Notes provide a brief description of the transaction.  You may enter a note for each transaction entry.</dd>
+  <dt><strong>Job code</strong></dt>
+  <dd>The job code identifies the job to which the expense  or revenue on this transaction must be allocated.</dd>
+  <dt><strong>Allocate</strong></dt>
+  <dd>Select the <strong>Allocate</strong>  check box for the transaction entries that you would like to distribute  or “allocate” among accounts based on a percentage. The total percentage  of these accounts should equal 100%.</dd>
+</dl>
+
+<p class="steps">To allocate transactions based on a percentage,  do the following:</p>
+
+<ul>
+  <li>Select the <strong>Allocate</strong> check box for each transaction  entry that you would like to distribute based on a percentage.</li>
+  <li>Indicate the percentage  for each transaction selected in the <strong>% 
+ Allocation</strong> field. The Debit/Credit amounts automatically calculate  based on the percentages entered. This feature can increase the efficiency  of your Accounting staff and save valuable time, especially at month end,  since they do not have to calculate the transaction amounts manually.</li>
+</ul>
+
+<p class="example">An Accountant would like to allocate petty  cash between Bank Account A and Bank Account B. 40% should go to Bank  Account A and 60% should go to Bank Account B. For Bank Account A, they  select the Allocate check box and enter 40 in the % Allocation field.  For Bank Account B, they select the Allocate check box and enter 60 in  the % Allocation field. Since the Debit amount to Petty Cash is $100,  this amount automatically allocates as a $40.00 credit to Bank Account  A and a $60.00 credit to Bank Account B.</p>
+
+<p><img src="/versata-everest-docs/accounting/img/general_journal_transaction_entries_section_allocation_acc.gif" alt="" /></p>
+
+<p><strong>Figure: General Journal Transaction Entries section  showing Allocated Transactions</strong></p>
+
+<dl>
+  <dt><strong>% Allocation</strong></dt>
+  <dd>For the accounts that you have selected to allocate  by marking the check box in the <strong>Allocation</strong>  field, you must enter a percentage in the <strong>% 
+ Allocation</strong> field. The total percentage of these accounts should  equal 100%. The Debit/Credit amounts automatically calculate based on  the percentages entered.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /><a href="/versata-everest-docs/accounting/memorized-transactions/memorized_transactions_acc.html">Memorized  Transactions</a></dd>
+  <dt><strong>Debit and credit</strong></dt>
+  <dd>The amount to be debited is entered in the <strong>Debit</strong> column while the amount that has  to be credited is entered in the <strong>Credit</strong>  column. One account cannot be debited and credited in the same transaction  entry.</dd>
+  <dd>The debit and credit amounts for foreign currency  accounts may be entered in foreign or base currency depending on the view.  The amounts are automatically translated using the exchange rate specified  in the <strong>Exchange Rate</strong> profile (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Multi</strong>  -<strong>Currency</strong> &gt; <strong>Exchange</strong><strong>Rates</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong>). To view transactions in the base currency, select  <strong>Options &gt; View in Base Currency</strong>.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/general-journals/manual-general-journals/manual-general-journal-details/accounts_in_foreign_currencies_manual_gj.html">Accounts  in Foreign Currency</a></dd>
+</dl>
+
+<p class="steps">To select an account/loc/sub-loc/job code,  do the following:</p>
+
+<ul>
+  <li>Click in the  <strong>Account/Loc/Sub-Loc/Job Code</strong> column  for the respective transaction entry. You will see the drop-down button  <img src="/versata-everest-docs/accounting/img/act_drop_down_button.gif" alt="" />.</li>
+  <li>Select the  required account/loc/sub-loc/job code.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/transaction_entries_manual_gj.html">Transaction  Entries</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/memorized-transactions/memorized_transactions_acc.html">Memorized  Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

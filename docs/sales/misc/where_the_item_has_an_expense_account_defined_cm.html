@@ -1,0 +1,68 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="if-the-item-has-an-expense-account-defined">If the Item has an Expense Account Defined</h1>
+
+<font face="Verdana" class="hcp1">The following accounting 
+ entry is created when an item with an expense account defined is </font>
+<font face="Verdana" class="hcp1">returned<span style="font-family: Verdana;">.</span></font>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry type</td>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/<br /><br /><br />Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>Accounts Receivable Control Account</td>
+      <td>The account selected for <strong>Accounts <br /> Receivable</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong> &gt; <strong>Posting Group</strong> tab)</td>
+      <td>Credit</td>
+      <td>Total value of the returned items less the discount</td>
+    </tr>
+    <tr>
+      <td>Exempt Commissionable  Revenue or<br /><br /><br />Exempt Non-commissionable Revenue or<br /><br /><br />Taxable Commissionable  Revenue or<br /><br /><br />Taxable Non-commissionable Revenue</td>
+      <td>Sales Discount (Products/Services)</td>
+      <td>The account selected for <strong>Sales <br /> Discounts</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab)</td>
+      <td>Credit</td>
+      <td>The value of discount provided to the customer when the items were sold</td>
+    </tr>
+    <tr>
+      <td>Exempt Commissionable  Revenue or<br /><br /><br />Exempt Non-commissionable Revenue or<br /><br /><br />Taxable Commissionable  Revenue or<br /><br /><br />Taxable Non-commissionable Revenue</td>
+      <td>Sales Returns (Products/Services)</td>
+      <td>The account selected for <strong>Sales</strong><strong>Returns</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab)</td>
+      <td>Debit</td>
+      <td>Total value of the returns</td>
+    </tr>
+    <tr>
+      <td>Sales Tax</td>
+      <td>Sales Tax Payable</td>
+      <td>The account selected for <strong>Tax</strong><strong>Account</strong> <strong>Code</strong>  in the <strong>Tax</strong> <strong>Components</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Taxes</strong> &gt; <strong>Tax</strong><strong>Components</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In <br /> New Window</strong> &gt; <strong>Sales</strong> tab)</td>
+      <td>Debit</td>
+      <td>The value of tax paid on the items</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">All accounts other than the asset account default to  the accounts selected in the <strong>Accounting</strong> dialog box (path: <strong>File &gt; Setup 
+ &gt; Preferences &gt; Defaults &gt; Accounting</strong>).</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_defaults.html">Accounting  Dialog Box</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/accounting-information/accounting_information_items.html">Accounting  Information - Items</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/cms/create-cm/create-new-cm/accnt-entries/accounting_entry_for_non_inventoried_items_cm.html">Accounting  Entry - Non-inventoried Items</a></dd>
+  <dd><a href="/versata-everest-docs/sales/misc/default_accounts_for_sales_transactions.html">Default  Accounts for Sales Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

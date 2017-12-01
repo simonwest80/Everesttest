@@ -1,0 +1,94 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="if-the-item-has-an-asset-account-defined">If the Item has an Asset Account Defined</h1>
+
+<p>The following accounting entry is created when an item with an asset  account defined is returned.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry type</td>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/<br /><br /><br />Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>Accounts Receivable Control Account</td>
+      <td>The account selected for <strong>Accounts <br /> Receivable</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab)</td>
+      <td>Credit</td>
+      <td>Total value of the returned items less the discount</td>
+    </tr>
+    <tr>
+      <td>Exempt Commissionable  Revenue or<br /><br /><br />Exempt Non-commissionable Revenue or<br /><br /><br />Taxable Commissionable  Revenue or<br /><br /><br />Taxable Non-commissionable Revenue</td>
+      <td>Sales Discount (Products /Services)</td>
+      <td>The account selected for <strong>Sales</strong><strong>Discount</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab)</td>
+      <td>Credit</td>
+      <td>The value of discount provided to the customer when the items were sold</td>
+    </tr>
+    <tr>
+      <td>Exempt Commissionable  Revenue or<br /><br /><br />Exempt Non-commissionable Revenue or<br /><br /><br />Taxable Commissionable  Revenue or<br /><br /><br />Taxable Non-commissionable Revenue</td>
+      <td>Sales Returns (Products/ Services)</td>
+      <td>The account selected for <strong>Sales</strong><strong>Return</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab)</td>
+      <td>Debit</td>
+      <td>Total value of the returns</td>
+    </tr>
+    <tr>
+      <td>Sales Tax</td>
+      <td>Sales Tax Payable</td>
+      <td>The account selected for <strong>Tax</strong><strong>Account</strong> <strong>Code</strong>  in the <strong>Tax</strong> <strong>Components</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Taxes</strong> &gt; <strong>Tax</strong><strong>Components</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In <br /> New Window</strong> &gt; <strong>Sales</strong> tab)</td>
+      <td>Debit</td>
+      <td>The value of tax paid on the items</td>
+    </tr>
+    <tr>
+      <td>Commissionable</td>
+      <td>Cost of Goods Sold (hiked by factor amount if factoring  used)</td>
+      <td>The account selected for <strong>Cost <br /> of Goods Sold</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab)</td>
+      <td>Credit</td>
+      <td>The total cost of the goods returned</td>
+    </tr>
+    <tr>
+      <td>Non-commissionable</td>
+      <td>Cost of Goods Sold (hiked by the factor amount if factoring  used)</td>
+      <td>The account selected for <strong>Cost</strong><strong>of Goods Sold</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab)</td>
+      <td>Credit</td>
+      <td>The factored cost</td>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>Cost of Goods Sold Other (for factored costs) (the nominal  amount by which COGS has been hiked to adjust for factoring)<br /><br /><br /><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/item-profile-details/item-costing/factored_cost_item_costing.html">Factor  Costs</a></td>
+      <td>The account selected for <strong>Cost <br /> of Goods Sold</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab)</td>
+      <td>Debit</td>
+      <td>The cost of the items</td>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>Asset Account</td>
+      <td>The account selected for <strong>Assets</strong> in the <strong>Item</strong> profile (path:  <strong>Inventory &gt; Items &gt;</strong> <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Accounts</strong> tab)</td>
+      <td>Credit</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">All accounts other than the asset account default to  the accounts selected in the <strong>Accounting</strong> dialog box (path: <strong>File &gt; Setup 
+ &gt; Preferences &gt; Defaults &gt; Accounting</strong>).</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_defaults.html">Accounting  Dialog Box</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/accounting-information/accounting_information_items.html">Accounting  Information - Items</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/cms/create-cm/create-new-cm/accnt-entries/accounting_entry_for_non_inventoried_items_cm.html">Accounting  Entry - Non-inventoried Items</a></dd>
+  <dd><a href="/versata-everest-docs/sales/misc/default_accounts_for_sales_transactions.html">Default  Accounts for Sales Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

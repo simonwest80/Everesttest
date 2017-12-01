@@ -1,0 +1,124 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="case-1-one-line-item---full-shipment---no-acp-adjustment-entry">Case 1: One Line Item - Full Shipment - No ACP (Adjustment) Entry</h1>
+
+<p>In Case 1, there is one line item and a purchase order was created for  10 items at a cost of 10. The Purchase Receipt and Purchase Invoices contain  the same quantity and cost.</p>
+
+<p>The accounting entries are shown at the bottom of the table.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Purchase Order</td>
+      <td>Purchase Receipt</td>
+      <td>Purchase Invoice</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Qty</td>
+      <td>Cost</td>
+      <td>Qty</td>
+      <td>Cost</td>
+      <td>Qty</td>
+      <td>Cost</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Account</td>
+      <td>Debit</td>
+      <td>Credit</td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>INV</td>
+      <td>100</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>ACP</td>
+      <td> </td>
+      <td>100</td>
+      <td>100</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>AP</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>100</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Accrued Purchases (PR) = 10 * 10 = 100</p>
+
+<p>Accrued Purchases (PI) = 10 * 10 = 100</p>
+
+<p>In this situation, the received quantity (10) is equal to the invoiced  quantity (10) and the Accrued Purchases (ACP) amount is the same for the  received quantity and the invoiced quantity.</p>
+
+<p><strong>Summary of the ACP Account Entries for Case 1</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Document</td>
+      <td>Account</td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>PR - Received Quantity</td>
+      <td>ACP</td>
+      <td> </td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>PI - Invoiced Quantity</td>
+      <td>ACP</td>
+      <td>100</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The ACP account is in balance and therefore an ACP (Adjustment) entry  is not needed.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/create-pi/create-new-pi/balancing_the_acp_account_where_inv_qty_equals_rec_qty_pur.html">Balancing  the Accrued Purchases Account where the Invoiced Quantity of a Line Item  is Equal to the Received Quantity</a></dd>
+</dl>
+
+
+
+
+
+</div>

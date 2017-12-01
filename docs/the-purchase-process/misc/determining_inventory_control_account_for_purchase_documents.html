@@ -1,0 +1,39 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="determining-inventory-control-account">Determining Inventory Control Account</h1>
+
+<p>Rule 2</p>
+
+<ol>
+  <li>Always first consider the inventory control account  defined in the Posting Group assigned to the item in the <strong>Item</strong>  profile.
+    <ul>
+      <li>Where no inventory control account is assigned  to the item, then consider the control account assigned to the item category.</li>
+      <li>Where no inventory control account has been assigned  either to the item or the item category, then consider the inventory control  account of the stock area TO which the item is assigned in the document.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Whenever <strong>Everest</strong> looks into  the location, check the <strong>Location–Category</strong>  grid first. If the category is not available here, then look into the  Inventory control account of the <strong>Location</strong>  profile. (This condition also applies to the Rule specified in <a href="/versata-everest-docs/sales/misc/determining_inventory_control_account_for_sales_documents.html">Determining  Inventory Control Account for Sales Documents</a>)</p>
+
+<p>The Rules for determining the other accounts will be as follows:</p>
+
+<p>Rule 3: All accounts other than inventory control  account</p>
+
+<ol>
+  <li>Always first consider the accounts defined in  the Posting Group assigned to the item in the <strong>Item</strong>  profile.
+    <ul>
+      <li>Where the account is not assigned to the item,  then consider the account assigned to the item category</li>
+      <li>Where the account has not been assigned either  to the item or the item category, then consider the account of the document  location.</li>
+    </ul>
+  </li>
+</ol>
+
+
+
+
+
+</div>

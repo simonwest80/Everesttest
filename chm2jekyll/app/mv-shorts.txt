@@ -1,0 +1,7 @@
+creating-a-vendor,creating
+the-vendor-profile-address,address-tab
+the-address-profile,address
+the-address-profile-general,general
+the-address-profile-custom-fields,custom-fields
+vendor-profile-options,profile-options
+information-available,info

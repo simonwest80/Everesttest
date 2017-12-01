@@ -1,0 +1,58 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---void-payroll-journal">Back End Processes - Void Payroll Journal</h1>
+
+<p>When you create a Payroll Journal (path: <strong>Payroll 
+ Journal &gt; Create Payroll Journal</strong>), a purchase receipt is created  to account for the take home pay of each employee.</p>
+
+<p>Following are the back end processes that take place, when you void  a payroll journal:</p>
+
+<ul>
+  <li>A debit memo  is created.</li>
+  <li>A payment journal  with the description “Cancellation of Payroll Transactions”  is created.</li>
+  <li>The debit memo  is applied to the purchase receipt that is voided.</li>
+</ul>
+
+<p>Accounting Entries - Void Payroll Journal</p>
+
+<p>The following accounting entry is created in a payment journal.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry Type</td>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/<br /><br /><br />Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Payment on Purchase Receipt</td>
+      <td>Accounts Payable Control</td>
+      <td>The A/P control account in the Vendor Posting Group  assigned to the Employee vendor.<br /><br /><br /><img src="/versata-everest-docs/everest-us-payroll/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_vendor_posting_group_misc_tab.html">Hierarchical  order for Vendor Posting Group</a></td>
+      <td>Debit</td>
+      <td>Take home pay</td>
+    </tr>
+    <tr>
+      <td>Apply/Refund Debit Memo</td>
+      <td>Accounts Payable Control</td>
+      <td>The A/P control account in the Vendor Posting Group  assigned to the Employee vendor.<br /><br /><br /><img src="/versata-everest-docs/everest-us-payroll/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_vendor_posting_group_misc_tab.html">Hierarchical  order for Vendor Posting Group</a></td>
+      <td>Credit</td>
+      <td>Take home pay</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-us-payroll/payroll-process/creating-journal/accounting_entries_for_payroll.html">Accounting  Entries for Payroll </a></dd>
+</dl>
+
+
+
+
+</div>

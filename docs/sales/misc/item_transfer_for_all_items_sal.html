@@ -1,0 +1,76 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="item-transfer-for-all-items">Item Transfer for All Items</h1>
+
+<p>You access this browser from the <strong>Options 
+ &gt; Item &gt;Item Transfer</strong> menu option from the sales order. The  browser contains two sections. The top section displays all committed  serialized and non-serialized items from the sales order. The bottom section  contains details of the serialized and non-serialized items. For example,  if you select a serialized item in the top section that has a committed  quantity of 5, the bottom section displays five line items – one for each  serial number. This allows you to transfer, for example, only those items  with a specific serial number. After you select items in the top section  of the screen, you can modify the transfer quantity for non serialized  items and manufacturer serial numbers for the serialized items in the  bottom section.</p>
+
+<p>The top section contains the following columns:</p>
+
+<ul>
+  <li><strong>Select</strong>  – Select the checkboxes in this column to move your selections to the  bottom grid. You can also right-click in the top section and select or  de-select all items. When you move an item to the bottom section of the  screen, the system automatically displays a line item for each quantity  of the item.</li>
+  <li><strong>Sequence 
+ #</strong> - Displays the sequence number associated with the line item.</li>
+  <li><strong>Item 
+ Code</strong> - Displays the item code for the items that qualify for a  transfer.</li>
+  <li><strong>Item 
+ Type</strong> - Displays the symbol that indicates the item type.</li>
+  <li><strong>Item 
+ Description</strong> - Displays the description of the items.</li>
+  <li><strong>Transfer 
+ Qty</strong> - By default, the system displays the committed quantity value,  but you can override this with a lesser value for non-serialized items.  For serialized items, the transfer quantity column displays the sum of  all selected serial numbers and is not editable. You cannot transfer more  than the committed quantity.</li>
+  <li><strong>Committed 
+ Qty</strong> - Displays the actual committed quantity for serialized and  non-serialized items.</li>
+</ul>
+
+<p>The bottom section contains the following columns:</p>
+
+<ul>
+  <li><strong>Select</strong>  – Select the checkboxes in this column for those items you want to transfer.  Only those items you select here are transferred.</li>
+  <li>Item  Code</li>
+  <li>Item  Type</li>
+  <li>Commit  Qty</li>
+  <li><strong>Transfer 
+ Qty</strong> - By default, the system displays the committed quantity value,  but you can override this with a lesser value for non-serialized items.  For serialized items, the transfer quantity column displays the sum of  all selected serial numbers and is not editable. You cannot transfer more  than the committed quantity.</li>
+  <li><strong>Bin 
+ Type</strong> - Displays the type of bin in which the items are stored.  You can transfer item to other bins of the same type only. For example,  if your committed quantities are stored in an In bin type, you can transfer  them only to other In bin type locations.</li>
+  <li><strong>From 
+ Stock Bin</strong> - Displays the current stock bin location of the items.</li>
+  <li><strong>To 
+ Stock Bin</strong> - Select the stock bin to which you want to transfer  the items. The system displays only those bins that are associated with  the sales order location.</li>
+  <li><strong>Lot 
+ #</strong> - Displays the lot numbers for lot-tracked items.</li>
+  <li><strong>Serial 
+ #</strong> - Displays the serial number associated with the serialized items.</li>
+  <li><strong>Mfg 
+ Sl</strong> <strong>#</strong> - Specify the manufacturing  serial number associated with the items you want to transfer.</li>
+</ul>
+
+<p>You can click the <strong>Hide Details</strong>  button to hide the bottom section of the screen.</p>
+
+<p>In addition to the columns, the browser contains the following fields  in the top section of the screen:</p>
+
+<dl>
+  <dt><strong>To Stock Bin and Description</strong></dt>
+  <dd>Use the To Stock Bin field to transfer all selected  items in the bottom grid to one stock bin. For example, if you want to  transfer the items you selected to the same stock bin, you can specify  that bin here instead of selecting the bin for each line item.</dd>
+  <dd>If you selected <strong>To 
+ Stock Bin</strong> values at the line item level first and then you select  a stock bin here, the system overrides the value at the line item level.  The system displays a message that allows you to accept or cancel this  action.</dd>
+  <dd>Conversely, if you select a stock bin here, you  can override the value at the line item level before you process the transfer.</dd>
+</dl>
+
+<p>When you are through making your selections, click <strong>Transfer</strong>  to transfer the items you selected in the bottom section of the screen.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/misc/item_transfer_for_sales_orders_sal.html">Item  Transfer for Sales Orders</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/options/items/item_transfer_items_option_sales_contents.html">Item  Transfer</a></dd>
+</dl>
+
+
+
+
+</div>

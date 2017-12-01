@@ -1,0 +1,119 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounts-related-to-vendors">Accounts Related to Vendors</h1>
+
+<p>This grid displays all the accounts pertaining to the Vendor Posting  Group that is assigned to the vendor selected in the sales or purchase  documents.</p>
+
+<p>For Purchase Documents the following rows are displayed:</p>
+
+<ul>
+  <li>Accrued Purchases</li>
+  <li>Accounts Payable</li>
+  <li>Vendor Advances</li>
+  <li>Purchase Payment  Discounts</li>
+  <li>Gain on Purchase  Returns</li>
+  <li>Loss on Purchase  Returns</li>
+  <li>Expense Account</li>
+</ul>
+
+<p class="note">You cannot edit the Accrued Purchases account  in these cases:</p>
+
+<ul>
+  <li>on a purchase order  if you have already received or invoiced some quantity on the order</li>
+  <li>on a purchase receipt  or invoice converted from a purchase order if you have already converted  another purchase receipt or invoice from that purchase order</li>
+  <li>on a purchase invoice  converted from a purchase receipt created directly</li>
+  <li>on a purchase receipt  created directly if you have converted it to a purchase invoice</li>
+</ul>
+
+<p>Certain accounts are common between Posting Groups and hence there is  a conflict at the transaction time regarding the Posting Group to be used.  The accounts common between Posting Groups are indicated below:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Accounts</td>
+      <td>Posting Group</td>
+      <td>Posting Group</td>
+    </tr>
+    <tr>
+      <td>Sales</td>
+      <td>Customer Posting Group</td>
+      <td>Inventory Posting Group</td>
+    </tr>
+    <tr>
+      <td>Sales Returns</td>
+      <td>Customer Posting Group</td>
+      <td>Inventory Posting Group</td>
+    </tr>
+    <tr>
+      <td>Sales Line Item Discounts</td>
+      <td>Customer Posting Group</td>
+      <td>Inventory Posting Group</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Gain on Purchase Returns</td>
+      <td>Vendor Posting Group</td>
+      <td>Inventory Posting Group</td>
+    </tr>
+    <tr>
+      <td>Loss on Purchase Returns</td>
+      <td>Vendor Posting Group</td>
+      <td>Inventory Posting Group</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The customer grid (in a sales transaction)  and the vendor grid (in a purchase transaction) will always display the  accounts resolved from their respective Posting Groups.</p>
+
+<p class="note">The Posting Group that is used is based  on the hierarchy (give link for hierarchy).</p>
+
+<p>However the line items will display the  data for the common accounts based on the preference setting.(path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow 
+ Contro</strong>l &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> &gt; <strong>Others</strong> &gt; <strong>Others 
+ 2</strong> tab )</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/misc/miscellaneous_others_others_2_steps.html">Flow  control preference</a></p>
+
+<p><strong>If the preference 
+ setting is Inventory over Customer/Vendor Posting Group:</strong></p>
+
+<ul>
+  <li>Gain  on Purchase Returns</li>
+  <li>Loss  on Purchase Returns</li>
+</ul>
+
+<p>For each line item, all the above accounts  will be based on the Inventory Posting Group associated to the line item.</p>
+
+<p>For the vendor grid (purchase transactions),  the Gain on Purchase Returns and Loss on Purchase Returns will still be  based on the vendor  Posting  Group, however they will have a gray background with a legend indicating  that in the transaction, the inventory Posting Group’s account will be  used.</p>
+
+<p>If the preference setting is Customer/Vendor  Posting Group over the Inventory Posting Group</p>
+
+<p>The vendor  grid  will display the accounts based on the respective vendor posting group.</p>
+
+<p>All the line items will also display the  conflicting accounts based only on the vendor posting group.</p>
+
+<p>And in the transaction, the vendor accounts  will be used, not the inventory accounts.</p>
+
+<ul class="note">
+  <li><strong>The 
+ Posting Group that is used to resolve the default accounts in this screen 
+ is based on hierarchy</strong></li>
+  <li>Also, not all the  accounts get resolved from the same Posting Group. So the A/P control  account can get resolved from the Posting Group 1 which is associated  to the vendor, but if the Vendor advances account is not defined  in  Posting Group 1,  then  it will look at the Posting Group associated with vendor class to resolve  the Vendor advances account</li>
+  <li><strong>User 
+ may edit any of the accounts in the Posting Account information screen, 
+ but cannot leave any cell blank (except for Asset/liability/Expense account 
+ for non-inventoried items)</strong>.</li>
+  <li>You can edit the  accounts in any of the enabled columns provided you do not leave the column  blank. Only account columns relevant to the document are enabled. The  edited accounts appear in bold.</li>
+</ul>
+
+
+
+
+</div>

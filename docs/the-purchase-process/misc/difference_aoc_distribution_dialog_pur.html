@@ -1,0 +1,31 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="difference">Difference</h1>
+
+<p>If the system detects a difference between the Amount column for an  add-on cost in the top grid and the sum of the Add-on Cost column in the  bottom grid, the system displays that difference here. The following situations  can cause a difference:</p>
+
+<ul>
+  <li>rounding differences</li>
+  <li>the distribution  method is set to User Specified and the amounts entered in the bottom  grid do not add up to the Amount in the top grid</li>
+  <li>the add-on  cost did not allocate to any line item because the line items do not contain  values relevant to the distribution method (e.g., the distribution method  is Weight but none of the line items have a value for Weight)</li>
+</ul>
+
+<p>In the case of rounding differences, the system will automatically increase  or decrease the last item’s add-on amount to eliminate the difference.  However the add-on amount will not decrease beyond $0.00 because a negative  add-on amount does not make sense. If the add-on amount for the last item  decreases to $0.00 but there is still a difference, it remains in the  Difference column.</p>
+
+<p>You must resolve any differences before the system allows you to save  and close the Add-on Costs Distribution dialog box.</p>
+
+<p>On a purchase invoice with FOB type Destination, the Difference displays  for both the Received on Invoice and Invoiced columns. provided the received  and invoiced quantities are different.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/doc-options/utils/addon-costs-distr/the_freight_distribution_dialog_box.html">The  Add-on Costs Distribution Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

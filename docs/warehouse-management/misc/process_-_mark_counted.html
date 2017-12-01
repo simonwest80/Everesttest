@@ -1,0 +1,47 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="process---mark-countedrecount">Process - Mark Counted/Recount</h1>
+
+<p>This toggle option is enabled only when the status of the <strong>Stock 
+ Count</strong> profile is <strong>Counting in Process</strong>.  Use the <strong>Mark Counted</strong> option to  indicate that the physical count is complete. The following processes  occur as a result of this action:</p>
+
+<ul>
+  <li>The status  of the document changes to <strong>Counted</strong>.</li>
+  <li>If you have  chosen the <strong>Block for Counting</strong>  option, <strong>Everest</strong> prompts you that  the variance will be calculated and the status of the document will be  changed to <strong>Counted</strong>. You are further  asked to confirm your selection.</li>
+  <li>If you have  selected the option <strong>Take Snapshot to 
+ Count</strong>, you are informed that no transactions would be allowed against  the bins included in this document until the inventory adjustments are  made.</li>
+  <li>Variance is  computed as the difference between the physical stock and the system stock.</li>
+</ul>
+
+<p>Variance Stock = Physical - System</p>
+
+<p>Variance stock is negative if the physical stock is less than the system  stock and positive if the physical stock is more than the system stock.</p>
+
+<ul>
+  <li>In case the  method used for counting is <strong>Take Snapshot 
+ to Count</strong>, average cost, at the time of creation of the Stock Count  document, may differ from the average cost when the document is marked  as <strong>Counted</strong>. The <strong>System 
+ Cost</strong> column in the Item Details Grid is automatically updated with  the new cost. This change is also conveyed through a message.</li>
+  <li>The <strong>Adjustment 
+ Quantity</strong> column is automatically populated with the variance quantity.  This quantity is negative if the physical stock is less than the system  stock and positive if the physical stock is more than the system stock.</li>
+  <li>The <strong>Adjustment 
+ Cost</strong> column displays the average cost by default.</li>
+</ul>
+
+<p>To clear the variance and reverse the status to <strong>Counting 
+ in Process</strong>, select the <strong>Recount</strong>  option.</p>
+
+<p class="note">You cannot insert or delete items once you  have marked a document as <strong>Counted</strong>.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/inv-adj/stock-count/stock-count-profile-options/stock_count_profile_options.html">Stock  Count Profile Options</a></dd>
+</dl>
+
+
+
+
+</div>

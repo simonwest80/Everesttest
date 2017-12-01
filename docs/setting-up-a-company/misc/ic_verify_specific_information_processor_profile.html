@@ -1,0 +1,63 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="icverify-specific-information">ICVerify Specific Information</h1>
+
+<p>The following fields must be specified only if the payment service selected  is ICVerify.</p>
+
+<dl>
+  <dt><strong>License Type</strong></dt>
+  <dd>This field specifies the number of users that can  use the service simultaneously. The following options are available:</dd>
+</dl>
+
+<ul>
+  <li><strong>Single-user</strong>  - Only one user can use the service at any given point of time.</li>
+  <li><strong>Multi-user</strong>  - Eight users can use the service simultaneously.</li>
+</ul>
+
+<dl>
+  <dt><strong>Business Type</strong></dt>
+  <dd>The business type identifies whether the authorization  requests are for retail (i.e., direct sale) or mail order type of sales.</dd>
+  <dd>Selecting the <strong>Mail</strong><strong>Order</strong> option allows you to choose  one of the following at the time of processing the payment:</dd>
+</dl>
+
+<ul>
+  <li>The payment  request for a direct sale.</li>
+  <li>Funds to be  booked for a later shipment.</li>
+  <li>Funds to be  captured based on an earlier approval number.</li>
+</ul>
+
+<dl>
+  <dt><strong>Request Directory Name</strong></dt>
+  <dd>This is the directory path where the ICVerify  request files are located. You must specify a separate directory path  for each type of card.</dd>
+  <dt>The path for MasterCard  cannot be the same as the path for Visa.</dt>
+  <dd>The directory path should be the UNC (Universal  Naming Code) path with respect to the <strong>Everest</strong>  application server.</dd>
+</dl>
+
+<p class="example">If ICVerify  is installed in the folder ‘MyWorkstation’,  the UNC path for MasterCard  will be \MyWorkstation\ICVerify\MasterCard.</p>
+
+<dl class="note">
+  <dt>The request file path must be in the same local area network as the  <strong>Everest</strong> application server.</dt>
+  <dd><img src="/versata-everest-docs/setting-up-a-company/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/credit_card_processing_ic_verify.html">Credit  Card Processing with ICVerify</a></dd>
+  <dt><strong>Use multiple merchant accounts</strong></dt>
+  <dd>Check this option if you are using the multi-user  version of ICVerify that supports multi-merchant accounts. The bank authorizing  your credit card is referred to as the merchant bank. Multiple merchants  is a term used when a company has more than one location to process/authorize  its credit cards, with each location having a different dial-up account  to the bank for getting approvals.</dd>
+  <dt>Additional configuration is required to use  ICVerify for Multiple Merchants. Refer to the “Configuring ICVerify for  Multiple Merchants” section.</dt>
+  <dd><img src="/versata-everest-docs/setting-up-a-company/img/lens.gif" alt="" /><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/ini-file-for-icverify/configuring_icverify_for_multiple_merchants_sc.html">Configuring  ICVerify for Multiple Merchants</a></dd>
+  <dt><strong>Sequence</strong></dt>
+  <dd>If you are sharing the ICVerify payment processing  software with another company or business, the sequence number defined  here identifies transactions and requests originating from your company.  ICVerify provides a summary of transactions originating from each terminal  based on the merchant sequence number.</dd>
+</dl>
+
+<p class="note">This sequence number can also be used when  you are setting up a processor for each payment terminal or cash counter  for every card type supported by ICVerify. You will also have to set up  a payment method for each processor.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/create-a-processor/processor_profile_general_tab.html"><strong>Processor</strong> Profile - <strong>General</strong>  Tab</a></dd>
+</dl>
+
+
+
+
+</div>

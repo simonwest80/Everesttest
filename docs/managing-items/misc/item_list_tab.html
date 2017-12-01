@@ -1,0 +1,109 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="item-list-tab">Item List Tab</h1>
+
+<p>The <strong>Item List</strong> tab allows you  to specify the items that are part of the kit being defined.</p>
+
+<p>Kit specifications grid</p>
+
+<p>This grid lists the details of the items contained in the kit.</p>
+
+<p class="steps">To add an item to the kit, do the following:</p>
+
+<ul>
+  <li>In the <strong>Item List</strong> tab, right-click anywhere  on the grid.</li>
+  <li>Select <strong>Items</strong> &gt; <strong>Selection</strong>  from the right-click menu. You will see the <strong>Items</strong>  browser.</li>
+  <li>Select the  required items and click <strong>OK</strong>.</li>
+</ul>
+
+<p>When you add an item to the kit, details such as item category, description,  cost, price and discount value will also be displayed. The sales and purchase  quantity columns default to 1 with the quantity decimal accuracy of the  selected items. You can change the sales and purchase quantity, description/notes,  price and discount values, if required.</p>
+
+<p>The price retrieved into the <strong>Kit specifications 
+ grid</strong> considers quantity pricing if any, defined for the item. When  an item is added to a kit, it shows the default purchase and sales measures  for the item. These measures can be changed to any other purchase or sales  measure of the kit component.</p>
+
+<p class="note">The stock, purchase, and sales measures are  all <strong>Each</strong> and cannot be edited.</p>
+
+<p>The Price and Discount Values are for the sales measure in the sales  price decimal accuracy. The cost displayed in the <strong>Unit 
+ Average Cost/Unit Last Cost</strong> column depends on the markup calculation  cost type specified in the flow control preferences (path: <strong>File 
+ &gt; Setup &gt; Preferences &gt; Flow Control &gt; Items &gt; Item Details</strong>  tab). The <strong>Average Cost/Last Cost</strong>  for a kit component is shown in the purchase measure using the cost decimal  accuracy. The <strong>Total Cost</strong> column  shows the purchase quantity multiplied by the average cost. The <strong>Amount</strong> column shows the sales quantity  multiplied by the price, less the discount.</p>
+
+<p>The last cost in the <strong>Purchases</strong>  tab of the <strong>Item</strong> profile is not  automatically updated as you modify the kit by adding or deleting items.  <strong>Everest</strong> displays a message asking  if you would like to update the last and average costs of the kit with  the new total cost of its components.</p>
+
+<p>Based on your preference here, the last cost of the kit is displayed  in the Item Details Grid when you retrieve the kit into a document.</p>
+
+<p>When you add an item to the <strong>Kit specifications 
+ grid</strong> or change the quantity of a kit component and attempt to save  the profile, a message prompts you to confirm if you want to update the  last and average costs with the new total cost of the kit.</p>
+
+<p class="note">• When kit components are retrieved into purchase documents, they will  show the purchase measure defined in the <strong>Details</strong><strong>– Item List</strong> tab. The purchase  measure of a kit component can be changed to any other purchase measure  of that kit component.</p>
+
+<p>• When kit components are retrieved into sales documents, they will  show the sales measures defined in the <strong>Details-Item 
+ List</strong> tab. The sales measure of a kit component can be changed to  any other sales measure of that kit component.</p>
+
+<p>The right-click menu options available from the Item  List tab:</p>
+
+<dl>
+  <dt><strong>Insert</strong></dt>
+  <dd>Use this option to insert a row into the grid.</dd>
+  <dt><strong>Delete</strong></dt>
+  <dd>Use this option to delete a row from the grid.</dd>
+  <dt><strong>Items</strong></dt>
+  <dd>The <strong>Items</strong>  menu has the following sub-menu options:</dd>
+</dl>
+
+<ul>
+  <li><strong>Selection</strong>  - Use this option to view the <strong>Items</strong>  browser from where you can select the items to be included in the kit.</li>
+  <li><strong>Profile</strong>  - Use this option to view the profile of the item selected in the <strong>Item List</strong> tab.</li>
+</ul>
+
+<dl>
+  <dt><strong>Inline Notes</strong></dt>
+  <dd>Use this option to specify additional information  for the selected item. When you select this option, you will see the <strong>Description</strong> dialog box wherein you can  enter the additional information.</dd>
+  <dt><strong>Pricing Analysis</strong></dt>
+  <dd>The <strong>Pricing Analysis</strong>  menu has the following sub-menu options:</dd>
+</dl>
+
+<ul>
+  <li><strong>Pricing 
+ Analysis - Current Item</strong> - Select this option to view the pricing  analysis for the selected item.</li>
+  <li><strong>Pricing 
+ Analysis - Kit</strong> - Select this option to view the pricing analysis  for all the items included in the kit</li>
+</ul>
+
+<p><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/sales/sales-docs/sqs/sq-proc/pricing-analysis/pricing_analysis.html">Pricing  Analysis</a></p>
+
+<p><strong>Retrieve</strong></p>
+
+<p>The <strong>Retrieve</strong> menu has the following  sub-menu options:</p>
+
+<ul>
+  <li><strong>Category</strong>  - Select this option to retrieve all items belonging to a particular category.</li>
+  <li><strong>Kit</strong>  - Select this option to retrieve all items belonging to a particular kit.</li>
+</ul>
+
+<p><strong>Move Up</strong></p>
+
+<p>Select this option to move the selected item up the grid. Use the <img src="/versata-everest-docs/managing-items/img/mi_up_arrow.gif" alt="mi_up_arrow.gif" /> button also to move the selected item up. The order of the  items in this tab, is the order in which they are:</p>
+
+<ul>
+  <li>Retrieved into  sales or purchase documents.</li>
+  <li>Displayed on  your online store.</li>
+</ul>
+
+<dl>
+  <dt><strong>Move Down</strong></dt>
+  <dd>Select this option to move the selected item down  the grid. The <img src="/versata-everest-docs/managing-items/img/mi_down_arrow.gif" alt="mi_down_arrow.gif" /> button also allows you to move the selected  item down</dd>
+  <dt>You can set up inventoried or serialized items,  received for service or repair, as a ‘service item’.  To do this, change the item type to ‘service’ by clicking the <strong>Type</strong>  column for the line item, and pressing the <strong>Spacebar</strong> key.</dt>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/po-processes/service_items_purchase_content.html">Service  Items and Repairs</a></dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /> <a href="building-an-online-store.chm::/How_do_I_set_Kit_Components_or_Related_Items_as_Recommended_Items_bos.htm">How  do I Set Kit Components or Related Items as Recommended Items?</a></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item-kit/the_item_profile_details.html">Item Profile  - Details Tab</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,37 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="create-the-data-warehouse">Create the Data Warehouse</h1>
+
+<p class="steps">To create the data warehouse, do the following:</p>
+
+<ul>
+  <li>From the main menu  bar, select <strong>Utility &gt; Data Warehouse 
+ &gt; Setup</strong>.  The  <strong>Setup Data Warehouse</strong> dialog box  is displayed.</li>
+  <li>In the <strong>Database 
+ Server Name</strong> field, enter or browse to the name of your database  server. This is the target server.</li>
+  <li>If you are connecting  using SQL Authentication, enter your SQL database System Administrator  user name and password.  In  the <strong>Connect Using</strong> section, select  <strong>SQL Authentication</strong>.</li>
+  <li>If you are connecting  using Windows Authentication, in the <strong>Connect 
+ Using</strong> section, select <strong>Windows 
+ Authentication</strong>. Most users will connect using Windows Authentication.  The <strong>Create</strong> button is enabled if  the data warehouse does not currently exist.</li>
+  <li>Click the <strong>Create</strong> button. The system verifies that  the target server has the necessary components to support the data warehouse.   After validation,  the system creates the database on the target server, runs the ETL for  the first time to populate the database from <strong>Everest</strong>,  and builds and processes the cubes.</li>
+  <li>When completed,  the <strong>Setup Data Warehouse</strong> dialog  box is displayed which shows the status and history of the initial run.</li>
+  <li>Close the <strong>Setup Data Warehouse</strong> dialog box.</li>
+  <li>From the main menu  bar, select <strong>Utility &gt; Data Warehouse 
+ &gt; ETL History</strong> to view the results.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-advanced-dashboard/create-and-set-up-the-database-and-dashboard/etl_history_browser_ead.html">ETL History  Browser</a></dd>
+  <dd><a href="/versata-everest-docs/everest-advanced-dashboard/create-and-set-up-the-database-and-dashboard/set_up_the_database_ead.html">Set Up the  Database</a></dd>
+  <dd><a href="/versata-everest-docs/everest-advanced-dashboard/create-and-set-up-the-database-and-dashboard/etl_scheduling_ead.html">ETL Job Scheduling</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,70 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---commit-items-on-a-purchase-order">Back End Processes - Commit Items on a Purchase Order</h1>
+
+<p>When items are committed to a purchase order the following back end  processes occur:</p>
+
+<ul>
+  <li>The stock status  of the item as viewed in the <strong>Item</strong><strong>Stock</strong> <strong>Status</strong>  dialog box displays the following changes:</li>
+</ul>
+
+<p><strong>Item Stock 
+ Status</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Column</td>
+      <td><strong>Stock</strong> <strong>Increase</strong>/<strong>Decrease</strong></td>
+    </tr>
+    <tr>
+      <td>On Order Committed</td>
+      <td>Increase</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/misc/columns_in_the_item_stock_status_dialog_box.html">Item  Stock Status</a></p>
+
+<p><strong>**Stock Area 
+ Details</strong>**</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Column</strong></td>
+      <td><strong>Stock Increase/Decrease</strong></td>
+    </tr>
+    <tr>
+      <td>On Order</td>
+      <td>Increase in the ‘out’ stock area to which the item  has been assigned.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/misc/stock_status_details_section.html">Stock  Area Details</a></p>
+
+<ul>
+  <li>If the item is  serialized/auto-serialized, serial numbers are generated for the quantities  committed and assigned to the stock area determined for the purchase order  when you save the document.</li>
+  <li>Serial numbers  are generated in a series that starts from the next serial number assigned  in the <strong>Location</strong> profile (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location</strong>/<strong>Sub-Location</strong>&gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong>) for the login location or location of the login location/sub-location.  If the serial number for the login location/sub-location is blank, the  next serial number assigned for the <strong>Default 
+ Location</strong> (path: <strong>File</strong> &gt;  <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>)  is used.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/po-processes/cmt-items-po/enter-cmt-qty/entering_quantities_committed.html">Entering  Quantities Committed</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/sequence_numbers_departments.html">Location/Sub-location  - Sequence Numbers</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/po-processes/cmt-items-po/enter-cmt-qty/viewing_serial_numbers.html">View Serial  Numbers</a></dd>
+</dl>
+
+
+
+
+</div>

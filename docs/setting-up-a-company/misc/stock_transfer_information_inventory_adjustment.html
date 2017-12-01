@@ -1,0 +1,40 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="stock-transfer-information---inventory-adjustment">Stock Transfer Information - Inventory Adjustment</h1>
+
+<p>Select stock area to transfer inventory written off</p>
+
+<p><strong>Inventory Adjustment</strong></p>
+
+<p>When you write off an inventory item on account of loss or damages,  the item should also be removed from the stock area/bin where it is currently  stocked.</p>
+
+<p>You can set an option for the automatic transfer of written-off inventoried  items to a specified stock area. Use this option to specify the stock  area for transferring such items. Items can be moved into stock areas  that are of type bin and not general level stock areas. When you create  an inventory adjustment document, the item is automatically transferred  to the default stock area in which the items are transferred using the  following rules:</p>
+
+<ul>
+  <li>If a default  stock area for Inventory Adjustment is specified in the <strong>Workstation</strong><strong>Settings</strong> dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Work 
+ Station Settings</strong> &gt; <strong>Stock Areas</strong>  &gt; <strong>Auto-serialize Items/Inventory Adjustments</strong>),  the quantities are assigned to this stock area.</li>
+  <li>If no default  stock areas are defined in the <strong>Workstation</strong><strong>Settings</strong> dialog box, the items  are assigned to the stock area defined for Inventory Adjustment (path:  <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong> &gt; <strong>Location/Sub-Location</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt;  <strong>In New Window</strong> &gt; <strong>Stock 
+ Transfer</strong> &gt; <strong>Inventory Adjustment</strong>  tab).</li>
+</ul>
+
+<p>Select stock bin to transfer items in In-Transit State</p>
+
+<dl>
+  <dt><strong>Stock Transfer Transit State</strong></dt>
+  <dd>Specify the stock bin to temporarily hold transferred  stock during In-Transit state from the <strong>Stock 
+ Transfer In-Transit State</strong> drop-down list. This stock bin should  belong to the origin location. When you specify an In-transit bin for  stock in this tab, the system automatically moves the item to this In-transit  bin during the stock transfer till the transfer is completed. When items  are held in the In-transit bin, the stock at the origin location shows  a decrease in available stock and the requesting location does not show  an increase in available stock. Inventory starts in origin, is moved to  In-transit bin of the origin location; and finally moves to the requesting  location.</dd>
+  <dd>In-transit stock will be assigned to the stock transfer.  You can view the details of In Transit stock by double-clicking on the  SO column in the <strong>Items</strong> browser.  This browser will display both sales orders and stock transfers where  items have been assigned.</dd>
+  <dd>When the status of the stock transfer is changed  to Completed (<strong>Options</strong> &gt; <strong>Process</strong> &gt; <strong>Completed</strong>  from the Stock Transfer profile), the items In transit are automatically  transferred to the To Bin specified in the stock transfer profile. The  Available stock in the origin location shows a decrease and the total  and available stock in the requesting location shows an increase in the  quantity transferred.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/location-details/stock-transfer-information/stock_transfer_information.html">Stock Transfer  Information</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/stock-areas/stock_areas_setup.html">Stock Areas</a></dd>
+</dl>
+
+
+
+
+</div>

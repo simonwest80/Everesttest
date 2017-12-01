@@ -1,0 +1,771 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</head><body>
+<object type="text/site properties">
+	<param name="FrameName" value="_blank">
+	<param name="ExWindow Styles" value="0x100">
+	<param name="Window Styles" value="0x800027">
+<param name="Font" value="Verdana,8,0">
+</object>
+<ul>
+	<li> <object type="text/sitemap">
+		<param name="Name" value="Managing Vendors">
+		</object>
+	<ul>
+		<li> <object type="text/sitemap">
+			<param name="Name" value="Vendors">
+			<param name="Local" value="vendors_introduction_vendors_content.html">
+			</object>
+		<li> <object type="text/sitemap">
+			<param name="Name" value="Vendor Details">
+			</object>
+		<ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Vendor Details">
+				<param name="Local" value="vendor-details\the_vendor_profile_vendors_content.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Vendor Billing Information">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Vendor Billing Address">
+					<param name="Local" value="vendor-details\vendor-billing-information\vendor_billing_information_vendors_content.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Account Code">
+					<param name="Local" value="vendor-details\vendor-billing-information\account_code_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Account Name">
+					<param name="Local" value="vendor-details\vendor-billing-information\account_name_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="First Name and Last Name">
+					<param name="Local" value="vendor-details\vendor-billing-information\first_name_and_last_name_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="City">
+					<param name="Local" value="vendor-details\vendor-billing-information\city_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="State/Province">
+					<param name="Local" value="vendor-details\vendor-billing-information\state_province_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Zip/Postal Code/US FIPS">
+					<param name="Local" value="vendor-details\vendor-billing-information\zip_postal_code_us_fips_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Country">
+					<param name="Local" value="vendor-details\vendor-billing-information\country_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Telephone Code">
+					<param name="Local" value="vendor-details\vendor-billing-information\telephone_code_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Abbreviation">
+					<param name="Local" value="vendor-details\vendor-billing-information\abbreviation_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Telephone Numbers">
+					<param name="Local" value="vendor-details\vendor-billing-information\telephone_numbers_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Apply Masks">
+					<param name="Local" value="vendor-details\vendor-billing-information\apply_masks_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="E-mail ID">
+					<param name="Local" value="vendor-details\vendor-billing-information\e_mail_id_vendor_billing_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Web URL">
+					<param name="Local" value="vendor-details\vendor-billing-information\web_url_vendor_billing_information.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Vendor Addresses">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Addresses">
+					<param name="Local" value="vendor-details\vendor-addresses\address_contact_return_contents_vendors_content.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Billing Address">
+					<param name="Local" value="vendor-details\vendor-addresses\billing_address_address_content_vendors_content.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Return Address">
+					<param name="Local" value="vendor-details\vendor-addresses\return_address_address_content_vendors_content.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Contact Address">
+					<param name="Local" value="vendor-details\vendor-addresses\contact_address_address_content_vendors_content.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Address Preferences">
+					<param name="Local" value="vendor-details\vendor-addresses\address_preferences_address_content_vendors_content.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Accounting Information">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Accounting Information">
+					<param name="Local" value="vendor-details\accounting-information\accounting_information_vendors_content.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Payment Terms">
+					<param name="Local" value="vendor-details\accounting-information\payment_terms_accounting_information_vendors_content.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Credit Limit">
+					<param name="Local" value="vendor-details\accounting-information\credit_limit_accounting_information_vendors_content.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Account Number Assigned by Vendor">
+					<param name="Local" value="vendor-details\accounting-information\account_number_assigned_by_vendor_accounting_information_vendors_content.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Federal ID Number and 1099 Vendor">
+					<param name="Local" value="vendor-details\accounting-information\federal_id_number_and_1099_vendor_accounting_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Remit to Address">
+					<param name="Local" value="vendor-details\accounting-information\account_the_vendor_profile_accounting_remit.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Balance Information">
+					<param name="Local" value="vendor-details\accounting-information\balance_information_accounting_information.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Multicurrency Information">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Multicurrency Information">
+					<param name="Local" value="vendor-details\multicurrency-information\multicurrency_information_vendors_content.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Currency Code">
+					<param name="Local" value="vendor-details\multicurrency-information\currency_code_multi_currency_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Remeasurement Required">
+					<param name="Local" value="vendor-details\multicurrency-information\remeasurement_required_multi_currency_information.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Document Policy">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Document Policy">
+					<param name="Local" value="vendor-details\document-policy\document_policy_vendors_content.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Miscellaneous Information">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Miscellaneous Information - Vendors">
+					<param name="Local" value="vendor-details\miscellaneous-information\miscellaneous_information_vendors_content.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Delivery Method">
+					<param name="Local" value="vendor-details\miscellaneous-information\delivery_method_miscellaneous_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Location/Sub-Location">
+					<param name="Local" value="vendor-details\miscellaneous-information\department_miscellaneous_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Allow Back Order Creation">
+					<param name="Local" value="vendor-details\miscellaneous-information\allow_back_order_creation_vendors.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Comments">
+					<param name="Local" value="vendor-details\miscellaneous-information\comments_miscellaneous_information.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Additional Vendor Information">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Additional Vendor Information">
+					<param name="Local" value="vendor-details\additional-vendor-information\additional_vendor_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Custom Fields">
+					<param name="Local" value="vendor-details\additional-vendor-information\custom_fields_additional_vendor_information.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Multimedia">
+					<param name="Local" value="vendor-details\additional-vendor-information\multimedia_additional_vendor_information.html">
+					</object>
+			</ul>
+		</ul>
+		<li> <object type="text/sitemap">
+			<param name="Name" value="Creating a Vendor">
+			</object>
+		<ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Create a Vendor">
+				<param name="Local" value="creating\setting_up_vendors.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendor Profile">
+				<param name="Local" value="creating\the_vendor_profile_steps_by_steps.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendor Profile - General">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="The Vendor Profile - General">
+					<param name="Local" value="creating\the-vendor-profile-general\the_vendor_profile_general_tab.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="General Information">
+					<param name="Local" value="creating\the-vendor-profile-general\general_information_vendors_profile_general_tab.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Address">
+					<param name="Local" value="creating\the-vendor-profile-general\address_vendor_profile_general_tab.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Contact Information">
+					<param name="Local" value="creating\the-vendor-profile-general\contact_vendor_profile_general_tab.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Apply Formats to Telephone Numbers/Zip Codes">
+					<param name="Local" value="creating\the-vendor-profile-general\apply_formats_to_telephone_numbers_zip_codes_apply_masks_vendors_content.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendor Profile - Address">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="The Vendor Profile - Address">
+					<param name="Local" value="creating\address-tab\the_vendor_profile_address_tab.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Contact Address">
+					<param name="Local" value="creating\address-tab\contact_address_address_tab_vendor_profile.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Return Address">
+					<param name="Local" value="creating\address-tab\return_address_address_tab_vendor_profile.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="The Address Profile">
+					</object>
+				<ul>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Create an Address">
+						<param name="Local" value="creating\address-tab\address\create_an_address_vendor.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="The Address Profile">
+						<param name="Local" value="creating\address-tab\address\the_address_profile_vendor_steps.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="The Address Profile - General">
+						</object>
+					<ul>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="The Address Profile - General (Vendors)">
+							<param name="Local" value="creating\address-tab\address\general\the_address_profile_general_tab_vendors_content_steps.html">
+							</object>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="General Information">
+							<param name="Local" value="creating\address-tab\address\general\the_address_profile_general_information_address_tab_vendor_profile.html">
+							</object>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="Address">
+							<param name="Local" value="creating\address-tab\address\general\the_address_profile_address_general_tab_address_vendor_profile.html">
+							</object>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="Contact Information">
+							<param name="Local" value="creating\address-tab\address\general\the_address_profile_contact_information_general_tab_address_tab_vendors_profile.html">
+							</object>
+					</ul>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="The Address Profile - Others">
+						</object>
+					<ul>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="The Address Profile - Others (Vendors)">
+							<param name="Local" value="creating\address-tab\address\the-address-profile-others\the_address_profile_others_tab_vendors_profile.html">
+							</object>
+					</ul>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="The Address Profile - Custom Fields">
+						</object>
+					<ul>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="The Address Profile - Custom Fields">
+							<param name="Local" value="creating\address-tab\address\custom-fields\the_address_profile_custom_fields_vendors.html">
+							</object>
+					</ul>
+				</ul>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendor Profile - Replenishment">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="The Vendor Profile - Replenishment">
+					<param name="Local" value="creating\the-vendor-profile-replenishment\the_vendor_profile_-_replenishment.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendor Profile - Accounting">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="The Vendor Profile - Accounting">
+					<param name="Local" value="creating\the-vendor-profile-accounting\the_vendor_profile_accounting_tab.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Accounting">
+					<param name="Local" value="creating\the-vendor-profile-accounting\accounting_the_vendor_profile_accounting_accounting.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Balance">
+					<param name="Local" value="creating\the-vendor-profile-accounting\balance_accounting_tab_vendors_profile.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendor Profile - Multicurrency">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="The Vendor Profile - Multi currency">
+					<param name="Local" value="creating\the-vendor-profile-multicurrency\the_vendor_profile_multi_currency_tab.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendor Profile - Document Policy">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="The Vendor Profile - Document Policy">
+					<param name="Local" value="creating\the-vendor-profile-document-policy\the_vendor_profile_document_policy_tab.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendor Profile - Miscellaneous">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="The Vendor Profile - Miscellaneous">
+					<param name="Local" value="creating\the-vendor-profile-miscellaneous\the_vendor_profile_miscellaneous_tab.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendor Profile - Multimedia">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="The Vendor Profile - Multimedia">
+					<param name="Local" value="creating\the-vendor-profile-multimedia\the_vendor_profile_multimedia_tab.html">
+					</object>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendor Profile - Custom Fields">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="The Vendor Profile - Custom Fields">
+					<param name="Local" value="creating\the-vendor-profile-custom-fields\the_vendor_profile_custom_fields_tab.html">
+					</object>
+			</ul>
+		</ul>
+		<li> <object type="text/sitemap">
+			<param name="Name" value="Vendor Profile Options">
+			</object>
+		<ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendor Profile - Options">
+				<param name="Local" value="profile-options\the_vendor_profile_-_options.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Information Available">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Documents">
+					<param name="Local" value="profile-options\info\documents_vendor_profile_options.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Quick Aging">
+					<param name="Local" value="profile-options\info\quick_aging_vendor_profile_options.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="History">
+					</object>
+				<ul>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="History">
+						<param name="Local" value="profile-options\info\history\history_vendor_profile_options.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Item Purchase/Returns">
+						<param name="Local" value="profile-options\info\history\item_purchase_returns_vendor_profile_options.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Account Summary">
+						</object>
+					<ul>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="Account Summary">
+							<param name="Local" value="profile-options\info\history\account-summary\account_summary_vendor_profile_options.html">
+							</object>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="Vendor Summary">
+							<param name="Local" value="profile-options\info\history\account-summary\vendor_summary_account_summary_history_additional_browser_options_vendor_profile.html">
+							</object>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="Periodic Summary">
+							<param name="Local" value="profile-options\info\history\account-summary\periodic_summary_account_summary_history_additional_browser_options_vendor_profile.html">
+							</object>
+					</ul>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="GL Transactions">
+						</object>
+					<ul>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="GL Transactions">
+							<param name="Local" value="profile-options\info\history\gl-transactions\gl_transactions_vendor_profile_options.html">
+							</object>
+					</ul>
+				</ul>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Other Options">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="View Formatted Address">
+					<param name="Local" value="profile-options\other-options\view_formatted_address_vendor_profile_options.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Modify Address">
+					<param name="Local" value="profile-options\other-options\modify_address_vendor_profile_options.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Vendor Tracking">
+					<param name="Local" value="profile-options\other-options\vendor_tracking_vendor_profile_options.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Events History">
+					<param name="Local" value="profile-options\other-options\events_history_vendor_browser_option.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Send E-mail">
+					<param name="Local" value="profile-options\other-options\send_email_vendor_profile_options.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Go to Website">
+					<param name="Local" value="profile-options\other-options\goto_website_vendor_profile_options.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Contact Manager">
+					<param name="Local" value="profile-options\other-options\contact_manager_vendor_profile_options.html">
+					</object>
+			</ul>
+		</ul>
+		<li> <object type="text/sitemap">
+			<param name="Name" value="Modifying a Vendor Profile">
+			</object>
+		<ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Modify a Vendor Profile">
+				<param name="Local" value="modifying-a-vendor-profile\modifying_vendor_information_vendor_profile.html">
+				</object>
+		</ul>
+		<li> <object type="text/sitemap">
+			<param name="Name" value="Discontinuing a Vendor">
+			</object>
+		<ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Discontinue a Vendor">
+				<param name="Local" value="discontinuing-a-vendor\discontinue_a_vendor.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="View and Activate a Discontinued Vendor">
+				<param name="Local" value="discontinuing-a-vendor\view_and_activate_a_discontinued_vendor.html">
+				</object>
+		</ul>
+		<li> <object type="text/sitemap">
+			<param name="Name" value="Vendors Browser">
+			</object>
+		<ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendors Browser">
+				<param name="Local" value="vendors-browser\the_vendor_browser.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Information Available">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Documents">
+					<param name="Local" value="vendors-browser\info\documents_additional_browser_options_vendor_profile.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Quick Aging">
+					<param name="Local" value="vendors-browser\info\quick_aging_additional_browser_options_vendor_profile.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="History">
+					</object>
+				<ul>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="History">
+						<param name="Local" value="vendors-browser\info\history\history_additional_browser_options_vendor_profile.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Item Purchase/Returns">
+						<param name="Local" value="vendors-browser\info\history\item_purchase_returns_history_additional_browser_options_vendor_browser.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Account Summary">
+						</object>
+					<ul>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="Account Summary">
+							<param name="Local" value="vendors-browser\info\history\account-summary\account_summary_history_additional_browser_options_vendor_browser.html">
+							</object>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="Vendor Summary">
+							<param name="Local" value="vendors-browser\info\history\account-summary\vendor_summary_account_summary_history_additional_browser_options_vendor_profile.html">
+							</object>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="Periodic Summary">
+							<param name="Local" value="vendors-browser\info\history\account-summary\periodic_summary_account_summary_history_additional_browser_options_vendor_profile.html">
+							</object>
+					</ul>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="GL Transactions">
+						</object>
+					<ul>
+						<li> <object type="text/sitemap">
+							<param name="Name" value="GL Transactions">
+							<param name="Local" value="vendors-browser\info\history\gl-transactions\gl_transactions_history_additional_browser_options_vendor_browser.html">
+							</object>
+					</ul>
+				</ul>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Other Options">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Custom Fields">
+					<param name="Local" value="vendors-browser\other-options\custom_fields_additional_browser_options_vendor_profile.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="MultiMedia">
+					<param name="Local" value="vendors-browser\other-options\multimedia_browser_additional_browser_options_vendor_profile.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Multiple Payments">
+					<param name="Local" value="vendors-browser\other-options\multiple_payments_vendor_browser_options.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Vendor Tracking">
+					<param name="Local" value="vendors-browser\other-options\vendor_tracking_additional_browser_options_vendor_profile.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Geographical Mapping">
+					<param name="Local" value="vendors-browser\other-options\geographical_mapping_vendor_profile_browser.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="View Employee">
+					<param name="Local" value="vendors-browser\other-options\view_employee_vendor_browser_option.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Replenishment Details">
+					<param name="Local" value="vendors-browser\other-options\replenishment_details_options_vendor_browser.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Print Label">
+					<param name="Local" value="vendors-browser\other-options\print_label_additional_browser_options_vendor_browser.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Print Statement">
+					<param name="Local" value="vendors-browser\other-options\print_statement_vendor_browser_options.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Events History">
+					<param name="Local" value="vendors-browser\other-options\events_history_vendor_browser_option.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Go to Website">
+					<param name="Local" value="vendors-browser\other-options\goto_website_additional_browser_options_vendor_browser.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="E-Mail">
+					<param name="Local" value="vendors-browser\other-options\e_mail_vendor_browser_options.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Contact Manager">
+					<param name="Local" value="vendors-browser\other-options\contact_manager_additional_browser_options_vendor_browser.html">
+					</object>
+			</ul>
+		</ul>
+		<li> <object type="text/sitemap">
+			<param name="Name" value="Vendor Flow Control and Defaults">
+			</object>
+		<ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Vendor Preferences">
+				<param name="Local" value="vendor-flow-control-and-defaults\vendor_preferences.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Vendor Flow Control">
+				<param name="Local" value="vendor-flow-control-and-defaults\vendor_flow_control.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Vendor Defaults">
+				<param name="Local" value="vendor-flow-control-and-defaults\vendor_defaults_vendors_content.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="The Vendors Dialog Box">
+				<param name="Local" value="vendor-flow-control-and-defaults\the_vendors_dialog_box_vendors_content.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Other Defaults">
+				<param name="Local" value="vendor-flow-control-and-defaults\other_defaults_vendors_content.html">
+				</object>
+		</ul>
+		<li> <object type="text/sitemap">
+			<param name="Name" value="Finding Vendors">
+			</object>
+		<ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Find Vendors">
+				<param name="Local" value="finding-vendors\find_vendors_vendors_content.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Use an Existing Filter">
+				<param name="Local" value="finding-vendors\use_an_existing_filter.html">
+				</object>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Find Vendor Details">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Filter Name">
+					</object>
+				<ul>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Filter Name">
+						<param name="Local" value="finding-vendors\find-vendor-details\filter-name\filter_name_find_vendors_dialog_box_find_vendors_content.html">
+						</object>
+				</ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="More Choices">
+					</object>
+				<ul>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="More Choice Details">
+						<param name="Local" value="finding-vendors\find-vendor-details\more-choices\more_choice_tab_find_vendors_dialog_box_vendors_content.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="City">
+						<param name="Local" value="finding-vendors\find-vendor-details\more-choices\city_find_vendors_dialog_more_choices_content.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="State">
+						<param name="Local" value="finding-vendors\find-vendor-details\more-choices\state_find_vendors_dialog_more_choices_content.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Zip Code">
+						<param name="Local" value="finding-vendors\find-vendor-details\more-choices\zip_code_find_vendors_dialog_more_choices_content.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Country">
+						<param name="Local" value="finding-vendors\find-vendor-details\more-choices\country_find_vendors_dialog_more_choices_content.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Created Date">
+						<param name="Local" value="finding-vendors\find-vendor-details\more-choices\created_date_find_vendors_dialog_box_more_choices_tab_vendors_content.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Balance in Base Currency">
+						<param name="Local" value="finding-vendors\find-vendor-details\more-choices\balance_in_base_currency_find_vendors_dialog_box_more_choices_vendors_content.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Balance in Vendor Currency">
+						<param name="Local" value="finding-vendors\find-vendor-details\more-choices\balance_in_vendor_currency_find_vendors_dialog_box_more_choices_vendor_content.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="Payment Terms">
+						<param name="Local" value="finding-vendors\find-vendor-details\more-choices\payment_terms_find_vendors_dialog_box_more_choices_vendors_content.html">
+						</object>
+					<li> <object type="text/sitemap">
+						<param name="Name" value="User Created">
+						<param name="Local" value="finding-vendors\find-vendor-details\more-choices\user_created_find_vendors_dialog_box_vendors_more_choices_content.html">
+						</object>
+				</ul>
+			</ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Create New Filters">
+				</object>
+			<ul>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Create a New Filter">
+					<param name="Local" value="finding-vendors\create-new-filters\create_a_new_filter_find_vendors_step_by_step.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="The Find Vendors Dialog Box">
+					<param name="Local" value="finding-vendors\create-new-filters\the_find_vendors_dialog_box_step_by_step.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Find Vendors - Quick Find">
+					<param name="Local" value="finding-vendors\create-new-filters\find_vendors_quick_find_find_vendors_step_by_step.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Find Vendors - More Choices">
+					<param name="Local" value="finding-vendors\create-new-filters\find_vendors_more_choices_tab_find_vendors_step_by_step.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Find Vendors - Custom Field">
+					<param name="Local" value="finding-vendors\create-new-filters\find_vendors_custom_field_step_by_step.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Find Vendors - Advanced Find">
+					<param name="Local" value="finding-vendors\create-new-filters\find_vendors_advanced_find_step_by_step.html">
+					</object>
+				<li> <object type="text/sitemap">
+					<param name="Name" value="Find Vendors - Query">
+					<param name="Local" value="finding-vendors\create-new-filters\find_vendors_query_step_by_step.html">
+					</object>
+			</ul>
+		</ul>
+		<li> <object type="text/sitemap">
+			<param name="Name" value="Reports">
+			</object>
+		<ul>
+			<li> <object type="text/sitemap">
+				<param name="Name" value="Vendor Reports">
+				<param name="Local" value="reports\vendor_reports.html">
+				</object>
+		</ul>
+	</ul>
+</ul>
+</body></html>

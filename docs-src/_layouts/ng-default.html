@@ -1,0 +1,13 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "{{site.baseurl}}/";
+</script>
+<div class="content">
+{{ content }}
+
+{% if page.name == "index.md" and page.url != "/" %}
+    {% include sec-description.html %}
+{% endif %}
+
+</div>

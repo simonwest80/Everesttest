@@ -1,0 +1,48 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="job-explorer---right-panel">Job Explorer - Right Panel</h1>
+
+<p>The right panel includes a header section and a grid section, and displays  the details of the job code selected in the left panel.</p>
+
+<p>The header section contains the following fields:</p>
+
+<dl>
+  <dt><strong>Job Start Date/Job End Date</strong></dt>
+  <dd>These fields display the start and end dates of  the selected job code.</dd>
+  <dt><strong>Status</strong></dt>
+  <dd>This field displays the status of the selected job  code.</dd>
+  <dt><strong>Estimated Revenue</strong></dt>
+  <dd>This field displays the estimated revenue for the  selected job code, as specified in the <strong>Job 
+ Costing</strong> profile.</dd>
+  <dt><strong>Revenue Surplus/Deficit</strong></dt>
+  <dd>This field displays the revenue surplus or deficit  for the job code. This value is the difference between the Total Actual  Revenue and the Estimated Revenue. A positive value indicates surplus  revenue and a negative value means it is a deficit.</dd>
+  <dt><strong>Estimated Cost</strong></dt>
+  <dd>This field displays the estimated expense for the  selected job code as specified in the <strong>Job 
+ Costing</strong> profile.</dd>
+  <dt><strong>Cost Saving/Overrun</strong></dt>
+  <dd>This field displays the difference between the Estimated  Cost and the Total Actual Expense. If the result is a positive value,  it is a saving. A negative value indicates an overrun.</dd>
+</dl>
+
+<p>The grid on the right panel displays the list of all documents associated  with a job code in the document. The Quantity field for a purchase invoice  refers to the invoiced quantity; for a purchase order it refers to the  ordered less the invoiced quantity. The Net Amount is calculated as follows:</p>
+
+<p><strong>For Sales and Credit Documents</strong></p>
+
+<p>Net Amount = (Item Price/Unit - Discount value - Cost/Unit) * Quantity</p>
+
+<p><strong>For Purchase and Debit Documents</strong></p>
+
+<p>Net Amount = (Cost/Unit - Discount per unit) * Quantity</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/job-costing/job-explorer/job_explorer.html">Job Explorer</a></dd>
+</dl>
+
+
+
+
+</div>

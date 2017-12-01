@@ -1,0 +1,59 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="customer-currency-section---details">Customer Currency Section - Details</h1>
+
+<dl>
+  <dt><strong>Customer currency</strong></dt>
+  <dd>The currency of the customer (which is also the  document currency) as defined in the <strong>Customer</strong> profile (path: <strong>Invoicing &gt; 
+ Customers</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Multicurrency</strong>tab) is displayed.</dd>
+  <dt><strong>Source currency</strong></dt>
+  <dd>The source currency depends on the <strong>Quote 
+ type</strong> specified in the <strong>Currency</strong>  profile (path: <strong>File &gt; Setup &gt; Accounting 
+ &gt; Multi - Currency &gt; Currency</strong>). If the rate is expressed  from <strong>foreign to base</strong>, then the  source currency displayed is the customer currency. If the rate is expressed  from <strong>base to foreign</strong>, the base  currency is displayed in this field.</dd>
+</dl>
+
+<p class="example"><strong>Based on 
+ the example given in the</strong> <a href="/versata-everest-docs/accounting/misc/example_cross_currency_calculations_receipts.html"><strong>Example - Cross Currencies Calculations</strong></a> <strong>section, if GBP 
+ is expressed in terms of USD (i.e. the quote type is foreign to base), 
+ GBP is displayed 
+ as the source currency.</strong></p>
+
+<p>If USD is expressed in terms of GBP  (i.e. the quote type is base to foreign), USD is displayed as the source  currency.</p>
+
+<dl>
+  <dt><strong>Exchange rate</strong></dt>
+  <dd>The current exchange rate defined in <strong>Exchange 
+ Rates</strong> profile (path: <strong>File &gt; 
+ Setup &gt; Accounting &gt; Multi - Currency &gt; Exchange Rates &gt; Options 
+ &gt; Edit &gt; In New Window</strong>) between the customer currency and  the base is displayed.</dd>
+  <dd>You can change this rate if required. Correspondingly  the foreign amount of the customer currency section also changes. The  transaction amount for the journal entry in the <strong>General</strong>  tab of the <strong>Receipt Journal</strong> profile  also changes.</dd>
+  <dt><strong>Destination currency</strong></dt>
+  <dd>The destination currency depends on the <strong>Quote 
+ type</strong> specified in the <strong>Currency</strong> profile. If the rate is expressed from <strong>foreign 
+ to base</strong>, then the destination currency displayed is the base currency.  If the rate is expressed from <strong>base to 
+ foreign</strong>, the customer currency is displayed in this field.</dd>
+</dl>
+
+<p class="example"><strong>B</strong>ased  on the example given in the <a href="/versata-everest-docs/accounting/misc/example_cross_currency_calculations_receipts.html"><strong>Example - Cross Currencies Calculations</strong></a>  section, if GBP  is expressed in terms of USD (i.e. the quote type is foreign to base),  GBP is displayed  as the destination currency.</p>
+
+<p>If USD is expressed in terms of GBP  (i.e. the quote type is base to foreign), USD is displayed as the destination  currency.</p>
+
+<dl>
+  <dt><strong>Foreign amount</strong></dt>
+  <dd>The amount in customer’s currency appearing in the  <strong>General</strong> tab of the <strong>Receipt 
+ Journal</strong> profile is automatically displayed in this field.</dd>
+  <dd>This amount can be edited as required. When you  edit this amount, the <strong>Foreign Amount</strong>  fields of the bank currency and payment currency sections get updated  automatically, using the existing exchange rates. The amounts in the <strong>General</strong> tab of the <strong>Receipt 
+ Journal</strong> profile also get updated.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/customer_currency_section_step_by_step_receipt_journal_profile.html">Customer  Currency Section</a></dd>
+</dl>
+
+
+
+
+</div>

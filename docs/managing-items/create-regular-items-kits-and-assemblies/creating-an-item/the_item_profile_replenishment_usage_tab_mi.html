@@ -1,0 +1,56 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-item-profile---replenishment---usage-tab">The Item Profile - Replenishment - Usage Tab</h1>
+
+<p>Specify item usage details on the <strong>Usage</strong>  tab. These details are used for inventory planning with the <strong>Everest 
+ Inventory Planning Wizard</strong>.</p>
+
+<dl>
+  <dt>Usage Type</dt>
+  <dd>Indicate whether the item is a regular or seasonal  item. This makes a difference while calculating the usage class or quantity  in the Everest Inventory Planning Wizard since the sales history period  used for inventory planning is calculated differently for each.</dd>
+  <dt><strong>Regular</strong></dt>
+  <dd>Select this option if the item is normally sold  throughout the year.</dd>
+  <dt><strong>Seasonal</strong></dt>
+  <dd>Select this option if the item is normally sold  in a particular season or a specific time period.</dd>
+  <dt><strong>Usage Class</strong></dt>
+  <dd>This field automatically populates with the Usage  Class determined by the Inventory Planning Wizard. You can change the  usage class, if required.</dd>
+  <dt><strong>Freeze usage class</strong></dt>
+  <dd>Select this checkbox if you do not want the Usage  Class to be updated by the Inventory Planning Wizard the next time that  the utility is run. If this checkbox is not selected, it will be automatically  updated when the utility is run the next time.</dd>
+  <dd>If a usage class is deleted in the Inventory Planning  Wizard and this option is checked, the deleted usage class will still  be assigned. If this option is not checked, the deleted usage class will  be replaced with another class after running the utility.</dd>
+  <dt><strong>Calculated usage</strong></dt>
+  <dd>This field populates directly from the Inventory  Planning Wizard and is a display-only field. The following formula is  used to calculate this value:</dd>
+  <dd>Total Quantity sold for this item in the  indicated number of history periods (defined in the Inventory Planning  Wizard)</dd>
+</dl>
+
+<ul class="note">
+  <li>The history period  used in the calculation depends upon whether the item is a seasonal or  regular item.</li>
+  <li>The total quantity  sold is based on the stock measure.</li>
+  <li>
+    <dl>
+      <dt>It is the gross  number of units considering only the sales invoice (without considering  the returns).</dt>
+      <dd>The automated purchasing feature does not use the  Calculated Usage field.</dd>
+    </dl>
+  </li>
+</ul>
+
+<dl>
+  <dt><strong>Usage quantity</strong></dt>
+  <dd>This field displays the modified usage quantity  and is for internal reference only. The Usage Quantity field is not used  for the automated purchasing feature or by the Inventory Planning Wizard.  Inventory Planning Wizard calculations only consider the Calculated Usage  field.</dd>
+  <dd>You can change the quantity in this field up to  2 decimal places. You may want to update the Usage Quantity field to match  a standard usage quantity.</dd>
+</dl>
+
+<p class="example">The Inventory Planning Wizard automatically  populated the Calculated Usage field as 22.30 based on the criteria selected  in the wizard. Since a standard crate has 24 units and it is easier to  source for a crate of items, the Purchasing Department changed the Usage  Quantity field to 24 to give them an indication of average consumption  for their internal reference.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item/the_item_profile_-_replenishment.html">The  Item Profile - Replenishment</a></dd>
+</dl>
+
+
+
+
+</div>

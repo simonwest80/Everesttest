@@ -1,0 +1,66 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---stock-transfer">Back End Processes - Stock transfer</h1>
+
+<p>When you transfer stock, the stock status of the ‘from’ and  ‘to’ stock areas shows the following changes:</p>
+
+<ul>
+  <li>Stock area from which  items are transferred - The quantity in Stock and Available columns is  reduced.</li>
+  <li>Stock area to which  items are transferred - The quantity in Stock and Available columns is  increased.</li>
+  <li>An entry is made  for serial numbers transferred in the Serial number history browser.</li>
+</ul>
+
+<p>A company that transfers stock across locations can track  stock that is in transit through the stock transfer profile (Select <strong>Options</strong> &gt; <strong>New 
+ Request</strong> &gt; <strong>In New Window</strong>  from the <strong>Stock Transfer</strong> profile).</p>
+
+<p>The stock status changes during the three different stages  of stock transfer - Request, In-Transit and Completed.</p>
+
+<p><strong>Stock Transfer - Request stage</strong></p>
+
+<p>Stock that is in Request stage is specified in this profile.  The status of the Available stock during Request stage:</p>
+
+<ul>
+  <li>Requesting location  - Total and Available Stock (No decrease)</li>
+  <li>Origin Location  - Total and Available Stock (No increase)</li>
+</ul>
+
+<p><strong>Stock Transfer - In-Transit stage</strong></p>
+
+<p>Stock is temporarily transferred to the In-transit bin specified  in the flow control preferences during this stage. (<strong>Locations</strong>  profile &gt; <strong>Stock Transfer</strong> &gt;  <strong>Inventory Adjustment</strong> &gt; <strong>Stock Transfer Transit State</strong> field).</p>
+
+<p>The status of the Available quantity of stock during In-Transit  stage:</p>
+
+<ul>
+  <li><strong>Origin 
+ Location</strong> - Available stock decreases by transferred quantity</li>
+  <li><strong>Requesting 
+ Location</strong> - No increase due to transfer in Available stock</li>
+</ul>
+
+<p><strong>Stock Transfer - Completed Stage</strong></p>
+
+<p>Stock is again moved from the In-transit bin to the To Bin  of the Requesting Location during this stage. The status of the Available  stock during Completed stage:</p>
+
+<ul>
+  <li><strong>Origin 
+ Location</strong> - Total and Available stock decreases by stock transferred  (Available Stock minus Stock Transferred)</li>
+  <li><strong>Requesting 
+ Location</strong> - Total and Available stock  increases  by stock transferred (Available Stock plus Stock Transferred)</li>
+</ul>
+
+<p>You can specify an In-transit bin for automatically transferring  stock In Transit from the Stock Transfer Transit State drop-down list  in <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location/Sub-Location</strong>  profile &gt; <strong>Stock Transfer</strong> &gt;  <strong>Inventory Adjustment</strong> tab.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/misc/tracking_stocks_in_transit.html">Tracking  Stock-in-Transit</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/other-flow-control/the-other-flow-control-dialog-box/other_flow_control_general_tab_step_by_step.html">Other  Flow Control</a></dd>
+</dl>
+
+
+
+
+</div>

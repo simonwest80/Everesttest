@@ -1,0 +1,61 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="opening-account-balances">Opening Account Balances</h1>
+
+<p>In case you are switching to <strong>Everest</strong>  from another accounting software or a manual accounting system, all accounts  with a balance have to be entered into <strong>Everest</strong>.  The account balances are entered in the <a href="/versata-everest-docs/setting-up-a-company/the-company-creation-wizard/accounting/accounting_coa_balances.html">Accounting  COA Balances</a> section.</p>
+
+<p>Balances of accounts receivable and accounts payable, and inventory  are automatically initialized when the inventory value, open customer  invoices and open vendor invoices are entered.</p>
+
+<p>Since you do not enter the balances for the above mentioned three accounts,  there will be a difference between the total debits and total credits  which is automatically assigned to the <strong>Unreconciled 
+ Difference</strong> account (specified in <strong>Unreconciled 
+ Difference</strong> field in the <strong>File &gt; 
+ Setup &gt; Preferences &gt; Defaults &gt; Accounting &gt; Accounts &gt; 
+ Other Accounts</strong> tab). <font color="#000000" class="hcp2">The Unreconciled Difference 
+ Account is automatically narrowed down when the value of items, accounts 
+ receivable and accounts payable balances are entered into <span class="hcp1">Everest</span>.</font></p>
+
+<p>The following accounting entry is created:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Account <br /> type</strong></td>
+      <td><strong>Debit/Credit</strong></td>
+    </tr>
+    <tr>
+      <td><font color="#000000" class="hcp2">Expenses accounts</font></td>
+      <td><font color="#000000" class="hcp2">Debit</font></td>
+    </tr>
+    <tr>
+      <td><font color="#000000" class="hcp2">Assets accounts (excluding Accounts <br /> Receivable and Inventory Control accounts)</font></td>
+      <td><font color="#000000" class="hcp2">Debit</font></td>
+    </tr>
+    <tr>
+      <td><font color="#000000" class="hcp2">Liabilities accounts (excluding Accounts <br /> Payable Control accounts)</font></td>
+      <td><font color="#000000" class="hcp2">Credit</font></td>
+    </tr>
+    <tr>
+      <td><font color="#000000" class="hcp2">Unreconciled accounts (if the value <br /> of assets is greater than the liabilities)</font></td>
+      <td><font color="#000000" class="hcp2">Credit</font></td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">The accounting entry that is generated for  the opening balance bears the date of the first day in the fiscal year.</p>
+
+<p>When you switch to <strong>Everest</strong>,  designate a switch-over date. All transactions between the opening balance  date (i.e., the date when you draw up your trial balance) and the date  of switch-over will have to be re-entered in <strong>Everest</strong>.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/the-company-creation-wizard/inventory/inventory1.html">Inventory information</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/the-company-creation-wizard/accounting/accounting_information_setupco.html">Accounting  information</a></dd>
+</dl>
+
+
+
+
+</div>

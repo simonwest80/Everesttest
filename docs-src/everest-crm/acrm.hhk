@@ -1,0 +1,572 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="action">
+    <param name="Name" value="Create Task/Appointment">
+    <param name="Local" value="misc\create_task_appointment.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create task/appointment">
+      <param name="Name" value="Create Task/Appointment">
+      <param name="Local" value="misc\create_task_appointment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="print letter/memo">
+      <param name="Name" value="Print Letter/Memo">
+      <param name="Local" value="misc\print_letter_memo.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="print reports">
+      <param name="Name" value="Print Reports">
+      <param name="Local" value="misc\print_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="run another application">
+      <param name="Name" value="Run Another Application">
+      <param name="Local" value="misc\run_another_application.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="send email">
+      <param name="Name" value="Send E-mail">
+      <param name="Local" value="misc\send_e_mail.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="activate">
+    <param name="Name" value="Activate a Discontinued Activity">
+    <param name="Local" value="standard-crm\bam\activity\activate_a_discontinued_activity.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued activity">
+      <param name="Name" value="Activate a Discontinued Activity">
+      <param name="Local" value="standard-crm\bam\activity\activate_a_discontinued_activity.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued customer/vendor category">
+      <param name="Name" value="Activate a Discontinued Customer/Vendor Category">
+      <param name="Local" value="standard-crm\bam\customer-vendor-category\activate_a_discontinued_customer_vendor_category.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued process">
+      <param name="Name" value="Activate a Discontinued Process">
+      <param name="Local" value="standard-crm\bam\processes\activate_a_discontinued_process.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinued template">
+      <param name="Name" value="Activate a Discontinued Template">
+      <param name="Local" value="standard-crm\bam\templates\activate_a_discontinued_template.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="activity">
+    <param name="Name" value="Processes/Activities">
+    <param name="Local" value="standard-crm\bam\processes\processes_activities.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="activity execution schedule">
+    <param name="Name" value="Activity Execution Schedule">
+    <param name="Local" value="standard-crm\bam\activity\monitoring-activities\activity_execution_schedule.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="daily frequency">
+      <param name="Name" value="Daily Frequency">
+      <param name="Local" value="misc\daily_frequency_crm_scheduling_activity.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="duration">
+      <param name="Name" value="Duration">
+      <param name="Local" value="misc\duration_crm_scheduling_activity.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="occurs">
+      <param name="Name" value="Occurs">
+      <param name="Local" value="misc\occurs_crm_scheduling_activity.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="activity history">
+    <param name="Name" value="Activity History">
+    <param name="Local" value="standard-crm\bam\activity\monitoring-activities\activity_history.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="activity monitoring">
+    <param name="Name" value="Monitor Activities">
+    <param name="Local" value="standard-crm\bam\activity\monitoring-activities\monitor_activities.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="activity profile">
+    <param name="Name" value="The Activity Profile">
+    <param name="Local" value="standard-crm\bam\activity\the_activity_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Define Activities">
+      <param name="Local" value="standard-crm\bam\activity\define_activities.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="define">
+      <param name="Name" value="Define Activities">
+      <param name="Local" value="standard-crm\bam\activity\define_activities.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify an Activity">
+      <param name="Local" value="misc\modify_an_activity.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advantages of CRM studio">
+    <param name="Name" value="Advantages of CRM Studio">
+    <param name="Local" value="crm-studio\advantages_of_crm_studio.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="business activity monitoring">
+    <param name="Name" value="Business Activity Monitoring">
+    <param name="Local" value="standard-crm\bam\business_activity_monitoring.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="configuration">
+      <param name="Name" value="Configuration">
+      <param name="Local" value="standard-crm\bam\configuration_business_activity_monitoring.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="change activity sequence">
+    <param name="Name" value="Changing Activity Sequence">
+    <param name="Local" value="misc\changing_activity_sequence.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="configuration">
+    <param name="Name" value="Configuration">
+    <param name="Local" value="standard-crm\bam\configuration_business_activity_monitoring.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="business activity monitoring">
+      <param name="Name" value="Configuration">
+      <param name="Local" value="standard-crm\bam\configuration_business_activity_monitoring.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="CRM studio">
+      <param name="Name" value="Configuration - CRM Studio">
+      <param name="Local" value="crm-studio\configuration_crm_studio.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="copying events">
+    <param name="Name" value="Copying Events">
+    <param name="Local" value="misc\copying_events.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="create">
+    <param name="Name" value="Define Activities">
+    <param name="Local" value="standard-crm\bam\activity\define_activities.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="activity">
+      <param name="Name" value="Define Activities">
+      <param name="Local" value="standard-crm\bam\activity\define_activities.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="process">
+      <param name="Name" value="Define Processes">
+      <param name="Local" value="standard-crm\bam\processes\define_processes.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="task/appointment">
+      <param name="Name" value="Create Task/Appointment">
+      <param name="Local" value="misc\create_task_appointment.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="template">
+      <param name="Name" value="Templates">
+      <param name="Local" value="standard-crm\bam\templates\templates.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="CRM">
+    <param name="Name" value="What is CRM?">
+    <param name="Local" value="what_is_crm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="CRM installation">
+    <param name="Name" value="CRM Installation">
+    <param name="Local" value="crm_installation.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="CRM studio">
+    <param name="Name" value="CRM Studio">
+    <param name="Local" value="crm-studio\advanced_crm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer category">
+    <param name="Name" value="Customer/Vendor Category">
+    <param name="Local" value="standard-crm\bam\customer-vendor-category\customer_vendor_category.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer category profile">
+    <param name="Name" value="The Customer/Vendor Category Profile">
+    <param name="Local" value="standard-crm\bam\customer-vendor-category\the_customer_vendor_category_profile.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer relationship management">
+    <param name="Name" value="What is CRM?">
+    <param name="Local" value="what_is_crm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer/vendor category browser">
+    <param name="Name" value="The Customer/Vendor Category Browser">
+    <param name="Local" value="standard-crm\bam\customer-vendor-category\the_customer_vendor_category_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customizing attachment templates">
+    <param name="Name" value="Customizing Attachment Templates">
+    <param name="Local" value="misc\customizing_attachment_templates.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="define">
+    <param name="Name" value="Define Activities">
+    <param name="Local" value="standard-crm\bam\activity\define_activities.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="activity">
+      <param name="Name" value="Define Activities">
+      <param name="Local" value="standard-crm\bam\activity\define_activities.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="process">
+      <param name="Name" value="Define Processes">
+      <param name="Local" value="standard-crm\bam\processes\define_processes.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="discontinue">
+    <param name="Name" value="Discontinue an Activity">
+    <param name="Local" value="standard-crm\bam\activity\discontinue_an_activity.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="activity">
+      <param name="Name" value="Discontinue an Activity">
+      <param name="Local" value="standard-crm\bam\activity\discontinue_an_activity.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customer/vendor category">
+      <param name="Name" value="Discontinue a Customer/Vendor Category">
+      <param name="Local" value="standard-crm\bam\customer-vendor-category\discontinue_a_customer_vendor_category.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="process">
+      <param name="Name" value="Discontinue a Process">
+      <param name="Local" value="standard-crm\bam\processes\discontinue_a_process.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="template">
+      <param name="Name" value="Discontinue a Template">
+      <param name="Local" value="standard-crm\bam\templates\discontinue_a_template.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="event pack">
+    <param name="Name" value="Pre-defined Events">
+    <param name="Local" value="crm-studio\pre-defined_events.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="events in CRM Studio">
+    <param name="Name" value="Pre-defined Events">
+    <param name="Local" value="crm-studio\pre-defined_events.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest CRM">
+    <param name="Name" value="Features of Everest CRM">
+    <param name="Local" value="features_of_everest_crm.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="features">
+      <param name="Name" value="Features of Everest CRM">
+      <param name="Local" value="features_of_everest_crm.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="scope">
+      <param name="Name" value="Scope of CRM in Everest">
+      <param name="Local" value="scope_of_crm_in_everest.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="features of Everest CRM">
+    <param name="Name" value="Features of Everest CRM">
+    <param name="Local" value="features_of_everest_crm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find activities">
+    <param name="Name" value="Find Activities">
+    <param name="Local" value="standard-crm\bam\activity\find-function\find-activities\find_activities.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find activity history">
+    <param name="Name" value="Find Activity History">
+    <param name="Local" value="standard-crm\bam\activity\find-function\find-activity-history\find_activity_history.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="history of activities">
+    <param name="Name" value="Activity History">
+    <param name="Local" value="standard-crm\bam\activity\monitoring-activities\activity_history.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="installation of Everest CRM">
+    <param name="Name" value="CRM Installation">
+    <param name="Local" value="crm_installation.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="limitations of system events">
+    <param name="Name" value="Limitations of System Events">
+    <param name="Local" value="misc\limitations_of_system_events.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="modify">
+    <param name="Name" value="Modify an Activity">
+    <param name="Local" value="misc\modify_an_activity.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="activity">
+      <param name="Name" value="Modify an Activity">
+      <param name="Local" value="misc\modify_an_activity.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="process">
+      <param name="Name" value="Modify a Process">
+      <param name="Local" value="standard-crm\bam\processes\modify_a_process.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="template">
+      <param name="Name" value="Modify the Template Profile">
+      <param name="Local" value="standard-crm\bam\templates\modify_the_templates_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="monitoring activity">
+    <param name="Name" value="Monitor Activities">
+    <param name="Local" value="standard-crm\bam\activity\monitoring-activities\monitor_activities.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="opportunity management">
+    <param name="Name" value="Opportunity Management">
+    <param name="Local" value="standard-crm\opportunity-management\opportunity_management.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="pre-defined events">
+    <param name="Name" value="Pre-defined Events">
+    <param name="Local" value="crm-studio\pre-defined_events.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="print letter/memo">
+    <param name="Name" value="Print Letter/Memo">
+    <param name="Local" value="misc\print_letter_memo.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="print reports">
+    <param name="Name" value="Print Reports">
+    <param name="Local" value="misc\print_reports.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="print reports dialog box">
+    <param name="Name" value="Print Reports">
+    <param name="Local" value="misc\print_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general">
+      <param name="Name" value="Print Reports - General">
+      <param name="Local" value="misc\print_reports_general.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reports">
+      <param name="Name" value="Print Reports - Reports">
+      <param name="Local" value="misc\print_reports_reports.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="process">
+    <param name="Name" value="Processes/Activities">
+    <param name="Local" value="standard-crm\bam\processes\processes_activities.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="process activity browser">
+    <param name="Name" value="Process Activity Browser">
+    <param name="Local" value="misc\process_activity_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="process profile">
+    <param name="Name" value="The Process Profile">
+    <param name="Local" value="standard-crm\bam\processes\the_process_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="activate">
+      <param name="Name" value="Activate a Discontinued Process">
+      <param name="Local" value="standard-crm\bam\processes\activate_a_discontinued_process.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Define Processes">
+      <param name="Local" value="standard-crm\bam\processes\define_processes.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="define">
+      <param name="Name" value="Define Processes">
+      <param name="Local" value="standard-crm\bam\processes\define_processes.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue a Process">
+      <param name="Local" value="standard-crm\bam\processes\discontinue_a_process.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify a Process">
+      <param name="Local" value="standard-crm\bam\processes\modify_a_process.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="process/activities browser">
+    <param name="Name" value="Process/Activities Browser">
+    <param name="Local" value="standard-crm\bam\processes\process_activities_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="run another application">
+    <param name="Name" value="Run Another Application">
+    <param name="Local" value="misc\run_another_application.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="scheduling activities">
+    <param name="Name" value="Activity Execution Schedule">
+    <param name="Local" value="standard-crm\bam\activity\monitoring-activities\activity_execution_schedule.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="send email">
+    <param name="Name" value="Send E-mail">
+    <param name="Local" value="misc\send_e_mail.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="send email setup dialog box">
+    <param name="Name" value="Send E-mail">
+    <param name="Local" value="misc\send_e_mail.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="address options">
+      <param name="Name" value="Send E-mail Setup - Address Options">
+      <param name="Local" value="misc\send_e_mail_setup_additional_addresses.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general">
+      <param name="Name" value="Send E-mail Setup - General">
+      <param name="Local" value="misc\send_e_mail_setup_general.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="set up CRM studio">
+    <param name="Name" value="Setting up CRM Studio">
+    <param name="Local" value="crm-studio\setting_up_crm_studio.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="standard CRM">
+    <param name="Name" value="Standard CRM">
+    <param name="Local" value="standard-crm\standard_crm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="system events">
+    <param name="Name" value="Monitoring Business Activity with System Events">
+    <param name="Local" value="standard-crm\bam\monitoring_business_activity_with_system_events.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="limitations">
+      <param name="Name" value="Limitations of System Events">
+      <param name="Local" value="misc\limitations_of_system_events.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="template profile">
+    <param name="Name" value="The Template Profile">
+    <param name="Local" value="standard-crm\bam\templates\the_templates_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general">
+      <param name="Name" value="The Template Profile - General">
+      <param name="Local" value="standard-crm\bam\templates\the_templates_profile_general.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="template">
+      <param name="Name" value="The Template Profile - Template">
+      <param name="Local" value="standard-crm\bam\templates\the_templates_profile_template.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="templates">
+    <param name="Name" value="Templates">
+    <param name="Local" value="standard-crm\bam\templates\templates.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="templates browser">
+    <param name="Name" value="The Templates Browser">
+    <param name="Local" value="standard-crm\bam\templates\the_template_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="activate">
+      <param name="Name" value="Activate a Discontinued Template">
+      <param name="Local" value="standard-crm\bam\templates\activate_a_discontinued_template.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Templates">
+      <param name="Local" value="standard-crm\bam\templates\templates.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="discontinue">
+      <param name="Name" value="Discontinue a Template">
+      <param name="Local" value="standard-crm\bam\templates\discontinue_a_template.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify the Template Profile">
+      <param name="Local" value="standard-crm\bam\templates\modify_the_templates_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="upgrade event pack">
+    <param name="Name" value="Upgrading Events">
+    <param name="Local" value="misc\upgrading_events.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="upgrading events">
+    <param name="Name" value="Upgrading Events">
+    <param name="Local" value="misc\upgrading_events.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="vendor category">
+    <param name="Name" value="Customer/Vendor Category">
+    <param name="Local" value="standard-crm\bam\customer-vendor-category\customer_vendor_category.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="vendor category profile">
+    <param name="Name" value="The Customer/Vendor Category Profile">
+    <param name="Local" value="standard-crm\bam\customer-vendor-category\the_customer_vendor_category_profile.html">
+  </object>
+</ul>
+</html>

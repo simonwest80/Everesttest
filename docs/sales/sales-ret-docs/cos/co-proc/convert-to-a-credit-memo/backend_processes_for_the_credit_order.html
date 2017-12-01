@@ -1,0 +1,44 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes-for-the-credit-order">Back End Processes for the Credit Order</h1>
+
+<p>The following back-end processes occur when a credit order is converted  to a credit memo:</p>
+
+<ul>
+  <li>If the quantities  credited are lesser than the quantities requested, the credit order is  assigned the status of ‘Backorder’.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-ret-docs/cos/co-proc/convert-to-a-credit-memo/processing_a_credit_memo.html">Partial  Returns</a></p>
+
+<ul>
+  <li>If the quantity  displayed in the <strong>Requested</strong> column  is returned, the credit order is assigned the status ‘Closed’. To view  closed credit orders, select <strong>Options 
+ &gt; Shipped Credit Orders</strong> in the <strong>Credit 
+ Orders</strong> browser.</li>
+  <li>
+    <p>When the ‘committed’  quantities are received, the stock status of the item displays the following  changes:</p>
+  </li>
+  <li><strong>Stock 
+ Status of the item</strong> - The quantity <strong>On 
+ Credit</strong> for the item reduces by the quantity received. The <strong>Total Stock</strong>, <strong>Available 
+ Stock</strong> and <strong>Free Stock</strong> of  the item increases.</li>
+  <li><strong>Stock 
+ Status in the committed stock area</strong> - If the quantity returned is  a committed quantity, the <strong>Available Out</strong>,  <strong>Free Out</strong> and <strong>On 
+ Credit</strong> stock of the item reduces <em>**</em> by the quantity returned.</li>
+  <li><strong>Stock 
+ Status in the assigned stock area</strong> - The total stock and the free  stock increases by the quantity returned.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/options/items/stock_status_items_option_sales_contents.html">Stock  Status</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/cos/co-proc/cmt-items-to-co/attach-cmt-qty/attaching_committed_quantities_on_credit_order.html">Committing  items to the order</a></dd>
+</dl>
+
+
+
+
+</div>

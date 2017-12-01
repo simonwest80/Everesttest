@@ -1,0 +1,35 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="purchase-journal-entries">Purchase Journal Entries</h1>
+
+<p>Purchase invoices are recorded in an ‘open’ system purchase journal  that fulfills the following conditions:</p>
+
+<ul>
+  <li>A journal whose  accounting period corresponds to the login date.</li>
+  <li>A journal with  the same journal group as the one selected in the Workstation Settings  of the user creating the purchase invoice.</li>
+  <li>A journal with  the same location/sub-location as the login location/sub-location of the  purchase invoice.</li>
+  <li>A journal with  the same account for Accounts Payable Control as the Accounts Payable  Control account selected in the Accounts Payable field (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> profile) of  Vendor Posting Group.</li>
+</ul>
+
+<p class="note">Though accounts get resolved based on the  hierarchical factor, you can change them in the documents like Posting  Accounts Information screen, Document grid, or in the Journal transactions.</p>
+
+<p>If no such ‘open’ journal exists, a new purchase journal is created.  The purchase journal number for the new journal is taken from the sequence  number for purchase journals for the logged in location/sub-location.</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/locations_and_departments.html">Location</a></p>
+
+<p>If this number is not assigned, the sequence number assigned to the  <strong>Default Location</strong> (path: <strong>File &gt; Setup &gt; Preferences &gt; Defaults 
+ &gt; Accounting &gt; Miscellaneous</strong> tab) is used.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  location/sub-location</a></dd>
+</dl>
+
+
+
+
+</div>

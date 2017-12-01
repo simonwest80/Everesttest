@@ -1,0 +1,178 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-item-profile---sales">The Item Profile - Sales</h1>
+
+<p>This tab is used to specify the price calculations, discount levels  and other sales information for the item.</p>
+
+<p>Price Calculation</p>
+
+<p>Use this tab to specify the price calculations, discount levels and  other sales information for the item. Right click and select <strong>Insert</strong>  to add additional measures. Right click and select <strong>Delete</strong>  to remove a measure from the list.</p>
+
+<p><strong>Default</strong></p>
+
+<p>Specify only one default sales measure from the drop-down list. Right  click the <strong>Default</strong> field and select  <strong>Set As Default</strong>.</p>
+
+<dl>
+  <dt><strong>Measure</strong></dt>
+  <dd>Specify the sales measure of the item. Only measures  with a conversion factor to the stock measure will be available in the  drop-down list. Measures listed here will be the only allowed sales measures  for this item in sales documents. Sales measures can be deleted (except  when defined as a measure for a free item or a get more item in the <strong>Promotional Pricing</strong> profile and the  promotion is valid during the current or future date) even if they are  used in documents and they can be added at any time. You can specify multiple  measures. When creating a sales or purchase document for an item, Everest  automatically retrieves the item into the document using the sales or  purchase measure defined for the item.</dd>
+</dl>
+
+<ul class="note">
+  <li>This field defaults  to <strong>Each</strong> if the <strong>Item 
+ Type</strong> selected in the <strong>General</strong>  tab of the <strong>Item</strong> profile is <strong>Kit</strong>. You can select any measure but  it will be considered with a quantity of one for a Kit.</li>
+  <li>
+    <dl>
+      <dt>In case of a matrix  group, you are asked if you would like to apply the measure selected to  the matrix items as well.</dt>
+      <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/measure/measure_profile_general_tab.html">The  Measure Profile</a></dd>
+      <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/sales/sales_measure_sales_info_item_profile.html">Sales  Measure</a></dd>
+    </dl>
+  </li>
+</ul>
+
+<dl>
+  <dt><strong>Type</strong></dt>
+  <dd>This column will display the price type. Options  are <strong>Fixed</strong>, <strong>% 
+ Markup</strong>, and <strong>% Sales Total</strong>.  <strong>% Sales Total</strong> is only available  for non-inventoried items.</dd>
+  <dt><strong>Price</strong></dt>
+  <dd>Enter the price if you selected the <strong>Fixed</strong>  price type option. This field is disabled if you selected <strong>% 
+ Markup</strong> or <strong>% Sales Total</strong>.</dd>
+  <dt><strong>Percentage</strong></dt>
+  <dd>If you selected either the <strong>% 
+ Markup</strong> or <strong>% Sales Total</strong>  price type option, this field is enabled. For <strong>% 
+ Markup</strong>, enter the percentage markup that will be used to compute  the item price. For <strong>% Sales Total</strong>,  enter the percentage based on the sales total that will be used to compute  the item price.</dd>
+  <dt><strong>Minimum Amount</strong></dt>
+  <dd>Enter the minimum price of the item. This field  is enabled when the <strong>% Sales Total</strong>  price type is selected. This field is only applicable to non-inventoried  items for each measure.</dd>
+  <dt><strong>Cost% of sell price</strong></dt>
+  <dd>Enter the cost percentage of the item’s selling  price. This field is enabled only for a non-inventoried item and is applicable  to all three price types.</dd>
+  <dd>This cost is a notional cost as it does not match  either the actual cost or the average cost.</dd>
+  <dt>: If you set up the cost of shipping to be 90% of  its selling price, and you bill $200 for shipping on a document, the cost  of shipping is computed at $180 but the bill that you receive from your  carrier for this may differ.</dt>
+  <dd>When the cost of an item is calculated using this  method, on sale an accounting entry is made for the notional cost by debiting  the expense account for the item and crediting the liability account defined  for the item in the Accounts tab of the Item profile.</dd>
+  <dt><strong>Level Pricing</strong></dt>
+  <dd>This field indicates if level pricing is being used  for this measure. Double-click the field to open the <strong>Customer 
+ Level Pricing</strong> dialog box. Enter the customer level pricing schemes  in this dialog box.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/item-profile-details/item-pricing/customer_level_pricing_dialog_box.html">Customer  Level Pricing Dialog Box</a></dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-customers/customer-levels/customer_level.html">Customer  Levels</a></dd>
+  <dt><strong>Quantity Pricing</strong></dt>
+  <dd>This field indicates if quantity pricing is being  used for this measure. Double-click the field to open the <strong>Quantity 
+ Pricing</strong> dialog box. Enter the quantity pricing schemes in this  dialog box.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/item-profile-details/item-pricing/discounts-and-special-pricing/quantity-pricing/quantity_pricing_item_fd.html">The  Quantity Pricing Dialog Box</a></dd>
+  <dt><strong>Freight</strong></dt>
+  <dd>This field indicates if freight is being considered  for this measure. Double-click the field to open the <strong>Item 
+ Freight</strong> dialog box. Enter the item freight details in this dialog  box.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item/item_freight_dialog_box_mi.html">Item  Freight Dialog Box</a></dd>
+  <dt><strong>Special Pricing</strong></dt>
+  <dd>Click this button to specify the different pricing  schemes for the item in the <strong>Special Pricing</strong>  dialog box. This button is enabled when you save the profile. You can  set up the following pricing schemes for the item from this dialog box:</dd>
+</dl>
+
+<ul>
+  <li>: <strong>Promotional 
+ Pricing</strong> – On the <strong>Promotional Pricing</strong>  tab, select <strong>Options &gt; New &gt; In 
+ New Window</strong> to create a pricing scheme in the <strong>Promotional 
+ Pricing</strong> dialog box.</li>
+  <li>: <strong>Special 
+ Pricing</strong> – On the <strong>Special Pricing</strong>  tab, select <strong>Options &gt; New &gt; In 
+ New Window</strong> to create a pricing scheme in the <strong>Special 
+ Pricing</strong> dialog box.</li>
+  <li>: <strong>Quantity 
+ Discount</strong> – On the <strong>Quantity Discount</strong>  tab, select <strong>Options &gt; New &gt; In 
+ New Window</strong> to create a pricing scheme in the <strong>Quantity 
+ Discount</strong> dialog box.</li>
+</ul>
+
+<dl>
+  <dt>: <img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/item-profile-details/item-pricing/discounts-and-special-pricing/promotional-pricing/promotional_pricing_general_tab.html">The  Promotional Pricing Dialog Box</a></dt>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/item-profile-details/item-pricing/discounts-and-special-pricing/special-pricing/special_pricing.html">Special  Pricing</a></dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/item-profile-details/item-pricing/discounts-and-special-pricing/quantity-discounts/profile_quantity_discount_general_tab.html">The  Quantity Discount Dialog Box</a></dd>
+</dl>
+
+<p>Other Sales Information</p>
+
+<dl>
+  <dt><strong>Commission rate%</strong></dt>
+  <dd>Enter the rate at which sales commission must be  paid to sales representatives for the sale of the item.</dd>
+  <dt><strong>Include in Commission Report Calculation</strong></dt>
+  <dd>Select this check box if sales commission is payable  to sales representatives on sales of the item being defined, and the item  is included for commissions. The commission due to sales representatives  is calculated by the <strong>Sales 
+ Commission</strong> and <strong>Commission 
+ (Quick Summary)</strong> reports (path: <strong>Reports 
+ &gt; Invoicing</strong>).</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/sales/commissionable.html">Commissionable</a></dd>
+  <dt><strong>Tax inclusive selling price</strong></dt>
+  <dd>Select this option to include the amount of tax  applicable to the item in the selling price of the item. When the item  is sold, the price is computed using the formula:</dd>
+  <dd>Item Price = Selling price of the item + Tax applicable.</dd>
+  <dt>: If an item’s selling price is $110 which is inclusive  of 10% sales tax, the base selling price which accounts for the revenue  is $100.</dt>
+  <dd>The purpose of arriving at this base selling price  is:</dd>
+</dl>
+
+<ul>
+  <li>: To identify  the revenues to be accounted.</li>
+  <li>: To identify  the amount of tax payable to the Tax Authorities.</li>
+  <li>: To compute  the discount, if any, on the base price rather than on the tax inclusive  price.</li>
+  <li>: To compute  the commission payable to sales persons based on the revenues rather than  on the tax inclusive price.</li>
+</ul>
+
+<p class="note"><strong>This option is not enabled for kit items.</strong></p>
+
+<dl>
+  <dt><strong>Include in Freight Calculation</strong></dt>
+  <dd>Use this option to indicate whether the weight of  this item is to be included when estimating freight on a sales document  in which the item is included.</dd>
+  <dd>You can enter the weight for computation of freight  on sales in the <strong>Weight</strong> field of  the <strong>Item Freight</strong> dialog box. Double-click  the <strong>Freight</strong> field in the <strong>Price Calculation</strong> section grid. Freight  is computed on sales only for items that have this option selected.</dd>
+</dl>
+
+<ul class="note">
+  <li>If  this option is not checked for a complete kit, but is checked for the  items contained in the kit, the complete kit is not considered for freight  calculation. Freight is not calculated and charged.</li>
+  <li>When this option  is checked for a kit, freight is calculated based on the total weight  of the kit, after excluding all items, which have this option unchecked.  The item weights are recalculated based on the quantity of items.</li>
+</ul>
+
+<dl class="example">
+  <dt>If the freight calculation option is checked for a kit, and only  6  out of 8 items comprising the kit have the freight calculation option  checked, <strong>Everest</strong> considers only  the 6 items for calculating the document weight and applies the freight  rate for the document weight calculated.</dt>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/sales/include_in_freight.html">Include  in freight calculation</a></dd>
+  <dt><strong>Pack Separately</strong></dt>
+  <dd>Select this check box if the item has to be packed  separately while shipping. Freight is computed separately for each unit  of the item contained on sales and purchase documents.</dd>
+</dl>
+
+<p class="example">A sales invoice contains three line items, A, B and C.  Item A is marked as “pack separately” while items B and C  do not have this option selected. 10 units of Item A and 2 units each  of items B and C  are shipped. The number of packages in this case are 11 (10+1). Freight  is computed for each unit of item A separately.</p>
+
+<dl class="note">
+  <dt>This field is disabled if the **Item </dt>
+  <dt> Type** selected in the <strong>General</strong>  tab of the <strong>Item</strong> profile is <strong>Kit</strong>. If this option is selected for  items that make up a kit, only those items will be packed separately.</dt>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/sales/miscellaneous_sales_information_item_profile_contents.html">Miscellaneous  Sales Information</a></dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item/how_everest_calculates_freight_rates_mi.html">Freight  Calculations</a></dd>
+  <dt><strong>Sales Price Decimal Accuracy</strong></dt>
+  <dd>Specify the number of decimals between 0 and 6 to  be used for the sales price. The default sales price decimal accuracy  is the currency decimal accuracy. You can change the decimal accuracy  after the item is used in any document or pricing records are created.</dd>
+  <dt><strong>If you decrease the decimal accuracy, the  pricing records do not change. They have to be updated manually.</strong></dt>
+  <dd>All prices on the <strong>Sales</strong>  tab are based on the <strong>Sales Price Decimal 
+ Accuracy</strong>.</dd>
+</dl>
+
+<p class="note"><strong>All measures in the Item profile must have  the same Quantity Entry Method. This includes stock, sales, and purchase  measures. For serialized items, the stock measure is automatically selected  as the default sales measure and cannot be changed. You cannot select  additional sales measures for serialized items.</strong></p>
+
+<p>The selling price of an item is the base price at which you sell the  item to your customer. The difference between the cost of the item (actual  cost in case of serialized inventory and average cost in case of non-serialized  inventory) and the selling price is your gross margin of profit. Use Item  pricing in Everest to:</p>
+
+<ol>
+  <li>: Select from  three different methods of price calculations.
+    <ul>
+      <li>: Specify different  prices for different customer levels.</li>
+      <li>: Specify different  prices for different quantity levels.</li>
+      <li>: Set up discount  schemes for the item based on quantity or customer.</li>
+      <li>: Define promotional  schemes.</li>
+    </ul>
+  </li>
+</ol>
+
+<ul class="note">
+  <li>Selling prices  set up in the <strong>Item</strong> profile can  be changed in individual sales documents.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/items_introduction.html">Items</a></dd>
+</dl>
+
+
+
+
+</div>

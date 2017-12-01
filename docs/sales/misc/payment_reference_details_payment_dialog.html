@@ -1,0 +1,59 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payment-reference-details">Payment Reference Details</h1>
+
+<p>Payment Details</p>
+
+<dl>
+  <dt><strong>Batch Processing</strong></dt>
+  <dd>Select this check box to process credit card receipts  in a batch. Address and CVV2 verification is also carried out when you  process credit card transactions using this option. If you select this  option, the credit card transactions are added to, and subsequently processed  from the <a href="/versata-everest-docs/accounting/customer-receipts-and-refunds/batch-payment-processing/batch_credit_card_process_browsers.html"><strong>Batch Payment Process</strong> browser</a>.</dd>
+  <dd>This check box is displayed/hidden depending on  the preference set for documents while processing payments (path: <strong>File &gt; Setup &gt; Preferences &gt; Flow 
+ Control &gt; Documents &gt; Miscellaneous</strong> tab <strong>&gt; Document payments</strong> tab <strong>&gt; 
+ Batch 
+ Payments</strong> section).</dd>
+  <dt><strong>Payment Method</strong></dt>
+  <dd>All the payment methods set up for customers are  available for selection in this field. The default payment method for  customers specified in the <strong>Default payment 
+ method for collections</strong> field of the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; 
+ Preferences &gt; Defaults &gt; Accounting &gt; Miscellaneous</strong> tab)  is displayed by default in this field.</dd>
+</dl>
+
+<p class="note">A modification made to the default <strong>Payment 
+ Method</strong> profile (path: <strong>File &gt; 
+ Setup &gt; Accounting &gt; Payment Methods</strong> browser <strong>&gt; Edit &gt; In New Window</strong>) overrides the setting in the default  preferences.</p>
+
+<dl>
+  <dt><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> You have set Cash as the  default payment method for collections in the <strong>Accounting</strong>  dialog box. In the <strong>Payment Method</strong>  profile for cash, you change the **Used </dt>
+  <dt> For** field from Collections to Payments. When you create a sales  document and invoke the <strong>Receipt</strong>  dialog box to accept payment, the drop-down from the **Payment </dt>
+  <dt> Method** field does not display Cash. In other words, you are not  allowed to use the default payment method.</dt>
+  <dd>The bank account associated with the payment method  is debited with the deposit/payment received from the customer. If you  are applying an existing credit memo to the sales order or an invoice,  or an existing deposit to a sales invoice, select an appropriate payment  method for applying the credit memo or deposit.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/payment-information/payment-methods/payment_methods.html">Payment  Methods</a></dd>
+  <dt><strong>Cash Register</strong></dt>
+  <dd>This field allows you to track the receipt of payments  on a sales document. There may be instances where you receive payments  in parts on a sales order or invoice. Using this field, you can store  the record for each payment received on different cash registers for a  single document.</dd>
+  <dt>You want to receive the first payment through  one cash register and subsequent payments through other cash registers,  thus, storing the record of each payment receipt on different cash registers.</dt>
+  <dd>Specify the cash register where you want to store  the record of each payment received from the customer. By default, this  field displays the value specified in the <strong>Default 
+ Cash Register</strong> field in the <a href="/versata-everest-docs/business-processes-in-everest/misc/registers_misc_tab_document_payments_tab_flow_control_setup.html">Flow  Control Preferences</a> (path: <strong>File &gt; 
+ Setup &gt; Preferences &gt; Flow Control &gt; Documents &gt; Miscellaneous 
+ &gt; Document Payments</strong> tab). Note that this field displays only  the active cash registers (registers with status as ‘Available’) in the  drop-down list.</dd>
+  <dt><strong>Reference/Check No</strong></dt>
+  <dd>Use this option to specify a reference for the payment.  When you receive a check from the customer you can enter the check number  here. This number appears in the receipt journal.</dd>
+  <dd>Where the payment method is any other type of payment,  enter a suitable reference.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> In  case of cash payments, enter the cash voucher number; for wire transfers,  enter the transfer reference.</dd>
+  <dt><strong>Date</strong></dt>
+  <dd>This field displays the login date by default. You  can specify any other date of payment. This date appears on the receipt  journal.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> If  you receive a post-dated check, enter the check date.</dd>
+  <dt><strong>Approval Code</strong></dt>
+  <dd>Enter the approval code received from the credit  card company. This information must be specified in case the credit card  payments are manually processed. This field is disabled when the credit  card payment is processed online.</dd>
+  <dt><strong>Narration</strong></dt>
+  <dd>Enter a note for the transaction. The narration  can also be viewed from the <strong>Receipt</strong><strong>Journal</strong> in which this transaction  is recorded.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/pmts-on-so/rcpt-dlg/the_payment_dialog_box_general.html">Payment  Dialog Box - General</a></dd>
+</dl>
+
+
+
+
+</div>

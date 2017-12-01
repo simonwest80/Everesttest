@@ -1,0 +1,65 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="etl-history-browser">ETL History Browser</h1>
+
+<p>Use the <strong>ETL History</strong> browser  to view status information on the most recent or current ETL job. You  can determine when the last run occurred, if the run was successful, and  how many records were processed. If the ETL job had errors, you can locate  the details for them in the <strong>ETL History 
+ Details</strong> browser. Historical information may also display if you  have migrated from a previous version of <strong>Everest</strong>.</p>
+
+<p class="note">If the ETL job is still running, the history  will have a start time but no stop time.</p>
+
+<p class="steps">To access the ETL History browser, do the  following:</p>
+
+<ul>
+  <li>From  the main menu bar, select <strong>Utility &gt; 
+ Data Warehouse &gt; ETL History</strong>.</li>
+</ul>
+
+<p>The following table shows information on the <strong>ETL 
+ History</strong> browser columns:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Column Heading</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>Start Time</td>
+      <td>The is the date and time the ETL run started.</td>
+    </tr>
+    <tr>
+      <td>Stop Time</td>
+      <td>If the run finished, this is the date and time the ETL  run finished.</td>
+    </tr>
+    <tr>
+      <td>Duration</td>
+      <td>The duration displays the stop time minus the start  time in hh/mm/ss. In the <strong>ETL History <br /> Details</strong> browser, you can view metrics for the currently running  ETL process.</td>
+    </tr>
+    <tr>
+      <td>Status</td>
+      <td>This is the status of the ETL run.  It  shows as “IN PROCESS” when the ETL job starts and as either “SUCCESS”  or “FAILURE” when complete.<br /><br /><br /><strong>• IN PROCESS</strong> –  The job is still running.<br /><br /><br /><strong>• SUCCESS</strong> –  The job finished successfully.<br /><br /><br /><strong>• FAILURE</strong> –  The job did not finish successfully or timed out.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt>Options - Stop ETL Processing</dt>
+  <dd>Select the <strong>Stop 
+ ETL Processing</strong> option to end the ETL run in process. You can stop  an ETL run after it has been processing for more than 10 minutes.</dd>
+  <dt>Options - View History Detail</dt>
+  <dd>Use the <strong>View History 
+ Detail</strong> option to open the <strong>ETL 
+ History Details</strong> browser for the selected ETL run. Alternatively,  you can select an ETL run in the <strong>ETL 
+ History</strong> browser and press the <strong>Enter</strong>  key.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-advanced-dashboard/create-and-set-up-the-database-and-dashboard/etl_history_details_dialog_box_ead.html">ETL  History Details Browser</a></dd>
+</dl>
+
+
+
+
+</div>

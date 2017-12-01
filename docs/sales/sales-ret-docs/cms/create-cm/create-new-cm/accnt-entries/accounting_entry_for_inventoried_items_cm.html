@@ -1,0 +1,89 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entry-for-inventoried-items">Accounting Entry for Inventoried Items</h1>
+
+<p>The accounting entry created when an inventoried item is returned is  given below:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry type</td>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/<br /><br /><br />Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>Accounts Receivable Control Account</td>
+      <td>The account selected for <strong>Accounts <br /> Receivable</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab) of Customer  Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><font color="#800080" class="hcp7"> </font><strong>Posting <br /> Group</strong> profile<br /><br /><br /><font color="#800080" class="hcp7">&nbsp;</font>     <a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_customer_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  Order for Customer Posting Group</a></td>
+      <td>Credit</td>
+      <td>Total value of the returned items less the discount</td>
+    </tr>
+    <tr>
+      <td>Exempt Commissionable  Revenue or<br /><br /><br />Exempt Non-commissionable Revenue or<br /><br /><br />Taxable Commissionable  Revenue or<br /><br /><br />Taxable Non-commissionable Revenue</td>
+      <td>Sales Discount (Products/Services)</td>
+      <td>The account selected for <strong>Sales</strong><strong>Discount</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab) of Customer  or Inventory Posting Group type depending on the Flow Control preference  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow <br /> Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Others</strong> tab &gt; <strong>Others 2</strong> tab)</td>
+      <td>Credit</td>
+      <td>The value of discount provided to the customer when the items were sold</td>
+    </tr>
+    <tr>
+      <td>Exempt Commissionable  Revenue or<br /><br /><br />Exempt Non-commissionable Revenue or<br /><br /><br />Taxable Commissionable  Revenue or<br /><br /><br />Taxable Non-commissionable Revenue</td>
+      <td>Sales Returns (Products/Services)</td>
+      <td>The account selected for <strong>Sales</strong><strong>Return</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab) of Customer  or Inventory Posting Group type depending on the Flow Control preference  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow <br /> Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Others</strong> tab &gt; <strong>Others 2</strong> tab)</td>
+      <td>Debit</td>
+      <td>Total value of the returns</td>
+    </tr>
+    <tr>
+      <td>Sales Tax</td>
+      <td>Sales Tax Payable</td>
+      <td>The account selected for <strong>Tax</strong><strong>Account</strong> <strong>Code</strong>  in the <strong>Tax</strong> <strong>Components</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Taxes</strong> &gt; <strong>Tax</strong><strong>Components</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In <br /> New Window</strong> &gt; <strong>Sales</strong> tab)</td>
+      <td>Debit</td>
+      <td>The value of tax paid on the items</td>
+    </tr>
+    <tr>
+      <td>Commissionable  or Non-commissionable</td>
+      <td>Cost of Goods Sold (hiked by factor if factoring used)</td>
+      <td>The account selected for <strong>Cost <br /> of Goods Sold</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab) of Inventory  Posting Group type.</td>
+      <td>Credit</td>
+      <td>The total cost of the goods returned</td>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>Cost of Goods Sold Other (for factored costs) (the nominal  amount by which Cost of Goods Sold has been hiked to adjust for factoring)<br /><br /><br /><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/item-profile-details/item-costing/factored_cost_item_costing.html">Factored  Cost</a></td>
+      <td>The account selected for <strong>Cost <br /> of Goods Sold</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab) of Inventory  Posting Group type.</td>
+      <td>Debit</td>
+      <td>The factored cost</td>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>Inventory Control (the account selected for <strong>Inventory <br /> Control</strong> in <strong>Accounting</strong> dialog  box)</td>
+      <td>The account selected for <strong>Inventory <br /> Control</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab) of Inventory  Posting Group type.</td>
+      <td>Debit</td>
+      <td>The cost of the items</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">These accounts default to the accounts defined in the  Posting Group selected in the <strong>Accounting</strong>  dialog box. If Posting Groups have been defined at location or for any  masters, then it will resolve the accounts by deciding the Posting Group  based on hierarchy.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_customer_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  order for Customer Posting Group</a></p>
+
+<p><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_inventory_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  order for Inventory Posting Group</a></p>
+
+<p><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_vendor_posting_group_misc_tab.html">Hierarchical  order for Vendor Posting Group</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/the_accounting_dialog_box.html">Accounting  Dialog Box</a></dd>
+  <dd><a href="/versata-everest-docs/sales/misc/default_accounts_for_sales_transactions.html">Default  accounts for sales transactions</a></dd>
+</dl>
+
+
+
+
+</div>

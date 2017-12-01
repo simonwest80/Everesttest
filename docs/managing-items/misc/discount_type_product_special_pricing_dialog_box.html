@@ -1,0 +1,129 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="discount-type---product">Discount Type - Product</h1>
+
+<dl>
+  <dt><strong>Discount Type</strong></dt>
+  <dd>Select <strong>Product 
+ – All Measure</strong> if you want the discount to be applicable to all  sales measures selected in sales documents for items belonging to the  category, brand, or tracking selection defined in the <strong>Special 
+ Pricing</strong> dialog box. When you select this option, the <strong>Available 
+ On</strong> field is displayed.</dd>
+  <dd>Select <strong>Product 
+ – Specific Measure</strong> if you want the discount to be applicable to  only one measure. When you select this option, the <strong>Sales 
+ Measure</strong> and <strong>Available On</strong>  fields are displayed.</dd>
+</dl>
+
+<p class="note">The special price will be in the sales price  decimal accuracy for the item. If you enter more decimal places than the  sales price accuracy of the item, the special price rounds off to the  sales price decimal accuracy of the item.</p>
+
+<dl>
+  <dt><strong>Measure</strong></dt>
+  <dd>Specify the specific sales measure that this discount  applies to. This field is enabled when <strong>Product 
+ – Specific Measure</strong> is selected. The special pricing specified only  applies if this sales measure is selected in sales documents for items  belonging to the category, brand, or tracking selection defined in the  <strong>Special Pricing</strong> dialog box.</dd>
+</dl>
+
+<p>When you select either of the Product Discount Type options, the <strong>Available On</strong> field is displayed.</p>
+
+<p><strong>Available On</strong></p>
+
+<p>Choose the items of your choice in this field. The options available  are:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Options</strong></td>
+      <td><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td>All Items</td>
+      <td>Select this option if you want the Special Pricing rule  to be applicable to all active items in your inventory.</td>
+    </tr>
+    <tr>
+      <td>Specific Item</td>
+      <td>Select this option to make the special pricing applicable  to a specific item.<br /><br /><br />Select the code of the specific item in the <strong>Item</strong>  field.<br /><br /><br class="note" /><br /><strong>The **Item</strong>  field is displayed only when you select the <strong>Specific <br /> Item</strong> option.**</td>
+    </tr>
+    <tr>
+      <td>Items of a specific tracking selection</td>
+      <td>Select this option if you want the special pricing to  be applicable to all items that are tagged to a specific tracking choice.<br /><br /><br />Specify the item tracking group code and the choice  by clicking on the drop down buttons.<br /><br /><br class="note" /><br /><strong>The **Specify <br /> the item tracking group</strong> and <strong>selection</strong>  fields are displayed only when you select <strong>Items <br /> of a specific tracking selection</strong> option in the <strong>Available</strong>  on field.<strong><br /><br /><br class="example" /><br /></strong>You may want to apply a special pricing scheme  to all items that are tagged as ‘Best Buys’ with the tracking choice ‘New  Arrivals’.**</td>
+    </tr>
+    <tr>
+      <td>Items in a Category</td>
+      <td>Select this option the special pricing to be applicable  to all items belonging to a specific category.<br /><br /><br />Select the category code for which the special pricing  will be applicable.<br /><br /><br class="note" /><br /><strong>The **Category</strong>  field appears only when you select the <strong>Items <br /> in a Category</strong> option in the <strong>Available <br /> on</strong> field.**</td>
+    </tr>
+    <tr>
+      <td>Items of a specific brand</td>
+      <td>Select this option the special pricing to be applicable  to all items belonging to a specific brand.<br /><br /><br />Select the brand code for which the special pricing  rule will be applicable.<br /><br /><br class="note" /><br /><strong>The **Brand</strong>  field is displayed only when you select the <strong>Items <br /> of a Specific Brand</strong> in the <strong>Available <br /> on</strong> field.**</td>
+    </tr>
+    <tr>
+      <td>Items in a Category and of a specific brand</td>
+      <td>Select this option the special pricing to be applicable  to all items belonging to a specific category and brand.<br /><br /><br />Select the category code and the brand code for which  the special pricing rule will be applicable.<br /><br /><br class="note" /><br /><strong>The **Brand</strong>  and <strong>Category</strong> fields appear only  when you select the <strong>Items in a Category <br /> and of a specific brand</strong> option in the <strong>Available <br /> on</strong> field.**</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Pricing Method</strong></dt>
+  <dd>Specify the pricing method to be applicable for  customers or customer groups.</dd>
+</dl>
+
+<p>The different Pricing Methods available are:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Option</strong></td>
+      <td><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td>Fixed Price</td>
+      <td>Select this option to charge a fixed price to the customer.</td>
+    </tr>
+    <tr>
+      <td>Discount Percent From Least Price</td>
+      <td>Select this option to specify a discount percentage  on the least price of items retrieved into the sales document.<br /><br /><br class="note" /><br /><strong>If you edit the price of an item in the sales  document, the discount is calculated on the modified price and not on  the least price.</strong></td>
+    </tr>
+    <tr>
+      <td>Discount Fixed Amount From Least Price</td>
+      <td>Select this option to specify a discount amount on the  least price of items retrieved into the sales document.<br /><br /><br class="note" /><br /><strong>If you edit the price of an item in the sales  document, the discount is calculated on the modified price and not on  the least price.</strong></td>
+    </tr>
+    <tr>
+      <td>Markup Over Last Landed Cost</td>
+      <td>Select this option to calculate the selling price by  marking up the last landed cost of the item (defined in the <strong>Item</strong>  profile) by a specified percentage.</td>
+    </tr>
+    <tr>
+      <td>Markup Over Average Cost</td>
+      <td>Select this option to calculate the selling price by  marking up the average cost of the item by a specified percentage.</td>
+    </tr>
+    <tr>
+      <td>Fixed Amount Over Cost</td>
+      <td>Select this option to calculate the selling price by  adding a fixed amount to the cost of the item defined in the <strong>Item</strong>  profile.</td>
+    </tr>
+    <tr>
+      <td>Level Pricing</td>
+      <td>Select this option to charge the level price of the  item as defined in the <strong>Item</strong> profile,  to the selected customer or customers.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">The <strong>Discount percent from least price</strong>  or <strong>Discount fixed amount from least price</strong>  is applied to items on your online store if you select the option <strong>Use list price if lower than customer price</strong>  (path: <strong>File &gt; Setup &gt; E-Commerce 
+ &gt; Preferences &gt; Settings &gt; Pricing</strong> tab).</p>
+
+<dl>
+  <dt><strong>Amount/Percentage</strong></dt>
+  <dd>Based on the pricing method selected, this field  toggles between amount and percentage. Enter the amount or percentage  to be used.</dd>
+  <dd>The option ‘<strong>Level 
+ Pricing</strong>’  in the <strong>Pricing Method</strong> field replaces  the <strong>Amount</strong> field with <strong>Level 
+ Code</strong>.</dd>
+  <dt><strong>Level Code</strong></dt>
+  <dd>Enter the customer level in this field. <strong>Everest</strong>  assigns the price fixed for items for the selected customer level.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/misc/special_pricing_details_section_special_pricing_db.html">Special  Pricing Details</a></dd>
+</dl>
+
+
+
+
+</div>

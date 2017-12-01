@@ -1,0 +1,17 @@
+﻿<html lang="en-us">
+  <head>
+    <title>{{ page.title}}</title>
+    {% if site.is_chm %}
+      <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+      <link rel="StyleSheet" href="{{site.wwe_baseurl}}/misc/robohtml.css">
+      <script language="JavaScript" title="BSSC Special Effects" src="{{site.wwe_baseurl}}/misc/ehlpdhtm.js"></script>
+    {% else %}            
+      <meta charset="UTF-8">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% endif %}
+  </head>
+  <body class="content">
+    {{ content }}
+  </body>
+</html>

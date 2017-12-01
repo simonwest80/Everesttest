@@ -1,0 +1,122 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="migration-scenarios">Migration Scenarios</h1>
+
+<p>Process for Upgrading the SQL Server Version on the  Machine where the Everest Database Server is already Installed</p>
+
+<p class="steps">If the SQL Server instance used by the Everest  Database Server is <strong>not</strong>  the MSDE 2000  instance installed by Everest and the upgrade path fits into any of the  possible upgrade paths listed in the table below, follow these steps:</p>
+
+<ul>
+  <li>Upgrade the <strong>Everest</strong> Database Server to version 4.0.0  or later.</li>
+  <li>Upgrade the SQL  Server instance used by <strong>Everest</strong>.</li>
+</ul>
+
+<p class="steps">If the SQL Server instance used by the Everest  Database Server is the MSDE  2000 instance installed by Everest and the upgrade path <strong>does 
+ not</strong> fit into any of the possible upgrade paths listed in the table  below, follow these steps:</p>
+
+<ul>
+  <li>Take backups of  all the existing <strong>Everest</strong> company  databases using the <strong>Utilities</strong> &gt;  <strong>Database Maintenance</strong>&gt; <strong>Backup</strong> <strong>Company</strong>  option of <strong>Everest</strong>.</li>
+  <li>Uninstall  the <strong>Everest</strong> Database Server.</li>
+  <li>Optionally uninstall  the existing version of SQL Server.</li>
+</ul>
+
+<p class="note">: If the <strong>Everest</strong>  database server was using <strong>MSDE 
+ 2000</strong> or <strong>SQL Server 2005 Express 
+ Edition</strong>, which was installed by <strong>** the **Everest</strong> installation, <strong>** the **Everest</strong> Database Server uninstall  process will automatically uninstall  these SQL Server instances also.</p>
+
+<ul>
+  <li>Install the required  version of SQL Server including the latest service packs as applicable.  If the instance to be upgraded is <strong>SQL 
+ Server 2005 Express Edition</strong>  and no other instance of either <strong>SQL Server 
+ 2000</strong> or <strong>SQL Server 2005</strong>  exists on that machine, the <strong>Everest</strong>  database server installation will automatically install <strong>SQL 
+ Server 2005 Express Edition</strong> and hence separate installation of  SQL Server is not required.</li>
+  <li>Install the <strong>Everest</strong> Database Server version 4.0.0  or later.</li>
+  <li>Use the <strong>Everest Database Migration utility</strong> to restore the company database  using the backup copy created in the first step.</li>
+</ul>
+
+<p>Process for Migrating the Everest Database Server  to a New Machine from an Existing Installation</p>
+
+<p class="steps">To migrate the Everest Database Server to  a new machine from an existing installation, do the following:</p>
+
+<ul>
+  <li>If the SQL Server  to be used in the new machine is not <strong>SQL 
+ Server 2005 Express edition</strong>, install the SQL Server in the new  machine.</li>
+  <li>Install the <strong>Everest</strong> Database Server on the new machine  (if no instance of SQL Server 2000 or 2005 is found, <strong>Everest</strong>  will install <strong>SQL Server 2005 Express 
+ edition</strong>).</li>
+  <li>Use the  <strong>Everest Database 
+ Migration utility</strong> to migrate the company database from the existing  server to the new machine.</li>
+  <li>On successful completion  of migration, optionally uninstall  the <strong>Everest</strong> Database Server from  the existing machine.</li>
+</ul>
+
+<p class="note">: By default, the <strong>sa</strong>  password in <strong>SQL Server 2000</strong> is  case-insensitive. While installing the <strong>Everest</strong>  Database Server, if someone has entered the <strong>sa</strong> password  in a different case than what was assigned to SQL Server, <strong>Everest</strong> will work fine and it will use the password as entered  during <strong>Everest</strong> installation. For  example, if the actual <strong>sa</strong>  password is <strong>unknown</strong>, if someone  types it as <strong>Unknown</strong> or <strong>UNKNOWN</strong>,  it will work fine with SQL Server 2000. In the case of <strong>SQL 
+ Server 2005</strong>, the password is always case-sensitive. After upgrading  from SQL Server 2000 to 2005, if there is any case difference between  the actual sa  password assigned and the sa  password entered while installing <strong>Everest</strong>,  the <strong>Everest</strong> login  will fail. In this scenario, use the <strong>Change 
+ Login Password</strong> (ChangeLoginPassword.exe)  <strong>utility</strong> of <strong>Everest</strong>  to reset the sa  password to reflect the exact case.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Upgrade From</td>
+      <td>Supported Upgrade Path</td>
+    </tr>
+    <tr>
+      <td>SQL Server 2000 Enterprise Edition SP3 or later</td>
+      <td>SQL Server 2005 Enterprise Edition</td>
+    </tr>
+    <tr>
+      <td>SQL Server 2000 Developer Edition SP3 or later</td>
+      <td>SQL Server 2005 Developer Edition</td>
+    </tr>
+    <tr>
+      <td>SQL Server 2000 Standard Edition SP3 or later</td>
+      <td>SQL Server 2005 Enterprise Edition<br /><br /><br />SQL Server 2005 Developer Edition<br /><br /><br />SQL Server 2005 Standard Edition</td>
+    </tr>
+    <tr>
+      <td>SQL Server 2000 Workgroup Edition</td>
+      <td>SQL Server 2005 Enterprise Edition<br /><br /><br />SQL Server 2005 Developer Edition<br /><br /><br />SQL Server 2005 Standard Edition<br /><br /><br />SQL Server 2005 Workgroup Edition</td>
+    </tr>
+    <tr>
+      <td>SQL Server 2000 Evaluation Edition SP3 or later</td>
+      <td>SQL Server 2005 Evaluation Edition</td>
+    </tr>
+    <tr>
+      <td>SQL Server Desktop Engine (MSDE) 2000*</td>
+      <td>SQL Server 2005 Workgroup Edition<br /><br /><br />SQL Server 2005 Express Edition</td>
+    </tr>
+    <tr>
+      <td>SQL Server 2005 Developer Edition</td>
+      <td>SQL Server 2005 Enterprise Edition<br /><br /><br />SQL Server 2005 Standard Edition<br /><br /><br />SQL Server 2005 Workgroup Edition</td>
+    </tr>
+    <tr>
+      <td>SQL Server 2005 Standard Edition</td>
+      <td>SQL Server 2005 Enterprise Edition<br /><br /><br />SQL Server 2005 Developer Edition</td>
+    </tr>
+    <tr>
+      <td>SQL Server 2005 Workgroup Edition</td>
+      <td>SQL Server 2005 Enterprise Edition<br /><br /><br />SQL Server 2005 Developer Edition<br /><br /><br />SQL Server 2005 Standard Edition</td>
+    </tr>
+    <tr>
+      <td>SQL Server 2005 Evaluation Edition</td>
+      <td>SQL Server 2005 Enterprise Edition<br /><br /><br />SQL Server 2005 Developer Edition<br /><br /><br />SQL Server 2005 Standard Edition<br /><br /><br />SQL Server 2005 Workgroup Edition<br /><br /><br />SQL Server 2005 Express Edition</td>
+    </tr>
+    <tr>
+      <td>SQL Server 2005 Express Edition</td>
+      <td>SQL Server 2005 Enterprise Edition<br /><br /><br />SQL Server 2005 Developer Edition<br /><br /><br />SQL Server 2005 Standard Edition<br /><br /><br />SQL Server 2005 Workgroup Edition</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt>: *Applicable only if MSDE 2000 is installed separately  (not installed by <strong>Everest</strong> Database  Server setup).</dt>
+  <dd>Visit  <a href="http://msdn2.microsoft.com/en-us/library/ms143393(SQL.90).aspx">http://msdn2.microsoft.com/en-us/library/ms143393(SQL.90).aspx</a>  for more information on SQL Server 2005 upgrade details.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-advanced-edition-utilities/database-migration-utility/wizard/database_migration_wizard_eu.html">Database  Migration Wizard</a></dd>
+  <dd><a href="/versata-everest-docs/everest-advanced-edition-utilities/database-migration-utility/database_migration_utility_eu.html">Database  Migration Utility</a></dd>
+</dl>
+
+
+
+
+</div>

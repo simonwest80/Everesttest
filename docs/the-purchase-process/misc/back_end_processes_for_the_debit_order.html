@@ -1,0 +1,37 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---partial-returns">Back End Processes - Partial Returns</h1>
+
+<ul>
+  <li>If the quantities debited are lower than the quantities requested, the debit order is assigned the status of ‘backorder’.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/the-purchase-process/return-proc/dos/do-processes/partial-returns/partial_returns_proc_dm.html">Partial Returns</a></p>
+
+<ul>
+  <li>If all quantities requested are returned, then the debit order is assigned the status ‘closed’.  To view closed debit orders, you must select the option Shipped Debit Orders in the <strong>Debit</strong> <strong>Order</strong> browser.</li>
+  <li>When quantities of an item committed to a debit order are returned, the stock status of the item displays the following changes:</li>
+</ul>
+
+<ol>
+  <li><strong>Stock Status for the item</strong> - The quantity <strong>On</strong> <strong>Debit</strong> order for the item reduces by the quantity returned. The total quantity of the item reduces.
+    <ul>
+      <li><strong>Stock Status in the committed stock area</strong> - If the quantity returned is a committed quantity, the quantity of item <strong>On</strong> <strong>Debit</strong> in the stock area to which the item has been assigned reduces by the quantity returned. The <strong>Total</strong> <strong>Stock</strong> of the item in the stock area decreases.</li>
+    </ul>
+  </li>
+</ol>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/misc/the_item_stock_status_dialog_box.html">The Stock Status Dialog Box</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/po-processes/cmt-items-po/committing_items_to_the_purchase_order.html">Committing Items to the Order</a></dd>
+</dl>
+
+
+
+
+</div>

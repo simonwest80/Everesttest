@@ -1,0 +1,2472 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="3D charts">
+    <param name="Name" value="Utility of 3D Charts">
+    <param name="Local" value="misc\utility_of_3d_charts.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="utility of 3D charts">
+      <param name="Name" value="Utility of 3D Charts">
+      <param name="Local" value="misc\utility_of_3d_charts.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="add text box">
+    <param name="Name" value="Add Text Box">
+    <param name="Local" value="misc\add_text_box_label_section_label_designer.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label section options">
+      <param name="Name" value="Add Text Box">
+      <param name="Local" value="misc\add_text_box_label_section_label_designer.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="add/remove commands">
+    <param name="Name" value="Add/remove Commands from a Toolbar">
+    <param name="Local" value="everest-client\customize-menu\add_remove_commands_from_a_toolbar.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="toolbar">
+      <param name="Name" value="Add/remove Commands from a Toolbar">
+      <param name="Local" value="everest-client\customize-menu\add_remove_commands_from_a_toolbar.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="add/remove menus">
+    <param name="Name" value="Add/remove Menus from the Main Menu Bar">
+    <param name="Local" value="everest-client\customize-menu\add_menus_to_or_remove_menus_from_the_main_menu_bar.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="main menu bar">
+      <param name="Name" value="Add/remove Menus from the Main Menu Bar">
+      <param name="Local" value="everest-client\customize-menu\add_menus_to_or_remove_menus_from_the_main_menu_bar.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advanced find">
+    <param name="Name" value="Advanced Find">
+    <param name="Local" value="advanced-options\find-function\advanced_find_wwe_find_filter.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advanced find tab">
+    <param name="Name" value="Advanced Find">
+    <param name="Local" value="advanced-options\find-function\advanced_find_wwe_find_filter.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find filter">
+      <param name="Name" value="Advanced Find">
+      <param name="Local" value="advanced-options\find-function\advanced_find_wwe_find_filter.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="animate sub-menus">
+    <param name="Name" value="Animate the Display of Submenus">
+    <param name="Local" value="everest-client\customize-menu\animate_the_display_of_sub_menus.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="display">
+      <param name="Name" value="Animate the Display of Submenus">
+      <param name="Local" value="everest-client\customize-menu\animate_the_display_of_sub_menus.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="axes tab">
+    <param name="Name" value="The Chart FX Properties Dialog Box - Axes">
+    <param name="Local" value="everest-client\ui\browsers\options\chart\fx-profile\chart_fx_properties_axes.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="chart FX properties dialog box">
+      <param name="Name" value="The Chart FX Properties Dialog Box - Axes">
+      <param name="Local" value="everest-client\ui\browsers\options\chart\fx-profile\chart_fx_properties_axes.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="barcode">
+    <param name="See Also" value="barcode">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="barcode setup">
+      <param name="Name" value="Barcode Setup">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\barcode-setup\barcode_setup_wwe.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="configure your barcode labels">
+      <param name="Name" value="Configure your Barcode Labels">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\barcode-setup\configure_your_barcode_labels_wwe.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="print barcode labels for items">
+      <param name="Name" value="Print Barcode Labels for Items">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\barcode-setup\print_barcode_labels_for_items_wwe.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="test barcode scanning">
+      <param name="Name" value="Test Barcode Scanning">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\barcode-setup\test_barcode_scanning_wwe.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="set barcode preferences (optional)">
+      <param name="Name" value="Set Barcode Preferences (Optional)">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\barcode-setup\set_barcode_preferences_optional_wwe.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="where can we use barcodes?">
+      <param name="Name" value="Where can we use barcodes?">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\barcode-setup\where_can_we_use_barcodes_wwe.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="barcode setup">
+    <param name="Name" value="Barcode Setup">
+    <param name="Local" value="everest-client\ui\browsers\options\label-designer\barcode-setup\barcode_setup_wwe.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="browser">
+    <param name="Name" value="Changing the Browser View">
+    <param name="Local" value="everest-client\ui\browsers\options\property-editor\changing_the_browser_view.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="browser options">
+    <param name="Name" value="Browser Options - Chart Setup">
+    <param name="Local" value="everest-client\ui\browsers\options\chart\browser_options_chart_setup.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="chart setup">
+      <param name="Name" value="Browser Options - Chart Setup">
+      <param name="Local" value="everest-client\ui\browsers\options\chart\browser_options_chart_setup.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="export">
+      <param name="Name" value="Browser Options - Export">
+      <param name="Local" value="everest-client\ui\browsers\options\export\browser_options_export.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="field chooser">
+      <param name="Name" value="Browser Options - Field Chooser">
+      <param name="Local" value="everest-client\ui\browsers\options\field-chooser\browser_options_field_chooser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter">
+      <param name="Name" value="Browser Options - Filter">
+      <param name="Local" value="everest-client\ui\browsers\options\filter\browser_options_filter.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label designer">
+      <param name="Name" value="Browser Options - Label Designer">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\browser_options_label_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="options details">
+      <param name="Name" value="Browser Options - Details">
+      <param name="Local" value="everest-client\ui\browsers\options\browser_options_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="print">
+      <param name="Name" value="Browser Options - Print">
+      <param name="Local" value="everest-client\ui\browsers\options\print\browser_options_print.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="standard options">
+      <param name="Name" value="Standard Browser Options">
+      <param name="Local" value="everest-client\ui\browsers\standard_browser_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="browser property editor">
+    <param name="Name" value="Browser Property Editor - Columns">
+    <param name="Local" value="everest-client\ui\browsers\options\property-editor\browser_property_editor_columns_tab.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="browser property editor dialog box">
+    <param name="Name" value="The Browser Property Editor Dialog Box">
+    <param name="Local" value="everest-client\ui\browsers\options\property-editor\the_browser_property_editor.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="columns tab">
+      <param name="Name" value="Browser Property Editor - Columns">
+      <param name="Local" value="everest-client\ui\browsers\options\property-editor\browser_property_editor_columns_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general tab">
+      <param name="Name" value="Browser Property Editor - General">
+      <param name="Local" value="everest-client\ui\browsers\options\property-editor\browser_property_editor_general_tab.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="grid tab">
+      <param name="Name" value="Browser Property Editor - Grid">
+      <param name="Local" value="everest-client\ui\browsers\options\property-editor\browser_property_editor_grid_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="browser sections">
+    <param name="Name" value="Column Headers">
+    <param name="Local" value="misc\column_headers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser view">
+      <param name="Name" value="Changing the Browser View">
+      <param name="Local" value="everest-client\ui\browsers\options\property-editor\changing_the_browser_view.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="column headers">
+      <param name="Name" value="Column Headers">
+      <param name="Local" value="misc\column_headers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customize">
+      <param name="Name" value="Customizing Browsers">
+      <param name="Local" value="everest-client\ui\browsers\customizing_browsers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="group by box">
+      <param name="Name" value="Group By Box">
+      <param name="Local" value="misc\group_by_box.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="group panel">
+      <param name="Name" value="Group Panel">
+      <param name="Local" value="misc\group_panel.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="menu bar">
+      <param name="Name" value="Menu Bar - Browser">
+      <param name="Local" value="misc\menu_bar_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="menu options">
+      <param name="Name" value="Browser - Menu Options">
+      <param name="Local" value="misc\browser_s_menu_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="search field">
+      <param name="Name" value="Search Field">
+      <param name="Local" value="misc\search_field.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="selected record">
+      <param name="Name" value="Selected Record">
+      <param name="Local" value="misc\selected_record.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sort tabs">
+      <param name="Name" value="Sort Tabs">
+      <param name="Local" value="misc\sort_tabs.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="status bar">
+      <param name="Name" value="Status Bar - Browser">
+      <param name="Local" value="misc\status_bar_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="summary box">
+      <param name="Name" value="Summary Box">
+      <param name="Local" value="misc\summary_box_browser_sections1.html">
+      <param name="Name" value="Summary Box">
+      <param name="Local" value="misc\summary_box_browser_sections.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="summary level totals">
+      <param name="Name" value="Summary Level Totals">
+      <param name="Local" value="misc\summary_level_totals_browser_section.html">
+      <param name="Name" value="Summary Level Totals">
+      <param name="Local" value="misc\summary_level_totals.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="title bar">
+      <param name="Name" value="Title Bar - Browsers">
+      <param name="Local" value="misc\title_bar_browsers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="title bar menu options">
+      <param name="Name" value="Browser - Title Bar Menu Options">
+      <param name="Local" value="misc\title_bar_menu_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="toolbars">
+      <param name="Name" value="Toolbars - Browser">
+      <param name="Local" value="misc\toolbars_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="buttons in Everest">
+    <param name="Name" value="Common Buttons in Everest">
+    <param name="Local" value="misc\common_buttons_in_everest.html">
+    <param name="Name" value="Standard Browser Options">
+    <param name="Local" value="everest-client\ui\browsers\standard_browser_options.html">
+    <param name="Name" value="Standard Menu Options in Profiles">
+    <param name="Local" value="everest-client\ui\everest-profiles\standard_menu_options.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="by group tab">
+    <param name="Name" value="Chart Setup - By Group">
+    <param name="Local" value="everest-client\ui\browsers\options\chart\chart-setup-profile\chart_setup_by_group.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="chart setup">
+      <param name="Name" value="Chart Setup - By Group">
+      <param name="Local" value="everest-client\ui\browsers\options\chart\chart-setup-profile\chart_setup_by_group.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="cells">
+    <param name="Name" value="Cells">
+    <param name="Local" value="misc\cells.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label selection dialog box">
+      <param name="Name" value="Cells">
+      <param name="Local" value="misc\cells.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="change">
+    <param name="Name" value="Change Companies">
+    <param name="Local" value="advanced-options\change_companies.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="company">
+      <param name="Name" value="Change Companies">
+      <param name="Local" value="advanced-options\change_companies.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="logged-in user">
+      <param name="Name" value="Changing the Logged-in User">
+      <param name="Local" value="everest-client\logging-in\changing_the_logged_in_user.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="your password">
+      <param name="Name" value="Change your Password">
+      <param name="Local" value="everest-client\logging-in\change_your_password_status_bar_wwe.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="change password dialog box">
+    <param name="Name" value="The Change Password Dialog Box">
+    <param name="Local" value="misc\the_change_password_dialog_box_status_bar_wwe.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="change your password">
+    <param name="Name" value="Change your Password">
+    <param name="Local" value="everest-client\logging-in\change_your_password_status_bar_wwe.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="change user dialog box">
+    <param name="Name" value="The Change User Dialog Box">
+    <param name="Local" value="misc\the_change_user_dialog_box_status_bar_wwe.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="chart FX properties dialog box">
+    <param name="Name" value="The Chart FX Properties Dialog Box">
+    <param name="Local" value="everest-client\ui\browsers\options\chart\fx-profile\chart_fx_properties_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="3D tab">
+      <param name="Name" value="The Chart FX Properties Dialog Box - 3D">
+      <param name="Local" value="everest-client\ui\browsers\options\chart\fx-profile\chart_fx_properties_3d.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="general tab">
+      <param name="Name" value="The Chart FX Properties Dialog Box - General">
+      <param name="Local" value="everest-client\ui\browsers\options\chart\fx-profile\chart_fx_properties_general.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="chart print preview">
+    <param name="Name" value="Page Setup">
+    <param name="Local" value="misc\page_setup_chart_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="page setup">
+      <param name="Name" value="Page Setup">
+      <param name="Local" value="misc\page_setup_chart_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="chart setup">
+    <param name="Name" value="Browser Options - Chart Setup">
+    <param name="Local" value="everest-client\ui\browsers\options\chart\browser_options_chart_setup.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="chart setup dialog box">
+    <param name="Name" value="The Chart Setup Dialog Box">
+    <param name="Local" value="misc\chart_setup_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser options">
+      <param name="Name" value="Browser Options - Chart Setup">
+      <param name="Local" value="everest-client\ui\browsers\options\chart\browser_options_chart_setup.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="by group tab">
+      <param name="Name" value="Chart Setup - By Group">
+      <param name="Local" value="everest-client\ui\browsers\options\chart\chart-setup-profile\chart_setup_by_group.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="per record tab">
+      <param name="Name" value="Chart Setup - Per Record">
+      <param name="Local" value="everest-client\ui\browsers\options\chart\chart-setup-profile\chart_setup_per_record.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="chart toolbar">
+    <param name="Name" value="'Title' dialog box - Toolbar Options">
+    <param name="Local" value="misc\toolbar_chart.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="options">
+      <param name="Name" value="'Title' dialog box - Toolbar Options">
+      <param name="Local" value="misc\toolbar_chart.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="charts">
+    <param name="Name" value="'Title' Dialog Box">
+    <param name="Local" value="misc\title_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="title dialog box">
+      <param name="Name" value="'Title' Dialog Box">
+      <param name="Local" value="misc\title_dialog_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="column filter">
+    <param name="Name" value="Filtering Records Using the Column Filter">
+    <param name="Local" value="everest-client\ui\browsers\options\filter\column-filter\filtering_records_using_the_column_filter.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter records">
+      <param name="Name" value="Filtering Records Using the Column Filter">
+      <param name="Local" value="everest-client\ui\browsers\options\filter\column-filter\filtering_records_using_the_column_filter.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="column header">
+    <param name="Name" value="Column Header">
+    <param name="Local" value="misc\column_header.html">
+    <param name="Name" value="Column Headers">
+    <param name="Local" value="misc\column_headers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Column Headers">
+      <param name="Local" value="misc\column_headers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="columns tab">
+    <param name="Name" value="Browser Property Editor - Columns">
+    <param name="Local" value="everest-client\ui\browsers\options\property-editor\browser_property_editor_columns_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser property editor">
+      <param name="Name" value="Browser Property Editor - Columns">
+      <param name="Local" value="everest-client\ui\browsers\options\property-editor\browser_property_editor_columns_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="common browser options">
+    <param name="Name" value="Standard Browser Options">
+    <param name="Local" value="everest-client\ui\browsers\standard_browser_options.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="company">
+    <param name="Name" value="Change Companies">
+    <param name="Local" value="advanced-options\change_companies.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="change">
+      <param name="Name" value="Change Companies">
+      <param name="Local" value="advanced-options\change_companies.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="configure utilities dialog box">
+    <param name="Name" value="The Configure Utilities Dialog Box">
+    <param name="Local" value="misc\configure_utilities_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="copy details">
+    <param name="Name" value="Copying Profile Details">
+    <param name="Local" value="everest-client\ui\everest-profiles\copying_profile_details.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="Copying Profile Details">
+      <param name="Local" value="everest-client\ui\everest-profiles\copying_profile_details.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="create">
+    <param name="Name" value="Create a New Filter">
+    <param name="Local" value="misc\create_a_new_filter.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter">
+      <param name="Name" value="Create a New Filter">
+      <param name="Local" value="misc\create_a_new_filter.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="new labels">
+      <param name="Name" value="Design and Create New Labels">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\design_and_create_new_labels.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="toolbar">
+      <param name="Name" value="Creating a Toolbar">
+      <param name="Local" value="misc\creating_a_toolbar.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="custom auto filter">
+    <param name="Name" value="Custom Auto Filter">
+    <param name="Local" value="everest-client\ui\browsers\options\filter\column-filter\custom_auto_filter.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="custom field tab">
+    <param name="Name" value="Custom Field">
+    <param name="Local" value="advanced-options\find-function\custom_field_wwe_find_filter.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find filter">
+      <param name="Name" value="Custom Field">
+      <param name="Local" value="advanced-options\find-function\custom_field_wwe_find_filter.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customize">
+    <param name="Name" value="Customizing Browsers">
+    <param name="Local" value="everest-client\ui\browsers\customizing_browsers.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customize dialog box">
+    <param name="Name" value="The Customize Dialog Box">
+    <param name="Local" value="misc\customize_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customize display of icons and text">
+    <param name="Name" value="Customize Display of Icons and Text">
+    <param name="Local" value="everest-client\customize-menu\customize_display_of_icons_and_text_wwe.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customize window">
+    <param name="Name" value="Period Columns - Customize Window">
+    <param name="Local" value="misc\period_columns.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="Customizing Browsers">
+      <param name="Local" value="everest-client\ui\browsers\customizing_browsers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest main menu">
+      <param name="Name" value="Customizing the Display of the Main Menu Bar">
+      <param name="Local" value="everest-client\customize-menu\customizing_the_display_of_main_menu.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="period columns">
+      <param name="Name" value="Period Columns - Customize Window">
+      <param name="Local" value="misc\period_columns.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="date">
+    <param name="Name" value="Everest Date">
+    <param name="Local" value="misc\everest_date.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest status bar">
+      <param name="Name" value="Everest Date">
+      <param name="Local" value="misc\everest_date.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="default jurisdiction and location/sub-location dialog box">
+    <param name="Name" value="Default Jurisdiction and Location/Sub-Location Dialog Box">
+    <param name="Local" value="misc\default_jurisdiction_and_department_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="location/sub-location">
+    <param name="Name" value="Login Location/Sub-Location">
+    <param name="Local" value="everest-client\logging-in\login_department.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="login">
+      <param name="Name" value="Login Department">
+      <param name="Local" value="everest-client\logging-in\login_department.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="design">
+    <param name="Name" value="Browser Options - Label Designer">
+    <param name="Local" value="everest-client\ui\browsers\options\label-designer\browser_options_label_designer.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label">
+      <param name="Name" value="Browser Options - Label Designer">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\browser_options_label_designer.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="dimensions">
+    <param name="Name" value="Dimensions">
+    <param name="Local" value="misc\dimensions.html">
+    <param name="Name" value="Dimension">
+    <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\options\dimension_label_designer_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label designer options">
+      <param name="Name" value="Dimension">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\options\dimension_label_designer_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label selection dialog box">
+      <param name="Name" value="Dimensions">
+      <param name="Local" value="misc\dimensions.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="display">
+    <param name="Name" value="Animate the Display of Submenus">
+    <param name="Local" value="everest-client\customize-menu\animate_the_display_of_sub_menus.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="display columns in browsers">
+    <param name="Name" value="Field Chooser - Hide/Display a Column">
+    <param name="Local" value="everest-client\ui\browsers\options\field-chooser\field_chooser_hide_display_a_column.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="animate sub-menus">
+      <param name="Name" value="Animate the Display of Submenus">
+      <param name="Local" value="everest-client\customize-menu\animate_the_display_of_sub_menus.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="groups related option and menu">
+      <param name="Name" value="Group Related Options and Menus">
+      <param name="Local" value="everest-client\customize-menu\group_related_options_and_menus.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="hidden toolbar">
+      <param name="Name" value="Display a Hidden Toolbar">
+      <param name="Local" value="misc\display_a_hidden_toolbar_wwe.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="infrequently used menus">
+      <param name="Name" value="Display Infrequently Used Menus After a Short Delay">
+      <param name="Local" value="everest-client\customize-menu\display_the_infrequently_used_menus_after_a_short_delay.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="recently used commands">
+      <param name="Name" value="Display only Recently Used Commands">
+      <param name="Local" value="everest-client\customize-menu\display_only_the_recently_used_commands.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="shortcuts in tool tips">
+      <param name="Name" value="Display Shortcuts in the Tool Tips">
+      <param name="Local" value="everest-client\customize-menu\display_shortcuts_in_the_tool_tips.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="tool tips for icons">
+      <param name="Name" value="Display Tool Tips for Icons">
+      <param name="Local" value="everest-client\customize-menu\display_tool_tips_for_icons.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="drop-down button and menu options">
+    <param name="Name" value="Drop Down Button and Menu Options in Everest Profiles">
+    <param name="Local" value="everest-client\ui\everest-profiles\drop_down_button_and_menu_options_wkg_with_eve.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="drop-down button and menu options">
+      <param name="Name" value="Drop Down Button and Menu Options in Everest Profiles">
+      <param name="Local" value="everest-client\ui\everest-profiles\drop_down_button_and_menu_options_wkg_with_eve.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest">
+    <param name="Name" value="Everest Browsers">
+    <param name="Local" value="everest-client\ui\browsers\everest_browsers.html">
+    <param name="Name" value="The Everest Desktop">
+    <param name="Local" value="everest-client\main-window\the_everest_desktop.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="desktop">
+      <param name="Name" value="The Everest Desktop">
+      <param name="Local" value="everest-client\main-window\the_everest_desktop.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest desktop">
+    <param name="Name" value="Everest Desktop as a Web Browser">
+    <param name="Local" value="advanced-options\everest_desktop_as_a_web_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="web browser">
+      <param name="Name" value="Everest Desktop as a Web Browser">
+      <param name="Local" value="advanced-options\everest_desktop_as_a_web_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest Advanced Dashboard">
+    <param name="Name" value="Everest Advanced Dashboard">
+    <param name="Local" value="everest-client\main-window\everest_advanced_dashboard_working_with_everest.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest desktop as a web browser">
+    <param name="Name" value="Everest Desktop as a Web Browser">
+    <param name="Local" value="advanced-options\everest_desktop_as_a_web_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest login dialog box">
+    <param name="Name" value="The Everest Login Dialog Box">
+    <param name="Local" value="everest-client\the_everest_login_dialog_box.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest main menu">
+    <param name="Name" value="Customizing the Display of the Main Menu Bar">
+    <param name="Local" value="everest-client\customize-menu\customizing_the_display_of_main_menu.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customize">
+      <param name="Name" value="Customizing the Display of the Main Menu Bar">
+      <param name="Local" value="everest-client\customize-menu\customizing_the_display_of_main_menu.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest main window">
+    <param name="Name" value="Outlook Bar">
+    <param name="Local" value="everest-client\main-window\left_panel_everest_main_window.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="left panel">
+      <param name="Name" value="Outlook Bar">
+      <param name="Local" value="everest-client\main-window\left_panel_everest_main_window.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="main menu bar">
+      <param name="Name" value="Main Menu Bar">
+      <param name="Local" value="everest-client\main-window\main_menu_bar.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest Advanced Dashboard">
+      <param name="Name" value="Everest Advanced Dashboard">
+      <param name="Local" value="everest-client\main-window\everest_advanced_dashboard_working_with_everest.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="status bar">
+      <param name="Name" value="Status Bar">
+      <param name="Local" value="everest-client\main-window\status_bar.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="title bar">
+      <param name="Name" value="Title Bar">
+      <param name="Local" value="everest-client\main-window\title_bar.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="toolbars">
+      <param name="Name" value="Tool Bars">
+      <param name="Local" value="everest-client\main-window\tool_bars.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest profiles">
+    <param name="Name" value="Everest Profiles">
+    <param name="Local" value="everest-client\ui\everest-profiles\everest_profiles.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest status bar">
+    <param name="Name" value="Everest Date">
+    <param name="Local" value="misc\everest_date.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="date">
+      <param name="Name" value="Everest Date">
+      <param name="Local" value="misc\everest_date.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="global password">
+      <param name="Name" value="Global Password">
+      <param name="Local" value="misc\global_password.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="logged-in user">
+      <param name="Name" value="Logged-in User">
+      <param name="Local" value="misc\logged_in_user_status_bar.html">
+      <param name="Name" value="Logged-in User">
+      <param name="Local" value="misc\logged_in_user.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reminders">
+      <param name="Name" value="Reminders">
+      <param name="Local" value="misc\reminders.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="system settings">
+      <param name="Name" value="Settings">
+      <param name="Local" value="misc\system_settings_status_bar.html">
+      <param name="Name" value="Settings">
+      <param name="Local" value="misc\system_settings.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="user count">
+      <param name="Name" value="User Count">
+      <param name="Local" value="misc\user_count_status_bar.html">
+      <param name="Name" value="User Count">
+      <param name="Local" value="misc\user_count.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="version">
+      <param name="Name" value="Version">
+      <param name="Local" value="misc\version.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest windows">
+    <param name="Name" value="Everest Windows Toolbar">
+    <param name="Local" value="misc\everest_windows_toolbar.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest windows toolbar">
+    <param name="Name" value="Select a Window">
+    <param name="Local" value="everest-client\windows-options\windows-menu-options\select_a_window.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Accel sample company (ASC)">
+      <param name="Name" value="The Everest Sample Company">
+      <param name="Local" value="everest-sample-company\the_everest_sample_company.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="details icon">
+      <param name="Name" value="Select a Window">
+      <param name="Local" value="everest-client\windows-options\windows-menu-options\select_a_window.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="enterprise solution">
+      <param name="Name" value="An Enterprise Solution">
+      <param name="Local" value="introduction-to-everest\an_enterprise_solution.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest browsers">
+      <param name="Name" value="Everest Browsers">
+      <param name="Local" value="everest-client\ui\browsers\everest_browsers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="global solution">
+      <param name="Name" value="A Truly Global Solution">
+      <param name="Local" value="introduction-to-everest\a_truly_global_solution.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="introduction">
+      <param name="Name" value="Introduction to Everest">
+      <param name="Local" value="introduction-to-everest\introducing_everest.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="list icon">
+      <param name="Name" value="Select a Window">
+      <param name="Local" value="everest-client\windows-options\windows-menu-options\select_a_window.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="non-modular solution">
+      <param name="Name" value="A Non - Modular Solution">
+      <param name="Local" value="introduction-to-everest\a_non_modular_solution.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="real-time management information">
+      <param name="Name" value="Real Time Management Information">
+      <param name="Local" value="introduction-to-everest\real_time_management_information.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="tip of the day!">
+      <param name="Name" value="The Everest Tip of the Day! Window">
+      <param name="Local" value="misc\the_everest_tip_of_the_day_window.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="toolbar">
+      <param name="Name" value="Everest Windows Toolbar">
+      <param name="Local" value="misc\everest_windows_toolbar.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="totally web enabled">
+      <param name="Name" value="Totally Web Enabled">
+      <param name="Local" value="introduction-to-everest\totally_web_enabled.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="windows toolbar">
+      <param name="Name" value="Everest Windows Toolbar">
+      <param name="Local" value="misc\everest_windows_toolbar.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="expert style filter">
+    <param name="Name" value="Filter Records Using the Expert Style Filter">
+    <param name="Local" value="everest-client\ui\browsers\options\filter\expert\filter_records_using_the_expert_style_filter.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter records">
+      <param name="Name" value="Filter Records Using the Expert Style Filter">
+      <param name="Local" value="everest-client\ui\browsers\options\filter\expert\filter_records_using_the_expert_style_filter.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="export">
+    <param name="Name" value="Browser Options - Export">
+    <param name="Local" value="everest-client\ui\browsers\options\export\browser_options_export.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="export dialog box">
+    <param name="Name" value="The Export Dialog Box">
+    <param name="Local" value="everest-client\ui\browsers\options\export\export_dialog.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser options">
+      <param name="Name" value="Browser Options - Export">
+      <param name="Local" value="everest-client\ui\browsers\options\export\browser_options_export.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="expression expert dialog box">
+    <param name="Name" value="The Expression Expert Dialog Box">
+    <param name="Local" value="misc\the_expression_expert_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter setup-left panel">
+      <param name="Name" value="Filter Setup - Left Panel">
+      <param name="Local" value="everest-client\ui\browsers\options\filter\expert\expression_expert_left_panel_expert_style_filter.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="field chooser">
+    <param name="Name" value="Browser Options - Field Chooser">
+    <param name="Local" value="everest-client\ui\browsers\options\field-chooser\browser_options_field_chooser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser options">
+      <param name="Name" value="Browser Options - Field Chooser">
+      <param name="Local" value="everest-client\ui\browsers\options\field-chooser\browser_options_field_chooser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="hide/display columns">
+      <param name="Name" value="Field Chooser - Hide/Display a Column">
+      <param name="Local" value="everest-client\ui\browsers\options\field-chooser\field_chooser_hide_display_a_column.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="filter">
+    <param name="Name" value="Create a New Filter">
+    <param name="Local" value="misc\create_a_new_filter.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="filter records">
+    <param name="Name" value="Filtering Records Using the Column Filter">
+    <param name="Local" value="everest-client\ui\browsers\options\filter\column-filter\filtering_records_using_the_column_filter.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="column filter">
+      <param name="Name" value="Filtering Records Using the Column Filter">
+      <param name="Local" value="everest-client\ui\browsers\options\filter\column-filter\filtering_records_using_the_column_filter.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="expert style filter">
+      <param name="Name" value="Filter Records Using the Expert Style Filter">
+      <param name="Local" value="everest-client\ui\browsers\options\filter\expert\filter_records_using_the_expert_style_filter.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="keyword search">
+      <param name="Name" value="Filter Records Using the Keyword Search">
+      <param name="Local" value="everest-client\ui\browsers\options\filter\keyword-search\filter_records_using_the_keyword_search.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="filter setup dialog box options options">
+    <param name="See Also" value="filter setup dialog box options options">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="advanced find">
+      <param name="Name" value="Advanced Find">
+      <param name="Local" value="advanced-options\find-function\advanced_find_wwe_find_filter.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser options">
+      <param name="Name" value="Browser Options - Filter">
+      <param name="Local" value="everest-client\ui\browsers\options\filter\browser_options_filter.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="name">
+      <param name="Name" value="Filter Name">
+      <param name="Local" value="advanced-options\find-function\filter_name.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="new filter">
+      <param name="Name" value="Create a New Filter">
+      <param name="Local" value="misc\create_a_new_filter.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="run">
+      <param name="Name" value="Filter Name">
+      <param name="Local" value="advanced-options\find-function\filter_name.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find">
+    <param name="Name" value="Search for a Profile">
+    <param name="Local" value="everest-client\ui\everest-profiles\search_for_a_profile.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find fields">
+    <param name="Name" value="Multiple Selection in Find Fields">
+    <param name="Local" value="advanced-options\find-function\multiple_selection_in_find_fields.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="multiple selection">
+      <param name="Name" value="Multiple Selection in Find Fields">
+      <param name="Local" value="advanced-options\find-function\multiple_selection_in_find_fields.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find filter">
+    <param name="Name" value="Advanced Find">
+    <param name="Local" value="advanced-options\find-function\advanced_find_wwe_find_filter.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="advanced find tab">
+      <param name="Name" value="Advanced Find">
+      <param name="Local" value="advanced-options\find-function\advanced_find_wwe_find_filter.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom field tab">
+      <param name="Name" value="Custom Field">
+      <param name="Local" value="advanced-options\find-function\custom_field_wwe_find_filter.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom field tab-numeric field">
+      <param name="Name" value="Numeric Field - Custom Field">
+      <param name="Local" value="misc\numeric_field_custom_field.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom field tab-text field">
+      <param name="Name" value="Text Field - Custom Field">
+      <param name="Local" value="misc\text_field_custom_field.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="find function in Everest">
+    <param name="Name" value="Find Function In Everest">
+    <param name="Local" value="advanced-options\find-function\find_function_in_everest.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find function">
+      <param name="Name" value="Find Function In Everest">
+      <param name="Local" value="advanced-options\find-function\find_function_in_everest.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="Search for a Profile">
+      <param name="Local" value="everest-client\ui\everest-profiles\search_for_a_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="font">
+    <param name="Name" value="Font">
+    <param name="Local" value="misc\font_label_section_label_designer.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="font setup dialog box">
+    <param name="Name" value="The Font Setup Dialog Box">
+    <param name="Local" value="misc\font_setup_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label section options">
+      <param name="Name" value="Font">
+      <param name="Local" value="misc\font_label_section_label_designer.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="general tab">
+    <param name="Name" value="Browser Property Editor - General">
+    <param name="Local" value="everest-client\ui\browsers\options\property-editor\browser_property_editor_general_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser property editor">
+      <param name="Name" value="Browser Property Editor - General">
+      <param name="Local" value="everest-client\ui\browsers\options\property-editor\browser_property_editor_general_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="global password">
+    <param name="Name" value="Global Password">
+    <param name="Local" value="misc\global_password.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest status bar">
+      <param name="Name" value="Global Password">
+      <param name="Local" value="misc\global_password.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="grid tab">
+    <param name="Name" value="Browser Property Editor - Grid">
+    <param name="Local" value="everest-client\ui\browsers\options\property-editor\browser_property_editor_grid_tab.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser property editor">
+      <param name="Name" value="Browser Property Editor - Grid">
+      <param name="Local" value="everest-client\ui\browsers\options\property-editor\browser_property_editor_grid_tab.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="group by box">
+    <param name="Name" value="Group By Box">
+    <param name="Local" value="misc\group_by_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Group By Box">
+      <param name="Local" value="misc\group_by_box.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="group panel">
+    <param name="Name" value="Group Panel">
+    <param name="Local" value="misc\group_panel.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Group Panel">
+      <param name="Local" value="misc\group_panel.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="group records in a browser">
+    <param name="Name" value="Grouping Records in a Browser">
+    <param name="Local" value="misc\grouping_records_in_a_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="group records">
+      <param name="Name" value="Grouping Records in a Browser">
+      <param name="Local" value="misc\grouping_records_in_a_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="hidden toolbar">
+    <param name="Name" value="Display a Hidden Toolbar">
+    <param name="Local" value="misc\display_a_hidden_toolbar_wwe.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="display">
+      <param name="Name" value="Display a Hidden Toolbar">
+      <param name="Local" value="misc\display_a_hidden_toolbar_wwe.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="hide columns in browsers">
+    <param name="Name" value="Field Chooser - Hide/Display a Column">
+    <param name="Local" value="everest-client\ui\browsers\options\field-chooser\field_chooser_hide_display_a_column.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="icons">
+    <param name="Name" value="Resize Icons">
+    <param name="Local" value="everest-client\customize-menu\resize_icons.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="resize">
+      <param name="Name" value="Resize Icons">
+      <param name="Local" value="everest-client\customize-menu\resize_icons.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customize display of icons and text">
+      <param name="Name" value="Customize Display of Icons and Text">
+      <param name="Local" value="everest-client\customize-menu\customize_display_of_icons_and_text_wwe.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="introduction">
+    <param name="Name" value="Introduction to the Windows Menu">
+    <param name="Local" value="everest-client\windows-options\introduction_to_the_windows_menu.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="windows menu">
+      <param name="Name" value="Introduction to the Windows Menu">
+      <param name="Local" value="everest-client\windows-options\introduction_to_the_windows_menu.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="jurisdiction">
+    <param name="Name" value="Jurisdiction">
+    <param name="Local" value="everest-client\logging-in\jurisdiction.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="login">
+      <param name="Name" value="Jurisdiction">
+      <param name="Local" value="everest-client\logging-in\jurisdiction.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="keyword search">
+    <param name="Name" value="Filter Records Using the Keyword Search">
+    <param name="Local" value="everest-client\ui\browsers\options\filter\keyword-search\filter_records_using_the_keyword_search.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter records">
+      <param name="Name" value="Filter Records Using the Keyword Search">
+      <param name="Local" value="everest-client\ui\browsers\options\filter\keyword-search\filter_records_using_the_keyword_search.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="label">
+    <param name="Name" value="Label Information">
+    <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\designer\label_name_label_designer.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="label design section">
+    <param name="Name" value="Label Design">
+    <param name="Local" value="misc\label_design_label_designer.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label designer">
+      <param name="Name" value="Label Design">
+      <param name="Local" value="misc\label_design_label_designer.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="label designer">
+    <param name="Name" value="Browser Options - Label Designer">
+    <param name="Local" value="everest-client\ui\browsers\options\label-designer\browser_options_label_designer.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="label designer dialog box">
+    <param name="Name" value="The Label Designer Dialog Box">
+    <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\designer\the_label_designer.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="label designer options">
+    <param name="Name" value="Dimension">
+    <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\options\dimension_label_designer_option.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="design">
+      <param name="Name" value="Browser Options - Label Designer">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\browser_options_label_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="dimension">
+      <param name="Name" value="Dimension">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\options\dimension_label_designer_option.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label design section">
+      <param name="Name" value="Label Design">
+      <param name="Local" value="misc\label_design_label_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="utility">
+      <param name="Name" value="Utility of Label Designer">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\utility_of_label_designer.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="label section">
+    <param name="Name" value="Options in the Label Section">
+    <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\designer\options_in_the_label_section.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="label section options">
+    <param name="See Also" value="label section options">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add text box">
+      <param name="Name" value="Add Text Box">
+      <param name="Local" value="misc\add_text_box_label_section_label_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="font">
+      <param name="Name" value="Font">
+      <param name="Local" value="misc\font_label_section_label_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="options">
+      <param name="Name" value="Options in the Label Section">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\designer\options_in_the_label_section.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="properties">
+      <param name="Name" value="Properties">
+      <param name="Local" value="misc\properties_label_section_label_designer.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="label selection dialog box">
+    <param name="Name" value="The Label Selection Dialog Box">
+    <param name="Local" value="misc\the_label_selection_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cells">
+      <param name="Name" value="Cells">
+      <param name="Local" value="misc\cells.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="dimensions">
+      <param name="Name" value="Dimensions">
+      <param name="Local" value="misc\dimensions.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="information">
+      <param name="Name" value="Label Information">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\designer\label_name_label_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modify">
+      <param name="Name" value="Modify Labels">
+      <param name="Local" value="misc\modify_labels.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="paper">
+      <param name="Name" value="Paper">
+      <param name="Local" value="misc\paper.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="print">
+      <param name="Name" value="Print Labels">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\options\run_and_print_labels.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="type of label">
+      <param name="Name" value="Label Type">
+      <param name="Local" value="misc\type_of_label.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="launch">
+    <param name="Name" value="Launch Commonly Used Applications">
+    <param name="Local" value="advanced-options\launch_commonly_used_applications.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="commonly used applications">
+      <param name="Name" value="Launch Commonly Used Applications">
+      <param name="Local" value="advanced-options\launch_commonly_used_applications.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="left panel">
+    <param name="Name" value="Outlook Bar">
+    <param name="Local" value="everest-client\main-window\left_panel_everest_main_window.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest main window">
+      <param name="Name" value="Outlook Bar">
+      <param name="Local" value="everest-client\main-window\left_panel_everest_main_window.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="list of active servers">
+    <param name="Name" value="List of Active Servers">
+    <param name="Local" value="misc\list_of_active_servers.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="list">
+      <param name="Name" value="List of Active Servers">
+      <param name="Local" value="misc\list_of_active_servers.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="list of logged-in users">
+    <param name="Name" value="List of Logged In Users">
+    <param name="Local" value="everest-client\logging-in\list_of_logged_in_users.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="list">
+      <param name="Name" value="List of Logged In Users">
+      <param name="Local" value="everest-client\logging-in\list_of_logged_in_users.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="logged-in user">
+    <param name="Name" value="Logged-in User">
+    <param name="Local" value="misc\logged_in_user_status_bar.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest status bar">
+      <param name="Name" value="Logged-in User">
+      <param name="Local" value="misc\logged_in_user_status_bar.html">
+      <param name="Name" value="Logged-in User">
+      <param name="Local" value="misc\logged_in_user.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="logged-in users browser">
+    <param name="Name" value="The Logged In Users Browser">
+    <param name="Local" value="misc\the_logged_in_users_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="logging into Everest">
+    <param name="Name" value="Logging In">
+    <param name="Local" value="everest-client\logging_in.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="logging in">
+      <param name="Name" value="Logging In">
+      <param name="Local" value="everest-client\logging_in.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="login">
+    <param name="Name" value="Login Company Database">
+    <param name="Local" value="everest-client\logging-in\login_company_database.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="login department">
+    <param name="Name" value="Login Department">
+    <param name="Local" value="everest-client\logging-in\login_department.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="jurisdiction">
+      <param name="Name" value="Jurisdiction">
+      <param name="Local" value="everest-client\logging-in\jurisdiction.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="login application server name">
+      <param name="Name" value="Login Company Database">
+      <param name="Local" value="everest-client\logging-in\login_company_database.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="time zone">
+      <param name="Name" value="Login Time and Date">
+      <param name="Local" value="everest-client\logging-in\time_zone.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="user">
+      <param name="Name" value="Login User">
+      <param name="Local" value="everest-client\logging-in\login_user.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="login information dialog box">
+    <param name="Name" value="The Login Information Dialog Box">
+    <param name="Local" value="everest-client\logging-in\the_login_information_dialog_box_status_bar_wwe.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="main menu bar">
+    <param name="Name" value="Add/remove Menus from the Main Menu Bar">
+    <param name="Local" value="everest-client\customize-menu\add_menus_to_or_remove_menus_from_the_main_menu_bar.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add/remove menus">
+      <param name="Name" value="Add/remove Menus from the Main Menu Bar">
+      <param name="Local" value="everest-client\customize-menu\add_menus_to_or_remove_menus_from_the_main_menu_bar.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add/remove toolbars">
+      <param name="Name" value="Add/Remove Toolbars">
+      <param name="Local" value="everest-client\customize-menu\add_remove_toolbars.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest main window">
+      <param name="Name" value="Main Menu Bar">
+      <param name="Local" value="everest-client\main-window\main_menu_bar.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="main window sections">
+    <param name="Name" value="Sections of the Main Window">
+    <param name="Local" value="everest-client\main-window\sections_of_the_main_window.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="management synopsis">
+    <param name="Name" value="Management Synopsis">
+    <param name="Local" value="everest-client\main-window\management-synopsis\the_management_synopsis.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="menu">
+    <param name="Name" value="Rename Menus">
+    <param name="Local" value="everest-client\customize-menu\rename_menus.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="menu bar">
+    <param name="Name" value="Menu Bar - Browser">
+    <param name="Local" value="misc\menu_bar_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Menu Bar - Browser">
+      <param name="Local" value="misc\menu_bar_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="menu options">
+    <param name="Name" value="Browser - Menu Options">
+    <param name="Local" value="misc\browser_s_menu_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="Browser - Menu Options">
+      <param name="Local" value="misc\browser_s_menu_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="rename">
+      <param name="Name" value="Rename Menus">
+      <param name="Local" value="everest-client\customize-menu\rename_menus.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="modify">
+    <param name="Name" value="Modify Labels">
+    <param name="Local" value="misc\modify_labels.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label">
+      <param name="Name" value="Modify Labels">
+      <param name="Local" value="misc\modify_labels.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="move">
+    <param name="Name" value="Move Toolbars">
+    <param name="Local" value="everest-client\customize-menu\move_toolbars.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="toolbar">
+      <param name="Name" value="Move Toolbars">
+      <param name="Local" value="everest-client\customize-menu\move_toolbars.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="multiple selection">
+    <param name="Name" value="Multiple Selection in Find Fields">
+    <param name="Local" value="advanced-options\find-function\multiple_selection_in_find_fields.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="find fields">
+      <param name="Name" value="Multiple Selection in Find Fields">
+      <param name="Local" value="advanced-options\find-function\multiple_selection_in_find_fields.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="navigation in Everest">
+    <param name="Name" value="Navigation">
+    <param name="Local" value="everest-client\ui\navigation.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="navigation">
+      <param name="Name" value="Navigation">
+      <param name="Local" value="everest-client\ui\navigation.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="new find filter">
+    <param name="Name" value="Create a New Filter">
+    <param name="Local" value="misc\create_a_new_filter.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="new labels">
+    <param name="Name" value="Design and Create New Labels">
+    <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\design_and_create_new_labels.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="design and create">
+      <param name="Name" value="Design and Create New Labels">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\design_and_create_new_labels.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter">
+      <param name="Name" value="Create a New Filter">
+      <param name="Local" value="misc\create_a_new_filter.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="number of records">
+    <param name="Name" value="Number of Records to Retrieve">
+    <param name="Local" value="advanced-options\find-function\number_of_records_to_retrieve_common_find_wwe.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="number of records to retrieve">
+    <param name="Name" value="Number of Records to Retrieve">
+    <param name="Local" value="advanced-options\find-function\number_of_records_to_retrieve_common_find_wwe.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="number of records">
+      <param name="Name" value="Number of Records to Retrieve">
+      <param name="Local" value="advanced-options\find-function\number_of_records_to_retrieve_common_find_wwe.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="retrieve">
+      <param name="Name" value="Number of Records to Retrieve">
+      <param name="Local" value="advanced-options\find-function\number_of_records_to_retrieve_common_find_wwe.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="options">
+    <param name="Name" value="'Title' dialog box - Toolbar Options">
+    <param name="Local" value="misc\toolbar_chart.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="chart toolbar">
+      <param name="Name" value="'Title' dialog box - Toolbar Options">
+      <param name="Local" value="misc\toolbar_chart.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="right-click options in the label section">
+      <param name="Name" value="Options in the Label Section">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\designer\options_in_the_label_section.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="windows menu">
+      <param name="Name" value="Windows Menu Options">
+      <param name="Local" value="everest-client\windows-options\windows-menu-options\windows_menu_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="page setup">
+    <param name="Name" value="Page Setup">
+    <param name="Local" value="misc\page_setup_chart_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="chart print preview">
+      <param name="Name" value="Page Setup">
+      <param name="Local" value="misc\page_setup_chart_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="paper">
+    <param name="Name" value="Paper">
+    <param name="Local" value="misc\paper.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label selection dialog box">
+      <param name="Name" value="Paper">
+      <param name="Local" value="misc\paper.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="password">
+    <param name="Name" value="Login User">
+    <param name="Local" value="everest-client\logging-in\login_user.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="change your password">
+      <param name="Name" value="Change your Password">
+      <param name="Local" value="everest-client\logging-in\change_your_password_status_bar_wwe.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="login">
+      <param name="Name" value="Login User">
+      <param name="Local" value="everest-client\logging-in\login_user.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="per record tab">
+    <param name="Name" value="Chart Setup - Per Record">
+    <param name="Local" value="everest-client\ui\browsers\options\chart\chart-setup-profile\chart_setup_per_record.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="chart setup">
+      <param name="Name" value="Chart Setup - Per Record">
+      <param name="Local" value="everest-client\ui\browsers\options\chart\chart-setup-profile\chart_setup_per_record.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="period columns">
+    <param name="Name" value="Period Columns - Customize Window">
+    <param name="Local" value="misc\period_columns.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customize window">
+      <param name="Name" value="Period Columns - Customize Window">
+      <param name="Local" value="misc\period_columns.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="utility">
+      <param name="Name" value="Utility of Period Columns">
+      <param name="Local" value="misc\utility_of_period_columns.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="periods in the customize window">
+    <param name="Name" value="Periods in the Customize Window">
+    <param name="Local" value="misc\periods_in_the_customize_window.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="periods">
+      <param name="Name" value="Periods in the Customize Window">
+      <param name="Local" value="misc\periods_in_the_customize_window.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="print">
+    <param name="Name" value="Browser Options - Print">
+    <param name="Local" value="everest-client\ui\browsers\options\print\browser_options_print.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="print preview">
+    <param name="Name" value="Page Setup">
+    <param name="Local" value="misc\page_setup_chart_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="charts">
+      <param name="Name" value="Page Setup">
+      <param name="Local" value="misc\page_setup_chart_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="print setup dialog box">
+    <param name="Name" value="The Print Setup Dialog Box">
+    <param name="Local" value="everest-client\ui\browsers\options\print\the_print_setup_dialog_box.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser options">
+      <param name="Name" value="Browser Options - Print">
+      <param name="Local" value="everest-client\ui\browsers\options\print\browser_options_print.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label">
+      <param name="Name" value="Print Labels">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\creating\options\run_and_print_labels.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="profile">
+    <param name="Name" value="Copying Profile Details">
+    <param name="Local" value="everest-client\ui\everest-profiles\copying_profile_details.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="profile details">
+    <param name="Name" value="View a Profile">
+    <param name="Local" value="everest-client\ui\everest-profiles\view_a_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="copy details">
+      <param name="Name" value="Copying Profile Details">
+      <param name="Local" value="everest-client\ui\everest-profiles\copying_profile_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="search for">
+      <param name="Name" value="Search for a Profile">
+      <param name="Local" value="everest-client\ui\everest-profiles\search_for_a_profile.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sort">
+      <param name="Name" value="Sort Profiles">
+      <param name="Local" value="everest-client\ui\everest-profiles\sort_profiles.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="standard menu options">
+      <param name="Name" value="Standard Menu Options in Profiles">
+      <param name="Local" value="everest-client\ui\everest-profiles\standard_menu_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view">
+      <param name="Name" value="View a Profile">
+      <param name="Local" value="everest-client\ui\everest-profiles\view_a_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="profiles in Everest">
+    <param name="Name" value="Everest Profiles">
+    <param name="Local" value="everest-client\ui\everest-profiles\everest_profiles.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="properties">
+    <param name="Name" value="Properties">
+    <param name="Local" value="misc\properties_label_section_label_designer.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label section options">
+      <param name="Name" value="Properties">
+      <param name="Local" value="misc\properties_label_section_label_designer.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="recently used commands">
+    <param name="Name" value="Display only Recently Used Commands">
+    <param name="Local" value="everest-client\customize-menu\display_only_the_recently_used_commands.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="display">
+      <param name="Name" value="Display only Recently Used Commands">
+      <param name="Local" value="everest-client\customize-menu\display_only_the_recently_used_commands.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="reminders">
+    <param name="Name" value="Reminders">
+    <param name="Local" value="misc\reminders.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest status bar">
+      <param name="Name" value="Reminders">
+      <param name="Local" value="misc\reminders.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="remove filters from a browser">
+    <param name="Name" value="Remove Filters from a Browser">
+    <param name="Local" value="misc\remove_filters_from_a_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="remove filters">
+      <param name="Name" value="Remove Filters from a Browser">
+      <param name="Local" value="misc\remove_filters_from_a_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="rename">
+    <param name="Name" value="Rename Menus">
+    <param name="Local" value="everest-client\customize-menu\rename_menus.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="menu">
+      <param name="Name" value="Rename Menus">
+      <param name="Local" value="everest-client\customize-menu\rename_menus.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="reset">
+    <param name="Name" value="Reset Toolbars to the Default Setting">
+    <param name="Local" value="everest-client\customize-menu\reset_toolbars_to_the_default_setting.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="toolbars">
+      <param name="Name" value="Reset Toolbars to the Default Setting">
+      <param name="Local" value="everest-client\customize-menu\reset_toolbars_to_the_default_setting.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="resize">
+    <param name="Name" value="Resize Icons">
+    <param name="Local" value="everest-client\customize-menu\resize_icons.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="icons">
+      <param name="Name" value="Resize Icons">
+      <param name="Local" value="everest-client\customize-menu\resize_icons.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="run">
+    <param name="Name" value="Filter Name">
+    <param name="Local" value="advanced-options\find-function\filter_name.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="filter">
+      <param name="Name" value="Filter Name">
+      <param name="Local" value="advanced-options\find-function\filter_name.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="search field">
+    <param name="Name" value="Search Field">
+    <param name="Local" value="misc\search_field.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Search Field">
+      <param name="Local" value="misc\search_field.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="search for">
+    <param name="Name" value="Search for a Profile">
+    <param name="Local" value="everest-client\ui\everest-profiles\search_for_a_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="Search for a Profile">
+      <param name="Local" value="everest-client\ui\everest-profiles\search_for_a_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sections of a browser">
+    <param name="Name" value="Sections of a Browser">
+    <param name="Local" value="everest-client\ui\browsers\sections_of_a_browser.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sections of the main window">
+    <param name="Name" value="Sections of the Main Window">
+    <param name="Local" value="everest-client\main-window\sections_of_the_main_window.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="selected record">
+    <param name="Name" value="Selected Record">
+    <param name="Local" value="misc\selected_record.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Selected Record">
+      <param name="Local" value="misc\selected_record.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="series tab">
+    <param name="Name" value="The Chart FX Properties Dialog Box - Series">
+    <param name="Local" value="everest-client\ui\browsers\options\chart\fx-profile\chart_fx_properties_series.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="chart FX properties dialog box">
+      <param name="Name" value="The Chart FX Properties Dialog Box - Series">
+      <param name="Local" value="everest-client\ui\browsers\options\chart\fx-profile\chart_fx_properties_series.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sort">
+    <param name="Name" value="Sort Profiles">
+    <param name="Local" value="everest-client\ui\everest-profiles\sort_profiles.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sort tabs">
+    <param name="Name" value="Sort Tabs">
+    <param name="Local" value="misc\sort_tabs_1.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Sort Tabs">
+      <param name="Local" value="misc\sort_tabs.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="Sort Profiles">
+      <param name="Local" value="everest-client\ui\everest-profiles\sort_profiles.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="standard browser options">
+    <param name="Name" value="Standard Browser Options">
+    <param name="Local" value="everest-client\ui\browsers\standard_browser_options.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="standard buttons in Everest">
+    <param name="Name" value="Common Buttons in Everest">
+    <param name="Local" value="misc\common_buttons_in_everest.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="standard menu options">
+    <param name="Name" value="Standard Menu Options in Profiles">
+    <param name="Local" value="everest-client\ui\everest-profiles\standard_menu_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile">
+      <param name="Name" value="Standard Menu Options in Profiles">
+      <param name="Local" value="everest-client\ui\everest-profiles\standard_menu_options.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="status bar">
+    <param name="Name" value="Status Bar - Browser">
+    <param name="Local" value="misc\status_bar_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Status Bar - Browser">
+      <param name="Local" value="misc\status_bar_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest main window">
+      <param name="Name" value="Status Bar">
+      <param name="Local" value="everest-client\main-window\status_bar.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sub-menus">
+    <param name="Name" value="Sub-menu">
+    <param name="Local" value="misc\sub_menu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="summary box">
+    <param name="Name" value="Summary Box">
+    <param name="Local" value="misc\summary_box_browser_sections1.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Summary Box">
+      <param name="Local" value="misc\summary_box_browser_sections1.html">
+      <param name="Name" value="Summary Box">
+      <param name="Local" value="misc\summary_box_browser_sections.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="summary level totals">
+    <param name="Name" value="Summary Level Totals">
+    <param name="Local" value="misc\summary_level_totals_browser_section.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Summary Level Totals">
+      <param name="Local" value="misc\summary_level_totals_browser_section.html">
+      <param name="Name" value="Summary Level Totals">
+      <param name="Local" value="misc\summary_level_totals.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="system settings">
+    <param name="Name" value="Settings">
+    <param name="Local" value="misc\system_settings_status_bar.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest status bar">
+      <param name="Name" value="Settings">
+      <param name="Local" value="misc\system_settings_status_bar.html">
+      <param name="Name" value="Settings">
+      <param name="Local" value="misc\system_settings.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="three-tier architecture">
+    <param name="Name" value="Three-Tier Architecture">
+    <param name="Local" value="introduction-to-everest\three_tier_architecture.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="advantages">
+      <param name="Name" value="Advantages of Three-tier Architecture">
+      <param name="Local" value="misc\advantages_of_three_tier_architecture.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="visual representation">
+      <param name="Name" value="Visual Representation of Everest's Three-tier Architecture">
+      <param name="Local" value="introduction-to-everest\visual_representation_of_three_tier_architecture.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="time zone">
+    <param name="Name" value="Login Time and Date">
+    <param name="Local" value="everest-client\logging-in\time_zone.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="login">
+      <param name="Name" value="Login Time and Date">
+      <param name="Local" value="everest-client\logging-in\time_zone.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="tip of the day!">
+    <param name="Name" value="Tips">
+    <param name="Local" value="everest-client\logging-in\tips.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="tip of the day!">
+      <param name="Name" value="Tips">
+      <param name="Local" value="everest-client\logging-in\tips.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="title bar">
+    <param name="Name" value="Title Bar - Browsers">
+    <param name="Local" value="misc\title_bar_browsers.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="title bar menu options">
+    <param name="Name" value="Browser - Title Bar Menu Options">
+    <param name="Local" value="misc\title_bar_menu_options.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser">
+      <param name="Name" value="Browser - Title Bar Menu Options">
+      <param name="Local" value="misc\title_bar_menu_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Title Bar - Browsers">
+      <param name="Local" value="misc\title_bar_browsers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest main window">
+      <param name="Name" value="Title Bar">
+      <param name="Local" value="everest-client\main-window\title_bar.html">
+      <param name="Name" value="Title Bar Menu">
+      <param name="Local" value="misc\title_bar_menu.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="tool tips for icons">
+    <param name="Name" value="Display Tool Tips for Icons">
+    <param name="Local" value="everest-client\customize-menu\display_tool_tips_for_icons.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="display">
+      <param name="Name" value="Display Tool Tips for Icons">
+      <param name="Local" value="everest-client\customize-menu\display_tool_tips_for_icons.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="toolbar">
+    <param name="Name" value="Add/remove Commands from a Toolbar">
+    <param name="Local" value="everest-client\customize-menu\add_remove_commands_from_a_toolbar.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="toolbar options">
+    <param name="Name" value="'Title' dialog box - Toolbar Options">
+    <param name="Local" value="misc\toolbar_chart.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="add/remove commands">
+      <param name="Name" value="Add/remove Commands from a Toolbar">
+      <param name="Local" value="everest-client\customize-menu\add_remove_commands_from_a_toolbar.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="charts">
+      <param name="Name" value="'Title' dialog box - Toolbar Options">
+      <param name="Local" value="misc\toolbar_chart.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Creating a Toolbar">
+      <param name="Local" value="misc\creating_a_toolbar.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="move">
+      <param name="Name" value="Move Toolbars">
+      <param name="Local" value="everest-client\customize-menu\move_toolbars.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="toolbars">
+    <param name="Name" value="Toolbars - Browser">
+    <param name="Local" value="misc\toolbars_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="browser sections">
+      <param name="Name" value="Toolbars - Browser">
+      <param name="Local" value="misc\toolbars_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest main window">
+      <param name="Name" value="Tool Bars">
+      <param name="Local" value="everest-client\main-window\tool_bars.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="reset">
+      <param name="Name" value="Reset Toolbars to the Default Setting">
+      <param name="Local" value="everest-client\customize-menu\reset_toolbars_to_the_default_setting.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="top five aging accounts">
+    <param name="Name" value="Top Five Aging Accounts">
+    <param name="Local" value="misc\top_five_aging_accounts_finance_top_ten.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="type of label">
+    <param name="Name" value="Label Type">
+    <param name="Local" value="misc\type_of_label.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label selection dialog box">
+      <param name="Name" value="Label Type">
+      <param name="Local" value="misc\type_of_label.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="user">
+    <param name="Name" value="Login User">
+    <param name="Local" value="everest-client\logging-in\login_user.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="user code">
+    <param name="Name" value="Login User">
+    <param name="Local" value="everest-client\logging-in\login_user.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="login">
+      <param name="Name" value="Login User">
+      <param name="Local" value="everest-client\logging-in\login_user.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="user count">
+    <param name="Name" value="User Count">
+    <param name="Local" value="misc\user_count_status_bar.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest status bar">
+      <param name="Name" value="User Count">
+      <param name="Local" value="misc\user_count_status_bar.html">
+      <param name="Name" value="User Count">
+      <param name="Local" value="misc\user_count.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="utility">
+    <param name="Name" value="Utility of 3D Charts">
+    <param name="Local" value="misc\utility_of_3d_charts.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="3D charts">
+      <param name="Name" value="Utility of 3D Charts">
+      <param name="Local" value="misc\utility_of_3d_charts.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="label designer">
+      <param name="Name" value="Utility of Label Designer">
+      <param name="Local" value="everest-client\ui\browsers\options\label-designer\utility_of_label_designer.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="period columns">
+      <param name="Name" value="Utility of Period Columns">
+      <param name="Local" value="misc\utility_of_period_columns.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="utilizing browsers effectively">
+    <param name="Name" value="Utilizing Browsers Effectively">
+    <param name="Local" value="everest-client\ui\browsers\utilizing_browsers_effectively.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="utilize effectively">
+      <param name="Name" value="Utilizing Browsers Effectively">
+      <param name="Local" value="everest-client\ui\browsers\utilizing_browsers_effectively.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="version">
+    <param name="Name" value="Version">
+    <param name="Local" value="misc\version.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest status bar">
+      <param name="Name" value="Version">
+      <param name="Local" value="misc\version.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="view">
+    <param name="Name" value="View a Profile">
+    <param name="Local" value="everest-client\ui\everest-profiles\view_a_profile.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profile details">
+      <param name="Name" value="View a Profile">
+      <param name="Local" value="everest-client\ui\everest-profiles\view_a_profile.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="web browser">
+    <param name="Name" value="Everest Desktop as a Web Browser">
+    <param name="Local" value="advanced-options\everest_desktop_as_a_web_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest desktop">
+      <param name="Name" value="Everest Desktop as a Web Browser">
+      <param name="Local" value="advanced-options\everest_desktop_as_a_web_browser.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="windows menu">
+    <param name="Name" value="Introduction to the Windows Menu">
+    <param name="Local" value="everest-client\windows-options\introduction_to_the_windows_menu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="windows menu options">
+    <param name="Name" value="Cascade">
+    <param name="Local" value="everest-client\windows-options\windows-menu-options\cascade.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="cascade">
+      <param name="Name" value="Cascade">
+      <param name="Local" value="everest-client\windows-options\windows-menu-options\cascade.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="close all">
+      <param name="Name" value="Close All">
+      <param name="Local" value="everest-client\windows-options\windows-menu-options\close_all.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="introduction">
+      <param name="Name" value="Introduction to the Windows Menu">
+      <param name="Local" value="everest-client\windows-options\introduction_to_the_windows_menu.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="minimize all">
+      <param name="Name" value="Minimize All">
+      <param name="Local" value="everest-client\windows-options\windows-menu-options\minimize_all.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="options">
+      <param name="Name" value="Windows Menu Options">
+      <param name="Local" value="everest-client\windows-options\windows-menu-options\windows_menu_options.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="restore all">
+      <param name="Name" value="Restore All">
+      <param name="Local" value="everest-client\windows-options\windows-menu-options\restore_all.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="select a window">
+      <param name="Name" value="Select a Window">
+      <param name="Local" value="everest-client\windows-options\windows-menu-options\select_a_window.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view outlook bar">
+      <param name="Name" value="View Outlook Bar">
+      <param name="Local" value="everest-client\windows-options\windows-menu-options\view_outlook_bar.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="top ten">
+    <param name="Name" value="Index Message">
+    <param name="Local" value="misc\no_topic_associated.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="items by amount">
+      <param name="Name" value="Top Ten Items by Amount">
+      <param name="Local" value="everest-client\main-window\management-synopsis\top_ten_items_by_amount.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="purchase vendors">
+      <param name="Name" value="Top Ten Purchase Vendors">
+      <param name="Local" value="everest-client\main-window\management-synopsis\top_ten_purchase_vendors.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="profit customers">
+      <param name="Name" value="Top Ten Profit Customers">
+      <param name="Local" value="everest-client\main-window\management-synopsis\top_ten_revenue_customers.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="sales representatives">
+      <param name="Name" value="Top Ten Sales Representative">
+      <param name="Local" value="everest-client\main-window\management-synopsis\top_ten_sales_representative.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest sample company">
+    <param name="Name" value="The Everest Sample Company">
+    <param name="Local" value="everest-sample-company\the_everest_sample_company.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sample company">
+    <param name="Name" value="The Everest Sample Company">
+    <param name="Local" value="everest-sample-company\the_everest_sample_company.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accel sample company">
+    <param name="Name" value="The Everest Sample Company">
+    <param name="Local" value="everest-sample-company\the_everest_sample_company.html">
+  </object>
+</ul>
+</html>

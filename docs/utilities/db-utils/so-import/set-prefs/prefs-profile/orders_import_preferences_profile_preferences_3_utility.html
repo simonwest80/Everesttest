@@ -1,0 +1,57 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="sales-order-import-preferences-profile---miscellaneous">Sales Order Import Preferences Profile - Miscellaneous</h1>
+
+<p>The <strong>Miscellaneous</strong> tab allows  you to specify a default item, default delivery method, kit price item,  shipping charges item and additional details.</p>
+
+<p>Default Values</p>
+
+<dl>
+  <dt><strong>Field to base item code search on</strong></dt>
+  <dd>Select the field to map to the <strong>Item 
+ code</strong> field (path: <strong>Item</strong>  profile &gt; <strong>General</strong> tab) when  sales orders are imported from your  Yahoo!  Store. The options are:</dd>
+</dl>
+
+<ul>
+  <li><strong>Product 
+ ID:</strong> Select this option to map the Yahoo! Product ID field to the  <strong>Item code</strong> field in <strong>Everest</strong>.</li>
+  <li><strong>Product 
+ Code:</strong> Select this option to map the Yahoo! Product Code field to  the <strong>Item code</strong> field in <strong>Everest</strong>.</li>
+</ul>
+
+<dl>
+  <dt><strong>Default Item to be used when items not found  *</strong></dt>
+  <dd>Specify an alternate/default item code if the product  code on the online store does not match an existing item code in <strong>Everest</strong>.</dd>
+  <dd><img src="/versata-everest-docs/utilities/img/example.gif" alt="" /> You want to import a sales order for the item ‘Books’ from  your online store. But, this item may not have been created in the <strong>Everest</strong> database. Specify an alternate  item which will then be imported.</dd>
+  <dt><strong>Default delivery method *</strong></dt>
+  <dd>Specify the delivery method to be used if the delivery  method in <strong>Everest</strong> does not match  the one specified by the customer on the sales order.</dd>
+  <dd><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /> <a href="/versata-everest-docs/utilities/misc/default_delivery_method_default_sales_order_info_order_import_preferences_details_utility_main_content.html">Default  Delivery Method</a></dd>
+  <dt><strong>Item to be used for Shipping Charges *</strong></dt>
+  <dd>Select an item code to account for the freight charges  contained in the sales order to be imported. The item code must be of  a non-inventoried item.</dd>
+</dl>
+
+<p>Additional Details</p>
+
+<dl>
+  <dt><strong>Custom field for order number</strong></dt>
+  <dd>Order numbers are generated for the orders created  on your online store. Specify the custom field in <strong>Everest</strong>  that should store these numbers. Only character type custom fields are  available for selection. <em>**</em></dd>
+  <dt><strong>Custom field for storing order creation date  and time</strong></dt>
+  <dd>Specify the custom field in <strong>Everest</strong>  that should store the date and time when the order was placed on the online  store. Only date type custom fields are available for selection. Depending  on the custom field selected from the drop-down list, the date and time  details will be displayed in the respective custom field in the sales  order created in <strong>Everest</strong>.</dd>
+  <dt><strong>Custom field for storing Referring Page Information</strong></dt>
+  <dd>The referring page is the web page from which a  link is provided to your online store. Specify the custom field that should  store the referring page details. Only character type custom fields are  available for selection.</dd>
+  <dd><img src="/versata-everest-docs/utilities/img/example.gif" alt="" /> You give a search for the Everest Software website in a search engine.  The web page in the search engine from which there is a link to the Everest Software  website is the referring page.</dd>
+  <dt><strong>Custom field for storing Entry Point Details</strong></dt>
+  <dd>The entry point is the destination site that is  obtained from the referring page. Specify the custom field that should  store the entry point details. Only character type custom fields are available  for selection.</dd>
+  <dd><img src="/versata-everest-docs/utilities/img/example.gif" alt="" /> In the earlier example, when you click the link it takes  you to the Everest Software website, and the Everest Software homepage becomes the entry point.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/db-utils/so-import/set-prefs/prefs-profile/orders_import_preferences_profile_utility_content.html">Sales  Order Import Preferences Profile</a></dd>
+</dl>
+
+
+
+
+</div>

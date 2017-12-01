@@ -1,0 +1,46 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="expense-account">Expense Account</h1>
+
+<p>The <strong>Expense</strong> <strong>Account</strong>  column displays the account to which the Cost of Goods sold/expense/asset  for the item returned are credited. When the customer returns inventoried  items, the inventory control account is debited and the cost of goods  sold account is credited.</p>
+
+<p>When non-inventoried items are returned, the expense/asset account where  the item has been credited is debited.</p>
+
+<p><strong>Inventoried Items</strong></p>
+
+<p>When inventoried items are selected, the Cost of Goods Sold Account  is determined by the following rules:</p>
+
+<ul>
+  <li>The account  defined for cost of goods sold in the <strong>** Cost of goods sold/expense field of the **Item</strong>’s  profile (path: <strong>Inventory &gt; Items &gt;</strong> <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Accounts</strong> tab) is displayed.</li>
+  <li>If the cost  of goods sold account has not been defined for the item, then the cost  of goods sold account assigned in the <strong>COGS/Expense</strong> field of the item’s <strong>Category</strong>  profile (path: <strong>Inventory &gt; Categories 
+ &gt;</strong> <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Accounting</strong>  tab) is displayed.</li>
+  <li>If the cost  of goods sold account has not been defined for the item’s <strong>Category</strong>  profile, then the cost of goods sold account specified in the <strong>Cost 
+ of goods sold</strong> field of the <strong>A</strong>ccounting  dialog box (path: <strong>File &gt; Setup &gt; 
+ Preferences &gt; Defaults &gt; Accounting &gt; Posting Group</strong> tab)  is displayed.</li>
+</ul>
+
+<dl>
+  <dt>: <img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/item-profile-details/item-categories/item_categories.html">Items  - Category</a></dt>
+  <dd><a href="/versata-everest-docs/accounting/accounting-structure-in-everest/control-default-accounts/default_accounts.html">Defaults  - Accounting</a></dd>
+</dl>
+
+<p>Non-inventoried Items</p>
+
+<p>When an asset account has been selected for a non-inventoried item in  the <strong>Item</strong>’s profile (path: <strong>Inventory &gt; Items &gt; Options</strong> &gt;  <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Accounts</strong>  tab), the asset account is assigned to the expense account column in a  sales document. Any other expense account or asset account can be selected.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/sales-ret-doc/contents/item-info/acnt-dtls/account_details_sales_return_document_content.html">Account  Details</a></dd>
+  <dd><a href="/versata-everest-docs/sales/misc/default_accounts_for_sales_transactions.html">Default  Accounts in Sales Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

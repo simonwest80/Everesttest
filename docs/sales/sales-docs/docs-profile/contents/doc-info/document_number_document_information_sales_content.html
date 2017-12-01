@@ -1,0 +1,46 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="document-number">Document Number</h1>
+
+<p>The <strong>Document #</strong> field displays  the number assigned to a sales document when it is created. Sequence numbers  for sales documents are set in the <strong>Location/Sub-Location</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location</strong>/<strong>Sub-Location</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In</strong> <strong>New</strong><strong>Window</strong><font color="#800000" class="hcp2"> </font>&gt;  <strong>Invoicing</strong> tab), of the logged  in location/sub-location from which you create the sales document.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/locations_and_departments.html">Location  and Sub-Location</a></p>
+
+<p>If  sequence  numbers are not defined for the login location or sub-location,  the  sequence number specified in the <strong>Default 
+ Location</strong> field (path: <strong>File &gt; 
+ Setup &gt; Preferences &gt; Defaults &gt; Accounting &gt; Miscellaneous</strong> tab) is assigned to the document.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></p>
+
+<p><strong>Everest</strong> automatically assigns  the consecutive number to the sales document created subsequently.</p>
+
+<p class="note">If you change the location sequence number, you cannot  assign a number that is already used. The system prompts you to set a  proper range of sequence numbers.</p>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> If  a quote is converted to an order or an order to an invoice, and the login  <font color="#000000" class="hcp9">location</font> is changed before saving the document,  the sequence number set for the logged in <font color="#000000" class="hcp9">location</font>  at the time of creating the order or invoice (although this is different  from the location for the original quote or order) is used.</p>
+
+<p>Numbering for Document Aliases</p>
+
+<p>Sequence numbers are assigned continuously. Documents using a different  alias are not assigned a different sequence.</p>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> If  you create a sales quote with the number 1000 and the next sales quote  with an alias ‘Service Quote’,  the document number assigned to the ‘Service Quote’  would be 1001.</p>
+
+<p><strong>Manual 
+ Numbering</strong></p>
+
+<p>You cannot number the documents manually in <strong>Everest</strong>.  You can however, change the sequence number by altering it from the <strong>Location</strong> profile (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location</strong>/ <strong>Sub-Location</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In</strong> <strong>New</strong><strong>Window</strong><font color="#800000" class="hcp2"> </font>&gt;  <strong>Invoicing</strong> tab). Every time you  change a sequence number, <strong>Everest</strong>  allots the next number in sequence to the documents, thereafter.</p>
+
+<p class="note">Sequence numbers once assigned are not re-assigned by  <strong>Everest</strong> even if the document is  discontinued or purged.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/doc-info/document_information_sales_content.html">Document  Information</a></dd>
+</dl>
+
+
+
+
+</div>

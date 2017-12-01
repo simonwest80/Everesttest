@@ -1,0 +1,76 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="sample-ini--file">Sample .INI  File</h1>
+
+<p><strong>Request Format</strong></p>
+
+<p>You run the /gx  switch for the processor “ICVERRET”  (i.e. IC Verify Processor for the ‘Retail’ Business Type) and get the  following response:</p>
+
+<p>“C1”,”clerk<CMN>custname","SO1245","4111111111111111","0601","10.00","N",</CMN></p>
+
+<p>“54845”,”bill address”,”0.02”,”2545”</p>
+
+<p>Enter the following in the .INI  file:</p>
+
+<p>[REQUEST ICVERIFY]</p>
+
+<p><strong>SALE</strong>=<C1>,CLERK,ORDERNO,ACCOUNT,EXP+SWIPEINFO,AMOUNT,,ZIP,</C1></p>
+
+<p>ADDRESS,TAX,CVV2</p>
+
+<p>Similarly, you can enter the following:</p>
+
+<p><strong>SHIP</strong>=<CO>,CLERK,ORDERNO,ACCOUNT,EXP,AMOUNT,,ZIP,ADDRESS,</CO></p>
+
+<p>TAX,CVV2</p>
+
+<p><strong>REFUND</strong>=<C3>,CLERK,ORDERNO,ACCOUNT,EXP,AMOUNT</C3></p>
+
+<p><strong>BOOK</strong>=<C4>,CLERK,ORDERNO,ACCOUNT,EXP,AMOUNT,,ZIP,ADDRESS,</C4></p>
+
+<p>TAX</p>
+
+<p><strong>FORCE</strong>=<C5>,CLERK,ORDERNO,ACCOUNT,EXP,AMOUNT,APPROVECODE,</C5></p>
+
+<p>TAX,CVV2</p>
+
+<p><strong>AUTH</strong>  = <C6>,CLERK,ORDERNO,ACCOUNT,EXP,HARDCODE,ZIP,</C6></p>
+
+<p>AMOUNT,ADDRESS,CVV2</p>
+
+<p><strong>Answer Format</strong></p>
+
+<p>If the Answer text (which includes the double quote) is “Y123456WA125346039401”,  enter the following in the .INI  file:</p>
+
+<p>[ANSWER ICVERIFY]</p>
+
+<p>APPROVE=2,1 [Here, the starting position is 2 and the length is 1]</p>
+
+<p>RESPONSE=3,6</p>
+
+<p>AVS=9,1</p>
+
+<p>CVV2=10,1</p>
+
+<p>TRANID=10,12</p>
+
+<p>The data is read as below:</p>
+
+<p>APPROVE = Y</p>
+
+<p>RESPONSE = 123456</p>
+
+<p>AVS = W</p>
+
+<p>CVV2 = A</p>
+
+<p>TRANID =  125346039401</p>
+
+
+
+
+</div>

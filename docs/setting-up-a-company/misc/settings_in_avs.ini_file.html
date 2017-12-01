@@ -1,0 +1,40 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="settings-in-avsini--file">Settings in AVS.ini  File</h1>
+
+<p>The AVS.ini  file is by default installed in the System 32 directory of your Application  server and Web server also if it is a different server.</p>
+
+<p>The AVS.ini  file contains defaults settings for <strong>Everest</strong>  processors that use “Payflow” as the <strong>Service</strong>.</p>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/lens.gif" alt="" />  <a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/create-a-processor/the_processors_profile_settings.html">Processor  Profile - Settings tab</a></p>
+
+<p>It has the following three tags.</p>
+
+<dl>
+  <dt><strong>COUNTRY</strong></dt>
+  <dd>This setting determines whether the address/zip  settings of this .ini  file should apply to US(‘U’),  Non-US(‘N’)  or ALL(‘A’)  customers.</dd>
+  <dt><strong>ADDRESS and ZIP</strong></dt>
+  <dd>These settings determine whether the Address or  Zip verification result should be ignored or considered.</dd>
+  <dd>R - Required</dd>
+  <dd>O - Optional</dd>
+  <dd>N  - NONE</dd>
+</dl>
+
+<p class="example">If you want PayFlow  Pro to verify addresses of Non-US customers also, you can make the following  setting:</p>
+
+<p>COUNTRY = A</p>
+
+<p>ADDRESS = R</p>
+
+<p>ZIP = R</p>
+
+<p>If you make any other settings in the above-mentioned tags (apart from  those specified), <strong>Everest</strong> treats  the default setting as ‘NONE’.</p>
+
+
+
+
+</div>

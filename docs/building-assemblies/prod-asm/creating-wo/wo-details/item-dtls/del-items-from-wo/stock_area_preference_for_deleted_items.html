@@ -1,0 +1,42 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="deleted-items---stock-areas-assigned">Deleted Items - Stock Areas Assigned</h1>
+
+<p>You can set a preference to move the inventoried item to another stock  area once the item is removed (detached) from a work order. This stock  area is decided using the following logic:</p>
+
+<ul>
+  <li>Use the stock  area defined in the <strong>Select stock area 
+ to receive back inventoried components of assembly previously issued on 
+ a work order</strong> field of the <strong>Location</strong> profile (path: <strong>File</strong> &gt;  <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location/Sub-Location</strong> &gt;  <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Stock Transfer</strong> &gt; <strong>Assembly 
+ 1</strong> tab) for the login location/sub-location.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/set-up-locations/the_location_profile_stock_transfer.html">Location  Profile - Stock Transfer Tab</a></strong></p>
+
+<ul>
+  <li>If a stock  area is not defined for the logged in location/sub-location, the stock  area assigned for the default location in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Default Location</strong> field) is used.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></strong></p>
+
+<ul>
+  <li>If this stock  area is not defined for the default location also, the stock area specified  in the <strong>Purchase Receipt/Invoice</strong> option  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location</strong>/<strong>Sub-Location</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Stock</strong> <strong>Transfer</strong> &gt; <strong>Purchase 
+ Document</strong> tab &gt; <strong>Select stock 
+ area to transfer inventoried items when creating</strong> section) for the  login location is used.</li>
+  <li>If the stock  area is not specified for the login location, the stock area specified  for purchase receipts/invoices in the default location is used.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/creating-wo/wo-details/item-dtls/del-items-from-wo/delete_items_from_a_work_order.html">Delete  Items From a Work Order</a></dd>
+</dl>
+
+
+
+
+</div>

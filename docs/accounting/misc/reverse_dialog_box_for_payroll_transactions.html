@@ -1,0 +1,66 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="reverse-dialog-box">Reverse Dialog Box</h1>
+
+<p>This dialog box appears for payroll transactions.</p>
+
+<p>Reversal Transaction Information</p>
+
+<dl>
+  <dt><strong>Source Type</strong></dt>
+  <dd>The Source Type field defaults to the appropriate  system source type for reversals. The system source type is mentioned  below:</dd>
+</dl>
+
+<ul>
+  <li>RPP – Reversal  of Payroll Payment Transaction</li>
+</ul>
+
+<p>: If a payroll payment transaction is reversed, the  Source Type defaults to RPP. However, you can select a different source  type from the drop-down list or create a new one. If no source type is  selected the system will select the default source type when you save  the dialog box. The description of Source Type displays in the untitled  field to the right.</p>
+
+<dl>
+  <dt><strong>Date of Reversal</strong></dt>
+  <dd>Select the date of reversal. By default, this field  displays the date of the original transaction. However, you can change  it.</dd>
+</dl>
+
+<p class="note">The original or selected date must fall within  an open period. If using a selected date, it must fall on or after the  date of the original transaction.</p>
+
+<dl>
+  <dt><strong>Narration</strong></dt>
+  <dd>Enter the specific reason for reversing this transaction.  This is an optional field. The reason for the reversal entered in this  field is updated in both the Reversed and Reversal Journals.</dd>
+  <dt><strong>Replace the reversed transaction with a new transaction</strong></dt>
+  <dd>Select this check box to create a new transaction  to replace the reversed transaction. This check box is unselected by default.</dd>
+</dl>
+
+<p>New Transaction Information</p>
+
+<p>The fields in this section are available only if you have selected the  <strong>Replace the reversed transaction with 
+ a new transaction</strong> check box.</p>
+
+<dl>
+  <dt><strong>Source Type</strong></dt>
+  <dd>Displays the source type of the original transaction.  However, you can select a different source type from the drop-down list  or create a new one. The description of Source Type displays in the untitled  field to the right. This field is mandatory.</dd>
+  <dt><strong>Bank Account</strong></dt>
+  <dd>The bank account for this re-created transaction  will be the bank associated to the payment method.</dd>
+  <dt><strong>Payment Method</strong></dt>
+  <dd>Displays the payment method of the original transaction.  However, you can select a different payment method from the drop-down  list or create a new one. The description of Payment Method displays in  the untitled field to the right. If no payment method is selected, the  payment method used in the original transaction will be selected when  you save this dialog box. This field is mandatory.</dd>
+  <dt><strong>Date</strong></dt>
+  <dd>Displays date of the original transaction, however,  you can select another date as needed.</dd>
+</dl>
+
+<p class="note">The original or selected date must fall within  an open period. If using a selected date, it must fall on or after the  date of the original transaction or date of reversal.  This  field is mandatory.</p>
+
+<p class="note">You will not be able to reverse a transaction  if the document balance shows up negative figures.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/impact_of_reversing_on_unposted_payment_journals.html">Impact  of Reversing on Unposted Payment Journals</a></dd>
+</dl>
+
+
+
+
+</div>

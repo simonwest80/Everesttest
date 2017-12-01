@@ -1,0 +1,58 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-item-alias-profile---general">The Item Alias Profile - General</h1>
+
+<p>Use the <strong>General</strong> tab of the <strong>Item Alias</strong> profile to specify details  such as the code and it’s description</p>
+
+<p>General</p>
+
+<dl>
+  <dt><strong>Code</strong></dt>
+  <dd>Enter a unique alphanumeric code for the item alias  using 1 to 25 characters of the supported type. This is a mandatory field.</dd>
+  <dt><strong>Narration</strong></dt>
+  <dd>Enter a description or other comments concerning  the alias. This narration is for internal use only and is not printed  on any sales or purchase documents.</dd>
+</dl>
+
+<p>Alias to</p>
+
+<dl>
+  <dt><strong>Item</strong></dt>
+  <dd>Specify the item code for which the alias is being  defined (i.e. the existing item code). This is a mandatory field.</dd>
+  <dt><strong>Sales Measure</strong></dt>
+  <dd>Specify the sales measure of the item alias in this  field. This sales measure is used when adding an item alias to a document.  If you do not specify a sales measure in this field, the item will be  added with the default sales measure. Allowed sales measures are available  in the drop-down list.</dd>
+</dl>
+
+<p>Overrides</p>
+
+<dl>
+  <dt><strong>Description</strong></dt>
+  <dd>Enter the description to be used, when the item  is retrieved into a document using this alias.</dd>
+</dl>
+
+<p class="note">If you leave this field blank, the description of the actual item, for  which the alias is defined, is displayed on the documents or web pages.</p>
+
+<dl>
+  <dt><strong>Force Price</strong></dt>
+  <dd>Select this option to retrieve the price specified  in the <strong>Price</strong> field of the <strong>Item Alias</strong> profile into the sales document  when the item alias is used. You must also select a <strong>Sales 
+ Measure</strong> from the drop-down list in the <strong>Alias 
+ to</strong> section. If this option is checked, only alias items with the  same measure as the item to which it is defined as an alias can be selected  in purchase and sales documents.</dd>
+  <dd>The <strong>Force Price</strong>  check box is disabled when you define an alias for a kit or a matrix group.</dd>
+</dl>
+
+<p class="note">Force price overrides special pricing and quantity pricing for alias  items when this option is checked and the item is retrieved into a sales  document. When this option is unchecked and the item is retrieved into  a sales document, the special pricing and quantity pricing options are  considered.  Alias  items will carry the price on the sales order to the sales invoice. If  this option is checked when the item is retrieved into the sales order  but unchecked when the sales order is converted into sales invoice, the  force price on the sales order will be carried to the sales invoice. If  unchecked when the item is retrieved into the sales order but checked  when the sales order is converted into sales invoice, the force price  will not be relevant and the price on the sales order will be carried  to the sales invoice.</p>
+
+<dl>
+  <dt><strong>Price</strong></dt>
+  <dd>Enter the selling price to be retrieved into a sales  document using the item alias defined in this profile. This field is enabled  only when the <strong>Force Price</strong> check  box is selected.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/item-alias/item_alias_profile.html">The Item Alias  Profile</a></dd>
+</dl>
+
+
+
+
+</div>

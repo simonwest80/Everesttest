@@ -1,0 +1,33 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="tax">Tax</h1>
+
+<p>The <strong>Tax</strong> column indicates whether  the purchase price of the item selected in the purchase document is Inclusive  of Tax (I) or Exclusive of Tax (E).</p>
+
+<p>Tax is included in the purchase price of an item if the <strong>Tax</strong><strong>inclusive</strong> <strong>cost</strong>  check box is selected (path: <strong>Inventory</strong>  &gt; <strong>Items</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Purchases</strong>  tab).</p>
+
+<p>When the purchase price of an item includes tax, this column displays  ‘I’. The <strong>Amount</strong> column displays  the purchase price of the item excluding the tax amount. When the purchase  price of an item excludes tax, this column displays ‘E’.</p>
+
+<p class="example">The item cost, which is tax <strong>inclusive</strong>,  is $110 and the tax is 10%. When you select this item in a purchase document,  the <strong>Tax Amount</strong> column in the item  details grid displays $10 and the <strong>Amount</strong>  column shows $100.</p>
+
+<p>The item cost, which is tax <strong>exclusive</strong>,  is $110 and the tax is 10%. When you select this item in a purchase document,  the <strong>Tax Amount</strong> column in the item  grid displays $11 and the <strong>Amount</strong>  column shows $110.</p>
+
+<p><strong>Everest</strong> calculates the discount  exclusive of tax, for an item whose price includes tax.</p>
+
+<p class="note">Tax cannot be computed properly if an item  is tax inclusive and the tax code associated with that item has one or  more tax components with tax base limit. If the tax component has a base  limit, items should be set with tax exclusive price wherever possible.  In case a tax component with a tax limit base is associated with a tax  inclusive priced item, Everest clears the tax code and amount fields for  that item. You may manually select a valid tax code for such items if  desired.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/item-info/tax-details/recoverable_tax_item_details_grid_purchase_content.html">Recoverable  Tax</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/modify_tax_recoverable_tax_amounts_purchase_process.html">Modify  Tax/Recoverable Tax Amounts</a></dd>
+</dl>
+
+
+
+
+</div>

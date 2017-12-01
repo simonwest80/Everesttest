@@ -1,0 +1,75 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="etl-job-scheduling">ETL Job Scheduling</h1>
+
+<p>Use <strong>ETL Job Scheduling</strong> to configure  how often the <strong>Extract, Transform, and 
+ Load (ETL)</strong> function will run and update your data warehouse.</p>
+
+<p class="steps">To configure the ETL scheduling, do the following:</p>
+
+<ul>
+  <li>From the main menu  bar, select <strong>Utility &gt; Data Warehouse 
+ &gt; ETL Schedule</strong>.  The  <strong>ETL Job Scheduling</strong> dialog box  is displayed.</li>
+  <li>To set up a schedule  for the ETL activity, specify the schedule. The ETL job must run once  per day. Click <strong>Save Schedule</strong> to  execute the processing according to your specified schedule.</li>
+</ul>
+
+<p class="note">The ETL will run once every day at 4 a.m.  local server time by default. The default schedule will display in the  ETL Job Scheduling dialog box until a new schedule is configured.</p>
+
+<ul>
+  <li>To  process the ETL immediately, click <strong>Execute 
+ Now</strong>. The <strong>Execute Now</strong> dialog  box is displayed.</li>
+</ul>
+
+<p class="note">If the ETL process is currently running, the  <strong>Execute Now</strong> button is disabled.</p>
+
+<p>Extract From</p>
+
+<dl>
+  <dt><strong>Last Successful Run</strong></dt>
+  <dd>Use the <strong>Last Successful 
+ Run</strong> option to extract records back to the last successfully loaded  record in <strong>Everest</strong>. If necessary,  use this option to rerun the ETL subsequent to a failure. This option  can be selected at any time to capture production changes since the last  successful run. The time of the last successful run displays to the right  of this option.</dd>
+  <dt><strong>Choose Date</strong></dt>
+  <dd>Use the <strong>Choose 
+ Date</strong> option to choose an arbitrary date and <strong>Everest</strong>  will extract records back to the chosen date. If you choose a date that  is before the date of the last successfully loaded record, the previously  collected data in the data mart will be overwritten. This option may take  longer than a normal ETL run.</dd>
+  <dt><strong>Start Over</strong></dt>
+  <dd>Use the <strong>Start Over</strong>  option to delete and rebuild the data mart. This completely refreshes  the data mart and retrieves data from the oldest <strong>Everest</strong>  data available. The data mart cubes will also be reprocessed.</dd>
+</dl>
+
+<p class="warn">The <strong>Start 
+ Over</strong> option overwrites all records in the data mart and may take  a very long time to execute.</p>
+
+<p>Cubes</p>
+
+<p>Use the <strong>Cubes</strong> section to indicate  if the cubes should be updated or rebuilt.</p>
+
+<dl>
+  <dt><strong>Update Cubes</strong></dt>
+  <dd>Use the <strong>Update 
+ Cubes</strong> option to update all cubes with the ETL run.</dd>
+  <dt><strong>Delete and Recreate All Cubes</strong></dt>
+  <dd>Use the <strong>Delete 
+ and Recreate All Cubes</strong> option to delete and recreate the cubes  as a part of your ETL run. Select this option if changes were made to  your data source. We recommend that you back up your cubes with different  names before choosing this option.</dd>
+</dl>
+
+<ul>
+  <li>
+    <p>If you chose <strong>Execute Now</strong>, select a method of processing  the ETL activity and indicate what should be done to the cubes during  the ETL run.</p>
+  </li>
+  <li>
+    <p>Click <strong>OK</strong>.  You do not have to wait for the ETL task to complete before moving to  other tasks.</p>
+  </li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-advanced-dashboard/create-and-set-up-the-database-and-dashboard/etl_history_browser_ead.html">ETL History  Browser</a></dd>
+</dl>
+
+
+
+
+</div>

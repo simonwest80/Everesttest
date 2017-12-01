@@ -1,0 +1,53 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---editing-a-purchase-receipt">Back End Processes - Editing a Purchase Receipt</h1>
+
+<p>You can edit Line Item details in a saved but unposted <strong>Purchase 
+ Receipt</strong> profile. Whenever you modify the editable columns like  Item Cost, Discount Value, Discount %, Tax Code, and Add-on Cost for a  line item, and it results in a change in the total value of the line item,  the following back-end processes occur:</p>
+
+<ul>
+  <li>A <strong>Cost 
+ Adjustment</strong> document shown in the original and the last modified  values is created. The date of this document is the same as the date on  which the purchase receipt is modified. You cannot edit the <strong>Cost 
+ Adjustment</strong> document. Also, the unposted journal created for this  document can neither be deleted nor voided.</li>
+  <li>
+    <p>New columns are  created that store the original values on the purchase receipt:</p>
+  </li>
+  <li>Original Item  Cost</li>
+  <li>Original Discount</li>
+  <li>Original Tax  Amount</li>
+  <li>Original Add-on  Cost</li>
+  <li>The following existing  columns display the last modified cost:</li>
+  <li>Item Cost</li>
+  <li>Discount value</li>
+  <li>Discount %</li>
+  <li>Tax Code</li>
+  <li>Add-on cost</li>
+</ul>
+
+<p>On saving a modified <strong>Purchase 
+ Receipt</strong> profile the system checks whether there is a Sales Invoice  created between the Original Date and Time when the Purchase Receipt was  created and the Date and Time when the Purchase Receipt was modified and  whether there is a difference in the Original Cost and the Cost mentioned  in the modified Purchase Receipt.</p>
+
+<p>If system finds out any such records then those  records must be marked with “*” in the <strong>Sales 
+ Commission Report</strong> next to the <strong>Cost</strong>  column.</p>
+
+<ul class="note">
+  <li>Adequate security  right is needed to modify the line item details.</li>
+  <li>You cannot edit  the <strong>Received</strong> column on a saved  <strong>Purchase Receipt</strong> profile.</li>
+  <li>Modifying the Add-on  Cost in the <strong>Add-on Costs Distribution</strong>  dialog box will reflect in the <strong>Item Details</strong>  grid.</li>
+  <li>If the total value  of the Line Item edited is equal to the value that was there earlier the  system will not generate the <strong>Cost Adjustment</strong>  Document.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/prs/modify-a-purchase-receipt/modifying_purchase_receipts.html">Modify  a Purchase Receipt</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/prs/modify-a-purchase-receipt/accounting_entries_edit_a_purchase_receipt_pur.html">Accounting  Entries - Edit a Purchase Receipt</a></dd>
+</dl>
+
+
+
+
+</div>

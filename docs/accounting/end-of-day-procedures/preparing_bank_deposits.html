@@ -1,0 +1,103 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="prepare-bank-deposits">Prepare Bank Deposits</h1>
+
+<p>Collections from customers are accounted in the Receipts Journal. <strong>Everest</strong> is generally configured to transfer  all collections to a Payments Clearing account, which acts much like your  desk drawer or the cashier’s drawer. The collections are verified at the  end of business day and journal entries are made in the general journal  to transfer the funds from the payment clearing account to your bank account.  This transfer acts as your bank deposit, and creates the proper transactions  to achieve a simple bank reconciliation procedure at month-end. It is  important to have the deposit transaction reduce the payment clearing  account balance to zero for the next day’s operations.</p>
+
+<p class="steps">To make a bank deposit of all accounts at  the end of the day, do the following:</p>
+
+<ul>
+  <li>Select <strong>Accounting</strong> &gt; <strong>Bank 
+ Deposit</strong>. You will see the <strong>Bank 
+ Deposit Wizard</strong>. To make a bank deposit, you need to set the filter  for the undeposited receipts and collections.</li>
+  <li>To filter your  undeposited receipts, in the <strong>Payment 
+ Method</strong> field, click the <img src="/versata-everest-docs/accounting/img/browse_button_acc.gif" alt="" /> button and select the payment  methods from the <strong>Selection</strong> dialog  box.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/accounting/img/bank_deposit_wizard_selection_dialog_acc.gif" alt="" /></p>
+
+<p><strong>Figure: Selection Dialog Box</strong></p>
+
+<ul>
+  <li>Click <strong>OK</strong>.</li>
+  <li>Set the <strong>Dates</strong> filter as required. All undeposited  receipts generated for the period, for the selected payment methods display  below the Date filter in the Top grid.</li>
+  <li>In the Top  grid, select the required receipts for making deposits by selecting the  check boxes on each row.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/accounting/img/bank_deposit_wizard_filtered_acc.gif" alt="" /></p>
+
+<p><strong>Figure: Bank Deposit Wizard - Filtered</strong></p>
+
+<ul>
+  <li>In the <strong>Select Bank to Deposit</strong> drop-down list,  select the bank account that will receive the deposit.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/accounting/img/bank_deposit_wizard_select_bank_acc.gif" alt="" /></p>
+
+<p><strong>Figure: Bank Deposit Wizard - Select Bank to  Deposit Field</strong></p>
+
+<ul>
+  <li>In the Bottom  grid, enter the adjustment amount for each payment method if there are  any adjustment amounts, such as bank fees or credit card charges. This  amount will be accounted in the Adjustment account defined in the preference  setting for each payment method (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong> tab).</li>
+</ul>
+
+<p><img src="/versata-everest-docs/accounting/img/bank_deposit_wizard_bottom_grid_acc.gif" alt="" /></p>
+
+<p><strong>Figure: Bank Deposit Wizard – Bottom Grid (Adjustment)</strong></p>
+
+<p><strong><img src="/versata-everest-docs/accounting/img/bank_deposit_wizard_completed_acc.gif" alt="" /></strong></p>
+
+<p><strong>Figure: Bank Deposit Wizard - Completed</strong></p>
+
+<ul>
+  <li>Click the <strong>Save</strong> button. The system creates a General  Journal for the bank deposit when you save the bank deposit and flags  the payments as Deposited in the payment register. An <strong>Information</strong>  dialog box displays with the deposit slip number.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/accounting/img/bank_deposit_wizard_info_dialog_acc.gif" alt="" /></strong></p>
+
+<p><strong>Figure: Information Dialog Box</strong></p>
+
+<ul>
+  <li>Click <strong>Yes</strong> on the <strong>Information</strong>  dialog box to view the General journal.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/accounting/img/bank_deposit_wizard_journal_acc.gif" alt="" /></p>
+
+<p><strong>Figure: Bank Deposit Journal Created</strong></p>
+
+<ul>
+  <li>After you close  the General Journal, a <strong>Print Deposit 
+ Slip</strong> dialog box displays the deposit slip ID.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/accounting/img/bank_deposit_wizard_deposit_slip_dialog_acc.gif" alt="" /></strong></p>
+
+<p><strong>Figure: Print Deposit Slip Dialog Box</strong></p>
+
+<ul>
+  <li>Click <strong>Print</strong> or <strong>Preview</strong>  to print/preview the deposit slip.</li>
+</ul>
+
+<p>You can use the Deposit Slip as an attachment to deposit  the end of day receipts at the Bank.</p>
+
+<p class="note">You can view the deposit slip at any time  from the <strong>Bank Deposit Wizard</strong>.  Press <strong>Ctrl + R</strong> or select <strong>Options</strong> &gt; <strong>Deposit 
+ Slip Report</strong>. Enter the deposit slip ID in the <strong>Select 
+ Deposit ID</strong> field and click Preview or Print.</p>
+
+<p class="warn">Warning: If the deposit status is marked <strong>‘Deposited’</strong> in the <strong>Payments 
+ Register</strong> browser, the receipt will not be listed in the <strong>Bank 
+ Deposit Wizard</strong> even if the receipt is still undeposited and vice  versa. Be extremely cautious while marking a payment as deposited in the  <strong>Payments Register</strong> browser; it  is a good practice to restrict security rights for changing the deposit  status in this browser only to authorized personnel.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/end-of-day-procedures/bank-deposit-wizard/bank_deposit_wizard_acc.html">Bank Deposit  Wizard</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/end-of-day-procedures/end_of_day_procedures.html">End of Day Procedures</a></dd>
+</dl>
+
+
+
+
+</div>

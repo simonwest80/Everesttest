@@ -1,0 +1,59 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries-on-account-remeasurement">Accounting Entries on Account Remeasurement</h1>
+
+<p>A journal entry is made in a general journal for the net impact on all  the account types selected.</p>
+
+<p><img src="/versata-everest-docs/accounting/img/example.gif" alt="" />  If  there is a gain on remeasurement  of assets and a loss on remeasurement  of liabilities, the amounts are added up to find out the net gain or net  loss.</p>
+
+<p>The Journal entries are listed below:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/Credit</td>
+    </tr>
+    <tr>
+      <td>G/L  account for gain on remeasurement  of foreign currency assets and liabilities</td>
+      <td>The account selected in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>&gt;  <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Multi</strong>-<strong>currency</strong>  tab)</td>
+      <td>Credit (in case of net gain)</td>
+    </tr>
+    <tr>
+      <td>G/L  account for loss on remeasurement  of foreign currency assets and liabilities</td>
+      <td>The account selected in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>&gt;  <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Multi</strong>-<strong>currency</strong>  tab)</td>
+      <td>Debit (in case of net loss)</td>
+    </tr>
+    <tr>
+      <td>Contra account for remeasurement  gain/loss</td>
+      <td>The account selected in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>&gt;  <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Multi</strong>-<strong>currency</strong>  tab)</td>
+      <td>Credit (in case of net loss)<br /><br /><br />Debit (in case of net gain)</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul class="note">
+  <li>Remeasurement  will only create an entry for the effect of remeasurement;  it never re-states the account balances.</li>
+  <li>If a remeasurement  journal entry exists for a date subsequent to the login date, Everest  does not create back-dated remeasurement journals.</li>
+</ul>
+
+<p>Reversal Entry for remeasurement</p>
+
+<p>When the remeasurement  wizard is invoked, <strong>Everest</strong> checks  if remeasurement  was performed previously. If remeasurement  has been performed previously, it creates a journal with reverse entries.</p>
+
+<p>It then proceeds to create a new remeasurement  journal entry as per the current exchange rates.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/account-remeasurement/account_remeasurement_accounting.html">Account  Remeasurement</a></dd>
+</dl>
+
+
+
+
+</div>

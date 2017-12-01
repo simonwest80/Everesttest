@@ -1,0 +1,99 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="auto-serialized-items">Auto-serialized Items</h1>
+
+<p>When you map the <strong>Physical Count</strong>  field along with the <strong>Serial Number</strong>  or <strong>Manufacturer’s Serial Number</strong>  field, the physical count is updated if the serial numbers in the <strong>Stock Count</strong> profile match those in the  import file.</p>
+
+<p>If neither the serial number nor the manufacturer’s serial number is  mapped, the quantity of the item is updated provided the physical quantity  in the import file is greater than or equal to the system quantity for  items with manufacturer’s serial numbers.</p>
+
+<p>Serial numbers are generated for items that are in excess in the physical  stock.</p>
+
+<p>In case the physical quantity is less than the system quantity with  manufacturer’s serial numbers, the items are not imported. This is because  it is not possible to determine which items with manufacturer’s serial  numbers are included in the physical stock.</p>
+
+<p class="example">Item Widget, which is auto-serialized, has  five units in Bin A. The table below displays the serial numbers defined  for the item.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Internal Serial Number</td>
+      <td>Manufacturer’s Serial Number</td>
+    </tr>
+    <tr>
+      <td>1000</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1001</td>
+      <td>AAA</td>
+    </tr>
+    <tr>
+      <td>1002</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1003</td>
+      <td>BBB</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The serial numbers allocated depend on the physical quantity.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Physical Quantity</td>
+      <td>Serial Numbers Attached</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Nil</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>AAA;BBB</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>AAA;BBB;1000</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>AAA;BBB;1000;1002</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>AAA;BBB;1000;1002;1003;1004</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>AAA;BBB;1000;1002;1003;1004 one serial number is generated at average  cost</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If only the manufacturer’s serial number is mapped, the quantity matching  the manufacturer’s serial number in the Stock Count document and the import  file is updated.</p>
+
+<p>In case of duplication of the manufacturer’s serial number, the next  serial number in the bin that has an item code and manufacturer’s serial  number to match is used to update the quantity. If such an item is unavailable  in that bin, <strong>Everest</strong> searches  for the item with the matching criteria in another bin of the same location.</p>
+
+<p>Duplicate records for an item and bin combination may be detected in  an import file when the physical count field is mapped. If this happens,  the physical count is attached to the matching item and bin in the Stock  Count document if the existing physical stock is zero; otherwise, the  duplicate item is ignored.</p>
+
+<p>In case of duplicate serial numbers in the import file, only the first  record is imported.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/inv-adj/stock-count/update-physical-stock/import_physical_stock.html">Import Physical  Stock</a></dd>
+</dl>
+
+
+
+
+</div>

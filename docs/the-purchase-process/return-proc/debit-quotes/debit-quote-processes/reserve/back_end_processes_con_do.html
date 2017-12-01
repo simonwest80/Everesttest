@@ -1,0 +1,48 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---convert-a-debit-quote-to-a-debit-order">Back End Processes - Convert a Debit Quote to a Debit Order</h1>
+
+<p>When a debit quote is converted to a debit order, the following back  end processes occur:</p>
+
+<ul>
+  <li>The debit quote  is converted to an ‘open’ debit order. It cannot be retrieved as a quote.</li>
+  <li>The sequence number  of the debit order is generated automatically by the system.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/return-proc/doc-prof/contents/document-information/document_number_pr.html">Document  Number</a></p>
+
+<ul>
+  <li>The following changes  occur in the stock status of the item as viewed in the <strong>Item 
+ Stock Status</strong> dialog box:</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Column</td>
+      <td>Stock Increase/Decrease</td>
+    </tr>
+    <tr>
+      <td>On Debit</td>
+      <td>Increases by quantity of the item returned.</td>
+    </tr>
+    <tr>
+      <td>Available Quantity</td>
+      <td>Decreases by the quantity returned.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/return-proc/dos/debit_orders.html">Debit Orders</a></dd>
+</dl>
+
+
+
+
+</div>

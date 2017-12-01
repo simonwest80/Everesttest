@@ -1,0 +1,376 @@
+[OPTIONS]
+Title=Building Assemblies
+Contents file=building-assemblies.hhc
+Index file=building-assemblies.hhk
+Full-text search=Yes
+
+[FILES]
+building_assemblies_introduction_content.html
+assembly_function_features_content_building_assembly.html
+prod-asm\steps_in_assembly_function_contents_building_assembly.html
+prod-asm\creating-wo\wo-details\contents_of_the_work_order_content_building_assembly.html
+prod-asm\creating-wo\wo-details\document_information_work_order_building_assembly_content.html
+prod-asm\creating-wo\wo-details\assembly_information_work_order_profile_assembly_contents.html
+prod-asm\creating-wo\wo-details\work_order_status_work_order_profile_assembly_content.html
+prod-asm\creating-wo\wo-details\document_tab_view_information.html
+prod-asm\creating-wo\wo-details\status_bar_work_order_profile.html
+prod-asm\creating-wo\wo-details\item-dtls\item_details_grid_work_order_profile_assembly_contents.html
+prod-asm\creating-wo\wo-details\item-dtls\add-items-to-wo\add_items_to_a_work_order.html
+prod-asm\creating-wo\wo-details\item-dtls\add-items-to-wo\add_a_discontinued_item_work_orders.html
+prod-asm\creating-wo\wo-details\item-dtls\del-items-from-wo\delete_items_from_a_work_order.html
+prod-asm\creating-wo\wo-details\item-dtls\del-items-from-wo\stock_area_preference_for_deleted_items.html
+prod-asm\creating-wo\wo-details\item-dtls\subst-items-in-a-wo\substitute_item_work_order_profile.html
+prod-asm\wo-opts\item-info\substitute_item_work_order_profile.html
+prod-asm\creating-wo\wo-details\item-dtls\subst-items-in-a-wo\substitute_item_dialog_box.html
+prod-asm\creating-wo\wo-details\item-dtls\sub-assemblies\sub_assemblies_work_order_assembly_content.html
+prod-asm\creating-wo\wo-details\item-dtls\exp-and-over\expenses_and_overheads_work_order_profile_assembly_content.html
+prod-asm\creating-wo\create-a-work-order\create_a_work_order_work_order_profile_assembly_content.html
+prod-asm\creating-wo\create-a-work-order\the_work_order_profile_assembly_step_by_step.html
+prod-asm\creating-wo\create-a-work-order\back_end_processes_create_a_work_order.html
+prod-asm\creating-wo\create-a-work-order\stock_status_of_items_on_a_work_order_create.html
+prod-asm\att-cmt-items-to-wo\attach_commit_items_to_a_work_order_profile_assembly_content.html
+prod-asm\att-cmt-items-to-wo\set_stock_area_preferences_add_items_to_a_work_order_assembly_content.html
+prod-asm\att-cmt-items-to-wo\backend_process_attach_quantities_to_a_work_order.html
+prod-asm\att-cmt-items-to-wo\accounting_entries_attach_commit_items_on_work_order.html
+prod-asm\att-cmt-items-to-wo\ser-items\serialized-inventory.html
+prod-asm\att-cmt-items-to-wo\ser-items\retrieve-individual-serial-numbers.html
+prod-asm\att-cmt-items-to-wo\ser-items\retrieve-range-of-serial-numbers.html
+prod-asm\att-cmt-items-to-wo\ser-items\retrieve-by-manufacturer-serial-number.html
+prod-asm\att-cmt-items-to-wo\ns-items\retrieve-non-serialized-items.html
+prod-asm\att-cmt-items-to-wo\ns-items\attach-quantity-dialog-box.html
+prod-asm\att-cmt-items-to-wo\as-items\retrieve-auto-serialized-inventory.html
+prod-asm\detach-cmt-qty\detaching_quantities_committed_from_the_work_order_building_assemblies.html
+prod-asm\detach-cmt-qty\stock_areas_to_which_detached_quantities_are_assigned.html
+prod-asm\work-in-proc\process_work_orders_work_order_profile_assembly_content.html
+prod-asm\work-in-proc\cost_of_work_in_process_in_process_work_order_assembly_contents.html
+prod-asm\work-in-proc\back_end_process_work_orders_in_process_assembly_content.html
+prod-asm\work-in-proc\stock_status_of_items_attached_in_process_option_work_order_profile_assembly_content.html
+prod-asm\work-in-proc\accounting_entries_process_work_orders_work_order_profile_assembly_content.html
+prod-asm\work-in-proc\link-ser-nmbs-to-asm-item\linking_serial_numbers.html
+prod-asm\work-in-proc\link-ser-nmbs-to-asm-item\prerequisites_for_linking_input_items_to_assembled_items.html
+prod-asm\work-in-proc\link-ser-nmbs-to-asm-item\the_assembly_link_serial_no_dialog_box.html
+prod-asm\work-in-proc\link-ser-nmbs-to-asm-item\link_serial_number_stock_area_assigned.html
+prod-asm\work-in-proc\link-ser-nmbs-to-asm-item\calculating_the_cost_of_serialized_assembly_item.html
+prod-asm\modifying-a-work-order\modify_work_orders_building_assemblies_content.html
+prod-asm\modifying-a-work-order\modify_work_order_with_status_created_building_assemblies_content.html
+prod-asm\modifying-a-work-order\modify_work_order_with_status_in_process_building_assemblies_content.html
+prod-asm\modifying-a-work-order\modify_work_order_with_status_build_building_assemblies.html
+prod-asm\cancelling-wo\cancel_a_work_order_work_order_profile_options_process_cancel_assembly.html
+prod-asm\cancelling-wo\back_end_processes_cancel_a_work_order_work_order_profile_options_process_assembly_content.html
+prod-asm\cancelling-wo\accounting_entries_cancel_a_work_order_work_order_profile_options_process_assembly_content.html
+prod-asm\cancelling-wo\comparison_void_and_cancel_a_work_order.html
+prod-asm\voiding-a-work-order\comparison_void_and_cancel_a_work_order.html
+prod-asm\voiding-a-work-order\void_a_work_order.html
+prod-asm\voiding-a-work-order\back_end_processes_void_a_work_order.html
+prod-asm\voiding-a-work-order\accounting_entries_void_a_work_order.html
+prod-asm\building-wo\building_work_orders_content_building_assembly.html
+prod-asm\building-wo\defectives-and-scrap\defective_items_work_order_profile_process_build_assembly.html
+prod-asm\building-wo\defectives-and-scrap\scrap_work_order_assembly_content.html
+prod-asm\building-wo\entering-qty-built\entering_quantities_built.html
+prod-asm\building-wo\entering-qty-built\the_build_profile.html
+prod-asm\building-wo\entering-qty-built\trans-fnshd-goods\transfer_of_finished_goods_building_assemblies_content.html
+prod-asm\building-wo\entering-qty-built\trans-fnshd-goods\assign_quantity_profile.html
+prod-asm\building-wo\entering-qty-built\val-fnshd-goods\valuation_of_finished_goods.html
+prod-asm\building-wo\entering-qty-built\val-fnshd-goods\cost_of_inventoried_items_work_order_assembly_contents.html
+prod-asm\building-wo\entering-qty-built\val-fnshd-goods\cost_of_scrap_work_order_assembly_contents.html
+prod-asm\building-wo\entering-qty-built\val-fnshd-goods\valuation_of_defectives_building_assemblies_content.html
+prod-asm\building-wo\entering-qty-built\val-fnshd-goods\treatment_of_normal_loss_in_production.html
+prod-asm\building-wo\entering-qty-built\val-fnshd-goods\treatment_of_abnormal_loss_gain_in_production.html
+prod-asm\building-wo\entering-qty-built\val-fnshd-goods\accounting_entries_for_abnormal_loss_gain.html
+prod-asm\building-wo\entering-qty-built\back-proc\back_end_processes_built.html
+prod-asm\building-wo\entering-qty-built\back-proc\asm-items\backend_process_assemblied_items.html
+prod-asm\building-wo\entering-qty-built\back-proc\asm-items\set_stock_area_completed_assembly.html
+prod-asm\building-wo\entering-qty-built\back-proc\asm-items\stock_area_to_which_built_items_are_transferred.html
+prod-asm\building-wo\entering-qty-built\back-proc\asm-items\asm-cmpts\stock_status_of_assembly_components.html
+prod-asm\building-wo\entering-qty-built\back-proc\asm-items\asm-cmpts\backend_process_asm_components_consumed.html
+prod-asm\building-wo\entering-qty-built\back-proc\defective-items\backend_process_defective_items.html
+prod-asm\building-wo\entering-qty-built\back-proc\defective-items\stock_transfer_of_defective_items.html
+prod-asm\building-wo\entering-qty-built\back-proc\scrap-items\backend_process_scrap_items.html
+prod-asm\building-wo\entering-qty-built\back-proc\scrap-items\transfer_of_scrap_to_default_stock_areas.html
+prod-asm\building-wo\entering-qty-built\accounting-entries\accounting_entries_when_items_are_built.html
+prod-asm\building-wo\entering-qty-built\accounting-entries\accounting_entries-built-items.html
+prod-asm\building-wo\entering-qty-built\accounting-entries\accounting_entries_-_built_stage.html
+prod-asm\building-wo\entering-qty-built\accounting-entries\accounting_entries_defectives.html
+prod-asm\building-wo\entering-qty-built\accounting-entries\accounting_entry_scrap.html
+prod-asm\building-wo\entering-qty-built\accounting-entries\jrn_in_which_acc_entries_are_recorded.html
+prod-asm\variance-analysis\variance_analysis_work_order_profile_browser_option_assembly.html
+prod-asm\variance-analysis\rate_variance_variance_analysis_work_order_assembly_content.html
+prod-asm\variance-analysis\quantity_variance_variance_analysis_work_order_assembly_contents.html
+prod-asm\variance-analysis\cost_variance_variance_analysis_work_order_assembly_contents.html
+prod-asm\variance-analysis\variance_analysis_substitute_items.html
+prod-asm\variance-analysis\variance_analysis_dialog_box_work_order_assembly.html
+prod-asm\wo-opts\work_order_profile_options_assembly_content.html
+prod-asm\wo-opts\print_a_work_order_work_order_profile_assembly_content.html
+prod-asm\wo-opts\transaction_history_work_order_profile_options_assembly_content.html
+prod-asm\wo-opts\serial_number_history_work_order_profile_options_assembly_content.html
+prod-asm\wo-opts\show_all_serial_numbers_work_order_profile_options_assembly.html
+prod-asm\wo-opts\item-info\item_information_work_order_profile_options_assembly_content.html
+prod-asm\wo-opts\item-info\select_items_work_order_profile_options.html
+prod-asm\wo-opts\item-info\item_profile_work_order_profile_options_item_profile_assembly_content.html
+prod-asm\wo-opts\item-info\stock_status_work_order_profile_options_item_stock_status_assembly_content.html
+prod-asm\wo-opts\item-info\extended_notes_work_order_profile_options.html
+prod-asm\wo-opts\item-info\show_serial_number_work_order_profile_options.html
+prod-asm\wo-opts\doc-info\document_information_work_order_profile_options_assembly_contents.html
+prod-asm\wo-opts\doc-info\multimedia_browser_work_order_profile_options_document_multimedial_assembly_contents.html
+prod-asm\wo-opts\doc-info\document_tracking_work_order_profile_option_doc_tracking_assembly_content.html
+prod-asm\wo-opts\line-items\line_items_options_work_order_profile_options_line_items_assembly_content.html
+prod-asm\wo-opts\line-items\work_order_lines_dialog_box_work_order_profile_options_line_items.html
+prod-asm\the-work-order-browser\the_work_order_browser_work_order_assembly.html
+misc\journal_in_which_abnormal_loss_gain_entries_are_recorded.html
+misc\journal_in_which_entries_are_recorded_cancel_work_order.html
+misc\journal_in_which_work_in_process_entries_are_recorded.html
+misc\actual_amount_item_details_grid_work_order_profile_assembly_content.html
+misc\actual_cost_item_details_grid_work_order_profile_assembly_content.html
+misc\actual_input_item_details_grid_work_order_profile_assembly_content.html
+misc\production_details_work_order_profile_option.html
+misc\attach_retrieve_serial_work_order_profile_option.html
+misc\contact_manager_work_order_profile_option.html
+misc\assign_another_document_alias_document_infromation_work_order_assembly.html
+misc\view_and_edit_document_notes_document_information_work_order_assemly.html
+misc\build_work_orders_expenses_and_overheads_work_order_profile_assembly_content.html
+misc\inline_notes_work_order_profile_option.html
+misc\journal_transactions_browser_work_order_status_bar.html
+misc\preview_on_off_wo_profile_options.html
+misc\process_work_order_profile_option.html
+misc\the_retrieve_serial_numbers_dialog_box_work_order_profile.html
+misc\standard_amount_item_details_grid_work_order_profile_assembly_content.html
+misc\standard_cost_item_details_grid_work_order_profile_assembly_content.html
+misc\standard_input_item_details_grid_work_order_profile_assembly_content.html
+misc\substitute_of_item_details_grid_work_order_profile_assembly_content.html
+misc\work_order_printing_preferences_dialog_box_work_order_profile_options_print_assembly_content.html
+misc\accounting_entries_-_not_started_stage.html
+misc\assembly_information_work_order_profile_step_by_step.html
+img\ba_assign.gif
+img\ba_assign_all.gif
+img\ba_discontinued_item.gif
+img\ba_document_alias_button.gif
+img\ba_expand_to_document.gif
+img\ba_history_button.gif
+img\ba_notes_icon.gif
+img\ba_not_posted_button.gif
+img\ba_posted.gif
+img\ba_preview_button.gif
+img\ba_unassign.gif
+img\ba_unassign_all.gif
+img\ba_zoom_in.gif
+img\ba_zoom_out.gif
+misc\build_wo_status_assembly_content.html
+misc\bullet.gif
+misc\calculation_if_items_are_linked_link_serial_nos..html
+misc\calculation_if_items_are_not_linked.html
+misc\custom_fields_tab_work_order_profile_steps.html
+misc\custom_field_details_work_order_profile_content.html
+misc\description_item_details_grid_work_order_profile_assembly_content.html
+misc\details_tab_work_order_profile_steps.html
+misc\document_details_work_order_profile_content.html
+misc\document_information_work_order_profile_step_by_step.html
+misc\document_tab_views_work_order_profile.html
+misc\edit_item_description_description_item_details_grid_work_order_profile_assembly_content.html
+misc\ehlpdhtm.js
+img\example.gif
+misc\expense_account_item_details_grid_work_order_profile_assembly_content.html
+img\hint.gif
+misc\icons.html
+img\image1.gif
+misc\in_process_wo_status_assembly_content.html
+misc\item_code_item_details_grid_work_order_profile_assembly_content.html
+misc\item_details_assign_quantity_profile_work_order_build_process_assembly_content.html
+misc\item_details_grid_work_order_profile_step_by_step.html
+img\kanadi.gif
+img\lens.gif
+misc\line_number_item_details_grid_work_order_profile_assembly_content.html
+misc\lot_number_details_assign_quantity_profile_work_order_profile_assembly_content.html
+img\note.gif
+misc\other_details_assign_quan_db_build_assem.html
+img\preview on.gif
+misc\robohtml.css
+misc\select_items_work_order_profile_options_assembly_content.html
+img\steps.gif
+misc\stock_area_details_work_order_profile_assign_quantity_for_profile_assembly_content.html
+misc\type_item_details_grid_work_order_profile_assembly_content.html
+misc\unit_of_measure_item_details_grid_work_order_profile_assembly_content.html
+img\warning.gif
+misc\work_order_definition_assembly_content.html
+img\work_order_profile_sections2_ba.jpg
+misc\zzactual_amount_work_order_lines_dialog_box.html
+misc\zzactual_cost_work_order_lines_dialog_box.html
+misc\zzactual_input_work_order_lines_dialog_box.html
+misc\zzactual_output_work_order_profile.html
+misc\zzassembly_item_serial_number_assembly_link_serial_no_db.html
+misc\zzassembly_work_order_profile.html
+misc\zzassigned_serial_number_lot_number_asmbly_link_serial_no_db.html
+misc\zzbevel.html
+misc\zzbuild_by_work_order_profile.html
+misc\zzbuild_date_work_order_profile.html
+misc\zzbuilt_by_build_dialog_box.html
+misc\zzcopies_wo_print_pref_db.html
+misc\zzcreated_by_work_order_profile.html
+misc\zzcreated_date_work_order_profile.html
+misc\zzdefective_quantity_build_dialog_box.html
+misc\zzdepartment_work_order_profile.html
+misc\zzdescription_assembly_field_work_order_profile.html
+misc\zzdescription_department_field_work_order_profile.html
+misc\zzdocument_alias_work_order_profile.html
+misc\zzdocument_number_work_order_profile.html
+misc\zzinventory_type_work_order_profile.html
+misc\zzissued_by_work_order_profile.html
+misc\zzissued_to_work_order_profile.html
+misc\zzissue_date_work_order_profile.html
+misc\zzitem_attach_qty_db_asmly.html
+misc\zzitem_code_work_order_lines_dialog_box.html
+misc\zzitem_substitute_item_dialog_box.html
+misc\zzline_work_order_lines_dialog_box.html
+misc\zzlocation_attach_quantity_dia_box.html
+misc\zznormal_output_build_dialog_box.html
+misc\zznotes_work_order_profile.html
+misc\zzordered_quantity_attach_qty_db_asmly.html
+misc\zzprinting_company_information_wo_print_pref_db.html
+misc\zzrequired_date_work_order_profile.html
+misc\zzrequired_output_work_order_profile.html
+misc\zzscrap_details_grid_build_dialog_box.html
+misc\zzstandard_amount_work_order_lines_dialog_box.html
+misc\zzstandard_cost_work_order_lines_dialog_box.html
+misc\zzstandard_input_work_order_lines_dialog_box.html
+misc\zzstatus_bar_work_order_profile.html
+misc\zzstock_areas_section_attach_qty_db_asmbly.html
+misc\zzsubstitute_of_work_order_lines_dialog_box.html
+misc\zzsubstitute_with_substitute_item_dialog_box.html
+misc\zztype_work_order_lines_dialog_box.html
+misc\zzum_attach_qty_db_asmbly.html
+misc\zzum_work_order_lines_dialog_box.html
+misc\zzunassigned_serial_number_lot_number_asmbly_link_serial_no_db.html
+misc\zzunit_of_measure_work_order_profile.html
+misc\zzview_attach_quantity_dia_box.html
+misc\zzwork_order_status_section_work_order_profile.html
+misc\zz_quantity_to_be_built_field_work_order_profile.html
+[ALIAS]
+helpid_25807=prod-asm\creating-wo\create-a-work-order\the_work_order_profile_assembly_step_by_step.html
+helpid_25806=prod-asm\the-work-order-browser\the_work_order_browser_work_order_assembly.html
+helpid_26508=prod-asm\wo-opts\line-items\work_order_lines_dialog_box_work_order_profile_options_line_items.html
+helpid_26621=prod-asm\creating-wo\wo-details\item-dtls\subst-items-in-a-wo\substitute_item_dialog_box.html
+helpid_26673=prod-asm\building-wo\entering-qty-built\the_build_profile.html
+helpid_26727=prod-asm\variance-analysis\variance_analysis_dialog_box_work_order_assembly.html
+helpid_27127=prod-asm\att-cmt-items-to-wo\ns-items\attach-quantity-dialog-box.html
+helpid_25823=misc\item_details_grid_work_order_profile_step_by_step.html
+helpid_25830=misc\zz_quantity_to_be_built_field_work_order_profile.html
+helpid_25808=misc\zzassembly_work_order_profile.html
+helpid_25809=misc\zzdescription_assembly_field_work_order_profile.html
+helpid_25810=misc\zzcreated_by_work_order_profile.html
+helpid_25811=misc\zzcreated_date_work_order_profile.html
+helpid_25812=misc\zzunit_of_measure_work_order_profile.html
+helpid_25813=misc\zzinventory_type_work_order_profile.html
+helpid_25814=misc\zzissued_by_work_order_profile.html
+helpid_25815=misc\zzdepartment_work_order_profile.html
+helpid_25816=misc\zzdescription_department_field_work_order_profile.html
+helpid_25817=misc\zzissued_to_work_order_profile.html
+helpid_25818=misc\zzissue_date_work_order_profile.html
+helpid_25819=misc\zzrequired_output_work_order_profile.html
+helpid_25820=misc\zzrequired_date_work_order_profile.html
+helpid_25821=misc\zzbuild_by_work_order_profile.html
+helpid_25822=misc\zzbuild_date_work_order_profile.html
+helpid_25827=misc\zzdocument_number_work_order_profile.html
+helpid_25825=misc\zzdocument_alias_work_order_profile.html
+helpid_25824=misc\zzactual_output_work_order_profile.html
+helpid_25828=misc\zzwork_order_status_section_work_order_profile.html
+helpid_25829=misc\zzstatus_bar_work_order_profile.html
+helpid_26509=misc\zzitem_code_work_order_lines_dialog_box.html
+helpid_26511=misc\zzsubstitute_of_work_order_lines_dialog_box.html
+helpid_26512=misc\zztype_work_order_lines_dialog_box.html
+helpid_26513=misc\zzum_work_order_lines_dialog_box.html
+helpid_26514=misc\zzline_work_order_lines_dialog_box.html
+helpid_26516=misc\zzstandard_input_work_order_lines_dialog_box.html
+helpid_26517=misc\zzstandard_cost_work_order_lines_dialog_box.html
+helpid_26518=misc\zzactual_input_work_order_lines_dialog_box.html
+helpid_26519=misc\zzactual_cost_work_order_lines_dialog_box.html
+helpid_26520=misc\zzstandard_amount_work_order_lines_dialog_box.html
+helpid_26521=misc\zzactual_amount_work_order_lines_dialog_box.html
+helpid_26622=misc\zzitem_substitute_item_dialog_box.html
+helpid_26623=misc\zzsubstitute_with_substitute_item_dialog_box.html
+helpid_26674=misc\zzbuilt_by_build_dialog_box.html
+helpid_26675=misc\zznormal_output_build_dialog_box.html
+helpid_26676=misc\zzdefective_quantity_build_dialog_box.html
+helpid_26677=misc\zzscrap_details_grid_build_dialog_box.html
+helpid_27251=prod-asm\work-in-proc\link-ser-nmbs-to-asm-item\the_assembly_link_serial_no_dialog_box.html
+helpid_27252=misc\zzassembly_item_serial_number_assembly_link_serial_no_db.html
+helpid_27253=misc\zzassigned_serial_number_lot_number_asmbly_link_serial_no_db.html
+helpid_27254=misc\zzunassigned_serial_number_lot_number_asmbly_link_serial_no_db.html
+helpid_27128=misc\zzitem_attach_qty_db_asmly.html
+helpid_27129=misc\zzordered_quantity_attach_qty_db_asmly.html
+helpid_27130=misc\zzum_attach_qty_db_asmbly.html
+helpid_27131=misc\zzstock_areas_section_attach_qty_db_asmbly.html
+helpid_28005=prod-asm\wo-opts\transaction_history_work_order_profile_options_assembly_content.html
+helpid_10820=misc\custom_fields_tab_work_order_profile_steps.html
+helpid_21945=misc\work_order_printing_preferences_dialog_box_work_order_profile_options_print_assembly_content.html
+helpid_21948=misc\zzcopies_wo_print_pref_db.html
+helpid_21946=misc\zzprinting_company_information_wo_print_pref_db.html
+helpid_28190=misc\production_details_work_order_profile_option.html
+helpid_140411=misc\zzview_attach_quantity_dia_box.html
+helpid_140407=misc\zzlocation_attach_quantity_dia_box.html
+helpid_16560=misc\zzbevel.html
+helpid_25826=misc\zznotes_work_order_profile.html
+
+[MAP]
+#define helpid_25807 25807
+#define helpid_25806 25806
+#define helpid_26508 26508
+#define helpid_26621 26621
+#define helpid_26673 26673
+#define helpid_26727 26727
+#define helpid_27127 27127
+#define helpid_25823 25823
+#define helpid_25830 25830
+#define helpid_25808 25808
+#define helpid_25809 25809
+#define helpid_25810 25810
+#define helpid_25811 25811
+#define helpid_25812 25812
+#define helpid_25813 25813
+#define helpid_25814 25814
+#define helpid_25815 25815
+#define helpid_25816 25816
+#define helpid_25817 25817
+#define helpid_25818 25818
+#define helpid_25819 25819
+#define helpid_25820 25820
+#define helpid_25821 25821
+#define helpid_25822 25822
+#define helpid_25827 25827
+#define helpid_25825 25825
+#define helpid_25824 25824
+#define helpid_25828 25828
+#define helpid_25829 25829
+#define helpid_26509 26509
+#define helpid_26511 26511
+#define helpid_26512 26512
+#define helpid_26513 26513
+#define helpid_26514 26514
+#define helpid_26516 26516
+#define helpid_26517 26517
+#define helpid_26518 26518
+#define helpid_26519 26519
+#define helpid_26520 26520
+#define helpid_26521 26521
+#define helpid_26622 26622
+#define helpid_26623 26623
+#define helpid_26674 26674
+#define helpid_26675 26675
+#define helpid_26676 26676
+#define helpid_26677 26677
+#define helpid_27251 27251
+#define helpid_27252 27252
+#define helpid_27253 27253
+#define helpid_27254 27254
+#define helpid_27128 27128
+#define helpid_27129 27129
+#define helpid_27130 27130
+#define helpid_27131 27131
+#define helpid_28005 28005
+#define helpid_10820 10820
+#define helpid_21945 21945
+#define helpid_21948 21948
+#define helpid_21946 21946
+#define helpid_28190 28190
+#define helpid_140411 140411
+#define helpid_140407 140407
+#define helpid_16560 16560
+#define helpid_25826 25826

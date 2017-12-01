@@ -1,0 +1,31 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="fractional---quantity-entry-method">Fractional - Quantity Entry Method</h1>
+
+<p>The fractional method of entry can be used where an item’s measure and  parts of the measure are expressed in a measure or its measure and sub-measure.  The quantity of the item is expressed as the total number of base units  of the measure followed by the number of units in the measure.</p>
+
+<p>When retrieving an item with a fractional quantity entry method into  a document, the <strong>Quantity</strong> column  will automatically change to the colon format if the item selected has  a sub-measure and a conversion factor exists between them.</p>
+
+<p class="example">If an item’s measure is HR (Hour) and the  HR measure has a sub-measure of MN (Minutes) and a conversion factor exists  between them (1 HR = 60 MN) then the <strong>Quantity</strong>  column will show the colon format. One hour and 45 minutes displays as  1:45 in the <strong>Quantity</strong> column.</p>
+
+<p>This Fractional Quantity Entry method is not suitable for expressing  measures that may be expressed as a percentage or part of the base unit  of the measure.</p>
+
+<p class="example">This method cannot be used if an item’s measure  is a kilogram, the measure comprises 1000 grams and the quantity also  has to be expressed as a part of a gram in milligrams.</p>
+
+<p>Hourly measures can also be used to configure labor item codes.</p>
+
+<p class="example">Define a measure code of HR, with a unit quantity  of 60, and a fractional quantity entry method. If hourly technical services  are sold at $120/hour, and 2 hours and 15 minutes (2:15) are to be billed  to a client, <strong>Everest</strong> can automatically  calculate the extended total of the fractional time ($120/hr * 2 15/60  hrs = $270.00).</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/purchase/quantity_entry_method.html">Quantity Entry  Method</a></dd>
+</dl>
+
+
+
+
+</div>

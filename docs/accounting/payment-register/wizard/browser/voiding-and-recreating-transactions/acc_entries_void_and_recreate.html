@@ -1,0 +1,36 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries---void-and-recreate-payment-transactions">Accounting Entries - Void and Recreate Payment Transactions</h1>
+
+<p>The payment journal in which the voiding and recreating entries are  made is determined by the following rules:</p>
+
+<ul>
+  <li>The journal  must be ‘open’ and its accounting period must contain the transaction  date of the voided transaction. If the accounting period for the voided  transaction is closed, you have to enter a new transaction date for the  new entry.</li>
+  <li>The journal  must have the same journal group as the one selected in <strong>Workstation 
+ Settings</strong> dialog box (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Workstation Settings</strong> &gt;  <strong>Company Settings</strong> tab &gt; <strong>Journal</strong> <strong>Group</strong>  field) of the user entering the payment/refund.</li>
+  <li>The journal  must have the same location/sub-location as the login location/sub-location  of the user entering the payment/refund.</li>
+  <li>The journal  must have the same bank account as the one specified for the payment method.</li>
+</ul>
+
+<p>If such an <strong>open</strong> journal does  not exist, a new payment journal is created. The payment journal number  for the new journal is taken from the sequence number specified for payment  journals in the login location or the parent location of the sub-location.</p>
+
+<p><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/set-up-locations/location_profile_accounting.html">Location  Profile - Accounting Tab</a></p>
+
+<p>If sequence numbers are not defined for the login location or the parent  location of the login sub-location, the sequence number assigned to the  default location (path: <strong>File &gt; Setup 
+ &gt; Preferences &gt; Defaults &gt; Accounting &gt; Miscellaneous</strong> tab  &gt;<strong>Default Location</strong> field) is  assigned to the document.</p>
+
+<p><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/voiding-and-recreating-transactions/voiding_and_recreating_transactions_payment_register.html">Voiding  and Recreating Payment Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

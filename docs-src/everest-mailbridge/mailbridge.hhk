@@ -1,0 +1,380 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="advantages">
+    <param name="Name" value="Advantages of MailBridge">
+    <param name="Local" value="about-mailbridge\advantages_of_mailbridge.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="client installation">
+    <param name="Name" value="Client Installation">
+    <param name="Local" value="installation\during-a-client-installation\client_installation_mailbridge.html">
+    <param name="Name" value="Custom">
+    <param name="Local" value="installation\during-a-client-installation\custom_client_installation_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="custom">
+      <param name="Name" value="Custom">
+      <param name="Local" value="installation\during-a-client-installation\custom_client_installation_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="create">
+    <param name="Name" value="Create User-defined Fields in Microsoft Outlook">
+    <param name="Local" value="misc\create_user_defined_fields_in_microsoft_outlook_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="user-defined fields in Microsoft Outlook">
+      <param name="Name" value="Create User-defined Fields in Microsoft Outlook">
+      <param name="Local" value="misc\create_user_defined_fields_in_microsoft_outlook_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="custom">
+    <param name="Name" value="Custom">
+    <param name="Local" value="installation\during-a-client-installation\custom_client_installation_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="client installation">
+      <param name="Name" value="Custom">
+      <param name="Local" value="installation\during-a-client-installation\custom_client_installation_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="customer information dialog box">
+    <param name="Name" value="Customer Information Dialog Box">
+    <param name="Local" value="misc\customer_information_dialog_box_mailbridge.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="e-mail server">
+    <param name="Name" value="The Settings Dialog Box - E-mail Server">
+    <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_e_mail_server_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="settings dialog box">
+      <param name="Name" value="The Settings Dialog Box - E-mail Server">
+      <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_e_mail_server_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest MailBridge">
+    <param name="Name" value="View Linked E-mails as `Tasks'">
+    <param name="Local" value="mailbridge\functions\view-linked-e-mails\view_linked_e_mails_as_tasks_mailbridge.html">
+    <param name="Name" value="View Linked Mails as `E-mails'">
+    <param name="Local" value="mailbridge\functions\view-linked-e-mails\view_linked_mails_as_e_mails_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view linked e-mails as tasks">
+      <param name="Name" value="View Linked E-mails as `Tasks'">
+      <param name="Local" value="mailbridge\functions\view-linked-e-mails\view_linked_e_mails_as_tasks_mailbridge.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="view linked mails as e-mails">
+      <param name="Name" value="View Linked Mails as `E-mails'">
+      <param name="Local" value="mailbridge\functions\view-linked-e-mails\view_linked_mails_as_e_mails_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest server">
+    <param name="Name" value="The Settings Dialog Box - Everest Server">
+    <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_everest_server_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="settings dialog box">
+      <param name="Name" value="The Settings Dialog Box - Everest Server">
+      <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_everest_server_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="files in use">
+    <param name="Name" value="Files in Use Dialog Box">
+    <param name="Local" value="misc\files_in_use_dialog_box_mailbridge.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="functions">
+    <param name="Name" value="Functions of Everest MailBridge">
+    <param name="Local" value="mailbridge\functions\functions_of_everest_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest MailBridge">
+      <param name="Name" value="Functions of Everest MailBridge">
+      <param name="Local" value="mailbridge\functions\functions_of_everest_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Identification of e-mails">
+    <param name="Name" value="Identification of E-mails from/to Customers in Everest">
+    <param name="Local" value="mailbridge\functions\customer-emails\identification_of_e_mails_from_to_customers_in_everest.html">
+    <param name="Name" value="Identification of E-mails to/from Vendors in Everest">
+    <param name="Local" value="mailbridge\functions\vendor-emails\identification_of_e_mails_to_from_vendors_in_everest.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="customers">
+      <param name="Name" value="Identification of E-mails from/to Customers in Everest">
+      <param name="Local" value="mailbridge\functions\customer-emails\identification_of_e_mails_from_to_customers_in_everest.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="vendors">
+      <param name="Name" value="Identification of E-mails to/from Vendors in Everest">
+      <param name="Local" value="mailbridge\functions\vendor-emails\identification_of_e_mails_to_from_vendors_in_everest.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="installation">
+    <param name="Name" value="Installation">
+    <param name="Local" value="installation\installation_mailbridge.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="introduction">
+    <param name="Name" value="Introduction">
+    <param name="Local" value="about-mailbridge\introduction_mailbridge.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="left panel">
+    <param name="Name" value="Left Panel">
+    <param name="Local" value="mailbridge\functions\link-emails\existing-emails\process-email-wnd\left_panel_process_e-mail_window_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="process e-mail window">
+      <param name="Name" value="Left Panel">
+      <param name="Local" value="mailbridge\functions\link-emails\existing-emails\process-email-wnd\left_panel_process_e-mail_window_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="link e-mails">
+    <param name="Name" value="Link E-mails">
+    <param name="Local" value="mailbridge\functions\link-emails\link_e_mails_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest MailBridge">
+      <param name="Name" value="Link E-mails">
+      <param name="Local" value="mailbridge\functions\link-emails\link_e_mails_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="link existing e-mails">
+    <param name="Name" value="Link Existing E-mails">
+    <param name="Local" value="mailbridge\functions\link-emails\existing-emails\link_existing_e_mails_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest MailBridge">
+      <param name="Name" value="Link Existing E-mails">
+      <param name="Local" value="mailbridge\functions\link-emails\existing-emails\link_existing_e_mails_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="link new e-mails">
+    <param name="Name" value="Link New E-mails">
+    <param name="Local" value="mailbridge\functions\link-emails\link-new-mails\link_new_e_mails_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest MailBridge">
+      <param name="Name" value="Link New E-mails">
+      <param name="Local" value="mailbridge\functions\link-emails\link-new-mails\link_new_e_mails_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="preferences">
+    <param name="Name" value="The Settings Dialog Box - Preferences">
+    <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_preferences_mailbridge.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="preferences - exclusions">
+    <param name="Name" value="The Settings Dialog Box - Preferences - Exclusions">
+    <param name="Local" value="misc\the_settings_dialog_box_preferences_exclusions_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="settings dialog box">
+      <param name="Name" value="The Settings Dialog Box - Preferences - Exclusions">
+      <param name="Local" value="misc\the_settings_dialog_box_preferences_exclusions_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="preferences - general">
+    <param name="Name" value="The Settings Dialog Box - Preferences - General">
+    <param name="Local" value="misc\the_settings_dialog_box_preferences_general_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="settings dialog box">
+      <param name="Name" value="The Settings Dialog Box - Preferences - General">
+      <param name="Local" value="misc\the_settings_dialog_box_preferences_general_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="preferences - user defined fields">
+    <param name="Name" value="The Settings Dialog Box - Preferences - User-defined Fields">
+    <param name="Local" value="misc\the_settings_dialog_box_preferences_user_defined_fields_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="settings dialog box">
+      <param name="Name" value="The Settings Dialog Box - Preferences - User-defined Fields">
+      <param name="Local" value="misc\the_settings_dialog_box_preferences_user_defined_fields_mailbridge.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="settings dialog box">
+      <param name="Name" value="The Settings Dialog Box - Preferences">
+      <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_preferences_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="process e-mail window">
+    <param name="Name" value="Left Panel">
+    <param name="Local" value="mailbridge\functions\link-emails\existing-emails\process-email-wnd\left_panel_process_e-mail_window_mailbridge.html">
+    <param name="Name" value="Process E-mail Window">
+    <param name="Local" value="mailbridge\functions\link-emails\existing-emails\process-email-wnd\process_e_mail_window_mailbridge.html">
+    <param name="Name" value="Right Panel">
+    <param name="Local" value="mailbridge\functions\link-emails\existing-emails\process-email-wnd\right_panel_process_e-mail_window_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="left panel">
+      <param name="Name" value="Left Panel">
+      <param name="Local" value="mailbridge\functions\link-emails\existing-emails\process-email-wnd\left_panel_process_e-mail_window_mailbridge.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="right panel">
+      <param name="Name" value="Right Panel">
+      <param name="Local" value="mailbridge\functions\link-emails\existing-emails\process-email-wnd\right_panel_process_e-mail_window_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="requirements">
+    <param name="Name" value="Requirements">
+    <param name="Local" value="about-mailbridge\requirements_mailbridge.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="retrieve e-mails">
+    <param name="Name" value="Retrieve E-mails into Everest">
+    <param name="Local" value="mailbridge\functions\link-emails\existing-emails\retrieve_e_mails_into_everest_mailbridge.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="right panel">
+    <param name="Name" value="Right Panel">
+    <param name="Local" value="mailbridge\functions\link-emails\existing-emails\process-email-wnd\right_panel_process_e-mail_window_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="process e-mail window">
+      <param name="Name" value="Right Panel">
+      <param name="Local" value="mailbridge\functions\link-emails\existing-emails\process-email-wnd\right_panel_process_e-mail_window_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="setting up">
+    <param name="Name" value="Setting up Everest MailBridge">
+    <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\setting_up_everest_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest MailBridge">
+      <param name="Name" value="Setting up Everest MailBridge">
+      <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\setting_up_everest_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="settings dialog box">
+    <param name="Name" value="The Settings Dialog Box - E-mail Server">
+    <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_e_mail_server_mailbridge.html">
+    <param name="Name" value="The Settings Dialog Box - Everest Server">
+    <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_everest_server_mailbridge.html">
+    <param name="Name" value="The Settings Dialog Box - Preferences">
+    <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_preferences_mailbridge.html">
+    <param name="Name" value="The Settings Dialog Box - Preferences - Exclusions">
+    <param name="Local" value="misc\the_settings_dialog_box_preferences_exclusions_mailbridge.html">
+    <param name="Name" value="The Settings Dialog Box - Preferences - General">
+    <param name="Local" value="misc\the_settings_dialog_box_preferences_general_mailbridge.html">
+    <param name="Name" value="The Settings Dialog Box - Preferences - User-defined Fields">
+    <param name="Local" value="misc\the_settings_dialog_box_preferences_user_defined_fields_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="e-mail server">
+      <param name="Name" value="The Settings Dialog Box - E-mail Server">
+      <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_e_mail_server_mailbridge.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest server">
+      <param name="Name" value="The Settings Dialog Box - Everest Server">
+      <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_everest_server_mailbridge.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="preferences">
+      <param name="Name" value="The Settings Dialog Box - Preferences">
+      <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_preferences_mailbridge.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="preferences - exclusions">
+      <param name="Name" value="The Settings Dialog Box - Preferences - Exclusions">
+      <param name="Local" value="misc\the_settings_dialog_box_preferences_exclusions_mailbridge.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="preferences - general">
+      <param name="Name" value="The Settings Dialog Box - Preferences - General">
+      <param name="Local" value="misc\the_settings_dialog_box_preferences_general_mailbridge.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="preferences - user defined fields">
+      <param name="Name" value="The Settings Dialog Box - Preferences - User-defined Fields">
+      <param name="Local" value="misc\the_settings_dialog_box_preferences_user_defined_fields_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="user profile">
+    <param name="Name" value="The Settings Dialog Box - E-mail Server">
+    <param name="Local" value="setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_e_mail_server_mailbridge.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="view linked e-mails">
+    <param name="Name" value="View Linked E-mails">
+    <param name="Local" value="mailbridge\functions\view-linked-e-mails\view_linked_e_mails_mailbridge.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="view linked e-mails as tasks">
+    <param name="Name" value="View Linked E-mails as `Tasks'">
+    <param name="Local" value="mailbridge\functions\view-linked-e-mails\view_linked_e_mails_as_tasks_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest MailBridge">
+      <param name="Name" value="View Linked E-mails as `Tasks'">
+      <param name="Local" value="mailbridge\functions\view-linked-e-mails\view_linked_e_mails_as_tasks_mailbridge.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest MailBridge">
+      <param name="Name" value="View Linked E-mails">
+      <param name="Local" value="mailbridge\functions\view-linked-e-mails\view_linked_e_mails_mailbridge.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="view linked mails as e-mails">
+    <param name="Name" value="View Linked Mails as `E-mails'">
+    <param name="Local" value="mailbridge\functions\view-linked-e-mails\view_linked_mails_as_e_mails_mailbridge.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest MailBridge">
+      <param name="Name" value="View Linked Mails as `E-mails'">
+      <param name="Local" value="mailbridge\functions\view-linked-e-mails\view_linked_mails_as_e_mails_mailbridge.html">
+    </object>
+    </ul>
+</ul>
+</html>

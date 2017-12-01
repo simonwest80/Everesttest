@@ -1,0 +1,2506 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="_blank">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800027">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Setting up a Company">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Setting up a Company">
+      <param name="Local" value="setting_up_a_company.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="The Company Creation Wizard">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Company Creation Wizard">
+        <param name="Local" value="the-company-creation-wizard\the_company_creation_wizard.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Welcome">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Welcome">
+          <param name="Local" value="the-company-creation-wizard\welcome\welcome_company_creation_wizard.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Company">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company - Template">
+          <param name="Local" value="the-company-creation-wizard\company\company_template_ccw_sc.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company Information">
+          <param name="Local" value="the-company-creation-wizard\company\company_information.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company Information - Name">
+          <param name="Local" value="the-company-creation-wizard\company\company_information_name_company_setup.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company Information - Address">
+          <param name="Local" value="the-company-creation-wizard\company\company_information_address.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company - Logo">
+          <param name="Local" value="the-company-creation-wizard\company\company_logo.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company Information - Locations/Sub-Locations">
+          <param name="Local" value="the-company-creation-wizard\company\company_information_departments.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounting">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Information">
+          <param name="Local" value="the-company-creation-wizard\accounting\accounting_information_setupco.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting - Currency Information">
+          <param name="Local" value="the-company-creation-wizard\accounting\accounting_currency_information.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting - Fiscal Year">
+          <param name="Local" value="the-company-creation-wizard\accounting\accounting_fiscal_year.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Segments">
+          <param name="Local" value="the-company-creation-wizard\accounting\accounting_segments_create_a_company_accounting_information.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting - Chart of Accounts">
+          <param name="Local" value="the-company-creation-wizard\accounting\accounting_chart_of_accounts_setupco.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting - Chart of Accounts - Template">
+          <param name="Local" value="the-company-creation-wizard\accounting\accounting_chart_of_accounts_template_ccw_sc.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting - Posting Group">
+          <param name="Local" value="the-company-creation-wizard\accounting\accounting_-_posting_group.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Defaults">
+          <param name="Local" value="the-company-creation-wizard\accounting\accounting_defaults_setupco.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting COA Balances">
+          <param name="Local" value="the-company-creation-wizard\accounting\accounting_coa_balances.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Opening Account Balances">
+          <param name="Local" value="the-company-creation-wizard\accounting\opening_account_balances.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Inventory">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Inventory Information">
+          <param name="Local" value="the-company-creation-wizard\inventory\inventory1.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Inventory - Categories">
+          <param name="Local" value="the-company-creation-wizard\inventory\inventory_categories.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Inventory - Stock Areas, Measures, Defaults">
+          <param name="Local" value="the-company-creation-wizard\inventory\inventory_stock_areas_measures_defaults.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Inventory - Items">
+          <param name="Local" value="the-company-creation-wizard\inventory\inventory_items.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Inventory - Setting up Items">
+          <param name="Local" value="the-company-creation-wizard\inventory\inventory_setting_up_items.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Inventory - Setting up Item Quantities">
+          <param name="Local" value="the-company-creation-wizard\inventory\inventory_setting_up_item_quantities.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Inventory - Importing Items">
+          <param name="Local" value="the-company-creation-wizard\inventory\inventory_importing_items.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Customers">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Customer Information">
+          <param name="Local" value="the-company-creation-wizard\customers\customer_information.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Customers - Customer Details">
+          <param name="Local" value="the-company-creation-wizard\customers\customers_customer_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Customer Defaults">
+          <param name="Local" value="the-company-creation-wizard\customers\customer_defaults_setupco.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Customers - Account Balances">
+          <param name="Local" value="the-company-creation-wizard\customers\customers_account_balances.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Vendors">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Vendor Information">
+          <param name="Local" value="the-company-creation-wizard\vendors\vendor_information_setupco.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Vendors - Vendor Details">
+          <param name="Local" value="the-company-creation-wizard\vendors\vendors_vendor_details.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Vendor Defaults">
+          <param name="Local" value="the-company-creation-wizard\vendors\vendor_defaults.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Vendors - Account Balances">
+          <param name="Local" value="the-company-creation-wizard\vendors\vendors_account_balances.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Security">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company Creation Wizard - Security">
+          <param name="Local" value="the-company-creation-wizard\security\company_creation_wizard_security_section_sc.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Other Preferences">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Other Preferences">
+          <param name="Local" value="the-company-creation-wizard\other-preferences\other_preferences.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Flow Control">
+          <param name="Local" value="the-company-creation-wizard\other-preferences\flow_control.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Defaults">
+          <param name="Local" value="the-company-creation-wizard\other-preferences\defaults.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Conclusion">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Conclusion">
+          <param name="Local" value="the-company-creation-wizard\conclusion\conclusion_company_creation_wizard.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Everest Registration">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Everest Registration">
+        <param name="Local" value="everest-registration\everest_registration.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Product Registration">
+        <param name="Local" value="everest-registration\product_registration.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Everest Registration Dialog Box">
+        <param name="Local" value="everest-registration\everest_registration_dialog_box.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Verification of Registration in Everest">
+        <param name="Local" value="everest-registration\verification_of_registration_in_everest.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Company Set Up">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Company Set up">
+        <param name="Local" value="company-set-up\company_set_up.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Company Setup Profile">
+        <param name="Local" value="company-set-up\the_company_setup_profile.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Company Setup Profile - General Tab">
+        <param name="Local" value="company-set-up\the_company_setup_profile_general_tab.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Company Setup Profile - Logo Tab">
+        <param name="Local" value="company-set-up\the_country_setup_wizard_logo_tab.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Company Setup - Activation Tab">
+        <param name="Local" value="company-set-up\company_setup_activation.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Company Setup Profile - Custom Fields Tab">
+        <param name="Local" value="company-set-up\company_setup_custom_fields.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify the Company Setup Profile">
+        <param name="Local" value="company-set-up\modifying_the_company_setup_profile.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Company Setup Profile Options">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company Setup Profile Options">
+          <param name="Local" value="company-set-up\company-setup-profile-options\company_setup_profile_options.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company Setup - Custom Fields">
+          <param name="Local" value="company-set-up\company-setup-profile-options\custom_fields_co_setup_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Company Setup - View Formatted Address ">
+          <param name="Local" value="company-set-up\company-setup-profile-options\view_formatted_address_company_setup.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Advanced Set up Options">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Locations and Sub-Locations">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Locations and Sub-Locations">
+          <param name="Local" value="options\locations-and-sub-locations\locations_and_departments.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Identifying Locations">
+          <param name="Local" value="options\locations-and-sub-locations\identifying_locations.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="How Location Classification Works">
+          <param name="Local" value="options\locations-and-sub-locations\how_departmentalization_works.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Benefits of Creating Locations/Sub-Locations">
+          <param name="Local" value="options\locations-and-sub-locations\benefits_of_creating_locations_departments.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Location Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="General Information">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Code">
+              <param name="Local" value="options\locations-and-sub-locations\location-details\general-information\code_location_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Description">
+              <param name="Local" value="options\locations-and-sub-locations\location-details\general-information\description_location_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Address, City, State, Zip and Country">
+              <param name="Local" value="options\locations-and-sub-locations\location-details\general-information\address_city_state_zip_and_country.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Telephone #">
+              <param name="Local" value="options\locations-and-sub-locations\location-details\general-information\telephone_.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Apply Masks">
+              <param name="Local" value="options\locations-and-sub-locations\location-details\general-information\apply_mask.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Invoicing/Puchasing Information">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Customer/Vendor">
+              <param name="Local" value="options\locations-and-sub-locations\location-details\invoicing-puchasing-information\customer_vendor.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Sales/Purchase Document">
+              <param name="Local" value="options\locations-and-sub-locations\location-details\invoicing-puchasing-information\sales_purchase_document.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounting/Inventory Information">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Information">
+              <param name="Local" value="options\locations-and-sub-locations\location-details\accounting-inventory-information\accounting_information_department.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Inventory Information">
+              <param name="Local" value="options\locations-and-sub-locations\location-details\accounting-inventory-information\inventory_information.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Department Logo">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Logo Information">
+              <param name="Local" value="options\locations-and-sub-locations\location-details\department-logo\logo_information_1.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Stock Transfer Information">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Stock Transfer Information">
+              <param name="Local" value="options\locations-and-sub-locations\location-details\stock-transfer-information\stock_transfer_information.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up Locations">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Location">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\creating_a_location.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location Profile">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\the_location_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location Profile - General">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\location_profile_general.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location Profile - Invoicing">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\location_profile_invoicing.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location Profile - Purchasing">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\location_profile_purchasing.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location Profile - Accounting">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\location_profile_accounting.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location Profile - Inventory">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\location_profile_inventory.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location Profile - Image">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\location_profile_-_image.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location Profile - Stock Transfer">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\the_location_profile_stock_transfer.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location Profile - Accounts">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\location_profile_posting_group.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location Profile - Customers">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\the_location_profile_-_customers.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location Profile - Vendors">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\the_location_profile_-_vendors.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location profile - Item Defaults">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\the_location_profile_item_defaults_sc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify the Location Profile">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\modifying_a_department.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Location">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\discontinue_a_location.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate a Location/Sub-Location">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\view_and_activate_a_location.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Locations/Sub-Locations Browser">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-locations\browser_options_department.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up Sub-Locations">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Defining Sub-Locations">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-sub-locations\defining_departments.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Setting up Sub-Locations">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-sub-locations\setting_up_departments.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Location/Sub-Location Profile">
+            <param name="Local" value="options\locations-and-sub-locations\set-up-sub-locations\the_department_profile.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Multicurrency">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multicurrency">
+          <param name="Local" value="options\multicurrency\multi_currency.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="How Everest Handles Multicurrencies">
+          <param name="Local" value="options\multicurrency\how_everest_handles_multi_currencies.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multicurrency in Sales">
+          <param name="Local" value="options\multicurrency\multi_currency_in_invoicing.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multicurrency in Purchasing">
+          <param name="Local" value="options\multicurrency\multi_currency_in_purchasing.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multicurrency in General Ledger">
+          <param name="Local" value="options\multicurrency\multi_currency_in_general_ledger.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Re-measurement of Foreign Currency Assets and Liabilities">
+          <param name="Local" value="options\multicurrency\re_measurement_of_foreign_currency_assets_and_liabilities.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up Multicurrency">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Setting up Multicurrency">
+            <param name="Local" value="options\multicurrency\setup\setting_up_multi_currency.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Defining Currencies">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Currency Details">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="General Information">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Code and Description">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\general-information\code_and_description_currency_profile.html">
+                </object>
+                </ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Format Specification">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Format Specification">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\format-specification\format_specification_currency_details.html">
+                </object>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Short Form">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\format-specification\short_form.html">
+                </object>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Symbol">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\format-specification\symbol.html">
+                </object>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Decimals to Display">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\format-specification\decimals_to_display.html">
+                </object>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Locale">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\format-specification\locale.html">
+                </object>
+                </ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Quotation Information">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Quotation Information">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\quotation-information\quotation_information_currency_details.html">
+                </object>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Quote Type">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\quotation-information\quote_type.html">
+                </object>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Quote Quantity">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\quotation-information\quote_quantity.html">
+                </object>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Sub Unit">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\quotation-information\sub_unit.html">
+                </object>
+                </ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Display and Printing Information">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Display and Printing Information">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\print-info\display_and_printing_information_currency_details.html">
+                </object>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Display Preference">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\print-info\display_preference.html">
+                </object>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Printing Preference">
+                  <param name="Local" value="options\multicurrency\setup\defining\details\print-info\printing_preference.html">
+                </object>
+                </ul>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Setting up Currencies">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Defining Base Currency and Other Currencies">
+                <param name="Local" value="options\multicurrency\setup\defining\setting-up-currencies\defining_base_currency_and_other_currencies_multicurr.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Set up a Currency">
+                <param name="Local" value="options\multicurrency\setup\defining\setting-up-currencies\creation_of_currencies.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="The Currency Profile">
+                <param name="Local" value="options\multicurrency\setup\defining\setting-up-currencies\profile_currency_general_tab.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Modify the Currency Profile">
+                <param name="Local" value="options\multicurrency\setup\defining\setting-up-currencies\modifying_the_currency_profile.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Discontinue a Currency">
+                <param name="Local" value="options\multicurrency\setup\defining\setting-up-currencies\discontinuing_a_currency.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="View and Activate Discontinued Currencies">
+                <param name="Local" value="options\multicurrency\setup\defining\setting-up-currencies\view_and_activate_discontinued_currencies.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Browser Options">
+                <param name="Local" value="options\multicurrency\setup\defining\setting-up-currencies\browser_options_currencies_browser.html">
+              </object>
+              </ul>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up Accounts in Foreign Currency">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Set up Accounts in Foreign Currency">
+              <param name="Local" value="options\multicurrency\setup\set-up-accounts-in-foreign-currency\setup_accounts_in_foreign_currency.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Account - Foreign Currency Code">
+              <param name="Local" value="options\multicurrency\setup\set-up-accounts-in-foreign-currency\account_foreign_currency_code.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Remeasurement">
+              <param name="Local" value="options\multicurrency\setup\set-up-accounts-in-foreign-currency\re_measurement.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Foreign Currency Accounts - Implications">
+              <param name="Local" value="options\multicurrency\setup\set-up-accounts-in-foreign-currency\foreign_currency_accounts.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up Customers and Vendors in Foreign Currency">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Specify the Vendor Currency">
+              <param name="Local" value="options\multicurrency\setup\set-up-customers-and-vendors-in-foreign-currency\specify_the_vendor_and_customer_currency.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Specify the Customer Currency">
+              <param name="Local" value="options\multicurrency\setup\set-up-customers-and-vendors-in-foreign-currency\specify_the_customer_currency.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Customers and Vendors in Foreign Currency">
+              <param name="Local" value="options\multicurrency\setup\set-up-customers-and-vendors-in-foreign-currency\customers_and_vendors_in_foreign_currency.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Exchange Rates">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Exchange Rate Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Buy and Sell rates">
+              <param name="Local" value="options\multicurrency\exchange-rates\exchange-rate-details\buy_and_sell_rates.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Rate quotations">
+              <param name="Local" value="options\multicurrency\exchange-rates\exchange-rate-details\rate_quotations.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up Exchange Rates">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Setting up Exchange Rates">
+              <param name="Local" value="options\multicurrency\exchange-rates\set-up-exchange-rates\setting_up_exchange_rates.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Defining Exchange Rates">
+              <param name="Local" value="options\multicurrency\exchange-rates\set-up-exchange-rates\defining_exchange_rates.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Exchange Rates Profile">
+              <param name="Local" value="options\multicurrency\exchange-rates\set-up-exchange-rates\exchange_rates_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Exchange Rate Profile">
+              <param name="Local" value="options\multicurrency\exchange-rates\set-up-exchange-rates\modifying_the_exchange_rate_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Browser Options">
+              <param name="Local" value="options\multicurrency\exchange-rates\set-up-exchange-rates\browser_options_exchange_rates.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multicurrency defaults">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Multicurrency Defaults">
+            <param name="Local" value="options\multicurrency\multicurrency-defaults\multi_currency_defaults.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Accounting Information">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Chart of Accounts">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Chart of Accounts">
+            <param name="Local" value="options\acc-info\coa\chart_of_accounts_1.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Chart of Accounts Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="General Information">
+              <param name="Local" value="options\acc-info\coa\chart-of-accounts-details\general_information_coa.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Parent Account Number">
+              <param name="Local" value="options\acc-info\coa\chart-of-accounts-details\parent_account_number.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Types of Accounts">
+              <param name="Local" value="options\acc-info\coa\chart-of-accounts-details\type_of_account.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Segmented Chart of Accounts">
+              <param name="Local" value="options\acc-info\coa\chart-of-accounts-details\segmented_chart_of_accounts.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Bank Account">
+              <param name="Local" value="options\acc-info\coa\chart-of-accounts-details\bank_account.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Balance and Reconciliation Information">
+              <param name="Local" value="options\acc-info\coa\chart-of-accounts-details\balance_and_reconciliation_information.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Multicurrency Information">
+              <param name="Local" value="options\acc-info\coa\chart-of-accounts-details\multicurrency_information1.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up Chart of Accounts">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create an Account">
+              <param name="Local" value="options\acc-info\coa\setup-coa\creating_an_account.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create Multiple Accounts">
+              <param name="Local" value="options\acc-info\coa\setup-coa\create_multiple_accounts_multiple_accounts_creation_wizard.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Cash Flow Activity Profile">
+              <param name="Local" value="options\acc-info\coa\setup-coa\cash_flow_activity_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Chart of Accounts Profile">
+              <param name="Local" value="options\acc-info\coa\setup-coa\the_chart_of_accounts_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Chart of Accounts Profile - General">
+              <param name="Local" value="options\acc-info\coa\setup-coa\chart_of_accounts_profile_general_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Chart of Accounts Profile - Accounting">
+              <param name="Local" value="options\acc-info\coa\setup-coa\chart_of_accounts_profile_accounting_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Chart of Accounts Profile - Multi-currency">
+              <param name="Local" value="options\acc-info\coa\setup-coa\chart_of_accounts_profile_multi_currency_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Chart of Accounts Profile - Others Tab">
+              <param name="Local" value="options\acc-info\coa\setup-coa\the_chart_of_accounts_profile_others_tab_acc.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Chart of Accounts Profile - Custom Fields">
+              <param name="Local" value="options\acc-info\coa\setup-coa\the_chart_of_accounts_profile_custom_fields.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Chart of Accounts - Tree view">
+              <param name="Local" value="options\acc-info\coa\setup-coa\chart_of_accounts_tree_view.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Chart of Accounts Profile">
+              <param name="Local" value="options\acc-info\coa\setup-coa\modifying_the_chart_of_accounts_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Chart of Account">
+              <param name="Local" value="options\acc-info\coa\setup-coa\discontinuing_a_chart_of_account.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Chart of Account">
+              <param name="Local" value="options\acc-info\coa\setup-coa\view_and_activate_a_discontinued_chart_of_account.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Browser Options">
+              <param name="Local" value="options\acc-info\coa\setup-coa\browser_options_coa.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Fiscal Year and Periods">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Fiscal Year and Periods">
+            <param name="Local" value="options\acc-info\fiscal-year-and-periods\fiscal_year_and_periods_1.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Creating a Fiscal Year">
+            <param name="Local" value="options\acc-info\fiscal-year-and-periods\creating_a_fiscal_year.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Defining a Fiscal Year">
+            <param name="Local" value="options\acc-info\fiscal-year-and-periods\defining_a_fiscal_year.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Fiscal Year Details">
+            <param name="Local" value="options\acc-info\fiscal-year-and-periods\general_information_fiscal_year_dialog_box.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Fiscal Period Setup Dialog Box">
+            <param name="Local" value="options\acc-info\fiscal-year-and-periods\fiscal_period_setup_dialog_box.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Periods Status">
+            <param name="Local" value="options\acc-info\fiscal-year-and-periods\periods_status.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Change Period Status">
+            <param name="Local" value="options\acc-info\fiscal-year-and-periods\change_period_status.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Closing a Fiscal Year">
+            <param name="Local" value="options\acc-info\fiscal-year-and-periods\closing_a_fiscal_year.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Source Types">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Source Types">
+            <param name="Local" value="options\acc-info\source-types\source_types.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Source Type">
+            <param name="Local" value="options\acc-info\source-types\creating_a_new_source_type.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Source Type Profile">
+            <param name="Local" value="options\acc-info\source-types\the_source_type_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Source Type">
+            <param name="Local" value="options\acc-info\source-types\discontinuing_a_source_type.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate a Discontinued Source Type">
+            <param name="Local" value="options\acc-info\source-types\view_and_activate_a_discontinued_source_type.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Source Types Browser">
+            <param name="Local" value="options\acc-info\source-types\browser_options_source_types.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Journal Groups">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Journal Groups">
+            <param name="Local" value="options\acc-info\journal-groups\journal_groups.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Creation of Journal Groups">
+            <param name="Local" value="options\acc-info\journal-groups\creation_of_journal_groups.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Journal Groups Profile">
+            <param name="Local" value="options\acc-info\journal-groups\the_journal_groups_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Assign Journal Groups">
+            <param name="Local" value="options\acc-info\journal-groups\assign_journal_groups.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Journal Group">
+            <param name="Local" value="options\acc-info\journal-groups\discontinuing_a_journal_group.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate a Discontinued Journal Group">
+            <param name="Local" value="options\acc-info\journal-groups\view_and_activate_a_discontinued_journal_group.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Journal Groups Browser">
+            <param name="Local" value="options\acc-info\journal-groups\browser_options_journal_group.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Posting Group">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Posting Groups">
+            <param name="Local" value="options\acc-info\posting-group\posting_groups.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Posting Group Profile">
+            <param name="Local" value="options\acc-info\posting-group\posting_group_profile_accounting_setup.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify a Posting Group">
+            <param name="Local" value="options\acc-info\posting-group\modify_a_posting_group_accounting_setup.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue/Reactivate a Posting Group">
+            <param name="Local" value="options\acc-info\posting-group\discontinue_reactivate_a_posting_group_accounting_setup.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Posting Group Browser">
+            <param name="Local" value="options\acc-info\posting-group\posting_group_browser_accounting_setup.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Sales Tax">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Sales Taxes">
+          <param name="Local" value="options\sales-tax\sales_taxes.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Detailed Summary of Tax Calculation and Reporting in Everest">
+          <param name="Local" value="options\sales-tax\detailed_summary_of_tax_calculation_and_reporting_in_everest_sc.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Calculation of Sales Tax">
+          <param name="Local" value="options\sales-tax\calculation_of_sales_tax.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Determination of Jurisdiction - Flowchart">
+          <param name="Local" value="options\sales-tax\determination_of_jurisdiction_flowchart.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up Tax Codes and Components">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Tax Component">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Tax Components">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-component\tax_components.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Tax Component Details">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-component\tax_component_profile_information.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Tax Component">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-component\creating_a_tax_component.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Tax Component Profile">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-component\tax_components_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Tax Component Profile">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-component\modifying_the_tax_component_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Tax Component">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-component\discontinuing_a_tax_component.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Tax Component">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-component\view_and_activate_a_discontinued_tax_component.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Tax Components Browser">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-component\browser_options_tax_components.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Tax Code">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Tax Codes">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-code\tax_codes.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Tax Code Details">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-code\tax_code_profile_general_information.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Assigning Tax Components to a Tax Code">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-code\assigning_tax_components_to_a_tax_code.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Tax Code">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-code\creating_a_new_tax_code.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Tax Code Profile">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-code\tax_code_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Tax Code Profile">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-code\modifying_the_tax_code_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Tax Code">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-code\discontinuing_a_tax_code.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Tax Code">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-code\view_and_activate_a_discontinued_tax_code.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Tax Codes Browser">
+              <param name="Local" value="options\sales-tax\set-up-tax-codes-and-components\tax-code\browser_options_tax_codes.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Tax Jurisdictions">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Setting up Jurisdictions">
+            <param name="Local" value="options\sales-tax\tax-jurisdictions\setting_up_jurisdictions.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Jurisdiction Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Code and Name">
+              <param name="Local" value="options\sales-tax\tax-jurisdictions\jurisdiction-details\code_and_name.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Type of Jurisdiction">
+              <param name="Local" value="options\sales-tax\tax-jurisdictions\jurisdiction-details\type_of_jurisdiction.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Location Information">
+              <param name="Local" value="options\sales-tax\tax-jurisdictions\jurisdiction-details\location_information.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Tax Code">
+              <param name="Local" value="options\sales-tax\tax-jurisdictions\jurisdiction-details\tax_code.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="FIPS codes">
+              <param name="Local" value="options\sales-tax\tax-jurisdictions\jurisdiction-details\fips_codes.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up Jurisdictions">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Tax Jurisdiction">
+              <param name="Local" value="options\sales-tax\tax-jurisdictions\set-up-jurisdictions\creating_a_new_tax_jurisdiction.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Jurisdiction Profile">
+              <param name="Local" value="options\sales-tax\tax-jurisdictions\set-up-jurisdictions\jurisdiction_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Jurisdiction Profile">
+              <param name="Local" value="options\sales-tax\tax-jurisdictions\set-up-jurisdictions\modifying_the_jurisdiction_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Jurisdiction">
+              <param name="Local" value="options\sales-tax\tax-jurisdictions\set-up-jurisdictions\discontinuing_a_jurisdiction.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Jurisdiction">
+              <param name="Local" value="options\sales-tax\tax-jurisdictions\set-up-jurisdictions\view_and_activate_a_discontinued_jurisdiction.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Jurisdictions Browser">
+              <param name="Local" value="options\sales-tax\tax-jurisdictions\set-up-jurisdictions\browser_options_jurisdiction.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Class">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Customer Class">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Customer Class">
+              <param name="Local" value="options\sales-tax\class\customer-class\customer_class_sales2.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Setting up a Customer Class">
+              <param name="Local" value="options\sales-tax\class\customer-class\setting_up_a_customer_class.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Customer Class Profile">
+              <param name="Local" value="options\sales-tax\class\customer-class\the_customer_class_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Customer Class Profile">
+              <param name="Local" value="options\sales-tax\class\customer-class\modifying_the_customer_class_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Customer Class">
+              <param name="Local" value="options\sales-tax\class\customer-class\discontinuing_a_customer_class.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Customer Class">
+              <param name="Local" value="options\sales-tax\class\customer-class\view_and_activate_a_discontinued_customer_class.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Customer Classes Browser">
+              <param name="Local" value="options\sales-tax\class\customer-class\the_customer_classes_browser.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Vendor Class">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Vendor Class">
+              <param name="Local" value="options\sales-tax\class\vendor-class\vendor_class_sales2.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a vendor class">
+              <param name="Local" value="options\sales-tax\class\vendor-class\create_a_vendor_class.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Vendor Class Profile">
+              <param name="Local" value="options\sales-tax\class\vendor-class\the_vendor_class_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify a Vendor Class Profile">
+              <param name="Local" value="options\sales-tax\class\vendor-class\modify_a_vendor_class_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Vendor Class">
+              <param name="Local" value="options\sales-tax\class\vendor-class\discontinue_a_vendor_class.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Vendor Class">
+              <param name="Local" value="options\sales-tax\class\vendor-class\view_and_activate_a_discontinued_vendor_class.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Vendor Class Browser">
+              <param name="Local" value="options\sales-tax\class\vendor-class\the_vendor_class_browser.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Special Tax Rules">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Special Tax Rules">
+            <param name="Local" value="options\sales-tax\special-tax-rules\special_tax_rules.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Special Tax Rules Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Exemption Information">
+              <param name="Local" value="options\sales-tax\special-tax-rules\special-tax-rules-details\exemption_information.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Unit Price Upto">
+              <param name="Local" value="options\sales-tax\special-tax-rules\special-tax-rules-details\unit_price_upto.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Setting up Special Tax Rules">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Special Tax Rule">
+              <param name="Local" value="options\sales-tax\special-tax-rules\setting-up-special-tax-rules\creating_a_special_tax_rule.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Special Tax Rules Profile">
+              <param name="Local" value="options\sales-tax\special-tax-rules\setting-up-special-tax-rules\the_special_tax_rules_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Special Tax Rules Profile - Location/Jurisdiction">
+              <param name="Local" value="options\sales-tax\special-tax-rules\setting-up-special-tax-rules\the_special_tax_rules_profile_location_jurisdiction.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Special Tax Rules Profile - Rules">
+              <param name="Local" value="options\sales-tax\special-tax-rules\setting-up-special-tax-rules\special_tax_rules_profile_rules.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Special Tax Rules Profile">
+              <param name="Local" value="options\sales-tax\special-tax-rules\setting-up-special-tax-rules\modifying_the_special_tax_rules_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Special Tax Rule">
+              <param name="Local" value="options\sales-tax\special-tax-rules\setting-up-special-tax-rules\discontinuing_a_special_tax_rule.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Special Tax Rule">
+              <param name="Local" value="options\sales-tax\special-tax-rules\setting-up-special-tax-rules\view_and_activate_a_discontinued_special_tax_rule.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Special Tax Rules Browser">
+              <param name="Local" value="options\sales-tax\special-tax-rules\setting-up-special-tax-rules\browser_options_special_tax_rules.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Value Added Taxes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Value Added Taxes">
+            <param name="Local" value="options\sales-tax\value-added-taxes\value_added_taxes.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="VAT Process">
+            <param name="Local" value="options\sales-tax\value-added-taxes\vat_process.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="VAT on Purchases">
+            <param name="Local" value="options\sales-tax\value-added-taxes\vat_on_purchases.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="VAT on Sales">
+            <param name="Local" value="options\sales-tax\value-added-taxes\vat_on_sales.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Job Costing">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Job Costing">
+          <param name="Local" value="options\job-costing\job_costing.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Job Costing Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="General Information">
+            <param name="Local" value="options\job-costing\job-costing-details\general_information_job_costing.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Status Information">
+            <param name="Local" value="options\job-costing\job-costing-details\status_information.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Revenues and Due Date Information">
+            <param name="Local" value="options\job-costing\job-costing-details\revenues_and_due_date_information.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up a Job Code">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Job Code">
+            <param name="Local" value="options\job-costing\set-up-a-job-code\creating_a_job_code.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Job Costing Profile">
+            <param name="Local" value="options\job-costing\set-up-a-job-code\the_job_costing_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Job Costing Profile - General">
+            <param name="Local" value="options\job-costing\set-up-a-job-code\job_costing_profile_general_tab.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Job Costing Profile - Status">
+            <param name="Local" value="options\job-costing\set-up-a-job-code\job_costing_profile_status_tab.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Assign Job Codes to Documents">
+            <param name="Local" value="options\job-costing\set-up-a-job-code\assigning_job_codes_to_documents.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify the Job Costing Profile">
+            <param name="Local" value="options\job-costing\set-up-a-job-code\modifying_the_job_costing_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Job Code">
+            <param name="Local" value="options\job-costing\set-up-a-job-code\discontinuing_a_job_code.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate a Discontinued Job Code">
+            <param name="Local" value="options\job-costing\set-up-a-job-code\view_and_activate_a_discontinued_job_code.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Job Explorer">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Job Explorer">
+            <param name="Local" value="options\job-costing\job-explorer\job_explorer.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Job Explorer - Date Filter">
+            <param name="Local" value="options\job-costing\job-explorer\job_explorer_date_filter_sc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Job Explorer - Left Panel">
+            <param name="Local" value="options\job-costing\job-explorer\job_explorer_left_panel.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Job Explorer - Right Panel">
+            <param name="Local" value="options\job-costing\job-explorer\job_explorer_right_panel.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Job Explorer - Menu Options">
+            <param name="Local" value="options\job-costing\job-explorer\job_explorer_menu_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Save the Job Explorer Date Filter Selection">
+            <param name="Local" value="options\job-costing\job-explorer\save_the_job_explorer_date_filter_selection_sc.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Payment Information">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payment Information">
+          <param name="Local" value="options\payment-information\payment_information_setupco.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payment Methods">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payment Methods">
+            <param name="Local" value="options\payment-information\payment-methods\payment_methods.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Guidelines for Setting Up Payment Methods">
+            <param name="Local" value="options\payment-information\payment-methods\guidelines_to_setting_up_payment_methods.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payment Method Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="General Information">
+              <param name="Local" value="options\payment-information\payment-methods\payment-method-details\general_information_payment_method.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Type of Payment">
+              <param name="Local" value="options\payment-information\payment-methods\payment-method-details\type_of_payment.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Credit Card Information">
+              <param name="Local" value="options\payment-information\payment-methods\payment-method-details\credit_card_information.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Narrow Receipt Message">
+              <param name="Local" value="options\payment-information\payment-methods\payment-method-details\narrow_receipt_message.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Miscellaneous Information">
+              <param name="Local" value="options\payment-information\payment-methods\payment-method-details\miscellaneous_information_payment_method.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up a Payment Method">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Payment Method">
+              <param name="Local" value="options\payment-information\payment-methods\set-up-a-payment-method\creating_a_new_payment_method.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Payment Method Profile">
+              <param name="Local" value="options\payment-information\payment-methods\set-up-a-payment-method\the_payment_method_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Payment Method Profile - General">
+              <param name="Local" value="options\payment-information\payment-methods\set-up-a-payment-method\payment_method_profile_general_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Payment Method Profile - Credit Card Processing">
+              <param name="Local" value="options\payment-information\payment-methods\set-up-a-payment-method\payment_method_profile_cc_authorization_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Payment Method Profile - Gift Card Processing">
+              <param name="Local" value="options\payment-information\payment-methods\set-up-a-payment-method\the_payment_method_profile_gift_card_processing_tab_sc.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Payment Method Profile - Miscellaneous">
+              <param name="Local" value="options\payment-information\payment-methods\set-up-a-payment-method\payment_method_profile_miscellaneous_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Payment Method Profile">
+              <param name="Local" value="options\payment-information\payment-methods\set-up-a-payment-method\modifying_a_payment_method.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Payment Method">
+              <param name="Local" value="options\payment-information\payment-methods\set-up-a-payment-method\discontinuing_a_payment_method.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Payment Method">
+              <param name="Local" value="options\payment-information\payment-methods\set-up-a-payment-method\view_and_activate_a_discontinued_payment_method.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Payment Methods Browser">
+              <param name="Local" value="options\payment-information\payment-methods\set-up-a-payment-method\browser_options_payment_methods.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Payment Terms">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payment Terms">
+            <param name="Local" value="options\payment-information\payment-terms\payment_terms.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Payment Term Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="General Information">
+              <param name="Local" value="options\payment-information\payment-terms\payment-term-details\general_information_payment_terms.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Due Date Information">
+              <param name="Local" value="options\payment-information\payment-terms\payment-term-details\due_date_information.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discount Information">
+              <param name="Local" value="options\payment-information\payment-terms\payment-term-details\discount_information.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up a Payment Term">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Payment Term">
+              <param name="Local" value="options\payment-information\payment-terms\set-up-a-payment-term\creating_a_new_payment_term.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Payment Terms Profile">
+              <param name="Local" value="options\payment-information\payment-terms\set-up-a-payment-term\payment_terms_profile_general_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Payment Terms Profile">
+              <param name="Local" value="options\payment-information\payment-terms\set-up-a-payment-term\modifying_the_payment_terms_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Payment Term">
+              <param name="Local" value="options\payment-information\payment-terms\set-up-a-payment-term\discontinuing_a_payment_term.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Payment Term">
+              <param name="Local" value="options\payment-information\payment-terms\set-up-a-payment-term\view_and_activate_a_discontinued_payment_term.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Payment Terms Browser">
+              <param name="Local" value="options\payment-information\payment-terms\set-up-a-payment-term\browser_options_payment_terms.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Credit Card Processing">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Credit Card Processing">
+            <param name="Local" value="options\payment-information\credit-card-processing\credit_card_processing.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Credit Card Processor">
+            <param name="Local" value="options\payment-information\credit-card-processing\credit_card_processor.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Setting up Credit Card Processing">
+            <param name="Local" value="options\payment-information\credit-card-processing\setting_up_credit_card_processing.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="How Credit Card Processing Works">
+            <param name="Local" value="options\payment-information\credit-card-processing\how_does_credit_card_processing_work_.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Credit Card Processing with ICVerify">
+            <param name="Local" value="options\payment-information\credit-card-processing\credit_card_processing_with_ic_verify.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Credit Card Processing with Payflow Pro">
+            <param name="Local" value="options\payment-information\credit-card-processing\credit_card_processing_with_payflow_pro_setup.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Processor Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Processor Details">
+              <param name="Local" value="options\payment-information\credit-card-processing\processor-details\processor_details.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="General Information">
+              <param name="Local" value="options\payment-information\credit-card-processing\processor-details\general_information_processor_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Processors Profile - Payflow Pro Information">
+              <param name="Local" value="options\payment-information\credit-card-processing\processor-details\processor_profile_payflow_pro.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Verification Information">
+              <param name="Local" value="options\payment-information\credit-card-processing\processor-details\verification_information_processor_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Contact Information">
+              <param name="Local" value="options\payment-information\credit-card-processing\processor-details\contact_information_processor_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Currency Information">
+              <param name="Local" value="options\payment-information\credit-card-processing\processor-details\currency_information_processor.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="INI File for ICVerify">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configuration File for ICVerify">
+              <param name="Local" value="options\payment-information\credit-card-processing\ini-file-for-icverify\configuration_file_for_icverify.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Parameters in a Request File">
+              <param name="Local" value="options\payment-information\credit-card-processing\ini-file-for-icverify\parameters_in_request_files.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Parameters in an Answer File">
+              <param name="Local" value="options\payment-information\credit-card-processing\ini-file-for-icverify\parameters_in_answer_file.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Identifying the Transaction Format for a Processor">
+              <param name="Local" value="options\payment-information\credit-card-processing\ini-file-for-icverify\identifying_the_transaction_format_for_a_processor.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Pointers for Creating .INI file in Everest">
+              <param name="Local" value="options\payment-information\credit-card-processing\ini-file-for-icverify\pointers_for_creating_.ini_file_in_everest.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create an ICVerify Configuration File">
+              <param name="Local" value="options\payment-information\credit-card-processing\ini-file-for-icverify\create_an_icverify_configuration_file.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Sample .INI File">
+              <param name="Local" value="options\payment-information\credit-card-processing\ini-file-for-icverify\sample_.ini_file.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Default Format Used by Everest">
+              <param name="Local" value="options\payment-information\credit-card-processing\ini-file-for-icverify\default_format_used_by_everest_ic_verify_ini_files.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Configuring ICVerify for Multiple Merchants">
+              <param name="Local" value="options\payment-information\credit-card-processing\ini-file-for-icverify\configuring_icverify_for_multiple_merchants_sc.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Processor">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Processor">
+              <param name="Local" value="options\payment-information\credit-card-processing\create-a-processor\creating_a_new_processor.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Set up a Processor">
+              <param name="Local" value="options\payment-information\credit-card-processing\create-a-processor\set_up_a_new_processor.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Processors Profile">
+              <param name="Local" value="options\payment-information\credit-card-processing\create-a-processor\the_processors_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Processors Profile - General">
+              <param name="Local" value="options\payment-information\credit-card-processing\create-a-processor\processor_profile_general_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Processors Profile - Settings">
+              <param name="Local" value="options\payment-information\credit-card-processing\create-a-processor\the_processors_profile_settings.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Processors Profile - Currencies">
+              <param name="Local" value="options\payment-information\credit-card-processing\create-a-processor\the_processors_profile_currencies.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Processors Profile">
+              <param name="Local" value="options\payment-information\credit-card-processing\create-a-processor\modifying_the_processor_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Processor">
+              <param name="Local" value="options\payment-information\credit-card-processing\create-a-processor\discontinuing_a_processor.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Processor">
+              <param name="Local" value="options\payment-information\credit-card-processing\create-a-processor\view_and_activate_a_discontinued_processor.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Processors Browser">
+              <param name="Local" value="options\payment-information\credit-card-processing\create-a-processor\browser_options_processors.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Gift Card Processing">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Gift Card Processing">
+            <param name="Local" value="options\payment-information\gift-card-processing\gift_card_processing_payment_info_sc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Setting up a Payment Processor for Processing Gift Cards">
+            <param name="Local" value="options\payment-information\gift-card-processing\setting_up_a_payment_processor_for_processing_gift_cards_sc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create an Accrued Liability Account for Gift Cards">
+            <param name="Local" value="options\payment-information\gift-card-processing\create_an_accrued_liability_account_for_gift_cards_sc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Setting up Gift Card as a Payment Method">
+            <param name="Local" value="options\payment-information\gift-card-processing\setting_up_gift_card_as_a_payment_method_sc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Activities in Gift Card Processing">
+            <param name="Local" value="options\payment-information\gift-card-processing\activities_in_gift_card_processing_sc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Setup Gift Card as an Item">
+            <param name="Local" value="options\payment-information\gift-card-processing\setup_gift_card_as_an_item_sc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Loading/Buying Gift Card Items">
+            <param name="Local" value="options\payment-information\gift-card-processing\loading_buying_gift_card_items_sc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Selling Gift Cards as Items">
+            <param name="Local" value="options\payment-information\gift-card-processing\selling_gift_cards_as_items_sc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Checking Gift Card Balances">
+            <param name="Local" value="options\payment-information\gift-card-processing\checking_gift_card_balances_sc.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Security">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Security">
+          <param name="Local" value="options\security\security_setupco.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Users">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Users">
+            <param name="Local" value="options\security\users\users.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="User Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="General Information">
+              <param name="Local" value="options\security\users\user-details\general_information_user_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Address Information">
+              <param name="Local" value="options\security\users\user-details\user_address_information.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Contact Information">
+              <param name="Local" value="options\security\users\user-details\user_contact_information.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Security and Time Clock Information">
+              <param name="Local" value="options\security\users\user-details\security_and_time_clock_information.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Miscellaneous Information">
+              <param name="Local" value="options\security\users\user-details\miscellaneous_information_user_profile.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up a User">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a User">
+              <param name="Local" value="options\security\users\set-up-a-user\creating_a_new_user.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The User Profile">
+              <param name="Local" value="options\security\users\set-up-a-user\the_user_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The User Profile- General">
+              <param name="Local" value="options\security\users\set-up-a-user\user_profile_general_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The User Profile - Security and Time Clock">
+              <param name="Local" value="options\security\users\set-up-a-user\user_profile_security_and_time_clock_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The User Profile - Miscellaneous">
+              <param name="Local" value="options\security\users\set-up-a-user\user_profile_miscellaneous_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The User Profile - Multimedia">
+              <param name="Local" value="options\security\users\set-up-a-user\the_user_profile_multimedia.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The User Profile - Custom Fields">
+              <param name="Local" value="options\security\users\set-up-a-user\the_user_profile_custom_fields.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the User Profile">
+              <param name="Local" value="options\security\users\set-up-a-user\modifying_the_user_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a User">
+              <param name="Local" value="options\security\users\set-up-a-user\discontinuing_a_user.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued User">
+              <param name="Local" value="options\security\users\set-up-a-user\view_and_activate_a_discontinued_user.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Users Browser">
+              <param name="Local" value="options\security\users\set-up-a-user\browser_options_user_browser.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Groups">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Groups">
+            <param name="Local" value="options\security\groups\groups_setupco.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up a Group">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a User Group">
+              <param name="Local" value="options\security\groups\set-up-a-group\creating_a_user_group.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Group Profile">
+              <param name="Local" value="options\security\groups\set-up-a-group\group_profile_general_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Assigning Users to Groups">
+              <param name="Local" value="options\security\groups\set-up-a-group\assigning_users_to_groups.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Group">
+              <param name="Local" value="options\security\groups\set-up-a-group\discontinuing_a_group.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Group">
+              <param name="Local" value="options\security\groups\set-up-a-group\view_and_activate_a_discontinued_group.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Groups Browser">
+              <param name="Local" value="options\security\groups\set-up-a-group\browser_options_groups_browser.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Security Rights">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Security Rights">
+            <param name="Local" value="options\security\security-rights\security_rights.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Predefined Security Rights">
+            <param name="Local" value="options\security\security-rights\predefined_security_rights.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="User defined Security Rights">
+            <param name="Local" value="options\security\security-rights\userdefined_security_rights.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Categorization of Security Rights">
+            <param name="Local" value="options\security\security-rights\categorization_of_security_rights.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Assigning Security Rights">
+            <param name="Local" value="options\security\security-rights\assigning_security_rights.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Users">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="User Rights">
+              <param name="Local" value="options\security\security-rights\users\user_rights.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Assigning Rights to Users from the Users Browser">
+              <param name="Local" value="options\security\security-rights\users\assigning_rights_to_users_from_the_users_browser.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Assigning Rights to Users - Security Rights Browser">
+              <param name="Local" value="options\security\security-rights\users\assigning_rights_to_users_security_rights_users_dialog_box.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Groups">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Group Rights">
+              <param name="Local" value="options\security\security-rights\groups\group_rights.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Assigning Rights to Groups - Groups Browser">
+              <param name="Local" value="options\security\security-rights\groups\assigning_rights_to_groups_groups_browser.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Assigning Rights to Groups - Security Rights Browser">
+              <param name="Local" value="options\security\security-rights\groups\assigning_rights_to_groups_security_rights_groups_dialog_box.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Passwords">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Passwords">
+            <param name="Local" value="options\security\passwords\passwords.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Embedded Passwords">
+            <param name="Local" value="options\security\passwords\embedded_passwords.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Global Password On/Off">
+            <param name="Local" value="options\security\passwords\global_password_on_off.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Changing Default Global Password Setting">
+            <param name="Local" value="options\security\passwords\change_default_global_password_setting.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Interface Settings">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Interface Settings">
+          <param name="Local" value="options\interface-settings\interface_settings_sc.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Interface Settings Browser">
+          <param name="Local" value="options\interface-settings\interface_settings_browser_sc.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Interface Settings Browser - Options">
+          <param name="Local" value="options\interface-settings\interface_settings_browser_options_sc.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Assign Interface Settings">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Assign Interface Settings">
+            <param name="Local" value="options\interface-settings\assign-interface-settings\assign_interface_settings_sc.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Assign Interface Settings Window">
+            <param name="Local" value="options\interface-settings\assign-interface-settings\assign_interface_settings_window_sc.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Events">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Events">
+          <param name="Local" value="options\events\events.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Benefits of Tracking Events">
+          <param name="Local" value="options\events\benefits_of_tracking_events.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Event Profile">
+          <param name="Local" value="options\events\events_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify an Event Profile">
+          <param name="Local" value="options\events\modify_an_event_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Events Browser">
+          <param name="Local" value="options\events\events_browser.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="E-mail Set up">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="E-mail Set up">
+            <param name="Local" value="options\events\e-mail-set-up\e_mail_set_up.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="E-mail Account Dialog Box">
+            <param name="Local" value="options\events\e-mail-set-up\event_based_email_setup.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="E-mail Accounts Browser">
+            <param name="Local" value="options\events\e-mail-set-up\e_mail_accounts_browser_setting_up_a_co.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Everest Freight Estimator">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Everest Freight Estimator">
+          <param name="Local" value="options\everest-freight-estimator\shipping_calculations.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Carrier">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Carrier">
+            <param name="Local" value="options\everest-freight-estimator\carrier\carrier_ee.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Carrier Profile">
+            <param name="Local" value="options\everest-freight-estimator\carrier\carrier_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Carrier">
+            <param name="Local" value="options\everest-freight-estimator\carrier\discontinue_a_carrier_ee.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Activate a Discontinued Carrier">
+            <param name="Local" value="options\everest-freight-estimator\carrier\activate_a_discontinued_carrier_ee.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Carrier Browser">
+            <param name="Local" value="options\everest-freight-estimator\carrier\carrier_browser_ee.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Delivery Methods">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Delivery Methods">
+            <param name="Local" value="options\everest-freight-estimator\delivery-methods\delivery_methods_sales4.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Delivery Method Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="General Information - Delivery Method Profile">
+              <param name="Local" value="options\everest-freight-estimator\delivery-methods\delivery-method-details\general_information_delivery_method_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Common Carrier Company Delivery">
+              <param name="Local" value="options\everest-freight-estimator\delivery-methods\delivery-method-details\common_carrier_company_delivery.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Shipment Tracking URL">
+              <param name="Local" value="options\everest-freight-estimator\delivery-methods\delivery-method-details\shipment_tracking_url.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Set up a Delivery Method">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a Delivery Method">
+              <param name="Local" value="options\everest-freight-estimator\delivery-methods\set-up-a-delivery-method\creating_a_new_delivery_method.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Delivery Method Profile">
+              <param name="Local" value="options\everest-freight-estimator\delivery-methods\set-up-a-delivery-method\the_delivery_method_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Delivery Method Profile">
+              <param name="Local" value="options\everest-freight-estimator\delivery-methods\set-up-a-delivery-method\modifying_the_delivery_method_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Delivery Method">
+              <param name="Local" value="options\everest-freight-estimator\delivery-methods\set-up-a-delivery-method\discontinuing_a_delivery_method.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Delivery Method">
+              <param name="Local" value="options\everest-freight-estimator\delivery-methods\set-up-a-delivery-method\view_and_activate_a_discontinued_delivery_method.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Delivery Methods Browser">
+              <param name="Local" value="options\everest-freight-estimator\delivery-methods\set-up-a-delivery-method\browser_options_delivery_method.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Zones">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Zones">
+            <param name="Local" value="options\everest-freight-estimator\zones\destination_zone_ee.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Zones Profile">
+            <param name="Local" value="options\everest-freight-estimator\zones\destination_zones_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify the Zones Profile">
+            <param name="Local" value="options\everest-freight-estimator\zones\modify_the_zones_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Zone">
+            <param name="Local" value="options\everest-freight-estimator\zones\discontinue_a_destination_zone_ee.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Activate a Discontinued Zone">
+            <param name="Local" value="options\everest-freight-estimator\zones\activate_a_discontinued_destination_zone_ee.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Zones Browser">
+            <param name="Local" value="options\everest-freight-estimator\zones\destination_zones_browser_ee.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Zone Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Zone Details">
+            <param name="Local" value="options\everest-freight-estimator\zone-details\destination_zone_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Zone Details Profile">
+            <param name="Local" value="options\everest-freight-estimator\zone-details\destination_zone_details_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify the Zone Details Profile">
+            <param name="Local" value="options\everest-freight-estimator\zone-details\modify_the_zone_details_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Zone Detail">
+            <param name="Local" value="options\everest-freight-estimator\zone-details\discontinue_a_destination_zone_detail_ee.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Activate a Discontinued Zone Detail">
+            <param name="Local" value="options\everest-freight-estimator\zone-details\activate_a_discontinued_destination_zone_detail_ee.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Zones Details Browser">
+            <param name="Local" value="options\everest-freight-estimator\zone-details\destination_zones_details_browser_ee.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Rates">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Rates">
+            <param name="Local" value="options\everest-freight-estimator\rates\freight_rate_ee.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Rates Profile">
+            <param name="Local" value="options\everest-freight-estimator\rates\freight_rates_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify the Rates Profile">
+            <param name="Local" value="options\everest-freight-estimator\rates\modify_the_rates_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Freight Rate">
+            <param name="Local" value="options\everest-freight-estimator\rates\discontinue_a_freight_rate.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Activate a Discontinued Freight Rate">
+            <param name="Local" value="options\everest-freight-estimator\rates\activate_a_discontinued_freight_rate.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Rates Browser">
+            <param name="Local" value="options\everest-freight-estimator\rates\the_rates_browser.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Import Freight Rates and Freight Zones">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Import Freight Rates and Freight Zones">
+            <param name="Local" value="options\everest-freight-estimator\import-freight-rates-and-freight-zones\import_freight_rates_and_freight_zones_sc.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="International Set up">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Country">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Country Setup">
+            <param name="Local" value="options\international-set-up\country\country_setup.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Defining Country Details">
+            <param name="Local" value="options\international-set-up\country\defining_country_details.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Country Profile">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Country Profile">
+              <param name="Local" value="options\international-set-up\country\profile\the_country_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Country Profile - General">
+              <param name="Local" value="options\international-set-up\country\profile\the_country_profile_general.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Country Profile - Format Address">
+              <param name="Local" value="options\international-set-up\country\profile\the_country_profile_format_address.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Country Profile - Menu Option">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Restore Default Formats">
+                <param name="Local" value="options\international-set-up\country\profile\menu-option\restore_default_formats_country_profile_menu_option.html">
+              </object>
+              </ul>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Countries Browser">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Countries Browser">
+              <param name="Local" value="options\international-set-up\country\the-countries-browser\browser_options_country.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Zip Codes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Zip Codes">
+            <param name="Local" value="options\international-set-up\zip-codes\zip_codes.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Zip Code Profile">
+            <param name="Local" value="options\international-set-up\zip-codes\the_zip_code_profile_general.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify the Zip Code Profile">
+            <param name="Local" value="options\international-set-up\zip-codes\modifying_the_zip_code_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Zip Code">
+            <param name="Local" value="options\international-set-up\zip-codes\discontinuing_a_zip_code.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View and Activate a Discontinued Zip Code">
+            <param name="Local" value="options\international-set-up\zip-codes\view_and_activate_a_discontinued_zip_code.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Add a New Zip Code">
+            <param name="Local" value="options\international-set-up\zip-codes\add_a_new_zip_code.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Zip Codes Browser">
+            <param name="Local" value="options\international-set-up\zip-codes\browser_options_zip_codes.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Miscellaneous Set up">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Stock Areas">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Stock Areas">
+            <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock_areas_setup.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Stock Area and Bins">
+            <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock_area_locations_and_bins.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Stock Bin Types">
+            <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock_area_types.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Default Stock Area">
+            <param name="Local" value="options\miscellaneous-set-up\stock-areas\default_stock_area.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Stock Areas">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Create a New Stock Area">
+              <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock-areas\creating_a_new_stock_area.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Stock Area Profile">
+              <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock-areas\stock_area_profile_general_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Stock Area Profile">
+              <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock-areas\modifying_the_stock_area_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Stock Area">
+              <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock-areas\discontinuing_a_stock_area.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Stock Area">
+              <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock-areas\view_and_activate_a_discontinued_stock_area.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Stock Area Browser">
+              <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock-areas\browser_options_stock_area_brow.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Stock Bins">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Stock Bin Profile">
+              <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock-bins\the_stock_bin_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Modify the Stock Bin Profile">
+              <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock-bins\modify_the_stock_bin_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Stock Bin">
+              <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock-bins\discontinuing_a_stock_area.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Stock Bin">
+              <param name="Local" value="options\miscellaneous-set-up\stock-areas\stock-bins\view_and_activate_a_discontinued_stock_bin.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Custom Fields">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Custom Fields">
+            <param name="Local" value="options\miscellaneous-set-up\custom-fields\custom_fields_setupco.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Additional Custom Fields">
+            <param name="Local" value="options\miscellaneous-set-up\custom-fields\additional_custom_fields.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Edit Custom Field Name">
+            <param name="Local" value="options\miscellaneous-set-up\custom-fields\edit_custom_field_name.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create User Defined Custom Fields">
+            <param name="Local" value="options\miscellaneous-set-up\custom-fields\creating_user_defined_custom_fields.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Custom Field Profile">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Custom Fields Profile">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\the-custom-field-profile\the_custom_fields_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Custom Fields Profile - Characters">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\the-custom-field-profile\characters_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Custom Fields Profiles - Dates">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\the-custom-field-profile\dates_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Custom Fields Profile - Logicals">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\the-custom-field-profile\logical_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Custom Fields Profile - Numerics">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\the-custom-field-profile\numeric_tab.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Custom Fields Profile - Memo">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\the-custom-field-profile\custom_fields_memo.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Selections for a Custom Field">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\the-custom-field-profile\selections_for_a_custom_field.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Custom Field Definition Profile">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Custom Field Definition Profile">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\custom-field-definition-profile\custom_field_definition_profile.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Discontinue a Custom Field">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\custom-field-definition-profile\discontinue_a_custom_field.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="View and Activate a Discontinued Custom Field">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\custom-field-definition-profile\view_and_activate_a_discontinued_custom_field.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Custom Field Browser">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\custom-field-definition-profile\custom_field_browser.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Custom Field Browser - Other Options">
+              <param name="Local" value="options\miscellaneous-set-up\custom-fields\custom-field-definition-profile\custom_field_browser_other_options.html">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Multimedia">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Multimedia">
+            <param name="Local" value="options\miscellaneous-set-up\multimedia\multimedia_setupco.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Attach a Multimedia File">
+            <param name="Local" value="options\miscellaneous-set-up\multimedia\attach_a_multimedia_file.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Multimedia Repository">
+            <param name="Local" value="options\miscellaneous-set-up\multimedia\multimedia_repository.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Workstation Settings">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Workstation Settings">
+            <param name="Local" value="options\miscellaneous-set-up\workstation-settings\work_station_settings.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Workstation Settings Dialog Box">
+            <param name="Local" value="options\miscellaneous-set-up\workstation-settings\the_work_station_settings_dialog_box.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Workstation Settings - Company Settings">
+            <param name="Local" value="options\miscellaneous-set-up\workstation-settings\work_station_settings_company_settings.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Workstation Settings - Stock Bins">
+            <param name="Local" value="options\miscellaneous-set-up\workstation-settings\work_station_settings_stock_areas.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Workstation Settings - Interface">
+            <param name="Local" value="options\miscellaneous-set-up\workstation-settings\workstation_settings_interface.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Workstation Settings - General">
+            <param name="Local" value="options\miscellaneous-set-up\workstation-settings\workstation_settings_general_introduction.html">
+          </object>
+          </ul>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Checklists">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Initial Information Checklist">
+        <param name="Local" value="checklists\initial_information_checklist.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Guidelines to Gather Data">
+        <param name="Local" value="checklists\guidelines_to_gather_data.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Checklists">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Checklists">
+          <param name="Local" value="checklists\checklists\checklists.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Checklist - Company">
+          <param name="Local" value="checklists\checklists\checklist_company.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Checklist - Accounting">
+          <param name="Local" value="checklists\checklists\checklist_accounting.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Checklist - Security">
+          <param name="Local" value="checklists\checklists\checklist_security.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Checklist - Customers/Invoicing">
+          <param name="Local" value="checklists\checklists\checklist_customers_invoicing.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Checklist - Vendors/Purchasing">
+          <param name="Local" value="checklists\checklists\checklist_vendors_purchasing.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Checklist - Customization">
+          <param name="Local" value="checklists\checklists\checklist_customization.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Checklist - Inventory">
+          <param name="Local" value="checklists\checklists\checklist_inventory.html">
+        </object>
+        </ul>
+      </ul>
+    </ul>
+</ul>
+</html>

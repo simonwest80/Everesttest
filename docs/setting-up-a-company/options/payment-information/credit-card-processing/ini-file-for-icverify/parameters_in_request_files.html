@@ -1,0 +1,129 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="parameters-in-a-request-file">Parameters in a Request File</h1>
+
+<p>Request files will include several parameters describing the accounting  number and other details of the transaction.</p>
+
+<p><strong>Transaction type:</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Transaction name</td>
+      <td>Parameter</td>
+      <td>Identifier in Format</td>
+    </tr>
+    <tr>
+      <td>Sale</td>
+      <td>C1</td>
+      <td>SALE</td>
+    </tr>
+    <tr>
+      <td>Ship (prior booking)</td>
+      <td>CO</td>
+      <td>SHIP</td>
+    </tr>
+    <tr>
+      <td>Book</td>
+      <td>C4</td>
+      <td>BOOK</td>
+    </tr>
+    <tr>
+      <td>Force Sale</td>
+      <td>C5</td>
+      <td>FORCE</td>
+    </tr>
+    <tr>
+      <td>Authorization/Pre-authorization</td>
+      <td>C6</td>
+      <td>AUTH</td>
+    </tr>
+    <tr>
+      <td>Return or Refund</td>
+      <td>C3</td>
+      <td>REFUND</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Other Parameters:</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Parameter</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>CLERK</td>
+      <td>Denotes the user. <strong>Everest</strong> uses  this field to specify the merchant sequence number if multiple merchants  are enabled for the processor (path: <strong>Processor</strong>  profile &gt; <strong>Settings</strong> tab <strong>&gt; Use Multiple Accounts</strong> field is  selected).</td>
+    </tr>
+    <tr>
+      <td>ORDERNO</td>
+      <td>Denotes the document number.</td>
+    </tr>
+    <tr>
+      <td>ACCOUNT</td>
+      <td>Denotes the credit card number.</td>
+    </tr>
+    <tr>
+      <td>EXP</td>
+      <td>Denotes the expiry  date on the card. <strong>Everest</strong> sends  the expiry  date in the format MMYY.</td>
+    </tr>
+    <tr>
+      <td>SWIPEINFO</td>
+      <td>Indicates the swipe information without a % sign. Normally the Track  1 data begins with a % sign. Some processors might require that the swipe  information be sent without the leading % sign.</td>
+    </tr>
+    <tr>
+      <td>SWIPEINFO%</td>
+      <td>Indicates the swipe information with ‘%’.</td>
+    </tr>
+    <tr>
+      <td>TRACK1</td>
+      <td>Denotes Track 1 data for the swipe information. This parameter is used  if only Track 1 data is required by the processing network.</td>
+    </tr>
+    <tr>
+      <td>TRACK2</td>
+      <td>Denotes Track 2 data for the swipe information. This parameter is used  if only Track 2 data is required by the processing network.</td>
+    </tr>
+    <tr>
+      <td>AMOUNT</td>
+      <td>Indicates the amount for which the transaction is processed. ICVerify  correctly processes amounts with up to two places of decimal accuracy  only.</td>
+    </tr>
+    <tr>
+      <td>TAX</td>
+      <td>Indicates the Tax on the transaction. This field is for information  only. The tax information is mandatory for some processing networks and  is required as a Tier 1 data for Purchase Cards. <strong>Everest</strong>  computes the proportional tax for the payment amount (i.e. tax is computed  in proportion to the payment amount and document amount). However, the  transaction is processed only for the Amount.</td>
+    </tr>
+    <tr>
+      <td>ADDRESS</td>
+      <td>Indicates the address that is sent for verification.</td>
+    </tr>
+    <tr>
+      <td>ZIP</td>
+      <td>Indicates the zip code that is sent for verification.</td>
+    </tr>
+    <tr>
+      <td>CVV2</td>
+      <td>Indicates the CVV2 code.</td>
+    </tr>
+    <tr>
+      <td>APPROVECODE</td>
+      <td>Indicates the Approval code. This is mandatory for Force Sale transactions,  and is sometimes required for Ship type of transactions.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/ini-file-for-icverify/create_an_icverify_configuration_file.html">Create  an ICVerify Configuration File</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/ini-file-for-icverify/configuration_file_for_icverify.html">Configuration  File for ICVerify</a></dd>
+</dl>
+
+
+
+
+</div>

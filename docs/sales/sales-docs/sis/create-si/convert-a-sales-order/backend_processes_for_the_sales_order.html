@@ -1,0 +1,51 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes-for-the-sales-order">Back End Processes for the Sales Order</h1>
+
+<p>The following back-end processes occur when a sales order is converted  to a sales invoice:</p>
+
+<ul>
+  <li>If the <strong>Shipped</strong> quantity is less than the <strong>Ordered</strong> quantity, the sales order is  assigned the ‘Backorder’ status, upon saving the invoice.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/convert-to-a-sales-invoice/processing_a_sales_invoice.html">Partial  Invoices</a></p>
+
+<ul>
+  <li>If the ordered  quantity is shipped, the sales order is assigned the ‘Closed’ status.  To view closed sales orders, select <strong>Options 
+ &gt; Shipped Sales Orders</strong> from the <strong>Sales 
+ Orders</strong> browser.</li>
+  <li>
+    <p>When the committed  quantity is shipped, the stock status of the item displays the following  changes:</p>
+  </li>
+  <li><strong>Stock 
+ Status of the item</strong> - The quantity ‘on reserve’  for the item reduces by the quantity shipped if the quantity was committed.</li>
+  <li>
+    <p><strong>Stock 
+ Status in the committed stock area</strong> - If the committed quantity  is shipped, the quantity of item ‘On Reserve’  in the stock area from which the item is committed reduces by the quantity  shipped. The ‘Total Stock’  also decreases.</p>
+  </li>
+  <li>If a sales  order with prepay terms is converted to an invoice, a warning message  is displayed in the following conditions, when you try to save the new  sales invoice:</li>
+  <li>the flow control  preference for applying deposits to invoices is set to <strong>Automatic</strong>  or <strong>Prompt</strong>, and the deposit available  on the SO that is being transferred to the SI is less than the invoice  amount</li>
+</ul>
+
+<p>The message that is displayed in the above  condition is “The payment terms on the order require prepayment, but the  deposit available is less than the invoice amount. Do you wish to continue?”.</p>
+
+<ul>
+  <li>the flow control  preference for applying deposits to invoices is set to <strong>Hold</strong></li>
+</ul>
+
+<p>The message that is displayed in the above  condition is “The payment terms on the order require prepayment, but the  invoice will have a balance. Do you wish to continue?”.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/the-items-browser/information-available/item_stock_status_item_browser_option.html">Item  Stock Status</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/committing_items_to_the_sales_order.html">Committing  items on a Sales Order</a></dd>
+</dl>
+
+
+
+
+</div>

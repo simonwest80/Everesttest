@@ -1,0 +1,93 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-dialog-box---accounts---other-accounts-tab">Accounting Dialog Box - Accounts - Other Accounts Tab</h1>
+
+<p>The other default accounts required pertain to the accounts required  during year end closing, import of inventory, customer and vendor balances,  inventory adjustments and assembly. The <strong>Other 
+ Accounts</strong> tab enables you to specify these default accounts.</p>
+
+<p class="note">You can only select accounts that have been  set up in the base currency in this tab.</p>
+
+<dl>
+  <dt><strong>Current earnings</strong></dt>
+  <dd>Specify the account that must be used to display  the excess of income over expenses or vice versa in the <strong>Balance 
+ Sheet</strong> report (path: <strong>Reports &gt; 
+ Financial &gt; Balance Sheet</strong>) for a year that is not closed. If  multiple years are not yet closed, the earnings for each year are shown  separately in the balance sheet.</dd>
+  <dd>This account is normally an equity account.</dd>
+  <dt><strong>Unreconciled difference</strong></dt>
+  <dd>Specify the account that should be used as the clearing  account while you set up the company in <strong>Everest</strong> initially. The balance of this account displays the value by which  your initial import of accounts receivable, accounts payable and inventory  is out of balance. The balance in this account is normally zeroed out  when you complete setting up the company. The <strong>Unreconciled 
+ Difference</strong> account is an expense account.</dd>
+  <dt><strong>Rounding Differences</strong></dt>
+  <dd>Specify the account to use for all rounding differences,  including tax rounding differences. In situations where an amount in a  document differs from the rounded-off amount in the appropriate account,  the difference is debited or credited to the account selected in the <strong>Rounding Differences</strong> field. All revenue,  expense, asset and liability accounts, except the control accounts, are  available for selection. This is a mandatory field.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/accounting/img/example.gif" alt="" /></td>
+      <td>Tax Rounding Differences - The line items in a sales document may be  associated with tax codes having varying tax components. The tax components,  in turn, may be associated with different liability accounts. The tax  amounts that are credited to each of the liability accounts are first  summed up and then rounded off to the decimal accuracy of the document  currency. The total tax amount of the document is calculated by summing  up the tax amount pertaining to each of the line items and then rounding  it off to the decimal accuracy of the document currency. This amount displayed  in the <strong>Tax</strong> field of the document  differs from the total of the rounded-off figures of each of the liability  accounts. This discrepancy results from the level at which the rounding-off  takes place.<br /><br /><br />To overcome this anomaly, select an account, in the <strong>Rounding <br /> Differences</strong> field, to which this difference is debited or credited.<br /><br /><br />Quantity 1 of item 102 Wheels is sold at an  item price of $39. The table below clarifies the breakup of tax associated  with the item.<br /><br /><br /></td>
+      <td>Tax Component</td>
+      <td>Tax Rate</td>
+      <td>Tax Liability Account</td>
+      <td>Tax on Document</td>
+      <td>Total tax credited to each of the liability accounts<br /><br /><br />(Rounded off)</td>
+      <td><br /></td>
+      <td>Component 1</td>
+      <td>5.5</td>
+      <td>L1</td>
+      <td>2.145</td>
+      <td>2.15</td>
+      <td><br /></td>
+      <td>Component 2</td>
+      <td>1.5</td>
+      <td>L2</td>
+      <td>0.585</td>
+      <td>0.59</td>
+      <td><br /></td>
+      <td>Total Tax (Rounded off)</td>
+      <td> </td>
+      <td> </td>
+      <td>2.730</td>
+      <td>2.74</td>
+      <td><br /><br /><br /><br />Accounting Entry<br /><br /><br /></td>
+      <td>Account</td>
+      <td>Debit</td>
+      <td>Credit</td>
+      <td><br /></td>
+      <td>Sales Revenue</td>
+      <td> </td>
+      <td>39.00</td>
+      <td><br /></td>
+      <td>Liability Account 1</td>
+      <td> </td>
+      <td>02.15</td>
+      <td><br /></td>
+      <td>Liability Account 2</td>
+      <td> </td>
+      <td>00.59</td>
+      <td><br /></td>
+      <td>Tax Round-off</td>
+      <td>00.01</td>
+      <td> </td>
+      <td><br /></td>
+      <td>Bank</td>
+      <td>41.73</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_dialog_box_-_posting_groups.html">Accounting  Dialog Box - Accounts</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_defaults.html">Accounting Defaults</a></dd>
+</dl>
+
+
+
+
+</div>

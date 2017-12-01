@@ -1,0 +1,38 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries---void-receiptrefund-transactions">Accounting Entries - Void Receipt/Refund Transactions</h1>
+
+<p>When a transaction is voided from the purchase register, a reversal  entry is created to reverse the debits and credits of the voided transaction.</p>
+
+<p>The receipt journal in which the entry is made is determined by the  following rules:</p>
+
+<ul>
+  <li>The journal  must be an open journal whose accounting period contains the transaction  date of the voided transaction. If the accounting period for the voided  transaction is closed, you have to enter a new transaction date for the  reversal entry.</li>
+  <li>The journal  must have the same journal group as the one selected in <strong>Workstation 
+ Settings</strong> dialog box (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Workstation Settings</strong> &gt;  <strong>Company Settings</strong> tab &gt; <strong>Journal</strong> <strong>Group</strong>  field) of the user entering the payment/refund.</li>
+  <li>The journal  must have the same location/sub-location as the login location/sub-location  of the user entering the payment/refund.</li>
+  <li>The journal  must have the description ‘Reversing entries for voiding’.</li>
+  <li>The journal  must have the same bank account as the bank account specified for the  payment method.</li>
+</ul>
+
+<p>If no such open journal exists, a new receipt journal is created with  the description ‘Reversing entries for voiding’. The receipt journal number  for the new journal is taken from the sequence number specified for receipt  journals in the login location or the parent location of the login sub-location.</p>
+
+<p><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/locations_and_departments.html">Locations  and Sub-Locations</a></p>
+
+<p>If sequence numbers are not defined for the login location or the parent  location of the login sub-location, then the sequence number assigned  to the default location (path: <strong>File &gt; 
+ Setup &gt; Preferences &gt; Defaults &gt; Accounting &gt; Miscellaneous</strong> tab <strong>&gt; Default Location</strong>  field) is assigned to the document.</p>
+
+<p><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></p>
+
+<p class="see_also">See also</p>
+
+<p><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/voiding-transactions-payment-register/voiding_receipt_refund_transactions_payment_register.html">Voiding  Transactions from the Payment Register</a></p>
+
+
+
+
+</div>

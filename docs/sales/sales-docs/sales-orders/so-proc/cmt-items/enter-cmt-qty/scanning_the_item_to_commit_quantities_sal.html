@@ -1,0 +1,53 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="scanning-the-item-to-commit-quantities">Scanning the Item to Commit Quantities</h1>
+
+<p>Inventoried items can be scanned by Item Code, Model No., Item Alias  or Serial Number from the Sales Orders browser and the Sales Order profile  to commit inventory.</p>
+
+<p>Commit Items from a Sales Order Browser</p>
+
+<p>You can scan an item to commit the quantity by selecting <strong>Options</strong>  &gt; <strong>Commit Inventory</strong> from the  <strong>Sales Orders</strong> browser.</p>
+
+<p class="steps">To commit inventory from the Sales Orders  browser towards a sales order, do the following:</p>
+
+<ul>
+  <li>Select and highlight  a Sales Order from the Sales Order browser (path: <strong>Invoicing</strong>  &gt; <strong>Sales</strong> <strong>Orders</strong>).</li>
+  <li>Select <strong>Options</strong>  &gt; <strong>Commit Inventory</strong>. The <strong>Commit Inventory</strong> dialog box opens.</li>
+  <li>Scan or enter the  Item Code, Item Alias, Model Number or Serial Number of an item in the  <strong>Scan or type product details</strong> field.</li>
+  <li>The quantity field  (<strong>Qty</strong>) defaults to 1. With the  appropriate security right, you can change the quantity for regular items.  Serial numbers always scan as 1 unit and the quantity cannot be changed.</li>
+  <li>Click the <strong>Commit</strong> button. The <strong>Save</strong>  button is enabled.</li>
+  <li>Click the <strong>Save</strong> button. The committed quantity  in the sales order is increased by the number in the <strong>Qty</strong>  field.</li>
+  <li>The system opens  the sales order and increases the committed quantity by the number in  the <strong>Qty</strong> field and saves and locks  the order again at the back end.</li>
+</ul>
+
+<p>When you do not specify whether you are scanning the item  by code, alias, model number or serial number, the system follows the  order you specify in the flow control preferences (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Flow 
+ Control</strong> &gt; <strong>Items</strong> &gt;  <strong>Item Details</strong> tab).</p>
+
+<p>An invalid scan message is indicated both visually and audibly  for the following reasons:</p>
+
+<ul>
+  <li>Item does not exist</li>
+  <li>Quantity exceeds  order quantity</li>
+  <li>Item is not in the  document list</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/sales/img/commit_inventory_error_not_required_db_sal.gif" alt="" /></strong></p>
+
+<p><strong>Figure: Incorrect Scan Message</strong></p>
+
+<p>Click the <strong>History</strong>  button to view the history of all scan attempts/actions. This screen can  be useful for identifying when an invalid barcode was scanned or a mistake  was made. The history will only display while the Commit Inventory dialog  box is open and is not saved after closing.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/misc/commit_inventory_sal.html">Commit Inventory</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/enter-cmt-qty/ser/serialized_items_entering_committed_quantity.html">Serialized  Items</a></dd>
+</dl>
+
+
+
+
+</div>

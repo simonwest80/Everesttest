@@ -1,0 +1,175 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="case-3-partial-shipments---item-costs-are-different---acp-adjustment--entry-is-used">Case 3: Partial Shipments - Item Costs are Different - ACP (Adjustment)  Entry is used</h1>
+
+<p>In Case 3, the cost of the items on the PR is less that on the PO and  PI. This situation creates a balance in the ACP account for the line item  that is offset by the system automatically using an ACP (Adjustment) entry  to the ACP account.</p>
+
+<p>The accounting entries are shown at the bottom of the table.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Purchase Order</td>
+      <td>Purchase Receipt</td>
+      <td>Purchase Invoice</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Qty</td>
+      <td>Cost</td>
+      <td>Qty</td>
+      <td>Cost</td>
+      <td>Rec Qty</td>
+      <td>Cost</td>
+      <td>Inv Qty</td>
+      <td>Cost</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>10</td>
+      <td>7</td>
+      <td>9</td>
+      <td>3</td>
+      <td>10</td>
+      <td>10</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Account</td>
+      <td>Debit</td>
+      <td>Credit</td>
+      <td>Debit</td>
+      <td><strong>Credit</strong></td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>INV</td>
+      <td>63</td>
+      <td> </td>
+      <td>30</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>ACP</td>
+      <td> </td>
+      <td>63</td>
+      <td> </td>
+      <td>30</td>
+      <td>100</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>AP</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>ACP (Adj)</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>PPV</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>7</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Accrued Purchases (PR - Received Quantity) = 7 * 9 = 63</p>
+
+<p>Accrued  Purchases (PI - Received Quantity) = 3 * 10 = 30</p>
+
+<p>Accrued Purchases (Total Received) = <strong>93</strong></p>
+
+<p>Accrued Purchases (PI - Invoiced Quantity) = 10 * 10 = <strong>100</strong></p>
+
+<p>Accrued Purchases (Total Invoiced) - Accrued Purchases (Total Received)  = ACP balance maintained at the line level of the linked documents = 100  - 93 = 7</p>
+
+<p>The Accrued Purchases amount invoiced is 100 and the total Accrued Purchases  amount received is 93. This leaves a debit balance in the ACP account  of 7. The system automatically creates an ACP (Adjustment) credit entry  of 7 to zero out the balance in the ACP account.</p>
+
+<p><strong>Summary of the ACP Account Entries for Case 3</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Document</td>
+      <td>Account</td>
+      <td>Debit</td>
+      <td>Credit</td>
+    </tr>
+    <tr>
+      <td>PR - Received Quantity</td>
+      <td>ACP</td>
+      <td> </td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>PI - Received Quantity</td>
+      <td>ACP</td>
+      <td> </td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>PI - Invoiced Quantity</td>
+      <td>ACP</td>
+      <td>100</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ACP (Adj)</td>
+      <td> </td>
+      <td>7</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/create-pi/create-new-pi/balancing_the_acp_account_where_inv_qty_equals_rec_qty_pur.html">Balancing  the Accrued Purchases Account where the Invoiced Quantity of a Line Item  is Equal to the Received Quantity</a></dd>
+</dl>
+
+
+
+
+</div>

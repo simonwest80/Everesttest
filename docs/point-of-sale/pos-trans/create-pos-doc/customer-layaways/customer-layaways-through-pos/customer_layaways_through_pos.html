@@ -1,0 +1,58 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="customer-layaways-through-pos">Customer Layaways through POS</h1>
+
+<p>In customer layaways, the customer reserves one or more items from your  store after paying an initial amount as a guarantee. The customer then  pays in installments and after the amount is fully paid, takes delivery  of the items.</p>
+
+<p class="steps">To handle customer layaways, do the following:</p>
+
+<ul>
+  <li>Create a sales  order for the items that the customer intends to buy and commit the items  to the order.</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /></td>
+      <td><a href="/versata-everest-docs/sales/sales-docs/sales-orders/create-a-sales-order/create-a-new-sales-order/creating_a_new_sales_order.html">Create  a Sales Order</a><br /><br /><br /><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/committing_items_to_the_sales_order.html">Commit  Items to a Sales Order</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>As and when  you receive payments from the customer for the layaway, account for it  as customer deposits against the sales order.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/recur-billing/recur-so-proc/recv-pmts/payments_on_sales_orders.html">Accepting  Deposits on Sales Orders</a></p>
+
+<ul>
+  <li>When the customer  comes to pay the last installment, detach the items from the sales order  created for the layaway.</li>
+  <li>Create a <strong>POS Invoice</strong> for the same customer and  add the items with the required quantities in the item details grid. Save  the <strong>POS Invoice</strong>.</li>
+  <li>In the <strong>Payment Details</strong> dialog box, apply the  deposits received from the customer for the layaway and receive the final  installment. The sales order will be displayed in the <strong>Advance 
+ Documents Available</strong> section of the <strong>Apply 
+ Advances</strong> tab.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/pos-receipts/payment-dlg/payment_amount_details_payment_details_dialog_pos_receipts.html">Payment  Amount Details - Advance Applied</a></p>
+
+<ul>
+  <li>Open the sales  order created for the layaway and mark it closed (<strong>Sales 
+ Order</strong> profile <strong>&gt; Options &gt; 
+ Process &gt; Mark Close/Open</strong>).</li>
+</ul>
+
+<p><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/mark-close-open/mark_complete_so.html">Close  a Sales Order</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/customer-layaways/customer_layaways_pos.html">Customer Layaways</a></dd>
+</dl>
+
+
+
+
+</div>

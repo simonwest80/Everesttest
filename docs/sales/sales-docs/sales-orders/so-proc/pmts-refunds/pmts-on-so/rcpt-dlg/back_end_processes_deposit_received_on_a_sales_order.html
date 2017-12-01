@@ -1,0 +1,25 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---deposit-received-on-a-sales-order">Back End Processes - Deposit Received on a Sales Order</h1>
+
+<p>The following back-end processes occur  when a deposit is received against a sales order:</p>
+
+<ul>
+  <li>The unposted  amount as seen in the <strong>Customer</strong>’s  profile reduces by the amount of payment received from the customer. The  net balance of the customer is also reduced. When the receipt journal  is posted, the unposted  amount increases and the posted amount reduces with the amount receivable  from the customer staying the same.</li>
+  <li>The amount  paid on the sales order increases.</li>
+  <li>If the amount  is paid by applying a credit memo, the customer’s balance is reduced by  the amount applied. The balance on the sales order is reduced by the amount  applied. If the entire amount of the credit memo is applied, the status  of the Credit Memo changes to ‘Paid’ in the browser and the balance of  the credit memo becomes ‘Nil’.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/pmts-on-so/rcpt-dlg/accounting_entries.html">Accounting Entries  - Payments from Customers</a></dd>
+</dl>
+
+
+
+
+</div>

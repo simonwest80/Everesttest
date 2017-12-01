@@ -1,0 +1,83 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="void-and-recreate-payment-transactions">Void and Recreate Payment Transactions</h1>
+
+<p>“Voiding and recreating transactions” refer to voiding the original  payment (receipt/refund) transaction and recreating it. Payment entries  may not only have to be voided but recreated for the following reasons:</p>
+
+<ul>
+  <li>A check did  not print correctly, and you want to recreate the transaction for printing  it again.</li>
+  <li>A check that  was returned due to insufficient funds has to be presented again. Voiding  and recreating ensures that the original transaction is recreated with  the same or updated details such as source type, bank account, payment  method, and date.</li>
+</ul>
+
+<p>When a transaction is voided, the balance of the transaction is changed  to $0.00 and the customer or vendor associated with the transaction is  removed. When a transaction is voided and recreated, the bank account  of the recreated transaction is the bank associated with the payment method.  You can view the voided transaction in the <strong>Voided 
+ Transactions</strong> browser and the <strong>Payment 
+ Register</strong> browser. You can view the recreated transaction in the  <strong>Payment Register</strong> browser. The  transaction status of a voided transaction is <strong>Void</strong>  and the transaction status of a recreated transaction is <strong>Normal</strong>.  The following table shows where the voided and recreated transactions  display:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Screen</td>
+      <td>Voided Transaction will display?</td>
+      <td>Recreated transactions will display?</td>
+    </tr>
+    <tr>
+      <td>Document Payment History screen</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Transaction History screen</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Payment/Receipt journal browser</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Payment/Receipt journal transaction browser</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Voided Transactions browser</td>
+      <td>Yes</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Payment Register browser</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">Recreated entries appear in the bank reconciliation  process after they are printed and posted, but voided transactions do  not appear in the bank reconciliation process.</p>
+
+<p>The <strong>Void</strong> option is available  for all UNPOSTED transactions irrespective of whether checks have been  printed or not.</p>
+
+<p>The <strong>Void</strong> option is not available  for the following transactions:</p>
+
+<ul>
+  <li>Reversed</li>
+  <li>Reversal</li>
+  <li>Already Voided</li>
+  <li>Cleared/Reconciled</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/voiding-transactions-payment-register/voiding_transactions_from_the_payment_register.html">Void  Payment/Refund Transactions - Payment Register</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/voiding-and-recreating-transactions/acc_entries_void_and_recreate.html">Accounting  Entries - Voiding and Recreating</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/voiding-and-recreating-transactions/back_end_processes_for_voiding_and_recreating.html">Back  End Processes - Voiding and Recreating</a></dd>
+</dl>
+
+
+
+
+</div>

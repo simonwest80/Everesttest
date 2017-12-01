@@ -1,0 +1,100 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="eoq-selection-example">EOQ Selection Example</h1>
+
+<p>The following example applies to parameter selections on the <strong>Automated 
+ Purchases</strong> dialog box - <strong>Replenishment</strong>  tab (path: <strong>Inventory</strong> &gt; <strong>Automated Purchases</strong> &gt; <strong>Item 
+ Replenishment</strong> or press <strong>Ctrl</strong>  + <strong>M</strong>).</p>
+
+<p>Item D has the following values:</p>
+
+<p>Planned Quantity (Maximum) = 100</p>
+
+<p>Planned Quantity – Replenish Inventory To = Maximum Quantity</p>
+
+<p>Total Stock = 75</p>
+
+<p>Open SO = 25</p>
+
+<p>Open PO = 15</p>
+
+<p>Current Supply = 65</p>
+
+<p>EOQ = 4</p>
+
+<p>Current Supply = Total Stock – Open SO + Open PO = 75 – 25 + 15 = 65</p>
+
+<p>Required Quantity (Calculated) = Planned Quantity – Current Supply =  100 – 65 = 35</p>
+
+<p>For Item D, the result of selecting/deselecting <strong>Do 
+ Not Exceed Planned QTY</strong> and <strong>Purchase 
+ in Increments of Vendor EOQ</strong> is shown in the following table:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Required Quantity (Calculated)</td>
+      <td>ADJUSTMENT FACTORS</td>
+      <td>Required Quantity (Adjusted)</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Do Not Exceed Planned QTY<br /><br /><br />check box</td>
+      <td>Purchase in Increments of Vendor EOQ check  box</td>
+      <td>EOQ<br /><br /><br />Increments</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
+      <td>N/A</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Checked</td>
+      <td>Unchecked</td>
+      <td>N/A</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Unchecked</td>
+      <td>Checked</td>
+      <td>4 * 9</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Checked</td>
+      <td>Checked</td>
+      <td>4 * 8 (Cannot exceed 35)</td>
+      <td>32</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If you do not purchase in increments of the Vendor EOQ, the adjustment  factors are ignored and the Required Quantity (Adjusted) is the same as  the Required Quantity (Calculated).</p>
+
+<p>If you purchase in increments of the Vendor EOQ and the planned quantity  can be exceeded, nine increments of the EOQ (9*4=36) are used to cover  the calculated required quantity of 35. The Required Quantity (Adjusted)  becomes 36.</p>
+
+<p>If you purchase in increments of the Vendor EOQ but the planned quantity  cannot be exceeded, eight increments of the EOQ (8*4=32) are used to cover  the calculated required quantity of 35 without going over the planned  quantity.  The  Required Quantity (Adjusted) becomes 32.</p>
+
+<p>If the EOQ was 40 instead of 4, and you were using increments of Vendor  EOQ for purchases and the planned quantity could not be exceeded, the  Required Quantity (Adjusted) would be zero (0) since it is more than the  Required Quantity (Calculated). In this situation, you can make a decision  on how many, if any, should be purchased.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/create-po/auto-generate-po/item-replenishment/find_item_replenishment_-_replenishment_tab.html">Automated  Purchases - Replenishment tab</a></dd>
+</dl>
+
+
+
+
+</div>

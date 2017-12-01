@@ -1,0 +1,139 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="entries-for-increasingdecreasing-quantity-of-non-inventoried-items">Entries for Increasing/Decreasing Quantity of Non-Inventoried Items</h1>
+
+<p><strong>Increasing Invoiced Non-inventoried Line  Items Retrieved from a Purchase Order or Purchase Receipt</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>Account</td>
+      <td>Debit/Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td><strong>Invoiced Quantity Equals the Received Quantity  after the Increase</strong></td>
+      <td>Recoverable Tax Liability</td>
+      <td>Debit</td>
+      <td>New Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchases</td>
+      <td>Debit</td>
+      <td>New Item Amount</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Accounts Payable</td>
+      <td>Credit</td>
+      <td>New Item Amount + Recoverable Tax Amount</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Accrued Purchase (Adjustment)</td>
+      <td>Debit/Credit</td>
+      <td>Balance in the Accrued Purchases account maintained at each line level  in the linked documents</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Purchase Price Variance</td>
+      <td>Credit/Debit</td>
+      <td>Balance in the Accrued Purchases account maintained at each line level  in the linked documents</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The system updates the existing purchase journal.</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Invoiced Quantity Does Not Equal the Received  Quantity after the Increase</strong></td>
+      <td>Recoverable Tax Liability</td>
+      <td>Debit</td>
+      <td>New Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchases</td>
+      <td>Debit</td>
+      <td>New Item Amount</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Accounts Payable</td>
+      <td>Credit</td>
+      <td>New Item Amount + New Recoverable Tax Amount</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>The system updates the existing purchase journal.</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Item Amount = (Quantity * (Item Cost –  Discount Value)) + Non-recoverable Tax Amount</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="note">
+  <dt>The “Balance in the Accrued Purchases account  maintained at each line level in the linked documents” is also the difference  amount between the ACP of the Invoiced Quantity and the ACP of the Received  Quantity.</dt>
+  <dd><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/create-pi/create-new-pi/balancing_the_acp_account_where_inv_qty_equals_rec_qty_pur.html">Balancing  the Accrued Purchases Account where the Invoiced Quantity of a Line Item  is Equal to the Received Quantity</a></dd>
+</dl>
+
+<p><strong>Decreasing Non-inventoried Line Items Retrieved  from a Purchase Order or Purchase Receipt</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Debit/Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchases</td>
+      <td>Debit</td>
+      <td>Item Amount</td>
+    </tr>
+    <tr>
+      <td>Recoverable Tax Liability</td>
+      <td>Debit</td>
+      <td>Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>Accounts Payable</td>
+      <td>Credit</td>
+      <td>Item Amount + Recoverable Tax Amount</td>
+    </tr>
+    <tr>
+      <td>The system updates the existing purchase journal. If the invoiced quantity  equals the received quantity before you decrease it, the system deletes  the Purchase Price Variance and Accrued Purchase (Adjustment) entries.  The Accrued Purchases, Recoverable Tax Liability, and Accounts Payable  accounts are updated based on the decreased quantity.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Item Amount = (Quantity * (Item Cost – Discount Value))  + Non-recoverable Tax Amount</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/paths_to_the_accounts_for_accounting_entries_pur.html">Paths  to the Accounts for Accounting Entries</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/create-pi/create-new-pi/accounting_entries_create_a_purchase_invoice_pur.html">Accounting  Entries - Create a Purchase Invoice</a></dd>
+</dl>
+
+
+
+
+</div>

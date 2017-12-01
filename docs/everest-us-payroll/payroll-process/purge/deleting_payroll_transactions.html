@@ -1,0 +1,48 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="purge-a-payroll-transaction">Purge a Payroll Transaction</h1>
+
+<p>You can purge a payroll transaction for which a payroll journal has  not been created.</p>
+
+<p>When you purge a transaction, it is permanently deleted from the database;  also, the original transaction is purged from the <strong>Payroll 
+ Transactions</strong> browser. However, you can create another transaction  for the same payroll period.</p>
+
+<p>Payroll transactions may have to be purged, if the errors in the transaction  cannot be rectified through a modification.</p>
+
+<p>Transactions with the following errors can be purged:</p>
+
+<ul>
+  <li>Wrong payroll  period.</li>
+  <li>Where the <strong>Employee</strong> profile has been modified to  change the filing status and the other tax details and the taxes have  to be recalculated.</li>
+  <li>Where the tax  rates have been changed and the tax particulars with the transactions  have to be recalculated with the latest rates and tables.</li>
+  <li>Where the salary  of the employee has been modified and the transaction has to consider  the new salary.</li>
+</ul>
+
+<p class="steps">To purge a payroll transaction, do the following:</p>
+
+<ul>
+  <li>From the main  menu bar, select <strong>Payroll &gt; Processing 
+ &gt; Payroll Transactions</strong>. You will see the <strong>Payroll 
+ Transactions</strong> browser.</li>
+  <li>Highlight the  record you want to purge and select <strong>Options 
+ &gt; Purge</strong>. You will see the <strong>Confirm</strong>  window.</li>
+  <li>Click <strong>OK</strong> to purge the record.</li>
+</ul>
+
+<p class="note">All changes to leave balances are reversed,  when you purge a transaction.</p>
+
+<p>If you try to purge an intermediary payroll transaction for an employee  during a calendar year, <strong>Everest</strong>  warns you that since subsequent transactions for this employee exist in  the same calendar year, tax calculations for subsequent transactions would  be erroneous. The reason for this is that taxes are often calculated for  a transaction after considering the year-to-date amounts of prior transactions.  If you purge the intermediary transaction, the taxes in the subsequent  transactions will not get recalculated since they are based on the earlier  year-to-date amount (including the purged transaction).</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-us-payroll/payroll-process/purge/browser/the_payroll_transactions_browser.html">Payroll  Transactions Browser</a></dd>
+</dl>
+
+
+
+
+</div>

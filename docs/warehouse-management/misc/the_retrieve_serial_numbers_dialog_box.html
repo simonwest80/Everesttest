@@ -1,0 +1,70 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-retrieve-serial-numbers-dialog-box">The Retrieve Serial Numbers Dialog Box</h1>
+
+<p>The <strong>Retrieve Serial Numbers</strong>  dialog box allows you to scan the system serial numbers or manufacturer’s  serial numbers for serialized and auto-serialized items. You can either  scan the serial numbers using a bar code scanner or manually type the  serial numbers.</p>
+
+<dl>
+  <dt><strong>Physical Bin</strong></dt>
+  <dd>Select a bin from the drop-down for which you are  attaching serial numbers. When you scan or enter a serial number, it is  attached to the bin selected in this field. As a result, the physical  quantity for the matching line item is incremented.</dd>
+  <dd>Here’s an overview of how situations involving a  mismatch are dealt with.</dd>
+</dl>
+
+<ul>
+  <li>If you scan  an item that is not present in the bin selected in the <strong>Physical 
+ Bin</strong> field, <strong>Everest</strong> asks  if you would like to include the item in the bin.</li>
+  <li>If the scanned  item is not present in the document, but belongs to the physical count  bin, you are asked if you want to add the item to the document.</li>
+  <li>If the scanned  item does not belong to the location of the <strong>Stock 
+ Count</strong> profile, the scanned serial number is ignored. Only items  found in the location of the document are considered for the counting  process.</li>
+</ul>
+
+<p>: The effect of leaving this field blank is as follows:</p>
+
+<ul>
+  <li>There is an  increment in the quantity if the item code of the line item matches the  item code of the serial number scanned.</li>
+  <li>If the item  code of the line item does not match the item code of the serial number  scanned, <strong>Everest</strong> looks for the  matching code in the same bin. There is an increment in the quantity if  a similar item code is found; if not, Everest asks if you would like to  add that item code as a separate line item.</li>
+</ul>
+
+<p>Method</p>
+
+<p>This section allows you to specify the method of retrieval of the serial  numbers.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Option Name</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>System Serial Numbers</td>
+      <td>Select this option to retrieve one item serial number into the document.  The <strong>Serial #</strong> field is displayed  in this section. Specify the required serial number</td>
+    </tr>
+    <tr>
+      <td>Range of System Serial Numbers</td>
+      <td>Select this option to attach more than one item serial number to the  document. The <strong>Serial # from</strong> and  <strong>Serial # to</strong> fields are enabled.  Specify the range of serial numbers to be attached.</td>
+    </tr>
+    <tr>
+      <td>Manufacturer’s Serial Numbers</td>
+      <td>Select this option to attach the item to the document by specifying  the manufacturer’s serial number. The <strong>Manufacturer’s <br /> Serial #</strong> field is enabled. Specify the required number.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Serial Number</strong></dt>
+  <dd>Based on the method you select for retrieval of  serial numbers, scan the individual serial numbers, range of serial numbers  or manufacturer’s serial numbers.</dd>
+</dl>
+
+<ul class="note">
+  <li>Serial numbers  of a physical count may not be available in any of the bins of the location  specified in the Stock Count profile. In this case, you cannot include  these numbers for a physical count in this stock count document. You must  first transfer these serial numbers to the location of the Stock Count  profile through a Stock Transfer document.</li>
+  <li>If the scanned  serial number does not exist in the system, it must be brought into the  system through a credit memo before scanning it.</li>
+</ul>
+
+
+
+
+</div>

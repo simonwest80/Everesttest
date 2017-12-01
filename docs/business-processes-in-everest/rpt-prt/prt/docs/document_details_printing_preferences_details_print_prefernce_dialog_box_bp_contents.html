@@ -1,0 +1,114 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="document-details">Document Details</h1>
+
+<dl>
+  <dt><strong>Include Serial Numbers</strong></dt>
+  <dd>Check this option to print the serial numbers attached  to the inventoried line items on documents. This option is not applicable  if “Display in matrix format” is selected.</dd>
+  <dt><strong>Include Contact Address</strong></dt>
+  <dd>Check this option to print the contact address on  the document.</dd>
+  <dt><strong>Include Tax details</strong></dt>
+  <dd>Check this option to print the breakup of the total  tax for each tax component.</dd>
+  <dt><strong>Print Tax Component Details</strong></dt>
+  <dd>Check this option to print the tax-component-wise  details (tax component description and value of tax) for each tax code  contained in a purchase/sale document.</dd>
+  <dd>If you select this option, the <strong>Print 
+ tax component details</strong> check box on the <strong>Document 
+ Printing Preferences</strong> dialog box while printing documents, is selected  by default.</dd>
+  <dd>The tax breakup is displayed above the “document  totals” section on the document report. If there are two or more tax components  in the document, only one tax component is displayed and printed separately.  This tax component is determined based on the sort order of the tax component  codes. The remaining tax components are grouped together and displayed  under the heading “Others”.</dd>
+</dl>
+
+<p class="example">The tax charged on a sales document comprises the following tax components:</p>
+
+<p>California: .25% county sales tax (CA025); California: 1% local sales  tax (CA 100); and California: 6% sales tax (CA600).</p>
+
+<p>Only tax component “California: .25% county sales tax” and the respective  tax amount is displayed.</p>
+
+<dl>
+  <dt><strong>Include Payment Details</strong></dt>
+  <dd>Check this option to print the details of amounts  paid on the selected document.</dd>
+  <dt><strong>Exclude Hidden Items</strong></dt>
+  <dd>Select this option to exclude hidden items from  those included on the document.</dd>
+  <dt><strong>Use Unit Prices</strong></dt>
+  <dd>Select this option to print only the price per unit,  and exclude the measure in which the item is sold. The <strong>Measure</strong>  column in the printed sales/purchase document will appear blank.</dd>
+  <dt><strong>Print Everest Software copyright message as footer</strong></dt>
+  <dd>Select this option to display the Everest Software  copyright message in the document footer.</dd>
+  <dt><strong>Currency</strong></dt>
+  <dd>Select the currency type in which documents are  printed. The options are:</dd>
+</dl>
+
+<ul>
+  <li><strong>Print 
+ in Base Currency</strong>: Select this option to print amounts only in base  currency.</li>
+  <li><strong>Print 
+ in Document Currency</strong>: Select this option to print amounts only  in document currency.</li>
+  <li><strong>Print 
+ in Both Base &amp; Document Currency</strong>: Select this option to print  amounts in base and document currencies.</li>
+</ul>
+
+<dl>
+  <dt><strong>Include ship to/return address</strong></dt>
+  <dd>Check this option to print the shipping address  on the document. If this option is checked, the Include Ship/Return Address  option is checked by default in the purchase documents.</dd>
+</dl>
+
+<p class="note">When the shipping address is not defined for  a purchase or purchase return document, the system prints the document’s  location address in place of the shipping address.</p>
+
+<dl>
+  <dt><strong>Print Bar Code</strong></dt>
+  <dd>Check this option to print the document number as  a barcode. This barcode is printed on the top right corner of the document.</dd>
+  <dt><strong>Packing Slip Format</strong></dt>
+  <dd>Check this option to print the document in a packing  slip format. In this case, the amounts are not printed.</dd>
+  <dt><strong>Include Shipment tracking #</strong></dt>
+  <dd>Check this option to include the Shipment Tracking#  while printing the Sales document. The shipment tracking numbers will  be printed at the end of the document, when this option is checked.  This  will allow shoppers to track packages without calling your service staff  or visiting your website.</dd>
+  <dd>When you select this option, the <strong>Shipment 
+ Tracking#</strong> check box is checked by default in the <strong>Document 
+ Printing Preferences</strong> and <strong>Document 
+ E-mail Preferences</strong> dialog boxes.</dd>
+  <dt><strong>Display in Matrix Format</strong></dt>
+  <dd>Check this option to display the printed documents  in matrix format for matrix items. The line items that are part of a matrix  group will be printed in a matrix format. Printing in matrix format can  greatly reduce the amount of space/paper it takes to print out a document  with a large number of matrix items. Vendor part numbers and serial numbers  will not display if you select this option.</dd>
+  <dd>When you select this option, the <strong>Display 
+ in matrix format</strong> check box is checked by default in the <strong>Document 
+ Printing Preferences</strong> and <strong>Document 
+ E-mail Preferences</strong> dialog boxes.</dd>
+  <dt><strong><a href=""></a>Blind Ship</strong></dt>
+  <dd>Blind ship is the process of shipping to your customer’s  customer without providing details of the person actually shipping the  goods (i.e. you).</dd>
+  <dt>If your customer ABC wishes that you directly  ship the items to XYZ (who is ABC’s customer) without letting XYZ know  that you shipped the items, you can do so using the **Blind </dt>
+  <dt> Ship** feature.</dt>
+  <dd>Use this option to enable the <strong>Blind 
+ Ship Format</strong> option by default in the <a href="/versata-everest-docs/sales/sales-docs/docs-profile/options/print/document_printing_preferences_dialog_box.html"><strong>Document Printing Preferences</strong> dialog  box</a> for sales documents.</dd>
+  <dd>Selecting this option replaces your company/location  logo and address with the customer’s address and logo (ABC in the above  example) while printing the packing slip. On the packing slip, the customer’s  bill to address (ABC in the above example) is replaced by the ship to  address of the customer’s customer (XYZ in the above example).</dd>
+  <dd><img src="/versata-everest-docs/business-processes-in-everest/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/blind-shipment/blind_shipment_sales.html">Blind  Ship</a></dd>
+  <dd><a href="/versata-everest-docs/managing-customers/creating-a-customer/the-customer-profile-logo/the_customer_profile_logo_tab.html">Customer  Profile - Logo Tab</a></dd>
+  <dd>You would ideally select this check box along with  the <strong>Packing Slip Format</strong> check  box. Otherwise the item prices would be at the price which you charge  your customer, who could be re-selling items to the end customer at a  higher value.</dd>
+  <dt><strong>Print Line Notes</strong></dt>
+  <dd>Select this option to include inline notes when  printing documents.</dd>
+  <dt><strong>Print Vendor Part Number</strong></dt>
+  <dd>This option allows you to print the vendor’s part  number in the purchase documents reports. It will be checked by default.  This option is not applicable if “Display in matrix format” is selected.</dd>
+</dl>
+
+<p class="note">If there is no vendor part # for the item,  the label Part# will not appear in document reports.</p>
+
+<dl>
+  <dt><strong>Print</strong></dt>
+  <dd>Select the type of details you would like the printed  Purchase Invoice to include:</dd>
+</dl>
+
+<ul>
+  <li><strong>Invoice 
+ Details</strong> – all quantity information refers to the Invoiced quantity.</li>
+  <li><strong>Receipt 
+ Details</strong> – all quantity information refers to the Received on Invoice  quantity, and the Payment Discount, Paid, and Balance fields do not display.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/rpt-prt/prt/docs/printing_preferences_details_bp_content.html">Document  Print Setting Details</a></dd>
+</dl>
+
+
+
+
+</div>

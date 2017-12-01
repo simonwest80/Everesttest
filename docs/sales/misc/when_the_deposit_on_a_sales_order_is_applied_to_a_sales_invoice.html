@@ -1,0 +1,67 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="when-the-deposit-on-a-sales-order-is-applied-to-a-sales-invoice">When the Deposit on a Sales Order is Applied to a Sales Invoice</h1>
+
+<p>The following accounting entry is created when a sales deposit is applied  to a sales invoice.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry Type</td>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/<br /><br /><br />Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Payment by cash/check credit card/others</td>
+      <td>Bank Account</td>
+      <td>The account selected for <strong>Accounts</strong>  in the <strong>Payment</strong> <strong>Method</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Payment</strong> <strong>Methods</strong>  &gt; <strong>Options</strong> &gt; <strong>New</strong>  &gt; <strong>In New Window</strong> &gt; <strong>General</strong> tab)</td>
+      <td>-</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>Payment on invoice</td>
+      <td>Accounts Receivable Control Account</td>
+      <td>The account selected for <strong>Accounts</strong><strong>receivable</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab)<br /><br /><br /><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><font color="#800080" class="hcp8"> </font><strong>Posting <br /> Group</strong> profile<br /><br /><br /><font color="#800080" class="hcp8">&nbsp;</font>     <a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_customer_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  Order for Customer Posting Group</a></td>
+      <td>Credit</td>
+      <td>Amount of deposit applied</td>
+    </tr>
+    <tr>
+      <td>Payment Discount</td>
+      <td>Payment Discount on Sales Account</td>
+      <td>The account defined for <strong>Payment</strong><strong>Discount for Sales</strong> in the <strong>Accounting</strong> dialog box (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab) of Vendor  Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <strong>Posting <br /> Group</strong> profile<br /><br /><br /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_vendor_posting_group_misc_tab.html">Hierarchical  Order for Vendor Posting Group</a></td>
+      <td>Debit</td>
+      <td>Discount value</td>
+    </tr>
+    <tr>
+      <td>Apply deposit on sales order</td>
+      <td>Customer Deposits Account</td>
+      <td>The account selected for <strong>Customer</strong><strong>Deposit</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Group</strong> tab) of Customer  Posting Group type.</td>
+      <td>Debit</td>
+      <td>Deposit originally received at document rate on sales order.</td>
+    </tr>
+    <tr>
+      <td>Gain/Loss</td>
+      <td>Gain on Forex Transactions or Loss on Forex Transactions</td>
+      <td>The accounts selected in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; <br /> Preferences &gt; Defaults &gt; Accounting &gt; Multicurrency</strong> tab)<br /><br />- G/L Account  for gain on settlement of foreign currency documents<br />- G/L Account  for loss on settlement of foreign currency documents</td>
+      <td>Credit (for gain)<br /><br /><br />Debit (for loss)</td>
+      <td>Difference between the payment rate on the sales order and document  rate on sales invoice.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/pmts-on-so/rcpt-dlg/accounting_entries.html">Accounting Entries  - Payments from Customers</a></dd>
+  <dd><a href="/versata-everest-docs/sales/misc/default_accounts_for_sales_transactions.html">Default  Accounts for Sales Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

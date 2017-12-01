@@ -1,0 +1,128 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="income-statements-period-year-to-date-dialog-box">Income Statements (Period Year to Date) Dialog Box</h1>
+
+<p>Select the following parameters to view the <strong>Income 
+ Statement</strong> <strong>(Period Year to Date)</strong>  report.</p>
+
+<dl>
+  <dt><strong>Fiscal Year</strong></dt>
+  <dd>Select the fiscal year for which you want to generate  the income statement.</dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/reports/common-report-options/drop_down_button_and_menu_options.html">Drop-Down  List - Right-Click Menu Options</a></dd>
+  <dt><strong>Period</strong></dt>
+  <dd>Enter the accounting period that is to be compared  with the year (any fiscal year) to the current date.</dd>
+  <dt>If you enter ‘3’ in the field on 09/12/2008,  the income statement is compared for the accounting period ‘3’ and the  revenues and expenses of the company in 2008 till 09/12/2008.</dt>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/reports/common-report-options/drop_down_button_and_menu_options.html">Drop-Down  List - Right-Click Menu Options</a></dd>
+  <dt><strong>Location/Sub-Location Code</strong></dt>
+  <dd>Select the location/sub-location to which the transactions  are allocated. This allows you to obtain the income statement for a specified  location or sub-location or cost/profit center.</dd>
+  <dt>If this field is left blank, the income statement  compares revenues and expenses for all locations/sub-locations.</dt>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/reports/common-report-options/drop_down_button_and_menu_options.html">Drop-Down  List - Right-Click Menu Options</a></dd>
+  <dt><strong>Smart Filter</strong></dt>
+  <dd>Use the <strong>Smart Filter</strong>  to select accounts based on your segments. Wildcards can be used in this  field and up to 250 characters can be entered. <strong>Segment 
+ separators</strong> must be entered between segments. Enter a semi-colon  (;) to separate accounts in the <strong>Smart 
+ Filter</strong>.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Smart Filter Wildcard</td>
+      <td>Meaning</td>
+    </tr>
+    <tr>
+      <td>?</td>
+      <td>One Character</td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td>Multiple Characters</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="example">
+  <dt>If you enter <strong>01-10-21-10?</strong>  in the <strong>Smart Filter</strong> field, you  get accounts such as 01-10-21-10<strong>1</strong>,  01-10-21-10<strong>2</strong>, and 01-10-21-10<strong>3</strong>.</dt>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /><a href="/versata-everest-docs/reports/misc/smart_filter.html">Smart Filter</a></dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /><a href="/versata-everest-docs/setting-up-a-company/options/acc-info/coa/chart-of-accounts-details/segmented_chart_of_accounts.html">Segmented_Chart_of_Accounts</a></dd>
+  <dt><strong>Include Provisionally Posted Amounts</strong></dt>
+  <dd>Select this check box to include provisionally posted  balances.</dd>
+  <dt><strong>Include Unposted Amounts</strong></dt>
+  <dd>Select this check box to display the current balance  which will include posted and unposted amounts. You can select only one  of the two check boxes - <strong>Provisionally 
+ Posted Amounts</strong> or <strong>Unposted Amounts</strong>.</dd>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/accounting-structure-in-everest/posting/posting.html">The  Posting Process</a></dd>
+  <dt><strong>Hide Accounts with Zero balance</strong></dt>
+  <dd>Select this check box to exclude accounts with a  zero balance from the report. This will also exclude discontinued accounts.  If left unchecked, all accounts display regardless of the balance status.</dd>
+  <dt><strong>Show Location Details</strong></dt>
+  <dd>Select this check box to include a location-wise  breakup of the income statement report. If unchecked, the report will  show the summary of total income and expenses.</dd>
+</dl>
+
+<p class="note">This field is disabled if you choose a specific location in the <strong>Location/Sub-Location</strong> field.</p>
+
+<dl>
+  <dt><strong>Show Other Income (Expenses) Details</strong></dt>
+  <dd>Select this check box to include the details of  Other Income (Expenses). If unchecked, the report will show the summary  of Other Income (Expenses).</dd>
+  <dt><strong>Show Provisional Tax Details</strong></dt>
+  <dd>Select this check box to include Provisional Tax  details in the report. If unchecked, the report will include the summary  of Provisional Tax details.</dd>
+  <dd>The generated report classifies the Income Statement  for the specified Fiscal Period as follows:</dd>
+</dl>
+
+<ol>
+  <li>Total Revenue
+    <ul>
+      <li>Total Cost of Goods Sold</li>
+      <li>Gross Profit</li>
+      <li>Total Operating Expense</li>
+      <li>Total Other Income (Expenses)</li>
+      <li>Total Provision for Income Taxes</li>
+    </ul>
+  </li>
+</ol>
+
+<dl>
+  <dt>: These report classifications are generated only  when the values are available. The report gives a percentage calculation  on Total Product Revenue for each of these.  The  Gross Profit is shown only when Cost of Goods Sold type of accounts are  printed.</dt>
+  <dd>The summary of the following are calculated and  given in the report:</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>1.</td>
+      <td>Gross Profit</td>
+      <td>=</td>
+      <td>Total Revenue - Total Cost of Goods Sold</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>Income from Operations</td>
+      <td>=</td>
+      <td>Gross Profit - Total Operating Expenses</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>Income before Income Taxes</td>
+      <td>=</td>
+      <td>Income from Operations + Other (Expense) Income</td>
+    </tr>
+    <tr>
+      <td>4.</td>
+      <td>Net Income</td>
+      <td>=</td>
+      <td>Income before Income Taxes - Provision for Income Taxes</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/financial/income_statement_period_year_to_date_.html">Income  Statement (Period Year to Date)</a></dd>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/financial/financial.html">Financial Reports</a></dd>
+</dl>
+
+
+
+
+</div>

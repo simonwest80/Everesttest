@@ -1,0 +1,41 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---creating-a-credit-memo-from-an-order">Back End Processes - Creating a Credit Memo from an Order</h1>
+
+<p>The following back-end processes occur when a credit order is converted  to a credit memo:</p>
+
+<ul>
+  <li>If the ‘credited’  quantity is less than the ‘requested’ quantity, the credit order is assigned  the status of ‘Backorder’.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-ret-docs/cos/co-proc/convert-to-a-credit-memo/processing_a_credit_memo.html">Partial  Returns</a></p>
+
+<ul>
+  <li>If the ‘requested’  quantity is returned, the credit order is assigned the status ‘Closed’.  To view closed credit orders, select <strong>Options 
+ &gt; Received Credit Orders</strong> from the <strong>Credit 
+ Orders</strong> browser.</li>
+  <li>
+    <p>When the ‘committed’  quantity is received, the stock status of the item displays the following  changes:</p>
+  </li>
+  <li><strong>Stock 
+ Status of the item</strong> – The quantity ‘On Credit’ for the item reduces  by the quantity received. The total and available quantity of the item  increases.</li>
+  <li><strong>Stock 
+ Status in the committed stock area</strong> - If the committed quantity  is returned, the available out, free out and on credit stock of the item  reduces by the quantity returned.</li>
+  <li><strong>Stock 
+ Status in the assigned stock area</strong> - The total stock and the free  stock increases by the quantity returned.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/options/items/stock_status_items_option_sales_contents.html">Stock  Status</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-ret-docs/cos/co-proc/cmt-items-to-co/attach-cmt-qty/attaching_committed_quantities_on_credit_order.html">Committing  items on a Credit Order</a></dd>
+</dl>
+
+
+
+
+</div>

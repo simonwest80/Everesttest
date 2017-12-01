@@ -1,0 +1,46 @@
+[OPTIONS]
+Title=Everest Advanced Edition Help
+Compatibility=1.1
+Compiled file=Everest_Help.chm
+Contents file=Everest_Help.hhc
+Index file=Everest_Help.hhk
+Full-text search=Yes
+Auto Index=Yes
+Binary Index=Yes
+Default topic=working-with-everest.chm::/introduction-to-everest/introducing_everest.html
+Default Window=TP
+Language=0x409 English (United States)
+Error log file=_errorlog.txt
+Display compile progress=Yes
+
+[WINDOWS]
+TP=,"Everest_Help.hhc","Everest_Help.hhk","working-with-everest.chm::/introduction-to-everest/introducing_everest.html","working-with-everest.chm::/introduction-to-everest/introducing_everest.html",,,,,0x63520,222,0x304e,[0,0,879,615],0xb0000,,,,,,0
+
+[MERGE FILES]
+about-online-help.chm
+working-with-everest.chm
+setting-up-a-company.chm
+business-processes.chm
+forms_designer.chm
+managing-items.chm
+managing-vendors.chm
+managing-customers.chm
+custom-tracking.chm
+the-purchase-process.chm
+building-assemblies.chm
+warehouse-management.chm
+the-sales-process.chm
+point-of-sale.chm
+contact-manager.chm
+time-clock.chm
+accounting.chm
+utility.chm
+Everest_Advanced_Dashboard.chm
+reports.chm
+report-manager.chm
+everest-us-payroll.chm
+everest-e-mail.chm
+mailbridge.chm
+acrm.chm
+everest-advanced-edition-utilities.chm
+Everest_Advance_Edition_Glossary.chm

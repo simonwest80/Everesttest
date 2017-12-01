@@ -1,0 +1,99 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="columns-in-the-bill-of-materials-grid">Columns in the Bill of Materials Grid</h1>
+
+<p>Use the columns in the Bill of Materials Grid to do the following:</p>
+
+<ul>
+  <li>Specify all  the items that are required to create the assembly item. This list is  automatically retrieved when the assembly item is selected on a Work Order.</li>
+  <li>Define the  standard inputs and the normal losses. This data allows you to perform  variance analysis.</li>
+</ul>
+
+<p>The assembly components are defined in relation to the stock measure  of the assembly item.</p>
+
+<p class="example">You have an assembly item, Sugar, with the  following components:</p>
+
+<p>• Cane</p>
+
+<p>• Chemical</p>
+
+<p>The stock measure for the assembly item is <strong>Ton</strong>  and the stock measure for the assembly components is <strong>KG</strong>.  The quantity of the assembly components (in KG) in the <strong>Assembly</strong>  tab is for building each <strong>Ton</strong> of  sugar.</p>
+
+<p>The columns in the bill of material details grid are detailed below:</p>
+
+<p class="note"><strong>Standard 
+ Input (incl loss)</strong>, <strong>Standard input 
+ (excl loss)</strong> and <strong>Normal Loss Qty</strong>  are in the cost decimal accuracy of the stock measure for the item.</p>
+
+<dl>
+  <dt><strong>Item Code</strong></dt>
+  <dd>This column displays the code of the item.</dd>
+  <dt><strong>Description/Notes</strong></dt>
+  <dd>This column displays the item description that has  been specified in the <strong>Description</strong>  field (path: <strong>Item</strong> profile &gt;  <strong>General</strong> tab) of the selected item.</dd>
+  <dt><strong>Std  Input</strong></dt>
+  <dd>Enter the standard quantity or input required under  normal conditions to assemble one stock measure of an assembly item. The  standard input includes the normal loss quantity.</dd>
+</dl>
+
+<p class="example">If the stock measure of the assembly item  is 10 units, you must mention the standard input for all the units.</p>
+
+<dl>
+  <dt><strong>Normal Loss %</strong></dt>
+  <dd>Normal loss is the quantity of the item lost during  the assembly process.</dd>
+  <dt>During the process of extracting aromatic  oil from 10 Kg. of mint, the normal loss (due to spoilage or spillage)  is 500 gm. To offset this loss, a standard input of 10.5 Kg. is used.</dt>
+  <dd>Enter the percentage of the selected item’s quantity  that is normally lost during assembly. If no loss occurs do not enter  any value in this column.</dd>
+  <dd>If you enter a value in the <strong>Normal 
+ Loss Qty</strong> column, <strong>Everest</strong> automatically  computes the loss percentage.</dd>
+  <dt><strong>Normal Loss Qty</strong></dt>
+  <dd>Enter the normal quantity if any, of the selected  item that will be lost during the assembly. If no loss occurs, do not  enter any value in this column.</dd>
+  <dd>If you enter a value in the <strong>Normal 
+ Loss %</strong> column, <strong>Everest</strong>  automatically computes the quantity of normal loss. The quantity in the  <strong>Normal Loss Qty</strong> column is automatically  rounded off using the following rules:</dd>
+</dl>
+
+<ul>
+  <li>If the decimal  is 0.5 or more, the quantity is increased by one.</li>
+  <li>If the decimal  is less than 0.5, the decimal is not considered.</li>
+</ul>
+
+<dl>
+  <dt><strong>Std  Input (before loss)</strong></dt>
+  <dd>The standard input before loss is computed using  the following formula:</dd>
+  <dd>Standard input before loss = Standard input - Normal  loss quantity</dd>
+  <dd>If there is no loss during assembly, this column  equals the <strong>Std 
+ Input</strong> column.</dd>
+  <dt><strong>Std  Rate</strong></dt>
+  <dd>The standard rate is the standard cost per stock  measure of the selected item that should be incurred during the assembly  process.</dd>
+  <dd>The average cost of the selected item (when creating  the assembly item) is displayed by default in this column. You can modify  this rate to reflect the standard cost that should be incurred.</dd>
+  <dt><strong>UM</strong></dt>
+  <dd>The stock measure of the selected item is displayed.  This column cannot be modified.</dd>
+  <dt><strong>Line Number</strong></dt>
+  <dd>The <strong>Line Number</strong>  column displays the line numbers of the <strong>Bill 
+ of Materials</strong> Grid in chronological order.</dd>
+  <dd>Use the <strong>Move up/ 
+ Move down</strong> option (path: Right-click in the <strong>Bill 
+ of Materials</strong> Grid &gt; <strong>Move up/Move 
+ down</strong>) to rearrange the order of the items.</dd>
+  <dd>The order of the items in this tab, is the order  in which they are:</dd>
+</dl>
+
+<ul>
+  <li>Retrieved into  sales or purchase documents.</li>
+  <li>Displayed on  your online store.</li>
+</ul>
+
+<dl>
+  <dt><strong>Amount</strong></dt>
+  <dd>The <strong>Amount</strong>  column displays the product of the standard input and the standard rate.  This column cannot be edited. Thus:</dd>
+  <dd>Amount = Standard Input * Standard Rate</dd>
+  <dd>The amount shown is in the currency decimal accuracy.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/misc/the_item_profile_assembly_input.html">The  Item Profile - Assembly - Input Tab</a></dd>
+</dl>
+
+
+
+
+</div>

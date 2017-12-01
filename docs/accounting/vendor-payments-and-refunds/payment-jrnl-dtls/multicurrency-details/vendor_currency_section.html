@@ -1,0 +1,42 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="vendor-currency-section---details">Vendor Currency Section - Details</h1>
+
+<dl>
+  <dt><strong>Vendor currency</strong></dt>
+  <dd>The currency of the vendor (which is also the document  currency) as defined in the <strong>Vendor</strong>  profile (path: <strong>Purchasing &gt; Vendors</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In New Window</strong> &gt;  <strong>Multicurrency</strong>tab) is displayed.</dd>
+  <dt><strong>Source currency</strong></dt>
+  <dd>The source currency depends on the <strong>Quote 
+ type</strong> specified in the <strong>Currency</strong>  profile (path: <strong>File &gt; Setup &gt; Accounting 
+ &gt; Multi - Currency &gt; Currency</strong>). If the rate is expressed  from <strong>foreign to base</strong>, then the  source currency displayed is the vendor currency. If the rate is expressed  from <strong>base to foreign</strong>, the base  currency is displayed in this field.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/example.gif" alt="" />  Based  on the example given in the <a href="/versata-everest-docs/accounting/misc/example_cross_currency_calculations.html"><strong>Example - Cross Currencies Calculations</strong></a>  section, if GBP is expressed in terms of USD (i.e. the quote type is foreign  to base), GBP is displayed as the source currency.</dd>
+  <dd>If USD is expressed in terms of GBP (i.e.  the quote type is base to foreign), USD is displayed as the source currency.</dd>
+  <dt><strong>Exchange rate</strong></dt>
+  <dd>The current exchange rate defined in <strong>Exchange 
+ Rate</strong> profile (path: <strong>File &gt; 
+ Setup &gt; Accounting &gt; Multi - Currency &gt; Exchange Rates</strong>)  between the vendor currency and the base is displayed in this field.</dd>
+  <dd>You can change this rate if required. Correspondingly  the foreign amount of the vendor currency section also changes. The transaction  amount for the journal entry in the <strong>General</strong>  tab of the <strong>Payment Journal</strong> profile  also changes.</dd>
+  <dt><strong>Destination currency</strong></dt>
+  <dd>The destination currency depends on the <strong>Quote 
+ type</strong> specified in the <strong>Currency</strong> profile. If the rate is expressed from <strong>foreign 
+ to base</strong>, then the destination currency displayed is the base currency.  If the rate is expressed from <strong>base to 
+ foreign</strong>, the vendor currency is displayed in this field.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/example.gif" alt="" />  Based  on the example given in the <a href="/versata-everest-docs/accounting/misc/example_cross_currency_calculations.html"><strong>Example - Cross Currencies Calculations</strong></a>  section, if GBP is expressed in terms of USD (i.e. the quote type is foreign  to base), GBP is displayed as the destination currency.</dd>
+  <dd>If USD is expressed in terms of GBP (i.e.  the quote type is base to foreign), USD is displayed as the destination  currency.</dd>
+  <dt><strong>Foreign amount</strong></dt>
+  <dd>The amount in vendor’s currency appearing in the  <strong>General</strong> tab of the <strong>Payment 
+ Journal</strong> profile is automatically displayed in this field.</dd>
+  <dd>This amount can be edited as required. When you  edit this amount, the <strong>Foreign Amount</strong>  fields of the bank currency and payment currency sections get updated  automatically, using the existing exchange rates. The amounts in the <strong>General</strong> tab of the <strong>Payment 
+ Journal</strong> profile also get updated.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/vendor_currency_section_step_by_step_payment_journal.html">Vendor  Currency Section</a></dd>
+</dl>
+
+
+
+
+</div>

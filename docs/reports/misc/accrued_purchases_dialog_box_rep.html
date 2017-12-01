@@ -1,0 +1,125 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accrued-purchases-dialog-box">Accrued Purchases Dialog Box</h1>
+
+<dl>
+  <dt><strong>Vendor</strong></dt>
+  <dd>You can filter the report to see only those documents  that are created for specific vendors. The options available in this field  are as follows.</dd>
+</dl>
+
+<ul>
+  <li><strong>All</strong>  - This default option includes all the vendors in the report.</li>
+  <li><strong>Specific</strong>  - Select this option to include only documents created for a specific  vendor in the report. Click the button beside the selection field and  select the required vendor.</li>
+  <li><strong>Range</strong>  - Select this option to specify the starting and ending vendor codes for  the range of vendors for whom documents must be included in the report.  You can use the Accounts From and Accounts To fields to specify the vendor  codes.</li>
+</ul>
+
+<dl>
+  <dt><strong>Transactions to Include</strong></dt>
+  <dd>Specify whether you want to include all documents  or only posted documents having outstanding amounts in the report. The  options available in this field are as follows:</dd>
+</dl>
+
+<ul>
+  <li><strong>Posted 
+ Transactions Only</strong> - This default option includes all posted transactions  in the report, regardless of whether the corresponding documents are posted  or not in the report.</li>
+  <li><strong>All 
+ Transactions</strong> - Select this option to view both posted and unposted  documents in the report.</li>
+</ul>
+
+<dl>
+  <dt><strong>As of Date</strong></dt>
+  <dd>This field allows you to specify the date as on  which the transaction details are displayed in the report. The report  defaults to the current date.</dd>
+  <dt><strong>Account Selection Method</strong></dt>
+  <dd>Select the report filter method to filter the report.  You can choose either Range (a range of accounts, the default) or Smart  Filter. The Smart Filter allows you to use wildcards to select accounts  based on your segments.</dd>
+  <dt><strong>Smart Filter</strong></dt>
+  <dd>Use the <strong>Smart Filter</strong>  to select accounts based on your segments. Wildcards can be used in this  field and up to 250 characters can be entered. <strong>Segment 
+ separators</strong> must be entered between segments. Enter a semi-colon  (;) to separate accounts in the <strong>Smart 
+ Filter</strong>.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Smart Filter Wildcard</td>
+      <td>Meaning</td>
+    </tr>
+    <tr>
+      <td>?</td>
+      <td>One Character</td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td>Multiple Characters</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt>: <img src="/versata-everest-docs/reports/img/lens.gif" alt="" /><a href="/versata-everest-docs/reports/misc/smart_filter.html">Smart Filter</a></dt>
+  <dd><img src="/versata-everest-docs/reports/img/lens.gif" alt="" /><a href="/versata-everest-docs/setting-up-a-company/options/acc-info/coa/chart-of-accounts-details/segmented_chart_of_accounts.html">Segmented_Chart_of_Accounts</a></dd>
+  <dt><strong>Accounts From</strong></dt>
+  <dd>You can filter the report to see only one account  or a range of accounts. Select the first account in the range.</dd>
+  <dt><strong>Accounts To</strong></dt>
+  <dd>You can filter the report to see only one account  or a range of accounts. Select the same account or the second account  in the range.</dd>
+  <dt><strong>Document Aliases</strong></dt>
+  <dd>This field allows you to specify the document alias  for the purchase documents. The options available in this field are as  follows.</dd>
+</dl>
+
+<ul>
+  <li><strong>All</strong>  - This default option includes all the document aliases for purchase documents  in the report.</li>
+  <li><strong>Specific</strong>  - Select this option to display only a specific purchase document alias  to be included in the report. Click the button beside the selection field  and select the required document alias. If you select more than one document  alias, the display in the selection field changes to “Multiple.”</li>
+</ul>
+
+<dl>
+  <dt><strong>Purchase Rep.</strong></dt>
+  <dd>You can filter the report to see only those documents  assigned to specific purchase representatives. The options available in  this field are as follows.</dd>
+</dl>
+
+<ul>
+  <li><strong>All</strong>  - This default option includes all the purchase representatives in the  report.</li>
+  <li><strong>Specific</strong>  - Select this option to include only documents created by the selected  purchase representative in the report. Click the button beside the selection  field and select the purchase representative.</li>
+  <li><strong>Range</strong>  - Select this option to specify the starting and ending purchase representative  codes for the range of purchase representatives whose documents must be  included in the report.</li>
+</ul>
+
+<dl>
+  <dt><strong>Location/Sub-Location</strong></dt>
+  <dd>This field allows you to specify the location/sub-location  names to be included in the report. The options available in this field  are as follows.</dd>
+</dl>
+
+<ul>
+  <li><strong>All</strong>  - This default option includes all locations/sub-locations for aging calculating  in the report.</li>
+  <li><strong>Specific</strong>  - Select this option to include the aging details only for specific locations/sub-locations  in the report. Click the button beside the selection field and select  the required locations/sub-locations. If you select more than one location/sub-location,  the display in the selection field changes to “Multiple.” The  documents displayed will be for the main location/sub-location selected  and not its child sub-locations.</li>
+</ul>
+
+<dl>
+  <dt><strong>Exclude line items where invoiced and received  amounts match</strong></dt>
+  <dd>This box, checked by default, excludes balanced  purchase orders; the report only considers purchase orders which have  a difference between the Accrued Purchases account for the invoiced quantity  on the purchase invoices and the Accrued Purchases account for the received  quantity on the purchase receipts associated with the purchase order/receipt.</dd>
+  <dt><strong>Report Type</strong></dt>
+  <dd>Specify the type of report you want to generate.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Summary</td>
+      <td>Select this option to view summarized amount information for each purchase  order. This is the report default.</td>
+    </tr>
+    <tr>
+      <td>Detail</td>
+      <td>Select this option to view the amount information by line item within  each purchase order.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/purchasing/accrued_purchases_report_rep.html">Accrued  Purchases Report</a></dd>
+</dl>
+
+
+
+
+</div>

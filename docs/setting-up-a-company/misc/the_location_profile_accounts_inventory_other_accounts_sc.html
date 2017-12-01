@@ -1,0 +1,82 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-location-profile--accounts--inventory--other-accounts">The Location Profile – Accounts – Inventory – Other Accounts</h1>
+
+<p>Use this grid to define Posting Groups for the different  categories of items for this location. This helps you account for the  inventory of specific item categories based on their location.</p>
+
+<p>If you want to know the value of inventory on hand in three categories  of items, you can specify different Posting Groups for them with unique  inventory control accounts defined in each of them as shown in the example  in the table below.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Category</td>
+      <td>Posting Group</td>
+    </tr>
+    <tr>
+      <td>Raw Materials</td>
+      <td>Inv-RM</td>
+    </tr>
+    <tr>
+      <td>Consumables</td>
+      <td>Inv-Con</td>
+    </tr>
+    <tr>
+      <td>Finished Goods</td>
+      <td>Inv-FG</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The assignment of Inventory control accounts to the Posting Groups are  shown in the example in the table below:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Posting Group</td>
+      <td>Inventory Control account</td>
+    </tr>
+    <tr>
+      <td>Inv-RM</td>
+      <td>A1400</td>
+    </tr>
+    <tr>
+      <td>Inv-Con</td>
+      <td>A1500</td>
+    </tr>
+    <tr>
+      <td>Inv-FG</td>
+      <td>A1600</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>By summing up the values of the account A1400, you can ascertain the  total value of the raw material category  in  the specific location. Similarly, you can determine the values of Consumables  and Finished Goods category . It also provides you a precise figure of  stock of each category in the location.</p>
+
+<p>The sum of the values of all the ‘child’ accounts for each category  in the location would give you the value of the parent account; this would  be displayed in the Balance sheet.</p>
+
+<ul>
+  <li>To enter the data  in this grid, press the <strong>Insert</strong>  key to add a row to the grid and select a category from the <strong>Categories</strong>  browser. Specify the Posting Group that you want to associate with the  category.</li>
+</ul>
+
+<p>The Posting Group defined for each line item in a transaction is the  first preference. If no Posting Group is assigned to the item, the Posting  Group assigned to the category to which the item belongs is used. In case  the category has no Posting Group associated with it, the inventory account  specified in the <strong>Location Category</strong>  grid is used for all the items in this category.</p>
+
+<p>If the category is not specified in the grid, the default Inventory  Control Account for the location is considered in the transaction.</p>
+
+<p class="note"><strong>Exclusive Inventory Control Accounts for item  categories provide an accurate stock status of each category in the particular  location. It also serves to provide precise information on the total amount  of inventory in a location at a given time.</strong></p>
+
+<p class="warn"><strong>When you select a Posting Group for which  an Inventory Control Account is defined in the **Location 
+ – Category</strong> grid, this account will override the default Inventory  control account for the location. This would lead to an aberration in  the accounting entries and the stock balances for the location. You will  receive a message alerting you to the above situation. Click <strong>Yes</strong>  to proceed, or click <strong>No</strong> and select  a different Posting Group.**</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/set-up-locations/location_profile_posting_group.html">The  Location Profile - Accounts</a></dd>
+</dl>
+
+
+
+
+</div>

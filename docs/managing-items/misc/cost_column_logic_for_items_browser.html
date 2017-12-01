@@ -1,0 +1,78 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="cost-column-logic-for-items-browser">Cost Column Logic for Items Browser</h1>
+
+<p>The costs displayed in the <strong>Items</strong> browser  depends on whether the Extended Mode is enabled or not.</p>
+
+<p>Extended Mode Enabled</p>
+
+<p>If the <strong>Extended Mode</strong> (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Work Station Settings</strong> dialog box &gt; <strong>Company 
+ Settings</strong> tab <strong>&gt;</strong> check  <strong>Enable extended mode</strong>) is enabled,  the <strong>Items</strong> browser displays both  average and last cost of items without factoring.</p>
+
+<p>Extended Mode Disabled</p>
+
+<p>If the <strong>Extended Mode</strong> (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Work Station Settings</strong> dialog box &gt; <strong>Company 
+ Settings</strong> tab <strong>&gt;</strong> uncheck<strong>Enable extended mode</strong>) is disabled, <strong>** the costs displayed in the **Items</strong>  browser depend on the flow control settings. These settings are defined  in the <strong>Other Flow Control</strong> dialog  box (path: <strong>File &gt; Set up &gt; Preferences 
+ &gt; Flow Control &gt; Other Flow Control</strong> &gt; <strong>Item 
+ Cost/Sales Summary</strong> tab &gt; <strong>Type 
+ of cost to be displayed in Inventory Browsers and Pricing Analysis</strong>  field).</p>
+
+<p>The table below details the costs that are displayed, based on the flow  control settings</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Cost Type Selected in Flow Control Settings</td>
+      <td>Cost Displayed in Items Browser</td>
+      <td>Status of Other Cost Columns in Items Browser</td>
+    </tr>
+    <tr>
+      <td>Average Cost</td>
+      <td>Average Cost</td>
+      <td>Last Cost column displays ****</td>
+    </tr>
+    <tr>
+      <td>Last Cost</td>
+      <td>Last Cost</td>
+      <td>Average Cost column displays ****</td>
+    </tr>
+    <tr>
+      <td>User Defined Costs</td>
+      <td>—</td>
+      <td>Average &amp; Last Cost columns display ****</td>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>—</td>
+      <td>Average &amp; Last Cost columns display ****</td>
+    </tr>
+    <tr>
+      <td>All</td>
+      <td>Average &amp; Last Cost</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">When you disable extended mode, all costs  displayed are factored, if you have selected the <strong>Factor 
+ cost</strong> check box (path: <strong>File &gt; 
+ Set up &gt; Preferences &gt; Flow Control &gt; Other Flow Control &gt; 
+ Item Cost/Sales Summary</strong>), and the item has factored cost percentages  defined.</p>
+
+<p><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/misc/calculations_for_viewing_stock_in_the_items_browser_mi.html">Calculations  for Viewing Stock in the Items Browser</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/the-items-browser/the_items_explorer.html">Items Browser</a></dd>
+</dl>
+
+
+
+
+</div>

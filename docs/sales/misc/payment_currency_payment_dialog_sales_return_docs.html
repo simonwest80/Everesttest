@@ -1,0 +1,30 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payment-currency">Payment Currency</h1>
+
+<p>The currency in which the payment is made is called the payment currency.</p>
+
+<dl>
+  <dt><strong>Pay in</strong></dt>
+  <dd>This field is used to specify the currency in which you are making the payment. The customer currency is displayed by default in this field.</dd>
+  <dd>If the refund is made through a credit card, and is to be processed in real time using a processor, then the currency is compared to the currencies supported by the processor as specified in the <strong>Processors</strong> profile (path: <strong>File &gt; Setup &gt; Accounting &gt; Processors &gt; Options &gt; Edit &gt; In New Window &gt; Currencies</strong> tab).</dd>
+  <dd><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><font color="black">  </font><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/create-a-processor/the_processors_profile_currencies.html">Processors Profile - Currencies Tab</a></dd>
+  <dd>If the payment processor does not support the payment currency, a message will be displayed stating that currency is not supported by the processor. You will be prompted to select a different payment method. Click <strong>OK</strong> to return to the <strong>Refund</strong> dialog box.</dd>
+  <dt><strong>Exchange Rate</strong></dt>
+  <dd>The current rate of exchange defined in the <strong>Exchange Rates</strong> profile (path: <strong>File &gt; Setup &gt; Accounting &gt; Multi - Currency &gt; Exchange Rates &gt; Options &gt; Edit &gt; In New Window</strong>), between payment currency and the base currency is displayed.</dd>
+  <dd>You can change this rate if required. Correspondingly the <strong>Amount</strong> field of the payment currency section also changes.</dd>
+  <dt><strong>Amount</strong></dt>
+  <dd>The amount in customer’s or document currency displayed in the <strong>Amount</strong> field of the <strong>Document Currency</strong> section is automatically displayed in this field. When you change the payment currency, the exchange rate defined in <strong>Exchange Rates</strong> profile is used to arrive at this amount.</dd>
+  <dd>This amount can be edited as required. When you edit this amount, the <strong>Amount</strong> fields of the bank currency, base currency and document currency sections get updated automatically when you click <strong>OK</strong>, using the existing exchange rates.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/misc/exchange_rate_details_payment_dialog_cm.html">Exchange Rate Details - Refund Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

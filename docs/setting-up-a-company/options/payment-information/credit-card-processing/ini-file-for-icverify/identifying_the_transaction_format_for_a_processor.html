@@ -1,0 +1,55 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="identifying-the-transaction-format-for-a-processor">Identifying the Transaction Format for a Processor</h1>
+
+<p>Two methods of identifying the correct format for transactions with  your Merchant Bank Provider exist.</p>
+
+<p>Method 1</p>
+
+<p>Use the Transaction Builder tool that is included with ICVerify 4.0.   This tool  is part of the ICVerfiy SDK and can be used to view the correct format  for each transaction type and merchant bank.</p>
+
+<p>Method 2</p>
+
+<p>Use the <strong>/gx</strong>  switch in ICVerify to display the format for .REQ  files for each processor.</p>
+
+<p class="steps">To identify the request transaction format,  do the following:</p>
+
+<ul>
+  <li>Execute the  ICVerify application (ICVerify.exe)  with the /gx  switch by using the <strong>Run</strong> command  (<strong>Start</strong> &gt; <strong>Run</strong>).</li>
+</ul>
+
+<p class="example">If ICVerify is installed in “C:\ICWin400\”,  enter the following command in your run parameters:</p>
+
+<p>“C:\ICWin400\icverify.exe  <strong>/gx</strong>”</p>
+
+<ul>
+  <li>Process transactions  in the main ICVerify window for each transaction type. When you click  ‘Submit’ in the ICVerify window, it does not dial out; instead, the correct  request file format for the attempted transaction is displayed in a new  window.</li>
+</ul>
+
+<p class="note">You cannot identify the answer format in this  manner.</p>
+
+<p class="steps">To identify the answer format, do the following:</p>
+
+<ul>
+  <li>Stop the ICVerify  service and create a transaction request in <strong>Everest.</strong> The .REQ  is created in the path that you define for the processor (path: <strong>Processor</strong> profile &gt; <strong>Settings</strong>  tab &gt; <strong>Request Directory Name</strong>  field).</li>
+  <li>Close <strong>Everest</strong> and start ICVerify.</li>
+  <li>ICVerify processes  the .REQ file  and generates a .ANS  file in the same folder as the request file.</li>
+  <li>Open the .ANS  file in Notepad and create entries in the .INI  file as per the format.</li>
+</ul>
+
+<p class="note">If the format is not clear, please contact  ICVerify or your merchant bank.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/ini-file-for-icverify/create_an_icverify_configuration_file.html">Create  an ICVerify Configuration File</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/ini-file-for-icverify/configuration_file_for_icverify.html">Configuration  File for ICVerify</a></dd>
+</dl>
+
+
+
+
+</div>

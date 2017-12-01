@@ -1,0 +1,85 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="columns-in-the-item-stock-status-dialog-box">Columns in the Item Stock Status Dialog Box</h1>
+
+<p>The columns displayed in the <strong>Item Stock 
+ Status</strong> dialog box are detailed below:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Column</td>
+      <td>Displays:</td>
+    </tr>
+    <tr>
+      <td>Item Code</td>
+      <td>Displays the code of the item.</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>Displays a brief description about the item.</td>
+    </tr>
+    <tr>
+      <td>Type</td>
+      <td>Displays the item type as inventoried or non-inventoried.</td>
+    </tr>
+    <tr>
+      <td><strong>Total</strong></td>
+      <td>The total of all quantities in the stock.</td>
+    </tr>
+    <tr>
+      <td><strong>Measure</strong></td>
+      <td>The unit of measure (path: <strong>Inventory</strong>  &gt; <strong>Items</strong> &gt; <strong>Options <br /> &gt; New &gt; In New Window</strong> &gt; <strong>Purchase</strong>  tab &gt; <strong>Measure</strong> field) used to  purchase an item.<br /><br /><br />You can view the stock status column by the purchase  measure or the sales measure.</td>
+    </tr>
+    <tr>
+      <td><strong>Available</strong></td>
+      <td>The stock available for shipment against new sales after  all items on sales orders and on vendor returns are accounted for.<br /><br /><br />It is computed by deducting the stock on reserve and  the stock on debit (order) from the total stock.<br /><br /><br />A negative quantity in this column indicates that you  have accepted more sales orders than what can be fulfilled and stocks  need to be replenished.<br /><br /><br />Available stock = Total Stock - Stock on reserve - Stock  on debit (order)</td>
+    </tr>
+    <tr>
+      <td>SO</td>
+      <td>- All quantities of the  item (whether committed or otherwise) on a sales order<br />- The standard input  quantity of assembly components on a work order</td>
+    </tr>
+    <tr>
+      <td>SO Committed</td>
+      <td>The quantity of the item that has been attached or committed  to a sales order and work orders.</td>
+    </tr>
+    <tr>
+      <td>PO</td>
+      <td>- The quantity of that  item on a purchase order<br />- The quantity to be  built of the assembly item on work order</td>
+    </tr>
+    <tr>
+      <td>PO Committed</td>
+      <td>The stock that has been received for inspection or committed  by vendor for supply against purchase orders. This stock is not a part  of the stock available for sale.</td>
+    </tr>
+    <tr>
+      <td>CO</td>
+      <td>The quantity of the item that is on a credit order (expected  to be returned by customers).</td>
+    </tr>
+    <tr>
+      <td>CO Committed</td>
+      <td>The quantity of the item on credit order that has been  committed to the credit order.</td>
+    </tr>
+    <tr>
+      <td><strong>DO</strong></td>
+      <td>All quantities of the item (whether committed or otherwise)  on debit order (expected to be returned to the vendor).</td>
+    </tr>
+    <tr>
+      <td><strong>DO Committed</strong></td>
+      <td>The quantity of the item that is identified and committed  to a debit order to be returned to the vendor.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/the-items-browser/information-available/item_stock_status_item_browser_option.html">Item  Stock Status</a></dd>
+</dl>
+
+
+
+
+</div>

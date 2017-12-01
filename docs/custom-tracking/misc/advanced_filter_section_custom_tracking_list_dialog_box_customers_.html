@@ -1,0 +1,96 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="advanced-filter-section---custom-tracking-list-dialog-box-customers">Advanced Filter Section - Custom Tracking List Dialog Box (Customers)</h1>
+
+<p>This section allows you to set additional conditions for generating  the customers list. This section contains <strong>Include</strong><strong>list</strong> - <strong>Group</strong>/<strong>Selection</strong> and <strong>Exclude</strong><strong>list</strong> - <strong>Group</strong>/<strong>Selection</strong>.</p>
+
+<p><strong>Include List - And/Or</strong></p>
+
+<p>Select <strong>And</strong> against both Group  and Selection in the Include List to get customers who must be tagged  with all choices selected in all the groups.</p>
+
+<p>Select <strong>And</strong> against Group and  <strong>Or</strong> against Selection in the Include  List to get customers who must be tagged with at least one of the choices  selected in each group for which a selection has been specified.</p>
+
+<p>Select <strong>Or</strong> against Group and  <strong>And</strong>  against Selection in the Include List to get customers who must be tagged  with all choices selected in any of the groups for which a selection has  been specified.</p>
+
+<p>Select <strong>Or</strong> against Group and  <strong>Or</strong> against Selection in the Include  list to get customers who must be tagged with at least one selection in  any of the groups.</p>
+
+<p><img src="/versata-everest-docs/custom-tracking/img/example.gif" alt="example.gif" />  You  have selected the choices ‘Local’ and ‘Monthly’ respectively for the tracking  groups ‘Territory’ and ‘Membership Type’  with customers tagged in the following manner:</p>
+
+<ul>
+  <li>
+    <p>Customer  1 is tagged to both ‘Local’ and ‘Monthly’</p>
+  </li>
+  <li>
+    <p>Customer  2 is tagged to only ‘Local’</p>
+  </li>
+  <li>
+    <p>Customer  3 is tagged to only ‘Monthly’</p>
+  </li>
+  <li>
+    <p>Customer  4 is tagged to other selections in both groups</p>
+  </li>
+  <li>
+    <p>Customer  5 is tagged to other selections in ‘Local’</p>
+  </li>
+  <li>
+    <p>Customer  6 is tagged to other selections in ‘Monthly’</p>
+  </li>
+</ul>
+
+<p>According to the conditions you set in the  include list, the output is as follows:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>### Group</td>
+      <td>### Choice</td>
+      <td>### Result</td>
+    </tr>
+    <tr>
+      <td>And</td>
+      <td>And</td>
+      <td>Customer 1</td>
+    </tr>
+    <tr>
+      <td>And</td>
+      <td>Or</td>
+      <td>Customer 1</td>
+    </tr>
+    <tr>
+      <td>Or</td>
+      <td>And</td>
+      <td>Customer 1</td>
+    </tr>
+    <tr>
+      <td>Or</td>
+      <td>Or</td>
+      <td>Customer 1,2,3,4,5,6</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Exclude List - And/Or</strong></p>
+
+<p>From the list of customers who match the criteria for the Include List,  you can exclude customers based on selections in the Exclude List. Advanced  filter allows you to set conditions for exclusion.</p>
+
+<p>Select <strong>And</strong> against Group and  Selection in the Exclude <em>**</em> List  to exclude customers who must be tagged with all choices selected in all  the groups for which a selection has been specified in the Exclude List.</p>
+
+<p>Select <strong>And</strong> against Group and  <strong>Or</strong> against Selection in the Exclude  list to exclude customers who must be tagged with at least one of the  choices selected in each group for which a selection has been specified.</p>
+
+<p>Select <strong>Or</strong> against Group and  <strong>And</strong>  against Selection in the Exclude List to exclude customers who must be  tagged with all choices selected in any of the groups for which a selection  has been specified.</p>
+
+<p>Select <strong>Or</strong> against Group and  <strong>Or</strong> against Selection in the Exclude  list to exclude customers who must be tagged with at least one selection  in any of the groups.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/custom-tracking/document-tracking/tracking-work-orders/create_a_custom_tracking_choice_for_work_orders.html">Custom  Tracking List Details</a></dd>
+</dl>
+
+
+
+
+</div>

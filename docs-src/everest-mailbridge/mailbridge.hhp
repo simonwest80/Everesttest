@@ -1,0 +1,83 @@
+[OPTIONS]
+Title=MailBridge
+Contents file=mailbridge.hhc
+Index file=mailbridge.hhk
+Full-text search=Yes
+
+[FILES]
+about-mailbridge\introduction_mailbridge.html
+about-mailbridge\advantages_of_mailbridge.html
+about-mailbridge\requirements_mailbridge.html
+installation\installation_mailbridge.html
+installation\during-a-client-installation\client_installation_mailbridge.html
+installation\during-a-client-installation\custom_client_installation_mailbridge.html
+installation\after-a-typical-client-installation\add_components_after_a_complete_installation_mailbridge.html
+setting-up-everest-mailbridge\registration_mailbridge.html
+setting-up-everest-mailbridge\the-settings-dialog-box\setting_up_everest_mailbridge.html
+setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_everest_server_mailbridge.html
+setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_e_mail_server_mailbridge.html
+setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_preferences_mailbridge.html
+mailbridge\logging-on-to-everest-mailbridge\log_on_to_everest_mailbridge.html
+mailbridge\functions\functions_of_everest_mailbridge.html
+mailbridge\functions\customer-emails\identification_of_e_mails_from_to_customers_in_everest.html
+mailbridge\functions\vendor-emails\identification_of_e_mails_to_from_vendors_in_everest.html
+mailbridge\functions\user-emails\identification_of_e-mails_from_to_users_in_everest.html
+mailbridge\functions\link-emails\link_e_mails_mailbridge.html
+mailbridge\functions\link-emails\existing-emails\link_existing_e_mails_mailbridge.html
+mailbridge\functions\link-emails\existing-emails\retrieve_e_mails_into_everest_mailbridge.html
+mailbridge\functions\link-emails\existing-emails\add_the_retrieved_e_mails_into_everest_mailbridge.html
+mailbridge\functions\link-emails\existing-emails\process-email-wnd\process_e_mail_window_mailbridge.html
+mailbridge\functions\link-emails\existing-emails\process-email-wnd\left_panel_process_e-mail_window_mailbridge.html
+mailbridge\functions\link-emails\existing-emails\process-email-wnd\right_panel_process_e-mail_window_mailbridge.html
+mailbridge\functions\link-emails\link-new-mails\link_new_e_mails_mailbridge.html
+mailbridge\functions\link-emails\link-new-mails\view_status_of_mails_mailbridge.html
+mailbridge\functions\view-linked-e-mails\view_linked_e_mails_mailbridge.html
+mailbridge\functions\view-linked-e-mails\view_linked_e_mails_as_tasks_mailbridge.html
+mailbridge\functions\view-linked-e-mails\view_linked_mails_as_e_mails_mailbridge.html
+misc\create_user_defined_fields_in_microsoft_outlook_mailbridge.html
+misc\customer_information_dialog_box_mailbridge.html
+misc\files_in_use_dialog_box_mailbridge.html
+misc\the_settings_dialog_box_preferences_exclusions_mailbridge.html
+misc\the_settings_dialog_box_preferences_general_mailbridge.html
+misc\the_settings_dialog_box_preferences_user_defined_fields_mailbridge.html
+misc\bullet.gif
+misc\ehlpdhtm.js
+img\example.gif
+img\hint.gif
+misc\icons.html
+img\kanadi.gif
+img\lens.gif
+img\mailbridge_cancel_button.gif
+img\mailbridge_email_attachment_size_field.gif
+img\mailbridge_everest_mailbridge_icon.gif
+img\mailbridge_include_email_addresses_button.gif
+img\mailbridge_new_button.gif
+img\mailbridge_notes_button.gif
+img\mailbridge_options_drop_down_button.gif
+img\note.gif
+img\process_e-mail_window_shg.gif
+img\refer.gif
+misc\robohtml.css
+img\steps.gif
+img\warning.gif
+[ALIAS]
+helpid_51475=setting-up-everest-mailbridge\the-settings-dialog-box\setting_up_everest_mailbridge.html
+helpid_51476=setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_everest_server_mailbridge.html
+helpid_51482=setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_e_mail_server_mailbridge.html
+helpid_51486=setting-up-everest-mailbridge\the-settings-dialog-box\the_settings_dialog_box_preferences_mailbridge.html
+helpid_51487=misc\the_settings_dialog_box_preferences_general_mailbridge.html
+helpid_51496=misc\the_settings_dialog_box_preferences_exclusions_mailbridge.html
+helpid_51501=misc\the_settings_dialog_box_preferences_user_defined_fields_mailbridge.html
+helpid_51542=mailbridge\functions\link-emails\existing-emails\process-email-wnd\process_e_mail_window_mailbridge.html
+helpid_51543=mailbridge\functions\link-emails\existing-emails\process-email-wnd\left_panel_process_e-mail_window_mailbridge.html
+
+[MAP]
+#define helpid_51475 51475
+#define helpid_51476 51476
+#define helpid_51482 51482
+#define helpid_51486 51486
+#define helpid_51487 51487
+#define helpid_51496 51496
+#define helpid_51501 51501
+#define helpid_51542 51542
+#define helpid_51543 51543

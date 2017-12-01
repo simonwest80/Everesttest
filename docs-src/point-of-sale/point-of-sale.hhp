@@ -1,0 +1,976 @@
+[OPTIONS]
+Title=Point of Sale
+Contents file=point-of-sale.hhc
+Index file=point-of-sale.hhk
+Full-text search=Yes
+
+[FILES]
+point_of_sale_system.html
+pos-setup\point_of_sale_set_up.html
+pos-setup\pole-display\pole_display.html
+pos-setup\pole-display\setup\setting_up_a_pole_display.html
+pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile.html
+pos-setup\pole-display\setup\properties-profile\the_pole_properties_profile_general_tab.html
+pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile_cursor_tab.html
+pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile_setup_tab.html
+pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile_miscellaneous_tab.html
+pos-setup\pole-display\modify-a-pole-display\modifying_the_pole_display_properties_profile.html
+pos-setup\pole-display\discontinue-a-pole-display\discontinuing_a_pole_display.html
+pos-setup\pole-display\discontinue-a-pole-display\view_and_activate_a_discontinued_pole_display.html
+pos-setup\pole-display\the-pole-display-browser\the_pole_display_browser.html
+pos-setup\cash-registers\cash_registers.html
+pos-setup\cash-registers\setup\setting_up_a_cash_register_pos_set_up.html
+pos-setup\cash-registers\setup\profile\the_cash_register_profilepos_set_up.html
+pos-setup\cash-registers\setup\profile\the_cash_register_profile_general_tab_pos_set_up.html
+pos-setup\cash-registers\setup\profile\the_cash_register_profile_pole_tab_pos_set_up.html
+pos-setup\cash-registers\setup\profile\cash_drawer_information_pos_setup.html
+pos-setup\cash-registers\setup\profile\the_cash_register_profile_point_of_sale_tab.html
+pos-setup\cash-registers\setup\profile\the_cash_register_profile_payment_type_tab.html
+pos-setup\cash-registers\setup\profile\the_cash_register_profile_forms_tab_pos_set_up.html
+pos-setup\cash-registers\setup\profile\the_cash_register_profile_gift_receipt_tab_pos.html
+pos-setup\cash-registers\modify-a-cash-register\modifying_the_cash_register_profile.html
+pos-setup\cash-registers\discontinue-a-cash-register\discontinuing_a_cash_register.html
+pos-setup\cash-registers\discontinue-a-cash-register\view_and_activate_a_discontinued_cash_register.html
+pos-setup\point-of-sale-preferences\point_of_sale_preferences.html
+pos-setup\point-of-sale-preferences\flow_control_preferences_pos.html
+pos-setup\point-of-sale-preferences\default_preferences_pos.html
+using-cash-registers\using_cash_registers.html
+using-cash-registers\opening_cash_register.html
+using-cash-registers\log_in_pos_cash_registers_browser_option.html
+using-cash-registers\declare_the_cash_register.html
+using-cash-registers\declare_the_cash_register_held_documents_pos.html
+using-cash-registers\locking_and_unlocking_the_cash_drawer.html
+using-cash-registers\cash-register-browser\the_cash_register_browser.html
+using-cash-registers\cash-register-browser\the_cash_register_browser_information_available.html
+using-cash-registers\cash-register-browser\the_cash_register_browser_other_options.html
+using-cash-registers\using-cash-registers-in-invoicing-documents\using_cash_registers_in_invoicing_documents.html
+pos-trans\point_of_sale_transactions.html
+pos-trans\create-pos-doc\creating_pos_documents.html
+pos-trans\create-pos-doc\pos-si-profile\create_a_point_of_sale_(invoice)_profile.html
+pos-trans\create-pos-doc\pos-si-profile\pos-create-si\create_a_point_of_sale_(invoice)_profile.html
+pos-trans\create-pos-doc\pos-si-profile\details\contents_of_a_pos_invoice.html
+pos-trans\create-pos-doc\pos-si-profile\details\customer-info\customer_information_pos_docs_content.html
+pos-trans\create-pos-doc\pos-si-profile\details\cash-register-details\cash_register_details_content_pos_docs.html
+pos-trans\create-pos-doc\pos-si-profile\details\sales-rep-and-cashier\sales_rep_and_cashier_pos_doc_content.html
+pos-trans\create-pos-doc\pos-si-profile\details\doc-info\document_information_content_pos_docs.html
+pos-trans\create-pos-doc\pos-si-profile\details\item-info\item_information_pos_docs_content.html
+pos-trans\create-pos-doc\pos-si-profile\details\tabs-details\document_view_details_contents_pos_docs.html
+pos-trans\create-pos-doc\pos-si-profile\details\tabs-details\categories_information_doc_view_details_pos.html
+pos-trans\create-pos-doc\pos-si-profile\details\tabs-details\details_doc_view_details_pos.html
+pos-trans\create-pos-doc\pos-si-profile\details\tabs-details\others_tab_pos_profile_pos.html
+pos-trans\create-pos-doc\pos-si-profile\details\pos-outlook-bar\the_point_of_sale_outlook_bar.html
+pos-trans\create-pos-doc\pos-si-profile\details\status-bar-info\status_bar_information_pos_contents.html
+pos-trans\create-pos-doc\pos-si-profile\custom-tracking-in-point-of-sale\custom_tracking_in_pos.html
+pos-trans\create-pos-doc\pos-si-profile\service-items\service_items_in_point_of_sale.html
+pos-trans\create-pos-doc\pos-si-profile\force-sale\force_sale_pos.html
+pos-trans\create-pos-doc\pos-si-profile\force-sale\excd-avl-qty\qty_exceeds_available.html
+pos-trans\create-pos-doc\pos-si-profile\force-sale\excd-avl-qty\force-sale-item\flow-ctrl-prefs\prefs.html
+pos-trans\create-pos-doc\pos-si-profile\force-sale\excd-avl-qty\force-sale-item\flow-ctrl-prefs\options.html
+pos-trans\create-pos-doc\pos-si-profile\force-sale\excd-avl-qty\force-sale-item\from-within-pos-doc\force_sale_from_pos.html
+pos-trans\create-pos-doc\pos-si-profile\force-sale\item-belongs-to-3rd\item_belongs_to_a_third_party.html
+pos-trans\create-pos-doc\pos-si-profile\force-sale\accounting-entries\accounting_entries_force_sale.html
+pos-trans\create-pos-doc\pos-si-profile\pos-create-si\profile\the_point_of_sales_invoice_profile.html
+pos-trans\create-pos-doc\pos-si-profile\pos-create-si\accounting-entries\accounting_entries_for_pos_invoices.html
+pos-trans\create-pos-doc\pos-si-profile\options\point_of_sale_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\customer_information_pos_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\return_process_point_of_sale_pos.html
+pos-trans\create-pos-doc\pos-si-profile\options\tax_breakdown_pos_document_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\change_gift_receipt_printing_type_pos_option_pos.html
+pos-trans\create-pos-doc\pos-si-profile\options\print_pos_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\print_pick_location_report_pos_invoice_options_pos.html
+pos-trans\create-pos-doc\pos-si-profile\options\inline_notes_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\save_as_sales_order_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\sales_order_pos_invoice_options_pos.html
+pos-trans\create-pos-doc\pos-si-profile\options\switch_to_sales_order_pos_invoice_options_pos.html
+pos-trans\create-pos-doc\pos-si-profile\options\switch_to_sales_credit_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\view_in_document_currency_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\gift_card_balance_inquiry_cash_register_profile_options_pos.html
+pos-trans\create-pos-doc\pos-si-profile\options\document_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\transaction_history_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\payment_pos_inv_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\item_information_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\line_items_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\stock_status_for_all_items_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\show_all_serial_pos.html
+pos-trans\create-pos-doc\pos-si-profile\options\attach_retrieve_serial_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\retrieve_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\no_sale_open_cash_drawer.html
+pos-trans\create-pos-doc\pos-si-profile\options\pricing_analysis_pos_invoice_option.html
+pos-trans\create-pos-doc\pos-si-profile\options\contact_manager_pos_invoice_options.html
+pos-trans\create-pos-doc\pos-si-profile\options\move_to_quantity.html
+pos-trans\create-pos-doc\pos-si-profile\options\move_to_price.html
+pos-trans\create-pos-doc\pos-si-profile\options\move_to_discount.html
+pos-trans\create-pos-doc\pos-si-profile\options\revenue_pos_document_options_pos.html
+pos-trans\create-pos-doc\pos-si-profile\options\store_closing_report_pos_document_options_pos.html
+pos-trans\create-pos-doc\pos-si-profile\options\cash_register_closing_report_pos_document_options_pos.html
+pos-trans\create-pos-doc\pos-si-profile\view-menu\point_of_sale_view_menu_pos.html
+pos-trans\create-pos-doc\pos-si-profile\view-menu\barcode_search_field_point_of_sale_profile_pos.html
+pos-trans\create-pos-doc\pos-si-profile\point-of-sale-action-menu\point_of_sale_action_menu_pos.html
+pos-trans\create-pos-doc\pos-receipts\pos_receipts.html
+pos-trans\create-pos-doc\pos-receipts\payment-dlg\the_payment_details_dialog_box_pos_receipts.html
+pos-trans\create-pos-doc\pos-receipts\payment-dlg\payment_reference_details_payment_details_dialog_pos_receipts.html
+pos-trans\create-pos-doc\pos-receipts\payment-dlg\payment_amount_details_payment_details_dialog_pos_receipts.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\processing_credit_card_payments_pos.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\activities_in_credit_card_processing_pos.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\credit_card_processing_with_ic_verify_pos.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\credit_card_processing_with_payflow_pro_pos.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\receiving_credit_card_payments_point_of_sale.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\card_verification_details_pos.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\pmnt-amnt\amount_of_payment.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\card-details\card_details.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\sale-details\sale.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\prior-auth-info\prior_auth_info.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\receiving\verify-dtls\avs-and-cvv\avs-and-cvv-vrf-dtls.html
+pos-trans\create-pos-doc\pos-receipts\proc-cc-pmnts\verification-dlg\the_card_verification_dialog_box_pos.html
+pos-trans\create-pos-doc\pos-receipts\accounting-entries\accounting_entries_payments_from_customers_pos.html
+pos-trans\create-pos-doc\pos-receipts\gift-card-processing-pos-profile\selling_gift_cards_as_an_item.html
+pos-trans\create-pos-doc\pos-receipts\gift-card-processing-pos-profile\gift_card_as_a_payment_method.html
+pos-trans\create-pos-doc\pos-receipts\change-due-to-customers\change_due_to_customers_pos.html
+pos-trans\create-pos-doc\pos-receipts\change-due-to-customers\accounting-entries\accounting_entries_change.html
+pos-trans\create-pos-doc\pos-receipts\printing\printing_point-of-sale_receipts.html
+pos-trans\create-pos-doc\pos-receipts\printing\print_messages_in_narrow_receipts_pos.html
+pos-trans\create-pos-doc\pos-receipts\printing\default_format_for_printing_narrow_receipts_pos.html
+pos-trans\create-pos-doc\pos-cm-doc\pos_credit_memos.html
+pos-trans\create-pos-doc\pos-cm-doc\pos-create-cm\create_a_point_of_sale_sales_credit_document.html
+pos-trans\create-pos-doc\pos-cm-doc\accounting-entries\accounting_entries_for_point_of_sale_credit_memos.html
+pos-trans\create-pos-doc\pos-refunds\point_of_sale_refunds.html
+pos-trans\create-pos-doc\pos-refunds\processing\processing_credit_card_refunds_point_of_sale.html
+pos-trans\create-pos-doc\pos-refunds\processing\verify-dtls\card_verification_details_pos_refunds.html
+pos-trans\create-pos-doc\pos-refunds\processing\verify-dtls\pmnt-amnt\amount_of_payment.html
+pos-trans\create-pos-doc\pos-refunds\processing\verify-dtls\card-details\card_details.html
+pos-trans\create-pos-doc\pos-refunds\processing\verify-dtls\refund-details\refund_card_verification_details_pos_refunds.html
+pos-trans\create-pos-doc\pos-refunds\processing\verification-dlg\the_card_verification_dialog_box_pos_refunds.html
+pos-trans\create-pos-doc\pos-refunds\processing\verification-dlg\backend-proc-refund-cm\backend_proc_refund_cm.html
+pos-trans\create-pos-doc\pos-refunds\processing\verification-dlg\accnt-entries-refund-cm\accounting_entries.html
+pos-trans\create-pos-doc\point-of-sale-documents-on-hold\pos_on_hold.html
+pos-trans\create-pos-doc\point-of-sale-documents-on-hold\viewing_a_held_document.html
+pos-trans\create-pos-doc\view-point-of-sale-documents\viewing_a_held_document.html
+pos-trans\create-pos-doc\point-of-sale-documents-on-hold\view_held_documents_of_all_cash_registers_pos.html
+pos-trans\create-pos-doc\point-of-sale-documents-on-hold\open_held_documents_pos_doc_profile_option.html
+pos-trans\create-pos-doc\point-of-sale-documents-on-hold\canceling_a_held_document.html
+pos-trans\create-pos-doc\point-of-sale-documents-on-hold\close_a_held_document_pos_docs_on_hold_pos.html
+pos-trans\create-pos-doc\customer-layaways\customer_layaways_pos.html
+pos-trans\create-pos-doc\customer-layaways\customer-layaways-through-pos\customer_layaways_through_pos.html
+pos-trans\create-pos-doc\view-point-of-sale-documents\view_a_pos_invoice.html
+pos-trans\create-pos-doc\view-point-of-sale-documents\view_a_pos_credit_memo.html
+pos-trans\create-pos-doc\modify-point-of-sale-documents\modifying_a_pos_invoice.html
+pos-trans\create-pos-doc\modify-point-of-sale-documents\modifying_a_pos_credit_memo.html
+pos-trans\create-pos-doc\pos-cash-registers-browser\point_of_sale_cash_registers_browser.html
+pos-trans\create-pos-doc\pos-cash-registers-browser\options\pos_cash_registers_browser_options.html
+ui\user_interfaces_in_point_of_sale.html
+ui\touch-screen-compatibility\touch_screen_compatibility_pos.html
+ui\touch-screen-compatibility\optimize\optimum_touch_screen_compatibility_pos.html
+ui\touch-screen-compatibility\optimize\customize_the_font_settings_pos.html
+ui\touch-screen-compatibility\optimize\category_wise_selection_pos.html
+ui\short-cut-keys\short_cut_keys.html
+ui\short-cut-keys\pos-si-doc\short-cut-keys\short_cut_keys_point_of_sale_invoice_profile.html
+ui\short-cut-keys\pos-si-doc\short-cut-keys\display_browsers_dialog_boxes_-_pos_invoice.html
+ui\short-cut-keys\pos-si-doc\short-cut-keys\go_to_a_field_pos_invoice.html
+ui\short-cut-keys\pos-cash-register-browser\go_to_a_field_pos_invoice.html
+ui\short-cut-keys\pos-si-doc\short-cut-keys\other_short_cut_keys_pos_invoice.html
+ui\short-cut-keys\browser\short-cut-keys\short_cut_keys_point_of_sale_browser.html
+ui\short-cut-keys\browser\short-cut-keys\display_browsers_dialog_boxes-_pos_browser.html
+ui\short-cut-keys\browser\short-cut-keys\go_to_a_field_pos_browser.html
+ui\short-cut-keys\browser\short-cut-keys\other_short_cut_keys_pos_browser.html
+ui\short-cut-keys\pos-cm-doc\short-cut-keys\short_cut_keys_point_of_sale_sales_credit_profile.html
+ui\short-cut-keys\pos-cm-doc\short-cut-keys\display_browsers_dialog_boxes_pos_sales_credit.html
+ui\short-cut-keys\pos-cm-doc\short-cut-keys\go_to_a_field_pos_sales_credit.html
+ui\short-cut-keys\pos-cm-doc\short-cut-keys\other_short_cut_keys_sales_credit.html
+ui\short-cut-keys\sales-credit-browser\short_cut_keys_sales_credit_browser.html
+ui\short-cut-keys\sales-credit-browser\display_browsers_dialog_boxes_sales_credit_browser.html
+ui\short-cut-keys\sales-credit-browser\go_to_a_field_sales_credit_browser.html
+ui\short-cut-keys\sales-credit-browser\other_short_cut_keys_sales_credit_browser.html
+ui\short-cut-keys\pos-cash-register-browser\short_cut_keys_pos_cash_registers_browser.html
+ui\short-cut-keys\pos-cash-register-browser\select_sort_tabs_pos_cash_register.html
+ui\short-cut-keys\pos-cash-register-browser\display_browsers_dialog_boxes_pos_cash_register.html
+ui\short-cut-keys\pos-cash-register-browser\other_short_cut_keys_pos_cash_register.html
+point-of-sale-reports\point_of_sale_reports.html
+point-of-sale-reports\revenue-report\revenue_report_pos.html
+point-of-sale-reports\store-closing-report\store_closing_report_pos.html
+point-of-sale-reports\cash-register-closing-report\cashier_closing_pos.html
+point-of-sale-reports\pos-reconciliation-report\pos_reconciliation_pos.html
+point-of-sale-reports\pos-discount-report\pos_discount_pos.html
+point-of-sale-reports\pos-discount-report\pos-discount-report-dialog-box\pos_discount_report_dialog_box_pos.html
+point-of-sale-reports\pos-x-out-report\pos_x_out_pos.html
+point-of-sale-reports\pos-x-out-report\pos-x-out-report-dialog-box\the_pos_x_out_report_dialog_box_pos.html
+point-of-sale-reports\pos-z-out-report\pos_z_out.html
+point-of-sale-reports\pos-z-out-report\pos-z-out-report-dialog-box\the_pos_z_out_report_dialog_box.html
+point-of-sale-reports\pos-activity-report\pos_activity.html
+point-of-sale-reports\pos-activity-report\pos-activity-report-dialog-box\the_pos_activity_report_dialog_box.html
+misc\accounting_entries_prior_authorization_pos.html
+misc\add_an_item_kit_item_matrix_to_a_point_of_sale_document.html
+misc\add_quantity_stock_adjustment_pos_doc.html
+misc\address_and_security_code_verification_details_card_verification_db_pos.html
+misc\point_of_sale_invoicing.html
+misc\attach_a_note_to_a_point_of_sale_document.html
+misc\back_end_processes_prior_authorization_pos.html
+misc\back_end_processes_receipt_on_a_sales_invoice_pos.html
+misc\balance_declaration_for_dialog_box.html
+misc\view_foreign_currency_documents_pos_content.html
+misc\cash_register_preferences.html
+misc\the_cash_register_profile_forms_forms.html
+misc\the_cash_register_profile_forms_logo.html
+misc\the_cash_register_profile_payment_type_miscellaneous_tab.html
+misc\the_cash_register_profile_payment_type_payments_tab.html
+misc\the_cash_register_profile_payment_type_receipts_tab.html
+misc\journal_group_information_cash_reg.html
+misc\categories_tab_pos_invoice_steps.html
+misc\default_preferences_change_due_to_customers_defaults.html
+misc\mark_reconciliation_window.html
+misc\point_of_sale_credit_memo_profile_details.html
+misc\customer_aging_information_browser_options_quick_aging_pos.html
+misc\customer_pos_outllok_bar.html
+misc\default_report_format_printing_point_of_sale_documents_-_defaults.html
+misc\sale_and_authorization_details_card_verification_db_pos.html
+misc\discounts_item_details_grid_pos_content.html
+misc\document_alias_doc_info_pos_docs.html
+misc\document_discount_dialog_box_pos.html
+misc\document_override_pos.html
+misc\document_policy_document_information_pos_content.html
+misc\the_document_printing_preferences_dialog_box_-_fax_cover_letter_pos.html
+misc\the_document_printing_preferences_dialog_box_general_pos.html
+misc\document_pos_outlook_bar.html
+misc\document_tab_views_pos_invoice_steps.html
+misc\foreign_currency_documents_pos_content.html
+misc\foreign_currency_translations_pos_content.html
+misc\tax_breakdown_pos_outlook_bar.html
+misc\document_details_gen_tab_printing_pref_dialog_box_pos.html
+misc\search_dialog_box_pos.html
+misc\inventory_pos_outlook_bar.html
+misc\item_price_item_info_pos_docs.html
+misc\mark_an_item_for_force_sale.html
+misc\view_and_edit_document_policy.html
+misc\negative_pricing_item_details.html
+misc\negative_quantities_on_pos_documents.html
+misc\subtotal_categories_tab_pos_steps.html
+misc\show_history_pos_cash_register_browser_option.html
+misc\point_of_sale_cash_register_profile.html
+misc\show_sales_pos_cash_register_browser_option.html
+misc\customer_cust_info_content_pos_docs.html
+misc\document_notes_doc_info_pos_docs.html
+misc\stock_adjustments_in_point_of_sale_documents.html
+misc\reports_pos_outlook_bar.html
+misc\receive_a_credit_card_payment_pos.html
+misc\preview_on_off_status_bar_info_pos.html
+misc\profit_break_up_current_item_pricing_analysis_pos.html
+misc\profit_break_up_document_pricing_analysis_pos.html
+misc\promotion_code_gen_info_doc_view_details.html
+misc\receiving_credit_card_payments_pos.html
+misc\retrieving_individual_serial_numbers_pos.html
+misc\retrieve_an_item_kit_retrieve_option_pos.html
+misc\retrieve_item_matrices_retrieve_option_pos.html
+misc\retrieve_manufacturer_s_serial_number_pos.html
+misc\retrieve_a_range_of_serial_numbers_pos.html
+misc\the_point_of_sale_line_profile_-_custom_fields_tab.html
+misc\the_point_of_sale_line_profile_-_item_details_tab.html
+misc\the_point_of_sale_line_profile.html
+misc\select_another_stock_area_stock_adjustment_pos_invoice.html
+misc\select_date_range_dialog_box_cashier_closing_pos.html
+misc\select_date_range_dialog_box_store_closing_pos.html
+misc\the_serial_no__for_all_items_browser_pos.html
+misc\smart_search_item_info_pos_invoice_options.html
+misc\store_closing_report_pos_outlook_bar.html
+misc\tax_categories_tab_pos_teps.html
+misc\tax_status_bar_info_pos.html
+misc\total_categories_tab_pos_steps.html
+misc\category_wise_selection_information_pos_steps.html
+misc\item_code_contents_pos_documents.html
+misc\view_point_of_sale_documents.html
+misc\zoom_out_in_status_bar_info_pos.html
+img\1gr_for_101_fgtips_gift_receipt_pos.gif
+img\1gr_for_3 blclues_gift_receipt_pos.gif
+img\1gr_for_3_102_wheels_gift_receipt_pos.gif
+img\1gr_for_4_101_fgtips_gift_receipt_pos.gif
+img\1gr_for_document_gift_receipt_pos.gif
+img\activating_gift_cards_dialog box_pos.gif
+misc\add-ons_pos_outlook_bar.html
+misc\add_ons_pos_invoice_profile_option.html
+misc\aging_chart_customer_aging_information_browser_options_pos.html
+misc\aging_options_customer_aging_information_browser_options_pos.html
+misc\allow_changing_the_pos_document_type_to_sales_after_credit_memo_is_saved_flow_control_pos.html
+misc\amount_and_card_details_card_verification_db_pos.html
+misc\amount_item_details_grid_pos_content.html
+misc\apply_discounts_customer_pos_options.html
+misc\auto_print_invoice_in_point_of_sale_document_flow_control_pos.html
+misc\back-end_processes_-_generate_serial_numbers.html
+misc\back-end_processes_generate_serial_numbers.html
+misc\back_end_processes_and_accounting_entries_sale_pos.html
+img\balance_button_gift_card_balance_inquiry_pos.gif
+misc\billing_address_cust_info_content_pos_docs.html
+misc\browser_column_filters_customer_aging_information_browser_options_pos.html
+misc\bullet.gif
+misc\cashier_closing_report_pos_cash_register_browser_option.html
+img\cash_register_profile_gift_receipt_pos.gif
+misc\code_gen_tab.html
+misc\currency_pos_contents_foreign_curreny_information.html
+misc\customer_information_pos_docs_steps.html
+misc\customer_profile_pos_outlook_bar.html
+misc\customer_s_po_number_and_date_detail_tab_pos_invoice_pos.html
+misc\customer_tracking_customer_pos_options.html
+misc\customer_tracking_pos_outlook_bar.html
+misc\default_preferences_gift_card_processor_defaults_pos.html
+misc\delivery_date_details_tab_pos_invoice_pos.html
+misc\department_doc_info_content_pos_docs.html
+misc\description_gen_tab.html
+misc\details_tab_doc_tab_views_pos_docs_steps.html
+misc\discount_notes_pos_document_options.html
+misc\documents_pos_cash_register_browser_option.html
+misc\document_information_pos_docs_steps.html
+misc\document_payment_information_customer_aging_information_browser_options_pos.html
+misc\document_policy_status_bar_infon_pos.html
+misc\doc_types_sales_order.html
+misc\due_date_and_override_details_tab_pos_invoice_pos.html
+misc\edit_matrix_group__item_info_pos_invoice_options.html
+misc\ehlpdhtm.js
+img\everest_dialog_box_print_gift_receipt_pos.gif
+img\example.gif
+misc\exchange_rate_foreign_currency_information_pos_document.html
+misc\extended_notes__item_info_pos_invoice_options.html
+misc\fob_detail_tab_pos_invoice_pos.html
+misc\force_sales_representative_to_give_reason_for_refunds_on_credit_document_at_pos_flow_control_pos.html
+misc\force_sale_item_information_pos_inv_options.html
+misc\foreign_currency_information_pos_content.html
+misc\generate_serial_numbers_pos_inv.html
+misc\generate_serial_numbers_pos_inv_option.html
+img\gift_card_icon_pos.gif
+img\gift_receipt_gift_receipt_pos.gif
+misc\held_-_point_of_sale_documents_browser.html
+misc\held_point_of_sale_documents_browser.html
+img\hint.gif
+misc\icons.html
+img\image_button_gift_receipt_pos.gif
+misc\item_details_iten_info_pos_docs_content.html
+misc\item_information_pos_docs_steps.html
+misc\item_profile_pos_outlook_bar.html
+misc\item_stock_status_pos_outlook_bar.html
+misc\item_stock_status__item_info_pos_invoice_options.html
+misc\jurisdiction_gen_info_doc_view_details_pos.html
+img\kanadi.gif
+misc\lease_rental_gen_tab_doc_printing_prefs_pos.html
+img\lens.gif
+misc\line_number_item_details_grid_pos_content.html
+misc\multimedia_browser_item_info_pos_invoice_options.html
+img\multi_gifts_gift_receipt_pos.gif
+img\new_sale_button_gift_receipt_pos.gif
+img\note.gif
+misc\other_information_pos_docs_content.html
+misc\point_of_sale_-_held_sales_documents_browser.html
+misc\point_of_sale_-_memos_pos.html
+misc\point_of_sale_-_sales_browser_pos.html
+misc\point_of_sale_memos_pos.html
+img\point_of_sale_profile_barcode_item_not_found_cropped_pos.gif
+img\point_of_sale_profile_barcode_search_field_save_pos.gif
+img\point_of_sale_profile_barcode_smartsearch2_cropped_pos.gif
+img\point_of_sale_profile_viewing_barcode_search_circled_pos.gif
+misc\point_of_sale_sales_browser_pos.html
+img\pos cash icon.gif
+img\pos check icon.gif
+img\pos drop down icon.gif
+img\pos_action_options_pos.gif
+img\pos_add_ons_icon_outlook_bar.gif
+img\pos_advance_applied.gif
+img\pos_auto_serialized_icon.gif
+img\pos_cash_icon_payment_method.gif
+img\pos_check_icon_outlook_bar.gif
+img\pos_credits_ label.gif
+img\pos_credit_card_icon_payment_method.gif
+img\pos_customer_profile_outlook_bar.gif
+img\pos_customer_tracking_outlook_bar.gif
+img\pos_document_notes.gif
+img\pos_document_policy_icon.gif
+img\pos_down_arrow.gif
+img\pos_force_sale_icon.gif
+img\pos_group_by_item.gif
+img\pos_group_by_tax.gif
+img\pos_history_button_retrieve_serial_numbers.gif
+img\pos_individual_cashier_report.gif
+img\pos_item_profile_outlook_bar.gif
+img\pos_item_stock_status_outlook_bar.gif
+img\pos_kit_icon.gif
+img\pos_logo_lookup_icon_cash_register.gif
+img\pos_matrix_group_icon.gif
+img\pos_matrix_item_icon.gif
+img\pos_new sale.gif.gif
+img\pos_next_record.gif
+img\pos_non_inventoried_icon.gif
+img\pos_non_serialized_icon.gif
+img\pos_note_icon.gif
+img\pos_others_icon_payment_method.gif
+img\pos_pos_invoice_button.gif
+img\pos_preview_off.gif
+img\pos_preview_on.gif
+img\pos_previous_record.gif
+img\pos_related_items_icon_outlook_bar.gif
+img\pos_revenue_icon_outlook_bar.gif
+img\pos_select_cashier_icon.gif
+img\pos_select_sales_rep_icon.gif
+img\pos_serialized_icon.gif
+img\pos_service_item.gif
+img\pos_store_closing_report_icon_outlook_bar.gif
+img\pos_tax_breakdown_outlook_bar.gif
+img\pos_tax_icon.gif
+img\pos_transaction_history.gif
+img\pos_view_options_pos.gif
+img\pos_zoom_in_icon.gif
+img\pos_zoom_out.gif
+misc\preview_on_off_pos_invoice_options.html
+misc\printing_company_information_doc_details_gen_tab_printing_prefs_pos.html
+misc\print_preview_customer_aging_information_browser_options_pos.html
+misc\processed_detail_tab_pos_invoice_pos.html
+misc\profile_customer_pos_options.html
+misc\profile_item_info_pos_invoice_options.html
+misc\prompt_to_select_sales_person_when_creating_point_of_sale_document_flow_control_pos.html
+misc\quantity_content_pos_docs.html
+misc\quick_aging_customer_pos_options.html
+misc\quick_aging_pos_outlook_bar.html
+img\refer.gif
+misc\reference_detail_tab_pos_invoice_pos.html
+misc\related_items_pos_outlook_bar.html
+misc\rep_other_info_item_details_grid_pos_docs.html
+misc\return_process_return_point_of_sale_pos.html
+misc\return_process_return_with_gift_receipt_point_of_sale_pos.html
+misc\revenue_pos_outlook_bar.html
+misc\robohtml.css
+img\sales_include_button.gif
+misc\sales_rep_and_cashier_pos_docs_steps.html
+img\see_also.gif
+misc\select_customer_pos_options.html
+misc\select_items_item_info_pos_invoice_options.html
+misc\select_kits_item_info_pos_invoice_options.html
+misc\service_item_item_information_pos_inv_options.html
+misc\show_serial__items_pos_options.html
+img\so_icon_pos.gif
+misc\status_bar_information_general_tab_pos_docs_steps.html
+img\steps.gif
+misc\store_closing_report_pos_cash_register_browser_option.html
+misc\terms_detail_tab_pos_invoice_pos.html
+misc\the_overpayment_dialog_box_pos.html
+misc\the_payment_details_dialog_box_-_apply_advances_.html
+misc\the_payment_details_dialog_box_-_apply_credits.html
+misc\the_payment_details_dialog_box_-_general_.html
+misc\transaction_history_pos_outlook_bar.html
+misc\type_pos_content.html
+misc\unit_of_measure_pos_content.html
+misc\view_in_base_currency_customer_aging_information_browser_options_pos.html
+img\warning.gif
+misc\when_out_of_stock_non_serialized_items_are_inserted_in_a_pos_document_flow_conrol_pos.html
+misc\zzaddress_card_verification_dialog_box.html
+misc\zzaddress_verification_card_verification_db.html
+misc\zzadvance_applied_payment_details_dialog_pos.html
+misc\zzadvance_documents_applied_apply_adv_pay_details.html
+misc\zzadvance_documents_available_apply_adv_pay_details.html
+misc\zzamount_point_of_sale_line_profile.html
+misc\zzapply_the_overpayment_as_a_cust_deposit_overpay_dialog_box.html
+misc\zzapproval_code_pn_ref_no_card_verification_db.html
+misc\zzbalance_payment_details_dialog_pos.html
+misc\zzcard_holder_card_verification_dialog_box.html
+misc\zzcashier_pos_document_profile.html
+misc\zzcash_drawer_is_connected_to_the_printer_cash_reg_prof_cash_drawer_tab.html
+misc\zzcash_drawer_is_connect_dtly_to_the_ws_cash_reg_prof_cash_drawer_tab.html
+misc\zzcash_payment.html
+misc\zzcash_receipt.html
+misc\zzcheck_payment.html
+misc\zzcheck_receipt.html
+misc\zzcode_pole.html
+misc\zzcopies.html
+misc\zzcredits_payment_details_dialog_pos.html
+misc\zzcredit_card_payment.html
+misc\zzcredit_card_receipt.html
+misc\zzcurrency_pos_document_profile.html
+misc\zzcustomer_pos_document_profile.html
+misc\zzcvv2_card_verification_dialog_box.html
+misc\zzdelayed_capture_ship_(prior_booking)_card_verification_db.html
+misc\zzdepartment_gen_tab.html
+misc\zzdepartment_point_of_sale_profile.html
+misc\zzdepartment_pos_document_profile.html
+misc\zzdiscount_doc_discount_dialog_box.html
+misc\zzdiscount_percent_point_of_sale_line_profile.html
+misc\zzdiscount_value_point_of_sale_line_profile.html
+misc\zzdisplay_pole_driver.html
+misc\zzdisplay_pole_port.html
+misc\zzdocument_policy_pos_document_profile.html
+misc\zzdoc_currency_payment_details_dialog_pos.html
+misc\zzdoc_types_.html
+misc\zzdoc_types_credit_order.html
+misc\zzdoc_types_credit_quote.html
+misc\zzexchange_rate_payment_details_dialog_doc_curr_pos.html
+misc\zzexchange_rate_payment_details_dialog_pos_doc_curr.html
+misc\zzexchange_rate_pos_document_profile.html
+misc\zzexclude_already_reduced_items_doc_dis_dialog_box.html
+misc\zzexpiration_card_verification_dialog_box.html
+misc\zzforce_sale_card_verification_db.html
+misc\zzfor_payments.html
+misc\zzfor_receipts.html
+misc\zzgive_the_customer______change_overpayment_dialog_box.html
+misc\zzitem_code_point_of_sale_line_profile.html
+misc\zzitem_description_point_of_sale_line_profile.html
+misc\zzitem_details_grid_pos_document_profile.html
+misc\zzjournal_group.html
+misc\zzjurisdiction_pos_document_profile.html
+misc\zzlogo_cash_register_profile.html
+misc\zzmessage_to_print_receipt.html
+misc\zzname_pole.html
+misc\zznarration_payment_details_dialog_pos.html
+misc\zzno_cash_drawer_is_connected_cash_register_prof_cash_drawer_tab.html
+misc\zzon_exit.html
+misc\zzon_welcome.html
+misc\zzopen_register_code_cash_reg_prof_cash_drawer_tab.html
+misc\zzopen_register_port_cash_reg_prof_cash_drawer_tab.html
+misc\zzothers_payment.html
+misc\zzothers_receipt.html
+misc\zzpause_to_print_receipt.html
+misc\zzpayment_details_dialog_box_browser_section_pos.html
+misc\zzpay_in_payment_details_dialog_pos.html
+misc\zzprice_point_of_sale_line_profile.html
+misc\zzquantity_point_of_sale_line_profile.html
+misc\zzreset.html
+misc\zzsales_representative_pos_document_profile.html
+misc\zzsecurity_code_verification_card_verification_db.html
+misc\zzselect_sales_person_dialog_box_pos.html
+misc\zzser_point_of_sale_line_profile.html
+misc\zzsubtotal_pos_document_profile.html
+misc\zztax_amount_point_of_sale_line_profile.html
+misc\zztax_code_point_of_sale_line_profile.html
+misc\zztax_pos_document_profile.html
+misc\zztotal_payment_details_dialog_pos.html
+misc\zztotal_pos_document_profile.html
+misc\zztransaction_type_card_verification_dialog_box.html
+misc\zzum_point_of_sale_line_profile.html
+misc\zzuse_internal_report.html
+misc\zzweight_point_of_sale_profile.html
+misc\zzzip_card_verification_dialog_box.html
+misc\zz_allow_chg_due_agnst_non_cash_pay_cash_reg_pro_pay_tab.html
+misc\zz_allow_split_pmt_mul_cur_cash_reg_pro_pay_tab.html
+misc\zz_cancel_button_reports.html
+misc\zz_cash_register_from_pos_act.html
+misc\zz_cash_register_from_pos_x_out.html
+misc\zz_cash_register_from_pos_z_out.html
+misc\zz_cash_register_to_pos_act.html
+misc\zz_cash_register_to_pos_x_out.html
+misc\zz_cash_register_to_pos_z_out.html
+misc\zz_code_field_pos_cash_register_profile.html
+misc\zz_date_from_pos_act.html
+misc\zz_date_from_pos_x_out.html
+misc\zz_date_from_pos_z_out.html
+misc\zz_date_pos_discount.html
+misc\zz_date_to_pos_act.html
+misc\zz_date_to_pos_x_out.html
+misc\zz_date_to_pos_z_out.html
+misc\zz_declare_time_field_cashier_closing_rep_db.html
+misc\zz_declare_time_field_pos_recons_rep_dia.html
+misc\zz_declare_time_pos_x_out.html
+misc\zz_declare_time_pos_z_out.html
+misc\zz_declare_time_select_date_range_db.html
+misc\zz_default_document_aliases_for_invoices_gen_tab.html
+misc\zz_default_document_aliases_for_returns_gen_tab.html
+misc\zz_def_doc_alias_for_inv_field_cash_reg_pro_pos_tab.html
+misc\zz_def_doc_alias_for_returns_cah_reg_pro_pos_tab.html
+misc\zz_def_pmt_meth_for_chng_due_cash_reg_pro_pay_tab.html
+misc\zz_def_pos_cust_cash_reg_pro_pos_tab.html
+misc\zz_department_pos_x_out.html
+misc\zz_detail_summary_field_pos_activity_rep_dia.html
+misc\zz_document_notes_pos_document_profile.html
+misc\zz_document_types_sales_quote.html
+misc\zz_doc_no_from_pos_discount.html
+misc\zz_doc_no_to_pos_discount.html
+misc\zz_doc_types_sales_invoice.html
+misc\zz_exchange_rate_credit_memo.html
+misc\zz_export_button_reports.html
+misc\zz_include_items_detail_pos_act.html
+misc\zz_item_code_from_pos_discount.html
+misc\zz_item_code_to_pos_discount.html
+misc\zz_new_sale_pos_doc.html
+misc\zz_opening_balance_pos_cash_register_profile.html
+misc\zz_open_date_from_pos_recon.html
+misc\zz_open_date_to_pos_recon.html
+misc\zz_open_time_field_pos_recon_rep_dia.html
+misc\zz_open_time_field_select_date_range_db.html
+misc\zz_open_time_pos_x_out.html
+misc\zz_open_time_pos_z_out.html
+misc\zz_preview_button_reports.html
+misc\zz_preview_on_preview_off.html
+misc\zz_printer_begin_field_cash_register_profile_general_tab.html
+misc\zz_printer_drop_down_list_reports.html
+misc\zz_printer_end_cash_register_profile_general_tab.html
+misc\zz_print_button_reports.html
+misc\zz_promotion_code_credit_memo.html
+misc\zz_promotion_code_invoice.html
+misc\zz_register_number_pos_recon.html
+misc\zz_sales_representative_from_pos_act.html
+misc\zz_sales_representative_to_pos_act.html
+misc\zz_sales_rep_from_pos_discount.html
+misc\zz_sales_rep_to_pos_discount.html
+misc\zz_show_currency_wise_collections_break_up_field_pos_z_rep_dia.html
+misc\zz_show_currency_wise_sales_break_up_field_pos_x_rep_dia.html
+misc\zz_sort_by_pos_discount.html
+misc\zz_view_bal_chng_due_any_cur_cash_reg_pro_pay_tab.html
+misc\zz_zoom_out_zoom_in_pos_document_profile.html
+[ALIAS]
+helpid_5446=pos-trans\create-pos-doc\pos-si-profile\pos-create-si\profile\the_point_of_sales_invoice_profile.html
+helpid_5450=misc\zzcashier_pos_document_profile.html
+helpid_5455=misc\zzcurrency_pos_document_profile.html
+helpid_5447=misc\zzcustomer_pos_document_profile.html
+helpid_5454=misc\zzdepartment_pos_document_profile.html
+helpid_5456=misc\zzexchange_rate_pos_document_profile.html
+helpid_5451=misc\zzitem_details_grid_pos_document_profile.html
+helpid_5453=misc\zzjurisdiction_pos_document_profile.html
+helpid_5449=misc\zzsales_representative_pos_document_profile.html
+helpid_17304=pos-trans\create-pos-doc\pos-receipts\payment-dlg\the_payment_details_dialog_box_pos_receipts.html
+helpid_5464=pos-trans\create-pos-doc\pos-si-profile\details\pos-outlook-bar\the_point_of_sale_outlook_bar.html
+helpid_19720=misc\point_of_sale_-_memos_pos.html
+helpid_7130=pos-setup\pole-display\the-pole-display-browser\the_pole_display_browser.html
+helpid_7131=pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile.html
+helpid_7132=pos-setup\pole-display\setup\properties-profile\the_pole_properties_profile_general_tab.html
+helpid_7135=pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile_cursor_tab.html
+helpid_7142=pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile_setup_tab.html
+helpid_7148=pos-setup\pole-display\setup\properties-profile\the_pole_display_properties_profile_miscellaneous_tab.html
+helpid_7133=misc\zzcode_pole.html
+helpid_7134=misc\zzname_pole.html
+helpid_7228=pos-setup\cash-registers\setup\profile\the_cash_register_profilepos_set_up.html
+helpid_21901=misc\zz_show_currency_wise_sales_break_up_field_pos_x_rep_dia.html
+helpid_21902=misc\zz_show_currency_wise_collections_break_up_field_pos_z_rep_dia.html
+helpid_21872=misc\zz_open_time_field_pos_recon_rep_dia.html
+helpid_21873=misc\zz_declare_time_field_pos_recons_rep_dia.html
+helpid_5392=misc\point_of_sale_cash_register_profile.html
+helpid_5445=pos-trans\create-pos-doc\pos-cash-registers-browser\point_of_sale_cash_registers_browser.html
+helpid_21868=point-of-sale-reports\pos-reconciliation-report\pos_reconciliation_pos.html
+helpid_7268=misc\zzdepartment_gen_tab.html
+helpid_7269=misc\zz_printer_begin_field_cash_register_profile_general_tab.html
+helpid_7270=misc\zz_printer_end_cash_register_profile_general_tab.html
+helpid_10410=misc\zz_def_doc_alias_for_inv_field_cash_reg_pro_pos_tab.html
+helpid_10411=misc\zz_def_doc_alias_for_returns_cah_reg_pro_pos_tab.html
+helpid_10413=misc\zz_def_pos_cust_cash_reg_pro_pos_tab.html
+helpid_7271=misc\zz_allow_split_pmt_mul_cur_cash_reg_pro_pay_tab.html
+helpid_7272=misc\zz_view_bal_chng_due_any_cur_cash_reg_pro_pay_tab.html
+helpid_7273=misc\zz_allow_chg_due_agnst_non_cash_pay_cash_reg_pro_pay_tab.html
+helpid_10412=misc\zz_def_pmt_meth_for_chng_due_cash_reg_pro_pay_tab.html
+helpid_542=misc\zz_open_time_field_select_date_range_db.html
+helpid_5394=misc\zz_code_field_pos_cash_register_profile.html
+helpid_5395=misc\zz_opening_balance_pos_cash_register_profile.html
+helpid_10414=misc\zzlogo_cash_register_profile.html
+helpid_21850=point-of-sale-reports\pos-discount-report\pos_discount_pos.html
+helpid_21851=misc\zz_sales_rep_from_pos_discount.html
+helpid_21852=misc\zz_sales_rep_to_pos_discount.html
+helpid_21854=misc\zz_item_code_to_pos_discount.html
+helpid_21853=misc\zz_item_code_from_pos_discount.html
+helpid_21855=misc\zz_doc_no_from_pos_discount.html
+helpid_21856=misc\zz_doc_no_to_pos_discount.html
+helpid_21857=misc\zz_sort_by_pos_discount.html
+helpid_21858=misc\zz_date_pos_discount.html
+helpid_21869=misc\zz_register_number_pos_recon.html
+helpid_21870=misc\zz_open_date_from_pos_recon.html
+helpid_21871=misc\zz_open_date_to_pos_recon.html
+helpid_21893=point-of-sale-reports\pos-x-out-report\pos_x_out_pos.html
+helpid_21894=misc\zz_department_pos_x_out.html
+helpid_21895=misc\zz_cash_register_from_pos_x_out.html
+helpid_21896=misc\zz_cash_register_to_pos_x_out.html
+helpid_21897=misc\zz_date_from_pos_x_out.html
+helpid_21898=misc\zz_date_to_pos_x_out.html
+helpid_21899=misc\zz_open_time_pos_x_out.html
+helpid_21900=misc\zz_declare_time_pos_x_out.html
+helpid_21909=misc\zz_cash_register_from_pos_z_out.html
+helpid_21910=misc\zz_cash_register_to_pos_z_out.html
+helpid_21911=misc\zz_date_from_pos_z_out.html
+helpid_21912=misc\zz_date_to_pos_z_out.html
+helpid_21913=misc\zz_open_time_pos_z_out.html
+helpid_21914=misc\zz_declare_time_pos_z_out.html
+helpid_23228=point-of-sale-reports\pos-activity-report\pos_activity.html
+helpid_23229=misc\zz_cash_register_from_pos_act.html
+helpid_23230=misc\zz_cash_register_to_pos_act.html
+helpid_23231=misc\zz_sales_representative_from_pos_act.html
+helpid_23232=misc\zz_sales_representative_to_pos_act.html
+helpid_23233=misc\zz_date_from_pos_act.html
+helpid_23234=misc\zz_date_to_pos_act.html
+helpid_23235=misc\zz_include_items_detail_pos_act.html
+helpid_18127=point-of-sale-reports\cash-register-closing-report\cashier_closing_pos.html
+helpid_18177=point-of-sale-reports\store-closing-report\store_closing_report_pos.html
+helpid_21862=misc\zz_print_button_reports.html
+helpid_21860=misc\zz_export_button_reports.html
+helpid_21861=misc\zz_preview_button_reports.html
+helpid_21863=misc\zz_cancel_button_reports.html
+helpid_21859=misc\zz_printer_drop_down_list_reports.html
+helpid_21908=point-of-sale-reports\pos-z-out-report\pos_z_out.html
+helpid_17538=misc\zzitem_code_point_of_sale_line_profile.html
+helpid_17539=misc\zzitem_description_point_of_sale_line_profile.html
+helpid_17540=misc\zzquantity_point_of_sale_line_profile.html
+helpid_17541=misc\zzprice_point_of_sale_line_profile.html
+helpid_17542=misc\zzdiscount_value_point_of_sale_line_profile.html
+helpid_17543=misc\zzdiscount_percent_point_of_sale_line_profile.html
+helpid_17544=misc\zzamount_point_of_sale_line_profile.html
+helpid_17537=misc\the_point_of_sale_line_profile_-_item_details_tab.html
+helpid_5458=misc\zztax_pos_document_profile.html
+helpid_5459=misc\zztotal_pos_document_profile.html
+helpid_5457=misc\zz_new_sale_pos_doc.html
+helpid_5461=misc\zz_zoom_out_zoom_in_pos_document_profile.html
+helpid_5462=misc\zz_preview_on_preview_off.html
+helpid_5465=misc\zz_document_notes_pos_document_profile.html
+helpid_5467=misc\zz_promotion_code_invoice.html
+helpid_5469=misc\zz_promotion_code_credit_memo.html
+helpid_5468=misc\zz_exchange_rate_credit_memo.html
+helpid_19690=misc\show_history_pos_cash_register_browser_option.html
+helpid_17312=misc\zzexchange_rate_payment_details_dialog_pos_doc_curr.html
+helpid_17311=misc\zzpay_in_payment_details_dialog_pos.html
+helpid_17310=misc\zzexchange_rate_payment_details_dialog_doc_curr_pos.html
+helpid_17309=misc\zzdoc_currency_payment_details_dialog_pos.html
+helpid_17313=misc\zzadvance_applied_payment_details_dialog_pos.html
+helpid_17314=misc\zzcredits_payment_details_dialog_pos.html
+helpid_17315=misc\zztotal_payment_details_dialog_pos.html
+helpid_17316=misc\zzbalance_payment_details_dialog_pos.html
+helpid_17318=misc\zznarration_payment_details_dialog_pos.html
+helpid_17307=misc\zzpayment_details_dialog_box_browser_section_pos.html
+helpid_7227=using-cash-registers\cash-register-browser\the_cash_register_browser.html
+helpid_7229=pos-setup\cash-registers\setup\profile\the_cash_register_profile_general_tab_pos_set_up.html
+helpid_7230=misc\code_gen_tab.html
+helpid_7231=misc\description_gen_tab.html
+helpid_7235=pos-setup\cash-registers\setup\profile\the_cash_register_profile_pole_tab_pos_set_up.html
+helpid_7236=misc\zzdisplay_pole_port.html
+helpid_7237=misc\zzdisplay_pole_driver.html
+helpid_7238=misc\zzreset.html
+helpid_7239=misc\zzon_welcome.html
+helpid_7240=misc\zzon_exit.html
+helpid_7241=pos-setup\cash-registers\setup\profile\the_cash_register_profile_point_of_sale_tab.html
+helpid_7242=misc\zzpause_to_print_receipt.html
+helpid_7243=misc\zzmessage_to_print_receipt.html
+helpid_7244=pos-setup\cash-registers\setup\profile\the_cash_register_profile_payment_type_tab.html
+helpid_7247=misc\zzjournal_group.html
+helpid_7248=pos-setup\cash-registers\setup\profile\the_cash_register_profile_forms_tab_pos_set_up.html
+helpid_7249=misc\zz_document_types_sales_quote.html
+helpid_7250=misc\doc_types_sales_order.html
+helpid_7251=misc\zz_doc_types_sales_invoice.html
+helpid_7252=misc\zzdoc_types_credit_quote.html
+helpid_7253=misc\zzdoc_types_credit_order.html
+helpid_7254=misc\zzdoc_types_.html
+helpid_7255=misc\zzuse_internal_report.html
+helpid_7256=misc\zzcopies.html
+helpid_7257=misc\the_cash_register_profile_payment_type_payments_tab.html
+helpid_7262=misc\the_cash_register_profile_payment_type_receipts_tab.html
+helpid_7245=misc\zzfor_payments.html
+helpid_7258=misc\zzcash_payment.html
+helpid_7259=misc\zzcheck_payment.html
+helpid_7260=misc\zzcredit_card_payment.html
+helpid_7261=misc\zzothers_payment.html
+helpid_7246=misc\zzfor_receipts.html
+helpid_7263=misc\zzcash_receipt.html
+helpid_7264=misc\zzcheck_receipt.html
+helpid_7265=misc\zzcredit_card_receipt.html
+helpid_7266=misc\zzothers_receipt.html
+helpid_7267=misc\the_cash_register_profile_payment_type_miscellaneous_tab.html
+helpid_140151=using-cash-registers\declare_the_cash_register.html
+helpid_140162=misc\mark_reconciliation_window.html
+helpid_140173=misc\show_sales_pos_cash_register_browser_option.html
+helpid_31026=misc\tax_breakdown_pos_outlook_bar.html
+helpid_140138=misc\document_discount_dialog_box_pos.html
+helpid_140139=misc\zzdiscount_doc_discount_dialog_box.html
+helpid_140140=misc\zzexclude_already_reduced_items_doc_dis_dialog_box.html
+helpid_140053=misc\held_-_point_of_sale_documents_browser.html
+helpid_140185=misc\zzgive_the_customer______change_overpayment_dialog_box.html
+helpid_140186=misc\zzapply_the_overpayment_as_a_cust_deposit_overpay_dialog_box.html
+helpid_543=misc\zz_declare_time_select_date_range_db.html
+helpid_25151=misc\the_serial_no__for_all_items_browser_pos.html
+helpid_17336=misc\zzadvance_documents_available_apply_adv_pay_details.html
+helpid_17337=misc\zzadvance_documents_applied_apply_adv_pay_details.html
+helpid_18965=misc\zztax_code_point_of_sale_line_profile.html
+helpid_140184=misc\the_overpayment_dialog_box_pos.html
+helpid_19700=misc\point_of_sale_-_sales_browser_pos.html
+helpid_19710=misc\point_of_sale_-_held_sales_documents_browser.html
+helpid_10416=misc\zzno_cash_drawer_is_connected_cash_register_prof_cash_drawer_tab.html
+helpid_10417=misc\zzcash_drawer_is_connected_to_the_printer_cash_reg_prof_cash_drawer_tab.html
+helpid_10418=misc\zzcash_drawer_is_connect_dtly_to_the_ws_cash_reg_prof_cash_drawer_tab.html
+helpid_7233=misc\zzopen_register_code_cash_reg_prof_cash_drawer_tab.html
+helpid_7232=misc\zzopen_register_port_cash_reg_prof_cash_drawer_tab.html
+helpid_17326=misc\zzaddress_verification_card_verification_db.html
+helpid_17324=misc\zzaddress_card_verification_dialog_box.html
+helpid_17322=misc\zzexpiration_card_verification_dialog_box.html
+helpid_17323=misc\zzcard_holder_card_verification_dialog_box.html
+helpid_17338=misc\zzcvv2_card_verification_dialog_box.html
+helpid_17339=misc\zztransaction_type_card_verification_dialog_box.html
+helpid_17325=misc\zzzip_card_verification_dialog_box.html
+helpid_17333=misc\zzapproval_code_pn_ref_no_card_verification_db.html
+helpid_17331=misc\zzforce_sale_card_verification_db.html
+helpid_17332=misc\zzdelayed_capture_ship_(prior_booking)_card_verification_db.html
+helpid_140480=misc\zzselect_sales_person_dialog_box_pos.html
+
+[MAP]
+#define helpid_5446 5446
+#define helpid_5450 5450
+#define helpid_5455 5455
+#define helpid_5447 5447
+#define helpid_5454 5454
+#define helpid_5456 5456
+#define helpid_5451 5451
+#define helpid_5453 5453
+#define helpid_5449 5449
+#define helpid_17304 17304
+#define helpid_5464 5464
+#define helpid_19720 19720
+#define helpid_7130 7130
+#define helpid_7131 7131
+#define helpid_7132 7132
+#define helpid_7135 7135
+#define helpid_7142 7142
+#define helpid_7148 7148
+#define helpid_7133 7133
+#define helpid_7134 7134
+#define helpid_7228 7228
+#define helpid_21901 21901
+#define helpid_21902 21902
+#define helpid_21872 21872
+#define helpid_21873 21873
+#define helpid_5392 5392
+#define helpid_5445 5445
+#define helpid_21868 21868
+#define helpid_7268 7268
+#define helpid_7269 7269
+#define helpid_7270 7270
+#define helpid_10410 10410
+#define helpid_10411 10411
+#define helpid_10413 10413
+#define helpid_7271 7271
+#define helpid_7272 7272
+#define helpid_7273 7273
+#define helpid_10412 10412
+#define helpid_542 542
+#define helpid_5394 5394
+#define helpid_5395 5395
+#define helpid_10414 10414
+#define helpid_21850 21850
+#define helpid_21851 21851
+#define helpid_21852 21852
+#define helpid_21854 21854
+#define helpid_21853 21853
+#define helpid_21855 21855
+#define helpid_21856 21856
+#define helpid_21857 21857
+#define helpid_21858 21858
+#define helpid_21869 21869
+#define helpid_21870 21870
+#define helpid_21871 21871
+#define helpid_21893 21893
+#define helpid_21894 21894
+#define helpid_21895 21895
+#define helpid_21896 21896
+#define helpid_21897 21897
+#define helpid_21898 21898
+#define helpid_21899 21899
+#define helpid_21900 21900
+#define helpid_21909 21909
+#define helpid_21910 21910
+#define helpid_21911 21911
+#define helpid_21912 21912
+#define helpid_21913 21913
+#define helpid_21914 21914
+#define helpid_23228 23228
+#define helpid_23229 23229
+#define helpid_23230 23230
+#define helpid_23231 23231
+#define helpid_23232 23232
+#define helpid_23233 23233
+#define helpid_23234 23234
+#define helpid_23235 23235
+#define helpid_18127 18127
+#define helpid_18177 18177
+#define helpid_21862 21862
+#define helpid_21860 21860
+#define helpid_21861 21861
+#define helpid_21863 21863
+#define helpid_21859 21859
+#define helpid_21908 21908
+#define helpid_17538 17538
+#define helpid_17539 17539
+#define helpid_17540 17540
+#define helpid_17541 17541
+#define helpid_17542 17542
+#define helpid_17543 17543
+#define helpid_17544 17544
+#define helpid_17537 17537
+#define helpid_5458 5458
+#define helpid_5459 5459
+#define helpid_5457 5457
+#define helpid_5461 5461
+#define helpid_5462 5462
+#define helpid_5465 5465
+#define helpid_5467 5467
+#define helpid_5469 5469
+#define helpid_5468 5468
+#define helpid_19690 19690
+#define helpid_17312 17312
+#define helpid_17311 17311
+#define helpid_17310 17310
+#define helpid_17309 17309
+#define helpid_17313 17313
+#define helpid_17314 17314
+#define helpid_17315 17315
+#define helpid_17316 17316
+#define helpid_17318 17318
+#define helpid_17307 17307
+#define helpid_7227 7227
+#define helpid_7229 7229
+#define helpid_7230 7230
+#define helpid_7231 7231
+#define helpid_7235 7235
+#define helpid_7236 7236
+#define helpid_7237 7237
+#define helpid_7238 7238
+#define helpid_7239 7239
+#define helpid_7240 7240
+#define helpid_7241 7241
+#define helpid_7242 7242
+#define helpid_7243 7243
+#define helpid_7244 7244
+#define helpid_7247 7247
+#define helpid_7248 7248
+#define helpid_7249 7249
+#define helpid_7250 7250
+#define helpid_7251 7251
+#define helpid_7252 7252
+#define helpid_7253 7253
+#define helpid_7254 7254
+#define helpid_7255 7255
+#define helpid_7256 7256
+#define helpid_7257 7257
+#define helpid_7262 7262
+#define helpid_7245 7245
+#define helpid_7258 7258
+#define helpid_7259 7259
+#define helpid_7260 7260
+#define helpid_7261 7261
+#define helpid_7246 7246
+#define helpid_7263 7263
+#define helpid_7264 7264
+#define helpid_7265 7265
+#define helpid_7266 7266
+#define helpid_7267 7267
+#define helpid_140151 140151
+#define helpid_140162 140162
+#define helpid_140173 140173
+#define helpid_31026 31026
+#define helpid_140138 140138
+#define helpid_140139 140139
+#define helpid_140140 140140
+#define helpid_140053 140053
+#define helpid_140185 140185
+#define helpid_140186 140186
+#define helpid_543 543
+#define helpid_25151 25151
+#define helpid_17336 17336
+#define helpid_17337 17337
+#define helpid_18965 18965
+#define helpid_140184 140184
+#define helpid_19700 19700
+#define helpid_19710 19710
+#define helpid_10416 10416
+#define helpid_10417 10417
+#define helpid_10418 10418
+#define helpid_7233 7233
+#define helpid_7232 7232
+#define helpid_17326 17326
+#define helpid_17324 17324
+#define helpid_17322 17322
+#define helpid_17323 17323
+#define helpid_17338 17338
+#define helpid_17339 17339
+#define helpid_17325 17325
+#define helpid_17333 17333
+#define helpid_17331 17331
+#define helpid_17332 17332
+#define helpid_140480 140480

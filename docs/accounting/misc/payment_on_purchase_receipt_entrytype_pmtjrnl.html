@@ -1,0 +1,42 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payment-on-purchase-invoice">Payment on Purchase Invoice</h1>
+
+<p>Select this option if you are making partial payment or complete settlement  on an existing purchase invoice.</p>
+
+<p>When this entry type is selected:</p>
+
+<ul>
+  <li>The <strong>Purchase 
+ Invoice</strong> number should be specified in the <strong>Document 
+ #</strong> column of the <strong>Transaction Entries</strong>  section.</li>
+  <li>The <strong>Account</strong>  listed is the <strong>Accounts Payable</strong>  account used in the document and it can only be debited. This account  defaults from the <strong>Accounts Payable</strong>  field (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Posting 
+ Groups</strong> &gt; <strong>Posting Group</strong>  profile) of the Vendor Posting Group type for the vendor specified in  the document, but it can be changed in the document. To change the Accounts  Payable account used in the document, from the Purchase Invoice profile,  select <strong>Options</strong> &gt; <strong>Document</strong>  &gt; <strong>Posting Accounts Information</strong>.  On the <strong>Posting Accounts</strong> <strong>Information</strong> window, in the <strong>Accounts 
+ Related to Vendor</strong> section, click Accounts Payable and select a  new account from the drop-down list.</li>
+  <li>The <strong>Debit</strong> column automatically displays the outstanding amount on the selected  document.</li>
+</ul>
+
+<p class="example"><strong>The Vendor on Purchase Invoice 30087 is Fast  Heels Shoes and there is a $25 balance due on this invoice. No posting  groups are defined at the Vendor, Vendor Class or Location/Sub-Location  levels. The **Accounts Payable</strong> field  of the default Vendor Posting Group type is <strong>ap-con</strong>.  If you click on the Transactions tab in the document, you can see that  this account is used. This is the account listed in the <strong>Transactions 
+ Entries</strong> section of the Payments Journal for the <strong>Payment 
+ on Purchase</strong> <strong>Invoice</strong> entry  type for document number 30087. In this example, the following values  are listed:**</p>
+
+<p><strong>**Document 
+ #</strong>:    <strong>300287</strong>**</p>
+
+<p><strong>**Account</strong>:            <strong>ap-con</strong>**</p>
+
+<p><strong>**Debit</strong>:                <strong>$25.00</strong>**</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/vendor-payments-and-refunds/payment-jrnl-dtls/transaction-entries/entry_types_details.html">Entry Types -  Details</a></dd>
+</dl>
+
+
+
+
+</div>

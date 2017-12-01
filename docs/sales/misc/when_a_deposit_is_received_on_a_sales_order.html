@@ -1,0 +1,46 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="when-a-deposit-is-received-on-a-sales-order">When a Deposit is Received on a Sales Order</h1>
+
+<p>The following accounting entry is created when a new deposit is received  on a sales order in the receipt journal.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entry Type</td>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit/<br /><br /><br />Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Payment by cash/check/credit card/others</td>
+      <td>Bank Account</td>
+      <td>The account defined in the <strong>Account</strong>  field of the <strong>Payment Method</strong> profile  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Payment</strong><strong>Methods</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In <br /> New Window</strong>)</td>
+      <td>Debit</td>
+      <td>The amount of deposit received at the payment rate</td>
+    </tr>
+    <tr>
+      <td>Deposit on Sales Order</td>
+      <td>Customer Deposit Account</td>
+      <td>The account selected for <strong>Customer</strong><strong>Deposits</strong> in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Posting Grouop</strong> tab)of Customer  Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_customer_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  Order for Customer Posting Group</a></td>
+      <td><font color="#000000" class="hcp8">Credit</font></td>
+      <td><font color="#000000" class="hcp8">The amount of deposit received at the document rate</font></td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/pmts-on-so/rcpt-dlg/accounting_entries.html">Accounting Entries  - Payments from Customers</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/pmts-on-so/rcpt-dlg/back_end_processes_deposit_received_on_a_sales_order.html">Back  End Processes - Deposit on a Sales Order</a></dd>
+</dl>
+
+
+
+
+</div>

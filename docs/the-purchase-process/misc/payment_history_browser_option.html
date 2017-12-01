@@ -1,0 +1,68 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payment-history-browser-option">Payment History Browser Option</h1>
+
+<p>The browser options available in <strong>Payment 
+ History</strong> screen are mentioned below:</p>
+
+<dl>
+  <dt><strong>Purge</strong></dt>
+  <dd>Purging deletes the transaction permanently from  the database and it will not appear anywhere in <strong>Everest</strong>  . A transaction can be purged only if it is an unposted transaction irrespective  of whether it is a:</dd>
+</dl>
+
+<ul>
+  <li>Check printed  transactions</li>
+  <li>Reversal transactions</li>
+  <li>Transactions  for which checks have not yet been printed</li>
+</ul>
+
+<ul class="note">
+  <li>Adequate security  right is needed to purge a transaction.</li>
+  <li>The customer/ vendor  balances will change and revert  back  to the  balance  amount that was there  before  the transaction took place.</li>
+  <li>You cannot purge  a transaction if it results in document balance becoming negative or if  the balance becomes double.</li>
+</ul>
+
+<p class="example">In a sales document, if a receipt is purged  the customer balances will be the same amount as it was before recording  the receipt. If the refund is purged the customer balances will display  the same amount as it was before recording the refund.</p>
+
+<dl>
+  <dt><strong>Void</strong></dt>
+  <dd>Changes the amount in the transaction to $0.00 (zero),  and the customer/vendor associated with this transaction will be removed.  A transaction can be voided only if it is an UNPOSTED transaction irrespective  of the following types:</dd>
+</dl>
+
+<ul>
+  <li>Check Printed  Transactions</li>
+  <li>Transaction  for which checks have not yet been printed</li>
+</ul>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/voiding-transactions-payment-register/void_dialog_box_payment_register_brow.html">Void  dialog box</a></p>
+
+<dl>
+  <dt><strong>Reverse</strong></dt>
+  <dd>Creates a new transaction with exactly opposite  data. An unposted or posted transaction for which the Payment Status  is  <strong>Outstanding</strong> can be reversed.  This  means transactions which use the payment method <strong>Check</strong>  can be reversed only if a check has been printed for it. Transactions  that use payment methods of the type: <strong>Cash</strong>,  <strong>Credit Card</strong>, <strong>Others</strong>  always have the Payment Status as <strong>Outstanding</strong>  and can be reversed.</dd>
+  <dd>Reverse is not possible on the following types of  transactions:</dd>
+</dl>
+
+<ul>
+  <li>Already Reversed  Transactions</li>
+  <li>Reversal Transactions</li>
+  <li>Cleared/ Reconciled  Transactions</li>
+  <li>Voided Transactions</li>
+</ul>
+
+<p class="note">Adequate security right is needed to view  the <strong>Reverse</strong> dialog box.</p>
+
+<p><strong><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/accounting/misc/reverse_dialog_box_payment_history_screen.html">Reverse  dialog box</a></strong></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/voiding-transactions-payment-register/voiding_transactions_from_the_payment_register.html">Void  Payment/Refund Transactions - Payment Register</a></dd>
+</dl>
+
+
+
+
+</div>

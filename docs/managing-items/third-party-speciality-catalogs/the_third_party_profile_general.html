@@ -1,0 +1,35 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-third-party-profile---general">The Third Party Profile - General</h1>
+
+<p>Use the <strong>General</strong> tab of the <strong>Third Party</strong> profile to specify details  such as the code and it’s description etc.</p>
+
+<dl>
+  <dt><strong>Catalog code</strong></dt>
+  <dd>Enter the unique code to identify the third party  catalog being defined, using 1 to 15 characters of the supported type  to define the code. The code you enter here will be used to create a subdirectory  within the company folder. When you import the third party data, the data  is copied to this subdirectory.</dd>
+  <dt><strong>Default</strong></dt>
+  <dd>Select this check box if the third party catalog  is the default catalog. When you save this <strong>Third 
+ Party Catalog</strong> profile, no other catalog will have the <strong>Default</strong> field checked.</dd>
+  <dt><strong>Catalog description</strong></dt>
+  <dd>Enter a suitable description for the third party  catalog, using 1 to 40 characters of any type to define the description.</dd>
+  <dt><strong>Special order item code to be used</strong></dt>
+  <dd>Specify a suitable non-inventoried item for the  third party.</dd>
+  <dd>When you select an item from a third party catalog  in a sales order, <strong>Everest</strong> uses  the item code mentioned here in the order since the item does not exist  in your database and is available only in the third party catalog. The  item code pertaining to the third party catalog is displayed in the <strong>Third Party Code</strong> column of the Item  Details Grid in the <strong>Sales Order</strong>  profile.</dd>
+  <dd>When a Third Party Item is added to a sales document,  the Model of the Third Party Item is compared to the Model of all the  items in the company’s ITEMS table. If an item is found in the company’s  ITEMS table with a matching Model that item is added to the document as  a company item. If no item with a matching Model is found the Third Party  Item is added to the sales document.</dd>
+  <dt><strong>Default Category</strong></dt>
+  <dd>Specify the default category for the third party  items to be imported. The <strong>Category</strong>  field defined in the <strong>Item</strong> profile  (Third Party) defaults to the category defined here.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/third-party-speciality-catalogs/third_parties_browser.html">Items  View</a></dd>
+  <dt><strong>Default vendor code</strong></dt>
+  <dd>Specify the default vendor for the third party.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/misc/special_pricing_for_third-party_catalog_items.html">Special  Pricing for Third-party Catalog Items</a></dd>
+</dl>
+
+
+
+
+</div>

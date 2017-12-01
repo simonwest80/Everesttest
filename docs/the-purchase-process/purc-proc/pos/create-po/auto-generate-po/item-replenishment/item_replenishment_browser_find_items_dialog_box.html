@@ -1,0 +1,87 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="item-replenishment-browser">Item Replenishment Browser</h1>
+
+<p>This browser allows you to replenish the items and generate purchase  orders. It displays a list of the primary vendors or vendors with lowest  standard cost with their respective item codes, standard cost, last cost,  lead time, EOQ, purchase measure, and whether the vendor is a primary  vendor or not.</p>
+
+<p>The result of the parameters that you set for filtering in <strong>Automated 
+ Purchases</strong> dialog box will appear in this browser. If you have selected  multiple locations in <strong>Automated Purchases</strong>  dialog box, the details in the browser is divided based on the location.  Otherwise, the details will appear according to the primary vendor.</p>
+
+<dl>
+  <dt><strong>Planned Quantity</strong></dt>
+  <dd>The <strong>Planned Quantity</strong>  is the quantity selected on the <strong>Planned 
+ Quantity</strong> – <strong>Replenish Inventory 
+ To</strong> field of the <strong>Automated Purchases</strong>  – <strong>Replenishment</strong> tab. This field  displays the Maximum Quantity, Reorder Point, or Minimum Quantity for  each item depending upon your previous selection.</dd>
+  <dt><strong>Transit (In)</strong></dt>
+  <dd>This column shows the stock that is transferred  to the requesting location.</dd>
+  <dt><strong>Transit (Out)</strong></dt>
+  <dd>This column shows the stock that is transferred  out of the origin location.</dd>
+  <dt><strong>Required</strong></dt>
+  <dd>The <strong>Required</strong>  field displays the adjusted required quantity based on your selections  in the <strong>Automated</strong><strong>Purchases</strong> dialog box. Adjust  the <strong>Required</strong> quantity to purchase  as needed. The <strong>Required</strong> quantity  defaults to the same decimal accuracy as the purchase measure. Your field  selections for <strong>Purchase in Increments 
+ of Vendor EOQ</strong>, <strong>Do Not Exceed Panned 
+ Quantity</strong>, and <strong>Planned Quantity 
+ – Replenish Inventory To</strong> in the <strong>Automated 
+ Purchases</strong> dialog box can change this required quantity.</dd>
+</dl>
+
+<p class="note">This field includes the quantity that is In  transit. For the source location, it will show a decrease of the transferred  quantity and calculate the replenishment. For the destination location,  it will show an increase in the transferred quantity at the Completed  stage and calculate replenishment.</p>
+
+<p>The browser options for the <strong>Item Replenishment</strong>  browser are detailed below:</p>
+
+<dl>
+  <dt><strong>Change Vendor</strong></dt>
+  <dd>This option allows you to change the vendor for  the selected item. Select either the <strong>Associated 
+ Vendors</strong> or <strong>All Vendors</strong>  sub-option to bring up the <a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/create-po/auto-generate-po/item-replenishment/replenishment_details_browser_option_change_vend_item_rep_brow.html"><strong>Replenishment Details</strong> browser</a> <em>**</em> based on your selection.</dd>
+</dl>
+
+<ul>
+  <li>
+    <p><strong>Associated 
+ Vendor</strong> - Allows you to view the list of vendors that are associated  with the item.</p>
+  </li>
+  <li>
+    <p><strong>All 
+ Vendors</strong> - Allows you to view a list of all the vendors irrespective  of whether they are associated with the item or not.</p>
+  </li>
+</ul>
+
+<p>: The <strong>All Vendors</strong>  sub-option is useful when you have to generate a purchase order for a  vendor not defined for the item. In the <strong>Replenishment 
+ Details</strong> browser, click the vendor that you want to associate with  the selected item.</p>
+
+<dl>
+  <dt><strong>Select all Items</strong></dt>
+  <dd>This option allows you to select all the items in  this browser.</dd>
+  <dt><strong>Select Items (Current Vendor)</strong></dt>
+  <dd>This option allows you to select the items for the  vendor selected in the <strong>Automated Purchases</strong> dialog box.</dd>
+  <dt><strong>Unselect Items (Current vendor)</strong></dt>
+  <dd>This option allows you to deselect the items for  the vendor selected in the <strong>Automated 
+ Purchases</strong> dialog box.</dd>
+  <dt><strong>Mark Selected Item</strong></dt>
+  <dd>This option allows you to mark (select) the item  currently selected in this browser.</dd>
+  <dt><strong>Item Stock Status</strong></dt>
+  <dd>This option displays the stock status of the selected  item in <strong>Item 
+ Stock Status</strong> browser.</dd>
+  <dt><strong>Item Purchase History</strong></dt>
+  <dd>This option displays the purchase history of the  selected item in the <strong>Item 
+ Purchase History</strong> browser.</dd>
+  <dt><strong>Generate POs</strong></dt>
+  <dd>Creates purchase order for the selected items. The  <strong>Purchase 
+ Order Status</strong> dialog box appears after the purchase order is  created. Double-click on the item to view the purchase order. If you have  multiple locations, you can create one purchase order for each location  or one purchase order for all locations depending upon your <strong>Purchase 
+ Order Generation Selection Method</strong> selection on the <strong>Automated</strong><strong>Purchases</strong> dialog box – <strong>Replenishment</strong>  tab.</dd>
+  <dd><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/create-po/auto-generate-po/item-replenishment/find_item_replenishment_-_replenishment_tab.html">Automated  Purchases - Replenishment tab</a></dd>
+  <dt><strong>Generate PO (Current Vendor)</strong></dt>
+  <dd>Creates purchase orders for the vendor selected  in the <strong>Automated Purchases</strong> dialog  box.</dd>
+  <dt>Options common to all browsers are also available in this  browser.</dt>
+  <dd><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/working-with-everest/everest-client/ui/browsers/standard_browser_options.html">Standard  Browser Options</a></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/create-po/auto-generate-po/item-replenishment/automated_purchases_-_item_replenishment.html">Automated  Purchases Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,64 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="tax-amount">Tax Amount</h1>
+
+<p>The <strong>Tax Amount</strong> column displays  the total amount of tax applied to each line item. The system bases the  tax calculation on the following factors:</p>
+
+<ul>
+  <li>FOB Type</li>
+  <li>Apply Tax Rate  to Add-On Costs option</li>
+  <li>Tax Inclusive/Exclusive</li>
+</ul>
+
+<p><strong>FOB Type and Apply Tax Rate to Add-on Costs</strong></p>
+
+<p>The tax calculation depends on whether the document is set to FOB Origin  or FOB Destination.</p>
+
+<ul>
+  <li>
+    <p><strong>FOB 
+ Origin</strong> - the system never includes add-on costs in calculating  the tax. The amount of tax is simply the cost minus any discount multiplied  by the tax rate:
+Tax = (Cost – Discount) * Tax Rate</p>
+  </li>
+  <li><strong>FOB 
+ Destination</strong> - tax calculations depend on whether you checked the  <strong>Apply tax rate to Add-on Costs</strong>  option in the Tax Component profile.</li>
+  <li>
+    <p>If the option  is checked, the tax calculates as follows:
+Tax = ((Cost – Discount) + Add-on Costs) * Tax Rate</p>
+  </li>
+  <li>If the option  is unchecked, the tax calculates as follows:
+Tax = (Cost – Discount) * Tax Rate</li>
+</ul>
+
+<p><strong>Tax Inclusive/Exclusive</strong></p>
+
+<p>For items set as Tax Inclusive in the Items profile (path: Inventory  &gt; Items &gt; Options &gt; Edit &gt; In New Window &gt; Purchases tab),  the system first deducts the tax from the item cost before subtracting  the Discount Value. Tax Exclusive items do not require any adjustments.</p>
+
+<p class="example">You have a purchase receipt set to FOB Destination  with two line items. The first line item has a tax component with the  <strong>Apply tax rate to Add-on costs</strong>  option checked, so the system includes the add-on costs in the calculation  for that item. The second line item has a tax component with the <strong>Apply tax rate to Add-on Costs</strong> option  unchecked, so the system omits the add-on costs for that item. In the  same scenario but with the purchase receipt set to FOB Origin, the system  does not include the add-on costs for either item.</p>
+
+<p>If you enter the tax code after entering discount information, the system  recalculates the discount percent, discount value, and the cost after  discount.</p>
+
+<p>By default, the tax is displayed in the currency defined for the selected  vendor. If the currency defined for the vendor is different from the base  currency, select <strong>Options</strong> &gt;  <strong>View</strong> <strong>in</strong><strong>Document</strong> <strong>Currency</strong>  from the purchase document profile to view the tax amount in the base  currency.</p>
+
+<p>Select the <strong>View</strong> <strong>in</strong><strong>Document</strong> <strong>Currency</strong>  option again to view the tax amount in foreign currency.</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/tabs/details/for-cur-info/foreign_currency_document.html">Foreign Currency  Documents</a></p>
+
+<p>Select the option <strong>Tax</strong> <strong>Breakdown</strong> (path: <strong>Options</strong>  &gt; <strong>Payment</strong> &gt; <strong>Tax 
+ Breakdown</strong>) to view the tax component-wise breakup of taxes paid  on the document.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/item-info/item_information_pp.html">Item Information</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/sales-tax/set-up-tax-codes-and-components/tax-component/tax_components.html">Tax  Components</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/modify_tax_recoverable_tax_amounts_purchase_process.html">Modify  Tax/Recoverable Tax Amounts</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,51 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---create-a-debit-order">Back End Processes - Create a Debit Order</h1>
+
+<p>When you create a debit order, the following back end processes occur:</p>
+
+<ul>
+  <li>The next sequence  number of the debit order is generated automatically by the system.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/return-proc/doc-prof/contents/document-information/document_number_pr.html">Document  Number</a></strong></p>
+
+<ul>
+  <li>A debit quote number  is assigned to the debit order. The next sequence number specified for  debit quotes in the <strong>Location</strong> profile  is assigned to the quote. This is used to change the order back to a quote,  if the debit order is cancelled.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/set-up-locations/the_location_profile.html">Location  Profile</a></strong></p>
+
+<ul>
+  <li>The debit order  is initially assigned the status ‘open’.</li>
+  <li>The following changes  occur in the stock status of the item as viewed in the <strong>Item 
+ Stock Status</strong> dialog box:</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Column</td>
+      <td>Stock Increase/Decrease</td>
+    </tr>
+    <tr>
+      <td>On Debit</td>
+      <td>Increases by quantity of the item returned.</td>
+    </tr>
+    <tr>
+      <td>Available Quantity</td>
+      <td>Decreases by the quantity returned.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/misc/columns_in_the_item_stock_status_dialog_box.html">Item  Stock Status</a></p>
+
+
+
+
+</div>

@@ -1,0 +1,10 @@
+advanced-set-up-options,options
+accounting-information,acc-info
+chart-of-accounts,coa
+set-up-chart-of-accounts,setup-coa
+the-country-profile,profile
+the-country-profile-menu-option,menu-option
+set-up-multicurrency,setup
+defining-currencies,defining
+currency-details,details
+display-and-printing-information,print-info

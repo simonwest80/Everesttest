@@ -1,0 +1,35 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---purging-receipt-journals">Back End Processes - Purging Receipt Journals</h1>
+
+<p>The processes in the back end when a receipt journal is purged are:</p>
+
+<ul>
+  <li>The customer’s  unposted amount and net balance increases, if the customer was credited  in the purged transaction. The customer’s unposted amount decreases, if  the customer was debited in the purged transaction.</li>
+  <li>
+    <font style="color: #000000;" color="#000000">If the entry type for receipt was 'miscellaneous deposit', 
+ the manual Sales Order that was created for the transaction is deleted.</font>
+  </li>
+  <li>
+    <p>If payment  discounts were recorded in the purged transaction, the <strong>Payment 
+ Discount</strong> field on the associated sales invoice changes based on  the following rules:</p>
+  </li>
+  <li>The <strong>Payment 
+ Discount</strong> field reduces by the amount debited to the sales discount  account.</li>
+  <li>The <strong>Payment 
+ Discount</strong> field increases by the amount credited to the sales discount  account.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/customer-receipts-and-refunds/receipt-jrnl-proc/rcp-jrnl-purge-trans/voiding_receipts_journals.html">Purging  Receipt Journals</a></dd>
+</dl>
+
+
+
+
+</div>

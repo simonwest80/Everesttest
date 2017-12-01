@@ -1,0 +1,105 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="define-a-decimal-accuracy-measure">Define a Decimal Accuracy Measure</h1>
+
+<p class="steps">To define a measure using Decimal accuracy,  do the following:</p>
+
+<ul>
+  <li>On the <strong>Measure</strong>  profile <strong>General</strong> tab, in the <strong>Measure Code</strong> field, enter a unique code  for your measure.</li>
+  <li>Enter a description for the measure in the <strong>Description</strong> field.</li>
+  <li>In the <strong>Quantity 
+ Entry Method</strong> field, select <strong>Decimal</strong>.</li>
+  <li>In the <strong>Quantity 
+ Decimal Accuracy</strong> field, select the number of decimal places to  be used for this measure. It should be between 0 and 6.</li>
+  <li>On the <strong>Measure</strong>  profile <strong>Conversion Factor</strong> tab,  in the <strong>Measure</strong> field, enter the  measure allowed for the conversion of this measure or select it from the  drop-down list.</li>
+  <li>In the <strong>Conversion</strong>  field, enter the conversion factor for the measure listed.</li>
+  <li>Right click and select <strong>Insert</strong>  to enter additional conversion factors allowed for this measure. Right  click and select <strong>Delete</strong> to remove  any unneeded conversion factors.</li>
+  <li>Click the <strong>Save</strong>  button to save your defined measure.</li>
+</ul>
+
+<p class="example">Your Company buys and sells cigarettes and  you would like to have the following unit of measures:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Measure</td>
+      <td>Equivalent</td>
+    </tr>
+    <tr>
+      <td>Each</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Pack</td>
+      <td>20 Cigarettes</td>
+    </tr>
+    <tr>
+      <td>Box</td>
+      <td>10 Packs</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In the <strong>Measure</strong> profile for <strong>BOX</strong>, your System Administrator selects  <strong>Each</strong> and <strong>Pack</strong>  to define the conversion factors. The conversion factors entered are 200  for Each (1 BOX = 200 Cigarettes) and 10 for Pack (1 BOX = 10 PACKS).  Also, the System Administrator enters the number of digits to round off  as 0 (Decimal Accuracy = 0). Conversion factors for Each (EA) and Pack  are added automatically.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Measure</td>
+      <td>Equivalent</td>
+      <td>Conversion Factor Tab shows:</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Measure</td>
+      <td>Conversion</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Box</td>
+      <td>10 Packs</td>
+      <td>EA<br /><br /><br />PACK</td>
+      <td>200<br /><br /><br />10</td>
+    </tr>
+    <tr>
+      <td>Each (EA)</td>
+      <td>1 Item</td>
+      <td>BOX<br /><br /><br />PACK</td>
+      <td>0.005<br /><br /><br />0.05</td>
+    </tr>
+    <tr>
+      <td>Pack</td>
+      <td>20 Cigarettes</td>
+      <td>BOX<br /><br /><br />EA</td>
+      <td>0.1<br /><br /><br />20</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/versata-everest-docs/managing-items/img/measure profile conversion factor decimal box.gif" alt="" /></p>
+
+<p><strong>The Measure Profile – Conversion Factor Tab –  BOX</strong></p>
+
+<p><img src="/versata-everest-docs/managing-items/img/measure profile conversion factor - ea.gif" alt="" /></p>
+
+<p><strong>The Measure Profile – Conversion Factor Tab –  EA</strong></p>
+
+<p><strong><img src="/versata-everest-docs/managing-items/img/measure profile conversion factor decimal pack.gif" alt="" /></strong></p>
+
+<p><strong>The Measure Profile – Conversion Factor Tab –  PACK</strong></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/misc/the_measure_profile_conversion_factor_tab.html">The  Measure Profile - Conversion Factor Tab</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/measure/measure_profile_general_tab.html">The Measure  Profile</a></dd>
+</dl>
+
+
+
+
+</div>

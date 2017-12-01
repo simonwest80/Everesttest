@@ -1,0 +1,38 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="entering-quantities-committed">Entering Quantities Committed</h1>
+
+<p>Enter the quantity committed in the <strong>Committed</strong>  column of the <strong>Item Details Grid</strong>.  The committed quantities are assigned to an ‘out’ type of stock area.</p>
+
+<p class="note">An entry can be made in the <strong>Committed</strong>  column only for inventoried items. In the case of a non-inventoried line  item, this column displays a cross mark.</p>
+
+<p><strong>Serialized Items</strong></p>
+
+<p>If the item is serialized/auto-serialized, serial  numbers are generated for the quantities committed. Serial numbers are  generated in a series that starts from the next serial number specified  for the logged in location or location of the logged in location/sub-location.  This series is specified in the <strong>Location</strong> profile (path: <strong>File</strong> &gt;  <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location</strong>/<strong>Sub-Location</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In</strong> <strong>New</strong><strong>Window &gt; Inventory</strong> tab).</p>
+
+<p>If the serial number is not specified for the logged in location or  sub-location, then the next serial number specified for the <strong>Default 
+ Location</strong> (path: <strong>File</strong> &gt;  <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong>) is used.</p>
+
+<p class="note">An entry can be made in the Committed column only for  inventoried items. In the case of a non-inventoried line item, this column  displays a cross mark.</p>
+
+<p>The quantity committed on a purchase order cannot exceed  the quantity orders.</p>
+
+<p>When you attach a serial number of an item that is not  present on the document, you are prompted that the item does not exist  on the document. To attach the item to the document click <strong>Yes</strong>.  This prompt will be displayed only if you select the <strong>Prompt 
+ when trying to retrieve and serialize an item that is not present on a 
+ document</strong> option (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow</strong> <strong>Control</strong>  &gt; <strong>Documents</strong> &gt; <strong>Miscellaneous</strong>  &gt; <strong>Others - Others 2</strong>tab).</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/sequence_numbers_departments.html">Sequence  Numbers</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location/Sub-Location</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/po-processes/cmt-items-po/enter-cmt-qty/cmt-items/stock_area_to_which_committed_quantities_are_assigned_po.html">Stock  Area to Which Committed Quantities are Assigned</a></dd>
+</dl>
+
+
+
+
+</div>

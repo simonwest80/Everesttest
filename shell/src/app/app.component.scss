@@ -1,0 +1,29 @@
+
+
+.mat-sidenav  {
+    width: 300px;
+    box-shadow: 6px 0 6px rgba(0,0,0,.1);
+}
+.mat-sidenav::-webkit-scrollbar { 
+    width:6px; 
+    height:6px;
+    display: block;
+    overflow: auto;
+}
+
+
+.mat-sidenav::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+}
+
+.mat-toolbar {
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    padding:0;
+}
+
+.mat-sidenav-container {
+    margin-top:64px; /*header height*/
+}

@@ -1,0 +1,38 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="tax">Tax</h1>
+
+<p>The <strong>Tax</strong> column indicates whether  the selling price of the item selected in a sales document is ‘Inclusive  of Tax’ (I)  or ‘Exclusive of Tax’  (E).</p>
+
+<p>Tax is included in the selling price of an item if the <strong>Tax 
+ inclusive selling price</strong> check box is selected in the <strong>Sales</strong>  tab of the <strong>Item</strong> profile.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item/the_item_profile_-_sales_tab.html">Item  Profile - Sales Tab</a></p>
+
+<p>When the selling price of an item includes tax, this column displays  ‘<strong>I’</strong>. This indicates that tax is  included in the selling price. The <strong>Amount</strong>  column displays the selling price of the item excluding the tax amount.</p>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> The  item price, which is tax <strong>inclusive</strong>,  is $ 110 and the sales tax is 10%. When you select this item in a sales  document, the <strong>Tax</strong> column in the  item details grid displays $ 10 and the <strong>Amount</strong>  column will show $ 100.  The  document balance is $110.</p>
+
+<p>The item price, which is tax <strong>exclusive</strong>,  is $ 110 and the sales tax is 10%. When you select this item in a sales  document the <strong>Tax</strong> column in item  grid displays $ 11 and the <strong>Amount</strong>  column will show $ 110. The balance in the document displays $(110 + 11)  = $121.</p>
+
+<p class="note">The Tax amount is has a decimal accuracy of  six.</p>
+
+<p>Discount is computed differently for items whose price includes tax.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/item-info/disc-dtls/discount_value_discount_percent_item_details_grid_sales_content.html">Discounts  on Items whose Price Includes Tax</a></p>
+
+<p class="note">Tax cannot be computed properly if an item is tax inclusive  and the tax code associated with that item has one or more tax components  with tax base limit. If the tax component has a base limit, items should  be set with tax exclusive price wherever possible. In case a tax component  with a tax limit base is associated with a tax inclusive priced item,  <strong>Everest</strong> clears the tax code and  amount fields for that item. You may manually select a valid tax code  for such items if desired.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/item-info/details/item_details_item_details_grid_sales_process_content.html">Item  Details</a></dd>
+</dl>
+
+
+
+
+</div>

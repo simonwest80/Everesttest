@@ -1,0 +1,32 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="received-to-date-column">Received to Date Column</h1>
+
+<p>The <strong>Received to Date</strong> column  is based on the total quantity received at the time of making the invoice  and will not be updated based on subsequent receipts to the purchase order.  You cannot manually update the <strong>Received 
+ to Date</strong> field for a line item; however it is automatically updated  when the <strong>Received</strong> field is modified.</p>
+
+<p>When you create a purchase invoice directly (without first creating  a purchase order or receipt), this column displays a zero.</p>
+
+<p>When you convert a purchase receipt to a purchase invoice, this column  populates with the quantity in the Received column.</p>
+
+<p>When you convert a purchase order to a purchase invoice, this column  populates with the quantity in the Ordered column of the order at the  time you converted it if there is no committed quantity. This quantity  displays zero if you select the option <strong>Set 
+ the quantity received value to zero when converting a purchase order to 
+ a purchase invoice</strong> (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Others</strong> tab &gt; <strong>Others</strong>  1 tab).</p>
+
+<p class="example">Click the following link for an example that  illustrates how the <strong>Received to Date</strong>  field changes for a line item when you create a purchase receipt and purchase  invoices from the same purchase order:</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/the-purchase-process/misc/received_to_date_field_example_pi_pur.html">Received  to Date Field Example</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/ordered_ord_not_inv_rec_rec_not_inv_inv_recd_on_inv_pur.html">Ordered,  Ordered but not Invoiced, Received, Received to Date, Received but not  Invoiced, and Invoiced Columns in Purchase Invoices</a></dd>
+</dl>
+
+
+
+
+</div>

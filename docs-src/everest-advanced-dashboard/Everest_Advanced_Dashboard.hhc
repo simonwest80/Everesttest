@@ -1,0 +1,276 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="toc">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800002">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest Advanced Dashboard">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Introduction">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Features of the Everest Advanced Dashboard">
+        <param name="Local" value="introduction\features_of_the_everest_advanced_dashboard.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Dashboard Analytics">
+        <param name="Local" value="introduction\dashboard_analytics_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Assumptions">
+        <param name="Local" value="introduction\assumptions_everest_advanced_dashboard.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Data Warehouse Overview">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Data Warehouse Terms">
+        <param name="Local" value="data-warehouse-overview\data_warehouse_terms_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Data Warehouse Overview">
+        <param name="Local" value="data-warehouse-overview\data_warehouse_overview_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Additional Information">
+        <param name="Local" value="data-warehouse-overview\additional_information_ead.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Create and Set Up the Database and Dashboard">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set Up the Database">
+        <param name="Local" value="create-and-set-up-the-database-and-dashboard\set_up_the_database_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create the Data Warehouse">
+        <param name="Local" value="create-and-set-up-the-database-and-dashboard\create_the_data_warehouse_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="ETL Job Scheduling">
+        <param name="Local" value="create-and-set-up-the-database-and-dashboard\etl_scheduling_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="ETL History Browser">
+        <param name="Local" value="create-and-set-up-the-database-and-dashboard\etl_history_browser_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="ETL History Details Browser">
+        <param name="Local" value="create-and-set-up-the-database-and-dashboard\etl_history_details_dialog_box_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set Up the Dashboard">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set Up the Dashboard">
+          <param name="Local" value="create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\set_up_the_dashboard_ead.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Dashboard Setup Profile - Dashboard Setup Tab">
+          <param name="Local" value="create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\dashboard_setup_tab_dashboard_setup_profile_ead.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Dashboard Setup Profile - Cache Settings Tab">
+          <param name="Local" value="create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\cache_settings_tab_dashboard_setup_profile_ead.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cache Management">
+          <param name="Local" value="create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\cache_management_set_up_the_dashboard_ead.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="How Old is the Data in My Web Parts?">
+          <param name="Local" value="create-and-set-up-the-database-and-dashboard\set-up-the-dashboard\how_old_is_the_data_in_my_web_parts_ead.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Configure the Default Dashboard for Users">
+        <param name="Local" value="create-and-set-up-the-database-and-dashboard\configure_the_default_dashboard_for_users_ead.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Working with the Everest Web Part Wizard">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create a Web Part">
+        <param name="Local" value="working-with-the-everest-web-part-wizard\create_a_web_part_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create an Analysis Web Part">
+        <param name="Local" value="working-with-the-everest-web-part-wizard\create_an_analysis_web_part_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Rename a Web Part">
+        <param name="Local" value="working-with-the-everest-web-part-wizard\rename_a_web_part_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify a Web Part">
+        <param name="Local" value="working-with-the-everest-web-part-wizard\modify_a_web_part_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Remove a Web Part from a Site">
+        <param name="Local" value="working-with-the-everest-web-part-wizard\remove_a_web_part_from_a_site_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Add an Advanced Query Builder Filter Web Part">
+        <param name="Local" value="working-with-the-everest-web-part-wizard\add_an_advanced_query_builder_filter_web_part_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create an Advanced Query Builder Dashboard Filter">
+        <param name="Local" value="working-with-the-everest-web-part-wizard\create_an_advanced_query_builder_dashboard_filter_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify an Advanced Query Builder Web Part">
+        <param name="Local" value="working-with-the-everest-web-part-wizard\modify_an_advanced_query_builder_web_part_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tips for Creating Web Parts">
+        <param name="Local" value="working-with-the-everest-web-part-wizard\tips_for_creating_web_parts_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Import a Web Part">
+        <param name="Local" value="working-with-the-everest-web-part-wizard\import_a_web_part_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Web Part Maintenance">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Web Part Maintenance">
+          <param name="Local" value="working-with-the-everest-web-part-wizard\web-part-maintenance\web_part_maintenance_working_with_the_ewpw_ead.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cube Usage-Based Optimization">
+          <param name="Local" value="working-with-the-everest-web-part-wizard\web-part-maintenance\cube_usage-based_optimization_web_part_maintenance_ead.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Analysis Services">
+        <param name="Local" value="working-with-the-everest-web-part-wizard\analysis_services_ead.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Share Point Services Basics (Based on Windows Network Users)">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Share Point Services Basics">
+        <param name="Local" value="share-point-services-basics-based-on-windows-network-users-\share_point_services_basics_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Add a User">
+        <param name="Local" value="share-point-services-basics-based-on-windows-network-users-\add_a_user_share_point_services_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Remove a User">
+        <param name="Local" value="share-point-services-basics-based-on-windows-network-users-\remove_a_user_share_point_services_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Create an Everest Advanced Dashboard Sub-Site">
+        <param name="Local" value="share-point-services-basics-based-on-windows-network-users-\create_an_everest_advanced_dashboard_sub-site_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Return to the Main Everest Dashboard">
+        <param name="Local" value="share-point-services-basics-based-on-windows-network-users-\return_to_the_main_everest_dashboard_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Access a Sub-Site from the Main Everest Dashboard">
+        <param name="Local" value="share-point-services-basics-based-on-windows-network-users-\access_a_sub-site_from_the_main_everest_dashboard_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Add Users to a Sub-Site">
+        <param name="Local" value="share-point-services-basics-based-on-windows-network-users-\add_users_to_a_sub-site_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Additional Information on Microsoft Windows SharePoint Services">
+        <param name="Local" value="share-point-services-basics-based-on-windows-network-users-\additional_information_on_microsoft_windows_sharepoint_services_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="View Help Files from Everest Advanced Dashboard">
+        <param name="Local" value="share-point-services-basics-based-on-windows-network-users-\view_help_files_from_everest_advanced_dashboard_ead.html">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Dashboard User Interface">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Dashboard User Interface">
+        <param name="Local" value="dashboard-user-interface\dashboard_user_interface_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Everest Advanced Dashboard">
+        <param name="Local" value="dashboard-user-interface\everest_advanced_dashboard_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Web Parts">
+        <param name="Local" value="dashboard-user-interface\web_parts_dashboard_user_interface_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Sections of a Web Part">
+        <param name="Local" value="dashboard-user-interface\sections_of_a_web_part_dashboard_user_interface_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="View a Web Part">
+        <param name="Local" value="dashboard-user-interface\view_a_web_part_dashboard_user_interface_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Filter the Dashboard Web Parts">
+        <param name="Local" value="dashboard-user-interface\filter_the_dashboard_web_parts_dashboard_user_interface_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="View Detailed Information on a Graph Web Part">
+        <param name="Local" value="dashboard-user-interface\view_detailed_information_on_a_graph_web_part_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Add Fields to the Pivot Table to View Additional Details">
+        <param name="Local" value="dashboard-user-interface\add_fields_to_the_pivot_table_to_view_additional_details_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Change the Filters within the Pivot Table to See More Data">
+        <param name="Local" value="dashboard-user-interface\change_the_filters_within_the_pivot_table_to_see_more_data_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="View an Analysis">
+        <param name="Local" value="dashboard-user-interface\view_an_analysis_dashboard_user_interface_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="E-Mail an Analysis">
+        <param name="Local" value="dashboard-user-interface\e-mail_an_analysis_dashboard_user_interface_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Export an Analysis to an Excel Spreadsheet">
+        <param name="Local" value="dashboard-user-interface\export_an_analysis_to_an_excel_spreadsheet_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modify My Page Menu Options">
+        <param name="Local" value="dashboard-user-interface\modify_my_page_menu_options_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Tasks Web Part">
+        <param name="Local" value="dashboard-user-interface\tasks_web_part_dashboard_user_interface_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Calendar Events Web Part">
+        <param name="Local" value="dashboard-user-interface\calendar_events_web_part_dashboard_user_interface_ead.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="For More Information">
+        <param name="Local" value="dashboard-user-interface\for_more_information_dashboard_user_interface_ead.html">
+      </object>
+      </ul>
+    </ul>
+</ul>
+</html>

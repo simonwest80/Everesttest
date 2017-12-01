@@ -1,0 +1,15 @@
+working-with-the-everest-client,everest-client
+the-everest-main-window,main-window
+customize-the-main-menu-display,customize-menu
+user-interfaces,ui
+everest-browsers,browsers
+browser-options-detailed,options
+filter-setup,filter
+expert-style-filter,expert
+browser-property-editor,property-editor
+chart-setup,chart
+chart-fx-properties-profile,fx-profile
+creating-labels,creating
+the-label-designer,designer
+label-designer-options,options
+pre-designed-labels-in-everest,built-in-labels

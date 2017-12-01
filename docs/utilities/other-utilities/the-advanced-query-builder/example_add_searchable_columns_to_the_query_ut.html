@@ -1,0 +1,62 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="example-add-searchable-columns-to-the-query">Example: Add Searchable Columns to the Query</h1>
+
+<p>Follow the procedure below to enable local searching on fields  in your query. You may want to do this since local searches are typically  faster than searches on the server.  The  selected fields will appear as sort tabs in the output browser.</p>
+
+<p class="note">For the <strong>Sort</strong>  tabs to display, enable them in the browser properties. Right-click the  title bar and select <strong>Browser Properties</strong>.  On the Browser Property Editor <strong>General</strong>  tab, in the <strong>Show</strong> <strong>Index 
+ Tabs</strong> section, select <strong>Bottom</strong>.  Click <strong>Apply</strong> and then click <strong>OK</strong>.</p>
+
+<p class="steps">To add searchable columns to the query, do  the following:</p>
+
+<ul>
+  <li>Open the <strong>Advanced Query Builder</strong> (path: <strong>Utility</strong> &gt; <strong>Advanced 
+ Query Builder</strong>).</li>
+  <li>In the <strong>Filter 
+ Name</strong> field, select the “Active Customers” filter that you created  in the “Create a Query to retrieve all Active Customer Addresses” example.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/example_create_query_to_retrieve_all_active_customer_addresses_ut.html">Example:  Create a Query to retrieve all Active Customer Addresses</a></p>
+
+<ul>
+  <li>On the <strong>Field 
+ Settings</strong> tab, click the check box in the <strong>Searchable</strong>  column for the following fields to enable search tabs on these fields:</li>
+  <li>CUST.CREAT_DATE</li>
+  <li>ADDRESS.CUST.CODE</li>
+  <li>ADDRESS.NAME</li>
+  <li>ADDRESS.ZIP</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_field_settings_tab_add_searchable_items_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder – Field Settings  Tab with Searchable Columns Selected</strong></p>
+
+<ul>
+  <li>Click <strong>Save</strong>  to save the “Active Customers” filter.</li>
+  <li>Click <strong>Find</strong>  to view the filter output in the <strong>Advanced 
+ Query</strong> browser.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_advanced_query_browser_showing_action_tabs_only_with_captions_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Browser Showing Sort Tabs</strong></p>
+
+<p>In the above figure, the Create Date, Name, Zip, and Customer  Code sort tabs display because the respective fields were selected as  Searchable columns on the <strong>Field Settings</strong>  tab. In this example, if you select the <strong>Zip</strong>  tab, you can perform a local search on zip code. Use the sort tabs to  perform local searches which are typically faster than a search on the  server.</p>
+
+<p class="note">For the <strong>Sort</strong>  tabs to display, enable them in the browser properties. Right-click the  title bar and select <strong>Browser Properties</strong>.  On the Browser Property Editor <strong>General</strong>  tab, in the <strong>Show</strong> <strong>Index 
+ Tabs</strong> section, select <strong>Bottom</strong>.  Click <strong>Apply</strong> and then click <strong>OK</strong>.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/example_associate_actions_with_the_query_ut.html">Example:  Associate Actions with the Query</a></dd>
+  <dd><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/example_create_query_to_retrieve_all_active_customer_addresses_ut.html">Example:  Create a Query to retrieve all Active Customer Addresses</a></dd>
+</dl>
+
+
+
+
+</div>

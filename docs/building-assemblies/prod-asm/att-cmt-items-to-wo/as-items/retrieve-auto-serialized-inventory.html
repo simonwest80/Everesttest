@@ -1,0 +1,40 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="retrieve-auto-serialized-inventory">Retrieve Auto-Serialized Inventory</h1>
+
+<p>In case of an auto-serialized item, the <strong>Actual 
+ Input</strong> column displays the quantity committed with the suffix ‘a’.</p>
+
+<p>Auto-serialized items can be added to a Work Order in any of the following  ways:</p>
+
+<ul>
+  <li><strong>Auto-Serialize 
+ Item</strong> - Use the <strong>Auto-Serialize</strong><strong>Item</strong> option (path: <strong>Work</strong><strong>Order</strong> profile &gt; <strong>Options</strong>  &gt; <strong>Attach</strong> / <strong>Retrieve</strong><strong>Serial</strong> <strong>#</strong>  &gt; <strong>Auto</strong>-<strong>Serialize</strong><strong>Item</strong>) to attach serial numbers  to the selected line item automatically.</li>
+  <li><strong>Auto-Serialize 
+ All</strong> - Use the <strong>Auto</strong>-<strong>Serialize</strong> <strong>All</strong>  option (path: <strong>Work</strong> <strong>Order</strong>  profile &gt; <strong>Options</strong> &gt; <strong>Attach</strong> / <strong>Retrieve</strong><strong>Serial #</strong> &gt; <strong>Auto</strong>-<strong>Serialize</strong> <strong>All</strong>)  to attach serial numbers to all auto-serialized items on the work order.</li>
+  <li>Directly enter  the quantity in the <strong>Actual Input</strong>  column.</li>
+</ul>
+
+<p>If the quantities in the selected stock area include items to which  a manufacturer’s serial numbers are assigned, you can choose to skip such  items or auto-serialize them without being prompted. This preference has  to be set in the <strong>When an item marked 
+ as auto-serialized consists of a manufacturer serial number, how do you 
+ wish to auto-serialize the item</strong> option of the <strong>Documents</strong> dialog box (path: <strong>File &gt; Setup 
+ &gt; Preferences &gt; Flow Control &gt; Documents &gt; Prompts &gt; Sales 
+ Documents &gt; Sales Document 1</strong> tab).</p>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /><a href="/versata-everest-docs/setting-up-a-company/misc/stock_transfer_miscellaneous.html">Location  profile - Stock Transfer tab - Miscellaneous tab</a></p>
+
+<p class="note">You can use the Auto-serialized feature only when you have values in  the <strong>Std. Input</strong> field in a Work  Order for Auto-serialized items.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/att-cmt-items-to-wo/attach_commit_items_to_a_work_order_profile_assembly_content.html">Attach/Commit  Items to a Work Order</a></dd>
+</dl>
+
+
+
+
+</div>

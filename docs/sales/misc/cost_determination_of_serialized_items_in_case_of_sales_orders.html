@@ -1,0 +1,32 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="cost-determination-of-serialized-items-in-case-of-sales-orders">Cost Determination of Serialized Items in case of Sales Orders</h1>
+
+<p>For serialized items, <strong>Everest</strong>  calculates the <strong>Actual/Average Cost</strong>  in the <strong>Pricing Analysis</strong> browser  based on the following conditions:</p>
+
+<ul>
+  <li>When items  are fully committed in the sales order, <strong>Everest</strong>  calculates the <strong>Actual/Average cost</strong>  based on the average of the actual cost of serial numbers committed.</li>
+  <li>If items are  partially committed, the <strong>Actual/Average 
+ cost</strong> is equal to the (Sum of actual cost of serial numbers)+(current  average cost of the item X quantity not committed)/total quantity on order.</li>
+  <li>If no items  are committed, the <strong>Actual/Average cost</strong>  displayed is the current average cost of the item.</li>
+</ul>
+
+<p>When the analysis is by <strong>Average Cost 
+ (previous document save)</strong>, then the <strong>Actual/Average</strong><strong>Cost</strong> is determined as follows:</p>
+
+<ul>
+  <li>When items  are fully committed, the <strong>Actual/Average 
+ Cost</strong> is the average of the actual cost of serial numbers committed.</li>
+  <li>When the items  are partially committed, it is equal to the (Sum of actual cost of serial  numbers)+( last saved average cost of the item X quantity not committed)/total  quantity on order.</li>
+  <li>If no items  are committed, it is the last saved average cost of the item.</li>
+</ul>
+
+
+
+
+
+</div>

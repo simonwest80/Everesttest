@@ -1,0 +1,101 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="returned-items---stock-areas-assigned">Returned Items - Stock Areas Assigned</h1>
+
+<p>Inventoried items are assigned to a <strong>Stock</strong>  type of stock area when goods are returned. This process depends on two  factors:</p>
+
+<ul>
+  <li>Whether the  credit memo is newly created.</li>
+  <li>Whether the  credit memo is converted from a credit order.</li>
+</ul>
+
+<p><strong>On a New Credit Memo</strong></p>
+
+<p>Based on the type of item, and the <strong>‘Use 
+ default out stock area to assign quantity for non-serialized items in 
+ credit order or credit memo’</strong> AND <strong>‘Use 
+ default stock area to receive items when creating a new credit memo’</strong> <strong>** options (path: **File 
+ &gt; Setup &gt; Accounting &gt; Locations/Sub-Location &gt; Options &gt; 
+ Edit &gt; In New Window &gt; Stock Transfer &gt; Miscellaneous</strong>  tab), the <strong>Attach Quantity</strong> and  <strong>Assign</strong> <strong>Quantity</strong>  profiles are/are not displayed. You can first attach quantity from an  <strong>Out</strong> type of stock area from the  <strong>Attach</strong> <strong>Quantity</strong>  profile. Then, you can assign committed quantities to a <strong>Stock</strong> type of stock area from the <strong>Assign 
+ Quantity</strong> profile.</p>
+
+<p>When a Credit Order has been converted to a Credit  Memo</p>
+
+<ul>
+  <li>When items  are NOT committed at the credit order stage, based on the type of item  and the <strong>‘Use default out stock area 
+ to assign quantity for non-serialized items in credit order or credit 
+ memo’</strong> option (path: <strong>File &gt; 
+ Setup &gt; Accounting &gt; Locations/Sub-Location &gt; Options &gt; Edit 
+ &gt; In New Window &gt; Stock Transfer &gt; Miscellaneous</strong> tab),  the <strong>Assign</strong> <strong>Quantity</strong>  profile is/is not displayed. You can assign quantity to a <strong>Stock</strong>  type of stock area from this profile.</li>
+</ul>
+
+<p>Display of the Attach Quantity Profile (based on the  <strong>‘Use default out 
+ stock area to assign quantity for non-serialized items in credit order 
+ or credit memo’</strong> option)</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-ret-docs/cos/co-proc/cmt-items-to-co/attach-cmt-qty/committed/committed_quantities_stock_area_assigned_co.html#display_of_the_attached_quantity_profile">Display  of the Attach Quantity Profile (based on the preference selected)</a></p>
+
+<p>Display of the Assign Quantity Profile (based on the  <strong>‘Use default stock 
+ area to receive items when creating a new credit memo’</strong>  option)</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Item type</strong></td>
+      <td><strong>If the preference is <br /> checked</strong></td>
+      <td><strong>If the preference is <br /> unchecked</strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><strong>Assign Quantity profile <br /> is displayed</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Non-serialized item not tracked for lots</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Non-serialized item tracked for lots</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Auto serialized item</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Serialized item</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The default stock area to which the items returned on a credit memo  are transferred is determined using the following rules:</p>
+
+<ul>
+  <li>If a default  stock area for transferring items returned on credit memos is specified  in the <strong>Credit Memos</strong> field of the  <strong>Workstation Settings</strong> dialog box  (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Workstation Settings &gt; Stock Areas &gt; For Sales</strong> tab),  the quantities are transferred to this stock area.</li>
+  <li>If no default  stock areas are defined in the <strong>Workstation 
+ Settings</strong> dialog box, the items are transferred to the stock area  defined for <strong>Credit Memos</strong> in the  logged in location or sub-location<font style="color: #ff0000;" color="#FF0000"> </font>(path: <strong>File &gt; Setup &gt; Accounting &gt; Location/Sub-Location 
+ &gt; Options &gt; Edit &gt; In New Window</strong> &gt; <strong>Stock 
+ Transfer &gt; Sales Document</strong> tab). If no stock area is defined  for the logged in location or sub-location, the stock area defined for  the default location is used.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/set-up-locations/the_location_profile_stock_transfer.html">Locations  - Stock Transfers</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/work_station_settings_stock_areas_for_purchase.html">Workstation  Settings - Stock Areas - For Purchase tab</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/work_station_settings_stock_areas_for_sales.html">Workstation  Settings - Stock Areas - For Sales Tab</a></dd>
+</dl>
+
+
+
+
+</div>

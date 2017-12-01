@@ -1,0 +1,26 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="impact-of-reversing-on-unposted-payment-journals">Impact of Reversing on Unposted Payment Journals</h1>
+
+<p>After a transaction is reversed, the following changes occur in the  unposted payment journals:</p>
+
+<ul>
+  <li>The original  payroll transaction appears in the <strong>Journal 
+ Transactions</strong> browser with a status of <strong>Reversed</strong>.</li>
+  <li>The journal  with the description of “Reversal Transaction” contains an entry with  a Transaction Status of <strong>Reversal</strong>  and the same state of posting as the Reversed transaction. This gets created  as a new journal. The Payment status will be blank for a reversal transaction.</li>
+  <li>A journal with  the description of “Replacement of Reversed Journals” contains the newly  recreated payroll transaction along with all of the newly recreated payroll  transactions for reversed journals that have the same payment method and  fall within the same period. The recreated payroll transaction has a Transaction  Status of <strong>Normal</strong> and the same  state of posting as the Reversed transaction. This gets created as a new  journal. The Payment status will be blank for a reversed transaction.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/reverse_dialog_box_payment_history_screen.html">Reverse  Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

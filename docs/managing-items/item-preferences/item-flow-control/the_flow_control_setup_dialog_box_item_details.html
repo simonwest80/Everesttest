@@ -1,0 +1,99 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="the-items-dialog-box---item-details">The Items Dialog Box - Item Details</h1>
+
+<p>Use this tab to specify the flow control preferences for retrieving  an item into a document.</p>
+
+<dl>
+  <dt>Alternative Search Sequence when an item code is not found</dt>
+  <dd>Specify the search methods that <strong>Everest</strong>  would use when trying to match an item code entered by the user.</dd>
+  <dd>The fields to be searched can include: Model, Serial  #, Manufacturer’s Serial #, Vendor Part #, and Aliases. If you select  <strong>None</strong> in any one field, the remaining  fields automatically change to <strong>None</strong>.</dd>
+  <dt><strong>Prompt user before retrieving an item by alternative  search</strong></dt>
+  <dd>If this option is selected, <strong>Everest</strong>  prompts the user whether the item that was found using another alternative  search, should be used in the document. If the option is not selected,  <strong>Everest</strong> will automatically retrieve  the matching item into the document.</dd>
+</dl>
+
+<p>Stock Status Indicators</p>
+
+<dl>
+  <dt><strong>Display Stock Availability Indicators based on</strong></dt>
+  <dd>Select a preference in this dialog box to indicate  the availability of stock in the sales documents. You can base your preference  on the options available in the drop down.</dd>
+</dl>
+
+<ul>
+  <li><strong>Entire 
+ company</strong> - This option indicates the availability of stock for the  entire company. This is the default selection.</li>
+  <li><strong>Logged-in 
+ location</strong> - Select this option to indicate the availability of stock  for the logged-in location.</li>
+  <li><strong>Document 
+ location</strong> - Select this option to indicate the availability of stock  for the location of the document. The location of the line item overrides  the location of the document when you select this option.</li>
+</ul>
+
+<dl>
+  <dt><strong>Quantity type used for stock status indicators</strong></dt>
+  <dd>Select the quantity type to be used for determining  the color indicator and displaying the stock value for the line items  for all the sales documents. The following options are available:</dd>
+</dl>
+
+<ul>
+  <li>Total Quantity</li>
+  <li>Available quantity</li>
+  <li>Net Free Stock</li>
+  <li>Free Stock</li>
+</ul>
+
+<p><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/item-info/details/stock_item_details_grid_sales_content.html">Stock  Status</a></p>
+
+<dl>
+  <dt><strong>Automatically display stock status indicators</strong></dt>
+  <dd>When you select this option, the system automatically  calculates and displays stock status indicators (color and quantity) when  an item is retrieved into a customer document (Sales Quote, Sales Order,  Sales Invoice, Credit Quote, Credit Order, and Credit Memo). This option  is unchecked (NOT selected) by default when a new company is created.</dd>
+  <dd>To improve performance when adding line items to  sales documents, we recommend that you NOT select (disable) this option  and use the <strong>Stock Status Indicator</strong>  shortcuts available in the sales documents to view this information only  when required. To access this information from a sales document, highlight  a line item and press <strong>F10</strong> to view  the Stock Status Indicator (path: From a sales document, select <strong>Options</strong> &gt; <strong>Item</strong>  &gt; <strong>Stock Status Indicator</strong>).   Press <strong>Shift + F10</strong> to view the Stock Status  Indicator for all line items (path: From a sales document, select <strong>Options</strong> &gt; <strong>All 
+ Items</strong> &gt; <strong>Stock Status Indicator 
+ (All)</strong>.</dd>
+</dl>
+
+<p><strong><img src="/versata-everest-docs/managing-items/img/sales_order_ no_stock_status_mi.gif" alt="" /></strong></p>
+
+<dl>
+  <dt><strong>Figure: Sales Order with “Automatically Display  Stock Status Indicators” NOT Selected</strong></dt>
+  <dd>To view the stock status for a line item, select  the line item and press <strong>F10</strong>. You  will see the <strong>Stock</strong> column indicating  stock status color and quantity for the selected line item.</dd>
+</dl>
+
+<p><strong><img src="/versata-everest-docs/managing-items/img/sales_order_ f10_stock_status_for_one_item_mi.gif" alt="" /></strong></p>
+
+<dl>
+  <dt><strong>Figure: Sales Order - Press F10 to View the Stock  Status for the Highlighted Line Item</strong></dt>
+  <dd>To view the stock status for all of the line items  in the sales document, press <strong>Shift + 
+ F10</strong>. You will see the <strong>Stock</strong>  column populated for all stocked line items.</dd>
+</dl>
+
+<p><strong><img src="/versata-everest-docs/managing-items/img/sales_order_ shift_f10_stock_status_for_all_items_mi.gif" alt="" /></strong></p>
+
+<p><strong>Figure: Sales Order - Press Shift + F10 to View  the Stock Status for All Line Items</strong></p>
+
+<p>Markup Calculations Cost</p>
+
+<p>Use this section to indicate the cost that should be used while calculating  the sales price of an item as a markup percent of the cost.</p>
+
+<dl>
+  <dt><strong>Last Landed Cost</strong></dt>
+  <dd>Choose this <em>**</em> option  to calculate the selling price of an item based on the last landed cost  of the item.</dd>
+  <dt><strong>Average Cost</strong></dt>
+  <dd>Choose this <em>**</em> option  to calculate the selling price of an item based on the average cost of  the item.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/item-pricing/pricing-calculations/percent_markup_on_cost.html">Percent  Markup on Cost</a></dd>
+  <dt><strong>Bar Code Type</strong></dt>
+  <dd>Select the bar code standard to be used for printing  bar codes.</dd>
+  <dt>If you select UPC as the bar code type, the  items created in <strong>Everest</strong> have  to meet the 12 digit UPC standards for bar codes.</dt>
+  <dd>You can force items created to have only UPC codes  by selecting the UPC option in the <strong>Bar 
+ Code</strong> <strong>Type</strong> field in the  <strong>Items</strong> dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow 
+ Control</strong> &gt; <strong>Items</strong>).</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/item-preferences/item-flow-control/the_flow_control_setup_dialog_box_wm.html">The  Items Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

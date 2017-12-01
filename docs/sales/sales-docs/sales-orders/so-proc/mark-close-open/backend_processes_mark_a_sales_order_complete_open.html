@@ -1,0 +1,26 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---mark-a-sales-order-close">Back End Processes - Mark a Sales Order Close</h1>
+
+<ul>
+  <li>When an order  is marked closed it is displayed only in the <strong>Shipped 
+ Sales Orders</strong> browser (path: <strong>Sales 
+ Orders</strong> browser <strong>&gt; Options &gt; 
+ Shipped Sales Orders</strong>).</li>
+  <li>The ordered  quantity is reduced to zero on a line item that is <strong>not</strong>  on backorder. The committed quantity, if any, is detached.</li>
+  <li>If the line  item is on backorder, the ordered quantity is reduced to the quantity  shipped. The ‘On reserve’ stock will get updated with the ordered quantity  and ‘On reserve commit’ stock will be reduced to the extent of the uncommitted  quantity. The committed quantity, if any, is detached.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/mark-close-open/mark_a_sales_order_as_complete_open.html">Mark  a Sales Order as Close/Open</a></dd>
+</dl>
+
+
+
+
+</div>

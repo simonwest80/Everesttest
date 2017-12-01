@@ -1,0 +1,142 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="other-flow-control---item-costsales-summary">Other Flow Control - Item Cost/Sales Summary</h1>
+
+<p>Item Cost</p>
+
+<dl>
+  <dt><strong>Type of cost to be displayed in inventory browsers,  stock transfers and pricing analysis</strong></dt>
+  <dd>Set the default item cost type to be displayed in  the <strong>Items</strong> browser, on stock transfer  documents and browsers, and the <strong>Pricing</strong><strong>Analysis</strong> dialog box.</dd>
+  <dd>The prices displayed in these browsers depend on  whether you are in extended mode or not. All the costs of the item are  displayed as such when you are in extended mode. On clearing the <strong>Enable Extended Mode</strong> check box in the  <strong>Workstation Settings</strong> dialog box  (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Workstation Settings</strong>), the display of the different costs  varies, which is elucidated in the table below.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Type of Cost</td>
+      <td>Type of Display</td>
+      <td>Applicable to Browser/Dialog Box</td>
+    </tr>
+    <tr>
+      <td><strong>Average Cost</strong></td>
+      <td>Displays only the average cost. All other costs are displayed in encrypted  form</td>
+      <td><strong>Items</strong> browser<br /><br /><br /><strong>Pricing Analysis</strong> dialog box<br /><br /><br /><strong>Stock Transfer</strong> browser</td>
+    </tr>
+    <tr>
+      <td><strong>Last Cost/Last Landed Cost</strong></td>
+      <td>Displays only the last cost/last landed cost. All other costs are displayed  in encrypted form</td>
+      <td><strong>Items</strong> browser<br /><br /><br /><strong>Pricing Analysis</strong> dialog box</td>
+    </tr>
+    <tr>
+      <td><strong>Actual Cost</strong></td>
+      <td>Displays all costs in encrypted form</td>
+      <td><strong>Pricing Analysis</strong>  dialog box</td>
+    </tr>
+    <tr>
+      <td><strong>User Defined</strong></td>
+      <td>Displays all costs in encrypted form</td>
+      <td><strong>Pricing Analysis</strong> dialog box</td>
+    </tr>
+    <tr>
+      <td><strong>All  </strong></td>
+      <td>Displays all costs</td>
+      <td><strong>Items</strong> browser<br /><br /><br /><strong>Pricing Analysis</strong>  dialog box</td>
+    </tr>
+    <tr>
+      <td><strong>None  </strong></td>
+      <td>Displays all costs in encrypted form</td>
+      <td><strong>Items</strong> browser<br /><br /><br /><strong>Pricing Analysis</strong> dialog box<br /><br /><br /><strong>Stock Transfer</strong> browser</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Type of cost used for commission calculation</strong></dt>
+  <dd>Set the default cost to be used while computing  commissions.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Average Cost</strong></td>
+      <td>Computes commission based on the average cost of the item. The average  cost of the item in the stock measure is converted to the sales measure  based on the conversion factor.</td>
+    </tr>
+    <tr>
+      <td><strong>Last Landed Cost</strong></td>
+      <td>Computes commission based on the last landed cost of the item. The last  landed cost of the item in the stock measure converts to the sales measure  based on the conversion factor if there is no available non-zero cost  defined for the purchase measure matching the sales measure. If a non-zero  cost defined for the purchase measure matching the sales measure is available,  the system uses the last landed cost from the <strong>Purchases</strong>  tab of the item.</td>
+    </tr>
+    <tr>
+      <td><strong>Actual Cost</strong></td>
+      <td>Computes commission based on the actual cost of the item. For serialized  items in the stock measure, actual cost is converted to the sales measure.  For inventoried items, the actual cost is the average cost converted to  the sales measure.</td>
+    </tr>
+    <tr>
+      <td><strong>User Defined</strong></td>
+      <td>Computes commission based on the user defined cost of the item. The  user defined cost for inventoried and serialized items, is the cost entered  in the sales documents for the measure. The user defined cost for the  selected measure is not converted.</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul class="note">
+  <li>If the type of  cost selected in the <strong>Type of cost to 
+ be displayed in inventory browsers, stock transfers and pricing analysis</strong>  field differs from the cost type selected in the <strong>Type 
+ of cost used for commission calculation</strong> field, <strong>Everest</strong>  prompts you to confirm whether you want to continue using these differing  cost types.</li>
+  <li>Costs shown in  the Commission report are shown in the sales measure.</li>
+</ul>
+
+<dl>
+  <dt><strong>Default value for the user defined cost column  in a document</strong></dt>
+  <dd>Set a default value for the user defined cost column  in a document.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Average Cost</td>
+      <td>Displays the average cost.</td>
+    </tr>
+    <tr>
+      <td>Last Landed Cost</td>
+      <td>Displays the last landed cost.</td>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>Does not display cost.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Factor Cost (enable cost inflation)</strong></dt>
+  <dd>Select this check box if the costs considered for  calculating commissions based on profit use factored costs. By default,  this will be selected.</dd>
+  <dd><img src="/versata-everest-docs/business-processes-in-everest/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/item-profile-details/item-costing/factored_cost_item_costing.html">Factored  Costs</a> <em>**</em></dd>
+  <dt><strong>Commission based on</strong></dt>
+  <dd>Specify the basis for commission. This option specifies  whether commission reports are calculated based on the item profit (i.e.  selling price less the cost) or its sales price.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Profit</strong></td>
+      <td>Computes commission based on the profit.</td>
+    </tr>
+    <tr>
+      <td><strong>Sale</strong></td>
+      <td>Computes commission based on the sales.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/misc/other_flow_control_introduction.html">Other  Flow Control</a></dd>
+</dl>
+
+
+
+
+</div>

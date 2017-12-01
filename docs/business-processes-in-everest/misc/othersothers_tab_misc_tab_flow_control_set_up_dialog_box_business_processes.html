@@ -1,0 +1,65 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="other-preferences---point-of-sale-documents">Other Preferences - Point of Sale Documents</h1>
+
+<dl>
+  <dt><strong>Auto-print invoice in Point of Sale document</strong></dt>
+  <dd>The system prompts you to print the invoice at the  time of saving the document, if this option is selected.</dd>
+  <dt><strong>Allow changing the POS document type to sales  after credit memo is saved</strong></dt>
+  <dd>Use the <strong>Point of 
+ Sale</strong> profile to toggle between a <strong>Point 
+ of Sale</strong> (invoice) profile and a <strong>Point 
+ of Sale</strong> (sales credit) profile. When you switch to a <strong>Point 
+ of Sale</strong> (sales credit) profile to return items to a Point of Sale  customer at a cash register, the document type will continue to be Point  of Sale (sales credit) unless you toggle back to a <strong>Point 
+ of Sale</strong> (invoice) profile. If this option is selected, the system  will automatically switch back to a <strong>Point 
+ of Sale</strong> (invoice) profile after the <strong>Point 
+ of Sale</strong> (sales credit) profile has been created.</dd>
+  <dt><strong>When out of stock non-serialized items are inserted  in a POS document</strong></dt>
+  <dd>When you include a non-serialized item that is out  of stock on a POS document, <strong>Everest</strong> allows  you to set the default behavior for such items.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>: <strong>Option</strong></td>
+      <td>: <strong>Select this option <br /> to:</strong></td>
+    </tr>
+    <tr>
+      <td>: None</td>
+      <td>: Select the items from a separate stock area, or  add quantity. <strong>Everest</strong> asks for  confirmation for the same, if you have selected the location preference  option <strong>Use default stock area to assign <br /> quantity for non-serialized items in sales documents</strong>. If the above  option is unchecked, <strong>Everest</strong> displays  the <strong>Attach Quantity</strong> dialog box.</td>
+    </tr>
+    <tr>
+      <td>: Adjust Inventory</td>
+      <td>: Add stock directly using the <strong>Quantity <br /> Adjustment</strong> profile. The <strong>Quantity <br /> Adjustment</strong> profile is displayed if the locational preference <strong>Use default stock area to assign quantity for <br /> non-serialized items in sales documents</strong> is checked. If the above  option is not checked, <strong>Everest</strong>  displays the <strong>Attach Quantity</strong> dialog  box.</td>
+    </tr>
+    <tr>
+      <td>: Force Sale</td>
+      <td>: The item type is changed to <strong>Force <br /> Sale</strong> if the locational preference <strong>Use <br /> default stock area to assign quantity for non-serialized items in sales <br /> documents</strong> is checked. If the above option is not checked, <strong>Everest</strong> displays the <strong>Attach <br /> Quantity</strong> dialog box.<br /><br /><br /><img src="/versata-everest-docs/business-processes-in-everest/img/lens.gif" alt="" /> <a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/pos-si-profile/force-sale/force_sale_pos.html">Force  Sale Details</a><br />: <font color="#000000" class="hcp6">Display the </font><strong>Force Sale Options</strong> <font color="#000000" class="hcp6">dialog <br /> box if there is partial stock. You can choose to reduce the quantity to <br /> match available quantity, change the unavailable quantity to a force sale <br /> or you can add quantity.</font><br /><br /><br /><img src="/versata-everest-docs/business-processes-in-everest/img/lens.gif" alt="" /> <a href="point-of-sale.chm::/force_sale_options_dialog_box.htm">Force  Sale Options Dialog Box</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Force sales representative to give reason for  refunds on credit documents at POS</strong></dt>
+  <dd>A customer may return items on a Point of Sale (credit  memo) document. When you make refunds to customers on these documents,  you may want to track the reasons for such refunds. Use this option to  force the sales representative to enter a reason for the refunds made  to customers when items are returned.</dd>
+  <dd>When you save a Point of Sale (credit memo) document  or select the <strong>Payment</strong> option from  the Point of Sale (credit memo) document, the <strong>Reason 
+ for Refund</strong> dialog box will be automatically displayed if you select  this option.</dd>
+  <dt><strong>Prompt to select sales person when creating point  of sale document</strong></dt>
+  <dd>You may need to keep track of the sales representative  responsible for each sale through your point of sale counter. This option  allows you to automatically display the <strong>Select 
+ Sales Person</strong> dialog box when a point of sale document is saved.  If you do not select this option, based on the preferences that have been  set up, the <strong>Sales Representative</strong> field  on the Point of Sale document profile displays the logged in user/the  customer’s sales representative or is left blank.</dd>
+  <dd><img src="/versata-everest-docs/business-processes-in-everest/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/misc/sales_person_selected_automatically_at_the_time_of_creating_a_new_invoicing_document.html">Sales  person selected automatically at the time of creating a new invoicing  document</a></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/doc-frm/misc/miscellaneous_others_others_3_tab_bp.html">Point  of Sale Tab - Documents Dialog Box</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/misc/miscellaneous_others_others_1_steps.html">Others  1 Tab - Documents Dialog Box</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/doc-frm/misc/flow_control_setup_dialog_box_miscellaneous_tab_con.html">Documents  Dialog Box - Miscellaneous</a></dd>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/opt/setting_flow_control_options.html">Setting  up Flow Control Options</a></dd>
+</dl>
+
+
+
+
+</div>

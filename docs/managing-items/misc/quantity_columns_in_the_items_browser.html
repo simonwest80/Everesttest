@@ -1,0 +1,104 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="quantity-columns-in-the-items-browser">Quantity Columns in the Items Browser</h1>
+
+<p>All quantity columns for kits and matrix groups display zero as the  stocks are maintained at the kit component and matrix item level. These  quantities are stored in the stock measure up to six decimal places. A  conversion factor is used to convert these quantities to default sales  or default purchase measures. The <strong>Items</strong>  browser displays details of stock for the company as well as for a maximum  of three locations within the company. The quantity columns in the <strong>Items</strong> browser are detailed below:</p>
+
+<dl>
+  <dt><strong>Total Stock</strong></dt>
+  <dd>Click the <strong>Total 
+ Stock</strong> column for a specific item to view a location–wise breakup  of quantities. This breakup is displayed in the <strong>Item 
+ Stock Status &lt;location&gt;</strong> browser.</dd>
+  <dd>You can view a further breakup of the quantities  with respect to the stock areas and the bins belonging to those stock  areas. To achieve this, click the <strong>Total 
+ Stock</strong> column for the specific location. The stock area-wise and  bin-wise breakup is displayed in the <strong>Item 
+ Stock Status &lt;stock area - bin&gt;</strong> browser.</dd>
+  <dd>The <strong>Item Stock 
+ Status &lt;location&gt;</strong> browser</dd>
+  <dd>The <strong>Item Stock 
+ Status &lt;location&gt;</strong> browser displays the total stock of an  item in different locations of a company.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/the-items-browser/information-available/item_stock_status_item_browser_option.html">Item  Stock Status Dialog Box</a></dd>
+  <dt><strong>Available Stock</strong></dt>
+  <dd>The <strong>Available Stock</strong>  column displays the stock available, after all the items ordered by customers  and those returnable to vendors are accounted for.</dd>
+  <dd>Available stock = Total Stock - Stock on reserve  - Stock on debit (order)</dd>
+  <dd>A negative quantity in the <strong>Available 
+ Stock</strong> column indicates that more sales orders have been accepted  than can be fulfilled. Hence, stocks need to be replenished.</dd>
+  <dt><strong>Stock Measure</strong></dt>
+  <dd>This column shows the inventory unit of measure.  You can also locate the stock measure on the <strong>Inventory</strong>  tab of the <strong>Item</strong> profile. The <strong>Stock Measure</strong> field is shown regardless  of which <strong>View</strong> menu option is selected  for viewing stock.</dd>
+</dl>
+
+<p class="note">The <strong>Total 
+ Stock</strong> and <strong>Available Stock</strong>  fields are stored in the stock measure up to 6 decimal places and converted,  using a conversion factor, to the default purchase or default sales measure.</p>
+
+<dl>
+  <dt><strong>PO</strong></dt>
+  <dd>The <strong>PO</strong> column  displays the total quantity of the selected item on purchase orders and  work orders.</dd>
+  <dd>Double-click this column to view the <strong>Pending 
+ Purchase Orders</strong> browser. This browser lists all the purchase orders  that contain the selected item.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/misc/the_pending_purchase_orders_browser.html">Pending  Purchase Orders Browser</a></dd>
+  <dt><strong>CO</strong></dt>
+  <dd>The <strong>CO</strong> column  displays the total quantity of the selected item on credit orders (items  to be returned by customers).</dd>
+  <dd>Double-click this column to view the <strong>Pending 
+ Credit Orders</strong> browser. This browser lists all the credit orders  that contain the selected item.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/misc/the_pending_credit_orders_browser.html">Pending  Credit Orders Browser</a></dd>
+  <dt><strong>SO</strong></dt>
+  <dd>The <strong>SO</strong> column  displays the quantity of the item on sales orders and work orders. The  stock on reserve includes quantities that are committed on sales orders  and work orders.</dd>
+  <dd>
+    <font style="color: #000000;" color="#000000">Double-click on </font>
+    <p>this column  to view the <strong>Pending Sales Orders</strong> browser.  This browser lists all the sales orders and work orders that contain the  selected item.</p>
+  </dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/misc/the_pending_sales_orders_browser.html">Pending  Sales Orders browser</a></dd>
+  <dt><strong>DO</strong></dt>
+  <dd>The <strong>DO</strong> column  displays the quantity of the item on debit orders (to be returned to the  vendor), committed or otherwise.</dd>
+  <dd>Double-click on this column to view the <strong>Pending 
+ Debit Orders</strong> browser. This browser lists all the debit orders that  contain the selected item.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/misc/the_pending_debit_orders_browser.html">Pending  Debit Orders Browser</a></dd>
+  <dt><strong>PO Committed</strong></dt>
+  <dd>The <strong>PO Committed</strong>  column displays the total quantity of the selected item committed on purchase  orders and work orders.</dd>
+  <dd>Double-click this column to view the <strong>Pending 
+ Purchase/Work Orders Committed</strong> browser. This browser lists all  the purchase orders that contain the selected item.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/misc/pending_purchase_order_committed_browser.html">Pending  Purchase Order Committed Browser</a></dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/misc/pending_work_orders_committed_browser.html">Pending  Work Orders Committed Browser</a></dd>
+  <dt><strong>CO Committed</strong></dt>
+  <dd>The <strong>CO Committed</strong>  column displays the total quantity of the selected item committed on credit  orders (items to be returned by customers).</dd>
+  <dd>Double-click this column to view the <strong>Pending 
+ Credit Orders Committed</strong> browser. This browser lists all the credit  orders that contain the selected item.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/misc/pending_credit_order_committed_browser.html">Pending  Credit Order Committed Browser</a></dd>
+  <dt><strong>SO Committed</strong></dt>
+  <dd>The <strong>SO Committed</strong>  column displays the quantity of the item committed on sales orders and  work orders. Double-click this column to view the <strong>Pending 
+ Sales Orders Committed</strong> browser. This browser lists all the sales  orders and work orders that contain the selected item.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/misc/pending_sales_order_committed_browser.html">Pending  Sales Order Committed Browser</a></dd>
+  <dt><strong>DO Committed</strong></dt>
+  <dd>The <strong>DO Committed</strong>  column displays the quantity of the item committed on debit orders (to  be returned to the vendor).</dd>
+  <dd>Double-click this column to view the <strong>Pending 
+ Debit Orders Committed</strong> browser. This browser lists all the debit  orders that contain the selected item.</dd>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-items/misc/pending_debit_order_committed_browser.html">Pending  Debit Order Committed Browser</a></dd>
+  <dt><strong>Stock 1</strong></dt>
+  <dd>The <strong>Stock 1</strong>  column displays the quantity configured in the <strong>Stock 
+ Quantity 1</strong> section of the flow control preferences (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow 
+ Control</strong> &gt; <strong>Items</strong> &gt;  <strong>Stock Quantities</strong>).</dd>
+</dl>
+
+<p class="note">The <strong>Stock 
+ 1</strong> column is displayed in the <strong>Items</strong>  browser provided you have configured Stock Quantity 1 and checked the  Show Stock Quantity 1 in browsers and profiles option in the <strong>Items</strong>  dialog box.</p>
+
+<dl>
+  <dt><strong>Stock 2</strong></dt>
+  <dd>The <strong>Stock 2</strong>  column displays the quantity configured in the Stock Quantity 2 section  of the flow control preferences (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Items</strong>  &gt; <strong>Stock Quantities</strong>).</dd>
+</dl>
+
+<p class="note">The <strong>Stock 
+ 2</strong> column  is  displayed in the <strong>Items</strong> browser  provided you have configured Stock Quantity 2 and checked the Show Stock  Quantity 2 in browsers and profiles option in the <strong>Items</strong>  dialog box.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/the-items-browser/the_items_explorer.html">The Items Browser</a></dd>
+</dl>
+
+
+
+
+</div>

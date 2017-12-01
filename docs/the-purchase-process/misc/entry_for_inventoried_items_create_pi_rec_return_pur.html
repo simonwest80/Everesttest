@@ -1,0 +1,148 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="entries-for-receiving-and-returning-inventoried-items">Entries for Receiving and Returning Inventoried Items</h1>
+
+<p><strong>Receiving Inventoried Line Items Retrieved from  a Purchase Order or Purchase Receipt</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>Account</td>
+      <td>Debit/Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>FOB Destination</td>
+      <td>Inventory Control</td>
+      <td>Debit</td>
+      <td>Item Amount</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchases</td>
+      <td>Credit</td>
+      <td>Item Amount</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Item Amount = (Quantity * (Item Cost – Discount Value))  + Add-on Amount + Non-recoverable Tax Amount</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>FOB Origin</td>
+      <td>Inventory Control</td>
+      <td>Debit</td>
+      <td>Item Amount + Add-on Amount</td>
+    </tr>
+    <tr>
+      <td>Accrued Purchases</td>
+      <td>Credit</td>
+      <td>Item Amount</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Assets/Expense</td>
+      <td>Credit</td>
+      <td>Add-on Amount</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Item Amount = (Quantity * (Item Cost – Discount Value))  + Non-recoverable Tax Amount (excludes add-on costs)</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">The Add-on Amount for the item is located  in the “Add-on Amount” column of the line item. It is the “Add-on Cost”  column multiplied by the Quantity.</p>
+
+<p>Returning Inventoried Line Items (negative  quantity)</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>Account</td>
+      <td>Debit/Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>FOB Destination</td>
+      <td>Accrued Purchases</td>
+      <td>Debit</td>
+      <td>Item Amount</td>
+    </tr>
+    <tr>
+      <td>Loss on Purchase Returns (if amount is positive)</td>
+      <td>Debit</td>
+      <td>Item Amount - (Quantity * Average Cost per Purchase Measure)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Inventory Control</td>
+      <td>Credit</td>
+      <td>Quantity * Average Cost per Purchase Measure</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Gain on Purchase Returns (if amount is negative)</td>
+      <td>Credit</td>
+      <td>Item Amount - (Quantity * Average Cost per Purchase Measure)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Item Amount = (Quantity * (Item Cost – Discount Value)) + Non-recoverable  Tax Amount<br /><br /><br />For serialized items, use actual cost instead of average cost.</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>FOB Origin</td>
+      <td>Accrued Purchases</td>
+      <td>Debit</td>
+      <td>Item Amount</td>
+    </tr>
+    <tr>
+      <td>Loss on Purchase Returns (if amount is positive)</td>
+      <td>Debit</td>
+      <td>Item Amount – (Quantity * Average Cost per Purchase Measure)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Inventory Control</td>
+      <td>Credit</td>
+      <td>Quantity * Average cost per Purchase Measure</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Gain on Purchase Returns (if amount is negative)</td>
+      <td>Credit</td>
+      <td>Item Amount – (Quantity * Average Cost per Purchase Measure)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Item Amount = (Quantity * (Item Cost – Discount Value)) + Non-recoverable  Tax Amount<br /><br /><br />For serialized items, use actual cost instead of average cost.</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/paths_to_the_accounts_for_accounting_entries_pur.html">Paths  to the Accounts for Accounting Entries</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pis/create-pi/create-new-pi/accounting_entries_create_a_purchase_invoice_pur.html">Accounting  Entries - Create a Purchase Invoice</a></dd>
+</dl>
+
+
+
+
+</div>

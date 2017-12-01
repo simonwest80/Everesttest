@@ -1,0 +1,551 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="_blank">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800027">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Time Clock">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Introduction">
+      <param name="Local" value="time_clocking.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Employees">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Employees">
+        <param name="Local" value="employees\employees_tcs.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Designations">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="About Designations">
+          <param name="Local" value="employees\designations\designations.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Designation Profile">
+          <param name="Local" value="employees\designations\the_designation_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating a Designation">
+          <param name="Local" value="employees\designations\creating_a_designation.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Assigning Designations to Employees">
+          <param name="Local" value="employees\designations\assigning_designations_to_employees.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modifying a Designation">
+          <param name="Local" value="employees\designations\modifying_a_designation.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinuing a Designation">
+          <param name="Local" value="employees\designations\discontinuing_a_designation.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View Discontinued Designations">
+          <param name="Local" value="employees\designations\view_discontinued_designations.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Activate a Discontinued Designation">
+          <param name="Local" value="employees\designations\activate_a_discontinued_designation.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Designations Browser">
+          <param name="Local" value="employees\designations\designations_browser_tcs.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Working Calender">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Working Calendar">
+          <param name="Local" value="employees\working-calender\working_calendar.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Shifts">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="About Shifts">
+          <param name="Local" value="employees\shifts\work_shifts.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Shift Profile">
+          <param name="Local" value="employees\shifts\the_shift_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Transition between Standard Time and Daylight Saving Time">
+          <param name="Local" value="employees\shifts\transition_between_standard_time_and_daylight_saving_time_tc.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Creating a Shift">
+          <param name="Local" value="employees\shifts\creating_a_work_shift.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modifying a Shift">
+          <param name="Local" value="employees\shifts\modifying_a_work_shift.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinuing a Shift">
+          <param name="Local" value="employees\shifts\discontinuing_a_work_shift.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View Discontinued Shifts">
+          <param name="Local" value="employees\shifts\view_discontinued_shifts.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Activate a Discontinued Shift">
+          <param name="Local" value="employees\shifts\activate_a_discontinued_shift.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Assigning a Shift to an Employee">
+          <param name="Local" value="employees\shifts\assigning_a_work_shift_to_an_employee.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Shifts Browser">
+          <param name="Local" value="employees\shifts\shifts_browser_tcs.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View Pending Leave Requests">
+          <param name="Local" value="employees\shifts\view_pending_leave_requests_tc.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Weekly Days Off">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="About Weekly Days Off">
+          <param name="Local" value="employees\weekly-days-off\weekly_days_off.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Define a Weekly Off">
+          <param name="Local" value="employees\weekly-days-off\defining_a_weekly_off.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Weekly Off Profile">
+          <param name="Local" value="employees\weekly-days-off\the_weekly_off_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Weekly Off">
+          <param name="Local" value="employees\weekly-days-off\modifying_a_weekly_off.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue a Weekly Day off">
+          <param name="Local" value="employees\weekly-days-off\discontinuing_a_weekly_day_off.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View Discontinued Weekly Offs">
+          <param name="Local" value="employees\weekly-days-off\view_discontinued_weekly_offs.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Activate a Weekly Off">
+          <param name="Local" value="employees\weekly-days-off\activate_a_weekly_off.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Holidays">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="About Holidays">
+          <param name="Local" value="employees\holidays\holidays.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Holiday Profile">
+          <param name="Local" value="employees\holidays\the_holidays_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Define a Holiday">
+          <param name="Local" value="employees\holidays\defining_a_holiday.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modifying a Holiday">
+          <param name="Local" value="employees\holidays\modifying_a_holiday.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinuing a Holiday">
+          <param name="Local" value="employees\holidays\discontinuing_a_holiday.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View Discontinued Holidays">
+          <param name="Local" value="employees\holidays\view_discontinued_holidays.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Activate a Holiday">
+          <param name="Local" value="employees\holidays\activate_a_holiday.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Holidays Browser">
+          <param name="Local" value="employees\holidays\holidays_browser_tcs.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Leave Management">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="About Leaves Management">
+          <param name="Local" value="employees\leave-management\leave_management.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Leave Types">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Define Leave Types">
+            <param name="Local" value="employees\leave-management\leave-types\defining_leave_types.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Leave Types Profile">
+            <param name="Local" value="employees\leave-management\leave-types\the_leave_types_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify Leave Types">
+            <param name="Local" value="employees\leave-management\leave-types\modifying_leave_types.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Discontinue a Leave Type">
+            <param name="Local" value="employees\leave-management\leave-types\discontinuing_a_leave_type.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View Discontinued Leave Types">
+            <param name="Local" value="employees\leave-management\leave-types\view_discontinued_leave_types.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Activate a Leave Type">
+            <param name="Local" value="employees\leave-management\leave-types\activate_a_leave_type.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Leave Types Browser">
+            <param name="Local" value="employees\leave-management\leave-types\leave_types_browser_tcs.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Crediting Leaves">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Leave Credit">
+            <param name="Local" value="employees\leave-management\crediting-leaves\leave_credit.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Leave Credit Profile">
+            <param name="Local" value="employees\leave-management\crediting-leaves\the_leave_credit_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="View Leave Credit">
+            <param name="Local" value="employees\leave-management\crediting-leaves\view_leave_credit.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Leave Credit Browser">
+            <param name="Local" value="employees\leave-management\crediting-leaves\the_leave_credit_browser.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Leave Balances">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Leaves Balance">
+            <param name="Local" value="employees\leave-management\leave-balances\leaves_balance_leave_carry_forward_process.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create an Opening Balance">
+            <param name="Local" value="employees\leave-management\leave-balances\create_an_opening_balance_leave_carry_forward_process.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Leave Balance Profile">
+            <param name="Local" value="employees\leave-management\leave-balances\the_leave_balance_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Viewing Leave Balances">
+            <param name="Local" value="employees\leave-management\leave-balances\viewing_leave_balances.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Applying for Leave">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Applying for Leave">
+            <param name="Local" value="employees\leave-management\applying-for-leave\applying_for_leave.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Leave Request Profile - General">
+            <param name="Local" value="employees\leave-management\applying-for-leave\the_leaves_dialog_box_general.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Leave Request Profile - Submit for Approval">
+            <param name="Local" value="employees\leave-management\applying-for-leave\leaves_profile_applied_to.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Modify Leave">
+            <param name="Local" value="employees\leave-management\applying-for-leave\modifying_leave.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Leave Requests Browser">
+            <param name="Local" value="employees\leave-management\applying-for-leave\leaves_browser_tcs.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Leave Status">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Approve Leave">
+            <param name="Local" value="employees\leave-management\leave-status\approving_leave.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Reject Leave">
+            <param name="Local" value="employees\leave-management\leave-status\reject_leave.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Cancel Leave">
+            <param name="Local" value="employees\leave-management\leave-status\cancel_leave.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Carry Forward Leaves">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Leave Carry Forward">
+            <param name="Local" value="employees\leave-management\carry-forward-leaves\leave_carry_forward.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Leave Carry Forward process">
+            <param name="Local" value="employees\leave-management\carry-forward-leaves\the_leave_carry_forward_process.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Leave Carry Forward Browser">
+            <param name="Local" value="employees\leave-management\carry-forward-leaves\leave_carry_forward_browser.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Clocking Employee Time">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Clocking Employee Time">
+          <param name="Local" value="employees\clocking-employee-time\clocking_employee_time.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Clock In/Clock Out Dialog Box">
+          <param name="Local" value="employees\clocking-employee-time\the_clock_in_clock_out_dialog_box_employee.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Record Clock In/Clock Out Time">
+          <param name="Local" value="employees\clocking-employee-time\record_clock_in_clock_out_time_employee.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify Employee Clock In/Clock Out Time">
+          <param name="Local" value="employees\clocking-employee-time\modifying_employee_clock_in_clock_out_time.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Employee Time Log">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="About Employees Time Log">
+          <param name="Local" value="employees\employee-time-log\employees_time_log.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View Employee Log">
+          <param name="Local" value="employees\employee-time-log\view_employee_log.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Employee Log Profile">
+          <param name="Local" value="employees\employee-time-log\the_employee_log_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Viewing Employee Log for a Specific Period">
+          <param name="Local" value="employees\employee-time-log\viewing_employee_log_for_a_specific_period.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Add a Record to the Employee's Log">
+          <param name="Local" value="employees\employee-time-log\add_a_record_to_the_employee_s_log.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify an Employee Log Record">
+          <param name="Local" value="employees\employee-time-log\modifying_employee_log_record.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Delete an Employee Log Record">
+          <param name="Local" value="employees\employee-time-log\deleting_employee_log_record.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Employee Log Browser">
+          <param name="Local" value="employees\employee-time-log\the_employee_logs_browser_tcs.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Additional Browser Options">
+          <param name="Local" value="employees\employee-time-log\additional_browser_options_employee_log.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Reports">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Reports">
+          <param name="Local" value="employees\reports\reports_tcs.html">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Visitors">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Visitors">
+        <param name="Local" value="visitors\visitors.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Clocking Visitor Time">
+        <param name="Local" value="visitors\clocking_visitor_time.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Areas">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="About Areas">
+          <param name="Local" value="visitors\areas\areas.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Setting up an Area">
+          <param name="Local" value="visitors\areas\setting_up_an_area.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Area Profile">
+          <param name="Local" value="visitors\areas\the_area_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify Areas">
+          <param name="Local" value="visitors\areas\modifying_areas.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue an Area">
+          <param name="Local" value="visitors\areas\discontinuing_an_area.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View Discontinued Areas">
+          <param name="Local" value="visitors\areas\view_discontinued_areas.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Activate an Area">
+          <param name="Local" value="visitors\areas\activate_an_area.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Areas Browser">
+          <param name="Local" value="visitors\areas\areas_browser_tcs.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Purpose of Visits">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Set up a Purpose of Visit">
+          <param name="Local" value="visitors\purpose-of-visits\setting_up_a_purpose_of_visit.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Purpose of Visit Profile">
+          <param name="Local" value="visitors\purpose-of-visits\the_purpose_of_visit_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Purpose of Visit">
+          <param name="Local" value="visitors\purpose-of-visits\modifying_a_purpose_of_visit.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Discontinue a Purpose of Visit">
+          <param name="Local" value="visitors\purpose-of-visits\discontinue_a_purpose_of_visit.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View Discontinued Purpose of Visits">
+          <param name="Local" value="visitors\purpose-of-visits\view_discontinued_purpose_of_visits.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Activate a Discontinued Purpose of Visit">
+          <param name="Local" value="visitors\purpose-of-visits\activate_a_discontinued_purpose_of_visit.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Purpose of Visit Browser">
+          <param name="Local" value="visitors\purpose-of-visits\purpose_of_visit_browser_tcs.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Clocking Visitor Time">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Clocking Visitor Time In/Time Out">
+          <param name="Local" value="visitors\clocking-visitor-time\clock_visitors_time_in_time_out.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Clock In/Out Dialog Box">
+          <param name="Local" value="visitors\clocking-visitor-time\the_clock_in_out_dialog_box_recording_visitors.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify Visitor Details">
+          <param name="Local" value="visitors\clocking-visitor-time\modifying_visitor_details.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Visitor Logs">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="About Visitor Logs">
+          <param name="Local" value="visitors\visitor-logs\visitor_logs.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Visitor Log Profile">
+          <param name="Local" value="visitors\visitor-logs\the_visitor_log_profile.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="View Visitor Logs for a Specified Period">
+          <param name="Local" value="visitors\visitor-logs\viewing_visitor_logs_for_a_specified_period.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Add a Record to the Visitors Log">
+          <param name="Local" value="visitors\visitor-logs\add_a_record_to_the_visitors_log.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Visitor Log Record">
+          <param name="Local" value="visitors\visitor-logs\modifying_a_visitor_log_record.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Delete a Visitor Log Record">
+          <param name="Local" value="visitors\visitor-logs\deleting_a_visitor_log_record.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Visitor Logs Browser">
+          <param name="Local" value="visitors\visitor-logs\the_visitor_logs_browser_tcs.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Additional Browser Options">
+          <param name="Local" value="visitors\visitor-logs\additional_browser_options_visitor_log.html">
+        </object>
+        </ul>
+      </ul>
+    </ul>
+</ul>
+</html>

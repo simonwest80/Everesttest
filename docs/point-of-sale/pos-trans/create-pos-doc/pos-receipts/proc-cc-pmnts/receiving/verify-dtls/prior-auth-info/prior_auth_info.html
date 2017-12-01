@@ -1,0 +1,43 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="prior-authorization-information">Prior Authorization Information</h1>
+
+<p>The <strong>Use Prior Authorization</strong>  option in the <strong>Card Verification</strong>  dialog box is used for processing payments on cards which are pre-authorized.  Upon fulfillment of the order, when the payment becomes due, the amount  for which prior authorization are obtained must be processed to capture  funds. In a Point of Sale scenario, this option is used primarily for  customer layaway transactions, where the customer reserves one or more  items from your store. Usually such customers pay an initial amount as  a guarantee that they will return later and pay for the items.</p>
+
+<p><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/customer-layaways/customer_layaways_pos.html">Customer Layaways</a></p>
+
+<p>ICVerify</p>
+
+<p>When the payment service is ICVerify, select <strong>Force 
+ Sale</strong> to capture funds on an existing voice authorization or other  authorization. Select <strong>Ship (Prior Booking)</strong>  to capture amounts that are booked through prior authorization in case  of MO/TO sales.</p>
+
+<p><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/pos-receipts/proc-cc-pmnts/credit_card_processing_with_ic_verify_pos.html">Credit  Card Processing with ICVerify</a></p>
+
+<p>Payflow  Pro</p>
+
+<p>When the payment service is Payflow  Pro, select <strong>Voice Authorization</strong> to  capture funds on an existing voice authorization or any other authorization.  Select <strong>Delayed Capture</strong> to capture  amounts that are booked through prior authorization in case of MO/TO sales.</p>
+
+<p><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/pos-receipts/proc-cc-pmnts/credit_card_processing_with_payflow_pro_pos.html">Credit  Card Processing with Payflow  Pro</a></p>
+
+<dl>
+  <dt><strong>Approval Code/PNRef #</strong></dt>
+  <dd>Enter the approval code, if it is a voice authorization.  In case of existing authorizations, select the approval code.</dd>
+  <dd>In case the payment service is Payflow  Pro and the option selected is <strong>Delayed 
+ Capture</strong> select the appropriate PNREF number  (Payment Network Reference Number) in this field.</dd>
+</dl>
+
+<p class="note">You can select only one of the options: sale or prior  authorization while processing a payment.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/pos-receipts/proc-cc-pmnts/processing_credit_card_payments_pos.html">Processing  Credit Card Payments</a></dd>
+</dl>
+
+
+
+
+</div>

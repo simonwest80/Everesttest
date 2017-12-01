@@ -1,0 +1,65 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-processes---partial-receipt-of-items">Back End Processes - Partial Receipt of Items</h1>
+
+<ul>
+  <li>If the quantity  received is less than the ordered quantity, the purchase order is assigned  the status ‘Partially Received’.</li>
+</ul>
+
+<p><strong><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/po-processes/processing-pr/partial-receipts-of-inventoried-items/partial_receipts_of_inventoried_items.html">Partial  Receipts</a></strong></p>
+
+<ul>
+  <li>If the ordered  quantity is received, the purchase order is assigned the status ‘Fully  Received’. If the quantity is not fully invoiced, the purchase order is  still “open” and listed under the Open Purchase Orders toggle in the Purchase  Orders browser. If the purchase order Received status is Fully Received  and Invoiced status is Fully Invoiced, you can view it under the Fully  Received and Invoiced toggle of the Purchase Orders browser.</li>
+  <li>When committed  quantities are received, the following changes occur in the stock status  of the item as viewed in the <strong>Item</strong><strong>Stock</strong> <strong>Status</strong>  dialog box:</li>
+</ul>
+
+<p><strong>Item Stock 
+ Status</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Column</strong></td>
+      <td><strong>Stock Increase/Decrease</strong></td>
+    </tr>
+    <tr>
+      <td>PO</td>
+      <td>Reduced by the quantity received.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/misc/columns_in_the_item_stock_status_dialog_box.html">Item  Stock Status</a></strong></p>
+
+<p><strong>Stock 
+ Area Details</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Column</strong></td>
+      <td><strong>Stock Increase/Decrease</strong></td>
+    </tr>
+    <tr>
+      <td>PO</td>
+      <td>The committed quantity of item <strong>On</strong><strong>Order</strong> in the ‘out’ stock area  to which the item has been assigned is reduced by the quantity that has  been received.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/misc/stock_status_details_section.html">Stock  Area Details</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/doc-options/item-info/stock_status.html">Stock Status</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/po-processes/cmt-items-po/committing_items_to_the_purchase_order.html">Committing  items to the order</a></dd>
+</dl>
+
+
+
+
+</div>

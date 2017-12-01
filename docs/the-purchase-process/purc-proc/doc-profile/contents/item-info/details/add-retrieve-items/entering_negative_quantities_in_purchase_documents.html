@@ -1,0 +1,61 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="enter-negative-quantities-in-purchase-documents">Enter Negative Quantities in Purchase Documents</h1>
+
+<p>You can enter negative item quantities in all purchase documents. When  you enter negative item quantities in a purchase document:</p>
+
+<ul>
+  <li>It is exactly  like creating a purchase return document.</li>
+  <li><strong>Everest</strong>  processes these quantities as entries on a purchase return document.</li>
+  <li>The amount  in the amount column also becomes negative.</li>
+</ul>
+
+<p>The total amount of the purchase document is the sum of the positive  and negative amounts. Although you are allowed to enter negative quantities,  the total amount of the purchase document after adding the positive and  negative amounts on each line item must be positive. In other words, the  document is not allowed to change its character as the result of entering  negative quantities.</p>
+
+<p class="note">If the total amount of a purchase document  becomes negative, it, in effect, becomes a purchase return document and  changes the character of the document which is not allowed.</p>
+
+<p>Entering negative quantities is useful when purchase and purchase returns  are made on the same document.</p>
+
+<p class="example">Exchange of items sold.</p>
+
+<p><strong>Purchase Quote</strong></p>
+
+<p>Negative quantities can be entered directly in the <strong>Quantity</strong>  column.</p>
+
+<p><strong>Purchase Order</strong></p>
+
+<p>Negative quantities can be entered directly in the <strong>Ordered</strong> column.</p>
+
+<p><strong>Purchase Receipts and Invoices</strong></p>
+
+<p>Negative quantities can be entered depending on the item type:</p>
+
+<ul>
+  <li><strong>Non-Inventoried 
+ Items</strong> - Enter the quantity prefixed with a negative (-) sign.</li>
+  <li><strong>Inventoried 
+ Items</strong> - You can directly enter the quantity prefixed with a negative  sign only if the option <strong>Use default stock 
+ area to receive items when creating a purchase receipt/invoice</strong>  (path: <strong>File &gt; Setup &gt; Accounting 
+ &gt; Location/Sub-Location &gt; Options &gt; Edit &gt; In New Window &gt; 
+ Stock Transfer &gt; Miscellaneous</strong> tab) is selected for the logged  in location/sub-location. The stock is automatically retrieved from the  default stock area specified for purchase documents in the <strong>Location</strong>  profile of the logged in location/sub-location. If no stock areas are  defined for this location, the stock area defined for the default location  is used. If adequate stock of the item does not exist in the default stock  area, <strong>Everest</strong> prompts you that  quantity was NOT attached to the document. You must then attach the quantity  from another stock area.</li>
+</ul>
+
+<p>If the option <strong>Use 
+ default stock area to receive items when creating a purchase receipt/invoice</strong>  is NOT selected, you must enter the quantities in the <strong>Attach 
+ Quantity</strong> profile (path: <strong>Purchase 
+ Receipt/Invoice</strong> profile &gt; <strong>Options</strong>  &gt; <strong>Attach/Retrieve Serial #</strong>  &gt; <strong>Show/Attach area wise stock</strong>).</p>
+
+<ul>
+  <li><strong>Serialized/Auto-serialized 
+ Items</strong> - Negative quantities CANNOT be automatically assigned for  auto-serialized type of items. The serial numbers have to be manually  retrieved from ‘Stock’ type of stock area (path: <strong>Purchase</strong><strong>Receipt/Invoice</strong> profile &gt; <strong>Options</strong> &gt; <strong>Attach</strong>/<strong>Retrieve</strong> <strong>Serial</strong>  &gt; <strong>Serial</strong> <strong>Number</strong>  / <strong>Serial # Range</strong> &gt; select a  serial number from ‘stock’ type of stock area).</li>
+</ul>
+
+
+
+
+
+</div>

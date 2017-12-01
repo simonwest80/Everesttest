@@ -1,0 +1,53 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payment-details">Payment Details</h1>
+
+<dl>
+  <dt><strong>Batch Processing</strong></dt>
+  <dd>This option allows you to process credit card refunds  in batches. When the check box is selected, the authorization of the transactions  and capturing of funds takes place later. The refund is marked for batch  processing and is transferred to <a href="/versata-everest-docs/accounting/customer-receipts-and-refunds/batch-payment-processing/batch_credit_card_process_browsers.html"><strong>Batch Payment Process</strong> browser</a>. These  refunds can be processed at a later stage.</dd>
+  <dd>Refunds are made through credit card on orders placed  with your company. Using this option, you can process all of them at the  end of the day in a batch instead of processing them one by one.</dd>
+  <dd>This check box is displayed/hidden depending on  the preference set for documents while processing payments (path: <strong>File &gt; Setup &gt; Preferences &gt; Flow 
+ Control &gt; Documents &gt; Miscellaneous</strong> tab <strong>&gt; Document payments</strong> tab <strong>&gt; 
+ Batch 
+ Payments</strong> section).</dd>
+  <dt><strong>Payment Method</strong></dt>
+  <dd>All the payment methods set up for customers are  available for selection in this field. The default payment method for  customers specified in the <strong>Default payment 
+ method for collections</strong><font style="font-family: Verdana;" face="Verdana"> </font>field of the <strong>Accounting</strong> dialog box (path: <strong>File &gt; Setup 
+ &gt; Preferences &gt; Defaults &gt; Accounting &gt; Miscellaneous</strong> tab)  is displayed by default in this field. You can select a different payment  method.</dd>
+  <dd>The bank account associated with the payment method  is credited with the payment made to the customer.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/payment-information/payment-methods/payment_methods.html">Payment  methods</a></dd>
+  <dt><strong>Cash Register</strong></dt>
+  <dd>This field allows you to track the refund of payments  on a sales document. Sometimes, there may be instances where you may have  to refund payments to customers in parts on a sales order or invoice.  Using this field, you can store the record for each refund you make on  different cash registers for a single document.</dd>
+  <dt>You want to make the first refund through  one cash register and subsequent refunds through other cash registers,  thus, storing the record of each refund on different cash registers.</dt>
+  <dd>Specify the cash register where you want to store  the record of each refund to the customer. By default, this field displays  the value specified in the <strong>Default Cash 
+ Register</strong> field in the <a href="/versata-everest-docs/business-processes-in-everest/misc/registers_misc_tab_document_payments_tab_flow_control_setup.html">Flow  Control Preferences</a> (path: <strong>File &gt; 
+ Setup &gt; Preferences &gt; Flow Control &gt; Documents &gt; Miscellaneous 
+ &gt; Document Payments</strong> tab). It should also be noted that this  field displays only the active cash registers (registers with status as  ‘Available’) in the drop-down list.</dd>
+  <dt><strong>Reference/Check No.</strong></dt>
+  <dd>Use this option to specify a reference for the refund.  When the payment method is a check type of payment, and you refund the  amount using a manual check, enter the check number here. This number  appears in the receipt journal.</dd>
+  <dd>Where the payment method is of any other type of  payment, enter a suitable reference.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> In  case of cash payments, you can enter the cash voucher number, or for wire  transfers, the transfer reference.</dd>
+  <dt><strong>Date</strong></dt>
+  <dd>The date of the payment displays the login date  by default. You can specify any other date if required. This date appears  on the receipt journal.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> If  you make the payment using a post-dated check, enter the date of the check  in this field.</dd>
+  <dt><strong>Approval Code</strong></dt>
+  <dd>Enter the approval code received from the credit  card company for the credit card payment in this field. This information  must be specified in case the credit card payments are manually processed.  This field is disabled when the credit card payment is processed online.</dd>
+  <dt><strong>Narration</strong></dt>
+  <dd>Use this option to enter a note for the transaction.  Click on the <img src="/versata-everest-docs/sales/img/sales_notes_button.gif" alt="" /> icon, you will see <strong>Refunds 
+ Comments</strong> dialog box. The narration can also be viewed from the  <strong>Receipt Journal</strong> in which this  transaction is recorded.</dd>
+  <dt><strong>Amount</strong></dt>
+  <dd>This is the amount of payment that you are making  to the customer. You cannot make a payment for an amount that is greater  than the amount received from a customer.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> If  the value of an order is $1000 and you have received $600 from the customer,  then the maximum amount that can be refunded is $600.</dd>
+  <dd>If you make a refund to a foreign currency customer,  you cannot enter an amount in this field. In this case, use the <strong>Prior Payments</strong> tab to specify the amount  of refund.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/refunds-on-so/the_refund_dialog_box_general_sales.html">The  Refund Dialog Box - General</a></dd>
+</dl>
+
+
+
+
+</div>

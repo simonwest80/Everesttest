@@ -1,0 +1,37 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="purchase-journals-for-debit-memos">Purchase Journals for Debit Memos</h1>
+
+<p>Purchase returns are entered in an open system purchase journal that  fulfills the following conditions:</p>
+
+<ul>
+  <li>The journal  should belong to the same accounting period as the login date.</li>
+  <li>The journal  should have the same journal group as the one selected in <strong>Workstation 
+ Settings</strong> of the user creating the debit memo.</li>
+  <li>The journal  should have the same location/sub-location as the login location/sub-location  of the user creating the debit memo.</li>
+  <li>The journal  should have the same account for Accounts Payable Control as the one selected  in the <strong>Accounting</strong> dialog box (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Defaults &gt; Accounting &gt; Control Accounts</strong> tab <strong>&gt; Accounts payable</strong> field).</li>
+</ul>
+
+<p>If no such open journal exists, a new purchase journal is created.</p>
+
+<p>The sequence number for the purchase journal is assigned based on the  settings in the <strong>Location</strong> profile  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location</strong>/<strong>Sub-Location</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong>) of the login location/sub-location.</p>
+
+<p>If no sequence number is assigned for the logged in location/sub-location,  the sequence number assigned for the default location (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong> &gt; <strong>Miscellaneous</strong> tab  &gt; <strong>Default Location</strong> field) is  used.</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  location</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/accounting-structure-in-everest/journals/system_journals.html">System  Journals</a></dd>
+</dl>
+
+
+
+
+</div>

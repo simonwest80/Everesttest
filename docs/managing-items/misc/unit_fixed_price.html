@@ -1,0 +1,39 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="unit-fixed-price">Unit Fixed Price</h1>
+
+<p>This is the price per unit of sales measure of an item. The measure  specified in the <strong>Other sales information</strong>  section of the <strong>Sales</strong> tab is considered  when calculating the unit fixed price. The unit fixed price is calculated  as follows:</p>
+
+<p>Fixed Price / Unit Quantity of the Measure</p>
+
+<p class="example">The fixed price of Item A is $12 and the sales  measure is specified as ‘DZ’  (Dozen). The unit quantity specified for ‘DZ’  is 12. Therefore, the unit fixed price is calculated as: 12/12 = $1.</p>
+
+<p>This field is enabled only if:</p>
+
+<ul>
+  <li>the  quantity in sales measure is more than 1</li>
+</ul>
+
+<p><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/sales/sales_measure_sales_info_item_profile.html">Sales  Measure</a></p>
+
+<ul>
+  <li><strong>Fixed 
+ Price</strong> is selected for price calculation.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/managing-items/item-profile-details/item-pricing/pricing-calculations/fixed_price.html">Fixed Price</a></p>
+
+<p>When you change the fixed price in the <strong>Item</strong>  profile with sales measure more than one, <strong>Everest</strong>  calculates unit fixed price up to 6 decimals.</p>
+
+<p>In sales and purchase documents, the unit price is rounded off based  on the unit quantity in the measure.</p>
+
+<p class="example">If quantity in measure is 0-9, unit fixed  price is calculated up to two decimals, and if quantity in measure has  5 digits (10000-99999), unit fixed price is calculated up to six decimals.</p>
+
+
+
+
+</div>

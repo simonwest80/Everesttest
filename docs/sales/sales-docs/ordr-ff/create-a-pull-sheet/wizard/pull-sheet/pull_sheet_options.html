@@ -1,0 +1,229 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" x-save-method="compute-relative" src="/versata-everest-docs/sales/misc/ehlpdhtm.js"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<p>Select this option to scan items by Model No., Item Code, Item Alias  or Serial Number from the <strong>Commit Inventory</strong>  dialog box (path: <strong>Options</strong> &gt;  <strong>Commit Inventory</strong> from the <strong>Pull Sheets</strong> window). You can set the  sequence of the order by which <strong>Everest</strong>  will retrieve the item by setting flow control preferences (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong> &gt; <strong>Flow Control</strong> &gt; <strong>Items</strong>  &gt; <strong>Item Details</strong> tab).</p>
+
+<p><img src="/versata-everest-docs/sales/img/commit_inventory_psb_specific_location_sal.gif" alt="" /></p>
+
+<p><strong>Figure: Commit Inventory Dialog Box</strong></p>
+
+<p>All inventoried, serialized and auto-serialized items can  be scanned. Every correct entry increases the quantity in the Committed  column of the sales order by the quantity in the <strong>Qty</strong>  field of the <strong>Commit Inventory</strong>  dialog box. The <strong>Qty</strong> field defaults  to 1, but with the appropriate security right, you can change the quantity  for regular items. Serial numbers always scan as 1 unit and the quantity  cannot be changed.</p>
+
+<p>To prevent mistakes, this screen flashes a red signal and  sounds a beep for an invalid entry. An invalid scan message is indicated  both visually and audibly for the following reasons:</p>
+
+<ul>
+  <li>Item does not exist</li>
+  <li>Quantity exceeds  order quantity</li>
+  <li>Item is not in  document list</li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/incorrect_scan_sal.gif" alt="" /></p>
+
+<p><strong>Figure: Incorrect Scan Message</strong></p>
+
+<dl>
+  <dt><strong>Stock bins from</strong></dt>
+  <dd>Select the location of the item from the <strong>Stock 
+ bins from</strong> drop-down list. If you select the Specific Location option,  the Location field is enabled.</dd>
+  <dt><strong>Location</strong></dt>
+  <dd>Select the location from the Location drop-down  list when you select the Specific Location option.</dd>
+</dl>
+
+<p>Click the <strong>History</strong>  button to view the history of all scan attempts/actions.  This  screen can be useful for identifying when an invalid barcode was scanned  or a mistake was made. History will only display the scan history while  the commit inventory screen has been open.</p>
+
+<p>Select this option to view the history of all the scan events for the  document. The <strong>Item Scan History</strong>  browser lists the following actions:</p>
+
+<ul>
+  <li>Assigned</li>
+  <li>Skipped</li>
+  <li>Invalid Product</li>
+  <li>Quantity exceeded</li>
+</ul>
+
+<p>Select this option, after highlighting the required item, to view the  details of the serial number attached to the items in the <a href="/versata-everest-docs/sales/sales-docs/docs-profile/options/items/serial_browser.html"><strong>Serial #</strong></a> browser. This option is  not enabled after the picked quantities are confirmed and if the pull  sheet is ‘closed’.</p>
+
+<p>Select this option to pick a serialized item. This option is enabled  only for serialized and auto-serialized items. The Attach Serial # option  is NOT enabled if the pull sheet is ‘closed’.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/misc/one_by_one_entering_serialized_items_pull_sheet_browser.html">Attach  Serialized Items - One by One</a></p>
+
+<p>Select this option to pick a range of serial numbers for serialized  and auto-serialized items. The <strong>Attach 
+ Serial # (Range)</strong> option is NOT enabled if the pull sheet is ‘closed’.</p>
+
+<p><strong><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/misc/range_entering_serialized_items_pull_sheet_browser.html">Attach  Serialized Items - Range</a></strong></p>
+
+<p>Select this option if the serial numbers should be attached only to  the currently highlighted order. This option is useful if you do not want  to attach the serial numbers (manually entered/scanned) to other line  items in the <strong>Pull Sheet</strong> browser  with the same item code at one stretch.</p>
+
+<p>Use this toggle option to select and deselect all the items for picking.</p>
+
+<p>If you select this option, the <strong>Quantity 
+ Picked</strong> column automatically displays the quantities that can be  picked. This is the quantity to be picked for all non-serialized items  and auto-serialized items, and lot tracked inventory items excluding the  quantity already committed in sales orders.</p>
+
+<p>Select <strong>OK</strong> to automatically  pick the item quantities that are in stock. The item quantities not in  stock will not be committed and the <strong>Quantity 
+ Picked</strong> column will show zero quantities.</p>
+
+<p>This option is enabled after items have been picked using either the  <strong>Auto Pick</strong> option, or entering  quantities in the <strong>Quantity Picked</strong>  column either manually or by using the <strong>Commit 
+ Inventory</strong> option (path: <strong>Options</strong>  &gt; <strong>Commit Inventory</strong>). When you  select this option, the picked quantities are committed to sales orders.</p>
+
+<p>If all the items in the Pull Sheet are not picked, and you select the  <strong>Commit Picked Quantities</strong> option,  <strong>Everest</strong> prompts you to confirm  whether you want to commit the picked quantities only. Select <strong>Yes</strong>  to commit the picked quantities.</p>
+
+<p>After all the items (serialized and non-serialized) are committed in  the Pull sheet, you can click the “Continue” button to close the Pull  Sheet. <strong>Everest</strong> displays a message  saying that all the items in the Pull Sheet are committed, and the Pull  Sheet will be closed. Select <strong>Yes</strong>  to close the Pull sheet or <strong>No</strong>  to keep it open.</p>
+
+<p class="note">The Pull sheet cannot be kept open if all the items are committed. You  can manually close the Pull sheet by using the <strong>Close 
+ Pull Sheet</strong> option even without committing all the items.</p>
+
+<p>If all the items on the Pull sheet are <strong>not</strong>  committed, and the “Continue” button is clicked, <strong>Everest</strong>  informs you of the same and asks if you want to close the pull sheet.  If you select <strong>Yes</strong>, <strong>Everest</strong>  warns you that once the Pull Sheet is closed, you cannot commit the quantities.  If you select <strong>Yes</strong> again, <strong>Everest</strong> asks you whether you want to  de-link the sales orders that are not fully committed. Select <strong>Yes</strong>  to de-link the sales orders or <strong>No</strong> if  you do not want to de-link.</p>
+
+<p>Select the <a href="/versata-everest-docs/sales/misc/convert_to_invoice.html">Convert  to Invoice</a> option to create sales invoice(s)  for the selected items. This option is NOT enabled until the picked quantities  are confirmed using the <strong>Commit Picked 
+ Quantities</strong> option.</p>
+
+<p>Select a sales order and click this option to remove the sales order  from the pull sheet. This will remove the sales order even if part of  the quantity is committed. The uncommitted quantity can be committed on  the sales order from the <strong>Sales Orders</strong>  browser.</p>
+
+<p class="note">You cannot remove a sales order without either committing  the picked quantity or unassigning it. If you assign quantity in the <strong>Quantity Picked</strong> column and try to remove  the sales order, you are prompted that it is imperative to commit or uncommit  quantities prior to removing the sales orders.</p>
+
+<p>This option is available only when one or more line items on a sales  order are attached to an open pull sheet, irrespective of whether the  items are picked or not.</p>
+
+<p>Select this option to view the all the sales invoices created for the  selected sales order.</p>
+
+<p>Use this toggle option to include or exclude items that have been shipped  in the <strong>Pull Sheet</strong> browser. Note  that the check box in the <strong>Shipped</strong>  column is checked if all the quantities for the line item are shipped.</p>
+
+<p>The Pull Sheet wizard allows you to filter sales orders with credit  card authorizations as fully paid. The <strong>Batch 
+ Credit Card Processing &gt; Prior Authorization</strong> option allows you  to capture funds for those sales orders. When you select this option,  you will see the <a href="/versata-everest-docs/accounting/customer-receipts-and-refunds/batch-payment-processing/batch_credit_card_process_use_prior_authorization_browser.html">Batch  Payment Process - Prior Authorizations browser</a> displaying only pre-authorized  transactions for all the sales orders that are part of the Pull Sheet.</p>
+
+<p>Select this option to mark the pull sheet as closed. A closed pull sheet  can merely be printed or processed to an invoice. You cannot pick items  for closed pull sheets. When all the required items have been committed  on a pull sheet, the pull sheet status automatically changes to closed.  When a pull sheet is marked as closed, the <strong>Picked</strong>  column in the <strong>Sales Order</strong> profile  is deselected.  This option is NOT enabled if the pull sheet status is ‘closed’.</p>
+
+<p>If all the items on the Pull sheet are <strong>not</strong>  committed, and you choose this option, <strong>Everest</strong>  informs you of the same and asks if you want to close the pull sheet.  If you select <strong>Yes</strong>, <strong>Everest</strong>  warns you that once the Pull Sheet is closed, you cannot commit the quantities.  If you select <strong>Yes</strong> again, <strong>Everest</strong> asks you whether you want to  delink the sales orders that are not fully committed. Select <strong>Yes</strong>  or <strong>No</strong> as per your requirement.</p>
+
+<p>Use this option to enter additional or special information in the <strong>Pull Sheet Notes</strong> dialog box. Enter the  notes and select <strong>Options &gt; Save</strong> to  save the notes.</p>
+
+<p>Select this option to print the pull sheet. When you select this option,  the <strong>Print 
+ Setup</strong> dialog box <em>**</em> is  displayed.</p>
+
+<p>From the Pull Sheet, you can use the <strong>Print 
+ Pick Tickets</strong> option to print selected pick tickets to show where  items that need to be picked are located in your warehouse.  Details  on the pick ticket report are sorted based on the warehouse position of  the stock bin where the items exist.</p>
+
+<p>To do this, on the Pull Sheet, highlight the required pick tickets and  select the <strong>Print Pick Tickets</strong>  option (<strong>Options</strong> &gt; <strong>Print 
+ Pick Tickets</strong>) to print the pick ticket(s) associated with the pull  sheet. Items display in the order of the warehouse position and you can  distinguish inventory that has been previously committed.</p>
+
+<p>You will see the <strong>Printing Preferences</strong>  dialog box. You can print the report by clicking the <strong>Print</strong>  icon.</p>
+
+<dl>
+  <dt><strong>Copies</strong></dt>
+  <dd>Select the number of pick ticket copies to be printed.</dd>
+  <dt><strong>Display committed inventory details</strong></dt>
+  <dd>Select this option to display picking details for  items that have been previously committed to the sales order. This is  the default selection.</dd>
+</dl>
+
+<p>The <strong>Pick Ticket</strong> report shows  the following fields of interest:</p>
+
+<dl>
+  <dt><strong>Description</strong></dt>
+  <dd>The <strong>Description</strong>  column of the Pick Ticket report will match the description of the item  entered in the sales order.  Inventory  details will be printed below the description if the “Display committed  inventory details”option is selected.  Examples  of inventory details that will be displayed include Lot numbers and Serial  Numbers (Manufacturer or Internal).</dd>
+  <dt><strong>Stock Bin</strong></dt>
+  <dd>In the <strong>Stock Bin</strong>  column of the Pick Ticket report, an asterisk (*) displays after the stock  bin of the line items that have already been partially or fully committed.</dd>
+</dl>
+
+<p>Select this option to view the stock details of the highlighted item.  You will see the <strong>Item 
+ Stock Status</strong> browser.</p>
+
+<h1 id="pull-sheet-options">Pull Sheet Options</h1>
+
+<p>The following options are available in the <strong>Pull Sheet</strong> window <strong>** (path: **Pull Sheet</strong> window <strong>** &gt; **Options</strong>):</p>
+
+<ul>
+  <li><a href="javascript:kadovTextPopup(this)" id="a18">Commit  Inventory</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a18');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a19">Scan History</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a19');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a1">Show  Serial #</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a1');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a2"><strong>Attach Serial #</strong></a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a2');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a3"><strong>Attach Serial # (Range)</strong></a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a3');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a4"><strong>Attach Serial # within the order highlighted</strong></a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a4');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a5"><strong>Select All/Unselect 
+ All</strong></a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a5');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a6"><strong>Auto pick</strong></a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a6');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a7"><strong>Commit Picked Quantities</strong></a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a7');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a8">Convert  to Invoice</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a8');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a9">Remove  SO</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a9');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a10">View  Invoices Created</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a10');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a11">Include/Exclude  Shipped Items</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a11');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a12">Batch  Credit Card Processing &gt; Prior Authorization</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a12');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a13">Close  Pull Sheet</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a13');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a14">Notes</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a14');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a15">Print  Pull Sheet</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a15');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a16">Print  Pick Tickets</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a16');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a17">Item  Stock Status</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a17');
+//--></script></li>
+</ul>
+
+<p>Options common to all browsers are also available in this browser.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/working-with-everest/everest-client/ui/browsers/standard_browser_options.html">Standard  Browser Options</a></p>
+
+<p>The following options are not available from the closed Pull Sheet:</p>
+
+<ul>
+  <li>Show Serial Number</li>
+  <li>Attach Serial Number</li>
+  <li>Attach Serial Number  (Range)</li>
+  <li>Serialize within  the order highlighted</li>
+  <li>Auto Pick</li>
+  <li>Commit Picked Quantities</li>
+  <li>Close Pull Sheet</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/ordr-ff/create-a-pull-sheet/wizard/pull-sheet/pull_sheet.html">Pull Sheet Browser</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/ordr-ff/create-a-pull-sheet/wizard/the_pull_sheet_wizard.html">The Pull Sheet  Wizard</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/ordr-ff/create-a-pull-sheet/wizard/pull-sheet/pick_ticket_printing_preferences_sal.html">Pick  Ticket - Printing Preferences</a></dd>
+</dl>
+
+
+
+
+</div>

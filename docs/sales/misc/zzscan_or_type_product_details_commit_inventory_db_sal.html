@@ -1,0 +1,31 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<ul>
+  <li>Scan or enter the  Item Code, Item Alias, Model Number or Serial Number of an item in the  <strong>Scan or type product details</strong> field.</li>
+  <li>The quantity field  (<strong>Qty</strong>) defaults to 1. With the  appropriate security right, you can change the quantity for regular items.  Serial numbers always scan as 1 unit and the quantity cannot be changed.</li>
+  <li>Click the <strong>Commit</strong> button. The <strong>Save</strong>  button is enabled.</li>
+  <li>Click the <strong>Save</strong> button. The committed quantity  in the sales order is increased by the number in the <strong>Qty</strong>  field.</li>
+  <li>The system opens  the sales order and increases the committed quantity by the number in  the <strong>Qty</strong> field and saves and locks  the order again at the back end.</li>
+</ul>
+
+<p>When you do not specify whether you are scanning the item  by code, alias, model number or serial number, the system follows the  order you specify in the flow control preferences (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Flow 
+ Control</strong> &gt; <strong>Items</strong> &gt;  <strong>Item Details</strong> tab).</p>
+
+<p>An invalid scan message is indicated both visually and audibly  for the following reasons:</p>
+
+<ul>
+  <li>Item does not exist</li>
+  <li>Quantity exceeds  order quantity</li>
+  <li>Item is not in the  document list</li>
+</ul>
+
+<p>Click the <strong>History</strong>  button to view the history of all scan attempts/actions. This screen can  be useful for identifying when an invalid barcode was scanned or a mistake  was made. The history will only display while the Commit Inventory dialog  box is open and is not saved after closing.</p>
+
+
+
+
+</div>

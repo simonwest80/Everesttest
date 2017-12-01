@@ -1,0 +1,65 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="custom-database-object">Custom Database Object</h1>
+
+<p>When you create a company in <strong>Everest</strong>,  a company database which has all the details pertaining to that company  is created automatically. The system database contains common data required  for the smooth functioning of all the company databases. You can create  your own database objects using the <strong>MS 
+ SQL Query Analyzer</strong>.</p>
+
+<p>During the database update process, <strong>Everest</strong>  will delete the database objects created by you as it is not present in  the new version. To avoid this, <strong>Everest</strong>  provides you with the <strong>Custom Database 
+ Object Utility</strong>. The <strong>Custom Database 
+ Object</strong> utility is used to specify the names of the database objects  that you have created. This data is stored in a custom database repository.</p>
+
+<p class="note">If the custom database object created using  the query analyzer is in the ‘<strong>U_&lt;object 
+ name&gt;</strong>’format that is, if the name of the database object begins  with ‘<strong>U_</strong>’,  then it need not be specified using this utility.</p>
+
+<p>If <strong>Everest</strong> identifies a database  object that does not exist in the custom database repository nor is in  the ‘<strong>U_&lt;object 
+ name&gt;</strong>’format, then the object is deleted. Otherwise, <strong>Everest</strong>  leaves the database object intact and the update process is completed.</p>
+
+<p class="note">The <strong>Database 
+ Update</strong> process updates the system and company databases. When you  install a new version of <strong>Everest</strong>,  the default databases are updated. The system database and the company  databases are not updated.</p>
+
+<p><img src="/versata-everest-docs/everest-advanced-edition-utilities/img/lens.gif" alt="" /> <a href="/versata-everest-docs/everest-advanced-edition-utilities/database-update-utility/dbupdate_database_update_utility.html">Database  Update Utility</a></p>
+
+<p>You may access the Custom Database Object Utility:</p>
+
+<ul>
+  <li>From a standalone  configuration.</li>
+  <li>From a shared  client.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/everest-advanced-edition-utilities/img/refer.gif" alt="" /> Sections  <strong>Stand-alone Configuration</strong> and  <strong>Shared Client</strong> in <strong>Everest 
+ Advanced Edition</strong> Installation Guide.</p>
+
+<p class="steps">To access the Custom Database Object Utility  from a standalone configuration, do the following:</p>
+
+<ul>
+  <li>Run the <strong>CustomDBOUtility.exe</strong>file. You will see the <strong>Custom 
+ Dbo Utility</strong>  dialog box.</li>
+</ul>
+
+<p class="note">Unless you specified another path during <strong>Everest</strong> installation, this file is available  by default in C:\Program  Files\Icode\Everest\Client\Utilities.</p>
+
+<p class="steps">To access the Custom Database Object Utility  from a shared client, do the following:</p>
+
+<ul>
+  <li>Share the program  files folder on the network server on which <strong>Everest 
+ Advanced Edition</strong> is installed.</li>
+  <li>From the Client  system, map to the shared program files folder on the network server.</li>
+  <li>Run <strong>&lt;Mapped 
+ Drive&gt;:\Client\Utilities\CustomDBOUtility.exe</strong>.  You will see the <strong>Custom Dbo 
+ Utility</strong> dialog box.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-advanced-edition-utilities/custom-db-obj-utility/cdbo_custom_dbo_utility.html">Custom Dbo  Utility</a></dd>
+</dl>
+
+
+
+
+</div>

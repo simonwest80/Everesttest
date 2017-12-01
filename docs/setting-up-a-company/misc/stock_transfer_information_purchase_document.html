@@ -1,0 +1,71 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="stock-transfer-information---purchase-document">Stock Transfer Information - Purchase Document</h1>
+
+<p>Stock transfer options for purchase documents determine the default  stock area/bin into which inventoried items received from vendors are  moved, or the stock area/bin to which items returned to vendors are moved.  Items can be moved into stock areas that are of type bin and not general  level stock areas.</p>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/stock-areas/stock_areas_setup.html">Stock Areas</a></p>
+
+<p>Select stock area to transfer inventoried items into when  creating</p>
+
+<dl>
+  <dt><strong>Purchase Receipt/Invoice</strong></dt>
+  <dd>Use this option to identify the default stock area  into which vendor shipments are initially received when creating a purchase  receipt or invoice.</dd>
+</dl>
+
+<p class="example">All vendor shipments may be initially received into a stock area called  “Main”.</p>
+
+<dl>
+  <dt><strong>Debit Memo</strong></dt>
+  <dd>Use this option to assign a default stock area to  which returns to vendors are transferred when creating a debit memo.</dd>
+</dl>
+
+<p class="example">Items returned to vendors may be moved to a virtual stock area called  “Vendor RMA Out”.</p>
+
+<p>Select stock area to transfer inventoried items into when  assigning</p>
+
+<dl>
+  <dt><strong>Purchase Order</strong></dt>
+  <dd>Use this option to assign a stock area to transfer  items (for approval) received from vendors, when creating a purchase order.  You receive these items into a stock area for inspection or quality verification.</dd>
+</dl>
+
+<p class="note">Only a stock area of type <strong>Out</strong>  can be selected, as items received in this area are not a part of your  stock until a purchase receipt is created for them.</p>
+
+<p class="example">Items received for approval may be moved to a stock area called ‘Inspection’.</p>
+
+<dl>
+  <dt><strong>Debit Order</strong></dt>
+  <dd>Use this option to assign a stock area to which  defective stocks to be returned to vendors are transferred.</dd>
+</dl>
+
+<p class="example">Defectives expected to be returned may be moved to a stock area called  ‘Vendor RMA expected’.</p>
+
+<p>Select stock area to transfer inventoried items into when  un-assigning</p>
+
+<dl>
+  <dt><strong>Purchase Order</strong></dt>
+  <dd>Use this option to identify stock area to which  items detached from a purchase order are transferred.</dd>
+</dl>
+
+<p class="example">When you receive items from vendors for approval, the rejected items  are returned to the vendors. These items may be moved to a stock area  called ‘Vendor Rejects’.</p>
+
+<dl>
+  <dt><strong>Debit Order</strong></dt>
+  <dd>Use this option to identify the stock area to which  items attached to a debit order have to be transferred when the items  are detached.</dd>
+</dl>
+
+<p class="example">When items are sent to vendors for repairs or exchange, they are recorded  in a debit order. When the items are returned after repair or exchange,  you can detach them from the debit order. Such items may be moved to a  stock area called ‘Repaired Items’.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/location-details/stock-transfer-information/stock_transfer_information.html">Stock Transfer  Information</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,53 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="transaction-entries">Transaction Entries</h1>
+
+<p>This section displays details of the accounting entries created.</p>
+
+<dl>
+  <dt><strong>Short/Over</strong></dt>
+  <dd>This field displays the amount by which the transaction  is not balanced (i.e. the amount of difference between the debits and  credits), and is automatically computed. This field will always display  “zero” for entries created in a system journal.</dd>
+  <dt><strong>Account</strong></dt>
+  <dd>The account that has been debited or credited is  displayed in this column.</dd>
+  <dt><strong>Description</strong></dt>
+  <dd>The name of the account is displayed in this field.</dd>
+  <dt><strong>Loc/Sub-Loc</strong></dt>
+  <dd>The location or sub-location to which the amount  has been allocated is displayed in this column. The location/sub-location  identifies the cost centers or profit centers for an expense or revenue  account. Locations/Sub-Locations can be assigned only to income and expense  accounts. The location/sub-location pertaining to the line item in the  sales document is displayed in this column.</dd>
+  <dt><strong>Entry Type</strong></dt>
+  <dd>This column provides the reason that the account  is debited or credited. By default, the first line entry which debits  or credits the Accounts Receivable account has no entry type.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/example.gif" alt="" />  When  sales tax is charged on a document, the entry type is Sales Tax.</dd>
+  <dd>The system entry types are:</dd>
+</dl>
+
+<ul>
+  <li>Taxable commissionable  revenue</li>
+  <li>Exempt commissionable  revenue</li>
+  <li>Taxable non-commissionable  revenue</li>
+  <li>Exempt non-commissionable  revenue</li>
+  <li>Cost of Goods  Sold (non-commissionable)</li>
+  <li>Cost of Goods  Sold (commissionable)</li>
+  <li>Cost of goods  (non-commissionable - other)</li>
+  <li>Sales Tax Payable</li>
+</ul>
+
+<dl>
+  <dt><strong>Notes</strong></dt>
+  <dd>This column displays additional details about the  accounting entry. Notes are not defined automatically for system generated  entries.</dd>
+  <dt><strong>Job Code</strong></dt>
+  <dd>The job code to which the amount of sales or sales  returns is allocated is displayed in this column. The job code specified  for the line item in the sales document profile is displayed.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/item-info/other/job_code_item_details_grid_sales_content.html">Job  Code - Sales Documents</a></dd>
+  <dt><strong>Debit and Credit</strong></dt>
+  <dd>The amount that has been debited is displayed in  the Debit column while the amount that has been credited is displayed  in the Credit column. The same account cannot be debited and credited  in the same transaction entry. The debit and credit amounts for foreign  currency documents are displayed in foreign currency. To view the transactions  in base currency,<font style="color: #ff0000;" color="#FF0000"> </font>select <strong>Options 
+ &gt; View in Base Currency</strong> from the journal profile.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/sales/sales-through-documents/system-sales-journals/system_sales_journal_profile_general.html">System  Sales Journal profile - General</a></dd>
+</dl>
+
+
+
+
+</div>

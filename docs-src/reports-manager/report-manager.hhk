@@ -1,0 +1,558 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="accessing report manager">
+    <param name="Name" value="Accessing Report Manager">
+    <param name="Local" value="manager\accessing_report_manager.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="assign parameters to .czr file">
+    <param name="Name" value="Assign Parameters to .czr file">
+    <param name="Local" value="manager\window\creating-reports\assign_parameters_to_czr_file_rm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="batches">
+    <param name="Name" value="Batches">
+    <param name="Local" value="misc\batches.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="boolean">
+    <param name="Name" value="Boolean">
+    <param name="Local" value="misc\boolean.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report parameter dialog designer">
+      <param name="Name" value="Boolean">
+      <param name="Local" value="misc\boolean.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="component panel">
+    <param name="Name" value="Boolean">
+    <param name="Local" value="misc\boolean.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="boolean">
+      <param name="Name" value="Boolean">
+      <param name="Local" value="misc\boolean.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="data">
+      <param name="Name" value="Data">
+      <param name="Local" value="misc\data.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="numeric">
+      <param name="Name" value="Numeric">
+      <param name="Local" value="misc\numeric.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report parameter dialog designer">
+      <param name="Name" value="Component Panel">
+      <param name="Local" value="manager\window\creating-reports\parameter-interface\the-report-designer\component_panel.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="text">
+      <param name="Name" value="Text">
+      <param name="Local" value="misc\text.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="componet panel">
+    <param name="Name" value="Date Time">
+    <param name="Local" value="misc\date_time.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="date time">
+      <param name="Name" value="Date Time">
+      <param name="Local" value="misc\date_time.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="create">
+    <param name="Name" value="Create a New Internal Report">
+    <param name="Local" value="manager\window\creating-reports\internal-reports\create_a_new_internal_report_report_manager.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="internal report">
+      <param name="Name" value="Create a New Internal Report">
+      <param name="Local" value="manager\window\creating-reports\internal-reports\create_a_new_internal_report_report_manager.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="data">
+    <param name="Name" value="Data">
+    <param name="Local" value="misc\data.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report parameter dialog designer">
+      <param name="Name" value="Data">
+      <param name="Local" value="misc\data.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="date parameters in report batches">
+    <param name="Name" value="Date Parameters in Report Batches">
+    <param name="Local" value="manager\window\report-batches\create-a-report-batch\date_parameters_in_report_batches.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="date time">
+    <param name="Name" value="Date Time">
+    <param name="Local" value="misc\date_time.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report parameter dialog designer">
+      <param name="Name" value="Date Time">
+      <param name="Local" value="misc\date_time.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="deleting batches">
+    <param name="Name" value="Delete a Report Batch">
+    <param name="Local" value="manager\window\report-batches\modify-delete-a-report-batch\deleting_batches.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="description for the batch">
+    <param name="Name" value="Report Batch Wizard - Batch Description">
+    <param name="Local" value="manager\window\report-batches\create-a-report-batch\report_batch_wizard_batch_description.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="disable batches">
+    <param name="Name" value="Disable Batches">
+    <param name="Local" value="manager\window\report-batches\schedule-a-report-batch\disable_batches_rm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="everest report manager">
+    <param name="Name" value="The Everest Report Manager">
+    <param name="Local" value="manager\the_everest_report_manager.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="extract reports">
+    <param name="Name" value="Extract">
+    <param name="Local" value="misc\extract.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report manager">
+      <param name="Name" value="Extract">
+      <param name="Local" value="misc\extract.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="extracting and updating reports">
+    <param name="Name" value="Extracting and Updating Reports">
+    <param name="Local" value="manager\window\modifying-reports\extracting_and_updating_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report manager">
+      <param name="Name" value="Extracting and Updating Reports">
+      <param name="Local" value="manager\window\modifying-reports\extracting_and_updating_reports.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="internal report">
+    <param name="Name" value="Create a New Internal Report">
+    <param name="Local" value="manager\window\creating-reports\internal-reports\create_a_new_internal_report_report_manager.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="create">
+      <param name="Name" value="Create a New Internal Report">
+      <param name="Local" value="manager\window\creating-reports\internal-reports\create_a_new_internal_report_report_manager.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="internal reports">
+    <param name="Name" value="Internal Reports">
+    <param name="Local" value="manager\window\creating-reports\internal-reports\internal_reports_reports_manager.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="main menu">
+    <param name="Name" value="Main Menu">
+    <param name="Local" value="manager\window\creating-reports\parameter-interface\the-report-designer\main_menu.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report parameter dialog designer">
+      <param name="Name" value="Main Menu">
+      <param name="Local" value="manager\window\creating-reports\parameter-interface\the-report-designer\main_menu.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="maintaining repository of reports">
+    <param name="Name" value="Reports Repository">
+    <param name="Local" value="manager\window\maintaining-repository-of-reports\maintaining_repository_of_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report manager">
+      <param name="Name" value="Reports Repository">
+      <param name="Local" value="manager\window\maintaining-repository-of-reports\maintaining_repository_of_reports.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="modify dialog">
+    <param name="Name" value="Modify Dialog">
+    <param name="Local" value="misc\modify_dialog.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="modifying batches">
+    <param name="Name" value="Modify a Report Batch">
+    <param name="Local" value="manager\window\report-batches\modify-delete-a-report-batch\modifying_batches.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="modifying reports">
+    <param name="Name" value="Modifying Reports">
+    <param name="Local" value="manager\window\modifying-reports\modifying_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report manager">
+      <param name="Name" value="Modifying Reports">
+      <param name="Local" value="manager\window\modifying-reports\modifying_reports.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="numeric">
+    <param name="Name" value="Numeric">
+    <param name="Local" value="misc\numeric.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report parameter dialog designer">
+      <param name="Name" value="Numeric">
+      <param name="Local" value="misc\numeric.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="object inspector parameter dialog">
+    <param name="Name" value="Object Inspector - Parameter Dialog">
+    <param name="Local" value="manager\window\creating-reports\object-inspector\object_inspector_parameter_dialog.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="parameter mapping">
+    <param name="Name" value="Parameter Mapping">
+    <param name="Local" value="manager\window\creating-reports\parameter-interface\parameter-dialog\parameter_mapping_main_menu_rpdd.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report parameter dialog designer">
+      <param name="Name" value="Parameter Mapping">
+      <param name="Local" value="manager\window\creating-reports\parameter-interface\parameter-dialog\parameter_mapping_main_menu_rpdd.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="profile report">
+    <param name="Name" value="Profile Report">
+    <param name="Local" value="misc\profile_report.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="registering">
+      <param name="Name" value="Profile Report">
+      <param name="Local" value="misc\profile_report.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="registering a report">
+    <param name="Name" value="Register a Report">
+    <param name="Local" value="manager\window\creating-reports\registering-and-unregistering\register_a_report.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report manager">
+      <param name="Name" value="Register a Report">
+      <param name="Local" value="manager\window\creating-reports\registering-and-unregistering\register_a_report.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="registering and unregistering reports">
+    <param name="Name" value="Registering and Unregistering Reports">
+    <param name="Local" value="manager\window\creating-reports\registering-and-unregistering\registering_and_unregistering_reports.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report manager">
+      <param name="Name" value="Registering and Unregistering Reports">
+      <param name="Local" value="manager\window\creating-reports\registering-and-unregistering\registering_and_unregistering_reports.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="report batch">
+    <param name="Name" value="Report Batch Error Log Browser">
+    <param name="Local" value="manager\window\report-batches\report_batch_error_log_browser.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="batch log">
+      <param name="Name" value="Report Batch Error Log Browser">
+      <param name="Local" value="manager\window\report-batches\report_batch_error_log_browser.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="history">
+      <param name="Name" value="Report Batch History">
+      <param name="Local" value="manager\window\report-batches\report_batch_history.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="report designer dialog box">
+    <param name="Name" value="Report Designer Dialog Box">
+    <param name="Local" value="manager\window\creating-reports\parameter-interface\the-report-designer\report_parameter_dialog_designer.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report manager interface">
+      <param name="Name" value="Report Designer Dialog Box">
+      <param name="Local" value="manager\window\creating-reports\parameter-interface\the-report-designer\report_parameter_dialog_designer.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="report manager">
+    <param name="Name" value="Report Batches">
+    <param name="Local" value="manager\window\report-batches\report_batches.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="report manager graphic user interface">
+    <param name="Name" value="The Report Manager Window">
+    <param name="Local" value="manager\window\report_manager_graphic_user_interface.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="report manager interface">
+    <param name="Name" value="Report Parameter Interface">
+    <param name="Local" value="manager\window\creating-reports\parameter-interface\report_manager_interface.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="object inspector parameter dialog">
+      <param name="Name" value="Object Inspector - Parameter Dialog">
+      <param name="Local" value="manager\window\creating-reports\object-inspector\object_inspector_parameter_dialog.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameter dialog">
+      <param name="Name" value="Parameter Dialog">
+      <param name="Local" value="manager\window\creating-reports\parameter-interface\parameter-dialog\parameter_dialog.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="report manager window">
+    <param name="Name" value="List View (Right Panel)">
+    <param name="Local" value="manager\window\reports-manager-sections\list_view_right_panel_rm_gui.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="list view right panel">
+      <param name="Name" value="List View (Right Panel)">
+      <param name="Local" value="manager\window\reports-manager-sections\list_view_right_panel_rm_gui.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="main menu">
+      <param name="Name" value="Main Menu">
+      <param name="Local" value="manager\window\reports-manager-sections\main_menu_the_rm_gui.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="main menu view">
+      <param name="Name" value="View">
+      <param name="Local" value="misc\view_main_menu_rm_gui.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="main menu:edit">
+      <param name="Name" value="Edit">
+      <param name="Local" value="misc\edit_main_menu_rm_gui.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="main menu:file">
+      <param name="Name" value="File">
+      <param name="Local" value="misc\file_main_mneu_rm_gui.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="main menu:help">
+      <param name="Name" value="Help">
+      <param name="Local" value="misc\help_main_menu_rm_gui.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="main menu:tree">
+      <param name="Name" value="Tree">
+      <param name="Local" value="misc\tree_main_menu_rm_gui.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="tree view left panel">
+      <param name="Name" value="Tree View (Left Panel)">
+      <param name="Local" value="manager\window\reports-manager-sections\tree_view_left_panel_rm_gui.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="creating and scheduling report batches">
+      <param name="Name" value="Report Batches">
+      <param name="Local" value="manager\window\report-batches\report_batches.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="extract reports">
+      <param name="Name" value="Extract">
+      <param name="Local" value="misc\extract.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="extracting and updating reports">
+      <param name="Name" value="Extracting and Updating Reports">
+      <param name="Local" value="manager\window\modifying-reports\extracting_and_updating_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="global repository">
+      <param name="Name" value="Global Repository">
+      <param name="Local" value="manager\window\maintaining-repository-of-reports\global_repository.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="local repository">
+      <param name="Name" value="Local Repository">
+      <param name="Local" value="manager\window\maintaining-repository-of-reports\local_repository.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="mainting repository">
+      <param name="Name" value="Reports Repository">
+      <param name="Local" value="manager\window\maintaining-repository-of-reports\maintaining_repository_of_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="modifying reports">
+      <param name="Name" value="Modifying Reports">
+      <param name="Local" value="manager\window\modifying-reports\modifying_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameter dialog">
+      <param name="Name" value="Parameter Dialog">
+      <param name="Local" value="manager\window\creating-reports\parameter-interface\parameter-dialog\parameter_dialog.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="registering a report">
+      <param name="Name" value="Register a Report">
+      <param name="Local" value="manager\window\creating-reports\registering-and-unregistering\register_a_report.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="registering and unregisering reports">
+      <param name="Name" value="Registering and Unregistering Reports">
+      <param name="Local" value="manager\window\creating-reports\registering-and-unregistering\registering_and_unregistering_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="running report from a local machine">
+      <param name="Name" value="Running Report From a Local Machine">
+      <param name="Local" value="manager\window\running-reports\running_report_from_a_local_machine.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="running report from a report server remote">
+      <param name="Name" value="Running Report from a Server (Remote Location)">
+      <param name="Local" value="manager\window\running-reports\running_report_from_a_report_server_remote_.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="running reports">
+      <param name="Name" value="Running Reports">
+      <param name="Local" value="manager\window\running-reports\running_reports.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="running reports from a wide area network">
+      <param name="Name" value="Running Reports from Wide Area Network">
+      <param name="Local" value="manager\window\running-reports\running_reports_from_a_wide_area_network.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="toolbar">
+      <param name="Name" value="Toolbar">
+      <param name="Local" value="manager\window\reports-manager-sections\toolbar.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="unregistering a report">
+      <param name="Name" value="Unregister a Report">
+      <param name="Local" value="manager\window\creating-reports\registering-and-unregistering\unregister_a_report.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="update reports">
+      <param name="Name" value="Update">
+      <param name="Local" value="misc\update.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="report parameter dialog designer">
+    <param name="Name" value="Component Panel">
+    <param name="Local" value="manager\window\creating-reports\parameter-interface\the-report-designer\component_panel.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="component panel">
+      <param name="Name" value="Component Panel">
+      <param name="Local" value="manager\window\creating-reports\parameter-interface\the-report-designer\component_panel.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="main menu">
+      <param name="Name" value="Main Menu">
+      <param name="Local" value="manager\window\creating-reports\parameter-interface\the-report-designer\main_menu.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="parameter mapping">
+      <param name="Name" value="Parameter Mapping">
+      <param name="Local" value="manager\window\creating-reports\parameter-interface\parameter-dialog\parameter_mapping_main_menu_rpdd.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="right-click menu options">
+    <param name="Name" value="Right-click Menu Options">
+    <param name="Local" value="manager\window\maintaining-repository-of-reports\right_click_menu_options_left_panel_rm.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="running report batches">
+    <param name="Name" value="Run a Report Batch">
+    <param name="Local" value="manager\window\report-batches\schedule-a-report-batch\running_report_batch.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="scheduling batches">
+    <param name="Name" value="Schedule a Batch">
+    <param name="Local" value="manager\window\report-batches\schedule-a-report-batch\scheduling_batches.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="security for batches">
+    <param name="Name" value="Security for Report Batches">
+    <param name="Local" value="manager\window\report-batches\security_for_report_batches.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="text">
+    <param name="Name" value="Text">
+    <param name="Local" value="misc\text.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report parameter dialog designer">
+      <param name="Name" value="Text">
+      <param name="Local" value="misc\text.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="unregistering a report">
+    <param name="Name" value="Unregister a Report">
+    <param name="Local" value="manager\window\creating-reports\registering-and-unregistering\unregister_a_report.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report manager">
+      <param name="Name" value="Unregister a Report">
+      <param name="Local" value="manager\window\creating-reports\registering-and-unregistering\unregister_a_report.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="updating reports">
+    <param name="Name" value="Update">
+    <param name="Local" value="misc\update.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="report manager">
+      <param name="Name" value="Update">
+      <param name="Local" value="misc\update.html">
+    </object>
+    </ul>
+</ul>
+</html>

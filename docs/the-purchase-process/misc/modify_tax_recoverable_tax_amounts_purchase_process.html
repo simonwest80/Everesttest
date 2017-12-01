@@ -1,0 +1,42 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="modify-taxrecoverable-tax-amounts">Modify Tax/Recoverable Tax Amounts</h1>
+
+<p>You can modify the <strong>Tax Amount</strong>  and the <strong>Recoverable Tax</strong> amounts  only for tax codes associated with single tax components.</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/steps.gif" alt="" />To modify the tax amount column, do the following:</p>
+
+<ul>
+  <li>Place your  cursor in the <a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/item-info/tax-details/tax_amount.html"><strong>Tax 
+ Amount</strong> column</a> and click <strong>Enter</strong>.</li>
+  <li>Enter a tax  amount.</li>
+</ul>
+
+<p class="note">: You can manually change the tax amounts for tax  codes that have only one tax component. You can change tax codes and tax  amounts only on documents that are not posted.</p>
+
+<p>If you modify the <strong>Tax Amount</strong>,  the <strong>Recoverable Tax</strong> amount is  automatically calculated (as the recoverable percentage on the new tax  amount).</p>
+
+<p>If the <strong>Recoverable Tax</strong> amount  is subsequently modified manually, the non-recoverable amount is calculated  as the difference between the tax amount and recoverable tax amount.</p>
+
+<p class="example">A purchase order contains item A worth $100  with a tax rate of 10 % and a recoverable tax rate of 60 %. Accordingly,  the tax for item A will be $10, while the recoverable tax will be 60 %  of $10, that is $6.</p>
+
+<p>If you increase the tax amount to $15, the  recoverable tax amount automatically changes to $9 (60 % of $15). If you  then increase the recoverable tax amount to $12, the tax amount will NOT  change to $20. Instead, the non-recoverable tax amount will be the difference  between tax amount and the recoverable tax amount, i.e. $3.</p>
+
+<p>These modifications are allowed only on unposted documents. The tax  amount or recoverable tax amounts cannot be negative.</p>
+
+<p class="note">: The recoverable tax amount entered manually in one  view i.e., <strong>Invoiced</strong> view will  be calculated proportionately and displayed in other view i.e., <strong>Received</strong> view. This applies only for  purchase invoices.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/item-info/tax-details/recoverable_tax_item_details_grid_purchase_content.html">Recoverable  Tax</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/item-info/tax-details/tax_item_details_grid_purchase_content.html">Tax</a></dd>
+</dl>
+
+
+
+
+</div>

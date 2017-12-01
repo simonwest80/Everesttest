@@ -1,0 +1,156 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="example-create-a-query-to-retrieve-all-active-customer-addresses">Example: Create a Query to retrieve all Active Customer Addresses</h1>
+
+<p>The procedure below walks you through the process of creating  an example query. It shows you how to create a sample query to retrieve  all customer addresses for customers created on or after the year 2007.</p>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/the_query_builder_dialog_box.html">The  Advanced Query Builder Dialog Box</a></p>
+
+<p class="steps">To create a sample query to retrieve all  active customer addresses, do the following:</p>
+
+<ul>
+  <li>From the main menu  bar, select <strong>Utility</strong> &gt; <strong>Advanced Query Builder</strong>. You will see  the <strong>Advanced Query Builder</strong> dialog  box.</li>
+  <li>Enter “Active Customers”  in the <strong>Filter Name</strong> field, so that  you can save your query and use it at a later time. The filter name must  be unique.</li>
+  <li>Double-click the  “ADDRESS” and “CUST” table(s) from the <strong>Everest 
+ Schema Information</strong> <strong>(Tables)</strong>  section on the right. You will see a red check mark in front of the selected  tables.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_add_cust_table_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder – Add Tables</strong></p>
+
+<ul>
+  <li>In the CUST (Customer)  table in the <strong>Custom Query Builder</strong>  section, select the following field to be retrieved:</li>
+  <li>CREAT_DATE</li>
+  <li>
+    <p>In the ADDRESS  table in the <strong>Custom Query Builder</strong>  section, select the following fields to be retrieved:</p>
+  </li>
+  <li>CUST_CODE</li>
+  <li>NAME</li>
+  <li>STREET_ADDRESS</li>
+  <li>CITY</li>
+  <li>STATE</li>
+  <li>ZIP</li>
+  <li>COUNTRY</li>
+  <li>TEL1</li>
+  <li>EMAIL</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_select_fields_ut.gif" alt="" /></p>
+
+<p><strong>Reference: Figure: Advanced Query Builder – Custom  Query Builder section.</strong></p>
+
+<ul>
+  <li>In the <strong>Custom 
+ Query Builder</strong> section, create a join between the ACTIVE field in  the ADDRESS table and the ACTIVE field in the CUST table.</li>
+  <li>Click the ACTIVE  field in the ADDRESS table and drag it to the ACTIVE field of the CUST  table. The Active field in the CUST table is highlighted in green before  you release your cursor.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_join_step1_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Drag and Drop to Create a Join – The  Field to be Joined is Highlighted in Green</strong></p>
+
+<ul>
+  <li>After you release  your cursor, you will see a join between the fields as indicated in the  following graphic.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_join_step2_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Drag and Drop to Create a Join – A Line  Connecting the Fields Indicates the Join</strong></p>
+
+<ul>
+  <li>Create another  join between the CUST_CODE in the ADDRESS table and the CUST_CODE in the  CUST table.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_custom_query_builder_section_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder – Custom Query  Builder Section with Two Joins</strong></p>
+
+<ul>
+  <li>Next, specify the  conditions for the query in the <strong>Filters</strong>  tab:</li>
+  <li>Click the  <img src="/versata-everest-docs/utilities/img/aqb_lookup_button_ut.gif" alt="" />  lookup  button and select <strong>Add condition</strong>  to add the first condition.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_add_condition1_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder – Filters Tab  – Select Add Condition</strong></p>
+
+<ul>
+  <li>Click the first blue  line and select <strong>SUB_TYPE</strong> under  Address.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_add_condition3b_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder – Filters Tab  – Enter First Condition</strong></p>
+
+<ul>
+  <li>Click the second  blue line and enter <strong>2</strong>. (1=Vendors,  2=Customers) This condition filters for customer addresses.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_add_condition4_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder – Filters Tab  – Enter Condition for SUB_TYPE</strong></p>
+
+<ul>
+  <li>Click the  <img src="/versata-everest-docs/utilities/img/aqb_lookup_button_ut.gif" alt="" />  lookup  button again and select <strong>Add condition</strong>  to add the second condition.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_add_condition5_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder – Filters Tab  – Add Second Condition</strong></p>
+
+<ul>
+  <li>Click the first blue  line on the second row for the second condition and select <strong>CREAT_DATE</strong>  under CUST.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_add_condition6_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder – Filters Tab  – Enter Second Condition</strong></p>
+
+<ul>
+  <li>Click the red equals  sign on the second row for the second condition and select <strong>&gt;=</strong>.  This indicates that the customer creation date is “greater than or equal  to” the date to be selected.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_add_condition7_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder – Filters Tab  – Enter Operator for Second Condition</strong></p>
+
+<ul>
+  <li>Click the second  blue line on the second row for the second condition and enter <strong>01/01/2007</strong>.  This condition filters for all customers created on or after 01/01/2007.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_add_condition8_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder – Filters Tab  – Second Condition</strong></p>
+
+<ul>
+  <li>Click the <strong>Browser Settings</strong> tab, and specify <strong>ADDRESS.CUST_CODE</strong> as the primary key.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/aqb_example1_add_condition9_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder – Browser Settings  Tab showing Primary Key</strong></p>
+
+<ul>
+  <li>Click <strong>Save</strong>  to save the “Active Customers” filter.</li>
+  <li>Click <strong>Find</strong>  to view the filter output in the <strong>Advanced 
+ Query</strong> browser.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/example_add_searchable_columns_to_the_query_ut.html">Click  this link to add <strong>Searchable Columns</strong>  to the Query</a></p>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/example_associate_actions_with_the_query_ut.html">Click  this link to <strong>Associate Actions</strong>  with the Query</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/steps_to_create_a_query.html">Steps to Create  a Query</a></dd>
+</dl>
+
+
+
+
+</div>

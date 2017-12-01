@@ -1,0 +1,171 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payment-reference-details">Payment Reference Details</h1>
+
+<dl>
+  <dt><strong>Pay by</strong></dt>
+  <dd>All the payment methods set up for customers for  the particular cash register are available for selection in this column.  The default payment method for receipts specified for the cash register  in the <strong>Cash Register</strong> profile (path:  <strong>File &gt; Setup &gt; Miscellaneous &gt; 
+ Cash Register</strong> &gt; <strong>Options &gt; 
+ Edit &gt; In New Window</strong> &gt; <strong>Payment</strong><strong>Type</strong> &gt; <strong>Receipts</strong>  tab) is displayed by default in this field.</dd>
+  <dd>The default payment method displayed in the <strong>Pay by</strong> column is based on different  options selected in the <strong>Point of Sale</strong><strong>(sales invoice)</strong> profile:</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Options Selected</td>
+      <td>‘Pay by’  Column Defaults To:</td>
+    </tr>
+    <tr>
+      <td><strong>Save</strong></td>
+      <td>The payment method specified in the <strong>Default <br /> payment method for receipts</strong> field of the <strong>Cash <br /> Register</strong> profile.</td>
+    </tr>
+    <tr>
+      <td><strong>Payments &gt; Cash</strong>  or clicking the <strong>Cash</strong> <img src="/versata-everest-docs/point-of-sale/img/pos_cash_icon_payment_method.gif" alt="" /> icon.</td>
+      <td>The payment method specified as the default payment  method in the <strong>Cash Payment methods allowed</strong>  section of the <strong>Cash Register</strong> profile.</td>
+    </tr>
+    <tr>
+      <td><strong>Payments &gt; Check</strong>  or clicking the <strong>Check</strong> <img src="/versata-everest-docs/point-of-sale/img/pos_check_icon_outlook_bar.gif" alt="" /> icon.</td>
+      <td>The payment method specified as the default payment  method in the <strong>Check Payment methods allowed</strong>  section of the <strong>Cash</strong> <strong>Register</strong>  profile.</td>
+    </tr>
+    <tr>
+      <td><strong>Payment &gt; Credit <br /> Card</strong> or clicking the <strong>Credit</strong><strong>Card</strong> <img src="/versata-everest-docs/point-of-sale/img/pos_credit_card_icon_payment_method.gif" alt="" /> icon.</td>
+      <td>The payment method specified as the default payment  method in the <strong>Credit</strong> <strong>Card <br /> Payment</strong> <strong>methods allowed</strong>  section of the <strong>Cash</strong> <strong>Register</strong>  profile.</td>
+    </tr>
+    <tr>
+      <td><strong>Payment &gt; <br /> Others</strong> or clicking the <strong>Others</strong><img src="/versata-everest-docs/point-of-sale/img/pos_others_icon_payment_method.gif" alt="" /> icon.</td>
+      <td>The payment method specified as the default payment method in the <strong>Other Payment methods allowed</strong> section  of the <strong>Cash</strong> <strong>Register</strong>  profile.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>: <img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/point-of-sale/pos-setup/cash-registers/setup/profile/the_cash_register_profile_payment_type_tab.html">The  Cash Register Profile - Payment Tab</a></p>
+
+<dl class="note">
+  <dt>If the defaults are not specified in the **Payment </dt>
+  <dt> Type** tab of the <strong>Cash Register</strong>  profile, no payment type is displayed in the **Pay </dt>
+  <dt> by** column. You have to select a payment method.</dt>
+  <dd>The bank account associated with the payment method  is debited with the payment received from the customer. When the payment  is made by credit card, you can process it by right-clicking in the <strong>Payment Details</strong> dialog box and selecting  <strong>Verify Payment</strong>. The <strong>Card Verification</strong> dialog  box is displayed.</dd>
+  <dd><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/payment-information/payment-methods/payment_methods.html">Payment  Methods</a></dd>
+  <dt><strong><font color="#000000" class="hcp10">Type</font></strong></dt>
+  <dd>This column displays the type of payment method  used to receive payments from customers, as selected in the <strong>Type</strong>  field of the <a href="/versata-everest-docs/setting-up-a-company/options/payment-information/payment-methods/set-up-a-payment-method/payment_method_profile_general_tab.html"><strong>Payment Method</strong> profile</a>. You cannot  modify this field.</dd>
+  <dt>**<font color="#000000" class="hcp10">Ref. </font></dt>
+  <dt> #/ Card #&lt;/font&gt;**</dt>
+  <dd>
+    <font color="#000000" class="hcp10">Enter a reference for the payment 
+ in this column. </font>
+  </dd>
+</dl>
+
+<ul>
+  <li><strong>Check</strong>  - When you receive a check from the customer you can enter the check number  here. This number appears in the receipt journal.</li>
+  <li><strong>Credit</strong><strong>Card</strong> - You can enter the credit  card number in this column. When you swipe a customer’s credit card, the  card number is populated in this field. If the card swiped is different  from the default payment method set in the <strong>Payment Type</strong>  tab of the <strong>Cash</strong> <strong>Register</strong>  profile, the corresponding payment method is displayed in the <strong>Pay 
+ by/Type</strong> column.</li>
+</ul>
+
+<p class="note">Thus, the payment method displayed on swiping the credit  card overrides the payment method selected by the user/set as a default  in the <strong>Payment Type</strong> tab of the  <strong>Cash Register</strong> profile.</p>
+
+<ul>
+  <li><strong>Cash</strong>  - Enter the cash voucher number for cash payment in this field.</li>
+  <li><strong>Others</strong>  - Enter a suitable reference for any other type of payment.</li>
+</ul>
+
+<p class="example">In case of wire transfers, enter the transfer reference.</p>
+
+<dl>
+  <dt><strong>Date</strong></dt>
+  <dd>This column displays the date of payment. By default,  the date in this column is the login date. This date is displayed on the  receipt journal.</dd>
+  <dt><strong><font color="#000000" class="hcp10">Approval </font></strong></dt>
+  <dd>Enter the approval code received from the credit  card company for the credit card payment in this column. This information  must be specified in case the credit card payments are manually processed.  This field is disabled when the credit card payment is processed online.</dd>
+  <dt><strong>Amount (BC)</strong></dt>
+  <dd>This column displays the amount of payment that  you are receiving from the customer in base currency. By default, this  column displays the amount receivable on the document. You can edit this  amount.</dd>
+  <dt><strong>Bank Rate</strong></dt>
+  <dd>The current rate of exchange between the bank currency  and the base currency defined in the <strong>Exchange 
+ Rate</strong> profile (path: <strong>File &gt; 
+ Setup &gt; Accounting &gt; Multicurrency &gt; Exchange Rates</strong>) is  displayed.</dd>
+  <dd><strong>Everest</strong>  determines whether the Buy Rate/Sell Rate should be used depending on  the setting in the <strong>Rate for Receipts</strong>  field (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Defaults &gt; Accounting &gt; Multicurrency &gt; Exchange Rates</strong>).</dd>
+  <dt><strong>Bank Currency</strong></dt>
+  <dd>The currency of the bank account selected in the  <strong>Payment Method</strong> field is displayed.</dd>
+  <dt><strong>Bank Amount</strong></dt>
+  <dd>The balance amount payable on the document in terms  of the bank currency is displayed in this field by default.</dd>
+  <dt><strong>Pay Rate</strong></dt>
+  <dd>The current rate of exchange defined in the <a href="/versata-everest-docs/setting-up-a-company/options/multicurrency/exchange-rates/set-up-exchange-rates/exchange_rates_profile.html"><strong>Exchange Rate</strong>  profile</a> (path: <strong>File &gt; Setup &gt; 
+ Accounting &gt; Multicurrency &gt; Exchange Rates</strong>), between payment  currency and the base currency is displayed. You can change this rate  if required.</dd>
+  <dd><strong>Everest</strong>  determines whether the Buy Rate/Sell Rate should be used depending on  the setting in the <strong>Rate for Receipts</strong>  field (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Defaults &gt; Accounting &gt; Multicurrency &gt; Exchange Rates</strong>).</dd>
+  <dt><strong>Currency</strong></dt>
+  <dd>This field is used to specify the currency in which  you are receiving the payment. The customer’s currency is displayed by  default in this field.</dd>
+</dl>
+
+<p class="note">The columns <strong>Pay Rate</strong> and <strong>Currency</strong> are displayed only when you  select the preference option <strong>Allow split 
+ payments in multiple currencies</strong> in the <strong>Miscellaneous</strong>  tab of the <strong>Cash Register</strong> profile  - <strong>Payment Type</strong> tab.</p>
+
+<dl>
+  <dt><strong>Amount</strong></dt>
+  <dd>This is the amount of payment that you still have  to receive from the customer. The amount shown here is the amount in payment  currency if the preference option <strong>Allow 
+ split payments in multiple currencies</strong> in the <strong>Miscellaneous</strong>  tab of the <strong>Cash Register</strong> profile  - <strong>Payment Type</strong> tab is checked.  If unchecked, the amount is in document currency.</dd>
+  <dd>If the payment currency is changed in the <strong>Currency</strong> column of the Payment grid,  the <strong>Amount</strong> column displays the  equivalent value in the selected currency as per the exchange rate defined.</dd>
+  <dd>When a customer makes an overpayment, you can specify  that amount here. The change due to the customer is shown in the <strong>Change In</strong> field in the document’s currency.  <strong>Everest</strong> displays the <strong>Overpayment</strong> dialog box  as you click <strong>OK</strong>.</dd>
+  <dd>This dialog box has two options:</dd>
+</dl>
+
+<ul>
+  <li><strong>Give 
+ the Customer &lt;  &gt; 
+ Change</strong> - This option allows you to return the change due to the  customer. When you click <strong>OK</strong>, the  change due is displayed after the POS processing is complete.</li>
+</ul>
+
+<p class="note">If your preferences are set to print receipts (path:  <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong> &gt; <strong>Flow Control</strong> &gt; <strong>Documents</strong> &gt; <strong>Miscellaneous</strong>  tab &gt; <strong>Others</strong> tab &gt; <strong>Others 1</strong> tab - <strong>Auto-print 
+ invoice in point of sale document</strong> selected), the receipt prints  before the change due is displayed.</p>
+
+<ul>
+  <li><strong>Apply 
+ the overpayment as a customer deposit</strong> - This option allows you  to apply the overpayment as a customer deposit. <strong>Everest</strong>  credits the Customer Deposit Account specified in your <strong>Accounting 
+ Defaults</strong> (path: <strong>File</strong> &gt;  <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Control Accounts</strong> tab) with  the amount of overpayment. The POS internal report displays this amount  as a credit to the customer.</li>
+</ul>
+
+<p class="note">The following reports display the overpayment applied as customer deposit  and change due to the customer separately:</p>
+
+<ul>
+  <li>POS Internal Report</li>
+  <li>POS Receipt 1 (Sales  Invoice)</li>
+  <li>POS Receipt 1 (Sales  Invoice-Dot matrix)</li>
+  <li>POS Receipt 2 (Sales  Invoice)</li>
+  <li>POS Receipt 2 (Sales  Invoice-Dot matrix)</li>
+  <li>POS Receipt 3 (Sales  Invoice)</li>
+  <li>
+    <dl>
+      <dt>POS Receipt 3 (Sales  Invoice-Dot matrix)</dt>
+      <dd>When you save the Point of Sale (sales invoice)  document, the <a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/pos-receipts/payment-dlg/the_payment_details_dialog_box_pos_receipts.html"><strong>Payment Details</strong> dialog box</a> is automatically  displayed. You can account for payment through more than one type of tender  in this dialog box.</dd>
+      <dd>You CANNOT receive <strong>partial 
+ payments</strong> from Point of Sale customers (POS_CUST). You can save  the Point of Sale document only after you receive full payment from such  customers.</dd>
+      <dd>However, if any other customer is selected in the  <strong>Customer</strong> field, you can receive  partial payments and even make a credit sale. When you receive a partial  amount from the customer, <strong>Everest</strong>  prompts you that there is a balance to be received on the document. You  can take any of the two actions:</dd>
+    </dl>
+  </li>
+  <li><strong>Let 
+ me apply additional payments</strong> - If you select this option, you will  return to the <strong>Payment</strong> <strong>Details</strong>  dialog box. This option ensures that you receive full payment from your  customer. You cannot collect partial payment from your customer.</li>
+  <li><strong>Forward 
+ balance of &lt; &gt; to the customer’s account with payment terms</strong>  - If you select this option, the balance amount receivable from the customer  is transferred to the customer’s account. The default payment term for  the customer is retrieved from the <strong>Customer</strong>  profile (path: <strong>Invoicing &gt; Customer 
+ &gt; Options &gt; New &gt; In New Window &gt; Payment Information</strong>  tab). You can modify the payment term. Click <strong>OK</strong>  to receive the payment from the customer.</li>
+</ul>
+
+<p class="note"><strong>If the customer is put on credit hold, **Everest</strong> prompts you of the same and  asks if you would like to proceed.**</p>
+
+<p><strong>If the credit limit of the customer has exceeded,  another prompt informs you of that. You are asked if you would still like  to complete the transaction.</strong></p>
+
+<dl>
+  <dt><strong>Narration</strong></dt>
+  <dd>Click the <strong>Notes</strong>  icon <img src="/versata-everest-docs/point-of-sale/img/pos_note_icon.gif" alt="" /> to enter a note for the transaction. The narration  can also be viewed from the <a href="/versata-everest-docs/accounting/customer-receipts-and-refunds/creating-a-manual-receipt-journal/the_receipt_journal_profile.html">Receipt  Journal</a> in which this transaction is recorded.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/point-of-sale/pos-trans/create-pos-doc/pos-receipts/payment-dlg/the_payment_details_dialog_box_pos_receipts.html">The  Payment Details Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

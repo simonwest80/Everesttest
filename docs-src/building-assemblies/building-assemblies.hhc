@@ -1,0 +1,647 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="_blank">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800027">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Building Assemblies">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="About Building Assemblies">
+      <param name="Local" value="building_assemblies_introduction_content.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Assembly Function - Features">
+      <param name="Local" value="assembly_function_features_content_building_assembly.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Producing Assemblies">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Steps in the Assembly Process">
+        <param name="Local" value="prod-asm\steps_in_assembly_function_contents_building_assembly.html">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Creating a Work Order">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Work Order Details">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Work Order Details - Introduction">
+            <param name="Local" value="prod-asm\creating-wo\wo-details\contents_of_the_work_order_content_building_assembly.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Information">
+            <param name="Local" value="prod-asm\creating-wo\wo-details\document_information_work_order_building_assembly_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Assembly Information">
+            <param name="Local" value="prod-asm\creating-wo\wo-details\assembly_information_work_order_profile_assembly_contents.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Work Order Status">
+            <param name="Local" value="prod-asm\creating-wo\wo-details\work_order_status_work_order_profile_assembly_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Tab View Information">
+            <param name="Local" value="prod-asm\creating-wo\wo-details\document_tab_view_information.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Status Bar">
+            <param name="Local" value="prod-asm\creating-wo\wo-details\status_bar_work_order_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Item Details">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Item Details">
+              <param name="Local" value="prod-asm\creating-wo\wo-details\item-dtls\item_details_grid_work_order_profile_assembly_contents.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Add Items to a Work Order">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Add Items to a Work Order">
+                <param name="Local" value="prod-asm\creating-wo\wo-details\item-dtls\add-items-to-wo\add_items_to_a_work_order.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Add a Discontinued Item">
+                <param name="Local" value="prod-asm\creating-wo\wo-details\item-dtls\add-items-to-wo\add_a_discontinued_item_work_orders.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Delete Items From a Work Order">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Delete Items from a Work Order">
+                <param name="Local" value="prod-asm\creating-wo\wo-details\item-dtls\del-items-from-wo\delete_items_from_a_work_order.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Deleted Items - Stock Areas Assigned">
+                <param name="Local" value="prod-asm\creating-wo\wo-details\item-dtls\del-items-from-wo\stock_area_preference_for_deleted_items.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Substitute Items in a Work Order">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Substitute an Item">
+                <param name="Local" value="prod-asm\creating-wo\wo-details\item-dtls\subst-items-in-a-wo\substitute_item_work_order_profile.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="The Substitute Item Dialog Box">
+                <param name="Local" value="prod-asm\creating-wo\wo-details\item-dtls\subst-items-in-a-wo\substitute_item_dialog_box.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Sub-assemblies">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Sub-assemblies">
+                <param name="Local" value="prod-asm\creating-wo\wo-details\item-dtls\sub-assemblies\sub_assemblies_work_order_assembly_content.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Expenses and Overheads">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Expenses and Overheads">
+                <param name="Local" value="prod-asm\creating-wo\wo-details\item-dtls\exp-and-over\expenses_and_overheads_work_order_profile_assembly_content.html">
+              </object>
+              </ul>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Create a Work Order">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Create a Work Order">
+            <param name="Local" value="prod-asm\creating-wo\create-a-work-order\create_a_work_order_work_order_profile_assembly_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Work Order Profile">
+            <param name="Local" value="prod-asm\creating-wo\create-a-work-order\the_work_order_profile_assembly_step_by_step.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes - Create a Work Order">
+            <param name="Local" value="prod-asm\creating-wo\create-a-work-order\back_end_processes_create_a_work_order.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Stock Status of Items on a Work Order">
+            <param name="Local" value="prod-asm\creating-wo\create-a-work-order\stock_status_of_items_on_a_work_order_create.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Attach/Commit Items to a Work Order">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Attach/Commit Items to a Work Order">
+          <param name="Local" value="prod-asm\att-cmt-items-to-wo\attach_commit_items_to_a_work_order_profile_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Stock Areas Assigned - Attach/Commit Items">
+          <param name="Local" value="prod-asm\att-cmt-items-to-wo\set_stock_area_preferences_add_items_to_a_work_order_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Back End Processes - Attach/Commit Quantities">
+          <param name="Local" value="prod-asm\att-cmt-items-to-wo\backend_process_attach_quantities_to_a_work_order.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries - Attach/Commit Items">
+          <param name="Local" value="prod-asm\att-cmt-items-to-wo\accounting_entries_attach_commit_items_on_work_order.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Serialized Items">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Serialized Inventory">
+            <param name="Local" value="prod-asm\att-cmt-items-to-wo\ser-items\serialized-inventory.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Retrieve Individual Serial Numbers">
+            <param name="Local" value="prod-asm\att-cmt-items-to-wo\ser-items\retrieve-individual-serial-numbers.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Retrieve a Range of Serial Numbers">
+            <param name="Local" value="prod-asm\att-cmt-items-to-wo\ser-items\retrieve-range-of-serial-numbers.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Retrieve By Manufacturer's Serial Number">
+            <param name="Local" value="prod-asm\att-cmt-items-to-wo\ser-items\retrieve-by-manufacturer-serial-number.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Non-Serialized Items">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Retrieve Non Serialized Items">
+            <param name="Local" value="prod-asm\att-cmt-items-to-wo\ns-items\retrieve-non-serialized-items.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Attach Quantity Dialog Box">
+            <param name="Local" value="prod-asm\att-cmt-items-to-wo\ns-items\attach-quantity-dialog-box.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Auto-Serialized Items">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Retrieve Auto-Serialized Inventory">
+            <param name="Local" value="prod-asm\att-cmt-items-to-wo\as-items\retrieve-auto-serialized-inventory.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Detach Committed Quantities">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Detaching Quantities Committed">
+          <param name="Local" value="prod-asm\detach-cmt-qty\detaching_quantities_committed_from_the_work_order_building_assemblies.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Detached Quantities - Stock Areas Assigned">
+          <param name="Local" value="prod-asm\detach-cmt-qty\stock_areas_to_which_detached_quantities_are_assigned.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Work In Process">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Process Work Orders">
+          <param name="Local" value="prod-asm\work-in-proc\process_work_orders_work_order_profile_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cost of Work In Process">
+          <param name="Local" value="prod-asm\work-in-proc\cost_of_work_in_process_in_process_work_order_assembly_contents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Back End Processes - Work In Process">
+          <param name="Local" value="prod-asm\work-in-proc\back_end_process_work_orders_in_process_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Stock Status of Items - Work Order in Process">
+          <param name="Local" value="prod-asm\work-in-proc\stock_status_of_items_attached_in_process_option_work_order_profile_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries - Work In Process">
+          <param name="Local" value="prod-asm\work-in-proc\accounting_entries_process_work_orders_work_order_profile_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Link Serial Numbers of Input to Assembled Item">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Linking Serial Numbers">
+            <param name="Local" value="prod-asm\work-in-proc\link-ser-nmbs-to-asm-item\linking_serial_numbers.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Pre-requisites for Linking Input Items to Assembled Items">
+            <param name="Local" value="prod-asm\work-in-proc\link-ser-nmbs-to-asm-item\prerequisites_for_linking_input_items_to_assembled_items.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Assembly Link Serial No. Dialog Box">
+            <param name="Local" value="prod-asm\work-in-proc\link-ser-nmbs-to-asm-item\the_assembly_link_serial_no_dialog_box.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Link Serial Number - Stock Area Assigned">
+            <param name="Local" value="prod-asm\work-in-proc\link-ser-nmbs-to-asm-item\link_serial_number_stock_area_assigned.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Calculating the Cost of Serialized Assembly Item">
+            <param name="Local" value="prod-asm\work-in-proc\link-ser-nmbs-to-asm-item\calculating_the_cost_of_serialized_assembly_item.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Modifying a Work Order">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify a Work Order">
+          <param name="Local" value="prod-asm\modifying-a-work-order\modify_work_orders_building_assemblies_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify Work Order with Status 'Created'">
+          <param name="Local" value="prod-asm\modifying-a-work-order\modify_work_order_with_status_created_building_assemblies_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify Work Order with Status 'In Process'">
+          <param name="Local" value="prod-asm\modifying-a-work-order\modify_work_order_with_status_in_process_building_assemblies_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Modify Work Order with Status 'Built'">
+          <param name="Local" value="prod-asm\modifying-a-work-order\modify_work_order_with_status_build_building_assemblies.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Cancelling a Work Order">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cancel a Work Order">
+          <param name="Local" value="prod-asm\cancelling-wo\cancel_a_work_order_work_order_profile_options_process_cancel_assembly.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Back End Processes - Cancel a Work Order">
+          <param name="Local" value="prod-asm\cancelling-wo\back_end_processes_cancel_a_work_order_work_order_profile_options_process_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries - Cancel a Work Order">
+          <param name="Local" value="prod-asm\cancelling-wo\accounting_entries_cancel_a_work_order_work_order_profile_options_process_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Comparison - Void and Cancel a Work Order">
+          <param name="Local" value="prod-asm\cancelling-wo\comparison_void_and_cancel_a_work_order.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Voiding a Work Order">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Void a Work Order">
+          <param name="Local" value="prod-asm\voiding-a-work-order\void_a_work_order.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Back End Processes - Void a Work Order">
+          <param name="Local" value="prod-asm\voiding-a-work-order\back_end_processes_void_a_work_order.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Accounting Entries - Void a Work Order">
+          <param name="Local" value="prod-asm\voiding-a-work-order\accounting_entries_void_a_work_order.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Comparison - Void and Cancel a Work Order">
+          <param name="Local" value="prod-asm\voiding-a-work-order\comparison_void_and_cancel_a_work_order.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Building a Work Order">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Build a Work Order">
+          <param name="Local" value="prod-asm\building-wo\building_work_orders_content_building_assembly.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Defectives and Scrap">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Defectives">
+            <param name="Local" value="prod-asm\building-wo\defectives-and-scrap\defective_items_work_order_profile_process_build_assembly.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Scrap">
+            <param name="Local" value="prod-asm\building-wo\defectives-and-scrap\scrap_work_order_assembly_content.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Entering Quantities Built">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Entering Quantities Built">
+            <param name="Local" value="prod-asm\building-wo\entering-qty-built\entering_quantities_built.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Build Dialog Box">
+            <param name="Local" value="prod-asm\building-wo\entering-qty-built\the_build_profile.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Transferring Finished Goods">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Transfer of Finished Goods">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\trans-fnshd-goods\transfer_of_finished_goods_building_assemblies_content.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="The Assign Quantity Dialog Box">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\trans-fnshd-goods\assign_quantity_profile.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Valuation of Finished Goods">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Valuation of Finished Goods">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\val-fnshd-goods\valuation_of_finished_goods.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Cost of Inventoried Items">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\val-fnshd-goods\cost_of_inventoried_items_work_order_assembly_contents.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Valuation of Scrap">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\val-fnshd-goods\cost_of_scrap_work_order_assembly_contents.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Valuation of Defectives">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\val-fnshd-goods\valuation_of_defectives_building_assemblies_content.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Treatment of Normal Loss in Production">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\val-fnshd-goods\treatment_of_normal_loss_in_production.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Treatment of Abnormal Loss/Gain in Production">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\val-fnshd-goods\treatment_of_abnormal_loss_gain_in_production.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Abnormal Loss/Gain">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\val-fnshd-goods\accounting_entries_for_abnormal_loss_gain.html">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Back End Processes">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Back End Processes when Items are Built">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\back-proc\back_end_processes_built.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Assembled Items">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Back End Process - Assembled Items">
+                <param name="Local" value="prod-asm\building-wo\entering-qty-built\back-proc\asm-items\backend_process_assemblied_items.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Stock Status of Assembled/Built Items">
+                <param name="Local" value="prod-asm\building-wo\entering-qty-built\back-proc\asm-items\set_stock_area_completed_assembly.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Stock Area to which Built Items are Transferred">
+                <param name="Local" value="prod-asm\building-wo\entering-qty-built\back-proc\asm-items\stock_area_to_which_built_items_are_transferred.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Assembly Components">
+              </object>
+              <ul>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Stock Status of Assembly Components">
+                  <param name="Local" value="prod-asm\building-wo\entering-qty-built\back-proc\asm-items\asm-cmpts\stock_status_of_assembly_components.html">
+                </object>
+                <li><object type="text/sitemap">
+                  <param name="Name" value="Stock Area to which Components Utilized are Moved">
+                  <param name="Local" value="prod-asm\building-wo\entering-qty-built\back-proc\asm-items\asm-cmpts\backend_process_asm_components_consumed.html">
+                </object>
+                </ul>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Defective Items">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Back End Processes - Defective Items">
+                <param name="Local" value="prod-asm\building-wo\entering-qty-built\back-proc\defective-items\backend_process_defective_items.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Stock Area to which Defective Items are Transferred">
+                <param name="Local" value="prod-asm\building-wo\entering-qty-built\back-proc\defective-items\stock_transfer_of_defective_items.html">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Scrap Items">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Back End Processes - Scrap Items">
+                <param name="Local" value="prod-asm\building-wo\entering-qty-built\back-proc\scrap-items\backend_process_scrap_items.html">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Stock Areas to which Scrap is Transferred">
+                <param name="Local" value="prod-asm\building-wo\entering-qty-built\back-proc\scrap-items\transfer_of_scrap_to_default_stock_areas.html">
+              </object>
+              </ul>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Accounting Entries">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries when Items are Built">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\accounting-entries\accounting_entries_when_items_are_built.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Built Items">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\accounting-entries\accounting_entries-built-items.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Built Stage">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\accounting-entries\accounting_entries_-_built_stage.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Defectives">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\accounting-entries\accounting_entries_defectives.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Accounting Entries - Scrap">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\accounting-entries\accounting_entry_scrap.html">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Journal in which Accounting Entries are Recorded">
+              <param name="Local" value="prod-asm\building-wo\entering-qty-built\accounting-entries\jrn_in_which_acc_entries_are_recorded.html">
+            </object>
+            </ul>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Variance Analysis">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Variance Analysis">
+          <param name="Local" value="prod-asm\variance-analysis\variance_analysis_work_order_profile_browser_option_assembly.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Rate Variance">
+          <param name="Local" value="prod-asm\variance-analysis\rate_variance_variance_analysis_work_order_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Quantity Variance">
+          <param name="Local" value="prod-asm\variance-analysis\quantity_variance_variance_analysis_work_order_assembly_contents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Cost Variance">
+          <param name="Local" value="prod-asm\variance-analysis\cost_variance_variance_analysis_work_order_assembly_contents.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Variance Analysis for Substitute Items">
+          <param name="Local" value="prod-asm\variance-analysis\variance_analysis_substitute_items.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Variance Analysis Dialog Box">
+          <param name="Local" value="prod-asm\variance-analysis\variance_analysis_dialog_box_work_order_assembly.html">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Work Order Options">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Work Order Profile Options">
+          <param name="Local" value="prod-asm\wo-opts\work_order_profile_options_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Print a Work Order">
+          <param name="Local" value="prod-asm\wo-opts\print_a_work_order_work_order_profile_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Transaction History">
+          <param name="Local" value="prod-asm\wo-opts\transaction_history_work_order_profile_options_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Serial Number History">
+          <param name="Local" value="prod-asm\wo-opts\serial_number_history_work_order_profile_options_assembly_content.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Show all Serial Numbers">
+          <param name="Local" value="prod-asm\wo-opts\show_all_serial_numbers_work_order_profile_options_assembly.html">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Item Information">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Item Information">
+            <param name="Local" value="prod-asm\wo-opts\item-info\item_information_work_order_profile_options_assembly_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Select Items">
+            <param name="Local" value="prod-asm\wo-opts\item-info\select_items_work_order_profile_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Item Profile">
+            <param name="Local" value="prod-asm\wo-opts\item-info\item_profile_work_order_profile_options_item_profile_assembly_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Stock Status">
+            <param name="Local" value="prod-asm\wo-opts\item-info\stock_status_work_order_profile_options_item_stock_status_assembly_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Extended Notes">
+            <param name="Local" value="prod-asm\wo-opts\item-info\extended_notes_work_order_profile_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Show Serial #">
+            <param name="Local" value="prod-asm\wo-opts\item-info\show_serial_number_work_order_profile_options.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Substitute Item">
+            <param name="Local" value="prod-asm\wo-opts\item-info\substitute_item_work_order_profile.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Document Information">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Information">
+            <param name="Local" value="prod-asm\wo-opts\doc-info\document_information_work_order_profile_options_assembly_contents.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Multimedia Browser">
+            <param name="Local" value="prod-asm\wo-opts\doc-info\multimedia_browser_work_order_profile_options_document_multimedial_assembly_contents.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Document Tracking">
+            <param name="Local" value="prod-asm\wo-opts\doc-info\document_tracking_work_order_profile_option_doc_tracking_assembly_content.html">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Line Items">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Line Items">
+            <param name="Local" value="prod-asm\wo-opts\line-items\line_items_options_work_order_profile_options_line_items_assembly_content.html">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="The Work Order Lines Dialog Box">
+            <param name="Local" value="prod-asm\wo-opts\line-items\work_order_lines_dialog_box_work_order_profile_options_line_items.html">
+          </object>
+          </ul>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="The Work Order Browser">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="The Work Order Browser">
+          <param name="Local" value="prod-asm\the-work-order-browser\the_work_order_browser_work_order_assembly.html">
+        </object>
+        </ul>
+      </ul>
+    </ul>
+</ul>
+</html>

@@ -1,0 +1,46 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="add-on-costs-distribution">Add-on Costs Distribution</h1>
+
+<p><strong>Everest</strong> allows you to distribute  additional expenses on the individual item through the <strong>Add</strong>-<strong>on</strong> <strong>Costs</strong><strong>Distribution</strong> utility (path: purchase/purchase  return document profile &gt; <strong>Options</strong>  &gt; <strong>Utility</strong> &gt; <strong>Add-on 
+ Costs</strong> <strong>Distribution</strong>).</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/doc-options/utils/addon-costs-distr/the_freight_distribution_utility.html">The Add-on  Costs Distribution Utility</a></p>
+
+<p>In order to distribute add-on costs to items by weight or volume, you  must first specify a value for weight or volume for those items in the  Item profile (path: <strong>Inventory</strong>  &gt; <strong>Items</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Purchases</strong>  tab &gt; <strong>Freight</strong> &gt; <strong>Item 
+ Freight</strong> dialog box).</p>
+
+<p>The add-on costs distribution utility is not available for purchase  quotes and return documents. This option is however functional when you  enter negative quantities on a debit order or memo.</p>
+
+<dl>
+  <dt><strong>Items Partially Received on an Order that has  Add-On Costs Distributed</strong></dt>
+  <dd>If you distribute add-on costs on a purchase order  and receive the items partially on a purchase receipt or invoice, <strong>Everest</strong> prompts you if you want to reallocate  the add-on costs to just the items that are received. Click <strong>Yes</strong>  to view the <strong>Add-On 
+ Costs Distribution</strong> dialog box where you can change the add-on  costs if required. Click <strong>No</strong> to  continue basing the add-on cost on the ordered quantity.</dd>
+  <dt><strong>Add-on Costs when Processing Purchase Documents</strong></dt>
+  <dd>When you process a single purchase order/receipt  or debit order to a purchase receipt/invoice or debit memo, all add-on  cost details in the top grid of the Add-on Costs Distribution dialog box  carry into the new document.</dd>
+  <dd>However, if you add new line items to the document  the system will not automatically distribute the add-on costs to the new  line items. You must open the Add-on Costs Distribution dialog box and  click the Distribute button to include the new line items into the distribution.  Select the User Specified distribution method if you want to apply the  add-on costs only to certain line items.</dd>
+  <dd>If you retrieve additional lines using the document’s  <strong>Process</strong> &gt; <strong>Unreceived 
+ Orders</strong>, <strong>Process</strong> &gt; <strong>Uninvoiced Orders</strong>, or <strong>Process</strong>  &gt; <strong>Uninvoiced Orders/Receipts</strong>  option (depending on the purchase document), any add-on costs for those  line items do not carry forward and you must open the Add-on Costs Distribution  dialog box to add them manually. Select the User Specified distribution  method if you want to apply the add-on costs only to certain line items.  If you do not open the Add-on Costs Distribution dialog box, when you  save the document the system asks if you want to distribute the add-on  costs. You have the following options:</dd>
+</dl>
+
+<ul>
+  <li><strong>Yes</strong>  to open the distribution screen and manually distribute the add-on costs.</li>
+  <li><strong>No</strong>  to save the document without adjusting the add-on costs (which leaves  incorrect data).</li>
+  <li><strong>Cancel</strong>  to return to the document without saving it.</li>
+</ul>
+
+<dl>
+  <dt><strong>Add-on Costs when Converting Multiple Purchase  Orders/Receipts and Debit Orders</strong></dt>
+  <dd>When you convert multiple purchase orders/receipts  or debit orders into a single purchase receipt/invoice or debit memo,  the system indicates that the add-on costs do not carry into the receipt/invoice.  This prevents accounting inaccuracies and other problems which would result  from combining the add-on costs of documents using  FOB  Origin with those using FOB Destination.</dd>
+  <dd>In such case, The Add-on Costs Distribution dialog  box only displays the add-on cost elements set in the Add-on Costs profile  to appear automatically. You must manually enter the add-on cost details  of the new purchase document if you continue with the conversion. You  may close the new document without saving if you do not want to continue  the conversion.</dd>
+</dl>
+
+
+
+
+</div>

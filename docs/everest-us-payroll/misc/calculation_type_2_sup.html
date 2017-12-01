@@ -1,0 +1,60 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" x-save-method="compute-relative" src="/versata-everest-docs/everest-us-payroll/misc/ehlpdhtm.js"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<p>* Year to date = Year to date value of Local Tax Taxable amount</p>
+
+<h1 id="calculation-type">Calculation Type</h1>
+
+<p>The calculation type identifies how the local tax is calculated. The  calculation types can be any one of the following:</p>
+
+<ul>
+  <li><strong>% 
+ of Federal</strong> - The local tax is calculated as a percentage of the  federal income tax of the employee.</li>
+  <li><strong>% 
+ of State</strong> - The local tax is calculated as a percentage of the state  income tax of the employee.</li>
+  <li><strong>% 
+ of Gross</strong> - The local tax is calculated as a percentage of the gross  salary of the employee.</li>
+  <li><strong>% 
+ of Net Salary</strong> - The local tax calculated as a percentage of net  salary of the employee.</li>
+  <li><strong>Flat 
+ Amount</strong> - You are required to specify a flat amount to be deducted  from the employee’s earnings.</li>
+  <li><strong>Based 
+ on the Hours Worked</strong> - The local tax is calculated at a rate based  on the number of hours worked by the employee.</li>
+</ul>
+
+<p class="note">For the calculation type set to % of Gross  or % of Net Salary, the local tax is calculated in the following manner:</p>
+
+<ul>
+  <li>Min1 = Minimum  of (Local Tax Taxable amount) or (Local Tax Taxable amount + <a href="javascript:kadovTextPopup(this)" id="a1">Year to date</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a1');
+//--></script>  - Lower Limit set in the <strong>Local Tax</strong>  profile)</li>
+  <li>Min2 = Minimum  of (Taxable amount) or (Upper Limit set in the <strong>Local 
+ Tax</strong> profile - Year to date)</li>
+  <li>Min3 = Upper Limit  - Lower Limit set in the <strong>Local Tax</strong>  profile</li>
+</ul>
+
+<p>If Lower Limit and Upper Limit are greater  than zero, the least of Min1, Min2 and Min3 is considered to calculate  the Local tax. Local tax is calculated as a percentage of Net Pay/Gross  Pay.</p>
+
+<p>If Upper Limit is greater than zero, <strong>Everest</strong> calculates Min1 amount, as stated  above, to arrive at the Local Tax amount.</p>
+
+<p>If Lower Limit is greater than zero, <strong>Everest</strong> calculates Min2 amount, as stated  above, to arrive at the Local Tax amount.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-us-payroll/setup/local-taxes/tax_details.html">Tax Details</a></dd>
+</dl>
+
+
+
+
+</div>

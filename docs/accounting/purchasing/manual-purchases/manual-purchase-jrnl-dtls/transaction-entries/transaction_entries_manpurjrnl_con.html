@@ -1,0 +1,85 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="transaction-entries">Transaction Entries</h1>
+
+<dl>
+  <dt><strong>Short/Over</strong></dt>
+  <dd>This field indicates the amount by which the transaction  is out of balance. If the amount displayed is positive, the total debits  exceed total credits; if the amount is negative, the total credits exceed  total debits. Negative amounts are  displayed in red color with a negative symbol preceding it.</dd>
+  <dd>An unbalanced journal cannot be posted.</dd>
+  <dt><strong>Account</strong></dt>
+  <dd>The first line automatically displays the account  specified in the <strong>Accounts payable</strong> field  of the <strong>Accounting</strong> dialog box (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Defaults &gt; Accounting</strong>).</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_defaults.html">Accounting  defaults</a></dd>
+  <dd>This account cannot be changed. The account to be  debited or credited can be selected for further entries. Only detailed  accounts of the same currency as the vendor’s currency can be selected.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/acc-info/coa/chart-of-accounts-details/type_of_account.html">Types  of Accounts</a></dd>
+  <dt><strong>Description</strong></dt>
+  <dd>The name of the selected account is displayed in  this field.</dd>
+  <dt><strong>Loc/Sub-Loc</strong></dt>
+  <dd>The location or sub-location to which the amount  must be allocated is displayed. This field identifies the cost centers  or profit centers for an expense or revenue account. Locations/Sub-Locations  cannot be assigned to asset and liability accounts.</dd>
+  <dt><strong>Notes</strong></dt>
+  <dd>A note is a brief description of the transaction.  You may enter a note for each transaction entry.</dd>
+  <dt><strong>Job Code</strong></dt>
+  <dd>The job code identifies the job to which the purchase  or purchase return has to be allocated.</dd>
+  <dt><strong>Allocate</strong></dt>
+  <dd>Select the <strong>Allocate</strong>  check box for the transaction entries that you would like to distribute  among accounts based on a percentage. The total percentage of these accounts  should equal 100%.</dd>
+</dl>
+
+<p class="steps">To allocate transactions based on a percentage,  do the following:</p>
+
+<ul>
+  <li>Select the <strong>Allocate</strong> check box for each transaction  entry that you would like to distribute based on a percentage.</li>
+  <li>Indicate the percentage  for each transaction selected in the <strong>% 
+ Allocation</strong> field. The Debit/Credit amounts automatically calculate  based on the percentages entered. This feature can increase the efficiency  of your Accounting staff and save valuable time, especially at month end,  since they do not have to calculate the transaction amounts manually.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/accounting/img/purchase_journal_transaction_entries_section_allocation acc.gif" alt="" /></p>
+
+<p><strong>Figure: Purchase Journal Transaction Entries  showing Allocated Transactions</strong></p>
+
+<dl>
+  <dt><strong>% Allocation</strong></dt>
+  <dd>For the accounts that you have selected to allocate  by marking the check box in the <strong>Allocation</strong>  field, you must enter a percentage in the <strong>% 
+ Allocation</strong> field. The total percentage of these accounts should  equal 100%. The Debit/Credit amounts automatically calculate based on  the percentages entered.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /><a href="/versata-everest-docs/accounting/memorized-transactions/memorized_transactions_acc.html">Memorized  Transactions</a></dd>
+</dl>
+
+<p class="note">Under some circumstances, particularly for  foreign currency vendors/customers, manual rounding adjustments, such  as $0.01, for the Short/Over amount may be required for purchase/sales  journal allocations made using a memorized transaction template.</p>
+
+<dl>
+  <dt><strong>Debit and Credit</strong></dt>
+  <dd>The amount to be debited is entered in the Debit  column while the amount that has to be credited is entered in the Credit  column. One account cannot be debited and credited in the same transaction  entry.</dd>
+  <dd>The debit and credit amounts for foreign currency  documents may be entered in foreign or base currency depending on the  view. The amounts are automatically translated using the exchange rate  specified in the <strong>Exchange</strong> <strong>Rate</strong> profile (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Multi - Currency</strong> &gt; <strong>Exchange Rates</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong>) and displayed in the foreign or base currency. To view  the transaction in the base currency, select <strong>Options 
+ &gt; Base Currency</strong> from the <strong>Purchase 
+ Journal</strong> profile.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/tabs/details/for-cur-info/foreign_currency_document.html">Foreign  Currency Documents</a></dd>
+  <dd>If a default expense account has been specified  for the vendor in the <strong>Vendor</strong> profile  (path: <strong>Purchasing</strong> &gt; <strong>Vendors</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In New Window</strong> &gt;  <strong>Accounting</strong> tab &gt; <strong>Expense 
+ Account</strong> field), then the account will be automatically displayed  in the second transaction entry.</dd>
+  <dd><img src="/versata-everest-docs/accounting/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-vendors/creating/the-vendor-profile-accounting/the_vendor_profile_accounting_tab.html">Vendor  - Miscellaneous Information</a></dd>
+  <dd><img src="/versata-everest-docs/accounting/img/note.gif" alt="" />  If  a document alias for Purchase Invoices is selected and an amount is entered  in the debit column, <strong>Everest</strong> changes  the type to <strong>Debit Memo</strong> after getting  your confirmation.</dd>
+</dl>
+
+<p>If a document alias for debit memos is selected,  you cannot enter an amount in the credit column against Accounts Payable  Control Account.</p>
+
+<p class="steps">To select an account/loc/sub-loc/job code,  do the following:</p>
+
+<ul>
+  <li>Click in the  <strong>Account/Loc/Sub-Loc/Job Code</strong> column  for the respective transaction entry. You will see the drop-down button  <img src="/versata-everest-docs/accounting/img/act_drop_down_button.gif" alt="" />.</li>
+  <li>Click the drop-down  button and select the required account/loc/sub-loc/job code from the drop-down  list.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/transaction_entries_manpurjrnl.html">Transaction  Entries</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/purchasing/manual-purchases/creating-a-manual-purchase-journal/purchase_journal_profile_general.html">Purchase  Journal Profile - General</a></dd>
+  <dd><a href="/versata-everest-docs/accounting/memorized-transactions/memorized_transactions_acc.html">Memorized  Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

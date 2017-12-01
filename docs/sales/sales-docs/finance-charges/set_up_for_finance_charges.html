@@ -1,0 +1,48 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="set-up-for-finance-charges">Set up for Finance Charges</h1>
+
+<p>Finance charges are set up in the <strong>Customer</strong> profile. The <strong>Customer</strong> profile (path: <strong>Invoicing</strong> &gt; <strong>Customers</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In New Window</strong> &gt; <strong>Finance Charges</strong> tab) contains the following finance charges related options:</p>
+
+<dl>
+  <dt><strong>Compute Method</strong></dt>
+  <dd>This field denotes the method that is to be used for calculating finance charges for this customer. Finance charges can be computed as a percentage or fixed amount. If you do not want to specify finance charges for a customer, then set this field to <strong>None</strong>.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><a href="/versata-everest-docs/managing-customers/customer-details/finance-charges/finance_charges_content.html">Finance Charges</a></p>
+
+<dl>
+  <dt><strong>Rate</strong></dt>
+  <dd>This field denotes the rate at which finance charges have to be calculated for the customer. If the computation method selected is <strong>Percentage</strong>, then enter the rate at which the finance charges has to be calculated.</dd>
+  <dd>If the computation method selected is <strong>Fixed</strong>, then enter the fixed amount of finance charge that has to be applied to the customer.</dd>
+  <dd>This field is disabled if <strong>None</strong> is selected as the computation method.</dd>
+  <dt><strong>Days past due</strong></dt>
+  <dd>This field denotes the number of days from the document date after which finance charges have to be charged to a customer.</dd>
+  <dt><strong>Exclude unpaid finance charges</strong></dt>
+  <dd>If you want to charge the finance charge only on the outstanding amount, then select this option. If you want to charge finance charges on previous unpaid finance charges also, then do not select this check box.</dd>
+</dl>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" />  The outstanding amount from a customer is $ 1,000 and the finance charge is 10%.   When finance charges are applied on the invoice amount for the first time, the finance charge will be $ 100. The total outstanding amount from the customer becomes $ 1,100.</p>
+
+<p><strong>Let us assume that the customer has not paid the amount and you have to calculate finance charges for the next month.</strong></p>
+
+<p><strong>**Case 1</strong>: If you have selected the <strong>Exclude unpaid finance charges</strong> option, then the 10% finance charge for the second month will be calculated only on $ 1,000.**</p>
+
+<p><strong>**Case 2</strong>: If you have NOT selected the <strong>Exclude unpaid finance charges</strong> option, then the 10% finance charge for the second month will be calculated on $ 1,100.**</p>
+
+<dl>
+  <dt><strong>Minimum balance</strong></dt>
+  <dd>This field denotes the minimum outstanding balance on which finance charges can be applied. If the outstanding balance from the customer is below the amount mentioned here, finance charges will not be computed for the customer.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/finance-charges/finance_charges.html">Finance Charges</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/finance-charges/processing-finance-charges/processing_finance_charges.html">Processing Finance Charges</a></dd>
+</dl>
+
+
+
+
+</div>

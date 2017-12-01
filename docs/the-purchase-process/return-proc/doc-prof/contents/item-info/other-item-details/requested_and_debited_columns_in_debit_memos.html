@@ -1,0 +1,42 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="requested-and-debited-columns-in-debit-memos">Requested and Debited Columns in Debit Memos</h1>
+
+<dl>
+  <dt><strong>Requested</strong></dt>
+  <dd>The <strong>Requested</strong>  displays:</dd>
+</dl>
+
+<ul>
+  <li>Zero when a  debit memo is created directly.</li>
+  <li>The quantity  that was on order and not returned at the time of creating the debit memo.</li>
+</ul>
+
+<p class="example">If 300 units of an item were on order, and  the quantities are returned in 2 lots of 100 and 200, the first debit  memo would display 300 as the quantity requested while the second one  would display 200.</p>
+
+<dl>
+  <dt><strong>Debited</strong></dt>
+  <dd>This column displays the quantity of the item returned.  When a debit order is converted to a debit memo, the <strong>Debited</strong>  column displays the quantity committed (if quantity was committed on the  item). If quantity has not been committed on the item, it displays the  quantity requested, unless you have selected the option <strong>Set</strong><strong>the</strong> <strong>quantity</strong><strong>received</strong> <strong>value</strong><strong>to</strong> <strong>zero</strong><strong>when</strong> <strong>converting</strong><strong>a</strong> <strong>purchase</strong><strong>order/debit order</strong> <strong>to</strong><strong>a</strong> <strong>purchase</strong><strong>receipt/debit memo</strong> (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow</strong><strong>Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> &gt; <strong>Others</strong> &gt; <strong>Others 
+ 1</strong> tab).</dd>
+</dl>
+
+<p class="note">This option works only for auto-serialized and inventoried (non-serialized)  items.</p>
+
+<dl>
+  <dt>For serialized items,  the  shipped column always displays ‘zero’.</dt>
+  <dd>You can enter a quantity that is greater than the  requested quantity.</dd>
+  <dt><strong>Positive and Negative Quantities on a Debit Memo</strong></dt>
+  <dd>You can have both positive and negative quantities  of items on a document. Positive quantities on a debit memo indicate that  the item has been returned to the vendor. Negative quantities indicate  that the item has been received.</dd>
+  <dd>A serial number generated on a debit memo will be  in an “out” type of area.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/other_information_sr_con.html">Other Information</a></dd>
+</dl>
+
+
+
+
+</div>

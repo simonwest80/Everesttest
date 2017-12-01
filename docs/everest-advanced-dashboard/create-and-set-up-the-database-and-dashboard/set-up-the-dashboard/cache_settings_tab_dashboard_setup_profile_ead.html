@@ -1,0 +1,34 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="dashboard-setup-profile---cache-settings-tab">Dashboard Setup Profile - Cache Settings Tab</h1>
+
+<p>Use the <strong>Dashboard Setup</strong> profile <strong>– Cache Settings</strong> tab (Path: <strong>Utility</strong>  &gt; <strong>Dashboard</strong>) to configure cache  settings for your web parts to improve your dashboard performance.  Web  part contents are cached to minimize disk reads and queries against the  cubes in the data warehouse. For more information before adjusting these  settings, see the <strong>Cache 
+ Management</strong> section.</p>
+
+<p><img src="/versata-everest-docs/everest-advanced-dashboard/img/lens.gif" alt="" /> <a href="/versata-everest-docs/everest-advanced-dashboard/create-and-set-up-the-database-and-dashboard/set-up-the-dashboard/cache_management_set_up_the_dashboard_ead.html">Cache  Management</a></p>
+
+<p class="note">: You should also optimize your cubes periodically  to improve query performance. Refer to the <strong>Cube 
+ Usage-Based Optimization</strong> section.</p>
+
+<dl>
+  <dt><strong>Cache Result Sets</strong></dt>
+  <dd>To maximize performance, select <strong>Cache 
+ Results Sets</strong> to turn caching on. If you run your ETL every 5 minutes  or less, deselect <strong>Cache Result Sets</strong>  to turn caching off. We recommend that you use caching where possible  due to the dramatic performance benefits. You can retrieve result sets  much faster from the cache than from the data source.</dd>
+  <dt><strong>Check cube for updates every ____ minutes</strong></dt>
+  <dd>Enter the number of minutes to wait to check if  the cube has been refreshed. If the cube has been updated, the cache expires.  When a request is made to refresh the dashboard web page and the cube  has been updated, the web part queries the cube for a new result set since  the cache is expired. Set this option to a low number, especially if you  run your ETL frequently.</dd>
+  <dt><strong>Rebuild result set cache every _____ minutes</strong></dt>
+  <dd>Enter the number of minutes to wait until the cached  result set expires. Lowering this setting decreases the age of the data  in your web parts but it also increases the queries to the cube which  can lower performance. If your business does not require frequent updates  to your dashboard web parts, it is better to increase the time between  rebuilding the results set cache.  The  default setting to rebuild the result set cache is every 120 minutes.</dd>
+  <dt><strong>Cache result set per User</strong></dt>
+  <dd>Select this option to cache results sets for each  user. This prevents the result sets of one user being viewed by another  user. This setting is optional but you MUST select this option if you  have defined multiple roles in the cube.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-advanced-dashboard/create-and-set-up-the-database-and-dashboard/set-up-the-dashboard/set_up_the_dashboard_ead.html">Set Up the  Dashboard</a></dd>
+</dl>
+
+
+
+
+</div>

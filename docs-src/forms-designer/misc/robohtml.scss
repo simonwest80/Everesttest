@@ -1,0 +1,653 @@
+---
+---
+body {
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    font-size: 8pt;
+    line-height: 150%;
+}
+
+P { 
+   margin-top:2pt; 
+   margin-bottom:0.00pt; 
+   text-align:left; 
+   font-family:Verdana, sans-serif; 
+   font-size:8pt; 
+   line-height:150%; 
+   margin-left:0pt;  }
+LI.kadov-P { 
+            text-align:left; 
+            font-family:Verdana, sans-serif; 
+            font-size:8pt; 
+            line-height:150%; 
+            text-align:left; 
+            font-size:8pt; 
+            font-family:Verdana, sans-serif; 
+            line-height:150%;  }
+H1 { 
+    margin-top:6.00pt; 
+    margin-bottom:10pt; 
+    font-family:Verdana, sans-serif; 
+    font-size:10pt; 
+    font-weight:bold; 
+    text-align:Left; 
+    margin-left:0pt; 
+    background-color:#99ccff;  }
+LI.kadov-H1 { 
+             font-family:Verdana, sans-serif; 
+             font-size:10pt; 
+             font-weight:bold; 
+             text-align:Left; 
+             text-align:left; 
+             font-weight:bold; 
+             font-size:10pt; 
+             font-family:Verdana, sans-serif;  }
+H2 { 
+    margin-top:6.00pt; 
+    margin-bottom:2.00pt; 
+    text-align:justify; 
+    font-family:Times New Roman; 
+    font-size:10pt; 
+    font-weight:bold;  }
+LI.kadov-H2 { 
+             text-align:justify; 
+             font-family:Times New Roman; 
+             font-size:10pt; 
+             font-weight:bold; 
+             text-align:justify; 
+             font-family:Times New Roman; 
+             font-size:10pt; 
+             font-weight:bold;  }
+H3 { 
+    margin-top:6.00pt; 
+    margin-bottom:2.00pt; 
+    text-align:left; 
+    font-family:Arial; 
+    font-size:10pt; 
+    font-weight:bold;  }
+LI.kadov-H3 { 
+             text-align:left; 
+             font-family:Arial; 
+             font-size:10pt; 
+             font-weight:bold; 
+             text-align:left; 
+             font-family:Arial; 
+             font-size:10pt; 
+             font-weight:bold;  }
+H4 { 
+    margin-top:6.00pt; 
+    margin-bottom:2.00pt; 
+    text-align:left; 
+    font-family:Arial; 
+    font-size:10pt; 
+    font-weight:bold;  }
+LI.kadov-H4 { 
+             text-align:left; 
+             font-family:Arial; 
+             font-size:10pt; 
+             font-weight:bold; 
+             text-align:left; 
+             font-family:Arial; 
+             font-size:10pt; 
+             font-weight:bold;  }
+H5 { 
+    margin-top:6.00pt; 
+    margin-bottom:2.00pt; 
+    text-align:left; 
+    font-family:Arial; 
+    font-size:10pt; 
+    font-weight:bold;  }
+LI.kadov-H5 { 
+             text-align:left; 
+             font-family:Arial; 
+             font-size:10pt; 
+             font-weight:bold; 
+             text-align:left; 
+             font-family:Arial; 
+             font-size:10pt; 
+             font-weight:bold;  }
+H6 { 
+    margin-top:6.00pt; 
+    margin-bottom:2.00pt; 
+    text-align:left; 
+    font-family:Arial; 
+    font-size:10pt; 
+    font-weight:bold;  }
+LI.kadov-H6 { 
+             text-align:left; 
+             font-family:Arial; 
+             font-size:10pt; 
+             font-weight:bold; 
+             text-align:left; 
+             font-family:Arial; 
+             font-size:10pt; 
+             font-weight:bold;  }
+H6.Heading7 { 
+             margin-top:6.00pt; 
+             margin-bottom:2.00pt; 
+             text-align:left; 
+             font-family:Arial; 
+             font-size:10pt; 
+             font-weight:bold;  }
+LI.kadov-H6-CHeading7 { 
+                       text-align:left; 
+                       font-family:Arial; 
+                       font-size:10pt; 
+                       font-weight:bold; 
+                       text-align:left; 
+                       font-family:Arial; 
+                       font-size:10pt; 
+                       font-weight:bold;  }
+H6.Heading8 { 
+             margin-top:6.00pt; 
+             margin-bottom:2.00pt; 
+             text-align:left; 
+             font-family:Arial; 
+             font-size:10pt; 
+             font-weight:bold;  }
+LI.kadov-H6-CHeading8 { 
+                       text-align:left; 
+                       font-family:Arial; 
+                       font-size:10pt; 
+                       font-weight:bold; 
+                       text-align:left; 
+                       font-family:Arial; 
+                       font-size:10pt; 
+                       font-weight:bold;  }
+H6.Heading9 { 
+             margin-top:6.00pt; 
+             margin-bottom:2.00pt; 
+             text-align:left; 
+             font-family:Arial; 
+             font-size:10pt; 
+             font-weight:bold;  }
+LI.kadov-H6-CHeading9 { 
+                       text-align:left; 
+                       font-family:Arial; 
+                       font-size:10pt; 
+                       font-weight:bold; 
+                       text-align:left; 
+                       font-family:Arial; 
+                       font-size:10pt; 
+                       font-weight:bold;  }
+P.Topic-Text-Indent { 
+                     margin-left:15.10pt; 
+                     margin-top:4.00pt; 
+                     margin-bottom:0.00pt; 
+                     text-align:left; 
+                     font-family:Arial; 
+                     font-size:10pt;  }
+LI.kadov-P-CTopic-Text-Indent { 
+                               text-align:left; 
+                               font-family:Arial; 
+                               font-size:10pt;  }
+P.Normal-Indent { 
+                 margin-left:36.00pt; 
+                 margin-top:4.00pt; 
+                 margin-bottom:0.00pt; 
+                 text-align:left; 
+                 font-family:Arial; 
+                 font-size:10pt;  }
+LI.kadov-P-CNormal-Indent { 
+                           text-align:left; 
+                           font-family:Arial; 
+                           font-size:10pt;  }
+P.Tip-Note-Heading { 
+                    margin-top:2pt; 
+                    margin-bottom:0.00pt; 
+                    text-align:left; 
+                    font-family:Verdana, sans-serif; 
+                    font-size:8pt; 
+                    font-weight:bold;  }
+LI.kadov-P-CTip-Note-Heading { 
+                              text-align:left; 
+                              font-family:Verdana, sans-serif; 
+                              font-size:8pt; 
+                              font-weight:bold; 
+                              text-align:left; 
+                              font-weight:bold; 
+                              font-size:8pt; 
+                              font-family:Verdana, sans-serif;  }
+P.Tip-Note-Text {
+    margin-left: 14.40pt;
+    margin-top: 2pt;
+    margin-bottom: 0.00pt;
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    font-size: 8pt;
+}
+LI.kadov-P-CTip-Note-Text { 
+                           text-align:left; 
+                           font-family:Verdana, sans-serif; 
+                           font-size:8pt; 
+                           text-align:left; 
+                           font-size:8pt; 
+                           font-family:Verdana, sans-serif;  }
+P.Tip-Note-Text-Bulleted { 
+                          margin-left:14.40pt; 
+                          margin-top:4.00pt; 
+                          margin-bottom:0.00pt; 
+                          text-indent:-9.35pt; 
+                          text-align:left; 
+                          font-family:Arial; 
+                          font-size:10pt;  }
+LI.kadov-P-CTip-Note-Text-Bulleted { 
+                                    text-indent:-9.35pt; 
+                                    text-align:left; 
+                                    font-family:Arial; 
+                                    font-size:10pt;  }
+P.Topic-Text-Bulleted { 
+                       margin-left:15.10pt; 
+                       margin-top:4.00pt; 
+                       margin-bottom:0.00pt; 
+                       text-indent:-9.35pt; 
+                       text-align:left; 
+                       font-family:Arial; 
+                       font-size:10pt;  }
+LI.kadov-P-CTopic-Text-Bulleted { 
+                                 text-indent:-9.35pt; 
+                                 text-align:left; 
+                                 font-family:Arial; 
+                                 font-size:10pt;  }
+P.Topic-Text-Numbered { 
+                       margin-left:15.10pt; 
+                       margin-top:4.00pt; 
+                       margin-bottom:0.00pt; 
+                       text-indent:-9.35pt; 
+                       text-align:left; 
+                       font-family:Arial; 
+                       font-size:10pt;  }
+LI.kadov-P-CTopic-Text-Numbered { 
+                                 text-indent:-9.35pt; 
+                                 text-align:left; 
+                                 font-family:Arial; 
+                                 font-size:10pt;  }
+P.Step { 
+        margin-top:2pt; 
+        margin-bottom:2pt; 
+        text-align:left; 
+        font-family:Verdana, sans-serif; 
+        font-size:8pt; 
+        color:#008080; 
+        font-weight:bold;  }
+LI.kadov-P-CStep { 
+                  text-align:left; 
+                  font-family:Verdana, sans-serif; 
+                  font-size:8pt; 
+                  color:#008080; 
+                  font-weight:bold; 
+                  text-align:left; 
+                  color:#008080; 
+                  font-weight:bold; 
+                  font-size:8pt; 
+                  font-family:Verdana, sans-serif;  }
+P.StepHeading { 
+               margin-top:2pt; 
+               margin-bottom:2pt; 
+               text-align:left; 
+               font-family:Verdana, sans-serif; 
+               font-size:8pt; 
+               font-weight:bold;  }
+LI.kadov-P-CStepHeading { 
+                         text-align:left; 
+                         font-family:Verdana, sans-serif; 
+                         font-size:8pt; 
+                         font-weight:bold; 
+                         text-align:left; 
+                         font-weight:bold; 
+                         font-size:8pt; 
+                         font-family:Verdana, sans-serif;  }
+P.List-Bullet-2 { 
+                 margin-top:2pt; 
+                 margin-bottom:0.00pt; 
+                 text-align:left; 
+                 font-family:Verdana, sans-serif; 
+                 font-size:8pt; 
+                 list-style:disc; 
+                 margin-left:0pt;  }
+LI.kadov-P-CList-Bullet-2 { 
+                           text-align:left; 
+                           font-family:Verdana, sans-serif; 
+                           font-size:8pt; 
+                           list-style:disc; 
+                           text-align:left; 
+                           font-size:8pt; 
+                           font-family:Verdana, sans-serif; 
+                           list-style:disc;  }
+P.List-Bullet-1 { 
+                 margin-top:2pt; 
+                 margin-bottom:0.00pt; 
+                 text-align:left; 
+                 font-family:Verdana, sans-serif; 
+                 font-size:8pt; 
+                 list-style:disc; 
+                 margin-left:-10pt;  }
+LI.kadov-P-CList-Bullet-1 { 
+                           text-align:left; 
+                           font-family:Verdana, sans-serif; 
+                           font-size:8pt; 
+                           list-style:disc; 
+                           text-align:left; 
+                           font-size:8pt; 
+                           font-family:Verdana, sans-serif; 
+                           list-style:disc;  }
+P.List-Number-2 { 
+                 margin-top:2pt; 
+                 margin-bottom:0.00pt; 
+                 text-align:left; 
+                 font-family:Verdana, sans-serif; 
+                 font-size:8pt; 
+                 margin-left:0pt;  }
+LI.kadov-P-CList-Number-2 { 
+                           text-align:left; 
+                           font-family:Verdana, sans-serif; 
+                           font-size:8pt; 
+                           text-align:left; 
+                           font-size:8pt; 
+                           font-family:Verdana, sans-serif;  }
+P.List-Number-1 { 
+                 margin-top:2pt; 
+                 margin-bottom:0.00pt; 
+                 text-align:left; 
+                 font-family:Verdana, sans-serif; 
+                 font-size:8pt; 
+                 margin-left:-10pt;  }
+LI.kadov-P-CList-Number-1 { 
+                           text-align:left; 
+                           font-family:Verdana, sans-serif; 
+                           font-size:8pt; 
+                           text-align:left; 
+                           font-size:8pt; 
+                           font-family:Verdana, sans-serif;  }
+P.Secname { 
+           margin-top:2pt; 
+           margin-bottom:2pt; 
+           text-align:left; 
+           font-family:Verdana, sans-serif; 
+           font-size:8pt; 
+           font-weight:bold; 
+           x-text-underline:normal; 
+           text-decoration:underline underline underline;  }
+LI.kadov-P-CSecname { 
+                     text-align:left; 
+                     font-family:Verdana, sans-serif; 
+                     font-size:8pt; 
+                     font-weight:bold; 
+                     x-text-underline:normal; 
+                     text-decoration:underline underline underline; 
+                     text-align:left; 
+                     font-weight:bold; 
+                     x-text-underline:normal; 
+                     font-size:8pt; 
+                     font-family:Verdana, sans-serif; 
+                     text-decoration:underline underline;  }
+P.TableHead { 
+             margin-top:2pt; 
+             margin-bottom:0.00pt; 
+             text-align:center; 
+             font-family:Verdana, sans-serif; 
+             font-size:8pt; 
+             font-weight:bold;  }
+LI.kadov-P-CTableHead { 
+                       text-align:center; 
+                       font-family:Verdana, sans-serif; 
+                       font-size:8pt; 
+                       font-weight:bold; 
+                       text-align:center; 
+                       font-weight:bold; 
+                       font-size:8pt; 
+                       font-family:Verdana, sans-serif;  }
+P.Tabletext { 
+             margin-top:2pt; 
+             margin-bottom:0.00pt; 
+             text-align:left; 
+             font-family:Verdana, sans-serif; 
+             font-size:8pt;  }
+LI.kadov-P-CTabletext { 
+                       text-align:left; 
+                       font-family:Verdana, sans-serif; 
+                       font-size:8pt; 
+                       text-align:left; 
+                       font-size:8pt; 
+                       font-family:Verdana, sans-serif;  }
+P.Sub-Bullet { 
+              margin-top:2pt; 
+              margin-bottom:0.00pt; 
+              text-align:left; 
+              font-family:Verdana, sans-serif; 
+              font-size:8pt; 
+              margin-left:0pt; 
+              list-style:url(Bullet.gif);  }
+LI.kadov-P-CSub-Bullet { 
+                        text-align:left; 
+                        font-family:Verdana, sans-serif; 
+                        font-size:8pt; 
+                        list-style:url(Bullet.gif); 
+                        text-align:left; 
+                        font-size:8pt; 
+                        font-family:Verdana, sans-serif; 
+                        list-style:url(Bullet.gif);  }
+P.Body-Text-2 { 
+               margin-left:31.50pt; 
+               margin-top:4.00pt; 
+               margin-bottom:0.00pt; 
+               text-align:left; 
+               font-family:Arial; 
+               font-size:10pt;  }
+LI.kadov-P-CBody-Text-2 { 
+                         text-align:left; 
+                         font-family:Arial; 
+                         font-size:10pt;  }
+/*P.hint { 
+        margin-left:72.00pt; 
+        margin-top:6.00pt; 
+        margin-bottom:9.00pt; 
+        text-align:left; 
+        font-family:Arial; 
+        font-size:9pt; 
+        font-style:italic;  }*/
+LI.kadov-P-Chint { 
+                  text-align:left; 
+                  font-family:Arial; 
+                  font-size:9pt; 
+                  font-style:italic;  }
+P.Topic-Text-Onestep { 
+                      margin-left:15.10pt; 
+                      margin-top:4.00pt; 
+                      margin-bottom:0.00pt; 
+                      text-indent:-9.35pt; 
+                      text-align:left; 
+                      font-family:Arial; 
+                      font-size:10pt;  }
+LI.kadov-P-CTopic-Text-Onestep { 
+                                text-indent:-9.35pt; 
+                                text-align:left; 
+                                font-family:Arial; 
+                                font-size:10pt;  }
+P.Regular-Text { 
+                margin-left:14.40pt; 
+                margin-right:57.60pt; 
+                margin-top:6.00pt; 
+                margin-bottom:3.00pt; 
+                text-align:left; 
+                background-color:#cccccc; 
+                font-family:Arial; 
+                font-size:9pt;  }
+LI.kadov-P-CRegular-Text { 
+                          text-align:left; 
+                          font-family:Arial; 
+                          font-size:9pt;  }
+P.Block-Text { 
+              margin-left:36.00pt; 
+              margin-top:4.00pt; 
+              margin-bottom:0.00pt; 
+              text-align:left; 
+              font-family:Arial; 
+              font-size:10pt;  }
+LI.kadov-P-CBlock-Text { 
+                        text-align:left; 
+                        font-family:Arial; 
+                        font-size:10pt;  }
+P.List-Bullet { 
+               margin-left:-10pt; 
+               margin-top:2pt; 
+               margin-bottom:0.00pt; 
+               text-align:left; 
+               font-family:Verdana, sans-serif; 
+               font-size:8pt; 
+               list-style:disc;  }
+LI.kadov-P-CList-Bullet { 
+                         text-align:left; 
+                         font-family:Verdana, sans-serif; 
+                         font-size:8pt; 
+                         list-style:disc; 
+                         text-align:left; 
+                         font-size:8pt; 
+                         font-family:Verdana, sans-serif; 
+                         list-style:disc;  }
+P.Body-Text-Indent-2 { 
+                      margin-left:13.50pt; 
+                      margin-top:4.00pt; 
+                      margin-bottom:0.00pt; 
+                      text-align:left; 
+                      font-family:Arial; 
+                      font-size:10pt;  }
+LI.kadov-P-CBody-Text-Indent-2 { 
+                                text-align:left; 
+                                font-family:Arial; 
+                                font-size:10pt;  }
+P.List-Bullet-3 { 
+                 margin-top:2pt; 
+                 margin-bottom:0.00pt; 
+                 text-align:left; 
+                 font-family:Verdana, sans-serif; 
+                 font-size:8pt; 
+                 margin-left:9pt; 
+                 list-style:disc;  }
+LI.kadov-P-CList-Bullet-3 { 
+                           text-align:left; 
+                           font-family:Verdana, sans-serif; 
+                           font-size:8pt; 
+                           list-style:disc; 
+                           text-align:left; 
+                           font-size:8pt; 
+                           font-family:Verdana, sans-serif;  }
+P.Body-Text-Indent-3 { 
+                      margin-left:54.00pt; 
+                      margin-top:4.00pt; 
+                      margin-bottom:0.00pt; 
+                      text-indent:-54.00pt; 
+                      text-align:left; 
+                      font-family:Arial; 
+                      font-size:10pt;  }
+LI.kadov-P-CBody-Text-Indent-3 { 
+                                text-indent:-54.00pt; 
+                                text-align:left; 
+                                font-family:Arial; 
+                                font-size:10pt;  }
+P.Body { 
+        margin-top:0.00pt; 
+        margin-bottom:8.00pt; 
+        text-align:left; 
+        font-size:8pt; 
+        font-family:Verdana, sans-serif;  }
+LI.kadov-P-CBody { 
+                  text-align:left; 
+                  font-size:8pt; 
+                  font-family:Verdana, sans-serif; 
+                  text-align:left; 
+                  font-size:8pt; 
+                  font-family:Verdana, sans-serif;  }
+P.List-Bullet-4 { 
+                 margin-bottom:0.00pt; 
+                 text-align:left; 
+                 font-size:8pt; 
+                 font-family:Verdana, sans-serif; 
+                 margin-left:54pt; 
+                 margin-top:2pt;  }
+LI.kadov-P-CList-Bullet-4 { 
+                           text-align:left; 
+                           font-size:8pt; 
+                           font-family:Verdana, sans-serif; 
+                           text-align:left; 
+                           font-size:8pt; 
+                           font-family:Verdana, sans-serif;  }
+P.List-Bullet-5 { 
+                 margin-bottom:0.00pt; 
+                 text-align:left; 
+                 font-size:8pt; 
+                 font-family:Verdana, sans-serif; 
+                 margin-left:72pt; 
+                 margin-top:2pt;  }
+LI.kadov-P-CList-Bullet-5 { 
+                           text-align:left; 
+                           font-size:8pt; 
+                           font-family:Verdana, sans-serif; 
+                           text-align:left; 
+                           font-size:8pt; 
+                           font-family:Verdana, sans-serif;  }
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #808080;
+    padding: 1px;
+}
+p.note, dt.note, dd.note, dd.note > p {
+    padding-left: 35px;
+    min-height: 30px;
+    background-image: url({{site.wwe_baseurl}}/img/note.gif);
+    background-repeat: no-repeat;
+}
+
+p.example, dt.example, dd.example, dd.example > p {
+    padding-left: 75px;
+    min-height: 30px;
+    background-image: url({{site.wwe_baseurl}}/img/example.gif);
+    background-repeat: no-repeat;
+}
+
+p.steps, dt.steps, dd.steps, dd.steps > p {
+    padding-left: 35px;
+    min-height: 30px;
+    background-image: url({{site.wwe_baseurl}}/img/steps.gif);
+    background-repeat: no-repeat;
+    color: #008080;
+    font-weight: bold;
+}
+
+p.refer, dt.refer, dd.refer, dd.refer > p {
+    padding-left: 35px;
+    min-height: 30px;
+    background-image: url({{site.wwe_baseurl}}/img/refer.gif);
+    background-repeat: no-repeat;
+}
+
+p.hint, dt.hint, dd.hint, dd.hint > p {
+    padding-left: 35px;
+    min-height: 30px;
+    background-image: url({{site.wwe_baseurl}}/img/hint.gif);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+
+p.warn, dt.warn, dd.warn, dd.warn > p {
+    padding-left: 35px;
+    min-height: 30px;
+    background-image: url({{site.wwe_baseurl}}/img/warning.gif);
+    background-repeat: no-repeat;
+}
+p.lens, dt.lens, dd.lens, dd.lens > p {
+    padding-left: 35px;
+    min-height: 30px;
+    background-image: url({{site.wwe_baseurl}}/img/lens.gif);
+    background-repeat: no-repeat;
+}
+p.see_also, dl.see_also > dt {
+    min-height: 30px;
+    background-image: url({{site.wwe_baseurl}}/img/kanadi.gif);
+    background-repeat: no-repeat;
+    color: transparent;
+}

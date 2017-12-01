@@ -1,0 +1,16 @@
+
+
+<mat-sidenav-container fullscreen>
+
+  <mat-toolbar color="primary" layout="row">
+      <button mat-button (click)="sidenav.toggle()" title="Show/hide TOC">
+          <mat-icon ifix>menu</mat-icon>
+      </button>
+      <span>Everest Docs</span>
+  </mat-toolbar>
+
+  <mat-sidenav #sidenav mode="side" [opened]="isOpened" [mode]="mode">
+      <app-toc (onEntryChanged)="tocEntryChanged($event)"></app-toc>
+  </mat-sidenav>
+  <app-content class="app-content"></app-content>
+</mat-sidenav-container>

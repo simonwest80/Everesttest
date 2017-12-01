@@ -1,0 +1,51 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="variance-analysis---substitute-items">Variance Analysis - Substitute Items</h1>
+
+<p>Variance for items that are substituted is computed by adding the values  and quantities of the standard item and its substitute.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/building-assemblies/img/example.gif" alt="" /></td>
+      <td>You use Item A in a work order. The input  details are:<br /><br /><br /></td>
+      <td> </td>
+      <td>Standard</td>
+      <td>Actual</td>
+      <td><br /></td>
+      <td>Quantity</td>
+      <td>10</td>
+      <td>5</td>
+      <td><br /></td>
+      <td>Rate ($)</td>
+      <td>2</td>
+      <td>2.10</td>
+      <td><br /><br /><br /><br />You also use 8 units of a substitute for A - Item B at $1.8.<br /><br /><br /></td>
+      <td>Rate Variance</td>
+      <td>= (Standard rate - Actual rate) Actual Quantity<br /><br /><br />= (2-2.10)*5<br /><br /><br />= (0.5) (negative variance)</td>
+      <td><br /></td>
+      <td>Quantity Variance</td>
+      <td>= (Standard quantity - Actual quantity) * Standard rate<br /><br /><br />= (10-5)*2<br /><br /><br />= (10) (negative variance)</td>
+      <td><br /></td>
+      <td>Cost Variance</td>
+      <td>= Rate variance of A + Quantity variance for A - Total cost of B<br /><br /><br />= {10 - 0.5 -(8*1.8)}<br /><br /><br />= (4.9) (negative variance)</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Variances are NOT displayed separately for substitute items. The variance  computation for the item that is substituted also considers the substitute  item.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/variance-analysis/variance_analysis_work_order_profile_browser_option_assembly.html">Variance  Analysis</a></dd>
+</dl>
+
+
+
+
+</div>

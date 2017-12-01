@@ -1,0 +1,106 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="document-selection-criteria---purchase-tax-details-report">Document Selection Criteria - Purchase Tax Details Report</h1>
+
+<p>The tax details for purchase invoices are displayed in the report based  on the following:</p>
+
+<ul>
+  <li>If you do NOT  select the <strong>Vendor Tax Invoice Date</strong> check  box, documents that bear a date within the date range specified in the  <strong>Date From</strong> and <strong>Date 
+ To</strong> fields are selected and displayed in the report.</li>
+</ul>
+
+<p>: <img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/document-information/document_date.html">Document  Date - Purchase</a></p>
+
+<ul>
+  <li>If you select  the <strong>Vendor Tax Invoice Date</strong> check  box and NOT the <strong>Consider Payment Date</strong> check box, documents which have a tax invoice date falling within  the report period are considered.</li>
+</ul>
+
+<p>: <img src="/versata-everest-docs/reports/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/misc/other_information_step_by_step_pr.html">Vendor  Tax Invoice Date</a></p>
+
+<ul>
+  <li>
+    <p>If you select  both the <strong>Vendor Tax Invoice Date</strong> and  <strong>Consider Payment Date</strong> check boxes:</p>
+  </li>
+  <li>All purchase invoices  which have the vendor tax invoice date or the payment date within the  report period are considered.</li>
+  <li>If the payment date  of the document is during an earlier reporting period, the purchase invoice  date is considered.</li>
+  <li>If the payment date  and the vendor tax invoice date fall in a subsequent reporting period  (when compared to the purchase invoice date), the earlier of the two dates  is considered.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/reports/img/example.gif" alt="" /> The  purchase invoices considered in this report are illustrated by the following  example:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>: <strong>Purchase Invoice Date</strong></td>
+      <td>: <strong>Date of Payment</strong></td>
+      <td>: <strong>Vendor Tax Invoice Date</strong></td>
+      <td>: <strong>Vendor Tax Invoice Not <br /> Selected</strong></td>
+      <td>: <strong>ONLY Vendor Tax Invoice <br /> Selected</strong></td>
+      <td>: <strong>Vendor Tax Invoice AND <br /> Payment Date Selected</strong></td>
+    </tr>
+    <tr>
+      <td>: Feb</td>
+      <td>: Jan</td>
+      <td>: Feb</td>
+      <td>: Feb</td>
+      <td>: Feb</td>
+      <td>: Feb</td>
+    </tr>
+    <tr>
+      <td>: Feb</td>
+      <td>: Jan</td>
+      <td>: Mar</td>
+      <td>: Feb</td>
+      <td>: Mar</td>
+      <td>: Feb</td>
+    </tr>
+    <tr>
+      <td>: Feb</td>
+      <td>: Feb</td>
+      <td>: Feb</td>
+      <td>: Feb</td>
+      <td>: Feb</td>
+      <td>: Feb</td>
+    </tr>
+    <tr>
+      <td>: Feb</td>
+      <td>: Mar</td>
+      <td>: Mar</td>
+      <td>: Feb</td>
+      <td>: Mar</td>
+      <td>: Mar</td>
+    </tr>
+    <tr>
+      <td>: Feb</td>
+      <td>: Feb</td>
+      <td>: Mar</td>
+      <td>: Feb</td>
+      <td>: Mar</td>
+      <td>: Feb</td>
+    </tr>
+    <tr>
+      <td>: Feb</td>
+      <td>: Mar</td>
+      <td>: Apr</td>
+      <td>: Feb</td>
+      <td>: Apr</td>
+      <td>: Mar</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In the case of debit memos, all memos created during the reporting period  are selected and displayed.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/reports/everest-reports/purchasing/gst_vat_on_purchases.html">Purchase Tax  Details</a></dd>
+</dl>
+
+
+
+
+</div>

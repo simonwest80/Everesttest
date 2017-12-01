@@ -1,0 +1,62 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="ordered-and-shipped-columns-in-sales-invoices">Ordered and Shipped Columns in Sales Invoices</h1>
+
+<p><strong>The Ordered Column</strong></p>
+
+<p>When a sales order is converted to a sales invoice, the <strong>Ordered</strong> column on the sales invoice displays the quantity ordered but not  shipped. When you create a new sales invoice this column defaults to 1  with the decimal accuracy of the unit of measure. You can increase the  decimal accuracy up to 6 places.</p>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> If  300 units of an item were on order, and the quantities are shipped in  2 lots of 100 and 200, the first sales invoice would display 300 as the  quantity ordered. This is because none of the items have been shipped  as yet. After the first lot of 100 units have been shipped, the second  sales invoice would display the remaining 200 as the quantity ordered.</p>
+
+<p><strong>The Shipped Column</strong></p>
+
+<p>The <strong>Shipped</strong> column displays  the quantity of the item shipped (for which the Sales Invoice is being  created). When a Sales Order is converted to a Sales Invoice, the <strong>Shipped</strong> column displays the quantity  committed (if the item quantity is committed). If not, it displays the  quantity ordered unless the option <strong>Set 
+ Quantity shipped value to zero when converting the sales order to sales 
+ invoice (force you to enter the quantity shipped)</strong> (path: <strong>File &gt; Setup &gt; Preferences</strong> &gt; <strong>Flow</strong><strong>Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> &gt; <strong>Others</strong> &gt; <strong>Others 
+ 1</strong> tab) is checked.</p>
+
+<p>When you create a sales invoice directly, this column gets updated with  the unit quantity for non-inventoried items including kits.</p>
+
+<p>This column is in the decimal accuracy of the unit of measure. You can  increase the decimal accuracy up to six places.</p>
+
+<p><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/flow-ctrl/ctrl/opt/misc/flow_control_setup_dialog_box_miscellaneous_tab_steps.html">Documents  - Flow Control - Miscellaneous Tab</a></p>
+
+<p class="note">You may enter a quantity that is greater than the ordered  quantity.</p>
+
+<p>Once you save the sales invoice, you cannot change the  quantity of inventoried items in the <strong>Shipped</strong>  column; however, you can modify the quantity of non-inventoried items.</p>
+
+<p>The following fields are updated to the stock measure after conversion  from the sales measure for the item:</p>
+
+<ul>
+  <li>Total Stock</li>
+  <li>On Reserve</li>
+  <li>On Reserve Commit</li>
+  <li>On Credit</li>
+  <li>On Credit Commit  Quantity</li>
+</ul>
+
+<p>You cannot change measures in the following situations:</p>
+
+<ul>
+  <li>Committed Quantities</li>
+  <li>Backorders</li>
+  <li>Shipped Orders</li>
+</ul>
+
+<p>If you change the decimal accuracy of a measure, the original quantity  is shown in the decimal accuracy of the changed measure.</p>
+
+<p class="example">If your quantity is entered as 10.20 and the  decimal accuracy of the measure is changed to 0, the quantity is shown  as 10.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/item-info/item_information_item_details_grid_sales_content.html">Item  Information</a></dd>
+</dl>
+
+
+
+
+</div>

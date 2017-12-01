@@ -1,0 +1,48 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="applying-deposits-received-on-sales-orders">Applying Deposits Received on Sales Orders</h1>
+
+<p>Set a preference in the <strong>Method for 
+ applying deposit collected on a sales order when converting it to a sales 
+ invoice</strong> field (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Prompts</strong> &gt; <strong>Sales 
+ Document</strong> &gt; <strong>Sales Document 2</strong>  tab).</p>
+
+<p><strong>Method for applying deposits received on Sales  Orders</strong></p>
+
+<ul>
+  <li>If you select <strong>Automatically create a new transaction to apply 
+ deposit to sales invoice</strong>, the deposit received on the sales order  is automatically applied on the invoice when the invoice is saved and  the amount/deposit is reflected in the Paid field of the invoice.</li>
+  <li>If you select <strong>Automatically move deposit to Sales Invoice, 
+ if possible. Otherwise, auto create transaction to apply deposit</strong>,  the system applies the deposit made on the sales order on the invoice  if the sales order and sales invoice are created on the same day and there  is only one payment made on the order. If these conditions are not met,  a new transaction is created showing the applied amount on the invoice  when you save the invoice.</li>
+  <li>If you select <strong>Prompt user to allow them to select how they 
+ would like to treat the deposit</strong>, the system displays a prompt for  you to select how you would like to treat the deposit received on the  sales order.</li>
+  <li>If you select <strong>Keep deposit on sales order</strong>, the system  retains the deposit on the sales order and you can apply the deposit to  any sales document for the same customer or apply the deposit on a different  day on the invoice.</li>
+</ul>
+
+<p>When you select the <strong>Prompt 
+ user to allow them to select how they would like to treat the deposit</strong>  option, the <strong>Everest Prompt</strong> displays  giving you further options.</p>
+
+<p>The <strong>Everest Prompt</strong>  provides you three options:</p>
+
+<ul>
+  <li>Move deposit from  Sales Order to Sales Invoice</li>
+  <li>Create a new transaction  to apply deposit to Sales Invoice</li>
+  <li>Keep deposit on  this Sales Order</li>
+</ul>
+
+<p>The deposit applied as per the option selected by you.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/misc/method_of_applying_deposit_collected_on_a_sales_order_at_the_time_of_converting_it_to_a_sales_invoice.html">Flow  Control Preferences for Applying Deposits on Sales Documents</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/pmts-on-so/payments_on_sales_orders.html">Payments  on Sales Orders</a></dd>
+</dl>
+
+
+
+
+</div>

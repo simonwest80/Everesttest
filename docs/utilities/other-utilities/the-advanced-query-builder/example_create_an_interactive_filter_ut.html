@@ -1,0 +1,206 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="example-create-an-interactive-filter-with-drill-down-documents-and--profiles">Example: Create an Interactive Filter with Drill-down Documents and  Profiles</h1>
+
+<p>The Advanced Query Builder allows you to create powerful  filters that can prompt users for specific parameters when running the  filters. After making parameter selections, they can also drill-down into  selected documents and profiles to view additional information.</p>
+
+<p>Scenario: A company wants to create a filter that will show  all sales orders over a specified dollar amount for a specified payment  term. After selecting the dollar amount and payment term, they would like  to drill-down further into the query results and be able to open the sales  orders and customer profiles in <strong>Everest</strong>.</p>
+
+<p>For advanced users who know SQL, the SQL query used for this  sample filter is:</p>
+
+<p>SELECT</p>
+
+<p>INVOICES.STATUS,</p>
+
+<p>INVOICES.DOC_NO,</p>
+
+<p>INVOICES.DATE_FLD,</p>
+
+<p>INVOICES.CUST_CODE,</p>
+
+<p>INVOICES.DEP,</p>
+
+<p>INVOICES.TERMS,</p>
+
+<p>INVOICES.DOC_ALIAS</p>
+
+<p>FROM</p>
+
+<p>INVOICES  WITH (NOLOCK)</p>
+
+<p>WHERE</p>
+
+<p>STATUS  = 8 AND</p>
+
+<p>INV_AMOUNT  &gt; :AMOUNT AND</p>
+
+<p>TERMS  = :TERMS</p>
+
+<p>If you are not familiar with SQL, follow the steps below  to create the query.</p>
+
+<p class="steps">To create a sample interactive query with  drill-down documents and profiles, do the following:</p>
+
+<ul>
+  <li>From the main menu  bar, select <strong>Utility</strong> &gt; <strong>Advanced Query Builder</strong>. You will see  the <strong>Advanced</strong> <strong>Query 
+ Builder</strong>.</li>
+  <li>Enter “Sales  Documents - Interactive Filter” in the <strong>Filter 
+ Name</strong> field, so that you can save your query and use it at a later  time. The filter name must be unique.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/interactive_filter_step1_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder - Enter Query  Name</strong></p>
+
+<ul>
+  <li>Double-click the  “INVOICES” table from the <strong>Everest 
+ Schema Information (Tables)</strong> section on the right. You will see  a red check mark in front of the selected table.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/interactive_filter_step2_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder - Add INVOICES  Table</strong></p>
+
+<ul>
+  <li>In the INVOICES  table in the <strong>Custom Query Builder</strong>  section, select the following fields to be retrieved:</li>
+</ul>
+
+<p>STATUS</p>
+
+<p>DOC_NO</p>
+
+<p>DATE_FLD</p>
+
+<p>CUST_CODE</p>
+
+<p>DEP</p>
+
+<p>TERMS</p>
+
+<p>DOC_ALIAS</p>
+
+<p><img src="/versata-everest-docs/utilities/img/interactive_filter_step3_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder - Custom Query  Builder section</strong></p>
+
+<ul>
+  <li>Next, specify the  conditions for the query in the <strong>Filters</strong>  tab:</li>
+  <li>Enter condition  1 (<strong>STATUS = 8</strong>).</li>
+  <li>Click the <img src="/versata-everest-docs/utilities/img/aqb_lookup_button_ut.gif" alt="" /> lookup button and select <strong>Add 
+ condition</strong> to add the first condition.</li>
+  <li>Click the first blue  line and enter <strong>STATUS</strong>.</li>
+  <li>Do not change the  red “=” (equals) sign.</li>
+  <li>Click the second  blue line and enter <strong>8</strong>. (7=Sales  Quote, 8=Sales Order, 9=Sales Invoice, 10=Credit Quote, 11=Credit Order,  and 12=Credit Memo) This condition filters for document type. You can  find this information in the Data Dictionary or the Everest Case Tool.  “Status = 8” filters for Sales Orders.</li>
+  <li>Enter condition  2 (<strong>INV_AMOUNT &gt; :AMOUNT</strong>).</li>
+  <li>Click the <img src="/versata-everest-docs/utilities/img/aqb_lookup_button_ut.gif" alt="" /> lookup button again and select <strong>Add 
+ condition</strong> to add the second condition.</li>
+  <li>Click the first blue  line on the second row for the second condition and enter <strong>INV_AMOUNT</strong>.</li>
+  <li>Change the red equals  sign to a “<strong>&gt;</strong>” (greater  than) sign.</li>
+  <li>Click the second  blue line on the second row for the second condition and enter <strong>:AMOUNT</strong>.  In this case, the colon (<strong>:</strong>) is  used to indicate that this is a parameter that can be selected. The second  condition allows you to select all sales orders greater than a selected  amount.</li>
+  <li>Enter condition  3 (<strong>TERMS = :TERM</strong>).</li>
+  <li>Click the <img src="/versata-everest-docs/utilities/img/aqb_lookup_button_ut.gif" alt="" /> lookup button again and select <strong>Add 
+ condition</strong> to add the third condition.</li>
+  <li>Click the first blue  line on the third row for the third condition and enter <strong>TERMS</strong>.</li>
+  <li>Do not change the  red “<strong>=</strong>” (equals) sign.</li>
+  <li>Click the second  blue line on the third row for the third condition and enter <strong>:TERM</strong>.  The colon (<strong>:</strong>) indicates that TERM  is a parameter. The third condition allows you to select all sales orders  that have the selected term.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/interactive_filter_step5a.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder - Conditions Added  to Filters Tab</strong></p>
+
+<ul>
+  <li>Click the <strong>Browser Settings</strong> tab, and specify <strong>INVOICES.DOC_NO</strong> as the primary key.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/interactive_filter_step6_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder - Browser Settings  Tab</strong></p>
+
+<ul>
+  <li>Click the <strong>Field Settings</strong> tab.</li>
+  <li>For the INVOICES.DOC_NO  field:</li>
+  <li>In the <strong>Searchable</strong>  column, select the checkbox to allow local searching on this column.</li>
+  <li>In the <strong>Action</strong>  column, select <strong>Open Documents Profile</strong>.</li>
+  <li>In the <strong>Action 
+ Parameter 1</strong> field, select <strong>STATUS</strong>.</li>
+  <li>In the <strong>Action 
+ Parameter 2</strong> field, select <strong>DOC_NO</strong>.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/advanced_query_builder_supported_actions_ut.html">Advanced  Query Builder Supported Actions</a></p>
+
+<ul>
+  <li>For the INVOICES.CUST_CODE  field:</li>
+  <li>In the <strong>Action</strong>  column, select <strong>Open Customer Profile</strong>.</li>
+  <li>In the <strong>Action 
+ Parameter 1</strong> field, select <strong>CUST_CODE</strong>.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/interactive_filter_step7_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder - Field Settings  Tab</strong></p>
+
+<ul>
+  <li>Click the <strong>Parameter Information</strong> tab.</li>
+  <li>For the AMOUNT  field:</li>
+  <li>In the <strong>Caption</strong>  column, enter “Sales Amount”.</li>
+  <li>In the <strong>Data 
+ Type</strong> field, select <strong>Numeric</strong>.</li>
+  <li>In the <strong>Type</strong>  field, select <strong>Static</strong>.</li>
+  <li>
+    <p>Leave the <strong>Default 
+ Value</strong> field blank. This allows you to select the value when you  are running the filter.</p>
+  </li>
+  <li>For the TERMS field:</li>
+  <li>In the <strong>Caption</strong>  column, enter “Payment Term”.</li>
+  <li>In the <strong>Data 
+ Type</strong> field, select <strong>String</strong>.</li>
+  <li>In the <strong>Type</strong>  field, select <strong>Static</strong>.</li>
+  <li>Leave the <strong>Default 
+ Value</strong> field blank.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/interactive_filter_step8_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder - Parameter Information  Tab</strong></p>
+
+<ul>
+  <li>Click <img src="/versata-everest-docs/utilities/img/aqb_save_button_ut.gif" alt="" /> <strong>Save</strong> to save the  “Sales Documents - Interactive Filter” filter.</li>
+  <li>Click <strong>Find</strong>  to view the filter output in the <strong>Advanced 
+ Query</strong> browser. You will be prompted to add parameter values.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/interactive_filter_step9_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder - Interactive  Query Prompt</strong></p>
+
+<ul>
+  <li>For this example,  enter “<strong>100</strong>” as the Sales  Amount value.</li>
+  <li>Enter “<strong>N30</strong>” as the Payment Term value.  All sales orders over $100 with a payment term of N30 will display in  the filter result.</li>
+  <li>Click <strong>OK</strong>  to view the filter.</li>
+  <li>You can drill-down  further into the query results. Click a sales order number to open the  sales order or click a customer number to open the customer profile.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/utilities/img/interactive_filter_step10_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder Filter Results  showing Sales Order Profile Drill-down</strong></p>
+
+<p><img src="/versata-everest-docs/utilities/img/interactive_filter_step11_ut.gif" alt="" /></p>
+
+<p><strong>Figure: Advanced Query Builder Filter Results  showing Customer Profile Drill-down</strong></p>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/misc/query_details_section_parameter_information_tab_ut.html">Query  Details Section - Parameter Information Tab</a></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/other-utilities/the-advanced-query-builder/steps_to_create_a_query.html">Steps to Create  a Query</a></dd>
+</dl>
+
+
+
+
+</div>

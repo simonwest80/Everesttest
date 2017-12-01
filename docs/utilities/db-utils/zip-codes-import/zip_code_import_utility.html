@@ -1,0 +1,46 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="zip-code-import">Zip Code Import</h1>
+
+<p>The <strong>Zip/FIPS 
+ Codes Import</strong> utility updates the existing ZIP/FIPS  codes in <strong>Everest</strong> with the data  provided by the United States Postal Service (USPS).  The data provided by USPS  is also known as <strong>City State Product</strong>.</p>
+
+<p>Everest Software supplies you with the City State Product as part of  your license. You can download updated zip code tables from the <strong>Downloads</strong> section of the <a href="http://support.everestsoftwareinc.com">Everest  Software Support website</a>.</p>
+
+<p class="note">Zip code updates include city names, 5-digit  zip codes, and FIPS codes. <strong>Everest</strong>  does not currently support Zip+4 postal codes.</p>
+
+<p><strong>Periodic Zip/FIPS Code Imports</strong></p>
+
+<p>Periodically, the USPS releases new zip codes in a file. This file must  be imported using the <strong>Zip/FIPS Code Import</strong>  utility. You can download updated zip code tables from the <strong>Downloads</strong>  section of the <a href="http://support.everestsoftwareinc.com">Everest  Software Support website</a>. The <strong>Zip/FIPS 
+ Codes Import</strong> utility updates only the zip code table with new zip  codes and relevant FIPS codes.</p>
+
+<p class="note">After importing zip codes, if there are new FIPS added to the database,  you have to manually go through the log file and modify jurisdiction details  and customer/vendor address details as required. You can view the log  file - <strong>ZipCodeImport.txt</strong> from  the following default path C:\Program Files\Icode\Everest\Client,  unless you changed the path while installing <strong>Everest</strong>.</p>
+
+<p><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/sales-tax/tax-jurisdictions/set-up-jurisdictions/jurisdiction_profile.html">The  Jurisdiction Profile</a></p>
+
+<p class="steps">To import zip codes into Everest, do the  following:</p>
+
+<ul>
+  <li>From the main  menu, select <strong>Utility</strong> &gt; <strong>Import</strong> &gt; <strong>Zipcode</strong><strong>Import</strong>. You will see the <a href="/versata-everest-docs/utilities/db-utils/zip-codes-import/zip_fips_codes_import_dialog_box.html"><strong>Zip/FIPS 
+ Codes Import</strong></a> dialog box.</li>
+  <li>Select the  import file in the <strong>City State</strong><strong>file</strong> field.</li>
+  <li>Click <strong>Import</strong> to start the import process.</li>
+  <li>When the import  process is complete, you will receive the message “Import Completed Successfully”.  Click <strong>OK</strong>.</li>
+  <li>Click <strong>View Log</strong> to view details of the imported  zip/FIPS codes.</li>
+  <li>Click <strong>Close</strong> to exit the <strong>Zip/FIPS 
+ Codes Import</strong> utility.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/international-set-up/zip-codes/zip_codes.html">Zip  Codes</a></dd>
+</dl>
+
+
+
+
+</div>

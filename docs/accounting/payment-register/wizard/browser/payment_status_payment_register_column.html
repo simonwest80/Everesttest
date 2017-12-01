@@ -1,0 +1,69 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="payment-status">Payment Status</h1>
+
+<p>The various types of payment statuses are:</p>
+
+<p><strong>To Be Printed</strong></p>
+
+<p>This status appears in <strong>Payment Status</strong>  field only if:</p>
+
+<ul>
+  <li>The check number  has not been assigned to  a  transaction, which had used Checks as payment method.</li>
+  <li>Where the transaction  with payment method check has a <strong>Outstanding</strong>  Payment Status and you blank out the check number.</li>
+  <li>Where the check  has not been printed for a transaction that uses computer check as the  payment method.</li>
+  <li>Select the  menu option <strong>Change Payment Status</strong>  &gt; <strong>To be Printed</strong> for a transaction  that had <strong>Outstanding</strong> status.</li>
+</ul>
+
+<p><strong>Outstanding</strong></p>
+
+<p>This status appears in <strong>Payment Status</strong>  field only if:</p>
+
+<ul>
+  <li>Normal transactions  use <strong>Cash</strong>, <strong>Credit 
+ card</strong>  or  <strong>Others</strong> payment method.</li>
+  <li>A transaction  that use checks as payment method has a check number assigned to it or  check printed for it.</li>
+  <li>You manually  key in  the  check # in the Reference#/Check # column of a transaction with Payment  Status <strong>To be Printed</strong>.</li>
+  <li>You print a  computer check  for  a transaction with Payment Status <strong>To 
+ be Printed</strong>.</li>
+  <li>You select  the menu option <strong>Change Payment Status</strong>  &gt; <strong>Outstanding</strong> for a transaction  that had <strong>To be Printed</strong> Payment  Status and is Unposted.</li>
+  <li>You select  the menu option <strong>Change Payment Status</strong>  &gt; <strong>Outstanding</strong> status for a  transaction that had <strong>Cleared</strong> Payment  Status and is posted.</li>
+</ul>
+
+<p><strong>Cleared</strong></p>
+
+<p>This status appears in <strong>Payment Status</strong>  field only if:</p>
+
+<ul>
+  <li>The transaction  uses <strong>Check</strong> as the payment method  and this check is marked as Cleared in Bank Reconciliation.</li>
+  <li>You select  the menu option <strong>Change Payment Status</strong>  &gt; <strong>Cleared</strong> for a transaction  that had <strong>Outstanding</strong> status and  is Posted.</li>
+</ul>
+
+<p><strong>Reconciled</strong></p>
+
+<p>This status appears in <strong>Payment Status</strong>  field only if the check is marked as Reconciled in the Bank Reconciliation  statement. These transactions will appear in the Bank Reconciliation statement  provided the <strong>Include Reconciled transactions</strong>  checkbox is ticked.</p>
+
+<p><strong>Blank</strong></p>
+
+<p>The <strong>Payment Status</strong> field for  the following type of transactions will be blank.</p>
+
+<ul>
+  <li>Voided Transactions</li>
+  <li>Reversed transactions</li>
+  <li>Reversal transaction</li>
+  <li>Quick Voided  transactions</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/payment-register/wizard/browser/voiding-transactions-payment-register/void_a_transaction_payment_register.html">Void  a Transaction from the Payment Register</a></dd>
+</dl>
+
+
+
+
+</div>

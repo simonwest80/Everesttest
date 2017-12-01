@@ -1,0 +1,47 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="document-number">Document Number</h1>
+
+<p>The <strong>Document</strong> # field displays  the number assigned to a purchase document when it is created. <strong>Everest</strong>  automatically assigns the sequence number generated in the <strong>Location</strong>  profile to the next purchase document created. Sequence numbers for purchase  documents are set in the <strong>Location</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location</strong>/<strong>Sub-Location</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Purchasing</strong> tab) of the logged in location/sub-location.</p>
+
+<p>If a sequence number is not defined for the login location, the sequence  number for the <strong>Default Location</strong>  (path:<font color="#0000FF" face="Verdana" class="hcp2"> </font><strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong> tab)<font color="#0000FF" face="Verdana" class="hcp2"> </font>is assigned to the document.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /></td>
+      <td><a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/locations_and_departments.html">Location/Sub-Location</a><br /><br /><br /><a href="/versata-everest-docs/setting-up-a-company/misc/sequence_numbers_departments.html">Sequence  Numbers</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Numbering Document Aliases</strong></p>
+
+<p>Documents created with different aliases are not assigned a different  sequence. The next number in the sequence is used for all documents of  a particular type.</p>
+
+<p class="example">If you create a purchase quote with the number  1000 and the next purchase quote has an alias ‘Replacement Parts Quote’,  the document number assigned to the ‘Replacement Parts Quote’  would be 1001.</p>
+
+<p><strong>Manual Numbering</strong></p>
+
+<p>You cannot number the documents manually in <strong>Everest</strong>.  You can, however, change the sequence number from the <strong>Location</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location</strong>/<strong>Sub-Location</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In New Window</strong>  &gt; <strong>Purchasing</strong> tab). Every time  you change a sequence, <strong>Everest</strong>  allots the next number in the sequence to documents created thereafter.</p>
+
+<p><strong>Processed Documents</strong></p>
+
+<p>If a quote is converted to an order, or an order is converted to a receipt  or invoice, and the login location is changed before saving it, the system  uses the sequence number set for the logged-in location even though it  is different from the location on the original quote or order.</p>
+
+<p class="note">Sequence numbers once assigned cannot be reused,  even if the document has been discontinued or purged.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/locations_and_departments.html">Locations  and Sub-Location</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/contents/document-information/document_information_purchasing.html">Document  Information</a></dd>
+</dl>
+
+
+
+
+</div>

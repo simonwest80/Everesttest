@@ -1,0 +1,78 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="workstation-settings---general---report-settings">Workstation Settings - General - Report Settings</h1>
+
+<p>Use the <strong>Report Settings</strong>  tab to specify your workstation report settings. These settings override  any global reports settings specified in the Reporting Preferences (Path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Defaults</strong>  &gt; <strong>Reporting Preferences</strong> &gt;  <strong>Export Settings</strong> tab).</p>
+
+<p><img src="/versata-everest-docs/setting-up-a-company/img/lens.gif" alt="" /> <a href="/versata-everest-docs/business-processes-in-everest/rpt-prt/report-settings/the_reporting_preferences_dialog_box_export_settings_tab_bp.html">The_Reporting_Preferences_Dialog_Box  - Export_Settings</a></p>
+
+<dl>
+  <dt><strong>Low speed connection</strong></dt>
+  <dd>Select this check box if you are accessing a report  server to generate reports on your workstation, using a WAN (Wide Area  Network) or remote connection, and when your workstation is outside the  Local Area Network of your application server. The report is generated  at the reports server and sent back to the workstation, one page at a  time.</dd>
+</dl>
+
+<p class="warn">You need not select this option if you are not accessing a reports server  for generating reports. There might be formatting differences and limitations  in reports generated when the ‘Low Speed Connection’ is selected.</p>
+
+<p class="note">If this option is selected:</p>
+
+<ul>
+  <li>The <strong>Export</strong> option for <strong>Everest Reports</strong>  will not be available.</li>
+  <li>Only your default  printer will be available for printing.</li>
+</ul>
+
+<dl class="example">
+  <dt>If your main office is in the United States  and a subsidiary is in Singapore, to run reports in the Singapore office,  you must select the <strong>Low</strong> <strong>Speed</strong> <strong>Connection</strong>  check box.</dt>
+  <dd>The <strong>Low Speed Connection</strong>  check box is disabled if both the <strong>Everest</strong>  Client and the reports server are on the same Microsoft Windows ® Vista  machine.</dd>
+  <dt><strong>Reports Repository</strong></dt>
+  <dd>Specify the location of your workstation reports  repository. <strong>Everest Reports</strong> reside  in, and are accessed from this location.</dd>
+</dl>
+
+<p class="note">• Locations that you enter in this field override the global reports  repository path in the Reporting Preferences (Path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Reporting 
+ Preferences</strong> &gt; <strong>Export Settings</strong>  tab).</p>
+
+<p>• All repository paths in <strong>Everest</strong>  are stored in UNC (Universal Naming Convention) paths. On a network, the  UNC is a method by which you can identify a shared file in a computer,  without having to specify the storage device it is on. For Windows, the  UNC name format is \servername\sharename\path\filename.</p>
+
+<p>• You can specify the reports repository of the local workstation, or  another server/workstation on your network, as your workstation reports  repository.</p>
+
+<dl>
+  <dt><strong>Export File Path</strong></dt>
+  <dd>Specify the location where you want <strong>Everest 
+ Reports</strong> to be exported and stored for retrieval at a later date.  If a global or workstation setting is not selected for this field, it  defaults to <strong>My Documents</strong>. On Microsoft  Windows ® Vista systems, the Export File Path defaults to “C:\programdata\everest\temp”.</dd>
+</dl>
+
+<p class="note">The path that you enter in this field overrides  the path in the <strong>Export File Path (High 
+ Speed)</strong> field in the Reporting Preferences (Path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Reporting 
+ Preferences</strong> &gt; <strong>Export</strong><strong>Settings</strong> tab).</p>
+
+<dl>
+  <dt><strong>Export File Format</strong></dt>
+  <dd>Select the file format for <strong>Everest 
+ Reports</strong> to be exported, for retrieval at a later date.</dd>
+</dl>
+
+<p class="note">The format that you enter in this field overrides  the format in the global <strong>Export File 
+ Format</strong> field in the Reporting Preferences (Path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Reporting 
+ Preferences</strong> &gt; <strong>Export</strong><strong>Settings</strong> tab).</p>
+
+<dl>
+  <dt><strong>Prompt User for Export Options</strong></dt>
+  <dd>Select this option to display the <strong>Export</strong>  dialog box, containing additional options, when exporting reports in <strong>Everest</strong>.</dd>
+</dl>
+
+<p class="note">If this option is selected, <strong>Everest</strong>  overrides the path specified in the <strong>Export 
+ File Path</strong> field, and the format specified in the <strong>Export 
+ File Format</strong> field, allowing you to choose alternate formats and  destinations from the <strong>Export</strong> dialog  box.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/workstation-settings/workstation_settings_general_introduction.html">Workstation  Settings - General</a></dd>
+</dl>
+
+
+
+
+</div>

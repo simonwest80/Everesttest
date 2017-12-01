@@ -1,0 +1,30 @@
+---
+title: Customer Tracking
+sorted_pages:
+  - "customer_tracking"
+  - "set_up_custom_tracking_for_customers"
+  - "creating_a_tracking_category_for_customers"
+  - "create_a_tracking_category_for_customers"
+  - "the_tracking_category_profile_customer_"
+  - "modify_a_tracking_category_for_customers"
+  - "custom_tracking_group_details_2"
+  - "create_a_custom_tracking_group_for_customers"
+  - "the_custom_tracking_group_profile_customer_"
+  - "modify_a_tracking_group_for_customers"
+  - "custom_tracking_choice_details_1"
+  - "create_a_custom_tracking_choice_for_customers"
+  - "the_custom_tracking_choice_profile_customer_"
+  - "modify_a_custom_tracking_choice"
+  - "the_custom_tracking_setup_customer_browser"
+  - "track_a_customer"
+  - "the_custom_tracking_customer_browser"
+  - "customer_selection_ct_cust_brsr"
+  - "using_customer_selection"
+  - "custom_tracking_list_details_2"
+  - "create_a_custom_tracking_list_for_customers"
+  - "custom_tracking_list_dialog_box_customer_tracking"
+  - "customer_selection_by_items"
+  - "customer_selection_by_item_dialog_box"
+  - "the_tracking_customer_selections_browser"
+---
+# {{page.title}}

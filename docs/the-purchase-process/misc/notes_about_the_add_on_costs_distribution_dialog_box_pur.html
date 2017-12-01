@@ -1,0 +1,36 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="notes-about-the-add-on-costs-distribution-dialog-box">Notes about the Add-on Costs Distribution Dialog Box</h1>
+
+<p>The Add-on Cost Distribution dialog box of a backordered purchase order  displays in View mode and you cannot edit the fields.</p>
+
+<p>The Add-on Costs Distribution dialog box for a purchase invoice changes  depending on whether the document FOB Type is set to Origin or Destination:</p>
+
+<ul>
+  <li><strong>FOB 
+ Origin</strong> – If you received quantity on the purchase invoice, the  Received on Invoice section displays and the Invoiced section disappears.  All values pertain to the Received on Invoice quantity. If you did not  receive any quantity on the invoice, you cannot allocate add-on costs  and so you cannot open the Add-on Cost Distribution dialog box. In addition,  the Add-on Cost, Add-on Amount columns do not display in the document’s  item details grid.</li>
+  <li><strong>FOB 
+ Destination</strong> – If you received quantity on the purchase invoice,  both the Received on Invoice and Invoiced sections display. Otherwise,  only the Invoiced section displays.</li>
+</ul>
+
+<p>When you save a purchase document, the system checks the cost and the  quantity used to distribute add-on costs against the cost and quantity  shown in the document. If a difference exists, for example if you changed  the cost or quantity of a line item after you distributed the add-on costs,  the system alerts you to the discrepancy and asks if you want to redistribute  the add-on costs. You have the following options:</p>
+
+<ul>
+  <li><strong>Yes</strong>,  to open the Add-on Costs Distribution dialog box.</li>
+  <li><strong>No</strong>,  to save the document without adjusting the add-on costs (which leaves  incorrect data).</li>
+  <li><strong>Cancel</strong>,  to return to the document without saving it.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/doc-profile/doc-options/utils/addon-costs-distr/the_freight_distribution_dialog_box.html">The  Add-on Costs Distribution Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

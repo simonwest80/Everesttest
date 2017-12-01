@@ -1,0 +1,38 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="stock-area-to-which-committed-quantities-are-assigned">Stock Area to Which Committed Quantities are Assigned</h1>
+
+<p>The committed items on a <strong>purchase order</strong> are assigned to an ‘Out’ type of stock area. This stock will not  be available for sale or use until you receive them on a purchase receipt.</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/stock-areas/stock_areas_setup.html">Stock  Areas</a></p>
+
+<p>The stock area to which committed quantities are assigned is determined  by the following rules:</p>
+
+<ul>
+  <li>If you specify  a default stock area for purchase orders in the <strong>Purchase</strong><strong>Order</strong> field of the <strong>Work</strong>s<strong>tation Settings</strong> dialog box (path: <strong>File &gt; Setup &gt; Preferences &gt; Workstation 
+ Settings</strong> &gt; <strong>Stock</strong> <strong>Areas</strong> &gt; <strong>For</strong><strong>Purchase</strong> tab <strong>&gt; Assign inventory to/from</strong> section <strong>&gt; Purchase Order</strong> field), the quantities are assigned to this  stock area.</li>
+  <li>If you do not  define a default stock area in <strong>Workstation</strong><strong>Settings</strong>, the items are assigned  to the stock area defined in the <strong>Purchase</strong><strong>Order</strong> field (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location</strong>/ <strong>Sub-Location</strong> &gt; <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In</strong><strong>New</strong> <strong>Window</strong>  &gt; <strong>Stock</strong> <strong>Transfer</strong>  &gt; <strong>Purchase</strong> <strong>Document</strong>  tab &gt; <strong>Select stock areas</strong> <strong>to transfer inventoried items into when assigning</strong> section) for the login location/sub-location.</li>
+  <li>If the stock  area is not defined in the login location, the items are assigned to the  stock area for purchase orders defined for the default location. The default  location is specified in the <strong>Accounting</strong> dialog box (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Default Location</strong> field).</li>
+</ul>
+
+<ul class="note">
+  <li>The stock area  to which additional committed quantities, are assigned on a purchase order  is the same for a document, irrespective of the workstation settings or  flow control settings while committing the quantities.</li>
+  <li>The <strong>Stock 
+ Area</strong> field displays in the status bar when you need to select a  stock area. Select a stock area and press the <strong>Enter</strong>  key or <strong>ESC</strong> key to exit this field  and continue.</li>
+</ul>
+
+<p class="example">You commit 10 quantity of Item 1 on purchase  order #10012, and the stock area determined is “Vendor Shipments  Expected”. You save the order and then change workstation settings  for purchase orders to “Inspection of Vendor Shipments”. If  you reopen order #10012 and commit 5 quantity of Item 2, the stock area  assigned continues to be “Vendor Shipments Expected”. However,  if you commit quantities on a purchase order on which no items are committed,  the stock area “Inspection of Vendor Shipments” is used.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/stock_transfer_information_purchase_document.html">Stock  Transfers</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,52 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="exchange-rate">Exchange Rate</h1>
+
+<p>The <strong>Exchange</strong> <strong>Rate</strong>  field displays the exchange rate for a foreign currency against your base  currency when a foreign currency sales return document, is created.</p>
+
+<p><strong>Everest</strong> determines whether the  Buy Rate/Sell Rate should be used depending on the setting in the <strong>Rate for Sales Documents</strong> field (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Defaults &gt; Accounting &gt; Multicurrency &gt; Exchange Rates</strong>).</p>
+
+<p>If the exchange rate for the document is different from the current  rate, you can change the rate. (Exchange rates can be entered with up  to six decimals).</p>
+
+<ol>
+  <li>When you convert a quote to an order or an order  to an invoice, the exchange rate displayed is the rate as per the quote/order.  If the rate has changed on invoice date, you must apply the change.
+    <ul>
+      <li>You must ensure that the exchange rate for return  document is the same as specified in the sales document. This is to ensure  that the inventory control account or expense account are credited correctly  in the base currency.</li>
+    </ul>
+  </li>
+</ol>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> Your  base currency is US Dollars, the customer’s currency is Great Britain  Pounds. You sell 100 units of an item for GBP  10. The exchange rate on the Sales Invoice is 1 GBP  = 1.42 USD.  The Inventory Control Account will be credited with USD  142. If the customer returns 50 units and you create a credit memo with  the rate 1.50, then Inventory Control Account will be debited with USD  75 when it should be debited with USD  71. Hence you must ensure that rate is the same as the rate in the sales  invoice.</p>
+
+<p>If there is a time lag between the creation of an intermediate document  and the final document, the exchange rate could fluctuate. <strong>Everest</strong>  allows you to take care of such situations by setting a preference in  the <strong>Exchange rate used when converting 
+ quotes and orders</strong> field in the <strong>Documents</strong>  dialog box (path: <strong>File &gt; Setup 
+ &gt; Preferences &gt; Flow Control &gt; Documents &gt; Miscellaneous &gt; 
+ Others &gt; Others 2</strong> tab).</p>
+
+<p>The following options are available in this field:</p>
+
+<ul>
+  <li><strong>Prompt 
+ user with the exchange rate available as on date logged in</strong> -If  you select this option, <strong>Everest</strong> prompts  you with the latest exchange rate available on the login date (for the  document currency). Click <strong>Yes</strong>  to replace the exchange rate on the document with the latest exchange  rate. Click <strong>No</strong> to retain the existing  exchange rate on the document.</li>
+  <li><strong>Use 
+ the exchange rate on the document being converted</strong> - If you select  this option, the <strong>Exchange Rate</strong> field  defaults to the exchange rate available on the document being processed.</li>
+  <li><strong>Use 
+ the exchange rate available as on date logged in</strong> - If you select  this field, the <strong>Exchange Rate</strong>  field defaults to the latest exchange rate available on the login date.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/multicurrency/exchange-rates/set-up-exchange-rates/exchange_rates_profile.html">Exchange  Rates</a></dd>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/misc/currency_details.html">Currency</a></dd>
+  <dd><a href="/versata-everest-docs/sales/misc/determining_inventory_control_account_for_sales_documents.html">Determining  Inventory Control Account for Sales Documents</a></dd>
+</dl>
+
+
+
+
+</div>

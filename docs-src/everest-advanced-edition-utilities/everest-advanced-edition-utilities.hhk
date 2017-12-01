@@ -1,0 +1,249 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Companies">
+    <param name="Name" value="Select companies">
+    <param name="Local" value="database-migration-utility\wizard\select_companies_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Select Companie">
+    <param name="Name" value="Destination Database Information">
+    <param name="Local" value="database-migration-utility\wizard\destination_database_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Database file">
+    <param name="Name" value="Destination Database Information">
+    <param name="Local" value="database-migration-utility\wizard\destination_database_information_dmw_eu.html">
+    <param name="Name" value="Select companies">
+    <param name="Local" value="database-migration-utility\wizard\select_companies_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Server Name">
+    <param name="Name" value="Destination Database Information">
+    <param name="Local" value="database-migration-utility\wizard\destination_database_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Source Database">
+    <param name="Name" value="Source File Information">
+    <param name="Local" value="database-migration-utility\wizard\source_file_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Log File">
+    <param name="Name" value="Source File Information">
+    <param name="Local" value="database-migration-utility\wizard\source_file_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest Database Log File">
+    <param name="Name" value="Source File Information">
+    <param name="Local" value="database-migration-utility\wizard\source_file_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest Database File">
+    <param name="Name" value="Source File Information">
+    <param name="Local" value="database-migration-utility\wizard\source_file_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Source File">
+    <param name="Name" value="Source File Information">
+    <param name="Local" value="database-migration-utility\wizard\source_file_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Database Server Name">
+    <param name="Name" value="Source Database Information">
+    <param name="Local" value="database-migration-utility\wizard\source_database_information_dmw_eu.html">
+    <param name="Name" value="Destination Database Information">
+    <param name="Local" value="database-migration-utility\wizard\destination_database_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="database">
+    <param name="Name" value="Source Database Information">
+    <param name="Local" value="database-migration-utility\wizard\source_database_information_dmw_eu.html">
+    <param name="Name" value="Source File Information">
+    <param name="Local" value="database-migration-utility\wizard\source_file_information_dmw_eu.html">
+    <param name="Name" value="Destination Database Information">
+    <param name="Local" value="database-migration-utility\wizard\destination_database_information_dmw_eu.html">
+    <param name="Name" value="Select companies">
+    <param name="Local" value="database-migration-utility\wizard\select_companies_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Database Server">
+    <param name="Name" value="Source Type Selection">
+    <param name="Local" value="database-migration-utility\wizard\source_type_selection_dmw_eu.html">
+    <param name="Name" value="Source Database Information">
+    <param name="Local" value="database-migration-utility\wizard\source_database_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Selection">
+    <param name="Name" value="Source Type Selection">
+    <param name="Local" value="database-migration-utility\wizard\source_type_selection_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Source">
+    <param name="Name" value="Source Type Selection">
+    <param name="Local" value="database-migration-utility\wizard\source_type_selection_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Destination Database Information">
+    <param name="Name" value="Database Migration Wizard">
+    <param name="Local" value="database-migration-utility\wizard\database_migration_wizard_eu.html">
+    <param name="Name" value="Destination Database Information">
+    <param name="Local" value="database-migration-utility\wizard\destination_database_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Source Database Information">
+    <param name="Name" value="Database Migration Wizard">
+    <param name="Local" value="database-migration-utility\wizard\database_migration_wizard_eu.html">
+    <param name="Name" value="Source Database Information">
+    <param name="Local" value="database-migration-utility\wizard\source_database_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Source Type Selection">
+    <param name="Name" value="Database Migration Wizard">
+    <param name="Local" value="database-migration-utility\wizard\database_migration_wizard_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Wizard">
+    <param name="Name" value="Database Migration Wizard">
+    <param name="Local" value="database-migration-utility\wizard\database_migration_wizard_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="migration process">
+    <param name="Name" value="Database Migration Utility">
+    <param name="Local" value="database-migration-utility\database_migration_utility_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Utility">
+    <param name="Name" value="Database Migration Utility">
+    <param name="Local" value="database-migration-utility\database_migration_utility_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Database Migration">
+    <param name="Name" value="Database Migration Utility">
+    <param name="Local" value="database-migration-utility\database_migration_utility_eu.html">
+    <param name="Name" value="Select companies">
+    <param name="Local" value="database-migration-utility\wizard\select_companies_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Change Login Password">
+    <param name="Name" value="Migration Scenarios">
+    <param name="Local" value="database-migration-utility\migration_scenarios.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="sa password">
+    <param name="Name" value="Migration Scenarios">
+    <param name="Local" value="database-migration-utility\migration_scenarios.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Migration utility">
+    <param name="Name" value="Migration Scenarios">
+    <param name="Local" value="database-migration-utility\migration_scenarios.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest Database Migration utility">
+    <param name="Name" value="Migration Scenarios">
+    <param name="Local" value="database-migration-utility\migration_scenarios.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="SQL Server 2005 Express Edition">
+    <param name="Name" value="Migration Scenarios">
+    <param name="Local" value="database-migration-utility\migration_scenarios.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="upgrade path">
+    <param name="Name" value="Migration Scenarios">
+    <param name="Local" value="database-migration-utility\migration_scenarios.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="MSDE 2000">
+    <param name="Name" value="Migration Scenarios">
+    <param name="Local" value="database-migration-utility\migration_scenarios.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Everest Database Server">
+    <param name="Name" value="Migration Scenarios">
+    <param name="Local" value="database-migration-utility\migration_scenarios.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="SQL Server">
+    <param name="Name" value="Migration Scenarios">
+    <param name="Local" value="database-migration-utility\migration_scenarios.html">
+    <param name="Name" value="Database Migration Utility">
+    <param name="Local" value="database-migration-utility\database_migration_utility_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="upgrading">
+    <param name="Name" value="Migration Scenarios">
+    <param name="Local" value="database-migration-utility\migration_scenarios.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Migration">
+    <param name="Name" value="Migration Scenarios">
+    <param name="Local" value="database-migration-utility\migration_scenarios.html">
+    <param name="Name" value="Database Migration Wizard">
+    <param name="Local" value="database-migration-utility\wizard\database_migration_wizard_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="change login password utility">
+    <param name="Name" value="Change Login Password Utility">
+    <param name="Local" value="change-login-password-utility\change_login_password_utility.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="database update utility">
+    <param name="Name" value="Database Update Utility">
+    <param name="Local" value="database-update-utility\dbupdate_database_update_utility.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="connecting to database server">
+      <param name="Name" value="Database Server Details">
+      <param name="Local" value="database-update-utility\wizard\dbupdate_database_server_details.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="database backup">
+      <param name="Name" value="Database Backup">
+      <param name="Local" value="database-update-utility\wizard\dbupdate_database_backup.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="database update">
+      <param name="Name" value="Database Update">
+      <param name="Local" value="database-update-utility\wizard\dbupdate_database_update.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="database update wizard">
+      <param name="Name" value="Database Update Wizard">
+      <param name="Local" value="database-update-utility\wizard\dbupdate_database_update_wizard.html">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="update completed">
+      <param name="Name" value="Update Completed">
+      <param name="Local" value="database-update-utility\wizard\dbupdate_update_completed.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="database utility update">
+    <param name="Name" value="Comparing Company Database with Everest Defaults">
+    <param name="Local" value="database-update-utility\wizard\dbu_update_comparing_company_database_with_everest_defaults.html">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="comparing company database with Everest defaults">
+      <param name="Name" value="Comparing Company Database with Everest Defaults">
+      <param name="Local" value="database-update-utility\wizard\dbu_update_comparing_company_database_with_everest_defaults.html">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Source File Information">
+    <param name="Name" value="Source File Information">
+    <param name="Local" value="database-migration-utility\wizard\source_file_information_dmw_eu.html">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Select Companies">
+    <param name="Name" value="Select companies">
+    <param name="Local" value="database-migration-utility\wizard\select_companies_dmw_eu.html">
+  </object>
+</ul>
+</html>

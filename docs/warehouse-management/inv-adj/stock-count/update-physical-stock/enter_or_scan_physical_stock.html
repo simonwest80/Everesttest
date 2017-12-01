@@ -1,0 +1,74 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="enter-or-scan-physical-stock">Enter or Scan Physical Stock</h1>
+
+<p>The procedure for bringing the physical stock into the document varies  for different types of inventory.</p>
+
+<dl>
+  <dt><strong>Inventoried Items</strong></dt>
+  <dd>You can directly enter the physical quantity for  inventoried items including those that are tracked for lots.</dd>
+  <dt><strong>Serialized Items</strong></dt>
+  <dd>As long as the physical quantity for serialized  items is equal to the system quantity, you can manually enter the physical  stock. If the quantity entered is less or more than the system quantity,  you are prompted to scan or enter serial numbers of such items. This helps  determine the discrepancy.</dd>
+  <dd>To scan or enter the serial numbers of such items,  invoke the <strong>Retrieve 
+ Serial Numbers</strong> dialog box by selecting the <strong>Retrieve 
+ Serial Numbers</strong> option (path: <strong>Stock 
+ Count</strong> profile &gt; <strong>Options</strong>  &gt; <strong>Retrieve Serial Numbers</strong>).</dd>
+  <dt><em>**</em>Auto-serialized </dt>
+  <dt> Items<em>**</em></dt>
+  <dd>Enter or scan the physical quantity for auto-serialized  items. Serial numbers are allocated to them on a first-in-first-out basis.</dd>
+  <dd>If the physical quantity is less than the number  of items with manufacturer’s serial numbers, you are prompted to provide  the serial numbers of the items counted physically. This aids in determining  the discrepancy and making appropriate adjustments.</dd>
+  <dd>If the physical quantity is equal to or more than  the number of items with manufacturer’s serial numbers, all records are  first allocated manufacturer’s serial numbers. When the manufacturer’s  serial numbers are exhausted, the other serial numbers are allocated on  a first-in-first-out basis.</dd>
+  <dd>If the physical quantity is more than the number  of items with or without manufacturer’s serial numbers, serial numbers  at average cost are generated for all the records. This accounts for the  shortage in quantity.</dd>
+</dl>
+
+<p class="example">Item Widget, which is auto-serialized, has  five units in Bin A. The table below displays the serial numbers defined  for the item.</p>
+
+<dl>
+  <dt>| Internal Serial Number | Manufacturer’s Serial Number |</dt>
+  <dt>| 1000 |  |</dt>
+  <dt>| 1001 | AAA |</dt>
+  <dt>| 1002 |  |</dt>
+  <dt>| 1003 | BBB |</dt>
+  <dt>| 1004 |  |</dt>
+  <dd>The serial numbers allocated depends on the physical  quantity.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Physical Quantity</td>
+      <td>Serial Numbers Attached</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>AAA; BBB</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>AAA; BBB; 1000</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>AAA; BBB; 1000; 1001</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>1000; 1001; 1002; 1003; 1004</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>1000; 1001; 1002; 1003; 1004; one serial number is generated at average  cost</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="see_also">See also: <a href="/versata-everest-docs/warehouse-management/inv-adj/stock-count/update-physical-stock/update_physical_stock.html">Update Physical  Stock</a></p>
+
+
+
+
+</div>

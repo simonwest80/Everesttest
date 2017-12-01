@@ -1,0 +1,70 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="process-for-checking-available-deposit-for-an-order-with-prepaid-terms">Process for Checking Available Deposit for an Order with Prepaid Terms</h1>
+
+<p>The process for checking the available deposit on a sales order with  prepay terms is elucidated below for different scenarios:</p>
+
+<p>Scenario 1</p>
+
+<ul>
+  <li>The option <strong>Method for applying deposits collected on a 
+ sales order when converting it to a sales invoice</strong> is set to <strong>Automatic</strong> in the flow control preferences  (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Flow Control &gt; Documents &gt; Prompts &gt; Sale Document 1</strong>).</li>
+  <li>The amount of deposit  available on the sales order is less than the invoice amount.</li>
+</ul>
+
+<p>When you convert this sales order to an invoice, you are apprised of  the existing <strong>Prepay</strong> type of payment  terms. <strong>Everest</strong> further warns you  that since a partial payment has been made on the sales order, you can  only ship items to the extent of the available deposit.</p>
+
+<p>If you choose to continue and proceed to save the sales invoice, you  are asked if you would like to override the payment terms and create the  invoice with a balance.</p>
+
+<p>Scenario 2</p>
+
+<ul>
+  <li>The option <strong>Method for applying deposits collected on a 
+ sales order when converting it to a sales invoice</strong> is set to <strong>Prompt</strong> in the flow control preferences  (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Flow Control &gt; Documents &gt; Prompts &gt; Sale Document 1</strong>).</li>
+  <li>The amount of deposit  available on the sales order is less than the invoice amount.</li>
+</ul>
+
+<p>When you convert this sales order to an invoice, you are apprised of  the existing <strong>Prepay</strong> type of payment  terms. <strong>Everest</strong> further warns you  that since a partial payment has been made on the sales order, you can  only ship items to the extent of the available deposit.</p>
+
+<p>If you choose to continue and proceed to save the sales invoice, you  are asked if you would like to override the payment terms and create the  invoice with a balance.</p>
+
+<p>Scenario 3</p>
+
+<ul>
+  <li>The option <strong>Method for applying deposits collected on a 
+ sales order when converting it to a sales invoice</strong> is set to <strong>Prompt</strong> in the flow control preferences  (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Flow Control &gt; Documents &gt; Prompts &gt; Sale Document 1</strong>).</li>
+  <li>The amount of deposit  available on the sales order is equal to or more than the invoice amount,  and you decide not to apply the available deposit to the invoice.</li>
+</ul>
+
+<p>When you convert the sales order to an invoice and attempt to save it,  you are asked if you would like to override the payment terms and create  the invoice with a balance.</p>
+
+<p>Scenario 4</p>
+
+<ul>
+  <li>The option <strong>Method for applying deposits collected on a 
+ sales order when converting it to a sales invoice</strong> is set to <strong>Hold</strong> in the flow control preferences  (path: <strong>File &gt; Setup &gt; Preferences 
+ &gt; Flow Control &gt; Documents &gt; Prompts &gt; Sale Document 1</strong>).</li>
+</ul>
+
+<p>When you convert the sales order to an invoice and attempt to save it,  you are asked if you would like to override the payment terms and create  the invoice with a balance.</p>
+
+<p>Scenario 5</p>
+
+<p>When you attempt to convert the sales order that does not have an available  deposit to an invoice, you are asked if you would like to override the  payment terms and create the invoice with a balance.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/tab-details/details/pmnt/payment_terms_payment_information_sales_document_contents.html">Payment  Terms</a></dd>
+</dl>
+
+
+
+
+</div>

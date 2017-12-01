@@ -1,0 +1,43 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="freight-calculations">Freight Calculations</h1>
+
+<p>Freight rates are defined for each delivery method (Ship-via agent),  such as UPS Ground and FedEx. For each Ship-via agent, you can define  rates based on the following rate types in the <strong>Rates</strong>  profile (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Freight 
+ &gt; Rates</strong>): <em>**</em></p>
+
+<ul>
+  <li><strong>Category/Item 
+ (Product)</strong> - This is a “product” type method which allows you to  calculate freight based on each product. Rates can be assigned based on  category or item.</li>
+  <li><strong>Document 
+ Weight</strong> - Freight carriers such as UPS and FedEx most commonly use  this method. For a given weight range, a specific charge will be applied.</li>
+  <li><strong>Total 
+ Document Value</strong> - This is a type of “Flat Rate” shipping. This method  allows you to charge for shipping based on the value of the customer’s  order</li>
+</ul>
+
+<p><strong>What if multiple types of freight rates are applicable  to items on my sales order?</strong></p>
+
+<p>When multiple rate definitions are present, the system determines  the appropriate definition to use by calculating the freight separately  for each rate type. The system will then display the highest freight rate  for the sales document.</p>
+
+<p><strong>Pack Separately</strong></p>
+
+<p>Large items are often packaged in a separate box. If any  line items are marked “Pack Separately” on the <strong>Item</strong>  profile - <strong>Sales</strong> tab, the item  requires a separate box and the system calculates freight separately for  that item. Each unit of a “Pack separately” item is calculated as if it  is a completely separate order.  After  the highest rate is derived for each package, they are added together  to derive the shipping charge.</p>
+
+<p>For example, a customer purchases a Monitor, a keyboard,  and a mouse on a sales order. The Monitor is marked “Pack Separately”  and the keyboard and mouse are not. The monitor is in one box and the  freight is calculated separately. The keyboard and mouse are in another  box, and the freight is calculated using only these two items.</p>
+
+<dl>
+  <dt>You can view an estimation of the freight charges by using  the <strong>Everest Freight Estimator</strong>  utility (path: From the Sales document, select <strong>Options</strong>  &gt; <strong>Utility</strong> &gt; **Freight </dt>
+  <dt> Estimator**).</dt>
+  <dd><img src="/versata-everest-docs/managing-items/img/lens.gif" alt="" /><a href="/versata-everest-docs/setting-up-a-company/options/everest-freight-estimator/rates/freight_rate_ee.html">Rates</a></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item/the_item_profile_-_sales_tab.html">The Item  Profile - Sales</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/create-regular-items-kits-and-assemblies/creating-an-item/item_freight_dialog_box_mi.html">Item Freight  Dialog Box</a></dd>
+</dl>
+
+
+
+
+</div>

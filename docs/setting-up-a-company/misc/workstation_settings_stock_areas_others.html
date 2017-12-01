@@ -1,0 +1,72 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="workstation-settings---general---others">Workstation Settings - General - Others</h1>
+
+<p>Use the <strong>Others</strong> tab to specify  other document settings like default payment method details for change  due and for applied payments.</p>
+
+<dl>
+  <dt><strong>Default Payment Method for Change Due</strong></dt>
+  <dd>Specify the default payment method to be used for  change due to customers.</dd>
+  <dd>When you receive an excess amount of money from  a customer on account of a Point of Sale transaction, you will have to  refund the change due to the customer. This option allows you to specify  the default payment method to be used for change due to the customer.</dd>
+  <dt>You can set ‘Cash’ as the default payment method for change due to customers.</dt>
+  <dd>You can also specify the default payment method  to be used for change due to customers in the <strong>Accounting</strong>  dialog box (path: <strong>File &gt; Setup &gt; 
+ Preferences &gt; Defaults &gt; Accounting &gt; Miscellaneous</strong> tab)  and the Cash Register profile (path: <strong>File 
+ &gt; Setup &gt; Miscellaneous &gt; Cash Register &gt; Cash Register</strong>  profile <strong>&gt; Payment Type &gt; Miscellaneous</strong>  tab).</dd>
+  <dd>The precedence for using the default payment method  for change due by <strong>Everest</strong> is:</dd>
+  <dd>
+    <ol>
+      <li>Cash register</li>
+    </ol>
+  </dd>
+  <dd>
+    <ol>
+      <li>Workstation settings</li>
+    </ol>
+  </dd>
+  <dd>
+    <ol>
+      <li>The preference setting in accounting defaults</li>
+    </ol>
+  </dd>
+  <dt><strong>Default Payment Method for Applied Payments</strong></dt>
+  <dd>Specify the payment method to be used when amounts  are applied, using the document payment/refund options from the document  profiles. It is not used in journals.</dd>
+</dl>
+
+<p class="note">The payment methods that you specify in the  <strong>Workstation Settings</strong> dialog box  are applicable only to the specific workstation and override the default  payment method settings for change due and applied payments, specified  in the <strong>Accounting</strong> dialog box (path:  <strong>File &gt; Setup &gt; Preferences &gt; 
+ Defaults &gt; Accounting &gt; Miscellaneous</strong> tab).</p>
+
+<p>Contact Manager</p>
+
+<dl>
+  <dt><strong>Automatically check for new reminders every</strong></dt>
+  <dd>Select this check box if you want <strong>Everest</strong>  to automatically check for reminders and specify the frequency for checking  reminders. You can specify a maximum value of 999 seconds. This is applicable  at the workstation level and the frequency in seconds can either be set  equal to or greater than the value set up in the <strong>Flow 
+ Control Preferences</strong>. The value for the reminder notification in  the <strong>Workstation settings</strong> automatically  defaults to the value set in the flow control preferences for checking  for reminders.</dd>
+</dl>
+
+<p class="note">If you specify the frequency for checking  reminders in both <strong>Flow Control Preferences</strong>  and <strong>Workstation Settings</strong>, then  the value set in <strong>Workstation Settings</strong>  will take precedence. Further, if the reminder notification options are  left unchecked in both the <strong>Flow Control 
+ Preferences</strong> and <strong>Workstation Settings</strong>,  then reminders will <strong>NOT</strong> be created  in <strong>Everest</strong>.</p>
+
+<dl>
+  <dt><strong>Default Cash Register for Sales Invoice</strong></dt>
+  <dd>Select a cash register from this drop-down list  for defining the cash register for sales invoices.</dd>
+  <dt><strong>Enable incremental search when retrieving items  using smart search in Point of Sale</strong></dt>
+  <dd>Select this check box to enable the display of matching  codes for an item as you start typing the characters in the Search for  field when adding an item using the Smart Search option. This check box  is applicable only to Point of Sale workstations.</dd>
+</dl>
+
+<p class="example">If you enter 1, the search will display codes starting with 1; if you  enter 0 after this, it will list all matching codes starting with 10,  and so on.</p>
+
+<p class="hint">To improve scanning performance, it is recommended  that you uncheck this option at point of sale workstations to disable  the incremental search.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/workstation-settings/workstation_settings_general_introduction.html">Workstation  Settings - General</a></dd>
+</dl>
+
+
+
+
+</div>

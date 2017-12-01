@@ -1,0 +1,91 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="purging-a-reversal-transaction">Purging a Reversal Transaction</h1>
+
+<p>A transaction can be purged only if it is an unposted transaction. A  Reversal transaction can be purged regardless of whether the Reversed  transaction is posted or unposted.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/accounting/img/example.gif" alt="" /></td>
+      <td>The first example shows an unposted Reversal  transaction that is purged.<br /><br /><br /></td>
+      <td>Date</td>
+      <td>Transaction Description</td>
+      <td>Transaction Status</td>
+      <td>Posted/<br /><br /><br />Unposted</td>
+      <td>Comment</td>
+      <td><br /></td>
+      <td>1/1/2005</td>
+      <td>Original Transaction</td>
+      <td>Normal</td>
+      <td>Unposted</td>
+      <td>The Payment Status is <strong>Outstanding</strong>.</td>
+      <td><br /></td>
+      <td>1/10/2005</td>
+      <td>Reversed the original transaction on 1/10/2005</td>
+      <td>Reversed</td>
+      <td>Unposted</td>
+      <td>- The Transaction  Status changes from <strong>Normal</strong> to  <strong>Reversed</strong>. The Payment Status will  appear blank.<br />- Cannot be Edited<br />- Can be Posted</td>
+      <td><br /></td>
+      <td>1/10/2005</td>
+      <td>Reversal Transaction</td>
+      <td>Reversal</td>
+      <td>Unposted</td>
+      <td>- Cannot be Edited<br />- Can Be Posted</td>
+      <td><br /></td>
+      <td>1/10/2005</td>
+      <td>Original Transaction Reversed on 1/10/2005</td>
+      <td>Reversed</td>
+      <td>Unposted</td>
+      <td>The Transaction Status changes from <strong>Reversed</strong>  to <strong>Normal</strong> and the Payment Status  changes to <strong>Outstanding</strong>.</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/versata-everest-docs/accounting/img/example.gif" alt="" /></td>
+      <td>This example shows a Posted Reversal Transaction  that cannot be purged.<br /><br /><br /></td>
+      <td>Date</td>
+      <td>Transaction Description</td>
+      <td>Transaction Status</td>
+      <td>Posted/<br /><br /><br />Unposted</td>
+      <td>Comment</td>
+      <td><br /></td>
+      <td>1/1/2005</td>
+      <td>Original Transaction</td>
+      <td>Normal</td>
+      <td>Posted</td>
+      <td>The Payment Status is <strong>Outstanding</strong>.</td>
+      <td><br /></td>
+      <td>1/10/2005</td>
+      <td>Original Transaction reversed on 1/10/2005</td>
+      <td>Reversed</td>
+      <td>Posted</td>
+      <td>- The Transaction  Status changes from <strong>Normal</strong> to  <strong>Reversed</strong>. The Payment Status changes  to <strong>None</strong>.<br />- Cannot be Edited</td>
+      <td><br /></td>
+      <td>1/10/2005</td>
+      <td>Reversal Transaction</td>
+      <td>Reversal</td>
+      <td>Posted</td>
+      <td>- Cannot be Edited<br />- Cannot be purged  because it is posted.</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/accounting/misc/reverse_dialog_box_payment_history_screen.html">Reverse</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,322 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" x-save-method="compute-relative" src="/versata-everest-docs/warehouse-management/misc/ehlpdhtm.js"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<p><strong>**Import file 
+ with mapped manufacturer’s serial numbers</strong>**</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Item Code</td>
+      <td>Manufacturer’s Serial # Scanned</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>101</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>102</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>103</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Stock Count document with system and manufacturer’s  serial numbers</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Item Code</strong></td>
+      <td><strong>Bin</strong></td>
+      <td><strong>System Stock</strong></td>
+      <td><strong>System Serial #</strong></td>
+      <td><strong>Manufacturer Serial #</strong></td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>1</td>
+      <td>6</td>
+      <td>221</td>
+      <td>101</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>222</td>
+      <td>102</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>223</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>224</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>225</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>226</td>
+      <td>103</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Notice that the quantity of Manufacturer’s  Serial Number 103 is three in the import file whereas it is four in the  system stock. The serial numbers 223, 224, and 225 are picked up on a  first-in-first-out basis to update the physical stock.</strong></p>
+
+<p><strong>**Import 
+ File</strong>**</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Item Code</td>
+      <td>Manufacturer’s Serial # Scanned</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>101</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>102</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>103</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Stock Count Document</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Item Code</strong></td>
+      <td><strong>Bin</strong></td>
+      <td><strong>System Stock</strong></td>
+      <td><strong>System Serial #</strong></td>
+      <td><strong>Manufacturer Serial #</strong></td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>1</td>
+      <td>6</td>
+      <td>221</td>
+      <td>101</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>222</td>
+      <td>102</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>223</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>224</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>225</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>226</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>2</td>
+      <td>2</td>
+      <td>227</td>
+      <td>103</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Notice that, in this case, the quantity  of the Manufacturer’s Serial Number 103 in the import file is five but  only four in bin 1 of the **Stock Count</strong>  profile. For the additional manufacturer’s serial number in the import  file, <strong>Everest</strong> searches the other  bins in the location and finds the matching item code and manufacturer’s  serial number in bin 2. It picks up serial number 227 from bin 2 to update  the physical stock.**</p>
+
+<h1 id="serialized-items">Serialized Items</h1>
+
+<p>When you map the <strong>Physical Count</strong>  field along with the <strong>Serial Number</strong>  or <strong>Manufacturer’s Serial Number</strong>  field, the physical count is updated if the serial numbers in the <strong>Stock Count</strong> profile match those in the  import file. The physical count does not matter in this case. If, however,  you do not map the <strong>Serial Number</strong>  or the <strong>Manufacturer’s Serial Number</strong>  field, the physical stock must exactly match the system stock.</p>
+
+<p class="example"><strong>The example below illustrates this.</strong></p>
+
+<p><strong>Import File Details</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Line</strong></td>
+      <td><strong>Item Code</strong></td>
+      <td><strong>Bin</strong></td>
+      <td><strong>Physical Stock</strong></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>17 700 Monitor</td>
+      <td>1</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>17 CRT Monitor</td>
+      <td>1</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>17 700 Monitor</td>
+      <td>2</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>17 CRT Monitor</td>
+      <td>2</td>
+      <td>30</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Stock Count Details</strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Item Code</strong></td>
+      <td><strong>Bin</strong></td>
+      <td><strong>System Stock</strong></td>
+      <td><strong>Physical Stock</strong></td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>1</td>
+      <td>24</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>17 CRT Monitor</td>
+      <td>1</td>
+      <td>30</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>17 700 Monitor</td>
+      <td>2</td>
+      <td>29</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>17 CRT Monitor</td>
+      <td>2</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>17 CRT Monitor</td>
+      <td>3</td>
+      <td>29</td>
+      <td>30</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Line 1 and  line 3 are imported as such since the physical stock tallies with the  system stock.</li>
+  <li>Line 2 is not  imported as the physical stock does not tally with the system stock in  bin 1. You must manually scan the serial numbers to reflect the variance.</li>
+  <li>Line 4 is inserted  as an additional record if bin 3 lies within the item retrieval limits  specified in the <strong>Stock Count</strong> profile.</li>
+</ul>
+
+<p><strong>On mapping only the manufacturer’s serial  number, the physical stock is updated if the manufacturer’s serial numbers  in the **Stock Count</strong> profile match  the manufacturer’s serial numbers in the import file. Duplicate manufacturer’s  serial numbers are updated after matching the item code and the manufacturer’s  serial numbers with the next serial number available in the bin. If a  serial number that matches the item code and manufacturer’s serial number  is not available in the bin, other bins in the same location are searched.**</p>
+
+<p class="example"><strong>This is illustrated by the examples below.</strong></p>
+
+<ul>
+  <li><a href="javascript:kadovTextPopup(this)" id="a1">Scenario  1</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a1');
+//--></script></li>
+  <li><a href="javascript:kadovTextPopup(this)" id="a2">Scenario  2</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a2');
+//--></script></li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/inv-adj/stock-count/update-physical-stock/import_physical_stock.html">Import Physical  Stock</a></dd>
+</dl>
+
+
+
+
+</div>

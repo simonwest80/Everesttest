@@ -1,0 +1,10 @@
+inventory-adjustments,inv-adj
+serial-number-tracking,serial-num-trk
+stock-transfers,stk-trans
+transfer-a-stock-of-matrix-items,trans-stk-matrix-items
+matrix-items-stock-transfer-details,details
+quantity-adjustments,qty-adj
+create-a-quantity-adjustment-document,create-a-qty-adj-doc
+find-serial-number,find
+finding-serialized-and-auto-serialized-items,serialized-and-auto-serialized-items
+the-serial-numbers-browser,browser

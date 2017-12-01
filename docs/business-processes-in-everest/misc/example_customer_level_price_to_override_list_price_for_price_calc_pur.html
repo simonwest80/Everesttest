@@ -1,0 +1,146 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="example---customer-level-price-to-override-list-price-for-price-calculation">Example - Customer level price to override list price for price calculation</h1>
+
+<p class="example">The following prices are defined for an item:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Price Type</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>List Price</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>Customer Level Price</td>
+      <td>$110</td>
+    </tr>
+    <tr>
+      <td>Quantity Pricing</td>
+      <td>$115</td>
+    </tr>
+    <tr>
+      <td>Promotional Pricing</td>
+      <td>$105</td>
+    </tr>
+    <tr>
+      <td>Special Pricing</td>
+      <td>$120</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Option Unchecked</strong></dt>
+  <dd>If this option is unchecked, then the Sales Price  is $100. This is lowest price of all the price types.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Price Type</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>List Price</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>Customer Level Price</td>
+      <td>$110</td>
+    </tr>
+    <tr>
+      <td>Quantity Pricing</td>
+      <td>$115</td>
+    </tr>
+    <tr>
+      <td>Promotional Pricing</td>
+      <td>$105</td>
+    </tr>
+    <tr>
+      <td>Special Pricing</td>
+      <td>$120</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Option Selected – Customer Level Price is Available</strong></dt>
+  <dd>If this option is selected and a Customer Level  price is available, then the Sales Price is $105. In this case, the Promotional  price is the lowest price since the list price is excluded. Only the Customer  Level price, Quantity pricing, Promotional pricing, and Special pricing  are considered when determining sales price.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Price Type</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Customer Level Price</td>
+      <td>$110</td>
+    </tr>
+    <tr>
+      <td>Quantity Pricing</td>
+      <td>$115</td>
+    </tr>
+    <tr>
+      <td>Promotional Pricing</td>
+      <td>$105</td>
+    </tr>
+    <tr>
+      <td>Special Pricing</td>
+      <td>$120</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Options Selected – Customer Level Price is Not  Available</strong></dt>
+  <dd>If this option is selected but a Customer Level  price is not available for the item, then the Sales Price is $100. In  this case, the List price is the lowest since only List price, Quantity  pricing, Promotional pricing and Special pricing are considered when determining  sales price.</dd>
+</dl>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Price Type</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>List Price</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>Customer Level Price</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>Quantity Pricing</td>
+      <td>$115</td>
+    </tr>
+    <tr>
+      <td>Promotional Pricing</td>
+      <td>$105</td>
+    </tr>
+    <tr>
+      <td>Special Pricing</td>
+      <td>$120</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/business-processes-in-everest/misc/customer_level_price_to_override_list_price_for_price_calculation.html">Customer  level price to override list price for price calculation</a></dd>
+</dl>
+
+
+
+
+</div>

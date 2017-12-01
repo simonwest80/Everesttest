@@ -1,0 +1,75 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="quantity">Quantity</h1>
+
+<p>The <strong>Quantity</strong> column displays  the quantity of the item being sold. Quantity is expressed in terms of  the sales measure. You can scan or enter the required quantity in this  column.</p>
+
+<p><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/item-profile-details/measure/measure.html">Measures</a></p>
+
+<p>In case of auto serialized and non-serialized items the default value  displayed in the <strong>Quantity</strong> column  is one, if there is adequate stock in the default stock area.</p>
+
+<p>The default stock area for auto-serialized and non-serialized items  is determined by the following rules:</p>
+
+<ul>
+  <li>If a stock  area from which items must be auto-serialized on a <strong>Point 
+ of Sale (sales invoice)</strong> profile is specified in the <strong>Point 
+ of Sale</strong> field of the <strong>Work Station 
+ Settings</strong> dialog box (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>WorkStation 
+ Settings</strong> &gt; <strong>Stock</strong> <strong>Areas</strong> &gt; <strong>Auto</strong><strong>Serialize</strong> <strong>Items</strong>  /<strong>Inventory</strong> <strong>Adjustments</strong>  tab), quantities are transferred from this stock area.</li>
+  <li>If a default  stock area is not defined in the <strong>Work</strong><strong>Station</strong> <strong>Settings</strong>,  the items are transferred from the stock area defined in the <strong>Purchase</strong><strong>Receipt/Invoice</strong> field of the <strong>Location</strong> profile (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location</strong>/ <strong>Sub-Location</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In</strong> <strong>New</strong><strong>Window</strong> &gt;<font style="color: #800000;" color="#800000"></font></li>
+</ul>
+<p>&lt;/font&gt;<strong>Stock</strong> <strong>Transfer</strong>  &gt; <strong>Purchase</strong> <strong>Document</strong>  tab) for the login location or the parent location of the login sub-location.</p>
+<ul>
+  <li>If a stock  bin is not defined in the <strong>Workstation 
+ Settings</strong> and the <strong>Location</strong>  profile, the items are transferred to the stock area defined in the Purchase  Receipt/Invoice.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/point-of-sale/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></p>
+
+<p class="note">If stock is not available for the selected item in the  default stock area, by default the quantity displayed in the <strong>Quantity</strong> column is zero.</p>
+
+<p>If serialized items are retrieved into the document, the default value  in the <strong>Quantity</strong> column is set  to zero. You have to enter these quantities manually.</p>
+
+<p>The quantity entered in this column depends on the <strong>Quantity 
+ Entry Method</strong> specified for the item in the <strong>Item</strong>  profile (path: <strong>Inventory</strong> &gt;  <strong>Items</strong> &gt; <strong>Item</strong><strong>profile</strong> &gt; <strong>Purchases</strong>  tab).</p>
+
+<p class="example">The sales measure  of an item is kilograms. This measure comprises 1000 grams.</p>
+
+<p>Therefore two and  a half kilograms at a cost of $2 a gram would be expressed as:</p>
+
+<p>Fractional Method</p>
+
+<p>The quantity is  expressed in the fractional format as 2:500 units.</p>
+
+<p>The value of the  quantity is calculated as follows:</p>
+
+<p>$2 * 2000 + $2 *  500</p>
+
+<p>Decimal Method</p>
+
+<p>The quantity 2 kilograms,  500 grams and 15 milligrams is expressed in the decimal</p>
+
+<p>format as 2500.15.</p>
+
+<p>The value of the  quantity is calculated as follows:</p>
+
+<p>$2  *(2500)* +$2 *0.015</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/other-items-information/purchase/quantity_entry_method.html">Quantity  Entry Methods</a></dd>
+  <dd><a href="/versata-everest-docs/point-of-sale/misc/item_details_iten_info_pos_docs_content.html">Item  Details</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/item-profile-details/item-types/kits/kits.html">Item Kit</a></dd>
+  <dd><a href="/versata-everest-docs/managing-items/creating-matrix-group-and-matrix-items/item_matrix.html">Item  Matrix</a></dd>
+  <dd><a href="/versata-everest-docs/point-of-sale/misc/stock_adjustments_in_point_of_sale_documents.html">Stock  Adjustments in POS Invoice</a></dd>
+  <dd><a href="/versata-everest-docs/point-of-sale/misc/add_an_item_kit_item_matrix_to_a_point_of_sale_document.html">Add  an Item Kit/Matrix to a POS Document</a></dd>
+</dl>
+
+
+
+
+</div>

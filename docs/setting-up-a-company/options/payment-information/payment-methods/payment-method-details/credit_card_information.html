@@ -1,0 +1,126 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<script type="text/javascript" language="JavaScript1.2" x-save-method="compute-relative" src="/versata-everest-docs/setting-up-a-company/misc/ehlpdhtm.js"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!-- 
+if( typeof( kadovFilePopupInit ) != 'function' ) kadovFilePopupInit = new Function();if( typeof( kadovTextPopupInit ) != 'function' ) kadovTextPopupInit = new Function();
+ //-->
+</script>
+
+<p>Use this option to verify the validity of the credit card number provided  by various card issuers.</p>
+
+<p>To verify the credit card information through the payment service supported  by <strong>Everest</strong>, select this option.  Otherwise, you must obtain the payment approval from a credit card terminal  not connected to <strong>Everest</strong>.</p>
+
+<p>If you do not select this check box for a service supported by <strong>Everest</strong>, you will have to obtain the  payment approval manually.</p>
+
+<p class="note">Checking this option enables the <strong>Processor</strong> field.</p>
+
+<p>This field is used to associate the credit card processor with the payment  method. Specify the processor to define the payment service that has to  be used to process your credit card payments. Whenever a credit card payment  is received, the payment service is automatically contacted for verification.</p>
+
+<p>If you are using credit card processing, you must set up a payment method  for each credit card type like Master Card or Visa that your payment service  supports.</p>
+
+<dl class="note">
+  <dt>The payment services supported by <strong>Everest</strong>,  namely ICVerify, PayflowPro and PCCharge, processes credit card payments  only in US dollars. To process payments in other currencies, you must  set up a different payment method. These payments must then be approved  outside <strong>Everest</strong>.</dt>
+  <dd><img src="/versata-everest-docs/setting-up-a-company/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/payment-information/credit-card-processing/setting_up_credit_card_processing.html">Setting  up credit card processing</a></dd>
+</dl>
+
+<p>This option is used to process transactions in real time when a customer  shops online.</p>
+
+<p>Address Verification Service (AVS) is one of the ways to reduce the  risk of a fraudulent transaction. You can compare the address information  in the <strong>Credit Card</strong> profile in  <strong>Everest</strong> with that held by the  shopper’s credit card company. If you select this option, AVS prompts  if there is a mismatch, based on the option that you choose.</p>
+
+<p>The following options are available:</p>
+
+<ul>
+  <li><strong>Do 
+ not verify AVS information</strong> - Select this option if you do want  the address information of the credit card to be verified.</li>
+  <li><strong>Prompt 
+ if Address or Zip does not match before processing payment</strong> - Select  this option to be prompted if the address or zip code provided does not  match with the information at the cardholder’s issuing bank.</li>
+  <li><strong>Prompt 
+ always before processing payment</strong> - Select this option to be prompted  irrespective of whether there is a match between the address or zip code  provided, and the information at the cardholder’s issuing bank.</li>
+  <li><strong>Prompt 
+ if Address does not match before processing payment</strong> - Select this  option to be prompted if the address provided does not match with the  information at the cardholder’s issuing bank.</li>
+  <li><strong>Prompt 
+ if Zip does not match</strong> - Select this option to be prompted if the  zip code provided does not match with the information at the cardholder’s  issuing bank.</li>
+</ul>
+
+<p class="note">A $1 transaction is done with the Bank/Issuer  of the credit card for the AVS/CVV2 details to be verified. If there is  a mismatch in AVS details, only a dollar is blocked for the customer rather  than the entire amount. If this happens in E-commerce, the customer gets  another chance to re-enter the details and try again. If that transaction  passes, the authorization is carried out for the entire amount.</p>
+
+<ul>
+  <li><strong>Process 
+ payment and store AVS response</strong> - This option allows you to send  the entire amount of the transaction for authorization and does not prompt  irrespective of whether or not there is a match between the address or  zip code provided and the information at the cardholder’s issuing bank.  The AVS response is merely stored in the transaction history. If you are  capturing the payment later, you can base your decision on the response  received from the processor. This eliminates the requirement for carrying  out a $1 transaction exclusively for verifying AVS and thereby helps you  reduce the cost of each transaction.</li>
+</ul>
+
+<p>Before you submit a transaction for authorization with this  preference, <strong>Everest</strong> informs you  that the transaction may be approved in spite of a mismatch and asks if  you would like to proceed.</p>
+
+<dl>
+  <dt>These are default preferences for address verification and can be changed  at the time of receiving payment on a document.</dt>
+  <dd><img src="/versata-everest-docs/setting-up-a-company/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/pmts-refunds/cc-pmts/receiving_credit_card_payments.html">Receiving  Credit Card Payments</a></dd>
+</dl>
+
+<p>Using card security codes while processing also reduces the risk of  fraudulent transactions. If you select this option, CVV2 compares the  security code you provide with the code on the credit card and prompts  if there is a mismatch.</p>
+
+<p class="note">For American Express, the code is a four-digit  number that appears on the front of the credit card above the card number.  For Visa and MasterCard,  the code is a three-digit number that appears at the end of the card number  on the back of the credit card.</p>
+
+<p>The following options are available:</p>
+
+<ul>
+  <li><strong>Do 
+ not verify CVV2 information before processing payment</strong> - Select  this option if you do not want the 3 or 4-digit security code on the credit  card verified.</li>
+  <li><strong>Prompt 
+ if CVV2 does not match before processing payment</strong> - Select this  option to be prompted if security code provided does not match, with the  information at the cardholder’s issuing bank.</li>
+  <li><strong>Prompt 
+ always before processing payment</strong> - Select this option to be prompted  irrespective of whether there is a match between the security code provided,  and the information at the cardholder’s issuing bank.</li>
+</ul>
+
+<p class="note">A $1 transaction is done with the Bank/Issuer  of the credit card for the AVS/CVV2 details to be verified. If there is  a mismatch in CVV2 details, only a dollar is blocked for the customer  rather than the entire amount. If this happens in E-commerce, the customer  gets another chance to re-enter the details and try again. If that transaction  passes, the authorization is carried out for the entire amount.</p>
+
+<ul>
+  <li><strong>Process 
+ payment and store CVV2 response</strong> - This option allows you to send  the entire amount of the transaction for authorization and does not prompt  irrespective of whether or not there is a match between the security code  provided and the information at the cardholder’s issuing bank. The CVV2  response is merely stored in the transaction history. If you are capturing  the payment later, you can base your decision on the response received  from the processor. This eliminates the requirement for carrying out a  $1 transaction exclusively for verifying CVV2 and thereby helps you reduce  the cost of each transaction.</li>
+</ul>
+
+<p>Before you submit a transaction for authorization with this preference,  <strong>Everest</strong> informs you that the transaction  may be approved in spite of a mismatch and asks if you would like to proceed.</p>
+
+<h1 id="credit-card-information">Credit Card Information</h1>
+
+<p><strong><a href="javascript:kadovTextPopup(this)" id="a1">Verify Card Number</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a1');
+//--></script></strong></p>
+
+<p><strong><a href="javascript:kadovTextPopup(this)" id="a2">Use Payment Processor</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a2');
+//--></script></strong></p>
+
+<p><strong><a href="javascript:kadovTextPopup(this)" id="a3">Processor</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a3');
+//--></script></strong></p>
+
+<p><strong><a href="javascript:kadovTextPopup(this)" id="a4">Use real  time processing for web orders</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a4');
+//--></script></strong></p>
+
+<p>Fraud Prevention</p>
+
+<p>Use this section to verify the address or zip, and the security code  number of the credit card for security purposes.</p>
+
+<p><strong><a href=""></a><a href="javascript:kadovTextPopup(this)" id="a5">Address Verification (AVS)</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a5');
+//--></script></strong></p>
+
+<p><strong><a href=""></a><a href="javascript:kadovTextPopup(this)" id="a6">Security Code Verification (CVV2)</a><script type="text/javascript" language="JavaScript1.2"><!--
+kadovTextPopupInit('a6');
+//--></script></strong></p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/setting-up-a-company/options/payment-information/payment-methods/set-up-a-payment-method/payment_method_profile_cc_authorization_tab.html"><strong>Payment Method</strong> profile - Credit Card  Processing tab</a></dd>
+</dl>
+
+
+
+
+</div>

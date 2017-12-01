@@ -1,0 +1,64 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="detach-committed-quantities---stock-areas-assigned">Detach Committed Quantities - Stock Areas Assigned</h1>
+
+<p>Items that are detached from a work order are assigned to a “Stock”  type of stock area.</p>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/stock-areas/stock_area_types.html">Stock  Area Types</a></p>
+
+<p class="steps">To detach serialized quantities on a work order, do the following:</p>
+
+<ul>
+  <li>From the Work Order  profile, highlight the serialized/auto-serialized item and select Options  &gt; Item &gt; Show Serial #. Right-click the Serial Number browser and  select Deserialize.</li>
+</ul>
+
+<p>For Inventoried Non-serialized items</p>
+
+<ul>
+  <li>From the <strong>Work Order</strong> profile, highlight the inventoried  item and select <strong>Options</strong> &gt; <strong>Attach/Retreive Serial #</strong> &gt; <strong>Show/Attach Quantities</strong>. Enter the reduced  number in the <strong>Attached</strong> column  in the <strong>Attached</strong> <strong>Quantity</strong>  dialog box.</li>
+</ul>
+
+<p>For Non-inventoried items</p>
+
+<ul>
+  <li>You can directly  enter the reduced quantity in the <strong>Actual</strong><strong>Input</strong> column in the <strong>Work</strong><strong>Order</strong> profile.</li>
+</ul>
+
+<p>You can set a preference to move the detached inventoried items to another  stock area. This stock area is decided using the following logic:</p>
+
+<ul>
+  <li>Use the stock  area defined in the <strong>Select stock area 
+ to receive back inventoried components of an assembly previously issued</strong> field of the <strong>Location</strong> profile  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location</strong>/<strong>Sub-Location</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Stock</strong> <strong>Transfer</strong> &gt; <strong>Assembly 
+ 1</strong> tab) for the login location.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/set-up-locations/the_location_profile_stock_transfer.html">Location  Profile - Stock Transfer Tab</a></p>
+
+<ul>
+  <li>If a stock  area is not defined for the logged in location/sub-location, the stock  area assigned for the default location specified in the <strong>Accounting</strong>  dialog box (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Default Location</strong> field) is used.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></p>
+
+<ul>
+  <li>If this stock  area is not defined for the default location also, the stock area specified  in the <strong>Purchase Receipt/Invoice</strong> option  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location</strong>/<strong>Sub-Location</strong>&gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Stock</strong> <strong>Transfer</strong> &gt; <strong>Purchase 
+ Document</strong> tab &gt; <strong>Select stock 
+ area to transfer inventoried items when creating</strong> section) for the  login location is used.</li>
+  <li>If the stock  area is not specified for the login location, the stock area specified  for purchase receipts/invoices in the default location is used.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/detach-cmt-qty/detaching_quantities_committed_from_the_work_order_building_assemblies.html">Detaching  Quantities Committed</a></dd>
+</dl>
+
+
+
+
+</div>

@@ -1,0 +1,85 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="calculations-for-viewing-stock-in-the-items-browser">Calculations for Viewing Stock in the Items Browser</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Field</td>
+      <td>View Stock in:</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Stock Measure</td>
+      <td>Default Purchase Measure</td>
+      <td>Default Sales Measure</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Average Cost</td>
+      <td>Shown in Stock Measure (Cost Decimal Accuracy)</td>
+      <td>Calculated using the conversion factor from the stock measure (Cost  Decimal Accuracy)</td>
+      <td>Calculated using the conversion factor from the stock measure (Sales  Price Decimal Accuracy)</td>
+    </tr>
+    <tr>
+      <td>Last Cost</td>
+      <td>Shown in Stock Measure (Cost Decimal Accuracy)</td>
+      <td>Shown in the default purchase measure (Cost Decimal Accuracy)</td>
+      <td>Shown in matching purchase measure or converted from last cost in stock  measure (Sales Price Decimal Accuracy)</td>
+    </tr>
+    <tr>
+      <td>Last Add-on Cost</td>
+      <td>Shown in Stock Measure (Cost Decimal Accuracy)</td>
+      <td>Shown in the default purchase measure (Cost Decimal Accuracy)</td>
+      <td>Shown in matching purchase measure or converted from last add-on cost  in stock measure (Sales Price Decimal Accuracy)</td>
+    </tr>
+    <tr>
+      <td>Last Landed Cost</td>
+      <td>Shown in Stock Measure (Cost Decimal Accuracy)</td>
+      <td>Shown in the default purchase measure (Cost Decimal Accuracy)</td>
+      <td>Shown in matching purchase measure or converted from last landed cost  in stock measure (Sales Price Decimal Accuracy)</td>
+    </tr>
+    <tr>
+      <td>Sell Price and Markup Price</td>
+      <td>Shown in default sales measure (Sales Price Decimal Accuracy)</td>
+      <td>Shown in default sales measure (Sales Price Decimal Accuracy)</td>
+      <td>Shown in default sales measure (Sales Price Decimal Accuracy)</td>
+    </tr>
+    <tr>
+      <td>Average Price*<br /><br /><br />[Field Chooser]</td>
+      <td>Shown in the item’s Stock Measure (Sales Price Decimal Accuracy)</td>
+      <td>Shown in the item’s Stock Measure (Sales Price Decimal Accuracy)</td>
+      <td>Shown in the item’s Stock Measure (Sales Price Decimal Accuracy)</td>
+    </tr>
+    <tr>
+      <td>Cost (High) and Cost (Low)<br /><br /><br />[Field Chooser]</td>
+      <td>Shown in matching purchase measure or converts from default purchase  measure (Cost Decimal Accuracy)</td>
+      <td>Shown in default purchase measure (Cost Decimal Accuracy)</td>
+      <td>Shown in matching purchase measure or converts from the default purchase  measure to the stock measure and then to the default sales measure (Sales  Price Decimal Accuracy)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>*The <strong>Average Price</strong> is the same  as the <strong>Sell</strong> field under the <strong>Average Amounts</strong> group in the Item Summary  for the item (path: <strong>Items</strong> browser  &gt; <strong>Options</strong> &gt; <strong>Summary</strong>  or press <strong>Ctrl + T</strong>). The system  calculates it as <strong>Sales (amount)</strong>  / <strong>Sales (qty in item stock measure)</strong>  under the <strong>Sales</strong> <strong>Activities</strong>  group. See <a href="/versata-everest-docs/managing-items/misc/the_item_summary_dialog_box.html">The Item Summary  Dialog Box</a> for detailed information.</p>
+
+<ul class="note">
+  <li>The <strong>Stock 
+ Measure</strong> field shows the inventory unit of measure. You can also  locate the stock measure on the <strong>Inventory</strong>  tab of the <strong>Item</strong> profile. The <strong>Stock</strong> <strong>Measure</strong>  field is shown regardless of which <strong>View</strong>  menu option is selected for viewing stock.</li>
+  <li>The <strong>Total 
+ Stock</strong> and <strong>Available Stock</strong>  fields are stored in the stock measure up to 6 decimal places and converted,  using a conversion factor, to the default purchase or default sales measure.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/managing-items/the-items-browser/the_items_explorer.html">The Items Browser</a></dd>
+</dl>
+
+
+
+
+</div>

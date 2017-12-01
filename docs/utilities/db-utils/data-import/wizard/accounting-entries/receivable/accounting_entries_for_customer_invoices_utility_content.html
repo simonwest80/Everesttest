@@ -1,0 +1,69 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries">Accounting Entries</h1>
+
+<p>For each import row in the Accounts Receivable import table, an accounting  entry is made in the Sales Journal for the value of the Accounts Receivable.  The following accounts are updated:</p>
+
+<p>Document Type - Sales Invoice</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit /Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Accounts Receivable Control</td>
+      <td>If you populate the <strong>A/R <br /> Control Account</strong> field during the A/R import, the A/R Control Account  used is the account specified.<br /><br /><br />If you leave the <strong>A/R <br /> Control Account</strong> field blank during the A/R import, the A/R Control  Account of the appropriate Posting Group is used:<br /><br /><br />Account specified in the Accounts Receivable field (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Posting <br /> Group</strong> profile &gt; <strong>Accounts</strong>  tab) of the Customer Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><strong>Posting <br /> Group</strong> Profile<br /><br /><br /><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_customer_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  Order for Customer Posting Group</a></td>
+      <td>Debit</td>
+      <td>The total value of sales invoices being imported.</td>
+    </tr>
+    <tr>
+      <td>Crossing Entry Account (1-4)</td>
+      <td>Account specified at the time of import. Different accounts  may be used for different invoices.</td>
+      <td>Credit</td>
+      <td>The total value of sales invoices being imported.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Document Type - Credit Memo</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Account</td>
+      <td>Path</td>
+      <td>Debit /Credit</td>
+      <td>Amount</td>
+    </tr>
+    <tr>
+      <td>Crossing Entry Account (1-4)</td>
+      <td>Account specified at the time of import. Different accounts may be used  for different credit memos.</td>
+      <td>Debit</td>
+      <td>The total value of credit memos being imported.</td>
+    </tr>
+    <tr>
+      <td>Accounts Receivable Control</td>
+      <td>If you populate the <strong>A/R Control Account</strong>  field during the A/R import, the A/R Control Account used is the account  specified.<br /><br /><br />If you leave the <strong>A/R Control Account</strong>  field blank during the A/R import, the A/R Control Account of the appropriate  Posting Group is used:<br /><br /><br />Account specified in the <strong>Accounts Receivable</strong>  field (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Posting <br /> Group</strong> profile &gt; <strong>Accounts</strong>  tab) of the Customer Posting Group type.<br /><br /><br /><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><strong>Posting <br /> Group</strong> Profile<br /><br /><br /><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/business-processes-in-everest/misc/hierarchical_order_for_customer_posting_group_doc_flow_control_misc_other2_tab.html">Hierarchical  Order for Customer Posting Group</a></td>
+      <td>Credit</td>
+      <td>The total value of credit memos being imported.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/db-utils/data-import/wizard/accounting-entries/receivable/customer_invoices_accounting_entries_utility_content.html">Accounts  Receivable</a></dd>
+</dl>
+
+
+
+
+</div>

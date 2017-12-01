@@ -1,0 +1,56 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="eoq-selection-table---automated-purchases---replenishment-tab">EOQ Selection Table - Automated Purchases - Replenishment Tab</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Purchase in Increments of Vendor EOQ <strong>check box</strong></td>
+      <td>Do Not Exceed Planned Quantity <strong>check <br /> box</strong></td>
+      <td>Result</td>
+    </tr>
+    <tr>
+      <td>Checked</td>
+      <td>Unchecked</td>
+      <td>Order will be placed for the calculated Required Quantity adjusted for  increments of the Vendor EOQ. The Vendor EOQ increments MAY exceed the  planned quantity.<br /><br /><br />In the <strong>Item Replenishment</strong> browser,  <strong>Required</strong> quantity is displayed  in increments of Vendor EOQ. **</td>
+    </tr>
+    <tr>
+      <td>Unchecked</td>
+      <td>Checked</td>
+      <td>Order will be placed for the calculated Required Quantity. The Required  Quantity will not be adjusted for Vendor EOQ.<br /><br /><br />In the <strong>Item Replenishment</strong> browser,  <strong>Required</strong> quantity is displayed  as the calculated Required Quantity.*</td>
+    </tr>
+    <tr>
+      <td>Unchecked</td>
+      <td>Unchecked</td>
+      <td>Order will be placed for the calculated Required Quantity. The Required  Quantity will not be adjusted for Vendor EOQ.<br /><br /><br />In the <strong>Item Replenishment</strong> browser,  <strong>Required</strong> quantity is displayed  as calculated Required Quantity.*</td>
+    </tr>
+    <tr>
+      <td>Checked</td>
+      <td>Checked</td>
+      <td>Order will be placed for the calculated Required Quantity adjusted for  increments of the Vendor EOQ. The Vendor EOQ increments CANNOT exceed  the planned quantity. **<br /><br /><br />In the <strong>Item Replenishment</strong> browser,  <strong>Required</strong> quantity is displayed  in increments of Vendor EOQ.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>*Required Quantity (Calculated) = Planned Quantity – Current Supply</p>
+
+<p>Current Supply = Total Stock – Open SO + Open PO</p>
+
+<p>**Planned Quantity = The selected replenishment quantity (Max / Reorder  Point / Min)</p>
+
+<p class="note"><strong>If **Purchase 
+ in Increments of Vendor EOQ</strong> is selected, Planned Quantity is adjusted  with open sales orders and open purchase orders and is compared with increments  of the EOQ to get the required quantity. If you see a zero (0) in the  Required quantity column of the <strong>Item 
+ Replenishment</strong> browser, the item is needed but you must make the  decision on if or how many should be purchased. This can occur when the  Vendor EOQ is higher than the calculated required quantity, increments  of Vendor EOQ are used, and the planned quantity cannot be exceeded.**</p>
+
+<p><strong><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/create-po/auto-generate-po/item-replenishment/item_replenishment_browser_find_items_dialog_box.html">Item  Replenishment Browser</a></strong></p>
+
+<p class="example"><a href="/versata-everest-docs/the-purchase-process/misc/eoq_selection_example_automated_pur_replenishment_tab_pur.html">EOQ  Selection Example</a></p>
+
+
+
+
+</div>

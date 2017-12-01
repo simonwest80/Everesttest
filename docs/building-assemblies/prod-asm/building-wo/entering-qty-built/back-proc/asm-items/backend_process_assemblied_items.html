@@ -1,0 +1,54 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="back-end-process---assembled-items">Back End Process - Assembled Items</h1>
+
+<p>The following back end processes occur when an item is built:</p>
+
+<ul>
+  <li>The rate per  unit is calculated for the finished item and the defective units using  the following formula:</li>
+</ul>
+
+<p>: Actual Cost of Finished Item = (Actual  Cost of the Assembly Item - Cost of Scrap or By Product)/Required Output</p>
+
+<ul>
+  <li>Accounting  entries are generated.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/building-assemblies/prod-asm/building-wo/entering-qty-built/accounting-entries/accounting_entries-built-items.html">Accounting  Entries</a></p>
+
+<ul>
+  <li>If the assembly  item is a serialized or auto-serialized item, serial numbers are automatically  generated for all the assembly items, good and defective.</li>
+</ul>
+
+<p class="note">To view the serial numbers generated for the items built from the work  order, select <strong>Options</strong> &gt; <strong>Show</strong> <strong>All 
+ Serial</strong> #.</p>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/building-assemblies/prod-asm/building-wo/entering-qty-built/back-proc/defective-items/stock_transfer_of_defective_items.html">Stock  Area to Which Defective Items are Transferred</a></p>
+
+<p>You can also assign lot numbers to the items built, if the lot preferences  are selected. Lot numbers are generated for both the good units and defective  units assembled.</p>
+
+<ul>
+  <li>The built assembly  items are transferred to the default stock area for assembled/built items.</li>
+</ul>
+
+<p>: <img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/building-assemblies/prod-asm/building-wo/entering-qty-built/back-proc/asm-items/set_stock_area_completed_assembly.html">Stock  Status of Assembled/Build Items</a></p>
+
+<ul>
+  <li>The “On  Order” stock of the assembly item decreases by the quantity entered  in the <strong>Required Output</strong> field of  the <strong>Work Order</strong> profile (path:  <strong>Inventory</strong> &gt; <strong>Bill 
+ of Material</strong> &gt; <strong>Work Order</strong> &gt;  <strong>Options</strong> &gt; <strong>Edit</strong> &gt; <strong>In New Window</strong> &gt;  <strong>Work Order</strong> profile).</li>
+  <li>The ‘On Reserve’  column in the <a href="/versata-everest-docs/managing-items/misc/the_item_stock_status_dialog_box.html"><strong>Item Stock Status</strong> dialog box</a> decreases  by the standard input and the ‘On Reserve Commit’  column decreases by the quantity committed on the built work order (for  the component items).</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/building-wo/entering-qty-built/back-proc/back_end_processes_built.html">Back End  Processes when Items are Built</a></dd>
+</dl>
+
+
+
+
+</div>

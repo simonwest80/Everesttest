@@ -1,0 +1,45 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="stock-areas-assigned---attachcommit-items">Stock Areas Assigned - Attach/Commit Items</h1>
+
+<p>Items committed on the work order are assigned to ‘Stock’ type of stock  areas.</p>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/miscellaneous-set-up/stock-areas/stock_area_types.html">Stock  Area Types</a></p>
+
+<p>You can define a setting to move the inventoried item to another stock  area once the item is assigned to a work order. This stock area is decided  using the following logic:</p>
+
+<ul>
+  <li>Use the stock  area specified in the <strong>Select stock area 
+ to issue inventoried components of assembly on a work order</strong> field  of the <strong>Location</strong> profile (path:  <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Accounting</strong> &gt; <strong>Location</strong>/<strong>Sub-Location</strong> &gt; <strong>Options</strong>  &gt; <strong>Edit</strong> &gt; <strong>In 
+ New Window</strong> &gt; <strong>Stock</strong> <strong>Transfer</strong> &gt; <strong>Assembly</strong><strong>1</strong> tab) for the login location.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/stock_transfer_assembly_1.html">Location  Profile - Stock Transfer - Assembly 1 Tab</a></p>
+
+<p><a href="/versata-everest-docs/setting-up-a-company/misc/stock_transfer_assembly_2.html">Location  Profile - Stock Transfer - Assembly 2 Tab</a></p>
+
+<ul>
+  <li>If the stock  area is not defined for the login location, then the stock area for the  default location is specified in the <strong>Accounting</strong> dialog box (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preferences</strong>  &gt; <strong>Defaults</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Default Location</strong> field) is used.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/building-assemblies/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/misc/default_location.html">Default  Location</a></p>
+
+<ul>
+  <li>If this stock  area is not defined for the default location also, the stock area specified  in the <strong>Purchase Receipt/Invoice</strong>  option (path: <strong>File</strong> &gt; <strong>Setup</strong> &gt; <strong>Accounting</strong>  &gt; <strong>Location</strong>/<strong>Sub-Location</strong>  &gt; <strong>Options</strong> &gt; <strong>Edit</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Stock</strong> <strong>Transfer</strong>  &gt; <strong>Purchase</strong> <strong>Document</strong> tab &gt; <strong>Select stock area to 
+ transfer inventoried items when creating</strong> section) for the login  location is used.</li>
+  <li>If the stock  area is not specified for the login location, the stock area specified  for purchase receipts/invoices in the default location is used.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/building-assemblies/prod-asm/att-cmt-items-to-wo/attach_commit_items_to_a_work_order_profile_assembly_content.html">Attach/Commit  Items on a Work Order</a></dd>
+</dl>
+
+
+
+
+</div>

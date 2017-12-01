@@ -1,0 +1,55 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="default-accounts-for-sales-transactions">Default accounts for sales transactions</h1>
+
+<p>While creating a company <strong>Everest</strong>  prompts you to automatically set default accounts for the company. If  you opt to do it manually go to <strong>Posting 
+ Group</strong> profile.</p>
+
+<p>Default accounts for sales transactions</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Accounts</td>
+      <td>Posting Group</td>
+    </tr>
+    <tr>
+      <td>A/R Control Account</td>
+      <td>Customer Posting Group</td>
+    </tr>
+    <tr>
+      <td>Sales<br /><br /><br />Sales Discounts<br /><br /><br />Sales Line Item Discounts</td>
+      <td>Customer Posting Group or Inventory Posting Group based on the flow  control preference (path: <strong>File</strong>  &gt; <strong>Setup</strong> &gt; <strong>Preference</strong>  &gt; <strong>Flow Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> &gt; <strong>Others</strong> &gt; <strong>Others <br /> 2</strong> tab)</td>
+    </tr>
+    <tr>
+      <td>COGS Account</td>
+      <td>Inventory Posting Group (used for an inventoried item)</td>
+    </tr>
+    <tr>
+      <td>Inventory Control Account</td>
+      <td>Inventory Posting Group</td>
+    </tr>
+    <tr>
+      <td>Customer Advances for initial documents</td>
+      <td>First payment will use the Customer Posting Group based on hierarchy  . Subsequent payments also use the customer advances account used for  the first payment.</td>
+    </tr>
+    <tr>
+      <td>Customer Advances for final documents</td>
+      <td>If customer advance is applied, the account used for the corresponding  initial document is considered.<br /><br /><br />If customer advances are not applied and payment is received on a Sales  Invoice from the Receipt dialog box or the Receipt Journal, the relevant  A/R control account is used. Once an A/R account has been used in a sales  document, all subsequent receipts for the same document will refer to  the same A/R control account.</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/default_accounts_for_purchase_transactions.html">Defaults  Accounts for Purchase Transactions</a></dd>
+</dl>
+
+
+
+
+</div>

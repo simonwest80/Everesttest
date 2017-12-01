@@ -1,0 +1,49 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<p>This field displays the difference between the Balance field and the  Balance @ Ex. Rate field. In other words, the field displays the gain  or loss on the outstanding balance of the multi-currency order document  due to the difference between the current exchange rate and the exchange  rate used when the deposit was accepted.</p>
+
+<p>Keep in mind that as the applicable current exchange rate changes, the  Ex. Difference value changes as well to reflect the adjustment to the  remaining balance in the base currency. You use this value only to estimate  what the gain or loss will be. The actual accounting entries are made  only after you complete the final document.</p>
+
+<p>Another way to view the gain or loss is to assess the strength of the  base currency against the document currency. Use the table below to determine  whether the exchange rate creates a gain or loss on the balance due for  a multi-currency order document.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Document</td>
+      <td>Equation</td>
+      <td>Gain/Loss</td>
+    </tr>
+    <tr>
+      <td>Sales order or debit order</td>
+      <td>Balance &lt; Exc. Rate Balance</td>
+      <td>Gain</td>
+    </tr>
+    <tr>
+      <td>Sales order or debit order</td>
+      <td>Balance &gt; Exc. Rate Balance</td>
+      <td>Loss</td>
+    </tr>
+    <tr>
+      <td>Purchase order or credit order</td>
+      <td>Balance &gt; Exc. Rate Balance</td>
+      <td>Gain</td>
+    </tr>
+    <tr>
+      <td>Purchase order or credit order</td>
+      <td>Balance &lt; Exc. Rate Balance</td>
+      <td>Loss</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>After you complete the final document, the system creates an accounting  entry for the gain or loss in the applicable accounting journal. Refer  to the <strong>Receipts in Foreign Currency</strong>  and <strong>Payments in Foreign Currency</strong>  topics for information on the Gain/Loss accounting entries. Refer to the  <strong>Calculation of Foreign Exchange Gains 
+ and Losses</strong> topic for a detailed example.</p>
+
+
+
+
+</div>

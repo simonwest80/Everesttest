@@ -1,0 +1,78 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="enter-negative-quantities-in-sales-documents">Enter Negative Quantities in Sales Documents</h1>
+
+<p>You can enter negative quantities in all sales documents.</p>
+
+<p>Sales Quote</p>
+
+<p>You can enter negative quantities directly in the <strong>Quantity</strong>  column of the sales quote.</p>
+
+<p>Sales Order/Sales Invoice</p>
+
+<p>You can enter negative quantities directly in the <strong>Ordered</strong>  column of the sales order. Entering negative quantities on sales invoices  or committing negative quantities on a sales order is categorized under  the following:</p>
+
+<ul>
+  <li>
+    <p><strong>Non-Inventoried 
+ Items</strong> - Enter the quantity prefixed with a negative (-) sign. You  cannot commit non-inventoried items on a sales order.</p>
+  </li>
+  <li>
+    <p><strong>Inventoried 
+ Items</strong> - You can directly enter the quantity prefixed with a negative  sign, in the <strong>Committed</strong> column  of sales order, only if the option <strong>Use 
+ default stock area to assign quantity for non-serialized items in sales 
+ documents</strong> (path: <strong>File &gt; Setup</strong> &gt; <strong>Accounting</strong> &gt; <strong>Location/Sub-Location</strong> &gt; <strong>Options</strong> &gt; <strong>New</strong> &gt; <strong>Location</strong>  &gt; <strong>In New Window</strong> &gt; <strong>Stock</strong> <strong>Transfer</strong>  &gt; <strong>Miscellaneous</strong> tab) is selected  for the logged in location or sub-location. If the above option is not  selected, the <strong>Attach Quantity</strong>  dialog box is displayed, listing all ‘OUT’ type of stock areas, when committing  negative quantities. The stock is automatically retrieved from the default  stock area specified for sales documents in the <strong>Location</strong>  profile of the logged in location or sub-location. If no stock areas are  defined for this location, the stock area defined for the default location  is used.</p>
+  </li>
+</ul>
+
+<dl>
+  <dt>: You can scan and enter the Invoice # or Gift Receipt  to process returns.</dt>
+  <dd><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /><a href="/versata-everest-docs/sales/sales-docs/docs-profile/options/ret-proc/return_process_common_browser_options_sales_docs_contents_sal.html">Return  Process</a></dd>
+  <dd>You can attach negative quantities in a sales invoice  by selecting <strong>Options &gt; Attach/Retrieve 
+ Serial # &gt; Transfer/Assign new stock</strong>. You will see the <strong>Assign Quantity</strong> dialog box.</dd>
+</dl>
+
+<p><strong><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/setting-up-a-company/options/locations-and-sub-locations/locations_and_departments.html">Locations  and Sub-Location</a></strong></p>
+
+<dl class="note">
+  <dt>If adequate stock of the item does not exist  in the default stock area, <strong>Everest</strong> searches  for stock in other stock areas provided you have selected the “Search  in other stock area” options in the <strong>Location</strong>  profile &gt; <strong>Stock</strong> <strong>Transfer</strong>  &gt; <strong>Miscellaneous</strong> tab.</dt>
+  <dd>If the option <strong>Use 
+ default stock area to assign quantity for non-serialized items in sales 
+ documents</strong> is NOT selected in the <strong>Location</strong>  profile, negative quantities must be attached from the <strong>Attach 
+ Quantity</strong> profile (path: <strong>Sales 
+ Order</strong> or <strong>Sales Invoice</strong> profile <strong>&gt; Options &gt; Attach/Retrieve Serial # 
+ &gt; Show/Attach area wise stock</strong>). Click on the <strong>Toggle 
+ Area Type</strong> button and enter the required quantity in the appropriate  stock area.</dd>
+</dl>
+
+<p><strong><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/sales/sales-docs/sales-orders/so-proc/cmt-items/enter-cmt-qty/non-ser/the_attach_quantity_profile.html">Attach  Quantity Dialog Box</a></strong></p>
+
+<ul>
+  <li><strong>Serialized 
+ Items</strong> - Enter the appropriate serial number of the item. Depending  on the document type, you can attach negative quantities from the ‘Stock’  or ‘Out’ type of stock areas. On sales documents, if items belonging to  ‘Out’ type of stock areas are attached, they are treated as negative quantities.  If on a sales return document, serial numbers from ‘Stock’ type of stock  areas are attached, they are treated as negative quantities.</li>
+</ul>
+
+<p><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> While  creating a sales invoice if an item is also returned, you can scan in  the serial number of the item. Negative quantities can be attached on  a sales invoice only from ‘Out’ type of stock areas. The stock area type  of all other items attached to the invoice is ‘Stock’.</p>
+
+<p class="note">To attach negative quantities in a sales invoice,  use the option <strong>Attach/Retrieve Serial 
+ # &gt; Serial #</strong>. Select the serial numbers to be attached from  the ‘Out’ type of stock areas.</p>
+
+<ul>
+  <li><strong>Auto-serialized 
+ Items</strong> - Negative quantities CANNOT be automatically assigned for  auto-serialized type of items. You must retrieve the serial numbers manually  from the ‘Out’ or ‘Stock’ type of stock areas depending on the document  type.</li>
+</ul>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/item-info/details/add-kits/negative_quantities_in_sales_and_return_documents.html">Negative  Quantities in Sales and Sales Return Documents</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/docs-profile/contents/item-info/details/add-kits/retrieving_items_item_details_grid_sales_document_content.html">Adding  Items to a Sales Document</a></dd>
+</dl>
+
+
+
+
+</div>

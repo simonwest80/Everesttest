@@ -1,0 +1,42 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="accounting-entries-for-a-stock-transfer-document">Accounting Entries for a Stock Transfer Document</h1>
+
+<p>The accounting entries for a stock transfer created in a general journal  are:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>### Account</td>
+      <td><strong>Path</strong></td>
+      <td><strong>Debit/</strong> <strong>Credit</strong></td>
+      <td>### Amount</td>
+    </tr>
+    <tr>
+      <td>Inventory Control Account</td>
+      <td>The Inventory Control Account defined in the Posting Group assigned  to the line item is considered first. If no Inventory Control Account  is defined for the item, the control account defined for the category  to which the line item belongs is used. If the Inventory Control Account  is not defined for either the item or the category, the Inventory Control  Account of the stock area’s location from where the item is assigned is  taken into consideration. The user may however override this account by  selecting another account.<br /><br /><br /><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_dialog_box_-_posting_groups.html">Accounting  Dialog Box</a></td>
+      <td>Credit</td>
+      <td>Value of items as per the <strong>Amount</strong>  column of the <strong>Stock</strong> <strong>Transfer</strong>  profile</td>
+    </tr>
+    <tr>
+      <td>Inventory Control Account</td>
+      <td>The Inventory Adjustment Account defined in the Posting Group assigned  to the line item is considered first. If no Inventory Adjustment Account  is defined for the item, the control account defined for the category  to which the line item belongs is used. If the Inventory Adjustment Account  is not defined for either the item or the category, the Inventory Adjustment  Account of the document’s location is taken into consideration.<br /><br /><br /><img src="/versata-everest-docs/warehouse-management/img/lens.gif" alt="Lens.gif" /> <a href="/versata-everest-docs/accounting/accounting-flow-control-and-defaults/accounting-defaults/accounting_dialog_box_-_posting_groups.html">Accounting  Dialog Box</a></td>
+      <td>Debit<br /><br /><br />.</td>
+      <td>Value of items as per the <strong>Amount</strong>  column of the <a href="/versata-everest-docs/warehouse-management/inv-adj/stk-trans/create-stock-transfer-document/the_stock_transfers_profile.html">Stock Transfer  profile</a> <strong>.</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/warehouse-management/inv-adj/stk-trans/create-stock-transfer-document/the_stock_transfers_profile.html">Stock  Transfer profile</a></dd>
+</dl>
+
+
+
+
+</div>

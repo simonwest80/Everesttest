@@ -1,0 +1,75 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="field-mapping">Field Mapping</h1>
+
+<p>The <strong>Field Mapping</strong> section maps  the fields to be imported (in the source table) with the fields in the  destination table. Fields that are not mapped in the destination table  can have a default value or can be auto incremented.</p>
+
+<p>The <strong>Field Mapping</strong> section consists  of the <strong>Destination</strong> and <strong>Source</strong>  panels.</p>
+
+<dl>
+  <dt><strong>Destination Panel</strong></dt>
+  <dd>The <strong>Destination</strong> panel displays the column name, description, type and size of the  <strong>Everest</strong> data. The <strong>Mandatory</strong>  column indicates if a field is  mandatory.</dd>
+  <dt><strong>Source Panel</strong></dt>
+  <dd>The <strong>Source</strong>  panel displays a sample view of the data in the source file.</dd>
+</dl>
+
+<ul class="note">
+  <li><strong>Everest</strong>  allows you to update details for items that already exist in your database.  You can update existing item information by checking the option <strong>Update information for existing items</strong> check box in the <strong>Source 
+ File Selection</strong> section. The <strong>Update 
+ column in the Field Mapping</strong> section is displayed. Select the required  fields.</li>
+  <li>All mandatory fields  (except Custom fields) in the destination file must be mapped to the relevant  fields in the source file.</li>
+  <li>If mandatory Custom  fields in the source data are not mapped to a destination table in the  <strong>Everest</strong> database, you can still  import the other data. The imported records will not contain any information  in their respective mandatory Custom fields.</li>
+  <li>Specify the default  purchase measure to import in the <strong>Purchase 
+ Measure</strong> field. Specify the default sales measure to import in the  <strong>Sales Measure</strong> field.  The  <strong>Last Cost</strong> is in the default purchase  measure and the <strong>Sell Price</strong> is  in the default sales measure. The <strong>Average 
+ Cost</strong> is in the stock measure.</li>
+</ul>
+
+<p>After making a mapping selection in the Source panel, one of the following  dialog boxes may display depending upon your selection:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Selection</td>
+      <td>Displays After Selection</td>
+    </tr>
+    <tr>
+      <td>Any appropriate selection in the Column Name column  in the Source panel with a <strong>Fixed Choices</strong>  Destination data Type</td>
+      <td><strong>Enumerated Values</strong>  dialog box - Enter source values corresponding to the Enumerated Values  in the <strong>Everest</strong> database.<br /><br /><br /><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/misc/enumerated_values_dialog_box.html">Enumerated  Values Dialog Box</a></td>
+    </tr>
+    <tr>
+      <td><strong>&lt;Default Value&gt;</strong>  in the Column Name column in the Source panel</td>
+      <td><strong>Value</strong> dialog  box - Enter a default value.<br /><br /><br /><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/misc/specify_a_default_value_field_mapping_data_import_dialog_utility.html">Specify  a Default Value</a></td>
+    </tr>
+    <tr>
+      <td><strong>&lt;Auto Increment&gt;</strong>  in the Column Name column in the Source panel</td>
+      <td><strong>Value</strong> dialog  box - Enter auto incremental values.<br /><br /><br /><img src="/versata-everest-docs/utilities/img/lens.gif" alt="" /><a href="/versata-everest-docs/utilities/misc/auto_incremental_values_field_mapping_data_import_dialog_utility.html">Auto  Incremental Values</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt><strong>Fixed Choices</strong></dt>
+  <dd>If the destination data type has fixed values, you  can map this to the source data by specifying these values in <a href="/versata-everest-docs/utilities/misc/enumerated_values_dialog_box.html"><strong>Enumerated Values</strong></a> dialog box that  appears while a mapping is assigned.</dd>
+</dl>
+
+<p>Other information for field mapping has been grouped under the following  sections:</p>
+
+<ul>
+  <li><a href="/versata-everest-docs/utilities/misc/specify_a_default_value_field_mapping_data_import_dialog_utility.html">Specify  a Default Value</a></li>
+  <li><a href="/versata-everest-docs/utilities/misc/auto_incremental_values_field_mapping_data_import_dialog_utility.html">Auto  Incremental Values</a></li>
+  <li>
+    <p><a href="/versata-everest-docs/utilities/db-utils/data-import/wizard/field-mapping/field_mapping_buttons_field_mapping_screen_diw_ut.html">Field  Mapping Buttons</a></p>
+  </li>
+  <li>Click <strong>Next</strong>.  You will see the <strong>Import 
+ Data</strong> section.</li>
+</ul>
+
+
+
+
+
+</div>

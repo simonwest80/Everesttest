@@ -1,0 +1,32 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="customizing-attachment-templates">Customizing Attachment Templates</h1>
+
+<p><strong>Everest</strong> allows you to create  your own attachment templates and send them as an HTML attachment along  with e-mails from Business Activity Monitoring to internal parties such  as users of <strong>Everest</strong> and external  parties such as customers and vendors whenever the specified event occurs.</p>
+
+<ul class="note">
+  <li>The attachment  templates will be only in .htm or .html format. No other file formats  are supported.</li>
+  <li>You must copy your  own attachment templates into the folder where <strong>xpEverestACRM.dll</strong>  resides other than <strong>Everest</strong> folder  structure. This folder location can vary, but it is typically located  in the path: <strong>C:\Program Files\Microsoft 
+ SQL Server\MSSQL\Binn</strong>. If the MS SQL instance is located on the  D: drive, the path could begin with a D instead of a C.</li>
+  <li>If you do not copy  any attachment template files to this path, the attachments will be sent  in the system defined format.</li>
+</ul>
+
+<p class="example">: You may want to create a purchase invoice template  in your own format and send as an e-mail attachment whenever a purchase  invoice is created. To execute this, you have to create a purchase invoice  template with the given list of tags provided in <strong>Everest</strong>  and copy it in the specified name and path, typically <strong>C:\Program 
+ Files\Microsoft SQL Server\MSSQL\Binn</strong>. The system will use the  attachment template file associated with the document type to generate  e-mail attachment if it is saved in the specified name and path and attached  to the event.</p>
+
+<dl>
+  <dt><img src="/versata-everest-docs/everest-crm/img/lens.gif" alt="" /></dt>
+  <dd><a href="/versata-everest-docs/everest-crm/misc/attachment_template_names.html">Attachment  Template Names</a></dd>
+  <dd><a href="/versata-everest-docs/everest-crm/misc/list_of_tags_for_attachment_template.html">List  of tags for Attachment Template</a></dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/everest-crm/misc/send_e_mail_setup_general.html">Send E-mail  Setup - General</a></dd>
+</dl>
+
+
+
+
+</div>

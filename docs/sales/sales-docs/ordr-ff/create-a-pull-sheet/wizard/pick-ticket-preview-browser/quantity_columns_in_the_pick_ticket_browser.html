@@ -1,0 +1,67 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="quantity-columns-in-the-pick-ticket-browser">Quantity Columns in the Pick Ticket Browser</h1>
+
+<p>The quantity columns in the <strong>Pick Ticket 
+ Browser</strong> are detailed below:</p>
+
+<dl>
+  <dt><strong>Measure Code</strong></dt>
+  <dd>This column shows the sales measure selected for  the item in the sales order.</dd>
+  <dt><strong>Quantity Available</strong></dt>
+  <dd>This column displays the total stock of the item  available in all the stock areas selected in the <a href="/versata-everest-docs/sales/sales-docs/ordr-ff/create-a-pull-sheet/wizard/stock-bin-selection/document_criteria_-_stock_area_selection_pick_ticket_wizard.html">Stock  Bin Selection</a> <strong>** section of the  **Pull Sheet Wizard</strong>. The quantity  available is shown in the sales measure selected for the item in the sales  order up to 6 decimal places. This quantity does not include stock committed  on sales orders and debit orders.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/lens.gif" alt="" /> <a href="/versata-everest-docs/managing-items/the-items-browser/information-available/item_stock_status_item_browser_option.html">Item  Stock Status</a></dd>
+  <dd>You cannot edit this column.</dd>
+  <dd>If an item is displayed more than once in this browser,  and it is selected for picking, the available stock progressively decreases  for later occurrences of the item.</dd>
+  <dd><img src="/versata-everest-docs/sales/img/example.gif" alt="" /> Item 1 exists in sales orders 1000, 1001 and 1002, the initial  quantity available is 100 and all the sales orders have been selected  for picking. The details are given below:</dd>
+</dl>
+
+<p><strong>Sales Order # Quantity  Ordered (of Item 1)</strong></p>
+
+<p>1000 10</p>
+
+<p>1001 15</p>
+
+<p>1002 20</p>
+
+<p>The quantity available will be as follows:</p>
+
+<h3 id="sales-order-quantity-available-of--item-1">Sales Order # Quantity Available (of  Item 1)</h3>
+
+<p>1000 100</p>
+
+<p>1001  90</p>
+
+<p>1002  75</p>
+
+<dl>
+  <dt><strong>Quantity Ordered</strong></dt>
+  <dd>This column displays the quantity as displayed in  the <strong>Ordered</strong> column of the <strong>Sales Order</strong> profile. You cannot edit  this column. The quantity ordered displays in the decimal accuracy allowed  for the item selected in the sales order.</dd>
+  <dt><strong>Quantity Shipped/Committed</strong></dt>
+  <dd>This column displays the quantity that is already  shipped and/or committed on the sales order. You cannot edit this column.  Manually committed inventory is indicated in bright green on the <strong>Pick Ticket</strong> browser. The quantity shipped/committed  displays in the decimal accuracy allowed for the item selected in the  sales order.</dd>
+  <dt><strong>Quantity Required</strong></dt>
+  <dd>This column displays the total quantity that has  to be picked for the item. The quantity required is equal to the quantity  ordered (provided that no shipments have been made on the sales order).</dd>
+  <dd>Quantity Required = Quantity Ordered - Quantity  Shipped</dd>
+  <dd>You cannot edit this column. The quantity required  displays in the decimal accuracy allowed for the item selected in the  sales order.</dd>
+  <dt><strong>Quantity to be Picked</strong></dt>
+  <dd>This column displays the actual number of items  that are being picked. By default, the <strong>Quantity 
+ to be Picked</strong> is the quantity displayed in the <strong>Quantity 
+ Required</strong> column.</dd>
+  <dd>Enter the quantity that you will pick in this column.  It cannot exceed the <strong>Quantity</strong><strong>Required</strong>.</dd>
+  <dt><strong><font style="color: #000000;" color="#000000">Quantity that can be Picked</font></strong></dt>
+  <dd>This column displays the quantity displayed in the  <strong>Quantity to be Picked</strong> column or  the <strong>Quantity Available</strong> column,  whichever is lesser. If the <strong>Quantity 
+ to be Picked</strong> column is edited, the quantity in the <strong>Quantity 
+ that can be picked</strong> column is recalculated as it is based on the  <strong>Quantity to be Picked</strong> and <strong>Quantity Available</strong> columns. The quantity  that can be picked displays in the decimal accuracy allowed for the item  selected in the sales order.</dd>
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/ordr-ff/create-a-pull-sheet/wizard/pick-ticket-preview-browser/pick_ticket_browser_pick_ticket_wizard.html">Pick  Ticket Browser</a></dd>
+  <dd><a href="/versata-everest-docs/sales/sales-docs/ordr-ff/create-a-pull-sheet/wizard/the_pull_sheet_wizard.html">The Pull Sheet  Wizard</a></dd>
+</dl>
+
+
+
+
+</div>

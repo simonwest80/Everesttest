@@ -1,0 +1,83 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="prerequisites-of-the-third-party-catalog-import-process">Prerequisites of the Third Party Catalog Import Process</h1>
+
+<p>Before you begin the Third Party Catalog import process, ensure that  the logon account  for the database server is set to the domain account.</p>
+
+<p>The process of setting the database server logon  to the domain account is detailed below for the following scenarios:</p>
+
+<ul>
+  <li>You have installed  MS SQL Server 2000 on your system.</li>
+  <li>You do not have  MS SQL Server 2000, but have installed SQL Server 2000 Desktop Engine  (MSDE).</li>
+  <li>You have installed  one of the MS SQL Server 2005 editions or you are using the free MS SQL  Server 2005 Express edition.</li>
+</ul>
+
+<p class="steps">To set the database server logon  to the domain account with MS SQL Server 2000 installed, do the following:</p>
+
+<ul>
+  <li>Select <strong>Start</strong> &gt; <strong>Programs</strong>  &gt; <strong>MS SQL Server</strong> &gt; <strong>Enterprise Manager</strong>. You will see the  <strong>SQL Server Enterprise Manager</strong>  window.</li>
+  <li>Select the  target server from the left panel, right-click and select <strong>Properties</strong>.  You will see the <strong>SQL Server Properties 
+ (Configure)</strong> dialog box.</li>
+  <li>From the <strong>SQL Server Properties (Configure)</strong> dialog  box, select the <strong>Security</strong> tab.</li>
+  <li>From the <strong>Startup service account</strong> section of the  <strong>Security</strong> tab and select <strong>This account</strong>. Enter the domain name,  user name and password.</li>
+  <li>Click <strong>OK</strong>. You will be prompted to restart  the MS SQL Server service.</li>
+  <li>Click <strong>Yes</strong>.</li>
+</ul>
+
+<p class="note">If the <strong>This 
+ account</strong> option has been previously selected, you do not have to  restart the MS SQL Server service.</p>
+
+<p class="steps">To set the database server logon  to the domain account with only MSDE  installed, do the following:</p>
+
+<ul>
+  <li>Go to <strong>Start</strong> &gt; <strong>Settings</strong>  &gt; <strong>Control Panel.</strong> You will see  the <strong>Control Panel</strong>.</li>
+  <li>From the <strong>Control Panel</strong> window, select <strong>Administrative Tools</strong> and from the <strong>Administrative Tools</strong> window, select  <strong>Services</strong>. You will see the <strong>Services</strong> window.</li>
+  <li>Select MSSQLSERVER  from the right panel, right-click and select <strong>Properties</strong>.  You will see the <strong>MSSQLSERVER 
+ Properties (Local Computer)</strong> dialog box.</li>
+  <li>From the <strong>MSSQLSERVER 
+ Properties (Local Computer)</strong> dialog box, select the <strong>Log 
+ On</strong> tab.</li>
+  <li>Select the  <strong>This account</strong> option. Enter your  domain name, user name and password.</li>
+  <li>Click <strong>OK</strong>. You will be prompted with a message  asking you to restart MSSQLSERVER  services.</li>
+  <li>From the <strong>Services</strong> window, select MSSQLSERVER,  right-click and select <strong>Restart</strong>.  You will be prompted to confirm that you want to restart the services.</li>
+  <li>Click <strong>Yes</strong>.</li>
+</ul>
+
+<p class="note">If the <strong>This 
+ account</strong> option has been previously selected, you do not have to  restart the MSSQLSERVER  services.</p>
+
+<p class="steps">To set the database server logon to the domain  account with MS SQL Server 2005 editions installed, do the following:</p>
+
+<ul>
+  <li>Select <strong>Start</strong>  &gt; <strong>Programs</strong> &gt; <strong>Microsoft 
+ SQL Server 2005</strong> &gt; <strong>Configuration 
+ Tools</strong> &gt; <strong>SQL</strong> <strong>Server 
+ Configuration Manager</strong>. You will see the <strong>SQL 
+ Server Configuration Manager</strong> window.</li>
+  <li>Select SQL Server  2005 Services from the left panel.</li>
+  <li>Select the target  server from the right panel, right-click and select <strong>Properties</strong>.  You will see the <strong>SQL Server Properties</strong>  dialog box.</li>
+  <li>From the SQL Server  Properties dialog box, select the <strong>Log 
+ On</strong> tab.</li>
+  <li>From the <strong>Log on as</strong> section of the <strong>Log 
+ On</strong> tab, select This account. Enter the domain name, user name and  password.</li>
+  <li>Click <strong>OK</strong>.  You will be prompted to restart the MS SQL Server service.</li>
+  <li>Click <strong>Yes</strong>.</li>
+</ul>
+
+<p class="note">SQL Server Configuration Manager comes bundled  with all editions of MS SQL Server 2005 except for MS SQL Server 2005  express edition. This tool can also be made available on MS SQL Server  2005 express edition by installing the <strong>SQL 
+ Server 2005 Management Studio Express Edition</strong>. The <strong>SQL 
+ Server 2005 Management Studio Express Edition</strong> is free to use and  can be downloaded from Microsoft download sites.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/utilities/item-management/importing-3rd-catalogs/import_third_party_catalogs_into_everest.html">Import  Third Party Catalogs into Everest</a></dd>
+</dl>
+
+
+
+
+</div>

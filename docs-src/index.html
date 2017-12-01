@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Everest Advanced Edition Docs</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link href="/versata-everest-docs/styles.bundle.css" rel="stylesheet">
+  <link href="/versata-everest-docs/assets/css/style.css" rel="stylesheet">
+
+  <script language="JavaScript" src="/versata-everest-docs/assets/js/app-script.js"></script>
+  <script language="JavaScript" src="/versata-everest-docs/assets/js/app-config.js"></script>
+
+</head>
+<body>
+  <script>
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect != location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+
+<app-root></app-root>
+<!-- https://stackoverflow.com/questions/45691804 -->
+<!-- https://stackoverflow.com/questions/83132 -->
+<script>
+    window['__Zone_disable_IE_check'] = true;
+</script>
+<script type="text/javascript" src="/versata-everest-docs/inline.bundle.js"></script>
+<script type="text/javascript" src="/versata-everest-docs/polyfills.bundle.js"></script>
+<script type="text/javascript" src="/versata-everest-docs/scripts.bundle.js"></script>
+<!--script type="text/javascript" src="/versata-everest-docs/styles.bundle.js"></script-->
+<script type="text/javascript" src="/versata-everest-docs/vendor.bundle.js"></script>
+<script type="text/javascript" src="/versata-everest-docs/main.bundle.js"></script>
+</body>
+</html>

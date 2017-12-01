@@ -1,0 +1,67 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="automated-purchases---item-selection">Automated Purchases - Item Selection</h1>
+
+<p>Use the <strong>Automated Purchases</strong>  – <strong>Item Selection</strong> tab to indicate  which item or items should be included in the <strong>Item 
+ Replenishment</strong> browser list.</p>
+
+<p><img src="/versata-everest-docs/the-purchase-process/img/lens.gif" alt="" /> <a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/create-po/auto-generate-po/item-replenishment/item_replenishment_browser_find_items_dialog_box.html">Item  Replenishment Browser</a></p>
+
+<dl>
+  <dt><strong>Purchase Items with Inventory Supply Below</strong></dt>
+  <dd>Select the items to display for purchase with inventory  supply below the following values:</dd>
+</dl>
+
+<ul>
+  <li><strong>Planned 
+ Quantity</strong> – Select this option to display items whose inventory  supply is less than the selected option in the <strong>Planned 
+ Quantity – Replenish inventory to</strong> field on the <strong>Replenishment</strong>  tab. Other filter conditions must also be satisfied.</li>
+  <li><strong>Reorder 
+ Point</strong> – Select this option to display items whose inventory supply  is less than the reorder point. This excludes items above the reorder  point. Other filter conditions must also be satisfied. This option is  selected by default.</li>
+  <li><strong>Minimum 
+ Quantity</strong> – Select this option to display items whose inventory  supply is less than the minimum quantity. This excludes items above the  minimum quantity. Other filter conditions must also be satisfied.</li>
+</ul>
+
+<dl>
+  <dt>: You can use this option to exclude items above the  reorder point or minimum quantity during item replenishment.</dt>
+  <dd>The inventory supply, also know as current supply,  is defined by the following formula where SO = Sales Order and PO = Purchase  Order:</dd>
+  <dd>Inventory Supply (Current Supply) = Total Stock  – Open SO + Open PO</dd>
+  <dt><strong>Item Type</strong></dt>
+  <dd>Select the type of item: Regular, Assembly, or Matrix  Items.</dd>
+  <dt><strong>Inventoried Type</strong></dt>
+  <dd>Select the type of inventory: Inventoried, Serialized,  or Auto serialized. By default, all types are included.</dd>
+  <dd>For the following parameters, click the <img src="/versata-everest-docs/the-purchase-process/img/pur_look_up_button.gif" alt="" /> button to the right of the field to display the appropriate  browser. Make a single selection in the browser or use the <strong>Shift</strong>  or <strong>Ctrl</strong> keys to make multiple  selections. Click <strong>OK</strong> in the browser.  In the selection window, clear the check boxes of any items that should  not be included. Click <strong>OK</strong> in the  selection window. If you made multiple selections for a field, “Multiple”  is displayed in that field.</dd>
+  <dt><strong>Item Code</strong></dt>
+  <dd>Select the item code of the item to be replenished.  You can select multiple item codes. If you want to include all items in  the filter that satisfy the other filter conditions, leave this field  blank.</dd>
+  <dt><strong>Category</strong></dt>
+  <dd>Select the category of the item. You can select  more than one category. If you want to include all item categories in  the filter that satisfy the other filter conditions, leave this field  blank.</dd>
+  <dt><strong>Brand</strong></dt>
+  <dd>Select the brand of the item. You can select more  than one brand. If you want to include all brands in the filter that satisfy  the other filter conditions, leave this field blank.</dd>
+  <dt><strong>Manufacturer</strong></dt>
+  <dd>Select the manufacturer of the item. You can select  more than one item. If you want to include all manufacturers in the filter  that satisfy the other filter conditions, leave this field blank.</dd>
+  <dt><strong>Vendor</strong></dt>
+  <dd>Select any or all of the vendors listed in the selection  window based on your selection in the <strong>Vendor</strong><strong>Selection Method</strong> field on the  <strong>Replenishment</strong> tab. Vendors not  associated with any items do not appear in this window. The <strong>Vendor</strong>  field is disabled if you selected <strong>Vendor 
+ with lowest standard cost</strong> in the <strong>Vendor 
+ Selection Method</strong> field.</dd>
+  <dd>If you selected <strong>Associated 
+ Vendor</strong> in the <strong>Vendor Selection 
+ Method</strong> field, you can only select one associated vendor in this  field. If the <strong>Vendor</strong> field is  left blank, only items that have no replenishment details will be shown.</dd>
+</dl>
+
+<p>The result of the parameters set in this dialog box appears  in <strong>Item 
+ Replenishment</strong> browser. All filter conditions that you set must  be satisfied for an item to be listed.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/create-po/auto-generate-po/item-replenishment/automated_purchases_-_item_replenishment.html">Automated  Purchases Dialog Box</a></dd>
+  <dd><a href="/versata-everest-docs/the-purchase-process/purc-proc/pos/create-po/auto-generate-po/item-replenishment/find_item_replenishment_-_replenishment_tab.html">Automated  Purchases - Replenishment tab</a></dd>
+</dl>
+
+
+
+
+</div>

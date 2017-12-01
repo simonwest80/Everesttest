@@ -1,0 +1,162 @@
+﻿
+<script type="text/javascript" data-sys="1">
+    sessionStorage.redirect = location.href;
+    window.location = "/versata-everest-docs/";
+</script>
+<div class="content">
+<h1 id="received-to-date-field-example">Received to Date Field Example</h1>
+
+<p class="example">The steps in the following table illustrate  how the <strong>Received to Date</strong> field  changes for a line item when you create a purchase receipt and purchase  invoices from the same purchase order. In this example, the preference  option <strong>Set the quantity received value 
+ to zero when converting a purchase order to a purchase invoice</strong>  (path: <strong>File</strong> &gt; <strong>Setup</strong>  &gt; <strong>Preferences</strong> &gt; <strong>Flow 
+ Control</strong> &gt; <strong>Documents</strong>  &gt; <strong>Miscellaneous</strong> tab &gt; <strong>Others</strong> tab &gt; <strong>Others 
+ 1</strong> tab) is NOT selected.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Step #</td>
+      <td>Step</td>
+      <td>Ordered Quantity</td>
+      <td>Received Quantity</td>
+      <td>Invoiced Quantity</td>
+      <td>Received to Date</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>(PO) - Create a PO with an ordered quantity of 100.</td>
+      <td>100</td>
+      <td>0</td>
+      <td>0</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>(PO &gt; PI) - Convert the PO to a PI. Notice the quantities  displayed but do not save the PI yet. The <strong>Received <br /> to Date</strong> field initially displays the <strong>Ordered</strong>  quantity from the PO.</td>
+      <td>100</td>
+      <td>100*</td>
+      <td>100</td>
+      <td>100*</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>(PO &gt; PI Continued) - On the PI, change the <strong>Received</strong> quantity to zero (0). Notice  that the <strong>Received to Date</strong> field  changes from 100 to zero (0).</td>
+      <td>N/A</td>
+      <td><strong>0</strong></td>
+      <td>100</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>(PO &gt; PI Continued) - Change the <strong>Invoiced</strong>  quantity to 40 and save the PI. Notice that the <strong>Received <br /> to Date</strong> field does not change.</td>
+      <td>N/A</td>
+      <td>0</td>
+      <td>40</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>(PO &gt; PR) – Convert the original (and now backordered)  PO to a purchase receipt.</td>
+      <td>100</td>
+      <td>100</td>
+      <td>40</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>(PO &gt; PR Continued) – Change the <strong>Received</strong>  quantity to 15 and save the PR.</td>
+      <td>100</td>
+      <td><strong>15</strong></td>
+      <td>40</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>(PO &gt; PI) – Convert the original PO to another PI.  Notice the quantities displayed but do not save the PI yet.</td>
+      <td>100</td>
+      <td>85**</td>
+      <td>60</td>
+      <td>100**</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>(PO &gt; PI Continued) – Change the <strong>Received</strong>  quantity to 20 and save the PI. Notice that the <strong>Received <br /> to Date</strong> field displays the sum of the quantities received in the  PR and in the PIs.</td>
+      <td>100</td>
+      <td>20</td>
+      <td>20</td>
+      <td>35</td>
+    </tr>
+  </tbody>
+</table>
+
+<dl>
+  <dt>: *If the **Set the </dt>
+  <dt> quantity received value to zero when converting a purchase order to a </dt>
+  <dt> purchase invoice** option had been selected, the <strong>Received</strong>  and <strong>Received to Date</strong> fields would  have displayed a zero (0).</dt>
+  <dd>**If the <strong>Set the 
+ quantity received value to zero when converting a purchase order to a 
+ purchase invoice</strong> option had been selected, the <strong>Received</strong>  field would have displayed a zero (0) and the <strong>Received 
+ to Date</strong> field would have displayed 15.</dd>
+</dl>
+
+<p>The <strong>Received to Date</strong> field of  the latest purchase invoice created displays the sum of the Received quantities  entered when creating the purchase receipt and both purchase invoices  from the original purchase order:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Quantity received on 1st PI created:</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Quantity received on PR created:</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Quantity received on 2nd PI created:</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Total Received to Date</td>
+      <td>35</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The purchase documents display the quantities shown in the following  table.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Document Created from PO</td>
+      <td>Quantity Received</td>
+      <td>Received to Date</td>
+    </tr>
+    <tr>
+      <td>1st PI Created</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PR Created</td>
+      <td>15</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <td>2nd PI Created</td>
+      <td>20</td>
+      <td>35</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Since the <strong>Received to Date</strong> field  is based on the quantity received at the time of creating the invoice,  the <strong>Received to Date</strong> field of  the previous purchase invoice document created (1st PI created) does not  update based on additional quantities received. Likewise, the <strong>Received 
+ to Date</strong> field for the second PI created will not update when receiving  additional quantities.</p>
+
+<dl class="see_also">
+  <dt>See also</dt>
+  <dd><a href="/versata-everest-docs/the-purchase-process/misc/received_on_invoice_column_pi_pur.html">Received  to Date Column</a></dd>
+</dl>
+
+
+
+
+</div>
